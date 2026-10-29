@@ -5,14 +5,11 @@
 }
 
 :root {
-  --bg-desk: #ebedf2;
+  --bg-desk: #f2f3f5;
   --paper: #ffffff;
-  --ink: #111111;
-  --ink-secondary: #444444;
-  --divider: #cfcfcf;
+  --ink: #000000;
   --font-serif: "SimSun", "Songti SC", "STSong", "NSimSun", "Source Han Serif CN", "ExamSong", serif;
-  --font-sans: "SimHei", "Heiti SC", "STHeiti", "Source Han Sans CN", sans-serif;
-  --font-notice: "FangSong", "STFangsong", "SimSun", serif;
+  --font-hei: "SimHei", "Heiti SC", "STHeiti", "Source Han Sans CN", sans-serif;
 }
 
 * {
@@ -28,13 +25,13 @@ body {
   margin: 0;
   color: var(--ink);
   background: var(--bg-desk);
-  font: 14.5px/1.58 var(--font-serif);
+  font: 15px/1.7 var(--font-serif);
   -webkit-font-smoothing: antialiased;
 }
 
-/* 顶部操作工具栏 */
+/* 顶部轻量工具栏 */
 .screen-only {
-  font-family: var(--font-sans);
+  font-family: var(--font-hei);
 }
 
 .toolbar {
@@ -44,10 +41,10 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: #1f2328;
+  background: #24292f;
   color: #f0f6fc;
-  padding: 8px 24px;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.25);
+  padding: 9px 28px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.15);
   font-size: 13.5px;
 }
 
@@ -60,7 +57,6 @@ body {
 .toolbar-brand a {
   color: #58a6ff;
   text-decoration: none;
-  font-weight: 500;
 }
 
 .toolbar-brand a:hover {
@@ -68,258 +64,69 @@ body {
 }
 
 .toolbar-divider {
-  color: #6e7681;
+  color: #57606a;
 }
 
 .toolbar-title {
-  color: #c9d1d9;
-}
-
-.toolbar-actions {
-  display: flex;
-  gap: 10px;
-  align-items: center;
+  color: #d0d7de;
+  font-family: var(--font-serif);
 }
 
 .toolbar-btn {
-  background: #2b3038;
-  color: #f0f6fc;
-  border: 1px solid #484f58;
+  background: #238636;
+  color: #ffffff;
+  border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 4px;
-  padding: 4px 12px;
-  font-size: 12.5px;
+  padding: 4px 14px;
+  font-size: 13px;
+  font-weight: 500;
   cursor: pointer;
-  transition: all 0.15s ease;
+  transition: background 0.15s ease;
 }
 
 .toolbar-btn:hover {
-  background: #383f4a;
-  border-color: #8b949e;
-}
-
-.toolbar-btn.primary {
-  background: #238636;
-  border-color: #2ea043;
-  color: #ffffff;
-  font-weight: 600;
-}
-
-.toolbar-btn.primary:hover {
   background: #2ea043;
 }
 
-/* 试卷纸张主体 */
+/* 试卷实体纸张容器（仿 2022 真题单栏标准版心） */
 .exam-paper {
-  position: relative;
-  max-width: 1080px;
-  margin: 28px auto 60px auto;
+  max-width: 800px;
+  margin: 36px auto 70px auto;
+  padding: 55px 70px 65px 70px;
   background: var(--paper);
-  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.12);
-  border: 1px solid #d0d7de;
-  border-radius: 2px;
-  display: flex;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  border: 1px solid #d8dee4;
+  position: relative;
 }
 
-/* 考场左侧密封线区域 */
-.exam-seal {
-  width: 52px;
-  flex-shrink: 0;
-  border-right: 1.5px dashed #767676;
-  margin: 35px 0 35px 16px;
-  padding: 20px 4px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-  font-size: 12px;
-  color: #444;
-  writing-mode: vertical-rl;
-  letter-spacing: 0.25em;
-  user-select: none;
-  font-family: var(--font-serif);
-}
-
-.seal-fields {
-  display: flex;
-  flex-direction: column;
-  gap: 25px;
-}
-
-.seal-fields span {
-  display: inline-flex;
-  align-items: center;
-}
-
-.seal-blank {
-  display: inline-block;
-  width: 85px;
-  border-left: 1px solid #333;
-  height: 1.2em;
-}
-
-.seal-notice {
-  font-size: 11px;
-  color: #555;
-  letter-spacing: 0.2em;
-}
-
-body.hide-seal .exam-seal {
-  display: none !important;
-}
-
-/* 试卷主内容区域 */
-.exam-main-wrap {
-  flex: 1;
-  min-width: 0;
-  padding: 36px 42px 45px 36px;
-}
-
-/* 卷头信息 */
+/* 试卷大标题（与 2022 原题完全一致） */
 .exam-header {
-  margin-bottom: 1.2em;
-}
-
-.exam-header-top {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 14px;
-  font-size: 13.5px;
-  font-weight: bold;
-}
-
-.exam-secret {
-  font-family: var(--font-sans);
-  border: 1.5px solid var(--ink);
-  padding: 1px 8px;
-  letter-spacing: 0.15em;
-}
-
-.exam-code {
-  font-family: var(--font-sans);
-  letter-spacing: 0.05em;
-}
-
-.exam-main-title {
-  font-family: var(--font-serif);
-  font-size: 22px;
-  font-weight: bold;
   text-align: center;
-  margin: 0 0 6px 0;
-  letter-spacing: 0.12em;
+  margin-bottom: 28px;
 }
 
-.exam-sub-title {
-  font-family: var(--font-sans);
-  font-size: 26px;
+.exam-title {
+  font-family: var(--font-hei);
+  font-size: 23px;
   font-weight: bold;
-  text-align: center;
-  margin: 0 0 4px 0;
-  letter-spacing: 0.4em;
-}
-
-.exam-sub-code {
-  text-align: center;
-  font-size: 14px;
-  font-family: var(--font-serif);
-  margin-bottom: 12px;
-}
-
-.exam-notice {
-  border: 1.2px solid var(--ink);
-  padding: 8px 18px;
-  margin: 12px auto;
-  max-width: 600px;
-  font-family: var(--font-notice);
-  font-size: 13px;
-  line-height: 1.6;
-}
-
-.exam-notice-title {
-  text-align: center;
-  font-family: var(--font-sans);
-  font-weight: bold;
-  margin-bottom: 4px;
-  letter-spacing: 0.25em;
-}
-
-.exam-notice ol {
+  letter-spacing: 0.04em;
   margin: 0;
-  padding-left: 22px;
+  line-height: 1.4;
+  color: #000;
 }
 
-.exam-divider-double {
-  border-top: 2.5px solid var(--ink);
-  border-bottom: 1px solid var(--ink);
-  height: 3px;
-  margin: 16px 0 20px 0;
-}
-
-/* 试卷双栏排版 */
-.exam-columns {
-  column-count: 2;
-  column-gap: 36px;
-  column-rule: 1px solid var(--divider);
-}
-
-body.single-column .exam-columns {
-  column-count: 1;
-  column-rule: none;
-}
-
-/* 大题标题与打分框 */
-.exam-section {
-  break-inside: auto;
-}
-
-.exam-section + .exam-section {
-  margin-top: 1.4em;
-}
-
-.section-head {
-  display: flex;
-  align-items: flex-start;
-  gap: 10px;
-  margin: 0 0 0.8em 0;
-  break-inside: avoid;
-  break-after: avoid;
-}
-
-.section-score-box {
-  border-collapse: collapse;
-  border: 1.5px solid var(--ink);
-  width: 70px;
-  flex-shrink: 0;
-  text-align: center;
-  font-size: 11px;
-  margin-top: 2px;
-}
-
-.section-score-box th,
-.section-score-box td {
-  border: 1px solid var(--ink);
-  padding: 1px 2px;
-}
-
-.section-score-box th {
-  background: #f7f7f7;
-  font-family: var(--font-sans);
-  font-weight: normal;
-  height: 16px;
-}
-
-.section-score-box td {
-  height: 22px;
-}
-
+/* 大题题头（黑体加粗，单行括号说明） */
 .section-title {
-  font-family: var(--font-sans);
-  font-size: 14px;
+  font-family: var(--font-hei);
+  font-size: 15px;
   font-weight: bold;
-  line-height: 1.55;
-  margin: 0;
+  line-height: 1.65;
+  margin: 26px 0 16px 0;
   text-align: justify;
-  flex: 1;
+}
+
+.exam-section:first-child .section-title {
+  margin-top: 10px;
 }
 
 /* 题目列表 */
@@ -330,29 +137,22 @@ body.single-column .exam-columns {
 }
 
 .question {
-  margin: 0 0 1.15em 0;
+  margin-bottom: 18px;
   break-inside: avoid;
 }
 
-.question-body {
+/* 客观题（选择题、填空题）排版 */
+.question-objective .question-body {
   display: flex;
   align-items: baseline;
-  gap: 0.25em;
+  gap: 0.35em;
 }
 
-.question-number {
+.question-num {
   font-family: "Times New Roman", var(--font-serif);
-  font-weight: bold;
-  font-size: 14.5px;
+  font-size: 15px;
   flex-shrink: 0;
-  min-width: 1.6em;
-  text-align: right;
-  margin-right: 0.15em;
-}
-
-.question-score {
-  font-weight: bold;
-  margin-right: 0.25em;
+  user-select: none;
 }
 
 .question-content {
@@ -363,7 +163,7 @@ body.single-column .exam-columns {
 .question-content p {
   margin: 0 0 0.35em 0;
   text-align: justify;
-  line-height: 1.55;
+  line-height: 1.68;
   overflow-wrap: break-word;
 }
 
@@ -371,41 +171,72 @@ body.single-column .exam-columns {
   margin-bottom: 0;
 }
 
-/* 选择题选项 */
+/* 客观题中如果有后续段落（如①②③④分条），自然首行缩进 2 字符 */
+.question-content p + p {
+  text-indent: 2em;
+}
+
+/* 解答题排版（题号与满分独立一行，题干正文缩进 2 字符） */
+.question-subjective {
+  margin-bottom: 34px;
+}
+
+.question-score-title {
+  font-family: "Times New Roman", var(--font-serif);
+  font-size: 15px;
+  margin-bottom: 0.35em;
+  line-height: 1.5;
+}
+
+.question-subjective-content p {
+  text-indent: 2em;
+  margin: 0 0 0.45em 0;
+  text-align: justify;
+  line-height: 1.68;
+}
+
+.question-subjective-content p:last-child {
+  margin-bottom: 0;
+}
+
+/* 选项区域（首行缩进 2 字符，紧凑自然） */
 .options {
-  padding: 0;
   list-style: none;
-  margin: 0.35em 0 0.1em 0;
-  gap: 0.3em 0.8em;
+  padding: 0;
+  margin: 0.45em 0 0.1em 2em;
 }
 
 .options-4col {
-  display: grid;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
+  display: flex;
+  justify-content: flex-start;
+  gap: 2.8em;
+  flex-wrap: wrap;
 }
 
 .options-2col {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.35em 2em;
 }
 
 .options-1col {
   display: flex;
   flex-direction: column;
+  gap: 0.3em;
 }
 
 .option {
   display: flex;
   align-items: baseline;
-  gap: 0.2em;
+  gap: 0.25em;
   min-width: 0;
   break-inside: avoid;
 }
 
 .option-label {
+  font-family: "Times New Roman", var(--font-serif);
   white-space: nowrap;
   flex-shrink: 0;
-  font-family: "Times New Roman", var(--font-serif);
 }
 
 .option-content {
@@ -414,13 +245,14 @@ body.single-column .exam-columns {
 
 .option-content p {
   margin: 0;
+  text-indent: 0 !important;
 }
 
-/* 填空题下划线 */
+/* 填空题横线 */
 .answer-blank {
   display: inline-block;
-  min-width: 4.8em;
-  border-bottom: 1.2px solid var(--ink);
+  min-width: 5em;
+  border-bottom: 1.2px solid #000;
   height: 1em;
   vertical-align: -0.1em;
   margin: 0 3px;
@@ -428,7 +260,7 @@ body.single-column .exam-columns {
 
 /* 题目附图 */
 .question-figure {
-  margin: 0.6em auto;
+  margin: 0.8em auto;
   text-align: center;
   break-inside: avoid;
 }
@@ -436,31 +268,31 @@ body.single-column .exam-columns {
 .question-figure img {
   display: block;
   max-width: 100%;
-  max-height: 45mm;
+  max-height: 48mm;
   width: auto;
   height: auto;
   margin: auto;
 }
 
-/* 卷末结束标识 */
-.exam-end-mark {
+/* 极简页脚页码（原题风味：— 1 —） */
+.exam-paper-footer {
   text-align: center;
-  font-size: 12px;
-  color: #555;
-  margin: 2.2em 0 1em 0;
-  letter-spacing: 0.2em;
-  font-family: var(--font-serif);
-  column-span: all;
-  break-inside: avoid;
+  font-family: "Times New Roman", var(--font-serif);
+  font-size: 14px;
+  color: #333;
+  margin-top: 48px;
+  padding-top: 20px;
+  letter-spacing: 0.25em;
+  user-select: none;
 }
 
-/* 公式渲染 */
+/* KaTeX 数学公式微调 */
 .katex {
   font-size: 1.05em;
 }
 
 .katex-display {
-  margin: 0.5em 0;
+  margin: 0.55em 0;
   padding: 0.1em 0;
   overflow-x: auto;
   overflow-y: hidden;
@@ -471,28 +303,19 @@ body.single-column .exam-columns {
   white-space: nowrap;
 }
 
-.formula-error {
-  outline: 1px dashed #d73a49;
-}
-
-/* 合订本多年份分隔 */
-.exam-paper + .exam-paper {
-  margin-top: 40px;
-}
-
-/* 目录页索引美化 */
+/* 目录页容器样式 */
 .index-container {
-  max-width: 900px;
+  max-width: 820px;
   margin: 40px auto;
   background: var(--paper);
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
-  border: 1px solid #d0d7de;
+  border: 1px solid #d8dee4;
   border-radius: 4px;
-  padding: 40px 48px;
+  padding: 44px 54px;
 }
 
 .index-title {
-  font-family: var(--font-sans);
+  font-family: var(--font-hei);
   font-size: 24px;
   text-align: center;
   margin: 0 0 10px 0;
@@ -500,8 +323,8 @@ body.single-column .exam-columns {
 
 .index-desc {
   text-align: center;
-  color: var(--ink-secondary);
-  font-size: 14px;
+  color: #57606a;
+  font-size: 14.5px;
   margin-bottom: 28px;
 }
 
@@ -536,7 +359,7 @@ body.single-column .exam-columns {
 
 .index-links {
   text-align: center;
-  margin-top: 24px;
+  margin-top: 26px;
 }
 
 .index-links a {
@@ -549,39 +372,47 @@ body.single-column .exam-columns {
   text-decoration: underline;
 }
 
-/* 响应式适配 */
-@media screen and (max-width: 860px) {
+/* 屏幕较小时自适应 */
+@media screen and (max-width: 768px) {
   .exam-paper {
     margin: 12px auto;
+    padding: 24px 18px;
     border: none;
     box-shadow: none;
   }
-  .exam-main-wrap {
-    padding: 20px 16px;
+  .exam-title {
+    font-size: 19px;
   }
-  .exam-seal {
-    display: none !important;
+  .options {
+    margin-left: 0;
   }
-  .exam-columns {
-    column-count: 1;
-    column-rule: none;
+  .options-4col {
+    gap: 1.5em;
+  }
+  .question-subjective-content p {
+    text-indent: 0;
   }
   .year-grid {
     grid-template-columns: repeat(2, 1fr);
   }
 }
 
-/* 打印样式 */
+/* 真实 A4 打印样式 */
 @page {
   size: A4 portrait;
-  margin: 12mm 15mm 15mm 18mm;
+  margin: 22mm 20mm 20mm 20mm;
+  @bottom-center {
+    content: "— " counter(page) " —";
+    font-family: "Times New Roman", "SimSun", serif;
+    font-size: 10.5pt;
+  }
 }
 
 @media print {
   html, body {
     background: transparent;
-    font-size: 10pt;
-    line-height: 1.5;
+    font-size: 10.5pt;
+    line-height: 1.6;
   }
 
   .screen-only {
@@ -594,49 +425,28 @@ body.single-column .exam-columns {
     padding: 0;
     border: none;
     box-shadow: none;
-    display: flex;
   }
 
-  .exam-seal {
-    width: 32px;
-    margin: 10mm 0 10mm 0;
-    padding: 5mm 0;
-    font-size: 8pt;
-    border-right: 0.8pt dashed #444;
+  .exam-title {
+    font-size: 17pt;
+    margin-bottom: 8mm;
   }
 
-  .seal-blank {
-    width: 50px;
-  }
-
-  .exam-main-wrap {
-    padding: 0 0 0 6mm;
-  }
-
-  .exam-header {
-    margin-bottom: 4mm;
-  }
-
-  .exam-main-title {
-    font-size: 15pt;
-  }
-
-  .exam-sub-title {
-    font-size: 18pt;
-  }
-
-  .exam-columns {
-    column-count: 2;
-    column-gap: 8mm;
-    column-rule: 0.5pt solid #bbb;
-  }
-
-  .exam-section + .exam-section {
-    margin-top: 4mm;
+  .section-title {
+    font-size: 11pt;
+    margin: 6mm 0 4mm 0;
   }
 
   .question {
-    margin-bottom: 3.5mm;
+    margin-bottom: 4mm;
+  }
+
+  .question-subjective {
+    margin-bottom: 7mm;
+  }
+
+  .exam-paper-footer {
+    display: none;
   }
 
   .katex-display {
@@ -644,7 +454,6 @@ body.single-column .exam-columns {
   }
 
   .exam-paper + .exam-paper {
-    margin-top: 0;
     break-before: page;
   }
 }

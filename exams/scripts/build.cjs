@@ -30,70 +30,56 @@ function render(text) {
   }).join('').replace(/@@FORMULA(\d+)@@/g, (_,i) => tokens[+i]);
 }
 
-function question(q, year) {
-  const options = q.options ? `<ul class="options options-${q.layout || '4col'}" aria-label="第${q.number}题选项">${q.options.map(o => `<li class="option"><span class="option-label">（${o.label}）</span><div class="option-content">${render(o.text)}</div></li>`).join('')}</ul>` : '';
-  const figure = q.figure ? `<figure class="question-figure"><img src="${q.figure}" alt="第${q.number}题附图"></figure>` : '';
-  const scoreSpan = q.type === '解答题' ? `<span class="question-score">（本题满分 ${q.points} 分）</span>` : '';
-  let stemHtml = render(q.stem);
-  if (scoreSpan) {
-    if (stemHtml.startsWith('<p>')) {
-      stemHtml = '<p>' + scoreSpan + stemHtml.slice(3);
-    } else {
-      stemHtml = scoreSpan + stemHtml;
-    }
+function getSectionHeading(s) {
+  const qCount = s.questions.length;
+  const totalScore = s.questions.reduce((sum, q) => sum + q.points, 0);
+  const pointsPerQ = qCount > 0 ? s.questions[0].points : 0;
+  
+  if (s.type === '选择题' || s.heading.includes('选择题')) {
+    return `一、选择题( 本题共 ${qCount} 小题,每小题 ${pointsPerQ} 分,共 ${totalScore} 分. 在每小题给出的四个选项中,只有一项符合题目要求,把所选项前的字母填在题后的括号内. )`;
+  } else if (s.type === '填空题' || s.heading.includes('填空题')) {
+    return `二、填空题( 本题共 ${qCount} 小题,每小题 ${pointsPerQ} 分,共 ${totalScore} 分,把答案填在题中横线上. )`;
+  } else if (s.type === '解答题' || s.heading.includes('解答题')) {
+    return `三、解答题( 本题共 ${qCount} 小题,共 ${totalScore} 分,解答应写出文字说明、证明过程或演算步骤. )`;
   }
-  return `<li class="question" value="${q.number}" id="q${year}-${q.number}" data-number="${q.number}"><div class="question-body"><span class="question-number" aria-hidden="true">${q.number}.</span><div class="question-content">${stemHtml}${figure}${options}</div></div></li>`;
+  return s.heading;
+}
+
+function question(q, year) {
+  const options = q.options ? `<ul class="options options-${q.layout || '4col'}" aria-label="第${q.number}题选项">${q.options.map(o => `<li class="option"><span class="option-label">(${o.label})</span><div class="option-content">${render(o.text)}</div></li>`).join('')}</ul>` : '';
+  const figure = q.figure ? `<figure class="question-figure"><img src="${q.figure}" alt="第${q.number}题附图"></figure>` : '';
+  
+  if (q.type === '解答题') {
+    return `<li class="question question-subjective" id="q${year}-${q.number}" data-number="${q.number}">
+      <div class="question-score-title">(${q.number})( 本题满分 ${q.points} 分)</div>
+      <div class="question-subjective-content">${render(q.stem)}${figure}${options}</div>
+    </li>`;
+  }
+  
+  return `<li class="question question-objective" id="q${year}-${q.number}" data-number="${q.number}">
+    <div class="question-body">
+      <span class="question-num">(${q.number})</span>
+      <div class="question-content">${render(q.stem)}${figure}${options}</div>
+    </div>
+  </li>`;
 }
 
 function paper(exam) {
   return `<article class="exam-paper" data-year="${exam.year}" aria-labelledby="title-${exam.year}">
-  <aside class="exam-seal" aria-hidden="true">
-    <div class="seal-fields">
-      <span>考生编号：<span class="seal-blank"></span></span>
-      <span>姓名：<span class="seal-blank"></span></span>
-      <span>报考单位：<span class="seal-blank"></span></span>
-    </div>
-    <div class="seal-notice">································································ 密 ···························· 封 ···························· 线 ···························· 内 ···························· 不 ···························· 要 ···························· 答 ···························· 题 ························································</div>
-  </aside>
-  <div class="exam-main-wrap">
-    <header class="exam-header">
-      <div class="exam-header-top">
-        <span class="exam-secret">★ 绝密 · 启用前</span>
-        <span class="exam-code">科目代码：302</span>
-      </div>
-      <h1 class="exam-main-title" id="title-${exam.year}">${exam.year} 年全国硕士研究生招生考试</h1>
-      <h2 class="exam-sub-title">数&nbsp;&nbsp;学（二）</h2>
-      <div class="exam-sub-code">（科目代码：302）</div>
-      <div class="exam-notice">
-        <div class="exam-notice-title">考&nbsp;生&nbsp;注&nbsp;意&nbsp;事&nbsp;项</div>
-        <ol>
-          <li>考生必须在答题纸上作答，在试题纸上作答无效。</li>
-          <li>答题前，考生务必将自己的准考证号、姓名填写在答题纸指定位置。</li>
-          <li>考试时间为 180 分钟，满分为 150 分。</li>
-        </ol>
-      </div>
-      <div class="exam-divider-double"></div>
-    </header>
-    <div class="exam-columns">
-      ${exam.sections.map((s,i) => `
-        <section class="exam-section" aria-labelledby="section-${exam.year}-${i}">
-          <div class="section-head">
-            <table class="section-score-box" aria-hidden="true">
-              <tr><th>得&nbsp;分</th><th>评卷人</th></tr>
-              <tr><td>&nbsp;</td><td>&nbsp;</td></tr>
-            </table>
-            <h3 class="section-title" id="section-${exam.year}-${i}">${s.heading}</h3>
-          </div>
-          <ol class="question-list" start="${s.questions[0].number}">
-            ${s.questions.map(q=>question(q,exam.year)).join('')}
-          </ol>
-        </section>
-      `).join('')}
-      <div class="exam-end-mark">
-        <span>———————— 【 数学（二）试题 · 考试结束 】 ————————</span>
-      </div>
-    </div>
-  </div>
+  <header class="exam-header">
+    <h1 class="exam-title" id="title-${exam.year}">${exam.year} 年全国硕士研究生招生考试数学(二)试题</h1>
+  </header>
+  ${exam.sections.map((s,i) => `
+    <section class="exam-section" aria-labelledby="section-${exam.year}-${i}">
+      <h3 class="section-title" id="section-${exam.year}-${i}">${getSectionHeading(s)}</h3>
+      <ol class="question-list" start="${s.questions[0].number}">
+        ${s.questions.map(q=>question(q,exam.year)).join('')}
+      </ol>
+    </section>
+  `).join('')}
+  <footer class="exam-paper-footer" aria-hidden="true">
+    <span>— 数学（二）试题 —</span>
+  </footer>
 </article>`;
 }
 
@@ -121,27 +107,23 @@ for (const year of years) {
     <div class="toolbar-brand">
       <a href="../index.html">← 返回年份目录</a>
       <span class="toolbar-divider">|</span>
-      <span class="toolbar-title">${year} 年考研数学（二）真题原卷</span>
+      <span class="toolbar-title">${year} 年全国硕士研究生招生考试数学(二)试题</span>
     </div>
     <div class="toolbar-actions">
-      <button class="toolbar-btn" id="btn-toggle-column" onclick="toggleColumns()">模式：双栏(原卷)</button>
-      <button class="toolbar-btn" id="btn-toggle-seal" onclick="toggleSeal()">密封线：开</button>
       <button class="toolbar-btn primary" onclick="window.print()">🖨️ 打印试卷</button>
     </div>
   </nav>`;
 
-  fs.writeFileSync(path.join(root,`years/${year}.html`),document(`${year}年数学（二）试题｜考场仿真原卷`,`${toolbar}<main>${html}</main>`,'../'));
+  fs.writeFileSync(path.join(root,`years/${year}.html`),document(`${year}年数学（二）真题｜考场原卷规范版`,`${toolbar}<main>${html}</main>`,'../'));
 }
 
 const allToolbar = `<nav class="screen-only toolbar">
   <div class="toolbar-brand">
     <a href="index.html">← 年份目录</a>
     <span class="toolbar-divider">|</span>
-    <span class="toolbar-title">2010—2026年真题合订本</span>
+    <span class="toolbar-title">2010—2026 年考研数学（二）真题合订本</span>
   </div>
   <div class="toolbar-actions">
-    <button class="toolbar-btn" id="btn-toggle-column" onclick="toggleColumns()">模式：双栏(原卷)</button>
-    <button class="toolbar-btn" id="btn-toggle-seal" onclick="toggleSeal()">密封线：开</button>
     <button class="toolbar-btn primary" onclick="window.print()">🖨️ 打印全部年份</button>
   </div>
 </nav>`;
@@ -150,19 +132,19 @@ fs.writeFileSync(path.join(root,'all.html'),document('2010—2026年数学（二
 
 const indexContent = `<main class="index-container">
   <h1 class="index-title">全国硕士研究生招生考试 · 数学（二）历年真题</h1>
-  <p class="index-desc">收录 2010—2026 年共 17 套真题（385 题），全真考场原卷排版（双栏、密封线、考场评卷框、KaTeX 数学公式离线渲染）。</p>
+  <p class="index-desc">收录 2010—2026 年共 17 套真题（385 题）。复刻官方真题原卷排版（标准版心、简洁表头、标准括号题号与选项缩进、极简页码）。</p>
   <nav aria-label="按年份选择试卷">
     <ul class="year-grid">
-      ${years.map(y=>`<li><a href="years/${y}.html">${y} 年试题</a></li>`).join('')}
+      ${years.map(y=>`<li><a href="years/${y}.html">${y} 年真题</a></li>`).join('')}
     </ul>
   </nav>
   <div class="index-links">
-    <p><a href="all.html">📖 打开 17 年合订本（全套浏览与批量打印）</a></p>
+    <p><a href="all.html">📖 打开 17 年真题合订本（浏览与批量打印）</a></p>
   </div>
   <p style="font-size:13px;color:#666;text-align:center;margin-top:30px;line-height:1.6;">
-    提示：支持离线浏览，打印推荐 A4 纸张、100% 缩放并关闭浏览器页眉页脚。可在顶部工具栏自由切换“双栏原卷/单栏浏览”模式及密封线显示。
+    打印提示：建议使用 A4 纸张、100% 缩放，并在浏览器打印面板关闭“页眉和页脚”，即可输出如 2022 真题原样清晰规范的试卷。
   </p>
 </main>`;
 
-fs.writeFileSync(path.join(root,'index.html'),document('数学（二）历年真题仿真系统', indexContent));
+fs.writeFileSync(path.join(root,'index.html'),document('数学（二）历年真题', indexContent));
 console.log(`构建完成：17套 / 385题 / ${formulas}个公式；题号、选项、总分及公式编译通过。`);
