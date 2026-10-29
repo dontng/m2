@@ -5,15 +5,63 @@ const katex = require(path.join(root, 'assets/vendor/katex/katex.min.js'));
 const esc = s => s.replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;').replaceAll('"','&quot;');
 let formulas = 0;
 
-// 格式化文本中的公式与排版，严禁孤立分块打断句意
-function formatParagraphText(text) {
-  // 将所有的 $$...$$ 块公式转换为带着 \\displaystyle 的行内公式，与上下文自然连贯，绝不产生“计算/且满足”孤立换行
-  let s = text.replace(/\$\$\s*([\s\S]*?)\s*\$\$/g, (_, math) => {
-    return `$${math.trim().startsWith('\\displaystyle') ? math.trim() : '\\displaystyle ' + math.trim()}$`;
+// 填空题与公式连贯清洗，严禁中途断句与异常折行
+function cleanStem(stem, isFillIn) {
+  let s = stem.trim();
+  
+  // 1. 填空题下划线保证机制（使用占位标记 @@ANSWER_BLANK@@ 防止被 esc 转义）
+  if (isFillIn) {
+    if (!/_{2,}|answer-blank|underline|@@ANSWER_BLANK@@/.test(s)) {
+      s = s.replace(/\n*\$\$\s*$/, '');
+      if (s.endsWith('=$')) {
+        s = s.slice(0, -1) + '$ @@ANSWER_BLANK@@.';
+      } else if (s.endsWith('为。') || s.endsWith('是。') || s.endsWith('。') || s.endsWith('.')) {
+        s = s.slice(0, -1) + ' @@ANSWER_BLANK@@.';
+      } else {
+        s += ' @@ANSWER_BLANK@@.';
+      }
+    }
+  }
+
+  // 2. 将 $$...$$ 转换为行内 \\displaystyle 公式，彻底消除“计算/且满足”等破碎换行
+  s = s.replace(/\n*\$\$\s*([\s\S]*?)\s*\$\$\n*/g, (_, math) => {
+    const trimmed = math.trim();
+    const withDisplay = trimmed.startsWith('\\displaystyle') ? trimmed : `\\displaystyle ${trimmed}`;
+    return ` $${withDisplay}$ `;
   });
 
+  // 3. 段落切分与句子断裂修复
+  const rawParas = s.split(/\n\s*\n/).map(p => p.trim()).filter(Boolean);
+  const merged = [];
+
+  for (const p of rawParas) {
+    // 识别子问序号：(I), （I）, 1., ①, （1）
+    const isSubQuestion = /^(\([I|V|X|0-9a-z]+\)|（[I|V|X|0-9a-z]+）|\d+\.|[①-⑩]|\*\*（[I|V|X|0-9a-z]+）\*\*)/.test(p);
+    
+    if (merged.length === 0 || isSubQuestion) {
+      merged.push(p);
+    } else {
+      const prev = merged[merged.length - 1];
+      const prevClean = prev.replace(/\$+\s*$/, '').trim();
+      const prevEndsSentence = /[。？！:：]$/.test(prevClean);
+      
+      // 如果上一段没有结束标点，或者以逗号/连接词结尾，说明是同一句话被 Markdown 硬回车截断了
+      if (!prevEndsSentence || /[，、=且为是]$/.test(prevClean)) {
+        merged[merged.length - 1] = `${merged[merged.length - 1]} ${p}`;
+      } else if (/^(确定|求|其中|则|不能|线性表示|即|若)/.test(p) || p.length < 16) {
+        merged[merged.length - 1] = `${merged[merged.length - 1]} ${p}`;
+      } else {
+        merged.push(p);
+      }
+    }
+  }
+
+  return merged;
+}
+
+function formatParagraphText(text) {
   const tokens = [];
-  s = s.replace(/\$([^$\n]+)\$/g, (_, latex) => {
+  let s = text.replace(/\$([^$\n]+)\$/g, (_, latex) => {
     katex.renderToString(latex, { displayMode: false, throwOnError: true, strict: 'ignore', output: 'htmlAndMathml' });
     formulas++;
     tokens.push(`<span class="math-source">${esc('$'+latex+'$')}</span>`);
@@ -22,7 +70,7 @@ function formatParagraphText(text) {
 
   s = esc(s)
     .replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>')
-    .replace(/_{3,}/g, '<span class="answer-blank"></span>');
+    .replace(/_{2,}|@@ANSWER_BLANK@@/g, '<span class="answer-blank"></span>');
 
   return s.replace(/@@FORMULA(\d+)@@/g, (_, i) => tokens[+i]);
 }
@@ -44,7 +92,6 @@ function getSectionHeading(s) {
   return s.heading;
 }
 
-// 智能估算选项初始布局（4列 / 2列 / 1列），确保单行内绝对不产生异常折行
 function getInitialOptionLayout(options, preferred) {
   if (preferred === '1col') return '1col';
   
@@ -65,20 +112,20 @@ function getInitialOptionLayout(options, preferred) {
   return '4col';
 }
 
-function question(q, year) {
+function question(q, year, isFillIn) {
   const layout = getInitialOptionLayout(q.options || [], q.layout);
   const options = q.options ? `<ul class="options options-${layout}" data-layout="${layout}" aria-label="第${q.number}题选项">${q.options.map(o => `<li class="option"><span class="option-label">(${o.label})</span><span class="option-text">${formatParagraphText(o.text)}</span></li>`).join('')}</ul>` : '';
   const figure = q.figure ? `<figure class="question-figure"><img src="${q.figure}" alt="第${q.number}题附图"></figure>` : '';
   
-  // 段落切分
-  const paragraphs = q.stem.trim().split(/\n\s*\n/).map(p => formatParagraphText(p.trim())).filter(Boolean);
+  const cleanedParas = cleanStem(q.stem, isFillIn);
+  const formattedParas = cleanedParas.map(p => formatParagraphText(p));
   
   // 解答题（大题）
   if (q.type === '解答题') {
     return `<li class="question question-subjective" id="q${year}-${q.number}" data-number="${q.number}">
       <div class="question-score-title">(${q.number})( 本题满分 ${q.points} 分)</div>
       <div class="question-subjective-content">
-        ${paragraphs.map(p => `<p>${p}</p>`).join('')}
+        ${formattedParas.map(p => `<p>${p}</p>`).join('')}
         ${figure}
         ${options}
       </div>
@@ -86,8 +133,8 @@ function question(q, year) {
   }
   
   // 客观题（选择题、填空题）
-  const firstPara = paragraphs.length > 0 ? paragraphs[0] : '';
-  const otherParas = paragraphs.slice(1).map(p => `<p class="question-stem sub-stem">${p}</p>`).join('');
+  const firstPara = formattedParas.length > 0 ? formattedParas[0] : '';
+  const otherParas = formattedParas.slice(1).map(p => `<p class="question-stem sub-stem">${p}</p>`).join('');
   
   return `<li class="question question-objective" id="q${year}-${q.number}" data-number="${q.number}">
     <p class="question-stem"><span class="question-num">(${q.number})</span> ${firstPara}</p>
@@ -104,14 +151,16 @@ function paper(exam) {
     <div class="exam-header-subject">数&emsp;学&emsp;（二）</div>
     <div class="exam-header-code">（科目代码：302）</div>
   </header>
-  ${exam.sections.map((s,i) => `
+  ${exam.sections.map((s,i) => {
+    const isFillIn = s.type === '填空题' || s.heading.includes('填空题');
+    return `
     <section class="exam-section" aria-labelledby="section-${exam.year}-${i}">
       <h3 class="section-title" id="section-${exam.year}-${i}">${getSectionHeading(s)}</h3>
       <ol class="question-list" start="${s.questions[0].number}">
-        ${s.questions.map(q=>question(q,exam.year)).join('')}
+        ${s.questions.map(q=>question(q,exam.year,isFillIn)).join('')}
       </ol>
     </section>
-  `).join('')}
+  `;}).join('')}
   <footer class="exam-paper-footer" aria-hidden="true">
     <span>${exam.year} 年数学(二)试题  第 1 页 (共 4 页)</span>
   </footer>
@@ -167,7 +216,7 @@ fs.writeFileSync(path.join(root,'all.html'),document('2010—2026年数学（二
 
 const indexContent = `<main class="index-container">
   <h1 class="index-title">全国硕士研究生招生考试 · 数学（二）历年真题</h1>
-  <p class="index-desc">收录 2010—2026 年共 17 套真题（385 题）。1:1 严格复刻教育部考试中心官方考场原卷排版（标准表头、规范大题标点、选项严密对齐防折行、大题连贯不碎行、原卷极简页脚）。</p>
+  <p class="index-desc">收录 2010—2026 年共 17 套真题（385 题）。1:1 严格复刻教育部考试中心官方考场原卷排版（标准表头、规范大题标点、选项严密对齐防折行、大题连贯不碎行、填空题全量下划线、原卷极简页脚）。</p>
   <nav aria-label="按年份选择试卷">
     <ul class="year-grid">
       ${years.map(y=>`<li><a href="years/${y}.html">${y} 年真题</a></li>`).join('')}
@@ -177,7 +226,7 @@ const indexContent = `<main class="index-container">
     <p><a href="all.html">📖 打开 17 年真题合订本（浏览与批量打印）</a></p>
   </div>
   <p style="font-size:13px;color:#666;text-align:center;margin-top:30px;line-height:1.6;">
-    打印提示：建议使用 A4 纸张、100% 缩放，并在浏览器打印面板关闭“页眉和页脚”，即可输出如 2020、2021 原卷高度一致的试题纸。
+    打印提示：建议使用 A4 纸张、100% 缩放，并在浏览器打印面板关闭“页眉和页脚”，即可输出如 2011、2020、2021 原卷高度一致的试题纸。
   </p>
 </main>`;
 
