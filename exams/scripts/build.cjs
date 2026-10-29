@@ -11,12 +11,22 @@ function cleanStem(stem, isFillIn) {
   
   // 1. 填空题下划线保证机制（使用占位标记 @@ANSWER_BLANK@@ 防止被 esc 转义）
   if (isFillIn) {
-    if (!/_{2,}|answer-blank|underline|@@ANSWER_BLANK@@/.test(s)) {
-      s = s.replace(/\n*\$\$\s*$/, '');
+    // 提取 LaTeX 公式内部的 \underline{...} 到公式外（支持嵌套括号如 \underline{\hspace{6em}}，以及结尾标点）
+    s = s.replace(/(\${1,2}[^$]*?)(?:\\\s*)?\\underline\s*\{(?:[^{}]*|\{[^{}]*\})*\}\s*([.,，。]?\s*\${1,2})/g, (_, before) => {
+      return before.trim() + '$ @@ANSWER_BLANK@@.';
+    }).replace(/\${1,2}\s*\${1,2}/g, '');
+    s = s.replace(/\\underline\s*\{(?:[^{}]*|\{[^{}]*\})*\}/g, ' @@ANSWER_BLANK@@ ');
+
+    if (!/_{2,}|answer-blank|@@ANSWER_BLANK@@/.test(s)) {
+      s = s.replace(/\n*\$\$\s*$/, '').trim();
       if (s.endsWith('=$')) {
         s = s.slice(0, -1) + '$ @@ANSWER_BLANK@@.';
+      } else if (s.endsWith('=')) {
+        s = s + ' @@ANSWER_BLANK@@.';
       } else if (s.endsWith('为。') || s.endsWith('是。') || s.endsWith('。') || s.endsWith('.')) {
         s = s.slice(0, -1) + ' @@ANSWER_BLANK@@.';
+      } else if (s.endsWith('为') || s.endsWith('是')) {
+        s = s + ' @@ANSWER_BLANK@@.';
       } else {
         s += ' @@ANSWER_BLANK@@.';
       }
@@ -144,26 +154,163 @@ function question(q, year, isFillIn) {
   </li>`;
 }
 
+function pageFooter(year, pageNum) {
+  return `<footer class="exam-page-footer" aria-label="第${pageNum}页，共4页">
+    <span>${year} 年数学(二)试题  第 ${pageNum} 页 (共 4 页)</span>
+  </footer>`;
+}
+
 function paper(exam) {
-  return `<article class="exam-paper" data-year="${exam.year}" aria-labelledby="title-${exam.year}">
-  <header class="exam-header">
-    <div class="exam-header-title" id="title-${exam.year}">${exam.year} 年全国硕士研究生招生考试</div>
-    <div class="exam-header-subject">数&emsp;学&emsp;（二）</div>
-    <div class="exam-header-code">（科目代码：302）</div>
-  </header>
-  ${exam.sections.map((s,i) => {
+  const isPre2021 = exam.year <= 2020;
+  const s1 = exam.sections[0];
+  const s2 = exam.sections[1];
+  const s3 = exam.sections[2];
+
+  const qMap = {};
+  for (const s of exam.sections) {
     const isFillIn = s.type === '填空题' || s.heading.includes('填空题');
-    return `
-    <section class="exam-section" aria-labelledby="section-${exam.year}-${i}">
-      <h3 class="section-title" id="section-${exam.year}-${i}">${getSectionHeading(s)}</h3>
-      <ol class="question-list" start="${s.questions[0].number}">
-        ${s.questions.map(q=>question(q,exam.year,isFillIn)).join('')}
-      </ol>
-    </section>
-  `;}).join('')}
-  <footer class="exam-paper-footer" aria-hidden="true">
-    <span>${exam.year} 年数学(二)试题  第 1 页 (共 4 页)</span>
-  </footer>
+    for (const q of s.questions) {
+      qMap[q.number] = question(q, exam.year, isFillIn);
+    }
+  }
+
+  let p1Content, p2Content, p3Content, p4Content;
+
+  if (isPre2021) {
+    // 2010~2020 年结构 (8 选 + 6 填 + 9 解 = 23 题)
+    // 第 1 页：卷头 + 选择题 1~5
+    p1Content = `
+      <header class="exam-header">
+        <div class="exam-header-title" id="title-${exam.year}">${exam.year} 年全国硕士研究生招生考试</div>
+        <div class="exam-header-subject">数&emsp;学&emsp;（二）</div>
+        <div class="exam-header-code">（科目代码：302）</div>
+      </header>
+      <section class="exam-section" aria-label="选择题">
+        <h3 class="section-title">${getSectionHeading(s1)}</h3>
+        <ol class="question-list" start="1">
+          ${[1,2,3,4,5].map(n => qMap[n]).join('')}
+        </ol>
+      </section>
+    `;
+
+    // 第 2 页：选择题 6~8 + 填空题 9~14 + 解答题 15
+    p2Content = `
+      <section class="exam-section" aria-label="选择题续">
+        <ol class="question-list" start="6">
+          ${[6,7,8].map(n => qMap[n]).join('')}
+        </ol>
+      </section>
+      <section class="exam-section" aria-label="填空题">
+        <h3 class="section-title">${getSectionHeading(s2)}</h3>
+        <ol class="question-list" start="9">
+          ${[9,10,11,12,13,14].map(n => qMap[n]).join('')}
+        </ol>
+      </section>
+      <section class="exam-section" aria-label="解答题">
+        <h3 class="section-title">${getSectionHeading(s3)}</h3>
+        <ol class="question-list" start="15">
+          ${[15].map(n => qMap[n]).join('')}
+        </ol>
+      </section>
+    `;
+
+    // 第 3 页：解答题 16~19
+    p3Content = `
+      <section class="exam-section" aria-label="解答题续一">
+        <ol class="question-list" start="16">
+          ${[16,17,18,19].map(n => qMap[n]).join('')}
+        </ol>
+      </section>
+    `;
+
+    // 第 4 页：解答题 20~23
+    p4Content = `
+      <section class="exam-section" aria-label="解答题续二">
+        <ol class="question-list" start="20">
+          ${[20,21,22,23].map(n => qMap[n]).join('')}
+        </ol>
+      </section>
+    `;
+  } else {
+    // 2021~2026 年新大纲结构 (10 选 + 6 填 + 6 解 = 22 题)
+    // 第 1 页：卷头 + 选择题 1~6
+    p1Content = `
+      <header class="exam-header">
+        <div class="exam-header-title" id="title-${exam.year}">${exam.year} 年全国硕士研究生招生考试</div>
+        <div class="exam-header-subject">数&emsp;学&emsp;（二）</div>
+        <div class="exam-header-code">（科目代码：302）</div>
+      </header>
+      <section class="exam-section" aria-label="选择题">
+        <h3 class="section-title">${getSectionHeading(s1)}</h3>
+        <ol class="question-list" start="1">
+          ${[1,2,3,4,5,6].map(n => qMap[n]).join('')}
+        </ol>
+      </section>
+    `;
+
+    // 第 2 页：选择题 7~10 + 填空题 11~16
+    p2Content = `
+      <section class="exam-section" aria-label="选择题续">
+        <ol class="question-list" start="7">
+          ${[7,8,9,10].map(n => qMap[n]).join('')}
+        </ol>
+      </section>
+      <section class="exam-section" aria-label="填空题">
+        <h3 class="section-title">${getSectionHeading(s2)}</h3>
+        <ol class="question-list" start="11">
+          ${[11,12,13,14,15,16].map(n => qMap[n]).join('')}
+        </ol>
+      </section>
+    `;
+
+    // 第 3 页：解答题 17~19
+    p3Content = `
+      <section class="exam-section" aria-label="解答题">
+        <h3 class="section-title">${getSectionHeading(s3)}</h3>
+        <ol class="question-list" start="17">
+          ${[17,18,19].map(n => qMap[n]).join('')}
+        </ol>
+      </section>
+    `;
+
+    // 第 4 页：解答题 20~22
+    p4Content = `
+      <section class="exam-section" aria-label="解答题续">
+        <ol class="question-list" start="20">
+          ${[20,21,22].map(n => qMap[n]).join('')}
+        </ol>
+      </section>
+    `;
+  }
+
+  return `<article class="exam-paper" data-year="${exam.year}" aria-labelledby="title-${exam.year}">
+  <section class="exam-page page-1">
+    <div class="exam-page-content">
+      ${p1Content}
+    </div>
+    ${pageFooter(exam.year, 1)}
+  </section>
+
+  <section class="exam-page page-2">
+    <div class="exam-page-content">
+      ${p2Content}
+    </div>
+    ${pageFooter(exam.year, 2)}
+  </section>
+
+  <section class="exam-page page-3">
+    <div class="exam-page-content">
+      ${p3Content}
+    </div>
+    ${pageFooter(exam.year, 3)}
+  </section>
+
+  <section class="exam-page page-4">
+    <div class="exam-page-content">
+      ${p4Content}
+    </div>
+    ${pageFooter(exam.year, 4)}
+  </section>
 </article>`;
 }
 

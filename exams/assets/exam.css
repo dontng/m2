@@ -88,15 +88,40 @@ body {
   background: #2ea043;
 }
 
-/* 考场原卷标准版心容器（1:1 复刻 2020/2021 原卷单栏纸张） */
+/* 考场原卷标准版心容器（1:1 复刻 2020/2021 原卷单栏纸张，每卷严格 4 页） */
 .exam-paper {
-  max-width: 820px;
-  margin: 36px auto 70px auto;
-  padding: 50px 70px 65px 70px;
+  max-width: 860px;
+  margin: 20px auto 40px auto;
+  padding: 0;
+}
+
+.exam-page {
+  position: relative;
   background: var(--paper);
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
   border: 1px solid #d0d7de;
-  position: relative;
+  margin-bottom: 32px;
+  padding: 46px 64px 30px 64px;
+  min-height: 1120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+
+.exam-page-content {
+  flex: 1 0 auto;
+}
+
+.exam-page-footer {
+  flex-shrink: 0;
+  text-align: center;
+  font-family: var(--font-serif);
+  font-size: 13px;
+  color: #111;
+  padding-top: 20px;
+  letter-spacing: 0.08em;
+  user-select: none;
 }
 
 /* 卷头三行标准排版（完全与 2020、2021 原题一致） */
@@ -386,22 +411,17 @@ body {
   }
 }
 
-/* 打印输出为纯正的 A4 考卷样式 */
+/* 打印输出为纯正的 A4 考卷样式（严格 4 页输出） */
 @page {
   size: A4 portrait;
-  margin: 20mm 20mm 20mm 20mm;
-  @bottom-center {
-    content: "数学(二)试题  第 " counter(page) " 页 (共 " counter(pages) " 页)";
-    font-family: "SimSun", serif;
-    font-size: 10pt;
-  }
+  margin: 11mm 17mm 11mm 17mm;
 }
 
 @media print {
   html, body {
     background: transparent;
-    font-size: 10.5pt;
-    line-height: 1.6;
+    font-size: 9.35pt;
+    line-height: 1.45;
   }
 
   .screen-only {
@@ -414,34 +434,93 @@ body {
     padding: 0;
     border: none;
     box-shadow: none;
+    background: transparent;
+  }
+
+  .exam-page {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-shadow: none;
+    background: transparent;
+    page-break-inside: avoid;
+    break-inside: avoid;
+    page-break-after: always;
+    break-after: page;
+    height: 275mm;
+    max-height: 275mm;
+    min-height: 275mm;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .exam-paper:last-child .exam-page:last-child {
+    page-break-after: auto;
+    break-after: auto;
   }
 
   .exam-header {
-    margin-bottom: 8mm;
+    margin-top: 0;
+    margin-bottom: 4mm;
+  }
+
+  .exam-header-title {
+    font-size: 15pt;
+    margin-bottom: 1.5mm;
+  }
+
+  .exam-header-subject {
+    font-size: 13.5pt;
+    margin-bottom: 1.5mm;
+    letter-spacing: 0.35em;
+  }
+
+  .exam-header-code {
+    font-size: 9.5pt;
+    margin-bottom: 2mm;
   }
 
   .section-title {
-    font-size: 11pt;
-    margin: 6mm 0 3mm 0;
+    font-size: 10.2pt;
+    margin: 3mm 0 2mm 0;
   }
 
   .question {
-    margin-bottom: 3.5mm;
+    margin-bottom: 2.2mm;
   }
 
   .question-subjective {
-    margin-bottom: 7mm;
+    margin-bottom: 3.5mm;
   }
 
-  .exam-paper-footer {
-    display: none;
+  .question-score-title {
+    font-size: 10.2pt;
+    margin-bottom: 1mm;
+  }
+
+  .options {
+    margin: 1.5mm 0 2mm 2em;
+    gap: 1.5mm 6mm;
+  }
+
+  .options-1col {
+    gap: 1.5mm;
+  }
+
+  .exam-page-footer {
+    display: block !important;
+    text-align: center;
+    font-family: var(--font-serif);
+    font-size: 9.5pt;
+    color: #111;
+    margin-top: auto;
+    padding: 0;
+    user-select: none;
   }
 
   .katex-display {
     overflow: visible;
-  }
-
-  .exam-paper + .exam-paper {
-    break-before: page;
   }
 }
