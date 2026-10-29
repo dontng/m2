@@ -1,5 +1,6 @@
-/* KaTeX 数学公式渲染与选项自适应布局 */
+/* KaTeX 数学公式渲染与选择题选项宽度自适应降列 */
 (() => {
+  // 1. 渲染 LaTeX 公式
   renderMathInElement(document.querySelector('main'), {
     delimiters: [
       { left: '$$', right: '$$', display: true },
@@ -10,19 +11,28 @@
     trust: false
   });
 
-  const classes = ['options-4col', 'options-2col', 'options-1col'];
-  const groups = [...document.querySelectorAll('.options')];
-  groups.forEach(group => {
-    group.dataset.preferredLayout = classes.find(c => group.classList.contains(c)) || 'options-4col';
-  });
-
+  // 2. 选择题选项宽度智能防溢出：确保每项单行展示，绝不出现内部异常折行
   function fitOptions() {
+    const groups = document.querySelectorAll('.options');
     for (const group of groups) {
-      for (let i = classes.indexOf(group.dataset.preferredLayout); i < classes.length; i++) {
-        group.classList.remove(...classes);
-        group.classList.add(classes[i]);
-        const overflow = [...group.querySelectorAll('.option-content')].some(c => c.scrollWidth > c.clientWidth + 1);
-        if (!overflow) break;
+      // 检查当前优先布局
+      const preferred = group.dataset.layout || '4col';
+      if (preferred === '1col') {
+        group.className = 'options options-1col';
+        continue;
+      }
+
+      // 首先尝试优先列数（4col 或 2col）
+      group.className = `options options-${preferred}`;
+      let overflow = [...group.querySelectorAll('.option')].some(o => o.scrollWidth > o.clientWidth + 2);
+      
+      if (overflow && preferred === '4col') {
+        group.className = 'options options-2col';
+        overflow = [...group.querySelectorAll('.option')].some(o => o.scrollWidth > o.clientWidth + 2);
+      }
+
+      if (overflow) {
+        group.className = 'options options-1col';
       }
     }
   }

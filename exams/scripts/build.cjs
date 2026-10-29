@@ -5,69 +5,104 @@ const katex = require(path.join(root, 'assets/vendor/katex/katex.min.js'));
 const esc = s => s.replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;').replaceAll('"','&quot;');
 let formulas = 0;
 
-function render(text) {
+// 格式化文本中的公式与排版，严禁孤立分块打断句意
+function formatParagraphText(text) {
+  // 将所有的 $$...$$ 块公式转换为带着 \\displaystyle 的行内公式，与上下文自然连贯，绝不产生“计算/且满足”孤立换行
+  let s = text.replace(/\$\$\s*([\s\S]*?)\s*\$\$/g, (_, math) => {
+    return `$${math.trim().startsWith('\\displaystyle') ? math.trim() : '\\displaystyle ' + math.trim()}$`;
+  });
+
   const tokens = [];
-  let s = text.replace(/\$\$([\s\S]*?)\$\$|\$([^$\n]+)\$/g, (_, block, inline) => {
-    const latex = block ?? inline;
-    katex.renderToString(latex, { displayMode: block !== undefined, throwOnError: true, strict: 'ignore', output: 'htmlAndMathml' });
+  s = s.replace(/\$([^$\n]+)\$/g, (_, latex) => {
+    katex.renderToString(latex, { displayMode: false, throwOnError: true, strict: 'ignore', output: 'htmlAndMathml' });
     formulas++;
-    tokens.push(block !== undefined ? `<div class="math-source display-source">${esc('$$'+latex+'$$')}</div>` : `<span class="math-source">${esc('$'+latex+'$')}</span>`);
+    tokens.push(`<span class="math-source">${esc('$'+latex+'$')}</span>`);
     return `@@FORMULA${tokens.length-1}@@`;
   });
-  s = esc(s).replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>').replace(/_{3,}/g, '<span class="answer-blank"></span>');
-  // 块公式不能放进 p：将段落拆为合法的段落与 display-math 容器。
-  return s.trim().split(/\n\s*\n/).map(paragraph => {
-    return paragraph.split(/(@@FORMULA\d+@@)/).reduce((a, part) => {
-      const m = part.match(/^@@FORMULA(\d+)@@$/);
-      if (m && tokens[+m[1]].includes('display-source')) {
-        a.push({block: tokens[+m[1]]});
-      } else if (part) {
-        if (a.length && a[a.length-1].text !== undefined) a[a.length-1].text += part;
-        else a.push({text: part});
-      }
-      return a;
-    }, []).map(p => p.block ? `<div class="display-math">${p.block}</div>` : p.text.trim() ? `<p>${p.text.trim().replace(/\n/g,'<br>')}</p>` : '').join('');
-  }).join('').replace(/@@FORMULA(\d+)@@/g, (_,i) => tokens[+i]);
+
+  s = esc(s)
+    .replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>')
+    .replace(/_{3,}/g, '<span class="answer-blank"></span>');
+
+  return s.replace(/@@FORMULA(\d+)@@/g, (_, i) => tokens[+i]);
 }
 
 function getSectionHeading(s) {
+  const startNum = s.questions[0].number;
+  const endNum = s.questions[s.questions.length - 1].number;
   const qCount = s.questions.length;
   const totalScore = s.questions.reduce((sum, q) => sum + q.points, 0);
   const pointsPerQ = qCount > 0 ? s.questions[0].points : 0;
   
   if (s.type === '选择题' || s.heading.includes('选择题')) {
-    return `一、选择题( 本题共 ${qCount} 小题,每小题 ${pointsPerQ} 分,共 ${totalScore} 分. 在每小题给出的四个选项中,只有一项符合题目要求,把所选项前的字母填在题后的括号内. )`;
+    return `一、选择题(${startNum} ～ ${endNum} 小题,每小题 ${pointsPerQ} 分,共 ${totalScore} 分. 下列每题给出的四个选项中,只有一个选项是符合题目要求的,请将所选项前的字母写在题后的括号内. )`;
   } else if (s.type === '填空题' || s.heading.includes('填空题')) {
-    return `二、填空题( 本题共 ${qCount} 小题,每小题 ${pointsPerQ} 分,共 ${totalScore} 分,把答案填在题中横线上. )`;
+    return `二、填空题(${startNum} ～ ${endNum} 小题,每小题 ${pointsPerQ} 分,共 ${totalScore} 分. 请将答案写在题中的横线上. )`;
   } else if (s.type === '解答题' || s.heading.includes('解答题')) {
-    return `三、解答题( 本题共 ${qCount} 小题,共 ${totalScore} 分,解答应写出文字说明、证明过程或演算步骤. )`;
+    return `三、解答题(${startNum} ～ ${endNum} 小题,共 ${totalScore} 分. 解答应写出文字说明、证明过程或演算步骤. )`;
   }
   return s.heading;
 }
 
+// 智能估算选项初始布局（4列 / 2列 / 1列），确保单行内绝对不产生异常折行
+function getInitialOptionLayout(options, preferred) {
+  if (preferred === '1col') return '1col';
+  
+  let hasMatrix = false;
+  let hasBigFormula = false;
+  let maxLen = 0;
+  
+  for (const o of options) {
+    const t = o.text;
+    if (/pmatrix|bmatrix|cases/.test(t)) hasMatrix = true;
+    if (/\\(int|iint|sum|lim)/.test(t)) hasBigFormula = true;
+    const clean = t.replace(/\\[a-zA-Z]+/g, 'X').replace(/[{}$^_\s]/g, '');
+    if (clean.length > maxLen) maxLen = clean.length;
+  }
+  
+  if (maxLen > 28) return '1col';
+  if (hasMatrix || hasBigFormula || maxLen > 9) return '2col';
+  return '4col';
+}
+
 function question(q, year) {
-  const options = q.options ? `<ul class="options options-${q.layout || '4col'}" aria-label="第${q.number}题选项">${q.options.map(o => `<li class="option"><span class="option-label">(${o.label})</span><div class="option-content">${render(o.text)}</div></li>`).join('')}</ul>` : '';
+  const layout = getInitialOptionLayout(q.options || [], q.layout);
+  const options = q.options ? `<ul class="options options-${layout}" data-layout="${layout}" aria-label="第${q.number}题选项">${q.options.map(o => `<li class="option"><span class="option-label">(${o.label})</span><span class="option-text">${formatParagraphText(o.text)}</span></li>`).join('')}</ul>` : '';
   const figure = q.figure ? `<figure class="question-figure"><img src="${q.figure}" alt="第${q.number}题附图"></figure>` : '';
   
+  // 段落切分
+  const paragraphs = q.stem.trim().split(/\n\s*\n/).map(p => formatParagraphText(p.trim())).filter(Boolean);
+  
+  // 解答题（大题）
   if (q.type === '解答题') {
     return `<li class="question question-subjective" id="q${year}-${q.number}" data-number="${q.number}">
       <div class="question-score-title">(${q.number})( 本题满分 ${q.points} 分)</div>
-      <div class="question-subjective-content">${render(q.stem)}${figure}${options}</div>
+      <div class="question-subjective-content">
+        ${paragraphs.map(p => `<p>${p}</p>`).join('')}
+        ${figure}
+        ${options}
+      </div>
     </li>`;
   }
   
+  // 客观题（选择题、填空题）
+  const firstPara = paragraphs.length > 0 ? paragraphs[0] : '';
+  const otherParas = paragraphs.slice(1).map(p => `<p class="question-stem sub-stem">${p}</p>`).join('');
+  
   return `<li class="question question-objective" id="q${year}-${q.number}" data-number="${q.number}">
-    <div class="question-body">
-      <span class="question-num">(${q.number})</span>
-      <div class="question-content">${render(q.stem)}${figure}${options}</div>
-    </div>
+    <p class="question-stem"><span class="question-num">(${q.number})</span> ${firstPara}</p>
+    ${otherParas}
+    ${figure}
+    ${options}
   </li>`;
 }
 
 function paper(exam) {
   return `<article class="exam-paper" data-year="${exam.year}" aria-labelledby="title-${exam.year}">
   <header class="exam-header">
-    <h1 class="exam-title" id="title-${exam.year}">${exam.year} 年全国硕士研究生招生考试数学(二)试题</h1>
+    <div class="exam-header-title" id="title-${exam.year}">${exam.year} 年全国硕士研究生招生考试</div>
+    <div class="exam-header-subject">数&emsp;学&emsp;（二）</div>
+    <div class="exam-header-code">（科目代码：302）</div>
   </header>
   ${exam.sections.map((s,i) => `
     <section class="exam-section" aria-labelledby="section-${exam.year}-${i}">
@@ -78,7 +113,7 @@ function paper(exam) {
     </section>
   `).join('')}
   <footer class="exam-paper-footer" aria-hidden="true">
-    <span>— 数学（二）试题 —</span>
+    <span>${exam.year} 年数学(二)试题  第 1 页 (共 4 页)</span>
   </footer>
 </article>`;
 }
@@ -132,7 +167,7 @@ fs.writeFileSync(path.join(root,'all.html'),document('2010—2026年数学（二
 
 const indexContent = `<main class="index-container">
   <h1 class="index-title">全国硕士研究生招生考试 · 数学（二）历年真题</h1>
-  <p class="index-desc">收录 2010—2026 年共 17 套真题（385 题）。复刻官方真题原卷排版（标准版心、简洁表头、标准括号题号与选项缩进、极简页码）。</p>
+  <p class="index-desc">收录 2010—2026 年共 17 套真题（385 题）。1:1 严格复刻教育部考试中心官方考场原卷排版（标准表头、规范大题标点、选项严密对齐防折行、大题连贯不碎行、原卷极简页脚）。</p>
   <nav aria-label="按年份选择试卷">
     <ul class="year-grid">
       ${years.map(y=>`<li><a href="years/${y}.html">${y} 年真题</a></li>`).join('')}
@@ -142,7 +177,7 @@ const indexContent = `<main class="index-container">
     <p><a href="all.html">📖 打开 17 年真题合订本（浏览与批量打印）</a></p>
   </div>
   <p style="font-size:13px;color:#666;text-align:center;margin-top:30px;line-height:1.6;">
-    打印提示：建议使用 A4 纸张、100% 缩放，并在浏览器打印面板关闭“页眉和页脚”，即可输出如 2022 真题原样清晰规范的试卷。
+    打印提示：建议使用 A4 纸张、100% 缩放，并在浏览器打印面板关闭“页眉和页脚”，即可输出如 2020、2021 原卷高度一致的试题纸。
   </p>
 </main>`;
 
