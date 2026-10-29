@@ -1,0 +1,317 @@
+{
+  "year": 2017,
+  "subject": "数学（二）",
+  "totalPoints": 150,
+  "durationMinutes": 180,
+  "sections": [
+    {
+      "type": "选择题",
+      "heading": "一、选择题：1～8小题，每小题4分，共32分。下列每题给出的四个选项中，只有一个选项是符合题目要求的。",
+      "questions": [
+        {
+          "number": 1,
+          "type": "选择题",
+          "points": 4,
+          "stem": "若函数\n\n$$\nf(x)=\n\\begin{cases}\n\\dfrac{1-\\cos\\sqrt{x}}{ax}, & x>0,\\\\\nb, & x\\le 0\n\\end{cases}\n$$\n\n在 $x=0$ 处连续，则（ ）",
+          "options": [
+            {
+              "label": "A",
+              "text": "$ab=\\dfrac{1}{2}$"
+            },
+            {
+              "label": "B",
+              "text": "$ab=-\\dfrac{1}{2}$"
+            },
+            {
+              "label": "C",
+              "text": "$ab=0$"
+            },
+            {
+              "label": "D",
+              "text": "$ab=2$"
+            }
+          ],
+          "layout": "4col"
+        },
+        {
+          "number": 2,
+          "type": "选择题",
+          "points": 4,
+          "stem": "设二阶可导函数 $f(x)$ 满足\n\n$$\nf(1)=f(-1)=1,\\qquad f(0)=-1,\\qquad f''(x)>0,\n$$\n\n则（ ）",
+          "options": [
+            {
+              "label": "A",
+              "text": "$\\int_{-1}^{1} f(x)\\mathrm{d}x>0$"
+            },
+            {
+              "label": "B",
+              "text": "$\\int_{-1}^{1} f(x)\\mathrm{d}x<0$"
+            },
+            {
+              "label": "C",
+              "text": "$\\int_{-1}^{0} f(x)\\mathrm{d}x>\\int_{0}^{1} f(x)\\mathrm{d}x$"
+            },
+            {
+              "label": "D",
+              "text": "$\\int_{-1}^{0} f(x)\\mathrm{d}x<\\int_{0}^{1} f(x)\\mathrm{d}x$"
+            }
+          ],
+          "layout": "4col"
+        },
+        {
+          "number": 3,
+          "type": "选择题",
+          "points": 4,
+          "stem": "设数列 $\\{x_n\\}$ 收敛，则（ ）",
+          "options": [
+            {
+              "label": "A",
+              "text": "当 $\\lim\\limits_{n\\to\\infty}\\sin x_n=0$ 时，$\\lim\\limits_{n\\to\\infty}x_n=0$"
+            },
+            {
+              "label": "B",
+              "text": "当 $\\lim\\limits_{n\\to\\infty}(x_n+\\sqrt{|x_n|})=0$ 时，$\\lim\\limits_{n\\to\\infty}x_n=0$"
+            },
+            {
+              "label": "C",
+              "text": "当 $\\lim\\limits_{n\\to\\infty}(x_n+x_n^2)=0$ 时，$\\lim\\limits_{n\\to\\infty}x_n=0$"
+            },
+            {
+              "label": "D",
+              "text": "当 $\\lim\\limits_{n\\to\\infty}(x_n+\\sin x_n)=0$ 时，$\\lim\\limits_{n\\to\\infty}x_n=0$"
+            }
+          ],
+          "layout": "4col"
+        },
+        {
+          "number": 4,
+          "type": "选择题",
+          "points": 4,
+          "stem": "微分方程 $y''-4y'+8y=e^{2x}(1+\\cos2x)$ 的特解可设为 $y^*=$（ ）",
+          "options": [
+            {
+              "label": "A",
+              "text": "$Ae^{2x}+e^{2x}(B\\cos2x+C\\sin2x)$"
+            },
+            {
+              "label": "B",
+              "text": "$Axe^{2x}+e^{2x}(B\\cos2x+C\\sin2x)$"
+            },
+            {
+              "label": "C",
+              "text": "$Ae^{2x}+xe^{2x}(B\\cos2x+C\\sin2x)$"
+            },
+            {
+              "label": "D",
+              "text": "$Axe^{2x}+xe^{2x}(B\\cos2x+C\\sin2x)$"
+            }
+          ],
+          "layout": "4col"
+        },
+        {
+          "number": 5,
+          "type": "选择题",
+          "points": 4,
+          "stem": "设 $f(x,y)$ 具有一阶偏导数，且对任意 $(x,y)$，都有\n\n$$\n\\frac{\\partial f}{\\partial x}>0,\\qquad \\frac{\\partial f}{\\partial y}<0,\n$$\n\n则（ ）",
+          "options": [
+            {
+              "label": "A",
+              "text": "$f(0,0)>f(1,1)$"
+            },
+            {
+              "label": "B",
+              "text": "$f(0,0)<f(1,1)$"
+            },
+            {
+              "label": "C",
+              "text": "$f(0,1)>f(1,0)$"
+            },
+            {
+              "label": "D",
+              "text": "$f(0,1)<f(1,0)$"
+            }
+          ],
+          "layout": "4col"
+        },
+        {
+          "number": 6,
+          "type": "选择题",
+          "points": 4,
+          "stem": "甲、乙两人赛跑。计时开始时，甲在乙前方 $10\\mathrm{m}$ 处。图中实线表示甲的速度曲线 $v=v_1(t)$，虚线表示乙的速度曲线 $v=v_2(t)$。三块阴影部分面积的数值依次为 $10,20,3$。计时开始后乙追上甲的时刻记为 $t_0$，则（ ）",
+          "options": [
+            {
+              "label": "A",
+              "text": "$t_0=10$"
+            },
+            {
+              "label": "B",
+              "text": "$15<t_0<20$"
+            },
+            {
+              "label": "C",
+              "text": "$t_0=25$"
+            },
+            {
+              "label": "D",
+              "text": "$t_0>25$"
+            }
+          ],
+          "layout": "4col",
+          "figure": "../assets/figures/diagram-2017-6.png"
+        },
+        {
+          "number": 7,
+          "type": "选择题",
+          "points": 4,
+          "stem": "设 $\\boldsymbol A$ 为三阶矩阵，$\\boldsymbol P=(\\boldsymbol\\alpha_1,\\boldsymbol\\alpha_2,\\boldsymbol\\alpha_3)$ 为可逆矩阵，且\n\n$$\n\\boldsymbol P^{-1}\\boldsymbol A\\boldsymbol P=\n\\begin{pmatrix}\n0\\\\\n1\\\\\n2\n\\end{pmatrix},\n$$\n\n则 $\\boldsymbol A(\\boldsymbol\\alpha_1+\\boldsymbol\\alpha_2+\\boldsymbol\\alpha_3)=$（ ）",
+          "options": [
+            {
+              "label": "A",
+              "text": "$\\boldsymbol\\alpha_1+\\boldsymbol\\alpha_2$"
+            },
+            {
+              "label": "B",
+              "text": "$\\boldsymbol\\alpha_2+2\\boldsymbol\\alpha_3$"
+            },
+            {
+              "label": "C",
+              "text": "$\\boldsymbol\\alpha_2+\\boldsymbol\\alpha_3$"
+            },
+            {
+              "label": "D",
+              "text": "$\\boldsymbol\\alpha_1+2\\boldsymbol\\alpha_2$"
+            }
+          ],
+          "layout": "4col"
+        },
+        {
+          "number": 8,
+          "type": "选择题",
+          "points": 4,
+          "stem": "设矩阵\n\n$$\n\\boldsymbol A=\n\\begin{pmatrix}\n2&0&0\\\\\n0&2&1\\\\\n0&0&1\n\\end{pmatrix},\\quad\n\\boldsymbol B=\n\\begin{pmatrix}\n2&1&0\\\\\n0&2&0\\\\\n0&0&1\n\\end{pmatrix},\\quad\n\\boldsymbol C=\n\\begin{pmatrix}\n1&0&0\\\\\n0&2&0\\\\\n0&0&2\n\\end{pmatrix},\n$$\n\n则（ ）",
+          "options": [
+            {
+              "label": "A",
+              "text": "$\\boldsymbol A$ 与 $\\boldsymbol C$ 相似，$\\boldsymbol B$ 与 $\\boldsymbol C$ 相似"
+            },
+            {
+              "label": "B",
+              "text": "$\\boldsymbol A$ 与 $\\boldsymbol C$ 相似，$\\boldsymbol B$ 与 $\\boldsymbol C$ 不相似"
+            },
+            {
+              "label": "C",
+              "text": "$\\boldsymbol A$ 与 $\\boldsymbol C$ 不相似，$\\boldsymbol B$ 与 $\\boldsymbol C$ 相似"
+            },
+            {
+              "label": "D",
+              "text": "$\\boldsymbol A$ 与 $\\boldsymbol C$ 不相似，$\\boldsymbol B$ 与 $\\boldsymbol C$ 不相似"
+            }
+          ],
+          "layout": "4col"
+        }
+      ]
+    },
+    {
+      "type": "填空题",
+      "heading": "二、填空题：9～14小题，每小题4分，共24分。",
+      "questions": [
+        {
+          "number": 9,
+          "type": "填空题",
+          "points": 4,
+          "stem": "曲线\n\n$$\ny=x\\left(1+\\arcsin\\frac{2}{x}\\right)\n$$\n\n的斜渐近线方程为 ______"
+        },
+        {
+          "number": 10,
+          "type": "填空题",
+          "points": 4,
+          "stem": "设函数 $y=y(x)$ 由参数方程\n\n$$\n\\begin{cases}\nx=t+e^t,\\\\\ny=\\sin t\n\\end{cases}\n$$\n\n确定，则\n\n$$\n\\left.\\frac{\\mathrm{d}^2y}{\\mathrm{d}x^2}\\right|_{t=0}=\n$$"
+        },
+        {
+          "number": 11,
+          "type": "填空题",
+          "points": 4,
+          "stem": "$$\n\\int_{0}^{+\\infty}\\frac{\\ln(1+x)}{(1+x)^2}\\mathrm{d}x=\n$$"
+        },
+        {
+          "number": 12,
+          "type": "填空题",
+          "points": 4,
+          "stem": "设函数 $f(x,y)$ 具有一阶连续偏导数，且\n\n$$\n\\mathrm{d}f(x,y)=ye^y\\mathrm{d}x+x(1+y)e^y\\mathrm{d}y,\\qquad f(0,0)=0,\n$$\n\n则 $f(x,y)=$ ______"
+        },
+        {
+          "number": 13,
+          "type": "填空题",
+          "points": 4,
+          "stem": "$$\n\\int_0^1\\mathrm{d}y\\int_y^1\\frac{\\tan x}{x}\\mathrm{d}x=\n$$"
+        },
+        {
+          "number": 14,
+          "type": "填空题",
+          "points": 4,
+          "stem": "设矩阵\n\n$$\n\\boldsymbol A=\n\\begin{pmatrix}\n4&1&-2\\\\\n1&2&a\\\\\n3&1&-1\n\\end{pmatrix}\n$$\n\n的一个特征向量为\n\n$$\n\\begin{pmatrix}\n1\\\\\n1\\\\\n2\n\\end{pmatrix},\n$$\n\n则 $a=$ ______"
+        }
+      ]
+    },
+    {
+      "type": "解答题",
+      "heading": "三、解答题：15～23小题，共94分。解答应写出文字说明、证明过程或演算步骤。",
+      "questions": [
+        {
+          "number": 15,
+          "type": "解答题",
+          "points": 10,
+          "stem": "求极限\n\n$$\n\\lim_{x\\to0^+}\n\\frac{\\displaystyle\\int_0^x\\sqrt{x-t}e^t\\mathrm{d}t}{\\sqrt{x^3}}.\n$$"
+        },
+        {
+          "number": 16,
+          "type": "解答题",
+          "points": 10,
+          "stem": "设函数 $f(u,v)$ 具有二阶连续偏导数，\n\n$$\ny=f(e^x,\\cos x),\n$$\n\n求\n\n$$\n\\left.\\frac{\\mathrm{d}y}{\\mathrm{d}x}\\right|_{x=0},\n\\qquad\n\\left.\\frac{\\mathrm{d}^2y}{\\mathrm{d}x^2}\\right|_{x=0}.\n$$"
+        },
+        {
+          "number": 17,
+          "type": "解答题",
+          "points": 10,
+          "stem": "求\n\n$$\n\\lim_{n\\to\\infty}\\sum_{k=1}^n\\frac{k}{n^2}\\ln\\left(1+\\frac{k}{n}\\right).\n$$"
+        },
+        {
+          "number": 18,
+          "type": "解答题",
+          "points": 10,
+          "stem": "已知函数 $y(x)$ 由方程\n\n$$\nx^3+y^3-3x+3y-2=0\n$$\n\n确定，求 $y(x)$ 的极值。"
+        },
+        {
+          "number": 19,
+          "type": "解答题",
+          "points": 10,
+          "stem": "设函数 $f(x)$ 在区间 $[0,1]$ 上具有二阶导数，且\n\n$$\nf(1)>0,\\qquad \\lim_{x\\to0^+}\\frac{f(x)}{x}<0.\n$$\n\n证明：\n\n（1）方程 $f(x)=0$ 在区间 $(0,1)$ 内至少存在一个实根；\n\n（2）方程\n\n$$\nf(x)f''(x)+\\left(f'(x)\\right)^2=0\n$$\n\n在区间 $(0,1)$ 内至少存在两个不同实根。"
+        },
+        {
+          "number": 20,
+          "type": "解答题",
+          "points": 11,
+          "stem": "已知平面区域\n\n$$\nD=\\{(x,y)\\mid x^2+y^2\\le2y\\},\n$$\n\n计算二重积分\n\n$$\n\\iint_D(x+1)^2\\mathrm{d}x\\mathrm{d}y.\n$$"
+        },
+        {
+          "number": 21,
+          "type": "解答题",
+          "points": 11,
+          "stem": "设 $y(x)$ 是区间 $\\left(0,\\frac32\\right)$ 内的可导函数，且 $y(1)=0$。点 $P$ 是曲线 $L:y=y(x)$ 上任意一点，$L$ 在点 $P$ 处的切线与 $y$ 轴相交于点 $(0,Y_p)$，法线与 $x$ 轴相交于点 $(X_p,0)$。若 $X_p=Y_p$，求 $L$ 上点的坐标 $(x,y)$ 满足的方程。"
+        },
+        {
+          "number": 22,
+          "type": "解答题",
+          "points": 11,
+          "stem": "设 $3$ 阶矩阵\n\n$$\n\\boldsymbol A=(\\boldsymbol\\alpha_1,\\boldsymbol\\alpha_2,\\boldsymbol\\alpha_3)\n$$\n\n有 $3$ 个不同的特征值，且\n\n$$\n\\boldsymbol\\alpha_3=\\boldsymbol\\alpha_1+2\\boldsymbol\\alpha_2.\n$$\n\n（1）证明：$r(\\boldsymbol A)=2$；\n\n（2）若\n\n$$\n\\boldsymbol\\beta=\\boldsymbol\\alpha_1+\\boldsymbol\\alpha_2+\\boldsymbol\\alpha_3,\n$$\n\n求方程组 $\\boldsymbol A\\boldsymbol x=\\boldsymbol\\beta$ 的通解。"
+        },
+        {
+          "number": 23,
+          "type": "解答题",
+          "points": 11,
+          "stem": "设二次型\n\n$$\nf(x_1,x_2,x_3)\n=\n2x_1^2-x_2^2+ax_3^2\n+2x_1x_2-8x_1x_3+2x_2x_3\n$$\n\n在正交变换 $\\boldsymbol X=\\boldsymbol Q\\boldsymbol Y$ 下的标准型为\n\n$$\n\\lambda_1y_1^2+\\lambda_2y_2^2.\n$$\n\n求 $a$ 的值及一个正交矩阵 $\\boldsymbol Q$。"
+        }
+      ]
+    }
+  ]
+}

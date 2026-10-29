@@ -1,0 +1,316 @@
+{
+  "year": 2012,
+  "subject": "数学（二）",
+  "totalPoints": 150,
+  "durationMinutes": 180,
+  "sections": [
+    {
+      "type": "选择题",
+      "heading": "一、选择题：1～8小题，每小题4分，共32分。下列每题给出的四个选项中，只有一个选项是符合题目要求的。",
+      "questions": [
+        {
+          "number": 1,
+          "type": "选择题",
+          "points": 4,
+          "stem": "曲线 $y=\\frac{x^{2}+x}{x^{2}-1}$ 渐近线的条数为（ ）",
+          "options": [
+            {
+              "label": "A",
+              "text": "$0$"
+            },
+            {
+              "label": "B",
+              "text": "$1$"
+            },
+            {
+              "label": "C",
+              "text": "$2$"
+            },
+            {
+              "label": "D",
+              "text": "$3$"
+            }
+          ],
+          "layout": "4col"
+        },
+        {
+          "number": 2,
+          "type": "选择题",
+          "points": 4,
+          "stem": "设函数 $f\\left(x\\right)=\\left(e^{x}-1\\right)\\left(e^{2x}-2\\right)\\cdots\\left(e^{nx}-n\\right)$，其中 $n$ 为正整数，则 $f^{\\prime}\\left(0\\right)=$（ ）",
+          "options": [
+            {
+              "label": "A",
+              "text": "$\\left(-1\\right)^{n-1}\\left(n-1\\right)!$"
+            },
+            {
+              "label": "B",
+              "text": "$\\left(-1\\right)^{n}\\left(n-1\\right)!$"
+            },
+            {
+              "label": "C",
+              "text": "$\\left(-1\\right)^{n-1}n!$"
+            },
+            {
+              "label": "D",
+              "text": "$\\left(-1\\right)^{n}n!$"
+            }
+          ],
+          "layout": "4col"
+        },
+        {
+          "number": 3,
+          "type": "选择题",
+          "points": 4,
+          "stem": "设 $a_{n}>0\\left(n=1,2,\\cdots\\right)$，$S_{n}=a_{1}+a_{2}+\\cdots+a_{n}$，则数列 $\\left\\{S_{n}\\right\\}$ 有界是数列 $\\left\\{a_{n}\\right\\}$ 收敛的（ ）",
+          "options": [
+            {
+              "label": "A",
+              "text": "充分必要条件"
+            },
+            {
+              "label": "B",
+              "text": "充分非必要条件"
+            },
+            {
+              "label": "C",
+              "text": "必要非充分条件"
+            },
+            {
+              "label": "D",
+              "text": "既非充分也非必要条件"
+            }
+          ],
+          "layout": "2col"
+        },
+        {
+          "number": 4,
+          "type": "选择题",
+          "points": 4,
+          "stem": "设 $I_k=\\displaystyle\\int_0^{k\\pi} e^{x^2}\\sin x\\,\\mathrm dx$（$k=1,2,3$），则有（ ）",
+          "options": [
+            {
+              "label": "A",
+              "text": "$I_1<I_2<I_3$"
+            },
+            {
+              "label": "B",
+              "text": "$I_3<I_2<I_1$"
+            },
+            {
+              "label": "C",
+              "text": "$I_2<I_3<I_1$"
+            },
+            {
+              "label": "D",
+              "text": "$I_2<I_1<I_3$"
+            }
+          ],
+          "layout": "4col"
+        },
+        {
+          "number": 5,
+          "type": "选择题",
+          "points": 4,
+          "stem": "设函数 $f\\left(x,y\\right)$ 可微，且对任意 $x,y$ 都有 $\\frac{\\partial f\\left(x,y\\right)}{\\partial x}>0$，$\\frac{\\partial f\\left(x,y\\right)}{\\partial y}<0$，$f\\left(x_{1},y_{1}\\right)<f\\left(x_{2},y_{2}\\right)$ 成立的一个充分条件是（ ）",
+          "options": [
+            {
+              "label": "A",
+              "text": "$x_{1}>x_{2},y_{1}<y_{2}$"
+            },
+            {
+              "label": "B",
+              "text": "$x_{1}>x_{2},y_{1}>y_{2}$"
+            },
+            {
+              "label": "C",
+              "text": "$x_{1}<x_{2},y_{1}<y_{2}$"
+            },
+            {
+              "label": "D",
+              "text": "$x_{1}<x_{2},y_{1}>y_{2}$"
+            }
+          ],
+          "layout": "4col"
+        },
+        {
+          "number": 6,
+          "type": "选择题",
+          "points": 4,
+          "stem": "设区域 $D$ 由曲线 $y=\\sin x$，$x=\\pm\\frac{\\pi}{2}$，$y=1$ 围成，则 $\\iint_{D}\\left(x^{5}y-1\\right)\\mathrm{~d}x\\mathrm{~d}y=$（ ）",
+          "options": [
+            {
+              "label": "A",
+              "text": "$\\pi$"
+            },
+            {
+              "label": "B",
+              "text": "$2$"
+            },
+            {
+              "label": "C",
+              "text": "$-2$"
+            },
+            {
+              "label": "D",
+              "text": "$-\\pi$"
+            }
+          ],
+          "layout": "4col"
+        },
+        {
+          "number": 7,
+          "type": "选择题",
+          "points": 4,
+          "stem": "设\n\n$\\boldsymbol{\\alpha}_{1} = \\begin{pmatrix} 0 \\\\ 0 \\\\ c_{1} \\end{pmatrix}$，$\\boldsymbol{\\alpha}_{2} = \\begin{pmatrix} 0 \\\\ 1 \\\\ c_{2}\\end{pmatrix}$，$\\boldsymbol{\\alpha}_{3}=\\begin{pmatrix} 1 \\\\ -1 \\\\c_{3}\\end{pmatrix}$，$\\boldsymbol{\\alpha}_{4}=\\begin{pmatrix}-1 \\\\1 \\\\ c_{4}\\end{pmatrix}$，\n\n其中 $c_{1},c_{2},c_{3},c_{4}$ 为任意常数，则下列向量组线性相关的是（ ）",
+          "options": [
+            {
+              "label": "A",
+              "text": "$\\boldsymbol{\\alpha}_{1},\\boldsymbol{\\alpha}_{2},\\boldsymbol{\\alpha}_{3}$"
+            },
+            {
+              "label": "B",
+              "text": "$\\boldsymbol{\\alpha}_{1},\\boldsymbol{\\alpha}_{2},\\boldsymbol{\\alpha}_{4}$"
+            },
+            {
+              "label": "C",
+              "text": "$\\boldsymbol{\\alpha}_{1},\\boldsymbol{\\alpha}_{3},\\boldsymbol{\\alpha}_{4}$"
+            },
+            {
+              "label": "D",
+              "text": "$\\boldsymbol{\\alpha}_{2},\\boldsymbol{\\alpha}_{3},\\boldsymbol{\\alpha}_{4}$"
+            }
+          ],
+          "layout": "4col"
+        },
+        {
+          "number": 8,
+          "type": "选择题",
+          "points": 4,
+          "stem": "设 $\\boldsymbol{A}$ 为 $3$ 阶矩阵，$\\boldsymbol{P}$ 为 $3$ 阶可逆矩阵，且 $\\boldsymbol{P}^{-1}\\boldsymbol{A}\\boldsymbol{P}=\\left(\\begin{matrix}1&0&0 \\\\ 0&1&0 \\\\ 0&0&2\\end{matrix}\\right)$，$\\boldsymbol{P}=\\left(\\boldsymbol{\\alpha}_{1},\\boldsymbol{\\alpha}_{2},\\boldsymbol{\\alpha}_{3}\\right)$，$\\boldsymbol{Q}=\\left(\\boldsymbol{\\alpha}_{1}+\\boldsymbol{\\alpha}_{2},\\boldsymbol{\\alpha}_{2},\\boldsymbol{\\alpha}_{3}\\right)$，则 $\\boldsymbol{Q}^{-1}\\boldsymbol{A}\\boldsymbol{Q}=$（ ）",
+          "options": [
+            {
+              "label": "A",
+              "text": "$\\left(\\begin{matrix}1&0&0 \\\\ 0&2&0 \\\\ 0&0&1\\end{matrix}\\right)$"
+            },
+            {
+              "label": "B",
+              "text": "$\\left(\\begin{matrix}1&0&0 \\\\ 0&1&0 \\\\ 0&0&2\\end{matrix}\\right)$"
+            },
+            {
+              "label": "C",
+              "text": "$\\left(\\begin{matrix}2&0&0 \\\\ 0&1&0 \\\\ 0&0&2\\end{matrix}\\right)$"
+            },
+            {
+              "label": "D",
+              "text": "$\\left(\\begin{matrix}2&0&0 \\\\ 0&2&0 \\\\ 0&0&1\\end{matrix}\\right)$"
+            }
+          ],
+          "layout": "4col"
+        }
+      ]
+    },
+    {
+      "type": "填空题",
+      "heading": "二、填空题：9～14小题，每小题4分，共24分。",
+      "questions": [
+        {
+          "number": 9,
+          "type": "填空题",
+          "points": 4,
+          "stem": "设 $y=y\\left(x\\right)$ 是由方程 $x^{2}-y+1=e^{y}$ 所确定的隐函数，则 $\\left.\\frac{\\mathrm{d}^{2}y}{\\mathrm{d}x^{2}}\\right|_{x=0}=$ ________。"
+        },
+        {
+          "number": 10,
+          "type": "填空题",
+          "points": 4,
+          "stem": "计算 $\\lim_{n\\to\\infty}n\\left(\\frac{1}{1+n^{2}}+\\frac{1}{2^{2}+n^{2}}+\\cdots+\\frac{1}{n^{2}+n^{2}}\\right)=$ ________。"
+        },
+        {
+          "number": 11,
+          "type": "填空题",
+          "points": 4,
+          "stem": "设 $z=f\\left(\\ln x+\\frac{1}{y}\\right)$，其中函数 $f\\left(u\\right)$ 可微，则 $x\\frac{\\partial z}{\\partial x}+y^{2}\\frac{\\partial z}{\\partial y}=$ ________。"
+        },
+        {
+          "number": 12,
+          "type": "填空题",
+          "points": 4,
+          "stem": "微分方程 $y\\mathrm{d}x+\\left(x-3y^{2}\\right)\\mathrm{d}y=0$ 满足初始条件 $\\left.y\\right|_{x=1}=1$ 的解为________。"
+        },
+        {
+          "number": 13,
+          "type": "填空题",
+          "points": 4,
+          "stem": "曲线 $y=x^{2}+x\\left(x<0\\right)$ 上曲率为 $\\frac{\\sqrt{2}}{2}$ 的点的坐标是________。"
+        },
+        {
+          "number": 14,
+          "type": "填空题",
+          "points": 4,
+          "stem": "设 $\\boldsymbol{A}$ 为 $3$ 阶矩阵，$\\left|\\boldsymbol{A}\\right|=3$，$\\boldsymbol{A}^{*}$ 为 $\\boldsymbol{A}$ 的伴随矩阵，若交换 $\\boldsymbol{A}$ 的第一行与第二行得到矩阵 $\\boldsymbol{B}$，则 $\\left|\\boldsymbol{B}\\boldsymbol{A}^{*}\\right|=$ ________。"
+        }
+      ]
+    },
+    {
+      "type": "解答题",
+      "heading": "三、解答题：15～23小题，共94分。解答应写出文字说明、证明过程或演算步骤。",
+      "questions": [
+        {
+          "number": 15,
+          "type": "解答题",
+          "points": 10,
+          "stem": "已知函数 $f\\left(x\\right)=\\frac{1+x}{\\sin x}-\\frac{1}{x}$，记 $a=\\lim_{x\\to 0}f\\left(x\\right)$。\n\n（1）求 $a$ 的值；\n\n（2）若当 $x\\to 0$ 时，$f\\left(x\\right)-a$ 是 $x^{k}$ 的同阶无穷小，求 $k$。"
+        },
+        {
+          "number": 16,
+          "type": "解答题",
+          "points": 10,
+          "stem": "求 $f\\left(x,y\\right)=xe^{-\\frac{x^{2}+y^{2}}{2}}$ 的极值。"
+        },
+        {
+          "number": 17,
+          "type": "解答题",
+          "points": 12,
+          "stem": "过点 $\\left(0,1\\right)$ 作曲线 $L:y=\\ln x$ 的切线，切点为 $\\boldsymbol{A}$，又 $L$ 与 $x$ 轴交于 $\\boldsymbol{B}$ 点，区域 $D$ 由 $L$ 与直线 $\\boldsymbol{A}\\boldsymbol{B}$ 及 $x$ 轴围成，求区域 $D$ 的面积及 $D$ 绕 $x$ 轴旋转一周所得旋转体的体积。"
+        },
+        {
+          "number": 18,
+          "type": "解答题",
+          "points": 10,
+          "stem": "计算二重积分 $\\iint_{D}xy\\mathrm{d}\\sigma$，其中区域 $D$ 为曲线 $r=1+\\cos\\theta\\left(0\\leq\\theta\\leq\\pi\\right)$ 与极轴围成。"
+        },
+        {
+          "number": 19,
+          "type": "解答题",
+          "points": 10,
+          "stem": "已知函数 $f\\left(x\\right)$ 满足方程 $f^{\\prime\\prime}\\left(x\\right)+f^{\\prime}\\left(x\\right)-2f\\left(x\\right)=0$ 及 $f^{\\prime}\\left(x\\right)+f\\left(x\\right)=2e^{x}$。\n\n（1）求表达式 $f\\left(x\\right)$；\n\n（2）求曲线 $y=f\\left(x^{2}\\right)\\int_{0}^{x}f\\left(-t^{2}\\right)\\mathrm{~d}t$ 的拐点。"
+        },
+        {
+          "number": 20,
+          "type": "解答题",
+          "points": 10,
+          "stem": "证明：\n\n$x\\ln\\frac{1+x}{1-x}+\\cos x\\geq 1+\\frac{x^{2}}{2},\\quad -1<x<1$。"
+        },
+        {
+          "number": 21,
+          "type": "解答题",
+          "points": 10,
+          "stem": "（1）证明方程 $x^{n}+x^{n-1}+\\cdots+x=1\\left(n>1\\right.$ 的整数$\\left.\\right)$ 在区间 $\\left(\\frac{1}{2},1\\right)$ 内有且仅有一个实根；\n\n（2）记（1）中的实根为 $x_{n}$，证明 $\\lim_{n\\to\\infty}x_{n}$ 存在，并求此极限。"
+        },
+        {
+          "number": 22,
+          "type": "解答题",
+          "points": 11,
+          "stem": "设\n\n$\\boldsymbol{A}=\\left(\\begin{matrix}1&a&0&0 \\\\ 0&1&a&0 \\\\ 0&0&1&a \\\\ a&0&0&1\\end{matrix}\\right)$，$\\boldsymbol{b}=\\left(\\begin{matrix}1 \\\\ -1 \\\\ 0 \\\\ 0 \\end{matrix}\\right)$。\n\n（Ⅰ）求 $\\left|\\boldsymbol{A}\\right|$；\n\n（Ⅱ）已知线性方程组 $\\boldsymbol{A}\\boldsymbol{x}=\\boldsymbol{b}$ 有无穷多解，求 $a$，并求 $\\boldsymbol{A}\\boldsymbol{x}=\\boldsymbol{b}$ 的通解。"
+        },
+        {
+          "number": 23,
+          "type": "解答题",
+          "points": 11,
+          "stem": "三阶矩阵\n\n$\\boldsymbol{A}=\\left(\\begin{matrix}1&0&1 \\\\ 0&1&1 \\\\ -1&0&a\\end{matrix}\\right)$，$\\boldsymbol{A}^{T}$ 为矩阵 $\\boldsymbol{A}$ 的转置，已知 $r\\left(\\boldsymbol{A}^{T}\\boldsymbol{A}\\right)=2$，且二次型 $f=\\boldsymbol{x}^{T}\\boldsymbol{A}^{T}\\boldsymbol{A}\\boldsymbol{x}$。\n\n（1）求 $a$；\n\n（2）求二次型对应的二次型矩阵，并将二次型化为标准型，写出正交变换过程。"
+        }
+      ]
+    }
+  ]
+}

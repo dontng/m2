@@ -1,0 +1,317 @@
+{
+  "year": 2016,
+  "subject": "数学（二）",
+  "totalPoints": 150,
+  "durationMinutes": 180,
+  "sections": [
+    {
+      "type": "选择题",
+      "heading": "一、选择题：1～8小题，每小题4分，共32分。下列每题给出的四个选项中，只有一个选项是符合题目要求的。",
+      "questions": [
+        {
+          "number": 1,
+          "type": "选择题",
+          "points": 4,
+          "stem": "设 $a_{1}=x\\left(\\cos\\sqrt{x}-1\\right)$，$a_{2}=\\sqrt{x}\\ln\\left(1+\\sqrt[3]{x}\\right)$，$a_{3}=\\sqrt[3]{x+1}-1$。当 $x\\to 0^{+}$ 时，以上 $3$ 个无穷小量按照从低阶到高阶的排序是：",
+          "options": [
+            {
+              "label": "A",
+              "text": "$a_{1},a_{2},a_{3}$。"
+            },
+            {
+              "label": "B",
+              "text": "$a_{2},a_{3},a_{1}$。"
+            },
+            {
+              "label": "C",
+              "text": "$a_{2},a_{1},a_{3}$。"
+            },
+            {
+              "label": "D",
+              "text": "$a_{3},a_{2},a_{1}$。"
+            }
+          ],
+          "layout": "4col"
+        },
+        {
+          "number": 2,
+          "type": "选择题",
+          "points": 4,
+          "stem": "已知函数 $f(x)$ 满足：\n\n$$\nf(x)=\n\\begin{cases}\n2(x-1), & x<1,\\\\\n\\ln x, & x\\geqslant 1.\n\\end{cases}\n$$\n\n则 $f(x)$ 的一个原函数是：",
+          "options": [
+            {
+              "label": "A",
+              "text": "$x<1$ 时，$F(x)=(x-1)^2$；$x\\geqslant 1$ 时，$F(x)=x(\\ln x-1)$。"
+            },
+            {
+              "label": "B",
+              "text": "$x<1$ 时，$F(x)=(x-1)^2$；$x\\geqslant 1$ 时，$F(x)=x(\\ln x+1)-1$。"
+            },
+            {
+              "label": "C",
+              "text": "$x<1$ 时，$F(x)=(x-1)^2$；$x\\geqslant 1$ 时，$F(x)=x(\\ln x+1)+1$。"
+            },
+            {
+              "label": "D",
+              "text": "$x<1$ 时，$F(x)=(x-1)^2$；$x\\geqslant 1$ 时，$F(x)=x(\\ln x-1)+1$。"
+            }
+          ],
+          "layout": "4col"
+        },
+        {
+          "number": 3,
+          "type": "选择题",
+          "points": 4,
+          "stem": "反常积分\n\n$$\n(1) \\ \\int_{-\\infty}^{0}\\frac{e^{1/x}}{x^{2}}\\,\\mathrm{d}x,\\qquad\n(2) \\ \\int_{0}^{+\\infty}\\frac{e^{1/x}}{x^{2}}\\,\\mathrm{d}x\n$$\n\n的敛散性为：",
+          "options": [
+            {
+              "label": "A",
+              "text": "(1) 收敛，(2) 收敛。"
+            },
+            {
+              "label": "B",
+              "text": "(1) 收敛，(2) 发散。"
+            },
+            {
+              "label": "C",
+              "text": "(1) 发散，(2) 收敛。"
+            },
+            {
+              "label": "D",
+              "text": "(1) 发散，(2) 发散。"
+            }
+          ],
+          "layout": "4col"
+        },
+        {
+          "number": 4,
+          "type": "选择题",
+          "points": 4,
+          "stem": "设函数 $f(x)$ 在 $(-\\infty,+\\infty)$ 内连续，其导函数的图形如图所示，则：",
+          "options": [
+            {
+              "label": "A",
+              "text": "函数 $f(x)$ 有 $2$ 个极值点，曲线 $y=f(x)$ 有 $2$ 个拐点。"
+            },
+            {
+              "label": "B",
+              "text": "函数 $f(x)$ 有 $2$ 个极值点，曲线 $y=f(x)$ 有 $3$ 个拐点。"
+            },
+            {
+              "label": "C",
+              "text": "函数 $f(x)$ 有 $3$ 个极值点，曲线 $y=f(x)$ 有 $1$ 个拐点。"
+            },
+            {
+              "label": "D",
+              "text": "函数 $f(x)$ 有 $3$ 个极值点，曲线 $y=f(x)$ 有 $2$ 个拐点。"
+            }
+          ],
+          "layout": "2col",
+          "figure": "../assets/figures/diagram-2016-4.png"
+        },
+        {
+          "number": 5,
+          "type": "选择题",
+          "points": 4,
+          "stem": "设函数 $f_i(x)\\ (i=1,2)$ 具有二阶连续导数，且 $f_i''(x_0)<0\\ (i=1,2)$。若两条曲线 $y=f_i(x)\\ (i=1,2)$ 在点 $(x_0,y_0)$ 处具有公切线 $y=g(x)$，且在该点处曲线 $y=f_1(x)$ 的曲率大于曲线 $y=f_2(x)$ 的曲率，则在 $x_0$ 的某个邻域内，有：",
+          "options": [
+            {
+              "label": "A",
+              "text": "$f_1(x)\\leqslant f_2(x)\\leqslant g(x)$。"
+            },
+            {
+              "label": "B",
+              "text": "$f_2(x)\\leqslant f_1(x)\\leqslant g(x)$。"
+            },
+            {
+              "label": "C",
+              "text": "$f_1(x)\\leqslant g(x)\\leqslant f_2(x)$。"
+            },
+            {
+              "label": "D",
+              "text": "$f_2(x)\\leqslant g(x)\\leqslant f_1(x)$。"
+            }
+          ],
+          "layout": "4col"
+        },
+        {
+          "number": 6,
+          "type": "选择题",
+          "points": 4,
+          "stem": "已知函数 $f(x,y)=\\dfrac{e^{x}}{x-y}$，则：",
+          "options": [
+            {
+              "label": "A",
+              "text": "$f'_x-f'_y=0$。"
+            },
+            {
+              "label": "B",
+              "text": "$f'_x+f'_y=0$。"
+            },
+            {
+              "label": "C",
+              "text": "$f'_x-f'_y=f$。"
+            },
+            {
+              "label": "D",
+              "text": "$f'_x+f'_y=f$。"
+            }
+          ],
+          "layout": "4col"
+        },
+        {
+          "number": 7,
+          "type": "选择题",
+          "points": 4,
+          "stem": "设 $\\boldsymbol{A}$，$\\boldsymbol{B}$ 是可逆矩阵，且 $\\boldsymbol{A}$ 与 $\\boldsymbol{B}$ 相似，则下列结论错误的是：",
+          "options": [
+            {
+              "label": "A",
+              "text": "$\\boldsymbol{A}^{T}$ 与 $\\boldsymbol{B}^{T}$ 相似。"
+            },
+            {
+              "label": "B",
+              "text": "$\\boldsymbol{A}^{-1}$ 与 $\\boldsymbol{B}^{-1}$ 相似。"
+            },
+            {
+              "label": "C",
+              "text": "$\\boldsymbol{A}^{T}+\\boldsymbol{A}$ 与 $\\boldsymbol{B}^{T}+\\boldsymbol{B}$ 相似。"
+            },
+            {
+              "label": "D",
+              "text": "$\\boldsymbol{A}^{-1}+\\boldsymbol{A}$ 与 $\\boldsymbol{B}^{-1}+\\boldsymbol{B}$ 相似。"
+            }
+          ],
+          "layout": "4col"
+        },
+        {
+          "number": 8,
+          "type": "选择题",
+          "points": 4,
+          "stem": "设二次型\n\n$$\nf(x_1,x_2,x_3)=a(x_1^2+x_2^2+x_3^2)+2x_1x_2+2x_2x_3+2x_1x_3\n$$\n\n的正、负惯性指数分别为 $1,2$，则：",
+          "options": [
+            {
+              "label": "A",
+              "text": "$a>1$。"
+            },
+            {
+              "label": "B",
+              "text": "$a<-2$。"
+            },
+            {
+              "label": "C",
+              "text": "$-2<a<1$。"
+            },
+            {
+              "label": "D",
+              "text": "$a=1$ 与 $a=-2$。"
+            }
+          ],
+          "layout": "4col"
+        }
+      ]
+    },
+    {
+      "type": "填空题",
+      "heading": "二、填空题：9～14小题，每小题4分，共24分。",
+      "questions": [
+        {
+          "number": 9,
+          "type": "填空题",
+          "points": 4,
+          "stem": "曲线\n\n$$\ny=\\frac{x^3}{1+x^2}+\\arctan(1+x^2)\n$$\n\n的斜渐近线方程为 ________。"
+        },
+        {
+          "number": 10,
+          "type": "填空题",
+          "points": 4,
+          "stem": "极限\n\n$$\n\\lim_{n\\to\\infty}\\frac{1}{n^{2}}\\left(\\sin\\frac{1}{n}+2\\sin\\frac{2}{n}+\\cdots+n\\sin\\frac{n}{n}\\right)=\n$$\n\n________。"
+        },
+        {
+          "number": 11,
+          "type": "填空题",
+          "points": 4,
+          "stem": "以 $y=x^{2}-e^{x}$ 和 $y=x^{2}$ 为特解的一阶非齐次线性微分方程为 ________。"
+        },
+        {
+          "number": 12,
+          "type": "填空题",
+          "points": 4,
+          "stem": "已知函数 $f(x)$ 在 $(-\\infty,+\\infty)$ 上连续，且\n\n$$\nf(x)=(x+1)^2+2\\int_0^x f(t)\\,\\mathrm{d}t,\n$$\n\n则当 $n\\geqslant 2$ 时，$f^{(n)}(0)=$ ________。"
+        },
+        {
+          "number": 13,
+          "type": "填空题",
+          "points": 4,
+          "stem": "已知动点 $P$ 在曲线 $y=x^3$ 上运动，记坐标原点与点 $P$ 间的距离为 $l$。若点 $P$ 的横坐标对时间的变化率为常数 $v_0$，则当点 $P$ 运动到点 $(1,1)$ 时，$l$ 对时间的变化率是 ________。"
+        },
+        {
+          "number": 14,
+          "type": "填空题",
+          "points": 4,
+          "stem": "设矩阵\n\n$$\n\\begin{pmatrix}\na&-1&-1\\\\\n-1&a&-1\\\\\n-1&-1&a\n\\end{pmatrix}\n$$\n\n与\n\n$$\n\\begin{pmatrix}\n1&1&0\\\\\n0&-1&1\\\\\n1&0&1\n\\end{pmatrix}\n$$\n\n等价，则 $a=$ ________。"
+        }
+      ]
+    },
+    {
+      "type": "解答题",
+      "heading": "三、解答题：15～23小题，共94分。解答应写出文字说明、证明过程或演算步骤。",
+      "questions": [
+        {
+          "number": 15,
+          "type": "解答题",
+          "points": 10,
+          "stem": "求极限\n\n$$\n\\lim_{x\\to0}\\left(\\cos2x+2x\\sin x\\right)^{1/x^4}.\n$$"
+        },
+        {
+          "number": 16,
+          "type": "解答题",
+          "points": 10,
+          "stem": "设函数\n\n$$\nf(x)=\\int_0^1|t^2-x^2|\\,\\mathrm{d}t\\qquad (x>0),\n$$\n\n求 $f'(x)$ 并求 $f(x)$ 的最小值。"
+        },
+        {
+          "number": 17,
+          "type": "解答题",
+          "points": 10,
+          "stem": "已知函数 $z=z(x,y)$ 由方程\n\n$$\n(x^2+y^2)z+\\ln z+2(x+y+1)=0\n$$\n\n确定，求 $z=z(x,y)$ 的极值。"
+        },
+        {
+          "number": 18,
+          "type": "解答题",
+          "points": 10,
+          "stem": "设 $D$ 是由直线 $y=1$，$y=x$，$y=-x$ 围成的有界区域，计算二重积分\n\n$$\n\\iint_D\\frac{x^2-xy-y^2}{x^2+y^2}\\,\\mathrm{d}x\\,\\mathrm{d}y.\n$$"
+        },
+        {
+          "number": 19,
+          "type": "解答题",
+          "points": 10,
+          "stem": "已知 $y_1(x)=e^x$，$y_2(x)=\\mu(x)e^x$ 是二阶微分方程\n\n$$\n(2x-1)y''-(2x+1)y'+2y=0\n$$\n\n的两个解，若 $\\mu(-1)=e$，$\\mu(0)=-1$，求 $\\mu(x)$ 并写出该微分方程的通解。"
+        },
+        {
+          "number": 20,
+          "type": "解答题",
+          "points": 11,
+          "stem": "设 $D$ 是由曲线\n\n$$\ny=\\sqrt{1-x^2}\\quad (0\\leqslant x\\leqslant1)\n$$\n\n与参数方程\n\n$$\nx=\\cos^3t,\\qquad y=\\sin^3t,\\qquad 0\\leqslant t\\leqslant\\frac{\\pi}{2}\n$$\n\n围成的平面区域，求 $D$ 绕 $x$ 轴旋转一周所得旋转体的体积和表面积。"
+        },
+        {
+          "number": 21,
+          "type": "解答题",
+          "points": 11,
+          "stem": "已知 $f(x)$ 在 $\\left[0,\\dfrac{3\\pi}{2}\\right]$ 上连续，在 $\\left(0,\\dfrac{3\\pi}{2}\\right)$ 内是函数\n\n$$\n\\frac{\\cos x}{2x-3\\pi}\n$$\n\n的一个原函数，且 $f(0)=0$。\n\n（1）求 $f(x)$ 在区间 $\\left[0,\\dfrac{3\\pi}{2}\\right]$ 上的平均值；\n\n（2）证明 $f(x)$ 在区间 $\\left(0,\\dfrac{3\\pi}{2}\\right)$ 内存在唯一零点。"
+        },
+        {
+          "number": 22,
+          "type": "解答题",
+          "points": 11,
+          "stem": "设矩阵\n\n$$\n\\boldsymbol{A}=\n\\begin{pmatrix}\n1&1&1-a\\\\\n1&0&a\\\\\na+1&1&a+1\n\\end{pmatrix},\n\\qquad\n\\boldsymbol{\\beta}=\n\\begin{pmatrix}\n0\\\\\n1\\\\\n2a-2\n\\end{pmatrix},\n$$\n\n且方程组 $\\boldsymbol{A}\\boldsymbol{x}=\\boldsymbol{\\beta}$ 无解。\n\n（1）求 $a$ 的值；\n\n（2）求方程组 $\\boldsymbol{A}^{T}\\boldsymbol{A}\\boldsymbol{x}=\\boldsymbol{A}^{T}\\boldsymbol{\\beta}$ 的通解。"
+        },
+        {
+          "number": 23,
+          "type": "解答题",
+          "points": 11,
+          "stem": "已知矩阵\n\n$$\n\\boldsymbol{A}=\n\\begin{pmatrix}\n0&-1&1\\\\\n2&-3&0\\\\\n0&0&0\n\\end{pmatrix}.\n$$\n\n（1）求 $\\boldsymbol{A}^{99}$；\n\n（2）设 $3$ 阶矩阵 $\\boldsymbol{B}=(\\boldsymbol{\\alpha}_{1},\\boldsymbol{\\alpha}_{2},\\boldsymbol{\\alpha}_{3})$ 满足 $\\boldsymbol{B}^{2}=\\boldsymbol{B}\\boldsymbol{A}$。记 $\\boldsymbol{B}^{100}=(\\boldsymbol{\\beta}_{1},\\boldsymbol{\\beta}_{2},\\boldsymbol{\\beta}_{3})$，将 $\\boldsymbol{\\beta}_{1},\\boldsymbol{\\beta}_{2},\\boldsymbol{\\beta}_{3}$ 分别表示为 $\\boldsymbol{\\alpha}_{1},\\boldsymbol{\\alpha}_{2},\\boldsymbol{\\alpha}_{3}$ 的线性组合。"
+        }
+      ]
+    }
+  ]
+}

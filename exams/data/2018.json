@@ -1,0 +1,316 @@
+{
+  "year": 2018,
+  "subject": "数学（二）",
+  "totalPoints": 150,
+  "durationMinutes": 180,
+  "sections": [
+    {
+      "type": "选择题",
+      "heading": "一、选择题：1～8小题，每小题4分，共32分。下列每题给出的四个选项中，只有一个选项是符合题目要求的。",
+      "questions": [
+        {
+          "number": 1,
+          "type": "选择题",
+          "points": 4,
+          "stem": "若\n\n$$\n\\lim_{x \\to 0}\\left(e^{x}+a x^{2}+b x\\right)^{\\frac{1}{x^{2}}}=1,\n$$\n\n则 $\\left(\\ \\right)$",
+          "options": [
+            {
+              "label": "A",
+              "text": "$a=\\dfrac{1}{2},\\ b=-1$"
+            },
+            {
+              "label": "B",
+              "text": "$a=-\\dfrac{1}{2},\\ b=-1$"
+            },
+            {
+              "label": "C",
+              "text": "$a=\\dfrac{1}{2},\\ b=1$"
+            },
+            {
+              "label": "D",
+              "text": "$a=-\\dfrac{1}{2},\\ b=1$"
+            }
+          ],
+          "layout": "4col"
+        },
+        {
+          "number": 2,
+          "type": "选择题",
+          "points": 4,
+          "stem": "下列函数中，在 $x=0$ 处不可导的是 $\\left(\\ \\right)$",
+          "options": [
+            {
+              "label": "A",
+              "text": "$f(x)=|x|\\sin |x|$"
+            },
+            {
+              "label": "B",
+              "text": "$f(x)=|x|\\sin \\sqrt{|x|}$"
+            },
+            {
+              "label": "C",
+              "text": "$f(x)=\\cos |x|$"
+            },
+            {
+              "label": "D",
+              "text": "$f(x)=\\cos \\sqrt{|x|}$"
+            }
+          ],
+          "layout": "4col"
+        },
+        {
+          "number": 3,
+          "type": "选择题",
+          "points": 4,
+          "stem": "设\n\n$$\nf(x)=\n\\begin{cases}\n-1, & x<0,\\\\\n1, & x\\geq 0,\n\\end{cases}\n\\qquad\ng(x)=\n\\begin{cases}\n2-a x, & x\\leq -1,\\\\\nx, & -1<x<0,\\\\\nx-b, & x\\geq 0.\n\\end{cases}\n$$\n\n若 $f(x)+g(x)$ 在 $\\mathbb{R}$ 上连续，则 $\\left(\\ \\right)$",
+          "options": [
+            {
+              "label": "A",
+              "text": "$a=3,\\ b=1$"
+            },
+            {
+              "label": "B",
+              "text": "$a=3,\\ b=2$"
+            },
+            {
+              "label": "C",
+              "text": "$a=-3,\\ b=1$"
+            },
+            {
+              "label": "D",
+              "text": "$a=-3,\\ b=2$"
+            }
+          ],
+          "layout": "4col"
+        },
+        {
+          "number": 4,
+          "type": "选择题",
+          "points": 4,
+          "stem": "设函数 $f(x)$ 在 $[0,1]$ 上二阶可导，且\n\n$$\n\\int_0^1 f(x)\\,\\mathrm{d}x=0,\n$$\n\n则 $\\left(\\ \\right)$",
+          "options": [
+            {
+              "label": "A",
+              "text": "当 $f'(x)<0$ 时，$f\\left(\\dfrac12\\right)<0$"
+            },
+            {
+              "label": "B",
+              "text": "当 $f''(x)<0$ 时，$f\\left(\\dfrac12\\right)<0$"
+            },
+            {
+              "label": "C",
+              "text": "当 $f'(x)>0$ 时，$f\\left(\\dfrac12\\right)<0$"
+            },
+            {
+              "label": "D",
+              "text": "当 $f''(x)>0$ 时，$f\\left(\\dfrac12\\right)<0$"
+            }
+          ],
+          "layout": "4col"
+        },
+        {
+          "number": 5,
+          "type": "选择题",
+          "points": 4,
+          "stem": "设\n\n$$\nM=\\int_{-\\frac{\\pi}{2}}^{\\frac{\\pi}{2}}\\frac{(1+x)^2}{1+x^2}\\,\\mathrm{d}x,\\quad\nN=\\int_{-\\frac{\\pi}{2}}^{\\frac{\\pi}{2}}\\frac{1+x}{e^x}\\,\\mathrm{d}x,\\quad\nK=\\int_{-\\frac{\\pi}{2}}^{\\frac{\\pi}{2}}\\left(1+\\sqrt{\\cos x}\\right)\\,\\mathrm{d}x,\n$$\n\n则 $\\left(\\ \\right)$",
+          "options": [
+            {
+              "label": "A",
+              "text": "$M>N>K$"
+            },
+            {
+              "label": "B",
+              "text": "$M>K>N$"
+            },
+            {
+              "label": "C",
+              "text": "$K>M>N$"
+            },
+            {
+              "label": "D",
+              "text": "$K>N>M$"
+            }
+          ],
+          "layout": "4col"
+        },
+        {
+          "number": 6,
+          "type": "选择题",
+          "points": 4,
+          "stem": "$$\n\\int_{-1}^{0}\\mathrm{d}x\\int_{-x}^{2-x^{2}}(1-xy)\\,\\mathrm{d}y\n+\n\\int_{0}^{1}\\mathrm{d}x\\int_{x}^{2-x^{2}}(1-xy)\\,\\mathrm{d}y\n=\n\\left(\\ \\right)\n$$",
+          "options": [
+            {
+              "label": "A",
+              "text": "$\\dfrac{5}{3}$"
+            },
+            {
+              "label": "B",
+              "text": "$\\dfrac{5}{6}$"
+            },
+            {
+              "label": "C",
+              "text": "$\\dfrac{7}{3}$"
+            },
+            {
+              "label": "D",
+              "text": "$\\dfrac{7}{6}$"
+            }
+          ],
+          "layout": "4col"
+        },
+        {
+          "number": 7,
+          "type": "选择题",
+          "points": 4,
+          "stem": "下列矩阵中，与矩阵\n\n$$\n\\begin{pmatrix}\n1&1&0\\\\\n0&1&1\\\\\n0&0&1\n\\end{pmatrix}\n$$\n\n相似的是 $\\left(\\ \\right)$",
+          "options": [
+            {
+              "label": "A",
+              "text": "$\\begin{pmatrix}1&1&-1\\\\0&1&1\\\\0&0&1\\end{pmatrix}$"
+            },
+            {
+              "label": "B",
+              "text": "$\\begin{pmatrix}1&0&-1\\\\0&1&1\\\\0&0&1\\end{pmatrix}$"
+            },
+            {
+              "label": "C",
+              "text": "$\\begin{pmatrix}1&1&-1\\\\0&1&0\\\\0&0&1\\end{pmatrix}$"
+            },
+            {
+              "label": "D",
+              "text": "$\\begin{pmatrix}1&0&-1\\\\0&1&0\\\\0&0&1\\end{pmatrix}$"
+            }
+          ],
+          "layout": "4col"
+        },
+        {
+          "number": 8,
+          "type": "选择题",
+          "points": 4,
+          "stem": "设 $\\boldsymbol A,\\boldsymbol B$ 为 $n$ 阶矩阵，记 $r(\\boldsymbol X)$ 为矩阵 $\\boldsymbol X$ 的秩，$(\\boldsymbol X,\\boldsymbol Y)$ 表示分块矩阵，则 $\\left(\\ \\right)$",
+          "options": [
+            {
+              "label": "A",
+              "text": "$r(\\boldsymbol A,\\boldsymbol A\\boldsymbol B)=r(\\boldsymbol A)$"
+            },
+            {
+              "label": "B",
+              "text": "$r(\\boldsymbol A,\\boldsymbol B\\boldsymbol A)=r(\\boldsymbol A)$"
+            },
+            {
+              "label": "C",
+              "text": "$r(\\boldsymbol A,\\boldsymbol B)=\\max\\{r(\\boldsymbol A),r(\\boldsymbol B)\\}$"
+            },
+            {
+              "label": "D",
+              "text": "$r(\\boldsymbol A,\\boldsymbol B)=r(\\boldsymbol A^T,\\boldsymbol B^T)$"
+            }
+          ],
+          "layout": "4col"
+        }
+      ]
+    },
+    {
+      "type": "填空题",
+      "heading": "二、填空题：9～14小题，每小题4分，共24分。",
+      "questions": [
+        {
+          "number": 9,
+          "type": "填空题",
+          "points": 4,
+          "stem": "$$\n\\lim_{x\\to+\\infty}x^2\\left[\\arctan(x+1)-\\arctan x\\right]\n=\n\\underline{\\qquad}\n$$"
+        },
+        {
+          "number": 10,
+          "type": "填空题",
+          "points": 4,
+          "stem": "曲线\n\n$$\ny=x^2+2\\ln x\n$$\n\n在其拐点处的切线方程是 $\\underline{\\qquad}$"
+        },
+        {
+          "number": 11,
+          "type": "填空题",
+          "points": 4,
+          "stem": "$$\n\\int_{5}^{+\\infty}\\frac{1}{x^2-4x+3}\\,\\mathrm{d}x\n=\n\\underline{\\qquad}\n$$"
+        },
+        {
+          "number": 12,
+          "type": "填空题",
+          "points": 4,
+          "stem": "曲线\n\n$$\n\\begin{cases}\nx=\\cos^3 t,\\\\\ny=\\sin^3 t\n\\end{cases}\n$$\n\n在 $t=\\dfrac{\\pi}{4}$ 对应点处的曲率为 $\\underline{\\qquad}$"
+        },
+        {
+          "number": 13,
+          "type": "填空题",
+          "points": 4,
+          "stem": "设函数 $z=z(x,y)$ 由方程\n\n$$\n\\ln z+e^{z-1}=xy\n$$\n\n确定，则\n\n$$\n\\left.\\frac{\\partial z}{\\partial x}\\right|_{\\left(2,\\frac12\\right)}\n=\n\\underline{\\qquad}\n$$"
+        },
+        {
+          "number": 14,
+          "type": "填空题",
+          "points": 4,
+          "stem": "设 $\\boldsymbol A$ 为 $3$ 阶矩阵，$\\boldsymbol\\alpha_1,\\boldsymbol\\alpha_2,\\boldsymbol\\alpha_3$ 为线性无关的向量组。若\n\n$$\n\\boldsymbol A\\boldsymbol\\alpha_1=2\\boldsymbol\\alpha_1+\\boldsymbol\\alpha_2+\\boldsymbol\\alpha_3,\n$$\n\n$$\n\\boldsymbol A\\boldsymbol\\alpha_2=\\boldsymbol\\alpha_2+2\\boldsymbol\\alpha_3,\n\\qquad\n\\boldsymbol A\\boldsymbol\\alpha_3=-\\boldsymbol\\alpha_2+\\boldsymbol\\alpha_3,\n$$\n\n则 $|\\boldsymbol A|=\\underline{\\qquad}$"
+        }
+      ]
+    },
+    {
+      "type": "解答题",
+      "heading": "三、解答题：15～23小题，共94分。解答应写出文字说明、证明过程或演算步骤。",
+      "questions": [
+        {
+          "number": 15,
+          "type": "解答题",
+          "points": 10,
+          "stem": "求不定积分\n\n$$\n\\int e^{2x}\\arctan\\sqrt{e^x-1}\\,\\mathrm{d}x.\n$$"
+        },
+        {
+          "number": 16,
+          "type": "解答题",
+          "points": 10,
+          "stem": "已知连续函数 $f(x)$ 满足\n\n$$\n\\int_0^x f(t)\\,\\mathrm{d}t+\\int_0^x t f(x-t)\\,\\mathrm{d}t=ax^2.\n$$\n\n（1）求 $f(x)$；\n\n（2）若 $f(x)$ 在区间 $[0,1]$ 上的平均值为 $1$，求 $a$ 的值。"
+        },
+        {
+          "number": 17,
+          "type": "解答题",
+          "points": 10,
+          "stem": "设平面区域 $D$ 由曲线\n\n$$\n\\begin{cases}\nx=t-\\sin t,\\\\\ny=1-\\cos t\n\\end{cases}\n\\qquad\n0\\leq t\\leq 2\\pi\n$$\n\n与 $x$ 轴围成，计算二重积分\n\n$$\n\\iint_D(x+2y)\\,\\mathrm{d}x\\,\\mathrm{d}y.\n$$"
+        },
+        {
+          "number": 18,
+          "type": "解答题",
+          "points": 10,
+          "stem": "已知常数 $k\\geq \\ln2-1$。证明：\n\n$$\n(x-1)(x-\\ln^2x+2k\\ln x-1)\\geq 0,\\qquad x>0.\n$$"
+        },
+        {
+          "number": 19,
+          "type": "解答题",
+          "points": 10,
+          "stem": "将长为 $2\\mathrm{m}$ 的铁丝分成三段，依次围成圆、正方形与正三角形。问：三个图形的面积和是否存在最小值？若存在，求出最小值。"
+        },
+        {
+          "number": 20,
+          "type": "解答题",
+          "points": 11,
+          "stem": "已知曲线\n\n$$\nL:y=\\frac49x^2\\quad (x\\geq 0),\n$$\n\n点 $O(0,0)$，点 $A(0,1)$。设 $P$ 是 $L$ 上的动点，$S$ 是直线 $OA$ 与直线 $AP$ 及曲线 $L$ 所围成图形的面积。若 $P$ 运动到点 $(3,4)$ 时沿 $x$ 轴正向的速度是 $4$，求此时 $S$ 关于时间 $t$ 的变化率。"
+        },
+        {
+          "number": 21,
+          "type": "解答题",
+          "points": 11,
+          "stem": "设数列 $\\{x_n\\}$ 满足：\n\n$$\nx_1>0,\\qquad\nx_n e^{x_{n+1}}=e^{x_n}-1\\quad(n=1,2,\\cdots).\n$$\n\n证明 $\\{x_n\\}$ 收敛，并求\n\n$$\n\\lim_{n\\to\\infty}x_n.\n$$"
+        },
+        {
+          "number": 22,
+          "type": "解答题",
+          "points": 11,
+          "stem": "设实二次型\n\n$$\nf(x_1,x_2,x_3)\n=\n(x_1-x_2+x_3)^2+(x_2+x_3)^2+(x_1+a x_3)^2,\n$$\n\n其中 $a$ 是参数。\n\n（1）求 $f(x_1,x_2,x_3)=0$ 的解；\n\n（2）求 $f(x_1,x_2,x_3)$ 的规范形。"
+        },
+        {
+          "number": 23,
+          "type": "解答题",
+          "points": 11,
+          "stem": "已知 $a$ 是常数，且矩阵\n\n$$\n\\boldsymbol A=\n\\begin{pmatrix}\n1&2&a\\\\\n1&3&0\\\\\n2&7&-a\n\\end{pmatrix}\n$$\n\n可经初等列变换化为矩阵\n\n$$\n\\boldsymbol B=\n\\begin{pmatrix}\n1&a&2\\\\\n0&1&1\\\\\n-1&1&1\n\\end{pmatrix}.\n$$\n\n（1）求 $a$；\n\n（2）求满足 $\\boldsymbol A\\boldsymbol P=\\boldsymbol B$ 的可逆矩阵 $\\boldsymbol P$。"
+        }
+      ]
+    }
+  ]
+}

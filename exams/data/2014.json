@@ -1,0 +1,316 @@
+{
+  "year": 2014,
+  "subject": "数学（二）",
+  "totalPoints": 150,
+  "durationMinutes": 180,
+  "sections": [
+    {
+      "type": "选择题",
+      "heading": "一、选择题：1～8小题，每小题4分，共32分。下列每题给出的四个选项中，只有一个选项是符合题目要求的。",
+      "questions": [
+        {
+          "number": 1,
+          "type": "选择题",
+          "points": 4,
+          "stem": "当 $x\\to 0^{+}$ 时，若 $\\ln^{\\alpha}\\left(1+2x\\right)$，$\\left(1-\\cos x\\right)^{\\frac{1}{\\alpha}}$ 均是比 $x$ 高阶的无穷小，则 $\\alpha$ 的可能取值范围是（ ）",
+          "options": [
+            {
+              "label": "A",
+              "text": "$\\left(2,+\\infty\\right)$"
+            },
+            {
+              "label": "B",
+              "text": "$\\left(1,2\\right)$"
+            },
+            {
+              "label": "C",
+              "text": "$\\left(\\frac{1}{2},1\\right)$"
+            },
+            {
+              "label": "D",
+              "text": "$\\left(0,\\frac{1}{2}\\right)$"
+            }
+          ],
+          "layout": "4col"
+        },
+        {
+          "number": 2,
+          "type": "选择题",
+          "points": 4,
+          "stem": "下列曲线有渐近线的是（ ）",
+          "options": [
+            {
+              "label": "A",
+              "text": "$y=x+\\sin x$"
+            },
+            {
+              "label": "B",
+              "text": "$y=x^{2}+\\sin x$"
+            },
+            {
+              "label": "C",
+              "text": "$y=x+\\sin \\frac{1}{x}$"
+            },
+            {
+              "label": "D",
+              "text": "$y=x^{2}+\\sin \\frac{1}{x}$"
+            }
+          ],
+          "layout": "4col"
+        },
+        {
+          "number": 3,
+          "type": "选择题",
+          "points": 4,
+          "stem": "设函数 $f\\left(x\\right)$ 具有二阶导数，$g\\left(x\\right)=f\\left(0\\right)\\left(1-x\\right)+f\\left(1\\right)x$，则在 $\\left[0,1\\right]$ 上（ ）",
+          "options": [
+            {
+              "label": "A",
+              "text": "当 $f^{\\prime}\\left(x\\right)\\geq 0$ 时，$f\\left(x\\right)\\geq g\\left(x\\right)$"
+            },
+            {
+              "label": "B",
+              "text": "当 $f^{\\prime}\\left(x\\right)\\geq 0$ 时，$f\\left(x\\right)\\leq g\\left(x\\right)$"
+            },
+            {
+              "label": "C",
+              "text": "当 $f^{\\prime\\prime}\\left(x\\right)\\geq 0$ 时，$f\\left(x\\right)\\geq g\\left(x\\right)$"
+            },
+            {
+              "label": "D",
+              "text": "当 $f^{\\prime\\prime}\\left(x\\right)\\geq 0$ 时，$f\\left(x\\right)\\leq g\\left(x\\right)$"
+            }
+          ],
+          "layout": "4col"
+        },
+        {
+          "number": 4,
+          "type": "选择题",
+          "points": 4,
+          "stem": "曲线 $\\left\\{\\begin{matrix}x=t^{2}+7\\\\\\ y=t^{2}+4t+1\\end{matrix}\\right.$ 上对应于 $t=1$ 的点处的曲率半径是（ ）",
+          "options": [
+            {
+              "label": "A",
+              "text": "$\\frac{\\sqrt{10}}{50}$"
+            },
+            {
+              "label": "B",
+              "text": "$\\frac{\\sqrt{10}}{100}$"
+            },
+            {
+              "label": "C",
+              "text": "$10\\sqrt{10}$"
+            },
+            {
+              "label": "D",
+              "text": "$5\\sqrt{10}$"
+            }
+          ],
+          "layout": "4col"
+        },
+        {
+          "number": 5,
+          "type": "选择题",
+          "points": 4,
+          "stem": "设函数 $f\\left(x\\right)=\\arctan x$，若 $f\\left(x\\right)=xf^{\\prime}\\left(\\xi\\right)$，则 $\\lim_{x\\to 0}\\frac{\\xi^{2}}{x^{2}}=$（ ）",
+          "options": [
+            {
+              "label": "A",
+              "text": "$1$"
+            },
+            {
+              "label": "B",
+              "text": "$\\frac{2}{3}$"
+            },
+            {
+              "label": "C",
+              "text": "$\\frac{1}{2}$"
+            },
+            {
+              "label": "D",
+              "text": "$\\frac{1}{3}$"
+            }
+          ],
+          "layout": "4col"
+        },
+        {
+          "number": 6,
+          "type": "选择题",
+          "points": 4,
+          "stem": "设 $u\\left(x,y\\right)$ 在平面有界闭区域 $D$ 上连续，在 $D$ 的内部具有二阶连续偏导数，且满足 $\\frac{\\partial^{2}u}{\\partial x\\partial y}\\neq 0$ 及 $\\frac{\\partial^{2}u}{\\partial x^{2}}+\\frac{\\partial^{2}u}{\\partial y^{2}}=0$，则（ ）",
+          "options": [
+            {
+              "label": "A",
+              "text": "$u\\left(x,y\\right)$ 的最大值点和最小值点必定都在区域 $D$ 的边界上；"
+            },
+            {
+              "label": "B",
+              "text": "$u\\left(x,y\\right)$ 的最大值点和最小值点必定都在区域 $D$ 的内部；"
+            },
+            {
+              "label": "C",
+              "text": "$u\\left(x,y\\right)$ 的最大值点在区域 $D$ 的内部，最小值点在区域 $D$ 的边界上；"
+            },
+            {
+              "label": "D",
+              "text": "$u\\left(x,y\\right)$ 的最小值点在区域 $D$ 的内部，最大值点在区域 $D$ 的边界上。"
+            }
+          ],
+          "layout": "1col"
+        },
+        {
+          "number": 7,
+          "type": "选择题",
+          "points": 4,
+          "stem": "行列式 $\\left|\\begin{matrix}0&a&b&0\\\\\\ a&0&0&b\\\\\\ 0&c&d&0\\\\\\ c&0&0&d\\end{matrix}\\right|$ 等于（ ）",
+          "options": [
+            {
+              "label": "A",
+              "text": "$\\left(ad-bc\\right)^{2}$"
+            },
+            {
+              "label": "B",
+              "text": "$-\\left(ad-bc\\right)^{2}$"
+            },
+            {
+              "label": "C",
+              "text": "$a^{2}d^{2}-b^{2}c^{2}$"
+            },
+            {
+              "label": "D",
+              "text": "$-a^{2}d^{2}+b^{2}c^{2}$"
+            }
+          ],
+          "layout": "4col"
+        },
+        {
+          "number": 8,
+          "type": "选择题",
+          "points": 4,
+          "stem": "设 $\\boldsymbol{\\alpha}_{1},\\boldsymbol{\\alpha}_{2},\\boldsymbol{\\alpha}_{3}$ 是三维向量，则对任意的常数 $k,l$，向量 $\\boldsymbol{\\alpha}_{1}+k\\boldsymbol{\\alpha}_{3}$，$\\boldsymbol{\\alpha}_{2}+l\\boldsymbol{\\alpha}_{3}$ 线性无关是向量 $\\boldsymbol{\\alpha}_{1},\\boldsymbol{\\alpha}_{2},\\boldsymbol{\\alpha}_{3}$ 线性无关的（ ）",
+          "options": [
+            {
+              "label": "A",
+              "text": "必要而非充分条件"
+            },
+            {
+              "label": "B",
+              "text": "充分而非必要条件"
+            },
+            {
+              "label": "C",
+              "text": "充分必要条件"
+            },
+            {
+              "label": "D",
+              "text": "非充分非必要条件"
+            }
+          ],
+          "layout": "4col"
+        }
+      ]
+    },
+    {
+      "type": "填空题",
+      "heading": "二、填空题：9～14小题，每小题4分，共24分。",
+      "questions": [
+        {
+          "number": 9,
+          "type": "填空题",
+          "points": 4,
+          "stem": "$\\int_{-\\infty}^{1}\\frac{1}{x^{2}+2x+5}\\mathrm{~d}x=$________。"
+        },
+        {
+          "number": 10,
+          "type": "填空题",
+          "points": 4,
+          "stem": "设 $f\\left(x\\right)$ 为周期为 $4$ 的可导奇函数，且 $f^{\\prime}\\left(x\\right)=2\\left(x-1\\right)$，$x\\in \\left[0,2\\right]$，则 $f\\left(7\\right)=$________。"
+        },
+        {
+          "number": 11,
+          "type": "填空题",
+          "points": 4,
+          "stem": "设 $z=z\\left(x,y\\right)$ 是由方程 $e^{2yz}+x+y^{2}+z=\\frac{7}{4}$ 确定的函数，则 $\\left.\\mathrm{d}z\\right|_{\\left(\\frac{1}{2},\\frac{1}{2}\\right)}=$________。"
+        },
+        {
+          "number": 12,
+          "type": "填空题",
+          "points": 4,
+          "stem": "曲线 $L$ 的极坐标方程为 $r=\\theta$，则 $L$ 在点 $\\left(r,\\theta\\right)=\\left(\\frac{\\pi}{2},\\frac{\\pi}{2}\\right)$ 处的切线方程为________。"
+        },
+        {
+          "number": 13,
+          "type": "填空题",
+          "points": 4,
+          "stem": "一根长为 $1$ 的细棒位于 $x$ 轴的区间 $\\left[0,1\\right]$ 上，若其线密度 $\\rho\\left(x\\right)=-x^{2}+2x+1$，则该细棒的质心坐标 $\\overline{x}=$________。"
+        },
+        {
+          "number": 14,
+          "type": "填空题",
+          "points": 4,
+          "stem": "设二次型 $f\\left(x_{1},x_{2},x_{3}\\right)=x_{1}^{2}-x_{2}^{2}+2ax_{1}x_{3}+4x_{2}x_{3}$ 的负惯性指数是 $1$，则 $a$ 的取值范围是________。"
+        }
+      ]
+    },
+    {
+      "type": "解答题",
+      "heading": "三、解答题：15～23小题，共94分。解答应写出文字说明、证明过程或演算步骤。",
+      "questions": [
+        {
+          "number": 15,
+          "type": "解答题",
+          "points": 10,
+          "stem": "求极限 $\\lim_{x\\to+\\infty}\\frac{\\int_{1}^{x}\\left(t^{2}\\left(e^{\\frac{1}{t}}-1\\right)-t\\right)\\mathrm{~d}t}{x^{2}\\ln\\left(1+\\frac{1}{x}\\right)}$。"
+        },
+        {
+          "number": 16,
+          "type": "解答题",
+          "points": 10,
+          "stem": "已知函数 $y=y\\left(x\\right)$ 满足微分方程 $x^{2}+y^{2}y^{\\prime}=1-y^{\\prime}$，且 $y\\left(2\\right)=0$，求 $y\\left(x\\right)$ 的极大值和极小值。"
+        },
+        {
+          "number": 17,
+          "type": "解答题",
+          "points": 10,
+          "stem": "设平面区域 $D=\\left\\{\\left(x,y\\right)\\middle|1\\leq x^{2}+y^{2}\\leq 4,x\\geq 0,y\\geq 0\\right\\}$。计算 $\\iint_{D}\\frac{x\\sin\\left(\\pi\\sqrt{x^{2}+y^{2}}\\right)}{x+y}\\mathrm{~d}x\\mathrm{~d}y$。"
+        },
+        {
+          "number": 18,
+          "type": "解答题",
+          "points": 10,
+          "stem": "设函数 $f\\left(u\\right)$ 具有二阶连续导数，$z=f\\left(e^{x}\\cos y\\right)$ 满足 $\\frac{\\partial^{2}z}{\\partial x^{2}}+\\frac{\\partial^{2}z}{\\partial y^{2}}=\\left(4z+e^{x}\\cos y\\right)e^{2x}$。若 $f\\left(0\\right)=0,f^{\\prime}\\left(0\\right)=0$，求 $f\\left(u\\right)$ 的表达式。"
+        },
+        {
+          "number": 19,
+          "type": "解答题",
+          "points": 10,
+          "stem": "设函数 $f\\left(x\\right),g\\left(x\\right)$ 在区间 $\\left[a,b\\right]$ 上连续，且 $f\\left(x\\right)$ 单调增加，$0\\leq g\\left(x\\right)\\leq 1$，证明：\n\n（1）$0\\leq \\int_{a}^{x}g\\left(t\\right)\\mathrm{~d}t\\leq x-a,\\quad x\\in \\left[a,b\\right]$；\n\n（2）$\\int_{a}^{a+\\int_{a}^{b}g\\left(t\\right)\\mathrm{~d}t}f\\left(x\\right)\\mathrm{~d}x\\leq \\int_{a}^{b}f\\left(x\\right)g\\left(x\\right)\\mathrm{~d}x$。"
+        },
+        {
+          "number": 20,
+          "type": "解答题",
+          "points": 11,
+          "stem": "设函数 $f\\left(x\\right)=\\frac{x}{1+x}$，$x\\in \\left[0,1\\right]$，定义函数列\n\n$f_{1}\\left(x\\right)=f\\left(x\\right),\\quad f_{2}\\left(x\\right)=f\\left(f_{1}\\left(x\\right)\\right),\\quad \\cdots,\\quad f_{n}\\left(x\\right)=f\\left(f_{n-1}\\left(x\\right)\\right),\\quad \\cdots$\n\n设 $S_{n}$ 是曲线 $y=f_{n}\\left(x\\right)$，直线 $x=1,y=0$ 所围图形的面积。求极限 $\\lim_{n\\to\\infty}nS_{n}$。"
+        },
+        {
+          "number": 21,
+          "type": "解答题",
+          "points": 11,
+          "stem": "已知函数 $f\\left(x,y\\right)$ 满足 $\\frac{\\partial f}{\\partial y}=2\\left(y+1\\right)$，且 $f\\left(y,y\\right)=\\left(y+1\\right)^{2}-\\left(2-y\\right)\\ln y$，求曲线 $f\\left(x,y\\right)=0$ 所成的图形绕直线 $y=-1$ 旋转所成的旋转体的体积。"
+        },
+        {
+          "number": 22,
+          "type": "解答题",
+          "points": 11,
+          "stem": "设 $\\boldsymbol{A}=\\left(\\begin{matrix}1&-2&3&-4\\\\\\ 0&1&-1&1\\\\\\ 1&2&0&3\\end{matrix}\\right)$，$\\boldsymbol{E}$ 为三阶单位矩阵。\n\n（1）求方程组 $\\boldsymbol{A}\\boldsymbol{X}=\\boldsymbol{0}$ 的一个基础解系；\n\n（2）求满足 $\\boldsymbol{A}\\boldsymbol{B}=\\boldsymbol{E}$ 的所有矩阵。"
+        },
+        {
+          "number": 23,
+          "type": "解答题",
+          "points": 11,
+          "stem": "证明 $n$ 阶矩阵\n\n$\\left(\\begin{matrix}1&1&\\cdots&1\\\\\\ 1&1&\\cdots&1\\\\\\ \\vdots&\\vdots&&\\vdots\\\\\\ 1&1&\\cdots&1\\end{matrix}\\right)$\n\n与\n\n$\\left(\\begin{matrix}0&\\cdots&0&1\\\\\\ 0&\\cdots&0&2\\\\\\ \\vdots&\\vdots&&\\vdots\\\\\\ 0&\\cdots&0&n\\end{matrix}\\right)$\n\n相似。"
+        }
+      ]
+    }
+  ]
+}

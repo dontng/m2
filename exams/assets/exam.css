@@ -1,0 +1,328 @@
+@font-face {
+  font-family:ExamSong;
+  src:url("exam-song.otf") format("opentype");
+  font-display:swap;
+}
+
+:root {
+  --paper:#fff;
+  --ink:#111;
+}
+
+* {
+  box-sizing:border-box;
+}
+
+html {
+  color-scheme:light;
+  background:var(--paper);
+}
+
+body {
+  margin:0;
+  color:var(--ink);
+  background:var(--paper);
+  font:16px/1.85 "SimSun","Songti SC","Times New Roman","ExamSong",serif;
+}
+
+.exam-paper {
+  max-width:860px;
+  margin:0 auto;
+  padding:40px;
+}
+
+.exam-header {
+  text-align:center;
+  margin-bottom:2em;
+  break-inside:avoid;
+}
+
+.exam-header h1,.exam-header h2 {
+  margin:0;
+  font-weight:700;
+  line-height:1.6;
+}
+
+.exam-header h1 {
+  font-size:23px;
+  letter-spacing:.06em;
+}
+
+.exam-header h2 {
+  font-size:22px;
+  margin-top:.35em;
+  letter-spacing:.15em;
+}
+
+.exam-meta {
+  display:flex;
+  justify-content:center;
+  gap:2.5em;
+  margin:1em 0 0;
+  font-size:14px;
+}
+
+.exam-section+.exam-section {
+  margin-top:2em;
+}
+
+.section-title {
+  font-size:1em;
+  line-height:1.85;
+  margin:0 0 1.2em;
+  font-weight:700;
+  text-align:justify;
+  break-after:avoid;
+}
+
+.question-list,.options {
+  padding:0;
+  list-style:none;
+}
+
+.question-list {
+  margin:0;
+}
+
+.question {
+  margin:0 0 1.35em;
+  break-inside:avoid;
+}
+
+.question-body {
+  display:grid;
+  grid-template-columns:2.3em minmax(0,1fr);
+  gap:.2em;
+  align-items:baseline;
+}
+
+.question-number {
+  white-space:nowrap;
+  font-variant-numeric:tabular-nums;
+}
+
+.question-content,.option-content {
+  min-width:0;
+}
+
+.question-content p {
+  margin:0 0 .55em;
+  text-align:justify;
+  orphans:2;
+  widows:2;
+  overflow-wrap:break-word;
+}
+
+.question-content p:last-child {
+  margin-bottom:0;
+}
+
+.question-score {
+  white-space:nowrap;
+  font-size:.95em;
+  margin-bottom:.35em;
+}
+
+.options {
+  gap:.45em 1.3em;
+  margin:.6em 0 0;
+}
+
+.options-4col {
+  display:grid;
+  grid-template-columns:repeat(4,minmax(0,1fr));
+}
+
+.options-2col {
+  display:grid;
+  grid-template-columns:repeat(2,minmax(0,1fr));
+}
+
+.options-1col {
+  display:flex;
+  flex-direction:column;
+}
+
+.option {
+  display:grid;
+  grid-template-columns:2em minmax(0,1fr);
+  gap:.2em;
+  align-items:baseline;
+  min-width:0;
+  break-inside:avoid;
+}
+
+.option-label {
+  white-space:nowrap;
+}
+
+.option-content p {
+  margin:0;
+}
+
+.katex {
+  font-size:1.05em;
+}
+
+.katex-display {
+  margin:.7em 0;
+  padding:.15em 0;
+  overflow-x:auto;
+  overflow-y:hidden;
+  break-inside:avoid;
+}
+
+.katex-display>.katex {
+  white-space:nowrap;
+}
+
+.answer-blank {
+  display:inline-block;
+  min-width:6em;
+  height:1em;
+  border-bottom:1px solid currentColor;
+  vertical-align:-.1em;
+}
+
+.question-figure {
+  margin:.8em auto;
+  text-align:center;
+  break-inside:avoid;
+}
+
+.question-figure img {
+  display:block;
+  max-width:100%;
+  max-height:50mm;
+  width:auto;
+  height:auto;
+  margin:auto;
+}
+
+.subquestions {
+  list-style:none;
+  padding:0;
+  margin:.5em 0 0;
+}
+
+.subquestions li {
+  display:grid;
+  grid-template-columns:2.5em minmax(0,1fr);
+  gap:.2em;
+  margin-top:.45em;
+  break-inside:avoid;
+}
+
+.screen-only {
+  max-width:860px;
+  margin:0 auto;
+  padding:16px 40px;
+  font-size:14px;
+}
+
+.screen-only a {
+  color:inherit;
+}
+
+.screen-only button {
+  font:inherit;
+  color:inherit;
+  background:white;
+  border:1px solid #111;
+  padding:4px 14px;
+  cursor:pointer;
+}
+
+.toolbar {
+  display:flex;
+  gap:1em;
+  flex-wrap:wrap;
+  align-items:center;
+  border-bottom:1px solid #111;
+}
+
+.year-list {
+  display:grid;
+  grid-template-columns:repeat(4,1fr);
+  gap:12px;
+  list-style:none;
+  padding:0;
+}
+
+.formula-error {
+  outline:1px dashed currentColor;
+}
+
+.exam-paper+.exam-paper {
+  border-top:1px solid #111;
+}
+
+@media screen and (max-width:640px) {
+  .exam-paper,.screen-only {
+    padding:24px 18px;
+  }
+  .exam-header h1 {
+    font-size:19px;
+    letter-spacing:0;
+  }
+  .exam-header h2 {
+    font-size:20px;
+  }
+  .options-4col {
+    grid-template-columns:repeat(2,minmax(0,1fr));
+  }
+  .year-list {
+    grid-template-columns:repeat(2,1fr);
+  }
+}
+
+@media screen and (max-width:420px) {
+  .options-4col,.options-2col {
+    grid-template-columns:minmax(0,1fr);
+  }
+}
+
+@page {
+  size:A4 portrait;
+  margin:18mm 18mm 18mm 20mm;
+}
+
+@media print {
+  body {
+    font-size:10.5pt;
+    line-height:1.8;
+  }
+  .exam-paper {
+    max-width:none;
+    margin:0;
+    padding:0;
+  }
+  .exam-header {
+    margin-bottom:7mm;
+  }
+  .exam-header h1 {
+    font-size:16pt;
+  }
+  .exam-header h2 {
+    font-size:15pt;
+  }
+  .exam-meta {
+    font-size:10pt;
+  }
+  .exam-section+.exam-section {
+    margin-top:6mm;
+  }
+  .question {
+    margin-bottom:5mm;
+  }
+  .katex-display {
+    overflow:visible;
+  }
+  .screen-only {
+    display:none!important;
+  }
+  .exam-paper+.exam-paper {
+    border:0;
+    break-before:page;
+  }
+}

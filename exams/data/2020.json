@@ -1,0 +1,316 @@
+{
+  "year": 2020,
+  "subject": "数学（二）",
+  "totalPoints": 150,
+  "durationMinutes": 180,
+  "sections": [
+    {
+      "type": "选择题",
+      "heading": "一、选择题：1～8小题，每小题4分，共32分。下列每题给出的四个选项中，只有一个选项是符合题目要求的。",
+      "questions": [
+        {
+          "number": 1,
+          "type": "选择题",
+          "points": 4,
+          "stem": "当 $x \\to 0^{+}$ 时，下列无穷小量中阶最高的是",
+          "options": [
+            {
+              "label": "A",
+              "text": "$\\int_{0}^{x}{\\left( e^{t^{2}} - 1 \\right) \\mathrm{~d} t}$"
+            },
+            {
+              "label": "B",
+              "text": "$\\int_{0}^{x}{\\ln \\left( 1 + \\sqrt{t^{3}} \\right) \\mathrm{~d} t}$"
+            },
+            {
+              "label": "C",
+              "text": "$\\int_{0}^{\\sin x}{\\sin t^{2} \\mathrm{~d} t}$"
+            },
+            {
+              "label": "D",
+              "text": "$\\int_{0}^{1-\\cos x}{\\sqrt{\\sin^{3} t} \\mathrm{~d} t}$"
+            }
+          ],
+          "layout": "4col"
+        },
+        {
+          "number": 2,
+          "type": "选择题",
+          "points": 4,
+          "stem": "函数 $f\\left( x \\right) = \\dfrac{e^{\\frac{1}{x-1}} \\ln \\left| 1+x \\right|}{\\left( e^{x} - 1 \\right)\\left( x-2 \\right)}$ 的第二类间断点的个数为",
+          "options": [
+            {
+              "label": "A",
+              "text": "$1$ 个"
+            },
+            {
+              "label": "B",
+              "text": "$2$ 个"
+            },
+            {
+              "label": "C",
+              "text": "$3$ 个"
+            },
+            {
+              "label": "D",
+              "text": "$4$ 个"
+            }
+          ],
+          "layout": "4col"
+        },
+        {
+          "number": 3,
+          "type": "选择题",
+          "points": 4,
+          "stem": "$\\int_{0}^{1}{\\dfrac{\\arcsin \\sqrt{x}}{\\sqrt{x\\left( 1-x \\right)}} \\mathrm{~d} x} =$",
+          "options": [
+            {
+              "label": "A",
+              "text": "$\\dfrac{\\pi^{2}}{4}$"
+            },
+            {
+              "label": "B",
+              "text": "$\\dfrac{\\pi^{2}}{8}$"
+            },
+            {
+              "label": "C",
+              "text": "$\\dfrac{\\pi}{4}$"
+            },
+            {
+              "label": "D",
+              "text": "$\\dfrac{\\pi}{8}$"
+            }
+          ],
+          "layout": "4col"
+        },
+        {
+          "number": 4,
+          "type": "选择题",
+          "points": 4,
+          "stem": "已知函数 $f\\left( x \\right) = x^{2} \\ln \\left( 1-x \\right)$，当 $n \\geq 3$ 时，$f^{\\left( n \\right)}\\left( 0 \\right) =$",
+          "options": [
+            {
+              "label": "A",
+              "text": "$-\\dfrac{n!}{n-2}$"
+            },
+            {
+              "label": "B",
+              "text": "$\\dfrac{n!}{n-2}$"
+            },
+            {
+              "label": "C",
+              "text": "$-\\dfrac{\\left( n-2 \\right)!}{n}$"
+            },
+            {
+              "label": "D",
+              "text": "$\\dfrac{\\left( n-2 \\right)!}{n}$"
+            }
+          ],
+          "layout": "4col"
+        },
+        {
+          "number": 5,
+          "type": "选择题",
+          "points": 4,
+          "stem": "关于函数\n$$\nf(x,y)=\n\\begin{cases}\nxy, & xy\\ne 0,\\\\\nx, & y=0,\\\\\ny, & x=0,\n\\end{cases}\n$$\n给出下列结论：\n\n1. $\\left.\\dfrac{\\partial f}{\\partial x}\\right|_{(0,0)}=1$\n2. $\\left.\\dfrac{\\partial^2 f}{\\partial x\\partial y}\\right|_{(0,0)}=1$\n3. $\\lim\\limits_{(x,y)\\to(0,0)}f(x,y)=0$\n4. $\\lim\\limits_{y\\to0}\\lim\\limits_{x\\to0}f(x,y)=0$\n\n其中正确的个数为",
+          "options": [
+            {
+              "label": "A",
+              "text": "$4$"
+            },
+            {
+              "label": "B",
+              "text": "$3$"
+            },
+            {
+              "label": "C",
+              "text": "$2$"
+            },
+            {
+              "label": "D",
+              "text": "$1$"
+            }
+          ],
+          "layout": "4col"
+        },
+        {
+          "number": 6,
+          "type": "选择题",
+          "points": 4,
+          "stem": "设函数 $f\\left( x \\right)$ 在区间 $\\left[ -2,2 \\right]$ 上可导，且 $f^{\\prime}\\left( x \\right) > f\\left( x \\right) > 0$，则",
+          "options": [
+            {
+              "label": "A",
+              "text": "$\\dfrac{f\\left( -2 \\right)}{f\\left( -1 \\right)} > 1$"
+            },
+            {
+              "label": "B",
+              "text": "$\\dfrac{f\\left( 0 \\right)}{f\\left( -1 \\right)} > e$"
+            },
+            {
+              "label": "C",
+              "text": "$\\dfrac{f\\left( 1 \\right)}{f\\left( -1 \\right)} < e^{2}$"
+            },
+            {
+              "label": "D",
+              "text": "$\\dfrac{f\\left( 2 \\right)}{f\\left( -1 \\right)} < e^{3}$"
+            }
+          ],
+          "layout": "4col"
+        },
+        {
+          "number": 7,
+          "type": "选择题",
+          "points": 4,
+          "stem": "设 4 阶矩阵 $\\boldsymbol{A}=(a_{ij})$ 不可逆，$a_{12}$ 的代数余子式 $A_{12}\\ne 0$。记 $\\boldsymbol{\\alpha}_1,\\boldsymbol{\\alpha}_2,\\boldsymbol{\\alpha}_3,\\boldsymbol{\\alpha}_4$ 为矩阵 $\\boldsymbol{A}$ 的列向量，$\\boldsymbol{A}^*$ 为 $\\boldsymbol{A}$ 的伴随矩阵，则方程组\n$$\n\\boldsymbol{A}^*\\boldsymbol{x}=0\n$$\n的通解为",
+          "options": [
+            {
+              "label": "A",
+              "text": "$\\boldsymbol{x}=k_1\\boldsymbol{\\alpha}_1+k_2\\boldsymbol{\\alpha}_2+k_3\\boldsymbol{\\alpha}_3$"
+            },
+            {
+              "label": "B",
+              "text": "$\\boldsymbol{x}=k_1\\boldsymbol{\\alpha}_1+k_2\\boldsymbol{\\alpha}_2+k_3\\boldsymbol{\\alpha}_4$"
+            },
+            {
+              "label": "C",
+              "text": "$\\boldsymbol{x}=k_1\\boldsymbol{\\alpha}_1+k_2\\boldsymbol{\\alpha}_3+k_3\\boldsymbol{\\alpha}_4$"
+            },
+            {
+              "label": "D",
+              "text": "$\\boldsymbol{x}=k_1\\boldsymbol{\\alpha}_2+k_2\\boldsymbol{\\alpha}_3+k_3\\boldsymbol{\\alpha}_4$\n\n其中 $k_1,k_2,k_3$ 为任意常数。"
+            }
+          ],
+          "layout": "4col"
+        },
+        {
+          "number": 8,
+          "type": "选择题",
+          "points": 4,
+          "stem": "设 $\\boldsymbol{A}$ 为 3 阶矩阵，$\\boldsymbol{\\alpha}_1,\\boldsymbol{\\alpha}_2$ 为 $\\boldsymbol{A}$ 的属于特征值 $1$ 的线性无关特征向量，$\\boldsymbol{\\alpha}_3$ 为 $\\boldsymbol{A}$ 的属于特征值 $-1$ 的特征向量。则满足\n$$\n\\boldsymbol{P}^{-1}\\boldsymbol{A}\\boldsymbol{P}=\n\\begin{pmatrix}\n1&0&0\\\\\n0&-1&0\\\\\n0&0&1\n\\end{pmatrix}\n$$\n的可逆矩阵 $\\boldsymbol{P}$ 可为",
+          "options": [
+            {
+              "label": "A",
+              "text": "$\\left(\\boldsymbol{\\alpha}_1+\\boldsymbol{\\alpha}_3,\\ \\boldsymbol{\\alpha}_2,\\ -\\boldsymbol{\\alpha}_3\\right)$"
+            },
+            {
+              "label": "B",
+              "text": "$\\left(\\boldsymbol{\\alpha}_1+\\boldsymbol{\\alpha}_2,\\ \\boldsymbol{\\alpha}_2,\\ -\\boldsymbol{\\alpha}_3\\right)$"
+            },
+            {
+              "label": "C",
+              "text": "$\\left(\\boldsymbol{\\alpha}_1+\\boldsymbol{\\alpha}_3,\\ -\\boldsymbol{\\alpha}_3,\\ \\boldsymbol{\\alpha}_2\\right)$"
+            },
+            {
+              "label": "D",
+              "text": "$\\left(\\boldsymbol{\\alpha}_1+\\boldsymbol{\\alpha}_2,\\ -\\boldsymbol{\\alpha}_3,\\ \\boldsymbol{\\alpha}_2\\right)$"
+            }
+          ],
+          "layout": "4col"
+        }
+      ]
+    },
+    {
+      "type": "填空题",
+      "heading": "二、填空题：9～14小题，每小题4分，共24分。",
+      "questions": [
+        {
+          "number": 9,
+          "type": "填空题",
+          "points": 4,
+          "stem": "设\n$$\n\\begin{cases}\nx=\\sqrt{t^2+1},\\\\\ny=\\ln\\!\\left(t+\\sqrt{t^2+1}\\right),\n\\end{cases}\n$$\n则 $\\left.\\dfrac{\\mathrm{d}^2y}{\\mathrm{d}x^2}\\right|_{t=1}=$"
+        },
+        {
+          "number": 10,
+          "type": "填空题",
+          "points": 4,
+          "stem": "$\\int_{0}^{1}{\\mathrm{d} y \\int_{\\sqrt{y}}^{1}{\\sqrt{x^{3}+1} \\mathrm{~d} x}} =$"
+        },
+        {
+          "number": 11,
+          "type": "填空题",
+          "points": 4,
+          "stem": "设 $z = \\arctan \\left[ xy + \\sin \\left( x+y \\right) \\right]$，则 $\\left. \\mathrm{d} z \\right|_{\\left( 0,\\pi \\right)} =$"
+        },
+        {
+          "number": 12,
+          "type": "填空题",
+          "points": 4,
+          "stem": "斜边长为 $2a$ 的等腰直角三角形平板铅直地沉没在水中，且斜边与水面相齐。记重力加速度为 $g$，水的密度为 $\\rho$，则该平板一侧所受的水压力为"
+        },
+        {
+          "number": 13,
+          "type": "填空题",
+          "points": 4,
+          "stem": "设 $y = y\\left( x \\right)$ 满足 $y^{\\prime\\prime} + 2y^{\\prime} + y = 0$，且 $y\\left( 0 \\right) = 0$，$y^{\\prime}\\left( 0 \\right) = 1$，则 $\\int_{0}^{+\\infty}{y\\left( x \\right) \\mathrm{~d} x} =$"
+        },
+        {
+          "number": 14,
+          "type": "填空题",
+          "points": 4,
+          "stem": "行列式\n$$\n\\begin{vmatrix}\na&0&-1&1\\\\\n0&a&1&-1\\\\\n-1&1&a&0\\\\\n1&-1&0&a\n\\end{vmatrix}\n=\n$$"
+        }
+      ]
+    },
+    {
+      "type": "解答题",
+      "heading": "三、解答题：15～23小题，共94分。解答应写出文字说明、证明过程或演算步骤。",
+      "questions": [
+        {
+          "number": 15,
+          "type": "解答题",
+          "points": 10,
+          "stem": "求曲线 $y = \\dfrac{x^{1+x}}{\\left( 1+x \\right)^{x}} \\left( x>0 \\right)$ 的斜渐近线方程。"
+        },
+        {
+          "number": 16,
+          "type": "解答题",
+          "points": 10,
+          "stem": "已知函数 $f\\left( x \\right)$ 连续且 $\\lim\\limits_{x\\to 0}{\\dfrac{f\\left( x \\right)}{x}} = 1$，$g\\left( x \\right)=\\int_{0}^{1}{f\\left( xt \\right) \\mathrm{~d} t}$，求 $g^{\\prime}\\left( x \\right)$，并证明 $g^{\\prime}\\left( x \\right)$ 在 $x=0$ 处连续。"
+        },
+        {
+          "number": 17,
+          "type": "解答题",
+          "points": 10,
+          "stem": "求函数 $f\\left( x,y \\right)=x^{3}+8y^{3}-xy$ 的极值。"
+        },
+        {
+          "number": 18,
+          "type": "解答题",
+          "points": 10,
+          "stem": "设函数 $f\\left( x \\right)$ 的定义域为 $\\left( 0,+\\infty \\right)$ 且满足\n$$\n2f\\left( x \\right)+x^{2}f\\left( \\dfrac{1}{x} \\right)=\\dfrac{x^{2}+2x}{\\sqrt{1+x^{2}}}\n$$\n求 $f\\left( x \\right)$，并求曲线 $y=f\\left( x \\right)$，$y=\\dfrac{1}{2}$，$y=\\dfrac{\\sqrt{3}}{2}$ 及 $y$ 轴所围图形绕 $x$ 轴旋转所成旋转体的体积。"
+        },
+        {
+          "number": 19,
+          "type": "解答题",
+          "points": 10,
+          "stem": "设平面区域 $D$ 由直线 $x=1$，$x=2$，$y=x$ 与 $x$ 轴围成。计算\n$$\n\\iint_{D}{\\dfrac{\\sqrt{x^{2}+y^{2}}}{x} \\mathrm{~d} x \\mathrm{~d} y}\n$$"
+        },
+        {
+          "number": 20,
+          "type": "解答题",
+          "points": 11,
+          "stem": "设函数 $f\\left( x \\right)=\\int_{1}^{x}{e^{t^{2}} \\mathrm{~d} t}$。\n\n1. 证明：存在 $\\xi \\in \\left( 1,2 \\right)$，使得 $f\\left( \\xi \\right)=\\left( 2-\\xi \\right)e^{\\xi^{2}}$；\n2. 证明：存在 $\\eta \\in \\left( 1,2 \\right)$，使得 $f\\left( 2 \\right)=\\ln 2 \\cdot \\eta e^{\\eta^{2}}$。"
+        },
+        {
+          "number": 21,
+          "type": "解答题",
+          "points": 11,
+          "stem": "设函数 $f\\left( x \\right)$ 可导，且 $f^{\\prime}\\left( x \\right)>0$，曲线 $y=f\\left( x \\right)\\left( x\\geq 0 \\right)$ 经过坐标原点 $O$。$M$ 为其上任意一点，点 $M$ 处的切线与 $x$ 轴交于点 $T$，又 $MP$ 垂直 $x$ 轴于点 $P$。已知由曲线 $y=f\\left( x \\right)$、直线 $MP$ 以及 $x$ 轴所围图形的面积与 $\\triangle MTP$ 的面积之比恒为 $3:2$，求满足上述条件的曲线方程。"
+        },
+        {
+          "number": 22,
+          "type": "解答题",
+          "points": 11,
+          "stem": "设二次型\n$$\nf(x_1,x_2,x_3)=x_1^2+x_2^2+x_3^2+2ax_1x_2+2ax_1x_3+2ax_2x_3\n$$\n经过可逆线性变换\n$$\n\\begin{pmatrix}\nx_1\\\\\nx_2\\\\\nx_3\n\\end{pmatrix}\n=\n\\boldsymbol{P}\n\\begin{pmatrix}\ny_1\\\\\ny_2\\\\\ny_3\n\\end{pmatrix}\n$$\n化为二次型\n$$\ng(y_1,y_2,y_3)=y_1^2+y_2^2+4y_3^2+2y_1y_2.\n$$\n\n1. 求 $a$ 的值；\n2. 求可逆矩阵 $\\boldsymbol{P}$。"
+        },
+        {
+          "number": 23,
+          "type": "解答题",
+          "points": 11,
+          "stem": "设 $\\boldsymbol{A}$ 为 2 阶矩阵，$\\boldsymbol{P}=(\\boldsymbol{\\alpha},\\boldsymbol{A}\\boldsymbol{\\alpha})$，其中 $\\boldsymbol{\\alpha}$ 是非零向量且不是 $\\boldsymbol{A}$ 的特征向量。\n\n1. 证明 $\\boldsymbol{P}$ 为可逆矩阵；\n2. 若 $\\boldsymbol{A}^2\\boldsymbol{\\alpha}+\\boldsymbol{A}\\boldsymbol{\\alpha}-6\\boldsymbol{\\alpha}=0$，求 $\\boldsymbol{P}^{-1}\\boldsymbol{A}\\boldsymbol{P}$，并判断 $\\boldsymbol{A}$ 是否相似于对角矩阵。"
+        }
+      ]
+    }
+  ]
+}

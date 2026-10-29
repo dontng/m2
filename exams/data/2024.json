@@ -1,0 +1,348 @@
+{
+  "year": 2024,
+  "subject": "数学（二）",
+  "totalPoints": 150,
+  "durationMinutes": 180,
+  "sections": [
+    {
+      "type": "选择题",
+      "heading": "一、选择题：1～10小题，每小题5分，共50分。下列每题给出的四个选项中，只有一个选项是符合题目要求的。",
+      "questions": [
+        {
+          "number": 1,
+          "type": "选择题",
+          "points": 5,
+          "stem": "函数\n$$\nf(x)=|x|^{\\frac{1}{(1-x)(x-2)}}\n$$\n的第一类间断点的个数为（ ）",
+          "options": [
+            {
+              "label": "A",
+              "text": "$3$"
+            },
+            {
+              "label": "B",
+              "text": "$2$"
+            },
+            {
+              "label": "C",
+              "text": "$1$"
+            },
+            {
+              "label": "D",
+              "text": "$0$"
+            }
+          ],
+          "layout": "4col"
+        },
+        {
+          "number": 2,
+          "type": "选择题",
+          "points": 5,
+          "stem": "已知\n$$\n\\left\\{\n\\begin{aligned}\nx &= 1+t^3,\\\\\ny &= e^{t^2},\n\\end{aligned}\n\\right.\n$$\n则\n$$\n\\lim_{x\\to+\\infty}x\\!\\left[f\\!\\left(2+\\frac{2}{x}\\right)-f(2)\\right]\n$$\n等于（ ）",
+          "options": [
+            {
+              "label": "A",
+              "text": "$2e$"
+            },
+            {
+              "label": "B",
+              "text": "$\\frac{4}{3}e$"
+            },
+            {
+              "label": "C",
+              "text": "$\\frac{2}{3}e$"
+            },
+            {
+              "label": "D",
+              "text": "$\\frac{e}{3}$"
+            }
+          ],
+          "layout": "4col"
+        },
+        {
+          "number": 3,
+          "type": "选择题",
+          "points": 5,
+          "stem": "已知\n$$\nf(x)=\\int_0^{\\sin x}\\sin t^3\\,dt,\\qquad\ng(x)=\\int_0^x f(t)\\,dt,\n$$\n则（ ）",
+          "options": [
+            {
+              "label": "A",
+              "text": "$f(x)$ 为奇函数，$g(x)$ 为奇函数"
+            },
+            {
+              "label": "B",
+              "text": "$f(x)$ 为奇函数，$g(x)$ 为偶函数"
+            },
+            {
+              "label": "C",
+              "text": "$f(x)$ 为偶函数，$g(x)$ 为偶函数"
+            },
+            {
+              "label": "D",
+              "text": "$f(x)$ 为偶函数，$g(x)$ 为奇函数"
+            }
+          ],
+          "layout": "4col"
+        },
+        {
+          "number": 4,
+          "type": "选择题",
+          "points": 5,
+          "stem": "已知数列 $\\{a_n\\}$（$a_n\\ne 0$），若 $\\{a_n\\}$ 发散，则（ ）",
+          "options": [
+            {
+              "label": "A",
+              "text": "$\\left\\{a_n+\\frac{1}{a_n}\\right\\}$ 发散"
+            },
+            {
+              "label": "B",
+              "text": "$\\left\\{a_n-\\frac{1}{a_n}\\right\\}$ 发散"
+            },
+            {
+              "label": "C",
+              "text": "$\\left\\{e^{a_n}+\\frac{1}{e^{a_n}}\\right\\}$ 发散"
+            },
+            {
+              "label": "D",
+              "text": "$\\left\\{e^{a_n}-\\frac{1}{e^{a_n}}\\right\\}$ 发散"
+            }
+          ],
+          "layout": "4col"
+        },
+        {
+          "number": 5,
+          "type": "选择题",
+          "points": 5,
+          "stem": "已知函数\n$$\nf(x,y)=\n\\begin{cases}\n(x^2+y^2)\\sin\\frac{1}{xy}, & xy\\ne 0,\\\\\n0, & xy=0,\n\\end{cases}\n$$\n则在点 $(0,0)$ 处（ ）",
+          "options": [
+            {
+              "label": "A",
+              "text": "$\\dfrac{\\partial f}{\\partial x}$ 连续，$f$ 可微"
+            },
+            {
+              "label": "B",
+              "text": "$\\dfrac{\\partial f}{\\partial x}$ 连续，$f$ 不可微"
+            },
+            {
+              "label": "C",
+              "text": "$\\dfrac{\\partial f}{\\partial x}$ 不连续，$f$ 可微"
+            },
+            {
+              "label": "D",
+              "text": "$\\dfrac{\\partial f}{\\partial x}$ 不连续，$f$ 不可微"
+            }
+          ],
+          "layout": "4col"
+        },
+        {
+          "number": 6,
+          "type": "选择题",
+          "points": 5,
+          "stem": "设 $f(x,y)$ 为连续函数，则\n$$\n\\int_{\\pi/6}^{\\pi/2}dx\\int_{\\sin x}^{1}f(x,y)\\,dy\n=\n(\\ \\ )\n$$",
+          "options": [
+            {
+              "label": "A",
+              "text": "$\\displaystyle \\int_{1/2}^{1}dy\\int_{\\pi/6}^{\\arcsin y}f(x,y)\\,dx$"
+            },
+            {
+              "label": "B",
+              "text": "$\\displaystyle \\int_{1/2}^{1}dy\\int_{\\arcsin y}^{\\pi/2}f(x,y)\\,dx$"
+            },
+            {
+              "label": "C",
+              "text": "$\\displaystyle \\int_0^{1/2}dy\\int_{\\pi/6}^{\\arcsin y}f(x,y)\\,dx$"
+            },
+            {
+              "label": "D",
+              "text": "$\\displaystyle \\int_0^{1/2}dy\\int_{\\arcsin y}^{\\pi/2}f(x,y)\\,dx$"
+            }
+          ],
+          "layout": "4col"
+        },
+        {
+          "number": 7,
+          "type": "选择题",
+          "points": 5,
+          "stem": "设非负函数 $f(x)$ 在 $[0,+\\infty)$ 上连续，给出三个命题：\n\n1. 若 $\\int_0^{+\\infty}f^2(x)\\,dx$ 收敛，则 $\\int_0^{+\\infty}f(x)\\,dx$ 收敛；\n2. 若存在 $p>1$，使极限 $\\lim_{x\\to+\\infty}x^p f(x)$ 存在，则 $\\int_0^{+\\infty}f(x)\\,dx$ 收敛；\n3. 若 $\\int_0^{+\\infty}f(x)\\,dx$ 收敛，则存在 $p>1$，使极限 $\\lim_{x\\to+\\infty}x^p f(x)$ 存在。\n\n其中正确命题的个数是（ ）",
+          "options": [
+            {
+              "label": "A",
+              "text": "$0$"
+            },
+            {
+              "label": "B",
+              "text": "$1$"
+            },
+            {
+              "label": "C",
+              "text": "$2$"
+            },
+            {
+              "label": "D",
+              "text": "$3$"
+            }
+          ],
+          "layout": "4col"
+        },
+        {
+          "number": 8,
+          "type": "选择题",
+          "points": 5,
+          "stem": "设 $\\boldsymbol A$ 为三阶矩阵，\n$$\n\\boldsymbol P=\n\\begin{pmatrix}\n1&0&0\\\\\n0&1&0\\\\\n1&0&1\n\\end{pmatrix},\n$$\n若\n$$\n\\boldsymbol P^T\\boldsymbol A\\boldsymbol P^2=\n\\begin{pmatrix}\na+2c&0&c\\\\\n0&b&0\\\\\n2c&0&c\n\\end{pmatrix},\n$$\n则矩阵 $\\boldsymbol A$ 为（ ）",
+          "options": [
+            {
+              "label": "A",
+              "text": "$\\begin{pmatrix} c&0&0\\\\ 0&a&0\\\\ 0&0&b \\end{pmatrix}$"
+            },
+            {
+              "label": "B",
+              "text": "$\\begin{pmatrix} b&0&0\\\\ 0&c&0\\\\ 0&0&a \\end{pmatrix}$"
+            },
+            {
+              "label": "C",
+              "text": "$\\begin{pmatrix} a&0&0\\\\ 0&b&0\\\\ 0&0&c \\end{pmatrix}$"
+            },
+            {
+              "label": "D",
+              "text": "$\\begin{pmatrix} c&0&0\\\\ 0&b&0\\\\ 0&0&a \\end{pmatrix}$"
+            }
+          ],
+          "layout": "4col"
+        },
+        {
+          "number": 9,
+          "type": "选择题",
+          "points": 5,
+          "stem": "设 $\\boldsymbol A$ 为 $4$ 阶矩阵，$\\boldsymbol A^*$ 为 $\\boldsymbol A$ 的伴随矩阵。若\n$$\n\\boldsymbol A(\\boldsymbol A-\\boldsymbol A^*)=\\boldsymbol O,\\qquad \\boldsymbol A\\ne \\boldsymbol A^*,\n$$\n则 $r(\\boldsymbol A)$ 的取值为（ ）",
+          "options": [
+            {
+              "label": "A",
+              "text": "$0$ 或 $1$"
+            },
+            {
+              "label": "B",
+              "text": "$1$ 或 $3$"
+            },
+            {
+              "label": "C",
+              "text": "$2$ 或 $3$"
+            },
+            {
+              "label": "D",
+              "text": "$1$ 或 $2$"
+            }
+          ],
+          "layout": "4col"
+        },
+        {
+          "number": 10,
+          "type": "选择题",
+          "points": 5,
+          "stem": "设 $\\boldsymbol A,\\boldsymbol B$ 均为 $2$ 阶矩阵，且 $\\boldsymbol A\\boldsymbol B=\\boldsymbol B\\boldsymbol A$，则“$\\boldsymbol A$ 有两个不相等的特征值”是“$\\boldsymbol B$ 可对角化”的（ ）",
+          "options": [
+            {
+              "label": "A",
+              "text": "充要条件"
+            },
+            {
+              "label": "B",
+              "text": "充分不必要条件"
+            },
+            {
+              "label": "C",
+              "text": "必要不充分条件"
+            },
+            {
+              "label": "D",
+              "text": "既不充分也不必要条件"
+            }
+          ],
+          "layout": "2col"
+        }
+      ]
+    },
+    {
+      "type": "填空题",
+      "heading": "二、填空题：11～16小题，每小题5分，共30分。",
+      "questions": [
+        {
+          "number": 11,
+          "type": "填空题",
+          "points": 5,
+          "stem": "曲线 $y^2=x$ 在点 $(0,0)$ 处的曲率圆方程为 ______"
+        },
+        {
+          "number": 12,
+          "type": "填空题",
+          "points": 5,
+          "stem": "函数\n$$\nf(x,y)=2x^3-9x^2-6y^4+12x+24y\n$$\n的极值点为 ______"
+        },
+        {
+          "number": 13,
+          "type": "填空题",
+          "points": 5,
+          "stem": "微分方程\n$$\ny'=\\frac{1}{(x+y)^2}\n$$\n满足初始条件 $y(1)=0$ 的解为 ______"
+        },
+        {
+          "number": 14,
+          "type": "填空题",
+          "points": 5,
+          "stem": "已知函数\n$$\nf(x)=x^2(e^x-1),\n$$\n则\n$$\nf^{(5)}(1)=\\ \\underline{\\qquad}\n$$"
+        },
+        {
+          "number": 15,
+          "type": "填空题",
+          "points": 5,
+          "stem": "某物体以速度\n$$\nv(t)=t+k\\sin\\pi t\n$$\n做直线运动。若它从 $t=0$ 到 $t=3$ 的平均速度是 $\\dfrac52$，则 $k=$ ______"
+        },
+        {
+          "number": 16,
+          "type": "填空题",
+          "points": 5,
+          "stem": "设向量\n$$\n\\boldsymbol\\alpha_1=\n\\begin{pmatrix}\na\\\\\n1\\\\\n-1\\\\\n1\n\\end{pmatrix},\\quad\n\\boldsymbol\\alpha_2=\n\\begin{pmatrix}\n1\\\\\n1\\\\\nb\\\\\na\n\\end{pmatrix},\\quad\n\\boldsymbol\\alpha_3=\n\\begin{pmatrix}\n1\\\\\na\\\\\n-1\\\\\n1\n\\end{pmatrix}.\n$$\n若 $\\boldsymbol\\alpha_1,\\boldsymbol\\alpha_2,\\boldsymbol\\alpha_3$ 线性相关，且其中任意两个向量均线性无关，则 $ab=$ ______"
+        }
+      ]
+    },
+    {
+      "type": "解答题",
+      "heading": "三、解答题：17～22小题，共70分。解答应写出文字说明、证明过程或演算步骤。",
+      "questions": [
+        {
+          "number": 17,
+          "type": "解答题",
+          "points": 10,
+          "stem": "设平面有界区域 $D$ 位于第一象限，由曲线\n$$\nxy=\\frac13,\\qquad xy=3\n$$\n与直线\n$$\ny=\\frac13x,\\qquad y=3x\n$$\n围成，计算\n$$\n\\iint_D(1+x-y)\\,dx\\,dy.\n$$"
+        },
+        {
+          "number": 18,
+          "type": "解答题",
+          "points": 12,
+          "stem": "设 $y=y(x)$ 满足方程\n$$\nx^2y''+xy'-9y=0,\n$$\n且\n$$\ny\\big|_{x=1}=2,\\qquad y'\\big|_{x=1}=6.\n$$\n\n1. 利用变换 $x=e^t$ 化简方程，并求 $y(x)$；\n2. 求\n   $$\n   \\int_1^2 y(x)\\sqrt{4-x^2}\\,dx.\n   $$"
+        },
+        {
+          "number": 19,
+          "type": "解答题",
+          "points": 12,
+          "stem": "设 $t>0$，曲线\n$$\ny=\\sqrt{x}e^{-x}\n$$\n与直线 $x=t,\\ x=2t$ 及 $x$ 轴所围平面图形绕 $x$ 轴旋转所得的旋转体体积为 $V(t)$，求 $V(t)$ 的最大值。"
+        },
+        {
+          "number": 20,
+          "type": "解答题",
+          "points": 12,
+          "stem": "设 $f(u,v)$ 具有二阶连续偏导，\n$$\ng(x,y)=f(2x+y,\\,3x-y),\n$$\n且满足\n$$\n\\frac{\\partial^2g}{\\partial x^2}\n+\\frac{\\partial^2g}{\\partial x\\partial y}\n-6\\frac{\\partial^2g}{\\partial y^2}=1.\n$$\n\n1. 求 $\\dfrac{\\partial^2f}{\\partial u\\partial v}$；\n2. 若 $\\dfrac{\\partial f(u,0)}{\\partial u}=ue^{-u}$，且 $f(0,v)=\\dfrac{1}{50}v^2-1$，求 $f(u,v)$。"
+        },
+        {
+          "number": 21,
+          "type": "解答题",
+          "points": 12,
+          "stem": "设函数 $f(x)$ 具有二阶导数，且\n$$\nf'(0)=f'(1),\\qquad |f''(x)|\\le 1.\n$$\n证明：\n\n1. 当 $x\\in(0,1)$ 时，\n   $$\n   \\left|f(x)-f(0)(1-x)-f(1)x\\right|\\le \\frac{x(1-x)}{2};\n   $$\n2. \n   $$\n   \\left|\\int_0^1 f(x)\\,dx-\\frac{f(0)+f(1)}{2}\\right|\\le \\frac{1}{12}.\n   $$"
+        },
+        {
+          "number": 22,
+          "type": "解答题",
+          "points": 12,
+          "stem": "设矩阵\n$$\n\\boldsymbol A=\n\\begin{pmatrix}\n0&1&a\\\\\n1&0&1\n\\end{pmatrix},\\qquad\n\\boldsymbol B=\n\\begin{pmatrix}\n1&1\\\\\n1&1\\\\\nb&2\n\\end{pmatrix},\n$$\n二次型\n$$\nf(x_1,x_2,x_3)=\\boldsymbol x^T\\boldsymbol B\\boldsymbol A\\boldsymbol x.\n$$\n\n已知方程组 $\\boldsymbol A\\boldsymbol x=0$ 的解是 $\\boldsymbol B^T\\boldsymbol x=0$ 的解，但两个方程组不同解。\n\n1. 求 $a,b$ 的值；\n2. 求正交变换 $\\boldsymbol x=\\boldsymbol Q\\boldsymbol y$，将 $f(x_1,x_2,x_3)$ 化为标准形。"
+        }
+      ]
+    }
+  ]
+}

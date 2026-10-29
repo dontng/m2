@@ -1,0 +1,316 @@
+{
+  "year": 2013,
+  "subject": "数学（二）",
+  "totalPoints": 150,
+  "durationMinutes": 180,
+  "sections": [
+    {
+      "type": "选择题",
+      "heading": "一、选择题：1～8小题，每小题4分，共32分。下列每题给出的四个选项中，只有一个选项是符合题目要求的。",
+      "questions": [
+        {
+          "number": 1,
+          "type": "选择题",
+          "points": 4,
+          "stem": "设 $\\cos x-1=x\\sin\\alpha\\left(x\\right)$，其中 $\\left|\\alpha\\left(x\\right)\\right|<\\frac{\\pi}{2}$，则当 $x\\to 0$ 时，$\\alpha\\left(x\\right)$ 是（ ）",
+          "options": [
+            {
+              "label": "A",
+              "text": "比 $x$ 高阶的无穷小"
+            },
+            {
+              "label": "B",
+              "text": "比 $x$ 低阶的无穷小"
+            },
+            {
+              "label": "C",
+              "text": "与 $x$ 同阶但不等价的无穷小"
+            },
+            {
+              "label": "D",
+              "text": "与 $x$ 等价的无穷小"
+            }
+          ],
+          "layout": "2col"
+        },
+        {
+          "number": 2,
+          "type": "选择题",
+          "points": 4,
+          "stem": "设函数 $y=f\\left(x\\right)$ 由方程 $\\cos\\left(xy\\right)-\\ln y+x=1$ 确定，则 $\\lim_{n\\to\\infty}n\\left[f\\left(\\frac{2}{n}\\right)-1\\right]=$（ ）",
+          "options": [
+            {
+              "label": "A",
+              "text": "$2$"
+            },
+            {
+              "label": "B",
+              "text": "$1$"
+            },
+            {
+              "label": "C",
+              "text": "$-1$"
+            },
+            {
+              "label": "D",
+              "text": "$-2$"
+            }
+          ],
+          "layout": "4col"
+        },
+        {
+          "number": 3,
+          "type": "选择题",
+          "points": 4,
+          "stem": "设函数\n\n$f\\left(x\\right)=\\left\\{\\begin{matrix}\\sin x,&0\\leq x<\\pi\\\\2,&\\pi\\leq x\\leq 2\\pi\\end{matrix}\\right.$，$F\\left(x\\right)=\\int_{0}^{x}f\\left(t\\right)\\mathrm{~d}t$，则（ ）",
+          "options": [
+            {
+              "label": "A",
+              "text": "$x=\\pi$ 是函数 $F\\left(x\\right)$ 的跳跃间断点"
+            },
+            {
+              "label": "B",
+              "text": "$x=\\pi$ 是函数 $F\\left(x\\right)$ 的可去间断点"
+            },
+            {
+              "label": "C",
+              "text": "$F\\left(x\\right)$ 在 $x=\\pi$ 处连续但不可导"
+            },
+            {
+              "label": "D",
+              "text": "$F\\left(x\\right)$ 在 $x=\\pi$ 处可导"
+            }
+          ],
+          "layout": "2col"
+        },
+        {
+          "number": 4,
+          "type": "选择题",
+          "points": 4,
+          "stem": "设函数\n\n$f\\left(x\\right)=\\left\\{\\begin{matrix}\\frac{1}{\\left(x-1\\right)^{\\alpha-1}},&1<x<e\\\\\\frac{1}{x\\left(\\ln x\\right)^{\\alpha+1}},&x\\geq e\\end{matrix}\\right.$，\n\n若反常积分 $\\int_{1}^{+\\infty}f\\left(x\\right)\\mathrm{~d}x$ 收敛，则（ ）",
+          "options": [
+            {
+              "label": "A",
+              "text": "$\\alpha<-2$"
+            },
+            {
+              "label": "B",
+              "text": "$\\alpha>2$"
+            },
+            {
+              "label": "C",
+              "text": "$-2<\\alpha<0$"
+            },
+            {
+              "label": "D",
+              "text": "$0<\\alpha<2$"
+            }
+          ],
+          "layout": "4col"
+        },
+        {
+          "number": 5,
+          "type": "选择题",
+          "points": 4,
+          "stem": "设 $z=\\frac{y}{x}f\\left(xy\\right)$，其中函数 $f$ 可微，则 $\\frac{x}{y}\\frac{\\partial z}{\\partial x}+\\frac{\\partial z}{\\partial y}=$（ ）",
+          "options": [
+            {
+              "label": "A",
+              "text": "$2yf^{\\prime}\\left(xy\\right)$"
+            },
+            {
+              "label": "B",
+              "text": "$-2yf^{\\prime}\\left(xy\\right)$"
+            },
+            {
+              "label": "C",
+              "text": "$\\frac{2}{x}f\\left(xy\\right)$"
+            },
+            {
+              "label": "D",
+              "text": "$-\\frac{2}{x}f\\left(xy\\right)$"
+            }
+          ],
+          "layout": "4col"
+        },
+        {
+          "number": 6,
+          "type": "选择题",
+          "points": 4,
+          "stem": "设 $D_{k}$ 是圆域 $D=\\left\\{\\left(x,y\\right)\\middle|x^{2}+y^{2}\\leq 1\\right\\}$ 在第 $k$ 象限的部分，记 $I_{k}=\\iint_{D_{k}}\\left(y-x\\right)\\mathrm{~d}x\\mathrm{~d}y\\left(k=1,2,3,4\\right)$，则（ ）",
+          "options": [
+            {
+              "label": "A",
+              "text": "$I_{1}>0$"
+            },
+            {
+              "label": "B",
+              "text": "$I_{2}>0$"
+            },
+            {
+              "label": "C",
+              "text": "$I_{3}>0$"
+            },
+            {
+              "label": "D",
+              "text": "$I_{4}>0$"
+            }
+          ],
+          "layout": "4col"
+        },
+        {
+          "number": 7,
+          "type": "选择题",
+          "points": 4,
+          "stem": "设矩阵 $\\boldsymbol{A},\\boldsymbol{B},\\boldsymbol{C}$ 均为 $n$ 阶矩阵，若 $\\boldsymbol{A}\\boldsymbol{B}=\\boldsymbol{C}$，且 $\\boldsymbol{B}$ 可逆，则（ ）",
+          "options": [
+            {
+              "label": "A",
+              "text": "矩阵 $\\boldsymbol{C}$ 的行向量组与矩阵 $\\boldsymbol{A}$ 的行向量组等价"
+            },
+            {
+              "label": "B",
+              "text": "矩阵 $\\boldsymbol{C}$ 的列向量组与矩阵 $\\boldsymbol{A}$ 的列向量组等价"
+            },
+            {
+              "label": "C",
+              "text": "矩阵 $\\boldsymbol{C}$ 的行向量组与矩阵 $\\boldsymbol{B}$ 的行向量组等价"
+            },
+            {
+              "label": "D",
+              "text": "矩阵 $\\boldsymbol{C}$ 的行向量组与矩阵 $\\boldsymbol{B}$ 的列向量组等价"
+            }
+          ],
+          "layout": "1col"
+        },
+        {
+          "number": 8,
+          "type": "选择题",
+          "points": 4,
+          "stem": "矩阵 $\\left(\\begin{matrix}1&a&1\\\\a&b&a\\\\1&a&1\\end{matrix}\\right)$ 与 $\\left(\\begin{matrix}2&0&0\\\\0&b&0\\\\0&0&0\\end{matrix}\\right)$ 相似的充分必要条件为（ ）",
+          "options": [
+            {
+              "label": "A",
+              "text": "$a=0,b=2$"
+            },
+            {
+              "label": "B",
+              "text": "$a=0,b$ 为任意常数"
+            },
+            {
+              "label": "C",
+              "text": "$a=2,b=0$"
+            },
+            {
+              "label": "D",
+              "text": "$a=2,b$ 为任意常数"
+            }
+          ],
+          "layout": "4col"
+        }
+      ]
+    },
+    {
+      "type": "填空题",
+      "heading": "二、填空题：9～14小题，每小题4分，共24分。",
+      "questions": [
+        {
+          "number": 9,
+          "type": "填空题",
+          "points": 4,
+          "stem": "$\\lim_{x\\to\\infty}\\left(2-\\frac{\\ln\\left(1+x\\right)}{x}\\right)^{\\frac{1}{x}}=$"
+        },
+        {
+          "number": 10,
+          "type": "填空题",
+          "points": 4,
+          "stem": "设函数 $f\\left(x\\right)=\\int_{-1}^{x}\\sqrt{1-e^{t}}\\mathrm{~d}t$，则 $y=f\\left(x\\right)$ 的反函数 $x=f^{-1}\\left(y\\right)$ 在 $y=0$ 处的导数 $\\left.\\frac{\\mathrm{d}x}{\\mathrm{d}y}\\right|_{y=0}=$"
+        },
+        {
+          "number": 11,
+          "type": "填空题",
+          "points": 4,
+          "stem": "设封闭曲线 $L$ 的极坐标方程为 $r=\\cos 3\\theta\\left(-\\frac{\\pi}{6}\\leq \\theta\\leq \\frac{\\pi}{6}\\right)$，则 $L$ 所围成的平面图形的面积为"
+        },
+        {
+          "number": 12,
+          "type": "填空题",
+          "points": 4,
+          "stem": "曲线 $\\left\\{\\begin{matrix}x=\\arctan t\\\\y=\\ln\\sqrt{1+t^{2}}\\end{matrix}\\right.$ 上对应于 $t=1$ 的点处的法线方程为"
+        },
+        {
+          "number": 13,
+          "type": "填空题",
+          "points": 4,
+          "stem": "已知 $y_{1}=e^{3x}-xe^{2x}$，$y_{2}=e^{x}-xe^{2x}$，$y_{3}=-xe^{2x}$ 是某二阶常系数非齐次线性微分方程的 $3$ 个解，该方程满足条件 $\\left.y\\right|_{x=0}=0$，$\\left.y^{\\prime}\\right|_{x=0}=1$ 的解为 $y=$"
+        },
+        {
+          "number": 14,
+          "type": "填空题",
+          "points": 4,
+          "stem": "设 $\\boldsymbol{A}=\\left(a_{ij}\\right)$ 是三阶非零矩阵，$\\left|\\boldsymbol{A}\\right|$ 为 $\\boldsymbol{A}$ 的行列式，$A_{ij}$ 为 $a_{ij}$ 的代数余子式，若 $a_{ij}+A_{ij}=0\\left(i,j=1,2,3\\right)$，则 $\\left|\\boldsymbol{A}\\right|=$"
+        }
+      ]
+    },
+    {
+      "type": "解答题",
+      "heading": "三、解答题：15～23小题，共94分。解答应写出文字说明、证明过程或演算步骤。",
+      "questions": [
+        {
+          "number": 15,
+          "type": "解答题",
+          "points": 10,
+          "stem": "当 $x\\to 0$ 时，$1-\\cos x\\cos 2x\\cos 3x$ 与 $ax^{n}$ 为等价无穷小，求 $n$ 与 $a$ 的值。"
+        },
+        {
+          "number": 16,
+          "type": "解答题",
+          "points": 10,
+          "stem": "设 $D$ 是由曲线 $y=x^{\\frac{1}{3}}$，直线 $x=a\\left(a>0\\right)$ 及 $x$ 轴所围成的平面图形，$V_{x},V_{y}$ 分别是 $D$ 绕 $x$ 轴、$y$ 轴旋转一周所得旋转体的体积，若 $V_{y}=10V_{x}$，求 $a$ 的值。"
+        },
+        {
+          "number": 17,
+          "type": "解答题",
+          "points": 10,
+          "stem": "设平面内区域 $D$ 由直线 $x=3y$，$y=3x$ 及 $x+y=8$ 围成，计算 $\\iint_{D}x^{2}\\mathrm{~d}x\\mathrm{~d}y$。"
+        },
+        {
+          "number": 18,
+          "type": "解答题",
+          "points": 10,
+          "stem": "设奇函数 $f\\left(x\\right)$ 在 $\\left[-1,1\\right]$ 上具有二阶导数，且 $f\\left(1\\right)=1$。证明：\n\n（I）存在 $\\xi\\in\\left(0,1\\right)$，使得 $f^{\\prime}\\left(\\xi\\right)=1$；\n\n（II）存在 $\\eta\\in\\left(0,1\\right)$，使得 $f^{\\prime\\prime}\\left(\\eta\\right)+f^{\\prime}\\left(\\eta\\right)=1$。"
+        },
+        {
+          "number": 19,
+          "type": "解答题",
+          "points": 10,
+          "stem": "求曲线 $x^{3}-xy+y^{3}=1\\left(x\\geq 0,y\\geq 0\\right)$ 上的点到坐标原点的最长距离与最短距离。"
+        },
+        {
+          "number": 20,
+          "type": "解答题",
+          "points": 11,
+          "stem": "设函数 $f\\left(x\\right)=\\ln x+\\frac{1}{x}$。\n\n（I）求 $f\\left(x\\right)$ 的最小值；\n\n（II）设数列 $\\left\\{x_{n}\\right\\}$ 满足 $\\ln x_{n}+\\frac{1}{x_{n}}<1$，证明 $\\lim_{n\\to\\infty}x_{n}$ 存在，并求此极限。"
+        },
+        {
+          "number": 21,
+          "type": "解答题",
+          "points": 11,
+          "stem": "设曲线 $L$ 的方程为 $y=\\frac{1}{4}x^{2}-\\frac{1}{2}\\ln x\\left(1\\leq x\\leq e\\right)$。\n\n（1）求 $L$ 的弧长；\n\n（2）设 $D$ 是由曲线 $L$，直线 $x=1,x=e$ 及 $x$ 轴所围平面图形，求 $D$ 的形心的横坐标。"
+        },
+        {
+          "number": 22,
+          "type": "解答题",
+          "points": 11,
+          "stem": "设 $\\boldsymbol{A}=\\left(\\begin{matrix}1&a\\\\1&0\\end{matrix}\\right),\\boldsymbol{B}=\\left(\\begin{matrix}0&1\\\\1&b\\end{matrix}\\right)$，当 $a,b$ 为何值时，存在矩阵 $\\boldsymbol{C}$ 使得 $\\boldsymbol{A}\\boldsymbol{C}-\\boldsymbol{C}\\boldsymbol{A}=\\boldsymbol{B}$，并求所有矩阵 $\\boldsymbol{C}$。"
+        },
+        {
+          "number": 23,
+          "type": "解答题",
+          "points": 11,
+          "stem": "设二次型\n\n$f\\left(x_{1},x_{2},x_{3}\\right)=2\\left(a_{1}x_{1}+a_{2}x_{2}+a_{3}x_{3}\\right)^{2}+\\left(b_{1}x_{1}+b_{2}x_{2}+b_{3}x_{3}\\right)^{2}$，\n\n记\n\n$\\boldsymbol{\\alpha}=\\left(\\begin{matrix}a_{1}\\\\a_{2}\\\\a_{3}\\end{matrix}\\right),\\quad \\boldsymbol{\\beta}=\\left(\\begin{matrix}b_{1}\\\\b_{2}\\\\b_{3}\\end{matrix}\\right)$。\n\n（I）证明二次型 $f$ 对应的矩阵为 $2\\boldsymbol{\\alpha}\\boldsymbol{\\alpha}^{T}+\\boldsymbol{\\beta}\\boldsymbol{\\beta}^{T}$；\n\n（II）若 $\\boldsymbol{\\alpha},\\boldsymbol{\\beta}$ 正交且均为单位向量，证明二次型 $f$ 在正交变换下的标准形为二次型 $2y_{1}^{2}+y_{2}^{2}$。"
+        }
+      ]
+    }
+  ]
+}

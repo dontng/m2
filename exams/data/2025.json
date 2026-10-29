@@ -1,0 +1,348 @@
+{
+  "year": 2025,
+  "subject": "数学（二）",
+  "totalPoints": 150,
+  "durationMinutes": 180,
+  "sections": [
+    {
+      "type": "选择题",
+      "heading": "一、选择题：1～10小题，每小题5分，共50分。下列每题给出的四个选项中，只有一个选项是符合题目要求的。",
+      "questions": [
+        {
+          "number": 1,
+          "type": "选择题",
+          "points": 5,
+          "stem": "设函数 $z = z\\left( x, y \\right)$ 由 $z + \\ln z - \\int_{y}^{x} e^{-t^{2}} \\mathrm{~d} t = 0$ 确定，则 $\\frac{\\partial z}{\\partial x} + \\frac{\\partial z}{\\partial y} =$",
+          "options": [
+            {
+              "label": "A",
+              "text": "$\\frac{z}{z + 1}\\left( e^{-x^{2}} - e^{-y^{2}} \\right)$"
+            },
+            {
+              "label": "B",
+              "text": "$\\frac{z}{z + 1}\\left( e^{-x^{2}} + e^{-y^{2}} \\right)$"
+            },
+            {
+              "label": "C",
+              "text": "$-\\frac{z}{z + 1}\\left( e^{-x^{2}} - e^{-y^{2}} \\right)$"
+            },
+            {
+              "label": "D",
+              "text": "$-\\frac{z}{z + 1}\\left( e^{-x^{2}} + e^{-y^{2}} \\right)$"
+            }
+          ],
+          "layout": "4col"
+        },
+        {
+          "number": 2,
+          "type": "选择题",
+          "points": 5,
+          "stem": "已知函数 $f\\left( x \\right) = \\int_{0}^{x} e^{t^{2}} \\sin t \\mathrm{~d} t$，$g\\left( x \\right) = \\int_{0}^{x} e^{t^{2}} \\sin t \\mathrm{~d} t \\cdot \\sin^{2} x$，则",
+          "options": [
+            {
+              "label": "A",
+              "text": "$x = 0$ 是 $f\\left( x \\right)$ 的极值点，也是 $g\\left( x \\right)$ 的极值点."
+            },
+            {
+              "label": "B",
+              "text": "$x = 0$ 是 $f\\left( x \\right)$ 的极值点，$\\left( 0, 0 \\right)$ 是曲线 $y = g\\left( x \\right)$ 的拐点."
+            },
+            {
+              "label": "C",
+              "text": "$x = 0$ 是 $f\\left( x \\right)$ 的极值点，$\\left( 0, 0 \\right)$ 是曲线 $y = f\\left( x \\right)$ 的拐点."
+            },
+            {
+              "label": "D",
+              "text": "$\\left( 0, 0 \\right)$ 是曲线 $y = f\\left( x \\right)$ 的极值点，也是曲线 $y = g\\left( x \\right)$ 的拐点."
+            }
+          ],
+          "layout": "2col"
+        },
+        {
+          "number": 3,
+          "type": "选择题",
+          "points": 5,
+          "stem": "如果对微分方程 $y^{\\prime\\prime} - 2a y^{\\prime} + \\left( a + 2 \\right) y = 0$ 的任一解 $y\\left( x \\right)$，反常积分 $\\int_{0}^{+\\infty} y\\left( x \\right) \\mathrm{~d} x$ 均收敛，那么 $a$ 的取值范围是",
+          "options": [
+            {
+              "label": "A",
+              "text": "$\\left( -2, -1 \\right]$"
+            },
+            {
+              "label": "B",
+              "text": "$\\left( -\\infty, -1 \\right]$"
+            },
+            {
+              "label": "C",
+              "text": "$\\left( -2, 0 \\right)$"
+            },
+            {
+              "label": "D",
+              "text": "$\\left( -\\infty, 0 \\right)$"
+            }
+          ],
+          "layout": "4col"
+        },
+        {
+          "number": 4,
+          "type": "选择题",
+          "points": 5,
+          "stem": "设函数 $f\\left( x \\right)$，$g\\left( x \\right)$ 在 $x = 0$ 的某去心邻域内有定义且恒不为零.若当 $x \\to 0$ 时，$f\\left( x \\right)$ 是 $g\\left( x \\right)$ 的高阶无穷小，则当 $x \\to 0$ 时，",
+          "options": [
+            {
+              "label": "A",
+              "text": "$f\\left( x \\right) + g\\left( x \\right) = O\\left( g\\left( x \\right) \\right)$."
+            },
+            {
+              "label": "B",
+              "text": "$f\\left( x \\right) g\\left( x \\right) = o\\left( f^{2}\\left( x \\right) \\right)$."
+            },
+            {
+              "label": "C",
+              "text": "$f\\left( x \\right) = o\\left( e^{g\\left( x \\right)} - 1 \\right)$."
+            },
+            {
+              "label": "D",
+              "text": "$f\\left( x \\right) = o\\left( g^{2}\\left( x \\right) \\right)$."
+            }
+          ],
+          "layout": "4col"
+        },
+        {
+          "number": 5,
+          "type": "选择题",
+          "points": 5,
+          "stem": "设函数 $f\\left( x, y \\right)$ 连续，则 $\\int_{-2}^{2} \\mathrm{~d} x \\int_{4 - x^{2}}^{2} f\\left( x, y \\right) \\mathrm{~d} y =$",
+          "options": [
+            {
+              "label": "A",
+              "text": "$\\int_{0}^{4} \\left[ \\int_{-2}^{-\\sqrt{4 - y}} f\\left( x, y \\right) \\mathrm{~d} x + \\int_{\\sqrt{4 - y}}^{2} f\\left( x, y \\right) \\mathrm{~d} x \\right] \\mathrm{~d} y$"
+            },
+            {
+              "label": "B",
+              "text": "$\\int_{0}^{4} \\left[ \\int_{-2}^{\\sqrt{4 - y}} f\\left( x, y \\right) \\mathrm{~d} x + \\int_{\\sqrt{4 - y}}^{2} f\\left( x, y \\right) \\mathrm{~d} x \\right] \\mathrm{~d} y$"
+            },
+            {
+              "label": "C",
+              "text": "$\\int_{0}^{4} \\left[ \\int_{-2}^{-\\sqrt{4 - y}} f\\left( x, y \\right) \\mathrm{~d} x + \\int_{2}^{\\sqrt{4 - y}} f\\left( x, y \\right) \\mathrm{~d} x \\right] \\mathrm{~d} y$"
+            },
+            {
+              "label": "D",
+              "text": "$2 \\int_{0}^{4} \\mathrm{~d} y \\int_{\\sqrt{4 - y}}^{2} f\\left( x, y \\right) \\mathrm{~d} x$"
+            }
+          ],
+          "layout": "4col"
+        },
+        {
+          "number": 6,
+          "type": "选择题",
+          "points": 5,
+          "stem": "设单位质点 $P$，$Q$ 分别位于点 $\\left( 0, 0 \\right)$ 和 $\\left( 0, 1 \\right)$ 处，$P$ 从点 $\\left( 0, 0 \\right)$ 出发沿 $x$ 轴正向移动，记 $G$ 为引力常量，则当质点 $P$ 移动到点 $\\left( 1, 0 \\right)$ 时，克服质点 $Q$ 的引力所做的功为",
+          "options": [
+            {
+              "label": "A",
+              "text": "$\\int_{0}^{1} \\frac{G}{x^{2} + 1} \\mathrm{~d} x$"
+            },
+            {
+              "label": "B",
+              "text": "$\\int_{0}^{1} \\frac{Gx}{\\left( x^{2} + 1 \\right)^{\\frac{3}{2}}} \\mathrm{~d} x$"
+            },
+            {
+              "label": "C",
+              "text": "$\\int_{0}^{1} \\frac{G}{\\left( x^{2} + 1 \\right)^{\\frac{3}{2}}} \\mathrm{~d} x$"
+            },
+            {
+              "label": "D",
+              "text": "$\\int_{0}^{1} \\frac{G\\left( x + 1 \\right)}{\\left( x^{2} + 1 \\right)^{\\frac{3}{2}}} \\mathrm{~d} x$"
+            }
+          ],
+          "layout": "4col"
+        },
+        {
+          "number": 7,
+          "type": "选择题",
+          "points": 5,
+          "stem": "设函数 $f\\left( x \\right)$ 连续，给出下列四个条件：\n\n① $\\lim_{x \\to 0} \\frac{\\left| f\\left( x \\right) \\right| - f\\left( 0 \\right)}{x}$ 存在；\n\n② $\\lim_{x \\to 0} \\frac{f\\left( x \\right) - \\left| f\\left( 0 \\right) \\right|}{x}$ 存在；\n\n③ $\\lim_{x \\to 0} \\frac{\\left| f\\left( x \\right) \\right|}{x}$ 存在；\n\n④ $\\lim_{x \\to 0} \\frac{\\left| f\\left( x \\right) \\right| - \\left| f\\left( 0 \\right) \\right|}{x}$ 存在.\n\n其中能得到 “$f\\left( x \\right)$ 在 $x = 0$ 处可导” 的条件的个数是",
+          "options": [
+            {
+              "label": "A",
+              "text": "$1$"
+            },
+            {
+              "label": "B",
+              "text": "$2$"
+            },
+            {
+              "label": "C",
+              "text": "$3$"
+            },
+            {
+              "label": "D",
+              "text": "$4$"
+            }
+          ],
+          "layout": "4col"
+        },
+        {
+          "number": 8,
+          "type": "选择题",
+          "points": 5,
+          "stem": "设矩阵 $\\boldsymbol{A} = \\begin{pmatrix} 1 & 2 & 0 \\\\ 2 & a & 0 \\\\ 0 & 0 & b \\end{pmatrix}$ 有一个正特征值和两个负特征值，则",
+          "options": [
+            {
+              "label": "A",
+              "text": "$a > 4$，$b > 0$"
+            },
+            {
+              "label": "B",
+              "text": "$a < 4$，$b > 0$"
+            },
+            {
+              "label": "C",
+              "text": "$a > 4$，$b < 0$"
+            },
+            {
+              "label": "D",
+              "text": "$a < 4$，$b < 0$"
+            }
+          ],
+          "layout": "4col"
+        },
+        {
+          "number": 9,
+          "type": "选择题",
+          "points": 5,
+          "stem": "下列矩阵中，可以经过若干初等变换得到矩阵 $\\begin{pmatrix} 1 & 1 & 0 & 1 \\\\ 0 & 0 & 1 & 2 \\\\ 0 & 0 & 0 & 0 \\end{pmatrix}$ 的是",
+          "options": [
+            {
+              "label": "A",
+              "text": "$\\begin{pmatrix} 1 & 1 & 0 & 1 \\\\ 1 & 2 & 1 & 3 \\\\ 2 & 3 & 1 & 4 \\end{pmatrix}$"
+            },
+            {
+              "label": "B",
+              "text": "$\\begin{pmatrix} 1 & 1 & 0 & 1 \\\\ 1 & 1 & 2 & 5 \\\\ 1 & 1 & 1 & 3 \\end{pmatrix}$"
+            },
+            {
+              "label": "C",
+              "text": "$\\begin{pmatrix} 1 & 0 & 0 & 1 \\\\ 0 & 1 & 0 & 3 \\\\ 0 & 1 & 0 & 0 \\end{pmatrix}$"
+            },
+            {
+              "label": "D",
+              "text": "$\\begin{pmatrix} 1 & 1 & 2 & 3 \\\\ 1 & 2 & 2 & 3 \\\\ 2 & 3 & 4 & 6 \\end{pmatrix}$"
+            }
+          ],
+          "layout": "4col"
+        },
+        {
+          "number": 10,
+          "type": "选择题",
+          "points": 5,
+          "stem": "设 3 阶矩阵 $\\boldsymbol{A}$，$\\boldsymbol{B}$ 满足 $r\\left( \\boldsymbol{A}\\boldsymbol{B} \\right) = r\\left( \\boldsymbol{B}\\boldsymbol{A} \\right) + 1$，则",
+          "options": [
+            {
+              "label": "A",
+              "text": "方程组 $\\left( \\boldsymbol{A} + \\boldsymbol{B} \\right)\\boldsymbol{x} = 0$ 只有零解."
+            },
+            {
+              "label": "B",
+              "text": "方程组 $\\boldsymbol{A}\\boldsymbol{x} = 0$ 与方程组 $\\boldsymbol{B}\\boldsymbol{x} = 0$ 均只有零解."
+            },
+            {
+              "label": "C",
+              "text": "方程组 $\\boldsymbol{A}\\boldsymbol{x} = 0$ 与方程组 $\\boldsymbol{B}\\boldsymbol{x} = 0$ 没有公共非零解."
+            },
+            {
+              "label": "D",
+              "text": "方程组 $\\boldsymbol{A}\\boldsymbol{B}\\boldsymbol{A}\\boldsymbol{x} = 0$ 与方程组 $\\boldsymbol{B}\\boldsymbol{A}\\boldsymbol{B}\\boldsymbol{x} = 0$ 有公共非零解."
+            }
+          ],
+          "layout": "2col"
+        }
+      ]
+    },
+    {
+      "type": "填空题",
+      "heading": "二、填空题：11～16小题，每小题5分，共30分。",
+      "questions": [
+        {
+          "number": 11,
+          "type": "填空题",
+          "points": 5,
+          "stem": "设 $\\int_{1}^{+\\infty} \\frac{a}{x\\left( 2x + a \\right)} \\mathrm{~d} x = \\ln 2$，则 $a =$ ________."
+        },
+        {
+          "number": 12,
+          "type": "填空题",
+          "points": 5,
+          "stem": "曲线 $y = \\sqrt[3]{x^{3} - 3x^{2} + 1}$ 的渐近线方程为 ________."
+        },
+        {
+          "number": 13,
+          "type": "填空题",
+          "points": 5,
+          "stem": "$\\lim_{n \\to \\infty} \\frac{1}{n^{2}} \\left[ \\ln \\frac{1}{n} + 2 \\ln \\frac{2}{n} + \\cdots + \\left( n - 1 \\right) \\ln \\frac{n - 1}{n} \\right] =$ ________."
+        },
+        {
+          "number": 14,
+          "type": "填空题",
+          "points": 5,
+          "stem": "已知函数 $y = y\\left( x \\right)$ 由 $\\left\\{ \\begin{aligned} x &= \\ln \\left( 1 + 2t \\right), \\\\ 2t - \\int_{1}^{y + t^{2}} e^{-u^{2}} \\mathrm{~d} u &= 0 \\end{aligned} \\right.$\n确定，则 $\\left. \\frac{\\mathrm{d} y}{\\mathrm{d} x} \\right|_{x = 0} =$ ________."
+        },
+        {
+          "number": 15,
+          "type": "填空题",
+          "points": 5,
+          "stem": "微分方程 $\\left( 2y - 3x \\right) \\mathrm{d} x + \\left( 2x - 5y \\right) \\mathrm{d} y = 0$ 满足条件 $y\\left( 1 \\right) = 1$ 的解为 ________."
+        },
+        {
+          "number": 16,
+          "type": "填空题",
+          "points": 5,
+          "stem": "设矩阵 $\\boldsymbol{A} = \\left( \\boldsymbol{\\alpha}_{1}, \\boldsymbol{\\alpha}_{2}, \\boldsymbol{\\alpha}_{3}, \\boldsymbol{\\alpha}_{4} \\right)$.若 $\\boldsymbol{\\alpha}_{1}$，$\\boldsymbol{\\alpha}_{2}$，$\\boldsymbol{\\alpha}_{3}$ 线性无关，且 $\\boldsymbol{\\alpha}_{1} + \\boldsymbol{\\alpha}_{2} = \\boldsymbol{\\alpha}_{3} + \\boldsymbol{\\alpha}_{4}$，则方程组 $\\boldsymbol{A}\\boldsymbol{x} = \\boldsymbol{\\alpha}_{1} + 4\\boldsymbol{\\alpha}_{4}$ 的通解为 ________."
+        }
+      ]
+    },
+    {
+      "type": "解答题",
+      "heading": "三、解答题：17～22小题，共70分。解答应写出文字说明、证明过程或演算步骤。",
+      "questions": [
+        {
+          "number": 17,
+          "type": "解答题",
+          "points": 10,
+          "stem": "计算 $\\int_{0}^{1} \\frac{1}{\\left( x + 1 \\right)\\left( x^{2} - 2x + 2 \\right)} \\mathrm{~d} x$."
+        },
+        {
+          "number": 18,
+          "type": "解答题",
+          "points": 12,
+          "stem": "设函数 $f\\left( x \\right)$ 在 $x = 0$ 处连续，且 $\\lim_{x \\to 0} \\frac{x f\\left( x \\right) - e^{2 \\sin x} + 1}{\\ln \\left( 1 + x \\right) + \\ln \\left( 1 - x \\right)} = -3$，证明 $f\\left( x \\right)$ 在 $x = 0$ 处可导，并求 $f^{\\prime}\\left( 0 \\right)$."
+        },
+        {
+          "number": 19,
+          "type": "解答题",
+          "points": 12,
+          "stem": "设函数 $f\\left( x, y \\right)$ 可微且满足 $\\mathrm{d} f\\left( x, y \\right) = -2x e^{-y} \\mathrm{d} x + e^{-y}\\left( x^{2} - y - 1 \\right) \\mathrm{d} y$，$f\\left( 0, 0 \\right) = 2$，求 $f\\left( x, y \\right)$，并求 $f\\left( x, y \\right)$ 的极值."
+        },
+        {
+          "number": 20,
+          "type": "解答题",
+          "points": 12,
+          "stem": "已知平面有界区域 $D = \\left\\{ \\left( x, y \\right) \\mid x^{2} + y^{2} \\le 4x,\\ x^{2} + y^{2} \\le 4y \\right\\}$，计算 $\\iint_{D} \\left( x - y \\right)^{2} \\mathrm{d} x \\mathrm{d} y$."
+        },
+        {
+          "number": 21,
+          "type": "解答题",
+          "points": 12,
+          "stem": "设函数 $f\\left( x \\right)$ 在区间 $\\left( a, b \\right)$ 内可导，证明：导函数 $f^{\\prime}\\left( x \\right)$ 在 $\\left( a, b \\right)$ 内严格单调递增的充分必要条件是：对 $\\left( a, b \\right)$ 内任意的 $x_{1}$，$x_{2}$，$x_{3}$，当 $x_{1} < x_{2} < x_{3}$ 时，有\n$\\frac{f\\left( x_{2} \\right) - f\\left( x_{1} \\right)}{x_{2} - x_{1}} < \\frac{f\\left( x_{3} \\right) - f\\left( x_{2} \\right)}{x_{3} - x_{2}}$."
+        },
+        {
+          "number": 22,
+          "type": "解答题",
+          "points": 12,
+          "stem": "已知矩阵\n$\\boldsymbol{A} = \\begin{pmatrix} 4 & 1 & -2 \\\\ 1 & 1 & 1 \\\\ -2 & 1 & a \\end{pmatrix}$，\n$\\boldsymbol{B} = \\begin{pmatrix} k & 0 & 0 \\\\ 0 & 6 & 0 \\\\ 0 & 0 & 0 \\end{pmatrix}$\n合同.\n\n1. 求 $a$ 的值及 $k$ 的取值范围；\n2. 若存在正交矩阵 $\\boldsymbol{Q}$，使得 $\\boldsymbol{Q}^{\\mathrm{T}} \\boldsymbol{A} \\boldsymbol{Q} = \\boldsymbol{B}$，求 $k$ 及 $\\boldsymbol{Q}$."
+        }
+      ]
+    }
+  ]
+}

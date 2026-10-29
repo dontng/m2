@@ -1,0 +1,348 @@
+{
+  "year": 2021,
+  "subject": "数学（二）",
+  "totalPoints": 150,
+  "durationMinutes": 180,
+  "sections": [
+    {
+      "type": "选择题",
+      "heading": "一、选择题：1～10小题，每小题5分，共50分。下列每题给出的四个选项中，只有一个选项是符合题目要求的。",
+      "questions": [
+        {
+          "number": 1,
+          "type": "选择题",
+          "points": 5,
+          "stem": "当 $x \\to 0$ 时，$\\int_{0}^{x^{2}} \\left(e^{t^3}-1\\right) \\mathrm{d} t$ 是 $x^{7}$ 的",
+          "options": [
+            {
+              "label": "A",
+              "text": "低阶无穷小"
+            },
+            {
+              "label": "B",
+              "text": "等价无穷小"
+            },
+            {
+              "label": "C",
+              "text": "高阶无穷小"
+            },
+            {
+              "label": "D",
+              "text": "同阶但非等价无穷小"
+            }
+          ],
+          "layout": "2col"
+        },
+        {
+          "number": 2,
+          "type": "选择题",
+          "points": 5,
+          "stem": "函数\n$$\nf(x)=\n\\begin{cases}\n\\dfrac{e^x-1}{x}, & x\\ne 0,\\\\\n1, & x=0\n\\end{cases}\n$$\n在 $x=0$ 处",
+          "options": [
+            {
+              "label": "A",
+              "text": "连续且取极大值"
+            },
+            {
+              "label": "B",
+              "text": "连续且取极小值"
+            },
+            {
+              "label": "C",
+              "text": "可导且导数为 $0$"
+            },
+            {
+              "label": "D",
+              "text": "可导且导数不为 $0$"
+            }
+          ],
+          "layout": "4col"
+        },
+        {
+          "number": 3,
+          "type": "选择题",
+          "points": 5,
+          "stem": "有一圆柱体底面半径与高随时间变化的速率分别为 $2 \\text{ cm/s}$、$-3 \\text{ cm/s}$。当底面半径为 $10 \\text{ cm}$，高为 $5 \\text{ cm}$ 时，圆柱体的体积与表面积随时间变化的速率分别为",
+          "options": [
+            {
+              "label": "A",
+              "text": "$125\\pi \\text{ cm}^{3}\\text{/s}$，$40\\pi \\text{ cm}^{2}\\text{/s}$"
+            },
+            {
+              "label": "B",
+              "text": "$125\\pi \\text{ cm}^{3}\\text{/s}$，$-40\\pi \\text{ cm}^{2}\\text{/s}$"
+            },
+            {
+              "label": "C",
+              "text": "$-100\\pi \\text{ cm}^{3}\\text{/s}$，$40\\pi \\text{ cm}^{2}\\text{/s}$"
+            },
+            {
+              "label": "D",
+              "text": "$-100\\pi \\text{ cm}^{3}\\text{/s}$，$-40\\pi \\text{ cm}^{2}\\text{/s}$"
+            }
+          ],
+          "layout": "4col"
+        },
+        {
+          "number": 4,
+          "type": "选择题",
+          "points": 5,
+          "stem": "设函数 $f(x)=ax-b\\ln x$，其中 $a>0$。若 $f(x)$ 有两个零点，则 $\\dfrac{b}{a}$ 的取值范围是",
+          "options": [
+            {
+              "label": "A",
+              "text": "$\\left(e,+\\infty\\right)$"
+            },
+            {
+              "label": "B",
+              "text": "$\\left(0,e\\right)$"
+            },
+            {
+              "label": "C",
+              "text": "$\\left(0,\\dfrac{1}{e}\\right)$"
+            },
+            {
+              "label": "D",
+              "text": "$\\left(\\dfrac{1}{e},+\\infty\\right)$"
+            }
+          ],
+          "layout": "4col"
+        },
+        {
+          "number": 5,
+          "type": "选择题",
+          "points": 5,
+          "stem": "设函数 $f(x)=\\sec x$ 在 $x=0$ 处的 2 次泰勒多项式为 $1+ax+bx^2$，则",
+          "options": [
+            {
+              "label": "A",
+              "text": "$a=1$，$b=-\\dfrac{1}{2}$"
+            },
+            {
+              "label": "B",
+              "text": "$a=1$，$b=\\dfrac{1}{2}$"
+            },
+            {
+              "label": "C",
+              "text": "$a=0$，$b=-\\dfrac{1}{2}$"
+            },
+            {
+              "label": "D",
+              "text": "$a=0$，$b=\\dfrac{1}{2}$"
+            }
+          ],
+          "layout": "4col"
+        },
+        {
+          "number": 6,
+          "type": "选择题",
+          "points": 5,
+          "stem": "设函数 $f(x,y)$ 可微，且\n$$\nf(x+1,e^x)=x^2(x+1),\\qquad f(x,x^2)=2x^2\\ln x,\n$$\n则 $\\mathrm{d} f(1,1)=$",
+          "options": [
+            {
+              "label": "A",
+              "text": "$\\mathrm{d}x+\\mathrm{d}y$"
+            },
+            {
+              "label": "B",
+              "text": "$\\mathrm{d}x-\\mathrm{d}y$"
+            },
+            {
+              "label": "C",
+              "text": "$\\mathrm{d}y$"
+            },
+            {
+              "label": "D",
+              "text": "$-\\mathrm{d}y$"
+            }
+          ],
+          "layout": "4col"
+        },
+        {
+          "number": 7,
+          "type": "选择题",
+          "points": 5,
+          "stem": "设函数 $f(x)$ 在区间 $\\left[0,1\\right]$ 上连续，则\n$$\n\\int_{0}^{1} f(x)\\,\\mathrm{d}x=\n$$",
+          "options": [
+            {
+              "label": "A",
+              "text": "$\\lim_{n \\to \\infty}\\sum_{k=1}^{n} f\\left(\\dfrac{2k-1}{2n}\\right)\\dfrac{1}{2n}$"
+            },
+            {
+              "label": "B",
+              "text": "$\\lim_{n \\to \\infty}\\sum_{k=1}^{n} f\\left(\\dfrac{2k-1}{2n}\\right)\\dfrac{1}{n}$"
+            },
+            {
+              "label": "C",
+              "text": "$\\lim_{n \\to \\infty}\\sum_{k=1}^{2n} f\\left(\\dfrac{k-1}{2n}\\right)\\dfrac{1}{n}$"
+            },
+            {
+              "label": "D",
+              "text": "$\\lim_{n \\to \\infty}\\sum_{k=1}^{2n} f\\left(\\dfrac{k}{2n}\\right)\\dfrac{2}{n}$"
+            }
+          ],
+          "layout": "4col"
+        },
+        {
+          "number": 8,
+          "type": "选择题",
+          "points": 5,
+          "stem": "二次型\n$$\nf(x_1,x_2,x_3)=\\left(x_1+x_2\\right)^2+\\left(x_2+x_3\\right)^2-\\left(x_3-x_1\\right)^2\n$$\n的正惯性指数与负惯性指数依次为",
+          "options": [
+            {
+              "label": "A",
+              "text": "$2,0$"
+            },
+            {
+              "label": "B",
+              "text": "$1,1$"
+            },
+            {
+              "label": "C",
+              "text": "$2,1$"
+            },
+            {
+              "label": "D",
+              "text": "$1,2$"
+            }
+          ],
+          "layout": "4col"
+        },
+        {
+          "number": 9,
+          "type": "选择题",
+          "points": 5,
+          "stem": "设 3 阶矩阵 $\\boldsymbol{A}=\\left(\\boldsymbol{\\alpha}_{1},\\boldsymbol{\\alpha}_{2},\\boldsymbol{\\alpha}_{3}\\right)$，$\\boldsymbol{B}=\\left(\\boldsymbol{\\beta}_{1},\\boldsymbol{\\beta}_{2},\\boldsymbol{\\beta}_{3}\\right)$。若向量组 $\\boldsymbol{\\alpha}_{1},\\boldsymbol{\\alpha}_{2},\\boldsymbol{\\alpha}_{3}$ 可以由向量组 $\\boldsymbol{\\beta}_{1},\\boldsymbol{\\beta}_{2},\\boldsymbol{\\beta}_{3}$ 线性表出，则",
+          "options": [
+            {
+              "label": "A",
+              "text": "$\\boldsymbol{A}\\boldsymbol{x}=0$ 的解均为 $\\boldsymbol{B}\\boldsymbol{x}=0$ 的解"
+            },
+            {
+              "label": "B",
+              "text": "$\\boldsymbol{A}^{\\mathrm{T}}\\boldsymbol{x}=0$ 的解均为 $\\boldsymbol{B}^{\\mathrm{T}}\\boldsymbol{x}=0$ 的解"
+            },
+            {
+              "label": "C",
+              "text": "$\\boldsymbol{B}\\boldsymbol{x}=0$ 的解均为 $\\boldsymbol{A}\\boldsymbol{x}=0$ 的解"
+            },
+            {
+              "label": "D",
+              "text": "$\\boldsymbol{B}^{\\mathrm{T}}\\boldsymbol{x}=0$ 的解均为 $\\boldsymbol{A}^{\\mathrm{T}}\\boldsymbol{x}=0$ 的解"
+            }
+          ],
+          "layout": "4col"
+        },
+        {
+          "number": 10,
+          "type": "选择题",
+          "points": 5,
+          "stem": "已知矩阵\n$$\n\\boldsymbol{A}=\\begin{pmatrix}\n1 & 0 & -1 \\\\\n2 & -1 & 1 \\\\\n-1 & 2 & -5\n\\end{pmatrix}.\n$$\n\n若存在下三角可逆矩阵 $\\boldsymbol{P}$ 和上三角可逆矩阵 $\\boldsymbol{Q}$，使 $\\boldsymbol{P}\\boldsymbol{A}\\boldsymbol{Q}$ 为对角矩阵，则 $\\boldsymbol{P}$，$\\boldsymbol{Q}$ 可以分别取",
+          "options": [
+            {
+              "label": "A",
+              "text": "$\\begin{pmatrix}1 & 0 & 0 \\\\ 0 & 1 & 0 \\\\ 0 & 0 & 1\\end{pmatrix}$，$\\begin{pmatrix}1 & 0 & 1 \\\\ 0 & 1 & 3 \\\\ 0 & 0 & 1\\end{pmatrix}$"
+            },
+            {
+              "label": "B",
+              "text": "$\\begin{pmatrix}1 & 0 & 0 \\\\ 2 & -1 & 0 \\\\ -3 & 2 & 1\\end{pmatrix}$，$\\begin{pmatrix}1 & 0 & 0 \\\\ 0 & 1 & 0 \\\\ 0 & 0 & 1\\end{pmatrix}$"
+            },
+            {
+              "label": "C",
+              "text": "$\\begin{pmatrix}1 & 0 & 0 \\\\ 2 & -1 & 0 \\\\ -3 & 2 & 1\\end{pmatrix}$，$\\begin{pmatrix}1 & 0 & 1 \\\\ 0 & 1 & 3 \\\\ 0 & 0 & 1\\end{pmatrix}$"
+            },
+            {
+              "label": "D",
+              "text": "$\\begin{pmatrix}1 & 0 & 0 \\\\ 0 & 1 & 0 \\\\ 1 & 3 & 1\\end{pmatrix}$，$\\begin{pmatrix}1 & 2 & -3 \\\\ 0 & -1 & 2 \\\\ 0 & 0 & 1\\end{pmatrix}$"
+            }
+          ],
+          "layout": "4col"
+        }
+      ]
+    },
+    {
+      "type": "填空题",
+      "heading": "二、填空题：11～16小题，每小题5分，共30分。",
+      "questions": [
+        {
+          "number": 11,
+          "type": "填空题",
+          "points": 5,
+          "stem": "$$\n\\int_{-\\infty}^{+\\infty} |x|3^{-x^2}\\,\\mathrm{d}x= \\underline{\\hspace{6em}}\n$$"
+        },
+        {
+          "number": 12,
+          "type": "填空题",
+          "points": 5,
+          "stem": "设函数 $y=y(x)$ 由参数方程\n$$\n\\begin{cases}\nx=2e^t+t+1,\\\\\ny=4(t-1)e^t+t^2\n\\end{cases}\n$$\n确定，则\n$$\n\\left.\\frac{\\mathrm{d}^2 y}{\\mathrm{d} x^2}\\right|_{t=0}= \\underline{\\hspace{6em}}\n$$"
+        },
+        {
+          "number": 13,
+          "type": "填空题",
+          "points": 5,
+          "stem": "设函数 $z=z(x,y)$ 由方程\n$$\n(x+1)z+y\\ln z-\\arctan(2xy)=1\n$$\n确定，则\n$$\n\\left.\\frac{\\partial z}{\\partial x}\\right|_{(0,2)}= \\underline{\\hspace{6em}}\n$$"
+        },
+        {
+          "number": 14,
+          "type": "填空题",
+          "points": 5,
+          "stem": "已知函数\n$$\nf(t)=\\int_{1}^{t} \\mathrm{d}x \\int_{\\sqrt{x}}^{1} \\sin \\frac{x}{y}\\,\\mathrm{d}y,\n$$\n则\n$$\nf'\\left(\\frac{\\pi}{2}\\right)= \\underline{\\hspace{18em}}\n$$"
+        },
+        {
+          "number": 15,
+          "type": "填空题",
+          "points": 5,
+          "stem": "微分方程 $y'''-y=0$ 的通解\n$$\ny= \\underline{\\hspace{24em}}\n$$"
+        },
+        {
+          "number": 16,
+          "type": "填空题",
+          "points": 5,
+          "stem": "多项式\n$$\nf(x)=\\left|\\begin{array}{cccc}\nx & x & 1 & 2x \\\\\n1 & x & 2 & -1 \\\\\n2 & 1 & x & 1 \\\\\n2 & -1 & 1 & x\n\\end{array}\\right|\n$$\n中 $x^3$ 项的系数为 $\\underline{\\hspace{6em}}$"
+        }
+      ]
+    },
+    {
+      "type": "解答题",
+      "heading": "三、解答题：17～22小题，共70分。解答应写出文字说明、证明过程或演算步骤。",
+      "questions": [
+        {
+          "number": 17,
+          "type": "解答题",
+          "points": 10,
+          "stem": "求极限\n$$\n\\lim_{x \\to 0} \\left(\\frac{1+\\int_{0}^{x} e^{t^{2}} \\,\\mathrm{d} t}{e^{x}-1}-\\frac{1}{\\sin x}\\right).\n$$"
+        },
+        {
+          "number": 18,
+          "type": "解答题",
+          "points": 12,
+          "stem": "已知\n$$\nf(x)=\\frac{x|x|}{1+x},\n$$\n求 $f(x)$ 的凹凸性及渐近线。"
+        },
+        {
+          "number": 19,
+          "type": "解答题",
+          "points": 12,
+          "stem": "$f(x)$ 满足\n$$\n\\int \\frac{f(x)}{\\sqrt{x}} \\,\\mathrm{d}x=\\frac{1}{6}x^{2}-x+C,\n$$\n$L$ 为曲线 $y=f(x)$，其中 $4 \\le x \\le 9$。$L$ 的弧长为 $s$，$L$ 绕 $x$ 轴旋转一周所形成的曲面的面积为 $A$，求 $s$ 和 $A$。"
+        },
+        {
+          "number": 20,
+          "type": "解答题",
+          "points": 12,
+          "stem": "函数 $y=y(x)$ 的微分方程\n$$\nxy'-6y=-6,\n$$\n满足 $y\\left(\\sqrt{3}\\right)=10$。\n\n1. 求 $y(x)$；\n2. $P$ 为曲线 $y=y(x)$ 上的一点，曲线在点 $P$ 的法线在 $y$ 轴上的截距为 $I_y$。为使 $I_y$ 最小，求 $P$ 的坐标。"
+        },
+        {
+          "number": 21,
+          "type": "解答题",
+          "points": 12,
+          "stem": "曲线\n$$\n\\left(x^{2}+y^{2}\\right)^{2}=x^{2}-y^{2},\n$$\n其中 $x \\ge 0,\\ y \\ge 0$，与 $x$ 轴围成的区域为 $D$，求\n$$\n\\iint_{D} xy \\,\\mathrm{d}x\\,\\mathrm{d}y.\n$$"
+        },
+        {
+          "number": 22,
+          "type": "解答题",
+          "points": 12,
+          "stem": "设矩阵\n$$\n\\boldsymbol{A}=\\begin{pmatrix}\n2 & 1 & 0 \\\\\n1 & 2 & 0 \\\\\n1 & a & b\n\\end{pmatrix}\n$$\n仅有两个不同的特征值。若 $\\boldsymbol{A}$ 相似于对角矩阵，求 $a,\\ b$ 的值，并求可逆矩阵 $\\boldsymbol{P}$，使 $\\boldsymbol{P}^{-1}\\boldsymbol{A}\\boldsymbol{P}$ 为对角矩阵。"
+        }
+      ]
+    }
+  ]
+}

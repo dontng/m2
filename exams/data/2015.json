@@ -1,0 +1,317 @@
+{
+  "year": 2015,
+  "subject": "数学（二）",
+  "totalPoints": 150,
+  "durationMinutes": 180,
+  "sections": [
+    {
+      "type": "选择题",
+      "heading": "一、选择题：1～8小题，每小题4分，共32分。下列每题给出的四个选项中，只有一个选项是符合题目要求的。",
+      "questions": [
+        {
+          "number": 1,
+          "type": "选择题",
+          "points": 4,
+          "stem": "下列反常积分收敛的是（ ）",
+          "options": [
+            {
+              "label": "A",
+              "text": "$\\int_{2}^{+\\infty}\\frac{1}{\\sqrt{x}}\\mathrm{~d}x$"
+            },
+            {
+              "label": "B",
+              "text": "$\\int_{2}^{+\\infty}\\frac{\\ln x}{x}\\mathrm{~d}x$"
+            },
+            {
+              "label": "C",
+              "text": "$\\int_{2}^{+\\infty}\\frac{1}{x \\ln x}\\mathrm{~d}x$"
+            },
+            {
+              "label": "D",
+              "text": "$\\int_{2}^{+\\infty}\\frac{x}{e^{x}}\\mathrm{~d}x$"
+            }
+          ],
+          "layout": "4col"
+        },
+        {
+          "number": 2,
+          "type": "选择题",
+          "points": 4,
+          "stem": "函数 $f\\left(x\\right)=\\lim_{t\\to 0}\\left(1+\\frac{\\sin t}{x}\\right)^{\\frac{x^{2}}{t}}$ 在 $\\left(-\\infty,+\\infty\\right)$ 内（ ）",
+          "options": [
+            {
+              "label": "A",
+              "text": "连续"
+            },
+            {
+              "label": "B",
+              "text": "有可去间断点"
+            },
+            {
+              "label": "C",
+              "text": "有跳跃间断点"
+            },
+            {
+              "label": "D",
+              "text": "有无穷间断点"
+            }
+          ],
+          "layout": "4col"
+        },
+        {
+          "number": 3,
+          "type": "选择题",
+          "points": 4,
+          "stem": "设函数\n\n$f\\left(x\\right)=\\left\\{\\begin{matrix}x^{\\alpha}\\cos \\frac{1}{x^{\\beta}},&x>0\\\\0,&x\\leq 0\\end{matrix}\\right.$，$\\left(\\alpha>0,\\beta>0\\right)$，\n\n若 $f^{\\prime}\\left(x\\right)$ 在 $x=0$ 处连续，则（ ）",
+          "options": [
+            {
+              "label": "A",
+              "text": "$\\alpha-\\beta>0$"
+            },
+            {
+              "label": "B",
+              "text": "$0<\\alpha-\\beta\\leq 1$"
+            },
+            {
+              "label": "C",
+              "text": "$\\alpha-\\beta>2$"
+            },
+            {
+              "label": "D",
+              "text": "$0<\\alpha-\\beta\\leq 2$"
+            }
+          ],
+          "layout": "4col"
+        },
+        {
+          "number": 4,
+          "type": "选择题",
+          "points": 4,
+          "stem": "设函数 $f\\left(x\\right)$ 在 $\\left(-\\infty,+\\infty\\right)$ 内连续，其中二阶导数 $f^{\\prime\\prime}\\left(x\\right)$ 的图形如图所示，则曲线 $y=f\\left(x\\right)$ 的拐点的个数为（ ）",
+          "options": [
+            {
+              "label": "A",
+              "text": "$0$"
+            },
+            {
+              "label": "B",
+              "text": "$1$"
+            },
+            {
+              "label": "C",
+              "text": "$2$"
+            },
+            {
+              "label": "D",
+              "text": "$3$"
+            }
+          ],
+          "layout": "4col",
+          "figure": "../assets/figures/diagram-2015-4.png"
+        },
+        {
+          "number": 5,
+          "type": "选择题",
+          "points": 4,
+          "stem": "设函数 $f\\left(u,v\\right)$ 满足 $f\\left(x+\\frac{y}{x},y\\right)=x^{2}-y^{2}$，则 $\\left.\\frac{\\partial f}{\\partial u}\\right|_{\\substack{u=1\\\\v=1}}$ 与 $\\left.\\frac{\\partial f}{\\partial v}\\right|_{\\substack{u=1\\\\v=1}}$ 依次是（ ）",
+          "options": [
+            {
+              "label": "A",
+              "text": "$\\frac{1}{2},0$"
+            },
+            {
+              "label": "B",
+              "text": "$0,\\frac{1}{2}$"
+            },
+            {
+              "label": "C",
+              "text": "$-\\frac{1}{2},0$"
+            },
+            {
+              "label": "D",
+              "text": "$0,-\\frac{1}{2}$"
+            }
+          ],
+          "layout": "4col"
+        },
+        {
+          "number": 6,
+          "type": "选择题",
+          "points": 4,
+          "stem": "设 $D$ 是第一象限中由曲线 $2xy=1$、$4xy=1$ 与直线 $y=x$、$y=\\sqrt3x$ 围成的平面区域，函数 $f(x,y)$ 在 $D$ 上连续，则 $\\displaystyle\\iint_D f(x,y)\\,\\mathrm dx\\,\\mathrm dy=$（ ）",
+          "options": [
+            {
+              "label": "A",
+              "text": "$\\displaystyle\\int_{\\pi/4}^{\\pi/3}\\mathrm d\\theta\\int_{\\frac1{2\\sin2\\theta}}^{\\frac1{\\sin2\\theta}} f(r\\cos\\theta,r\\sin\\theta)r\\,\\mathrm dr$"
+            },
+            {
+              "label": "B",
+              "text": "$\\displaystyle\\int_{\\pi/4}^{\\pi/3}\\mathrm d\\theta\\int_{\\frac1{\\sqrt{2\\sin2\\theta}}}^{\\frac1{\\sqrt{\\sin2\\theta}}} f(r\\cos\\theta,r\\sin\\theta)r\\,\\mathrm dr$"
+            },
+            {
+              "label": "C",
+              "text": "$\\displaystyle\\int_{\\pi/4}^{\\pi/3}\\mathrm d\\theta\\int_{\\frac1{2\\sin2\\theta}}^{\\frac1{\\sin2\\theta}} f(r\\cos\\theta,r\\sin\\theta)\\,\\mathrm dr$"
+            },
+            {
+              "label": "D",
+              "text": "$\\displaystyle\\int_{\\pi/4}^{\\pi/3}\\mathrm d\\theta\\int_{\\frac1{\\sqrt{2\\sin2\\theta}}}^{\\frac1{\\sqrt{\\sin2\\theta}}} f(r\\cos\\theta,r\\sin\\theta)\\,\\mathrm dr$"
+            }
+          ],
+          "layout": "4col"
+        },
+        {
+          "number": 7,
+          "type": "选择题",
+          "points": 4,
+          "stem": "设矩阵 $\\boldsymbol{A}=\\left(\\begin{matrix}1&1&1\\\\1&2&a\\\\1&4&a^{2}\\end{matrix}\\right)$，$\\boldsymbol{b}=\\left(\\begin{matrix}1\\\\2\\\\d\\end{matrix}\\right)$。若集合 $\\Omega=\\left\\{1,2\\right\\}$，则线性方程组 $\\boldsymbol{A}\\boldsymbol{x}=\\boldsymbol{b}$ 有无穷多解的充分必要条件为（ ）",
+          "options": [
+            {
+              "label": "A",
+              "text": "$a\\notin\\Omega,d\\notin\\Omega$"
+            },
+            {
+              "label": "B",
+              "text": "$a\\notin\\Omega,d\\in\\Omega$"
+            },
+            {
+              "label": "C",
+              "text": "$a\\in\\Omega,d\\notin\\Omega$"
+            },
+            {
+              "label": "D",
+              "text": "$a\\in\\Omega,d\\in\\Omega$"
+            }
+          ],
+          "layout": "4col"
+        },
+        {
+          "number": 8,
+          "type": "选择题",
+          "points": 4,
+          "stem": "设二次型 $f\\left(x_{1},x_{2},x_{3}\\right)$ 在正交变换 $\\boldsymbol{x}=\\boldsymbol{P}\\boldsymbol{y}$ 下的标准形为 $2y_{1}^{2}+y_{2}^{2}-y_{3}^{2}$，其中 $\\boldsymbol{P}=\\left(\\boldsymbol{e}_{1},\\boldsymbol{e}_{2},\\boldsymbol{e}_{3}\\right)$，若 $\\boldsymbol{Q}=\\left(\\boldsymbol{e}_{1},-\\boldsymbol{e}_{3},\\boldsymbol{e}_{2}\\right)$，则 $f\\left(x_{1},x_{2},x_{3}\\right)$ 在正交变换 $\\boldsymbol{x}=\\boldsymbol{Q}\\boldsymbol{y}$ 下的标准形为（ ）",
+          "options": [
+            {
+              "label": "A",
+              "text": "$2y_{1}^{2}-y_{2}^{2}+y_{3}^{2}$"
+            },
+            {
+              "label": "B",
+              "text": "$2y_{1}^{2}+y_{2}^{2}-y_{3}^{2}$"
+            },
+            {
+              "label": "C",
+              "text": "$2y_{1}^{2}-y_{2}^{2}-y_{3}^{2}$"
+            },
+            {
+              "label": "D",
+              "text": "$2y_{1}^{2}+y_{2}^{2}+y_{3}^{2}$"
+            }
+          ],
+          "layout": "4col"
+        }
+      ]
+    },
+    {
+      "type": "填空题",
+      "heading": "二、填空题：9～14小题，每小题4分，共24分。",
+      "questions": [
+        {
+          "number": 9,
+          "type": "填空题",
+          "points": 4,
+          "stem": "$\\left\\{\\begin{matrix}x=\\arctan t\\\\y=t^{3}+t\\end{matrix}\\right.$，则 $\\left.\\frac{\\mathrm{d}^{2}y}{\\mathrm{d}x^{2}}\\right|_{t=1}=$"
+        },
+        {
+          "number": 10,
+          "type": "填空题",
+          "points": 4,
+          "stem": "函数 $f\\left(x\\right)=x^{2}\\cdot 2^{x}$ 在 $x=0$ 处的 $n$ 阶导数 $f^{\\left(n\\right)}\\left(0\\right)=$"
+        },
+        {
+          "number": 11,
+          "type": "填空题",
+          "points": 4,
+          "stem": "设 $f\\left(x\\right)$ 连续，$\\varphi\\left(x\\right)=x\\int_{0}^{x^{2}}f\\left(t\\right)\\mathrm{~d}t$，若 $\\varphi\\left(1\\right)=1,\\varphi^{\\prime}\\left(1\\right)=5$，则 $f\\left(1\\right)=$"
+        },
+        {
+          "number": 12,
+          "type": "填空题",
+          "points": 4,
+          "stem": "设函数 $y=y\\left(x\\right)$ 是微分方程 $y^{\\prime\\prime}+y^{\\prime}-2y=0$ 的解，且在 $x=0$ 处 $y\\left(x\\right)$ 取得极值 $3$，则 $y\\left(x\\right)=$"
+        },
+        {
+          "number": 13,
+          "type": "填空题",
+          "points": 4,
+          "stem": "若函数 $z=z\\left(x,y\\right)$ 由方程 $e^{x+2y+3z}+xyz=1$ 确定，则 $\\left.\\mathrm{d}z\\right|_{\\left(0,0\\right)}=$"
+        },
+        {
+          "number": 14,
+          "type": "填空题",
+          "points": 4,
+          "stem": "若 $3$ 阶矩阵 $\\boldsymbol{A}$ 的特征值为 $2,-2,1$，$\\boldsymbol{B}=\\boldsymbol{A}^{2}-\\boldsymbol{A}+\\boldsymbol{E}$，其中 $\\boldsymbol{E}$ 为 $3$ 阶单位阵，则行列式 $\\left|\\boldsymbol{B}\\right|=$"
+        }
+      ]
+    },
+    {
+      "type": "解答题",
+      "heading": "三、解答题：15～23小题，共94分。解答应写出文字说明、证明过程或演算步骤。",
+      "questions": [
+        {
+          "number": 15,
+          "type": "解答题",
+          "points": 10,
+          "stem": "设函数 $f\\left(x\\right)=\\ln\\left(1+x\\right)+ax+bx\\sin x$，$g\\left(x\\right)=kx^{3}$。若 $f\\left(x\\right)$ 与 $g\\left(x\\right)$ 在 $x\\to 0$ 时是等价无穷小，求 $a,b,k$ 的值。"
+        },
+        {
+          "number": 16,
+          "type": "解答题",
+          "points": 10,
+          "stem": "设 $A>0$，$D$ 是由曲线段 $y=A\\sin x\\left(0\\leq x\\leq \\frac{\\pi}{2}\\right)$ 及直线 $y=0$，$x=\\frac{\\pi}{2}$ 所围成的平面区域，$V_{1}$，$V_{2}$ 分别表示 $D$ 绕 $x$ 轴与绕 $y$ 轴旋转成旋转体的体积，若 $V_{1}=V_{2}$，求 $A$ 的值。"
+        },
+        {
+          "number": 17,
+          "type": "解答题",
+          "points": 11,
+          "stem": "已知函数 $f\\left(x,y\\right)$ 满足 $f_{xy}^{\\prime\\prime}\\left(x,y\\right)=2\\left(y+1\\right)e^{x}$，$f_{x}^{\\prime}\\left(x,0\\right)=\\left(x+1\\right)e^{x}$，$f\\left(0,y\\right)=y^{2}+2y$，求 $f\\left(x,y\\right)$ 的极值。"
+        },
+        {
+          "number": 18,
+          "type": "解答题",
+          "points": 10,
+          "stem": "计算二重积分 $\\iint_{D}x\\left(x+y\\right)\\mathrm{~d}x\\mathrm{~d}y$，其中 $D=\\left\\{\\left(x,y\\right)\\middle|x^{2}+y^{2}\\leq 2,y\\geq x^{2}\\right\\}$。"
+        },
+        {
+          "number": 19,
+          "type": "解答题",
+          "points": 11,
+          "stem": "已知函数 $f\\left(x\\right)=\\int_{x}^{1}\\sqrt{1+t^{2}}\\mathrm{~d}t+\\int_{1}^{x^{2}}\\sqrt{1+t}\\mathrm{~d}t$，求 $f\\left(x\\right)$ 零点的个数。"
+        },
+        {
+          "number": 20,
+          "type": "解答题",
+          "points": 10,
+          "stem": "已知高温物体置于低温介质中，任一时刻该物体温度对时间的变化率与该时刻物体和介质的温差成正比，现将一初始温度为 $120^\\circ\\mathrm{C}$ 的物体在 $20^\\circ\\mathrm{C}$ 的恒温介质中冷却，$30\\mathrm{min}$ 后该物体降至 $30^\\circ\\mathrm{C}$，若要将该物体的温度继续降至 $21^\\circ\\mathrm{C}$，还需冷却多长时间？"
+        },
+        {
+          "number": 21,
+          "type": "解答题",
+          "points": 10,
+          "stem": "已知函数 $f\\left(x\\right)$ 在区间 $\\left[a,+\\infty\\right)$ 上具有 $2$ 阶导数，$f\\left(a\\right)=0$，$f^{\\prime}\\left(x\\right)>0$，$f^{\\prime\\prime}\\left(x\\right)>0$。设 $b>a$，曲线 $y=f\\left(x\\right)$ 在点 $\\left(b,f\\left(b\\right)\\right)$ 处的切线与 $x$ 轴的交点是 $\\left(x_{0},0\\right)$，证明 $a<x_{0}<b$。"
+        },
+        {
+          "number": 22,
+          "type": "解答题",
+          "points": 11,
+          "stem": "设矩阵 $\\boldsymbol{A}=\\left(\\begin{matrix}a&1&0\\\\1&a&-1\\\\0&1&a\\end{matrix}\\right)$ 且 $\\boldsymbol{A}^{3}=\\boldsymbol{O}$。\n\n（1）求 $a$ 的值；\n\n（2）若矩阵 $\\boldsymbol{X}$ 满足 $\\boldsymbol{X}-\\boldsymbol{X}\\boldsymbol{A}-\\boldsymbol{A}\\boldsymbol{X}+\\boldsymbol{A}\\boldsymbol{X}\\boldsymbol{A}=\\boldsymbol{E}$，$\\boldsymbol{E}$ 为 $3$ 阶单位阵，求 $\\boldsymbol{X}$。"
+        },
+        {
+          "number": 23,
+          "type": "解答题",
+          "points": 11,
+          "stem": "设矩阵\n\n$\\boldsymbol{A}=\\left(\\begin{matrix}0&-2&3\\\\1&-3&3\\\\1&-2&a\\end{matrix}\\right)$\n\n相似于矩阵\n\n$\\boldsymbol{B}=\\left(\\begin{matrix}1&2&0\\\\0&b&0\\\\0&3&1\\end{matrix}\\right)$。\n\n（1）求 $a,b$ 的值；\n\n（2）求可逆矩阵 $\\boldsymbol{P}$，使 $\\boldsymbol{P}^{-1}\\boldsymbol{A}\\boldsymbol{P}$ 为对角阵。"
+        }
+      ]
+    }
+  ]
+}
