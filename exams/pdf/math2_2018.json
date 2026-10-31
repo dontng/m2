@@ -39,5 +39,6 @@
   "failedRequests": [],
   "pdfPages": 4,
   "paperSize": "A4",
-  "pdfTextPresentOnAllPages": true
+  "pdfTextPresentOnAllPages": true,
+  "pdfRawLatexMarkers": 0
 }

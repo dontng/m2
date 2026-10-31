@@ -9,7 +9,7 @@ let formulas = 0;
 function cleanStem(stem, isFillIn) {
   let s = stem.trim();
 
-  // 2. 将 $$...$$ 转换为行内 \\displaystyle 公式，彻底消除“计算/且满足”等破碎换行
+  // 1. 将 $$...$$ 转换为行内 \\displaystyle 公式，彻底消除“计算/且满足”等破碎换行
   s = s.replace(/\n*\$\$\s*([\s\S]*?)\s*\$\$\n*/g, (_, math) => {
     const trimmed = math.trim().replace(/\s*\n\s*/g, ' ');
     const withDisplay = trimmed.startsWith('\\displaystyle') ? trimmed : `\\displaystyle ${trimmed}`;
@@ -18,7 +18,7 @@ function cleanStem(stem, isFillIn) {
 
 
   
-  // 1. 填空题下划线保证机制（使用占位标记 @@ANSWER_BLANK@@ 防止被 esc 转义）
+  // 2. 填空题下划线保证机制（使用占位标记 @@ANSWER_BLANK@@ 防止被 esc 转义）
   if (isFillIn) {
     // 提取 LaTeX 公式内部的 \underline{...} 到公式外（支持嵌套括号如 \underline{\hspace{6em}}，以及结尾标点）
     s = s.replace(/(\${1,2}[^$]*?)(?:\\\s*)?\\underline\s*\{(?:[^{}]*|\{[^{}]*\})*\}\s*([.,，。]?\s*\${1,2})/g, (_, before) => {
@@ -72,6 +72,11 @@ function cleanStem(stem, isFillIn) {
 }
 
 function formatParagraphText(text) {
+  // 选项同样允许使用行间公式；统一为带 displaystyle 的行内源码。
+  text = text.replace(/\$\$\s*([\s\S]*?)\s*\$\$/g, (_, latex) => {
+    const math = latex.trim().replace(/\s*\n\s*/g, ' ');
+    return '$' + (math.startsWith('\\displaystyle') ? '' : '\\displaystyle ') + math + '$';
+  });
   const tokens = [];
   let s = text.replace(/\$([^$]+)\$/g, (_, latex) => {
     katex.renderToString(latex, { displayMode: false, throwOnError: true, strict: 'ignore', output: 'htmlAndMathml' });

@@ -36,5 +36,7 @@
   "failedRequests": [],
   "pdfPages": 4,
   "paperSize": "A4",
-  "pdfTextPresentOnAllPages": true
+  "pdfTextPresentOnAllPages": true,
+  "sourceHtmlSha256": "5dd26286c2f6129c444b82f8bb5985d5d0ec2c4ae33086e524a4f29e3de4f0fc",
+  "pdfRawLatexMarkers": 0
 }

@@ -1,6 +1,8 @@
 {
   "year": 2010,
   "sourceCommit": "1430fdbfdfbfd0f50d60d0b84cae468e79a2fc3e",
+  "sourceHtmlSha256": "ddfb1ca6ef6092334396ff07b37a1162ba0105a0e05322128f724a36fd7ac339",
+  "residualMath": [],
   "questions": 23,
   "questionNumbers": [
     1,
@@ -29,6 +31,7 @@
   ],
   "formulas": 115,
   "formulaErrors": 0,
+  "unrenderedMath": 0,
   "imagesLoaded": true,
   "htmlPages": 4,
   "horizontalOverflow": [],
@@ -36,5 +39,6 @@
   "failedRequests": [],
   "pdfPages": 4,
   "paperSize": "A4",
-  "pdfTextPresentOnAllPages": true
+  "pdfTextPresentOnAllPages": true,
+  "pdfRawLatexMarkers": 0
 }
