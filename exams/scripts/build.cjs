@@ -8,13 +8,22 @@ let formulas = 0;
 // 填空题与公式连贯清洗，严禁中途断句与异常折行
 function cleanStem(stem, isFillIn) {
   let s = stem.trim();
+
+  // 2. 将 $$...$$ 转换为行内 \\displaystyle 公式，彻底消除“计算/且满足”等破碎换行
+  s = s.replace(/\n*\$\$\s*([\s\S]*?)\s*\$\$\n*/g, (_, math) => {
+    const trimmed = math.trim().replace(/\s*\n\s*/g, ' ');
+    const withDisplay = trimmed.startsWith('\\displaystyle') ? trimmed : `\\displaystyle ${trimmed}`;
+    return ` $${withDisplay}$ `;
+  });
+
+
   
   // 1. 填空题下划线保证机制（使用占位标记 @@ANSWER_BLANK@@ 防止被 esc 转义）
   if (isFillIn) {
     // 提取 LaTeX 公式内部的 \underline{...} 到公式外（支持嵌套括号如 \underline{\hspace{6em}}，以及结尾标点）
     s = s.replace(/(\${1,2}[^$]*?)(?:\\\s*)?\\underline\s*\{(?:[^{}]*|\{[^{}]*\})*\}\s*([.,，。]?\s*\${1,2})/g, (_, before) => {
-      return before.trim() + '$ @@ANSWER_BLANK@@.';
-    }).replace(/\${1,2}\s*\${1,2}/g, '');
+      return before.trim() === '$' ? '@@ANSWER_BLANK@@.' : before.trim() + '$ @@ANSWER_BLANK@@.';
+    });
     s = s.replace(/\\underline\s*\{(?:[^{}]*|\{[^{}]*\})*\}/g, ' @@ANSWER_BLANK@@ ');
 
     if (!/_{2,}|answer-blank|@@ANSWER_BLANK@@/.test(s)) {
@@ -32,13 +41,6 @@ function cleanStem(stem, isFillIn) {
       }
     }
   }
-
-  // 2. 将 $$...$$ 转换为行内 \\displaystyle 公式，彻底消除“计算/且满足”等破碎换行
-  s = s.replace(/\n*\$\$\s*([\s\S]*?)\s*\$\$\n*/g, (_, math) => {
-    const trimmed = math.trim();
-    const withDisplay = trimmed.startsWith('\\displaystyle') ? trimmed : `\\displaystyle ${trimmed}`;
-    return ` $${withDisplay}$ `;
-  });
 
   // 3. 段落切分与句子断裂修复
   const rawParas = s.split(/\n\s*\n/).map(p => p.trim()).filter(Boolean);
@@ -71,7 +73,7 @@ function cleanStem(stem, isFillIn) {
 
 function formatParagraphText(text) {
   const tokens = [];
-  let s = text.replace(/\$([^$\n]+)\$/g, (_, latex) => {
+  let s = text.replace(/\$([^$]+)\$/g, (_, latex) => {
     katex.renderToString(latex, { displayMode: false, throwOnError: true, strict: 'ignore', output: 'htmlAndMathml' });
     formulas++;
     tokens.push(`<span class="math-source">${esc('$'+latex+'$')}</span>`);

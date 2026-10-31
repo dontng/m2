@@ -1,6 +1,7 @@
 /* 依赖：npm install playwright；浏览器路径可通过 CHROMIUM_PATH 指定。 */
 const fs = require('node:fs');
 const path = require('node:path');
+const { createHash } = require('node:crypto');
 const { execFileSync } = require('node:child_process');
 const { pathToFileURL } = require('node:url');
 const { chromium } = require('playwright');
@@ -25,6 +26,9 @@ if (start < 2010 || end > 2026 || start > end) throw new Error('年份范围应�
     await page.waitForFunction(() => document.body.dataset.ready === 'true');
     await page.evaluate(async () => { await document.fonts.ready; await Promise.all([...document.images].map(i => i.decode())); });
     const checks = await page.evaluate(() => {
+      const walker = document.createTreeWalker(document.querySelector('main'), NodeFilter.SHOW_TEXT);
+      const residualMath = [];
+      while (walker.nextNode()) { const n = walker.currentNode; if (!n.parentElement.closest('.katex') && /\$|\\(?:begin|frac|displaystyle|int|boldsymbol|lim)\b/.test(n.textContent)) residualMath.push(n.textContent.slice(0,100)); }
       const pages = [...document.querySelectorAll('.exam-page')];
       const overflows = [];
       for (const element of document.querySelectorAll('.question .katex-html, .option')) {
@@ -38,20 +42,22 @@ if (start < 2010 || end > 2026 || start > end) throw new Error('年份范围应�
         return content.bottom > footer.top + 1 || p.scrollHeight > p.clientHeight + 2 ? [index + 1] : [];
       });
       return {
+        residualMath,
         questions: document.querySelectorAll('.question').length,
         questionNumbers: [...document.querySelectorAll('.question')].map(q => Number(q.dataset.number)),
         formulas: document.querySelectorAll('.katex').length,
         formulaErrors: document.querySelectorAll('.katex-error').length,
+        unrenderedMath: [...document.querySelectorAll('.math-source')].filter(e => !e.querySelector('.katex')).length,
         imagesLoaded: [...document.images].every(i => i.complete && i.naturalWidth > 0),
         htmlPages: pages.length, horizontalOverflow: [...new Set(overflows)], pageOverflow
       };
     });
-    if (checks.formulaErrors || !checks.imagesLoaded || failedRequests.length) throw Error(`${year}: 公式或资源加载失败`);
+    if (checks.formulaErrors || checks.unrenderedMath || checks.residualMath.length || !checks.imagesLoaded || failedRequests.length) throw Error(`${year}: 公式或资源加载失败`);
     if (checks.horizontalOverflow.length || checks.pageOverflow.length) throw Error(`${year}: 版面溢出 ${JSON.stringify(checks)}`);
     if (checks.questions !== (year <= 2020 ? 23 : 22) || checks.questionNumbers.some((n, i) => n !== i + 1)) throw Error(`${year}: 题目不完整`);
     const file = path.join(output, `math2_${year}.pdf`);
     await page.pdf({ path: file, preferCSSPageSize: true, printBackground: true, displayHeaderFooter: false, scale: 1 });
-    fs.writeFileSync(path.join(output, `math2_${year}.json`), JSON.stringify({ year, sourceCommit, ...checks, failedRequests }, null, 2) + '\n');
+    fs.writeFileSync(path.join(output, `math2_${year}.json`), JSON.stringify({ year, sourceCommit, sourceHtmlSha256: createHash('sha256').update(fs.readFileSync(path.join(root, `years/${year}.html`))).digest('hex'), ...checks, failedRequests }, null, 2) + '\n');
     console.log(`${year}: PDF 已生成；${checks.questions}题，${checks.formulas}段公式，${checks.htmlPages}个HTML分页`);
     await page.close();
   }

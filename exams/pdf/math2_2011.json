@@ -33,5 +33,8 @@
   "htmlPages": 4,
   "horizontalOverflow": [],
   "pageOverflow": [],
-  "failedRequests": []
+  "failedRequests": [],
+  "pdfPages": 4,
+  "paperSize": "A4",
+  "pdfTextPresentOnAllPages": true
 }
