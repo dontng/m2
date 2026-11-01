@@ -12,7 +12,7 @@
           "number": 1,
           "type": "选择题",
           "points": 4,
-          "stem": "若\n\n$$\n\\lim_{x \\to 0}\\left(e^{x}+a x^{2}+b x\\right)^{\\frac{1}{x^{2}}}=1,\n$$\n\n则 $\\left(\\ \\right)$",
+          "stem": "若\n\n$$\n\\lim\limits_{x \\to 0}\\left(e^{x}+a x^{2}+b x\\right)^{\\frac{1}{x^{2}}}=1,\n$$\n\n则 $\\left(\\ \\right)$",
           "options": [
             {
               "label": "A",
@@ -218,7 +218,7 @@
           "number": 9,
           "type": "填空题",
           "points": 4,
-          "stem": "$$\n\\lim_{x\\to+\\infty}x^2\\left[\\arctan(x+1)-\\arctan x\\right]\n=\n\\underline{\\qquad}\n$$"
+          "stem": "$$\n\\lim\limits_{x\\to+\\infty}x^2\\left[\\arctan(x+1)-\\arctan x\\right]\n=\n\\underline{\\qquad}\n$$"
         },
         {
           "number": 10,
@@ -272,7 +272,7 @@
           "number": 17,
           "type": "解答题",
           "points": 10,
-          "stem": "设平面区域 $D$ 由曲线\n\n$$\n\\begin{cases}\nx=t-\\sin t,\\\\\ny=1-\\cos t\n\\end{cases}\n\\qquad\n0\\leq t\\leq 2\\pi\n$$\n\n与 $x$ 轴围成，计算二重积分\n\n$$\n\\iint_D(x+2y)\\,\\mathrm{d}x\\,\\mathrm{d}y.\n$$"
+          "stem": "设平面区域 $D$ 由曲线\n\n$$\n\\begin{cases}\nx=t-\\sin t,\\\\\ny=1-\\cos t\n\\end{cases}\n\\qquad\n0\\leq t\\leq 2\\pi\n$$\n\n与 $x$ 轴围成，计算二重积分\n\n$$\n\\iint\limits_D(x+2y)\\,\\mathrm{d}x\\,\\mathrm{d}y.\n$$"
         },
         {
           "number": 18,
@@ -296,7 +296,7 @@
           "number": 21,
           "type": "解答题",
           "points": 11,
-          "stem": "设数列 $\\{x_n\\}$ 满足：\n\n$$\nx_1>0,\\qquad\nx_n e^{x_{n+1}}=e^{x_n}-1\\quad(n=1,2,\\cdots).\n$$\n\n证明 $\\{x_n\\}$ 收敛，并求\n\n$$\n\\lim_{n\\to\\infty}x_n.\n$$"
+          "stem": "设数列 $\\{x_n\\}$ 满足：\n\n$$\nx_1>0,\\qquad\nx_n e^{x_{n+1}}=e^{x_n}-1\\quad(n=1,2,\\cdots).\n$$\n\n证明 $\\{x_n\\}$ 收敛，并求\n\n$$\n\\lim\limits_{n\\to\\infty}x_n.\n$$"
         },
         {
           "number": 22,

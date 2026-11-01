@@ -112,7 +112,7 @@
           "number": 5,
           "type": "选择题",
           "points": 4,
-          "stem": "已知积分区域\n\n$$\nD=\\left\\{(x,y)\\mid |x|+|y|\\le \\frac{\\pi}{2}\\right\\},\n$$\n\n且\n\n$$\nI_{1}=\\iint_{D}\\sqrt{x^{2}+y^{2}}\\,\\mathrm{d}x\\mathrm{d}y,\n$$\n\n$$\nI_{2}=\\iint_{D}\\sin\\sqrt{x^{2}+y^{2}}\\,\\mathrm{d}x\\mathrm{d}y,\n$$\n\n$$\nI_{3}=\\iint_{D}\\left(1-\\cos\\sqrt{x^{2}+y^{2}}\\right)\\mathrm{d}x\\mathrm{d}y,\n$$\n\n则大小关系为",
+          "stem": "已知积分区域\n\n$$\nD=\\left\\{(x,y)\\mid |x|+|y|\\le \\frac{\\pi}{2}\\right\\},\n$$\n\n且\n\n$$\nI_{1}=\\iint\limits_{D}\\sqrt{x^{2}+y^{2}}\\,\\mathrm{d}x\\mathrm{d}y,\n$$\n\n$$\nI_{2}=\\iint\limits_{D}\\sin\\sqrt{x^{2}+y^{2}}\\,\\mathrm{d}x\\mathrm{d}y,\n$$\n\n$$\nI_{3}=\\iint\limits_{D}\\left(1-\\cos\\sqrt{x^{2}+y^{2}}\\right)\\mathrm{d}x\\mathrm{d}y,\n$$\n\n则大小关系为",
           "options": [
             {
               "label": "A",
@@ -137,7 +137,7 @@
           "number": 6,
           "type": "选择题",
           "points": 4,
-          "stem": "已知 $f(x),g(x)$ 二阶可导且在 $x=a$ 处连续，则 $f(x),g(x)$ 相切于 $a$ 且曲率相等是\n\n$$\n\\lim_{x\\to a}\\frac{f(x)-g(x)}{(x-a)^2}=0\n$$\n\n的",
+          "stem": "已知 $f(x),g(x)$ 二阶可导且在 $x=a$ 处连续，则 $f(x),g(x)$ 相切于 $a$ 且曲率相等是\n\n$$\n\\lim\limits_{x\\to a}\\frac{f(x)-g(x)}{(x-a)^2}=0\n$$\n\n的",
           "options": [
             {
               "label": "A",
@@ -218,7 +218,7 @@
           "number": 9,
           "type": "填空题",
           "points": 4,
-          "stem": "$$\n\\lim_{x\\to 0}\\left(x+2^{x}\\right)^{\\frac{2}{x}}=\n$$"
+          "stem": "$$\n\\lim\limits_{x\\to 0}\\left(x+2^{x}\\right)^{\\frac{2}{x}}=\n$$"
         },
         {
           "number": 10,
@@ -278,13 +278,13 @@
           "number": 18,
           "type": "解答题",
           "points": 10,
-          "stem": "已知平面区域 $D$ 满足\n\n$$\n|x|\\le y,\\qquad (x^2+y^2)^3\\le y^4,\n$$\n\n求\n\n$$\n\\iint_D\\frac{x+y}{\\sqrt{x^2+y^2}}\\,\\mathrm{d}x\\mathrm{d}y.\n$$"
+          "stem": "已知平面区域 $D$ 满足\n\n$$\n|x|\\le y,\\qquad (x^2+y^2)^3\\le y^4,\n$$\n\n求\n\n$$\n\\iint\limits_D\\frac{x+y}{\\sqrt{x^2+y^2}}\\,\\mathrm{d}x\\mathrm{d}y.\n$$"
         },
         {
           "number": 19,
           "type": "解答题",
           "points": 10,
-          "stem": "设 $n$ 为正整数，记 $S_n$ 为曲线\n\n$$\ny=e^{-x}\\sin x\\qquad (0\\le x\\le n\\pi)\n$$\n\n与 $x$ 轴之间图形的面积。求 $S_n$，并求 $\\lim_{n\\to\\infty}S_n$。"
+          "stem": "设 $n$ 为正整数，记 $S_n$ 为曲线\n\n$$\ny=e^{-x}\\sin x\\qquad (0\\le x\\le n\\pi)\n$$\n\n与 $x$ 轴之间图形的面积。求 $S_n$，并求 $\\lim\limits_{n\\to\\infty}S_n$。"
         },
         {
           "number": 20,

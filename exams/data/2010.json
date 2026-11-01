@@ -137,7 +137,7 @@
           "number": 6,
           "type": "选择题",
           "points": 4,
-          "stem": "$\\lim_{n \\to \\infty}\\sum_{i = 1}^{n}\\sum_{j = 1}^{n}\\frac{n}{\\left(n + i\\right)\\left(n^{2} + j^{2}\\right)} =$（ ）",
+          "stem": "$\\lim\limits_{n \\to \\infty}\\sum\limits_{i = 1}^{n}\\sum\limits_{j = 1}^{n}\\frac{n}{\\left(n + i\\right)\\left(n^{2} + j^{2}\\right)} =$（ ）",
           "options": [
             {
               "label": "A",
@@ -266,7 +266,7 @@
           "number": 16,
           "type": "解答题",
           "points": 10,
-          "stem": "（I）比较 $\\int_{0}^{1}\\left|\\ln t\\right|\\left[\\ln \\left(1 + t\\right)\\right]^{n}\\mathrm{~d}t$ 与 $\\int_{0}^{1}t^{n}\\left|\\ln t\\right|\\mathrm{~d}t$，$\\left(n = 1, 2, \\cdots\\right)$ 的大小，说明理由；\n\n（II）记 $u_{n} = \\int_{0}^{1}\\left|\\ln t\\right|\\left[\\ln \\left(1 + t\\right)\\right]^{n}\\mathrm{~d}t$，$\\left(n = 1, 2, \\cdots\\right)$，求极限 $\\lim_{n \\to \\infty}u_{n}$."
+          "stem": "（I）比较 $\\int_{0}^{1}\\left|\\ln t\\right|\\left[\\ln \\left(1 + t\\right)\\right]^{n}\\mathrm{~d}t$ 与 $\\int_{0}^{1}t^{n}\\left|\\ln t\\right|\\mathrm{~d}t$，$\\left(n = 1, 2, \\cdots\\right)$ 的大小，说明理由；\n\n（II）记 $u_{n} = \\int_{0}^{1}\\left|\\ln t\\right|\\left[\\ln \\left(1 + t\\right)\\right]^{n}\\mathrm{~d}t$，$\\left(n = 1, 2, \\cdots\\right)$，求极限 $\\lim\limits_{n \\to \\infty}u_{n}$."
         },
         {
           "number": 17,
@@ -291,7 +291,7 @@
           "number": 20,
           "type": "解答题",
           "points": 10,
-          "stem": "计算二重积分 $I = \\iint_{D}r^{2}\\sin \\theta \\sqrt{1 - r^{2}\\cos 2\\theta}\\mathrm{~d}r\\mathrm{~d}\\theta$，其中 $D = \\left\\{\\left(r, \\theta\\right)\\mid 0 \\le r \\le \\sec \\theta, 0 \\le \\theta \\le \\frac{\\pi}{4}\\right\\}$."
+          "stem": "计算二重积分 $I = \\iint\limits_{D}r^{2}\\sin \\theta \\sqrt{1 - r^{2}\\cos 2\\theta}\\mathrm{~d}r\\mathrm{~d}\\theta$，其中 $D = \\left\\{\\left(r, \\theta\\right)\\mid 0 \\le r \\le \\sec \\theta, 0 \\le \\theta \\le \\frac{\\pi}{4}\\right\\}$."
         },
         {
           "number": 21,

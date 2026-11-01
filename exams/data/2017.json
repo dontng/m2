@@ -261,7 +261,7 @@
           "number": 15,
           "type": "解答题",
           "points": 10,
-          "stem": "求极限\n\n$$\n\\lim_{x\\to0^+}\n\\frac{\\displaystyle\\int_0^x\\sqrt{x-t}e^t\\mathrm{d}t}{\\sqrt{x^3}}.\n$$"
+          "stem": "求极限\n\n$$\n\\lim\limits_{x\\to0^+}\n\\frac{\\displaystyle\\int_0^x\\sqrt{x-t}e^t\\mathrm{d}t}{\\sqrt{x^3}}.\n$$"
         },
         {
           "number": 16,
@@ -273,7 +273,7 @@
           "number": 17,
           "type": "解答题",
           "points": 10,
-          "stem": "求\n\n$$\n\\lim_{n\\to\\infty}\\sum_{k=1}^n\\frac{k}{n^2}\\ln\\left(1+\\frac{k}{n}\\right).\n$$"
+          "stem": "求\n\n$$\n\\lim\limits_{n\\to\\infty}\\sum\limits_{k=1}^n\\frac{k}{n^2}\\ln\\left(1+\\frac{k}{n}\\right).\n$$"
         },
         {
           "number": 18,
@@ -285,13 +285,13 @@
           "number": 19,
           "type": "解答题",
           "points": 10,
-          "stem": "设函数 $f(x)$ 在区间 $[0,1]$ 上具有二阶导数，且\n\n$$\nf(1)>0,\\qquad \\lim_{x\\to0^+}\\frac{f(x)}{x}<0.\n$$\n\n证明：\n\n（1）方程 $f(x)=0$ 在区间 $(0,1)$ 内至少存在一个实根；\n\n（2）方程\n\n$$\nf(x)f''(x)+\\left(f'(x)\\right)^2=0\n$$\n\n在区间 $(0,1)$ 内至少存在两个不同实根。"
+          "stem": "设函数 $f(x)$ 在区间 $[0,1]$ 上具有二阶导数，且\n\n$$\nf(1)>0,\\qquad \\lim\limits_{x\\to0^+}\\frac{f(x)}{x}<0.\n$$\n\n证明：\n\n（1）方程 $f(x)=0$ 在区间 $(0,1)$ 内至少存在一个实根；\n\n（2）方程\n\n$$\nf(x)f''(x)+\\left(f'(x)\\right)^2=0\n$$\n\n在区间 $(0,1)$ 内至少存在两个不同实根。"
         },
         {
           "number": 20,
           "type": "解答题",
           "points": 11,
-          "stem": "已知平面区域\n\n$$\nD=\\{(x,y)\\mid x^2+y^2\\le2y\\},\n$$\n\n计算二重积分\n\n$$\n\\iint_D(x+1)^2\\mathrm{d}x\\mathrm{d}y.\n$$"
+          "stem": "已知平面区域\n\n$$\nD=\\{(x,y)\\mid x^2+y^2\\le2y\\},\n$$\n\n计算二重积分\n\n$$\n\\iint\limits_D(x+1)^2\\mathrm{d}x\\mathrm{d}y.\n$$"
         },
         {
           "number": 21,

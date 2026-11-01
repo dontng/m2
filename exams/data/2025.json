@@ -162,7 +162,7 @@
           "number": 7,
           "type": "选择题",
           "points": 5,
-          "stem": "设函数 $f\\left( x \\right)$ 连续，给出下列四个条件：\n\n① $\\lim_{x \\to 0} \\frac{\\left| f\\left( x \\right) \\right| - f\\left( 0 \\right)}{x}$ 存在；\n\n② $\\lim_{x \\to 0} \\frac{f\\left( x \\right) - \\left| f\\left( 0 \\right) \\right|}{x}$ 存在；\n\n③ $\\lim_{x \\to 0} \\frac{\\left| f\\left( x \\right) \\right|}{x}$ 存在；\n\n④ $\\lim_{x \\to 0} \\frac{\\left| f\\left( x \\right) \\right| - \\left| f\\left( 0 \\right) \\right|}{x}$ 存在.\n\n其中能得到 “$f\\left( x \\right)$ 在 $x = 0$ 处可导” 的条件的个数是",
+          "stem": "设函数 $f\\left( x \\right)$ 连续，给出下列四个条件：\n\n① $\\lim\limits_{x \\to 0} \\frac{\\left| f\\left( x \\right) \\right| - f\\left( 0 \\right)}{x}$ 存在；\n\n② $\\lim\limits_{x \\to 0} \\frac{f\\left( x \\right) - \\left| f\\left( 0 \\right) \\right|}{x}$ 存在；\n\n③ $\\lim\limits_{x \\to 0} \\frac{\\left| f\\left( x \\right) \\right|}{x}$ 存在；\n\n④ $\\lim\limits_{x \\to 0} \\frac{\\left| f\\left( x \\right) \\right| - \\left| f\\left( 0 \\right) \\right|}{x}$ 存在.\n\n其中能得到 “$f\\left( x \\right)$ 在 $x = 0$ 处可导” 的条件的个数是",
           "options": [
             {
               "label": "A",
@@ -280,7 +280,7 @@
           "number": 13,
           "type": "填空题",
           "points": 5,
-          "stem": "$\\lim_{n \\to \\infty} \\frac{1}{n^{2}} \\left[ \\ln \\frac{1}{n} + 2 \\ln \\frac{2}{n} + \\cdots + \\left( n - 1 \\right) \\ln \\frac{n - 1}{n} \\right] =$ ________."
+          "stem": "$\\lim\limits_{n \\to \\infty} \\frac{1}{n^{2}} \\left[ \\ln \\frac{1}{n} + 2 \\ln \\frac{2}{n} + \\cdots + \\left( n - 1 \\right) \\ln \\frac{n - 1}{n} \\right] =$ ________."
         },
         {
           "number": 14,
@@ -316,7 +316,7 @@
           "number": 18,
           "type": "解答题",
           "points": 12,
-          "stem": "设函数 $f\\left( x \\right)$ 在 $x = 0$ 处连续，且 $\\lim_{x \\to 0} \\frac{x f\\left( x \\right) - e^{2 \\sin x} + 1}{\\ln \\left( 1 + x \\right) + \\ln \\left( 1 - x \\right)} = -3$，证明 $f\\left( x \\right)$ 在 $x = 0$ 处可导，并求 $f^{\\prime}\\left( 0 \\right)$."
+          "stem": "设函数 $f\\left( x \\right)$ 在 $x = 0$ 处连续，且 $\\lim\limits_{x \\to 0} \\frac{x f\\left( x \\right) - e^{2 \\sin x} + 1}{\\ln \\left( 1 + x \\right) + \\ln \\left( 1 - x \\right)} = -3$，证明 $f\\left( x \\right)$ 在 $x = 0$ 处可导，并求 $f^{\\prime}\\left( 0 \\right)$."
         },
         {
           "number": 19,
@@ -328,7 +328,7 @@
           "number": 20,
           "type": "解答题",
           "points": 12,
-          "stem": "已知平面有界区域 $D = \\left\\{ \\left( x, y \\right) \\mid x^{2} + y^{2} \\le 4x,\\ x^{2} + y^{2} \\le 4y \\right\\}$，计算 $\\iint_{D} \\left( x - y \\right)^{2} \\mathrm{d} x \\mathrm{d} y$."
+          "stem": "已知平面有界区域 $D = \\left\\{ \\left( x, y \\right) \\mid x^{2} + y^{2} \\le 4x,\\ x^{2} + y^{2} \\le 4y \\right\\}$，计算 $\\iint\limits_{D} \\left( x - y \\right)^{2} \\mathrm{d} x \\mathrm{d} y$."
         },
         {
           "number": 21,

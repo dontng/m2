@@ -162,23 +162,23 @@
           "number": 7,
           "type": "选择题",
           "points": 5,
-          "stem": "设函数 $f(x,y)$ 在区域\n$$\nD=\\{(x,y)\\mid 0\\le x\\le 1,\\ 0\\le y\\le 1\\}\n$$\n上连续，且 $f(x,y)=f(y,x)$，则\n$$\n\\iint_D f(x,y)\\,dx\\,dy=\n$$",
+          "stem": "设函数 $f(x,y)$ 在区域\n$$\nD=\\{(x,y)\\mid 0\\le x\\le 1,\\ 0\\le y\\le 1\\}\n$$\n上连续，且 $f(x,y)=f(y,x)$，则\n$$\n\\iint\limits_D f(x,y)\\,dx\\,dy=\n$$",
           "options": [
             {
               "label": "A",
-              "text": "$\\displaystyle 2\\lim_{n\\to\\infty}\\sum_{i=1}^n\\sum_{j=n+1-i}^n f\\!\\left(\\frac{i}{n},\\frac{j}{n}\\right)\\frac{1}{n^2}$"
+              "text": "$\\displaystyle 2\\lim\limits_{n\\to\\infty}\\sum\limits_{i=1}^n\\sum\limits_{j=n+1-i}^n f\\!\\left(\\frac{i}{n},\\frac{j}{n}\\right)\\frac{1}{n^2}$"
             },
             {
               "label": "B",
-              "text": "$\\displaystyle \\frac12\\lim_{n\\to\\infty}\\sum_{i=1}^n\\sum_{j=i}^n f\\!\\left(\\frac{i}{n},\\frac{j}{n}\\right)\\frac{1}{n^2}$"
+              "text": "$\\displaystyle \\frac12\\lim\limits_{n\\to\\infty}\\sum\limits_{i=1}^n\\sum\limits_{j=i}^n f\\!\\left(\\frac{i}{n},\\frac{j}{n}\\right)\\frac{1}{n^2}$"
             },
             {
               "label": "C",
-              "text": "$\\displaystyle 2\\lim_{n\\to\\infty}\\sum_{i=1}^{2n}\\sum_{j=1}^{2n+1-i} f\\!\\left(\\frac{i}{2n},\\frac{j}{2n}\\right)\\frac{1}{n^2}$"
+              "text": "$\\displaystyle 2\\lim\limits_{n\\to\\infty}\\sum\limits_{i=1}^{2n}\\sum\limits_{j=1}^{2n+1-i} f\\!\\left(\\frac{i}{2n},\\frac{j}{2n}\\right)\\frac{1}{n^2}$"
             },
             {
               "label": "D",
-              "text": "$\\displaystyle \\frac12\\lim_{n\\to\\infty}\\sum_{i=1}^{2n}\\sum_{j=1}^i f\\!\\left(\\frac{i}{2n},\\frac{j}{2n}\\right)\\frac{1}{n^2}$"
+              "text": "$\\displaystyle \\frac12\\lim\limits_{n\\to\\infty}\\sum\limits_{i=1}^{2n}\\sum\limits_{j=1}^i f\\!\\left(\\frac{i}{2n},\\frac{j}{2n}\\right)\\frac{1}{n^2}$"
             }
           ],
           "layout": "4col"
@@ -274,7 +274,7 @@
           "number": 12,
           "type": "填空题",
           "points": 5,
-          "stem": "$$\n\\lim_{x\\to 0}\\left(\\frac1x-\\frac{\\ln(1+x)}{x\\sin x}\\right)=\\ \\underline{\\qquad\\qquad}.\n$$"
+          "stem": "$$\n\\lim\limits_{x\\to 0}\\left(\\frac1x-\\frac{\\ln(1+x)}{x\\sin x}\\right)=\\ \\underline{\\qquad\\qquad}.\n$$"
         },
         {
           "number": 13,

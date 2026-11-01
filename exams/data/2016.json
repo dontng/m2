@@ -225,7 +225,7 @@
           "number": 10,
           "type": "填空题",
           "points": 4,
-          "stem": "极限\n\n$$\n\\lim_{n\\to\\infty}\\frac{1}{n^{2}}\\left(\\sin\\frac{1}{n}+2\\sin\\frac{2}{n}+\\cdots+n\\sin\\frac{n}{n}\\right)=\n$$\n\n________。"
+          "stem": "极限\n\n$$\n\\lim\limits_{n\\to\\infty}\\frac{1}{n^{2}}\\left(\\sin\\frac{1}{n}+2\\sin\\frac{2}{n}+\\cdots+n\\sin\\frac{n}{n}\\right)=\n$$\n\n________。"
         },
         {
           "number": 11,
@@ -261,7 +261,7 @@
           "number": 15,
           "type": "解答题",
           "points": 10,
-          "stem": "求极限\n\n$$\n\\lim_{x\\to0}\\left(\\cos2x+2x\\sin x\\right)^{1/x^4}.\n$$"
+          "stem": "求极限\n\n$$\n\\lim\limits_{x\\to0}\\left(\\cos2x+2x\\sin x\\right)^{1/x^4}.\n$$"
         },
         {
           "number": 16,
@@ -279,7 +279,7 @@
           "number": 18,
           "type": "解答题",
           "points": 10,
-          "stem": "设 $D$ 是由直线 $y=1$，$y=x$，$y=-x$ 围成的有界区域，计算二重积分\n\n$$\n\\iint_D\\frac{x^2-xy-y^2}{x^2+y^2}\\,\\mathrm{d}x\\,\\mathrm{d}y.\n$$"
+          "stem": "设 $D$ 是由直线 $y=1$，$y=x$，$y=-x$ 围成的有界区域，计算二重积分\n\n$$\n\\iint\limits_D\\frac{x^2-xy-y^2}{x^2+y^2}\\,\\mathrm{d}x\\,\\mathrm{d}y.\n$$"
         },
         {
           "number": 19,

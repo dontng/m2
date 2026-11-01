@@ -1,11 +1,27 @@
 /* KaTeX 数学公式渲染与选择题选项宽度自适应降列 */
 (() => {
   // 1. 渲染 LaTeX 公式
-  renderMathInElement(document.querySelector('main'), {
+  // 标准规范：
+  // - 极限 lim 的趋近变量 (如 x -> 0) 置于 lim 的正下方
+  // - 多重积分/曲线曲面积分 (iint, iiint, oint) 的区域符号 (如 D, L) 置于符号正下方
+  // - 求和号 sum 的上下标置于正下方和正上方
+  // - 一元定积分 int 的上下限保持在积分号右侧的偏上和偏下位置
+  renderMathInElement(document.querySelector('main') || document.body, {
     delimiters: [
       { left: '$$', right: '$$', display: true },
       { left: '$', right: '$', display: false }
     ],
+    preProcess: (math) => {
+      // 1. 移除一元积分误加的 \limits，保证单积分上下限位于右侧偏上与偏下
+      let s = math.replace(/(?<!i)\\int\\limits(?=[_^])/g, '\\int');
+      // 2. 极限符号 lim 下标置于正下方
+      s = s.replace(/\\lim(?!\\limits)(?=[_^])/g, '\\lim\\limits');
+      // 3. 多重积分与环路积分区域置于正下方
+      s = s.replace(/\\(i{2,3}nt|oint)(?!\\limits)(?=[_^])/g, '\\$1\\limits');
+      // 4. 求和符号 sum 上下标置于正下与正上方
+      s = s.replace(/\\sum(?!\\limits)(?=[_^])/g, '\\sum\\limits');
+      return s;
+    },
     throwOnError: false,
     strict: 'ignore',
     trust: false

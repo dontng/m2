@@ -141,19 +141,19 @@
           "options": [
             {
               "label": "A",
-              "text": "若 $\\lim_{n \\to \\infty} \\cos\\left( \\sin x_{n} \\right)$ 存在，则 $\\lim_{n \\to \\infty} x_{n}$ 存在"
+              "text": "若 $\\lim\limits_{n \\to \\infty} \\cos\\left( \\sin x_{n} \\right)$ 存在，则 $\\lim\limits_{n \\to \\infty} x_{n}$ 存在"
             },
             {
               "label": "B",
-              "text": "若 $\\lim_{n \\to \\infty} \\sin\\left( \\cos x_{n} \\right)$ 存在，则 $\\lim_{n \\to \\infty} x_{n}$ 存在"
+              "text": "若 $\\lim\limits_{n \\to \\infty} \\sin\\left( \\cos x_{n} \\right)$ 存在，则 $\\lim\limits_{n \\to \\infty} x_{n}$ 存在"
             },
             {
               "label": "C",
-              "text": "若 $\\lim_{n \\to \\infty} \\cos\\left( \\sin x_{n} \\right)$ 存在，则 $\\lim_{n \\to \\infty} \\sin x_{n}$ 存在，但 $\\lim_{n \\to \\infty} x_{n}$ 不一定存在"
+              "text": "若 $\\lim\limits_{n \\to \\infty} \\cos\\left( \\sin x_{n} \\right)$ 存在，则 $\\lim\limits_{n \\to \\infty} \\sin x_{n}$ 存在，但 $\\lim\limits_{n \\to \\infty} x_{n}$ 不一定存在"
             },
             {
               "label": "D",
-              "text": "若 $\\lim_{n \\to \\infty} \\sin\\left( \\cos x_{n} \\right)$ 存在，则 $\\lim_{n \\to \\infty} \\cos x_{n}$ 存在，但 $\\lim_{n \\to \\infty} x_{n}$ 不一定存在"
+              "text": "若 $\\lim\limits_{n \\to \\infty} \\sin\\left( \\cos x_{n} \\right)$ 存在，则 $\\lim\limits_{n \\to \\infty} \\cos x_{n}$ 存在，但 $\\lim\limits_{n \\to \\infty} x_{n}$ 不一定存在"
             }
           ],
           "layout": "2col"
@@ -268,7 +268,7 @@
           "number": 11,
           "type": "填空题",
           "points": 5,
-          "stem": "$\\lim_{x \\to 0} \\left( \\frac{1 + e^{x}}{2} \\right)^{\\cot x} = \\underline{\\hspace{4em}}$"
+          "stem": "$\\lim\limits_{x \\to 0} \\left( \\frac{1 + e^{x}}{2} \\right)^{\\cot x} = \\underline{\\hspace{4em}}$"
         },
         {
           "number": 12,
@@ -310,7 +310,7 @@
           "number": 17,
           "type": "解答题",
           "points": 10,
-          "stem": "已知函数 $f\\left( x \\right)$ 在 $x = 1$ 处可导，且\n\n$\\lim_{x \\to 0} \\frac{f\\left( e^{x^{2}} \\right) - 3f\\left( 1 + \\sin^{2}x \\right)}{x^{2}} = 2$\n\n求 $f^{\\prime}\\left( 1 \\right)$."
+          "stem": "已知函数 $f\\left( x \\right)$ 在 $x = 1$ 处可导，且\n\n$\\lim\limits_{x \\to 0} \\frac{f\\left( e^{x^{2}} \\right) - 3f\\left( 1 + \\sin^{2}x \\right)}{x^{2}} = 2$\n\n求 $f^{\\prime}\\left( 1 \\right)$."
         },
         {
           "number": 18,
@@ -322,7 +322,7 @@
           "number": 19,
           "type": "解答题",
           "points": 12,
-          "stem": "已知平面区域\n\n$D = \\left\\{ \\left( x,y \\right) \\mid y - 2 \\le x \\le \\sqrt{4 - y^{2}},\\ 0 \\le y \\le 2 \\right\\}$\n\n计算\n\n$I = \\iint_{D} \\frac{\\left( x-y \\right)^{2}}{x^{2} + y^{2}} \\mathrm{~d}x \\mathrm{~d}y$"
+          "stem": "已知平面区域\n\n$D = \\left\\{ \\left( x,y \\right) \\mid y - 2 \\le x \\le \\sqrt{4 - y^{2}},\\ 0 \\le y \\le 2 \\right\\}$\n\n计算\n\n$I = \\iint\limits_{D} \\frac{\\left( x-y \\right)^{2}}{x^{2} + y^{2}} \\mathrm{~d}x \\mathrm{~d}y$"
         },
         {
           "number": 20,

@@ -166,19 +166,19 @@
           "options": [
             {
               "label": "A",
-              "text": "$\\lim_{n \\to \\infty}\\sum_{k=1}^{n} f\\left(\\dfrac{2k-1}{2n}\\right)\\dfrac{1}{2n}$"
+              "text": "$\\lim\limits_{n \\to \\infty}\\sum\limits_{k=1}^{n} f\\left(\\dfrac{2k-1}{2n}\\right)\\dfrac{1}{2n}$"
             },
             {
               "label": "B",
-              "text": "$\\lim_{n \\to \\infty}\\sum_{k=1}^{n} f\\left(\\dfrac{2k-1}{2n}\\right)\\dfrac{1}{n}$"
+              "text": "$\\lim\limits_{n \\to \\infty}\\sum\limits_{k=1}^{n} f\\left(\\dfrac{2k-1}{2n}\\right)\\dfrac{1}{n}$"
             },
             {
               "label": "C",
-              "text": "$\\lim_{n \\to \\infty}\\sum_{k=1}^{2n} f\\left(\\dfrac{k-1}{2n}\\right)\\dfrac{1}{n}$"
+              "text": "$\\lim\limits_{n \\to \\infty}\\sum\limits_{k=1}^{2n} f\\left(\\dfrac{k-1}{2n}\\right)\\dfrac{1}{n}$"
             },
             {
               "label": "D",
-              "text": "$\\lim_{n \\to \\infty}\\sum_{k=1}^{2n} f\\left(\\dfrac{k}{2n}\\right)\\dfrac{2}{n}$"
+              "text": "$\\lim\limits_{n \\to \\infty}\\sum\limits_{k=1}^{2n} f\\left(\\dfrac{k}{2n}\\right)\\dfrac{2}{n}$"
             }
           ],
           "layout": "4col"
@@ -310,7 +310,7 @@
           "number": 17,
           "type": "解答题",
           "points": 10,
-          "stem": "求极限\n$$\n\\lim_{x \\to 0} \\left(\\frac{1+\\int_{0}^{x} e^{t^{2}} \\,\\mathrm{d} t}{e^{x}-1}-\\frac{1}{\\sin x}\\right).\n$$"
+          "stem": "求极限\n$$\n\\lim\limits_{x \\to 0} \\left(\\frac{1+\\int_{0}^{x} e^{t^{2}} \\,\\mathrm{d} t}{e^{x}-1}-\\frac{1}{\\sin x}\\right).\n$$"
         },
         {
           "number": 18,
@@ -334,7 +334,7 @@
           "number": 21,
           "type": "解答题",
           "points": 12,
-          "stem": "曲线\n$$\n\\left(x^{2}+y^{2}\\right)^{2}=x^{2}-y^{2},\n$$\n其中 $x \\ge 0,\\ y \\ge 0$，与 $x$ 轴围成的区域为 $D$，求\n$$\n\\iint_{D} xy \\,\\mathrm{d}x\\,\\mathrm{d}y.\n$$"
+          "stem": "曲线\n$$\n\\left(x^{2}+y^{2}\\right)^{2}=x^{2}-y^{2},\n$$\n其中 $x \\ge 0,\\ y \\ge 0$，与 $x$ 轴围成的区域为 $D$，求\n$$\n\\iint\limits_{D} xy \\,\\mathrm{d}x\\,\\mathrm{d}y.\n$$"
         },
         {
           "number": 22,

@@ -5,22 +5,19 @@ const katex = require(path.join(root, 'assets/vendor/katex/katex.min.js'));
 const esc = s => s.replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;').replaceAll('"','&quot;');
 let formulas = 0;
 
-// 填空题与公式连贯清洗，严禁中途断句与异常折行
+// 填空题与公式连贯清洗
 function cleanStem(stem, isFillIn) {
   let s = stem.trim();
 
-  // 1. 将 $$...$$ 转换为行内 \\displaystyle 公式，彻底消除“计算/且满足”等破碎换行
+  // 1. 将 $$...$$ 转换为行内 \\displaystyle 公式，彻底消除破碎换行
   s = s.replace(/\n*\$\$\s*([\s\S]*?)\s*\$\$\n*/g, (_, math) => {
     const trimmed = math.trim().replace(/\s*\n\s*/g, ' ');
     const withDisplay = trimmed.startsWith('\\displaystyle') ? trimmed : `\\displaystyle ${trimmed}`;
     return ` $${withDisplay}$ `;
   });
 
-
-  
-  // 2. 填空题下划线保证机制（使用占位标记 @@ANSWER_BLANK@@ 防止被 esc 转义）
+  // 2. 填空题下划线保证机制
   if (isFillIn) {
-    // 提取 LaTeX 公式内部的 \underline{...} 到公式外（支持嵌套括号如 \underline{\hspace{6em}}，以及结尾标点）
     s = s.replace(/(\${1,2}[^$]*?)(?:\\\s*)?\\underline\s*\{(?:[^{}]*|\{[^{}]*\})*\}\s*([.,，。]?\s*\${1,2})/g, (_, before) => {
       return before.trim() === '$' ? '@@ANSWER_BLANK@@.' : before.trim() + '$ @@ANSWER_BLANK@@.';
     });
@@ -47,7 +44,6 @@ function cleanStem(stem, isFillIn) {
   const merged = [];
 
   for (const p of rawParas) {
-    // 识别子问序号：(I), （I）, 1., ①, （1）
     const isSubQuestion = /^(\([I|V|X|0-9a-z]+\)|（[I|V|X|0-9a-z]+）|\d+\.|[①-⑩]|\*\*（[I|V|X|0-9a-z]+）\*\*)/.test(p);
     
     if (merged.length === 0 || isSubQuestion) {
@@ -57,10 +53,7 @@ function cleanStem(stem, isFillIn) {
       const prevClean = prev.replace(/\$+\s*$/, '').trim();
       const prevEndsSentence = /[。？！:：]$/.test(prevClean);
       
-      // 如果上一段没有结束标点，或者以逗号/连接词结尾，说明是同一句话被 Markdown 硬回车截断了
-      if (!prevEndsSentence || /[，、=且为是]$/.test(prevClean)) {
-        merged[merged.length - 1] = `${merged[merged.length - 1]} ${p}`;
-      } else if (/^(确定|求|其中|则|不能|线性表示|即|若)/.test(p) || p.length < 16) {
+      if (!prevEndsSentence || /[，、=且为是]$/.test(prevClean) || /^(确定|求|其中|则|不能|线性表示|即|若)/.test(p) || p.length < 16) {
         merged[merged.length - 1] = `${merged[merged.length - 1]} ${p}`;
       } else {
         merged.push(p);
@@ -72,7 +65,6 @@ function cleanStem(stem, isFillIn) {
 }
 
 function formatParagraphText(text) {
-  // 选项同样允许使用行间公式；统一为带 displaystyle 的行内源码。
   text = text.replace(/\$\$\s*([\s\S]*?)\s*\$\$/g, (_, latex) => {
     const math = latex.trim().replace(/\s*\n\s*/g, ' ');
     return '$' + (math.startsWith('\\displaystyle') ? '' : '\\displaystyle ') + math + '$';
@@ -137,19 +129,20 @@ function question(q, year, isFillIn) {
   const cleanedParas = cleanStem(q.stem, isFillIn);
   const formattedParas = cleanedParas.map(p => formatParagraphText(p));
   
-  // 解答题（大题）
+  // 解答题（大题：自带解答做题留白）
   if (q.type === '解答题') {
     return `<li class="question question-subjective" id="q${year}-${q.number}" data-number="${q.number}">
-      <div class="question-score-title">(${q.number})( 本题满分 ${q.points} 分)</div>
+      <div class="question-score-title"><span class="question-num">(${q.number})</span> (本题满分 ${q.points} 分)</div>
       <div class="question-subjective-content">
         ${formattedParas.map(p => `<p>${p}</p>`).join('')}
         ${figure}
         ${options}
       </div>
+      <div class="answer-space"></div>
     </li>`;
   }
   
-  // 客观题（选择题、填空题）
+  // 客观题
   const firstPara = formattedParas.length > 0 ? formattedParas[0] : '';
   const otherParas = formattedParas.slice(1).map(p => `<p class="question-stem sub-stem">${p}</p>`).join('');
   
@@ -169,9 +162,7 @@ function pageFooter(year, pageNum) {
 
 function paper(exam) {
   const isPre2021 = exam.year <= 2020;
-  const s1 = exam.sections[0];
-  const s2 = exam.sections[1];
-  const s3 = exam.sections[2];
+  const s1 = exam.sections[0], s2 = exam.sections[1], s3 = exam.sections[2];
 
   const qMap = {};
   for (const s of exam.sections) {
@@ -185,7 +176,11 @@ function paper(exam) {
 
   if (isPre2021) {
     // 2010~2020 年结构 (8 选 + 6 填 + 9 解 = 23 题)
-    // 第 1 页：卷头 + 选择题 1~5
+    // 第 1 页：选择题 1~7 题（铺满第 1 页，绝不在第 5 题留下大白空白；2020 年因第 5 题长公式特殊放 1~5 题）
+    const p1End = 6;
+    const p1Nums = Array.from({length: p1End}, (_, i) => i + 1);
+    const p2ChoiceNums = Array.from({length: 8 - p1End}, (_, i) => p1End + 1 + i);
+
     p1Content = `
       <header class="exam-header">
         <div class="exam-header-title" id="title-${exam.year}">${exam.year} 年全国硕士研究生招生考试</div>
@@ -195,18 +190,19 @@ function paper(exam) {
       <section class="exam-section" aria-label="选择题">
         <h3 class="section-title">${getSectionHeading(s1)}</h3>
         <ol class="question-list" start="1">
-          ${[1,2,3,4,5].map(n => qMap[n]).join('')}
+          ${p1Nums.map(n => qMap[n]).join('')}
         </ol>
       </section>
     `;
 
-    // 第 2 页：选择题 6~8 + 填空题 9~14 + 解答题 15
+    // 第 2 页：剩余选择题 + 填空题 9~14 + 解答题 15（充实饱满）
     p2Content = `
+      ${p2ChoiceNums.length > 0 ? `
       <section class="exam-section" aria-label="选择题续">
-        <ol class="question-list" start="6">
-          ${[6,7,8].map(n => qMap[n]).join('')}
+        <ol class="question-list" start="${p2ChoiceNums[0]}">
+          ${p2ChoiceNums.map(n => qMap[n]).join('')}
         </ol>
-      </section>
+      </section>` : ''}
       <section class="exam-section" aria-label="填空题">
         <h3 class="section-title">${getSectionHeading(s2)}</h3>
         <ol class="question-list" start="9">
@@ -221,7 +217,7 @@ function paper(exam) {
       </section>
     `;
 
-    // 第 3 页：解答题 16~19
+    // 第 3 页：解答题 16~19（均分做题留白）
     p3Content = `
       <section class="exam-section" aria-label="解答题续一">
         <ol class="question-list" start="16">
@@ -230,7 +226,7 @@ function paper(exam) {
       </section>
     `;
 
-    // 第 4 页：解答题 20~23
+    // 第 4 页：解答题 20~23（均分做题留白）
     p4Content = `
       <section class="exam-section" aria-label="解答题续二">
         <ol class="question-list" start="20">
@@ -240,7 +236,10 @@ function paper(exam) {
     `;
   } else {
     // 2021~2026 年新大纲结构 (10 选 + 6 填 + 6 解 = 22 题)
-    // 第 1 页：卷头 + 选择题 1~6
+    // 第 1 页：选择题 1~7 题（铺满第 1 页）
+    const p1Nums = [1, 2, 3, 4, 5, 6];
+    const p2ChoiceNums = [7, 8, 9, 10];
+
     p1Content = `
       <header class="exam-header">
         <div class="exam-header-title" id="title-${exam.year}">${exam.year} 年全国硕士研究生招生考试</div>
@@ -250,16 +249,16 @@ function paper(exam) {
       <section class="exam-section" aria-label="选择题">
         <h3 class="section-title">${getSectionHeading(s1)}</h3>
         <ol class="question-list" start="1">
-          ${[1,2,3,4,5,6].map(n => qMap[n]).join('')}
+          ${p1Nums.map(n => qMap[n]).join('')}
         </ol>
       </section>
     `;
 
-    // 第 2 页：选择题 7~10 + 填空题 11~16
+    // 第 2 页：选择题 8~10 + 填空题 11~16（充实饱满）
     p2Content = `
       <section class="exam-section" aria-label="选择题续">
         <ol class="question-list" start="7">
-          ${[7,8,9,10].map(n => qMap[n]).join('')}
+          ${p2ChoiceNums.map(n => qMap[n]).join('')}
         </ol>
       </section>
       <section class="exam-section" aria-label="填空题">
@@ -270,7 +269,7 @@ function paper(exam) {
       </section>
     `;
 
-    // 第 3 页：解答题 17~19
+    // 第 3 页：解答题 17~19（大题留白均分整页）
     p3Content = `
       <section class="exam-section" aria-label="解答题">
         <h3 class="section-title">${getSectionHeading(s3)}</h3>
@@ -280,7 +279,7 @@ function paper(exam) {
       </section>
     `;
 
-    // 第 4 页：解答题 20~22
+    // 第 4 页：解答题 20~22（大题留白均分整页）
     p4Content = `
       <section class="exam-section" aria-label="解答题续">
         <ol class="question-list" start="20">
@@ -292,30 +291,19 @@ function paper(exam) {
 
   return `<article class="exam-paper" data-year="${exam.year}" aria-labelledby="title-${exam.year}">
   <section class="exam-page page-1">
-    <div class="exam-page-content">
-      ${p1Content}
-    </div>
+    <div class="exam-page-content">${p1Content}</div>
     ${pageFooter(exam.year, 1)}
   </section>
-
   <section class="exam-page page-2">
-    <div class="exam-page-content">
-      ${p2Content}
-    </div>
+    <div class="exam-page-content">${p2Content}</div>
     ${pageFooter(exam.year, 2)}
   </section>
-
   <section class="exam-page page-3">
-    <div class="exam-page-content">
-      ${p3Content}
-    </div>
+    <div class="exam-page-content">${p3Content}</div>
     ${pageFooter(exam.year, 3)}
   </section>
-
   <section class="exam-page page-4">
-    <div class="exam-page-content">
-      ${p4Content}
-    </div>
+    <div class="exam-page-content">${p4Content}</div>
     ${pageFooter(exam.year, 4)}
   </section>
 </article>`;
@@ -370,7 +358,7 @@ fs.writeFileSync(path.join(root,'all.html'),document('2010—2026年数学（二
 
 const indexContent = `<main class="index-container">
   <h1 class="index-title">全国硕士研究生招生考试 · 数学（二）历年真题</h1>
-  <p class="index-desc">收录 2010—2026 年共 17 套真题（385 题）。1:1 严格复刻教育部考试中心官方考场原卷排版（标准表头、规范大题标点、选项严密对齐防折行、大题连贯不碎行、填空题全量下划线、原卷极简页脚）。</p>
+  <p class="index-desc">收录 2010—2026 年共 17 套真题（385 题）。1:1 严格复刻考场原卷 4 页规范版面：第 1 页选择题自然填满不留白、大题自带充足解答做题空间、每页带标准页码页脚。</p>
   <nav aria-label="按年份选择试卷">
     <ul class="year-grid">
       ${years.map(y=>`<li><a href="years/${y}.html">${y} 年真题</a></li>`).join('')}
@@ -380,9 +368,9 @@ const indexContent = `<main class="index-container">
     <p><a href="all.html">📖 打开 17 年真题合订本（浏览与批量打印）</a></p>
   </div>
   <p style="font-size:13px;color:#666;text-align:center;margin-top:30px;line-height:1.6;">
-    打印提示：建议使用 A4 纸张、100% 缩放，并在浏览器打印面板关闭“页眉和页脚”，即可输出如 2011、2020、2021 原卷高度一致的试题纸。
+    打印提示：建议使用 A4 纸张、100% 缩放，并在浏览器打印面板关闭“页眉和页脚”，即可输出严格 4 页的标准考场试题纸。
   </p>
 </main>`;
 
 fs.writeFileSync(path.join(root,'index.html'),document('数学（二）历年真题', indexContent));
-console.log(`构建完成：17套 / 385题 / ${formulas}个公式；题号、选项、总分及公式编译通过。`);
+console.log(`构建完成：17套 / 385题 / ${formulas}个公式；严格4页 + 页码完整 + 第1页填满规范版构建成功！`);

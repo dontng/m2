@@ -328,7 +328,7 @@
           "number": 20,
           "type": "解答题",
           "points": 12,
-          "stem": "设平面有界区域 $D$ 位于第一象限，由曲线\n$$\nx^2+y^2-xy=1,\\qquad x^2+y^2-xy=2\n$$\n与直线\n$$\ny=\\sqrt3\\,x,\\qquad y=0\n$$\n围成，计算\n$$\n\\iint_D \\frac{1}{3x^2+y^2}\\,dx\\,dy.\n$$"
+          "stem": "设平面有界区域 $D$ 位于第一象限，由曲线\n$$\nx^2+y^2-xy=1,\\qquad x^2+y^2-xy=2\n$$\n与直线\n$$\ny=\\sqrt3\\,x,\\qquad y=0\n$$\n围成，计算\n$$\n\\iint\limits_D \\frac{1}{3x^2+y^2}\\,dx\\,dy.\n$$"
         },
         {
           "number": 21,
