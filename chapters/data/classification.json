@@ -1,0 +1,3074 @@
+[
+  {
+    "id": "2010-1",
+    "year": 2010,
+    "number": 1,
+    "primary": "c03",
+    "related": []
+  },
+  {
+    "id": "2010-2",
+    "year": 2010,
+    "number": 2,
+    "primary": "c14",
+    "related": []
+  },
+  {
+    "id": "2010-3",
+    "year": 2010,
+    "number": 3,
+    "primary": "c09",
+    "related": []
+  },
+  {
+    "id": "2010-4",
+    "year": 2010,
+    "number": 4,
+    "primary": "c12",
+    "related": []
+  },
+  {
+    "id": "2010-5",
+    "year": 2010,
+    "number": 5,
+    "primary": "c17",
+    "related": []
+  },
+  {
+    "id": "2010-6",
+    "year": 2010,
+    "number": 6,
+    "primary": "c02",
+    "related": [
+      "c11",
+      "c19"
+    ]
+  },
+  {
+    "id": "2010-7",
+    "year": 2010,
+    "number": 7,
+    "primary": "l03",
+    "related": []
+  },
+  {
+    "id": "2010-8",
+    "year": 2010,
+    "number": 8,
+    "primary": "l05",
+    "related": []
+  },
+  {
+    "id": "2010-9",
+    "year": 2010,
+    "number": 9,
+    "primary": "c15",
+    "related": []
+  },
+  {
+    "id": "2010-10",
+    "year": 2010,
+    "number": 10,
+    "primary": "c09",
+    "related": []
+  },
+  {
+    "id": "2010-11",
+    "year": 2010,
+    "number": 11,
+    "primary": "c08",
+    "related": []
+  },
+  {
+    "id": "2010-12",
+    "year": 2010,
+    "number": 12,
+    "primary": "c13",
+    "related": []
+  },
+  {
+    "id": "2010-13",
+    "year": 2010,
+    "number": 13,
+    "primary": "c04",
+    "related": []
+  },
+  {
+    "id": "2010-14",
+    "year": 2010,
+    "number": 14,
+    "primary": "l01",
+    "related": []
+  },
+  {
+    "id": "2010-15",
+    "year": 2010,
+    "number": 15,
+    "primary": "c06",
+    "related": [
+      "c11"
+    ]
+  },
+  {
+    "id": "2010-16",
+    "year": 2010,
+    "number": 16,
+    "primary": "c11",
+    "related": [
+      "c02",
+      "c05"
+    ]
+  },
+  {
+    "id": "2010-17",
+    "year": 2010,
+    "number": 17,
+    "primary": "c15",
+    "related": [
+      "c04",
+      "c14"
+    ]
+  },
+  {
+    "id": "2010-18",
+    "year": 2010,
+    "number": 18,
+    "primary": "c13",
+    "related": []
+  },
+  {
+    "id": "2010-19",
+    "year": 2010,
+    "number": 19,
+    "primary": "c17",
+    "related": [
+      "c16"
+    ]
+  },
+  {
+    "id": "2010-20",
+    "year": 2010,
+    "number": 20,
+    "primary": "c19",
+    "related": []
+  },
+  {
+    "id": "2010-21",
+    "year": 2010,
+    "number": 21,
+    "primary": "c05",
+    "related": []
+  },
+  {
+    "id": "2010-22",
+    "year": 2010,
+    "number": 22,
+    "primary": "l04",
+    "related": []
+  },
+  {
+    "id": "2010-23",
+    "year": 2010,
+    "number": 23,
+    "primary": "l05",
+    "related": [
+      "l06"
+    ]
+  },
+  {
+    "id": "2011-1",
+    "year": 2011,
+    "number": 1,
+    "primary": "c01",
+    "related": [
+      "c08"
+    ]
+  },
+  {
+    "id": "2011-2",
+    "year": 2011,
+    "number": 2,
+    "primary": "c04",
+    "related": [
+      "c01"
+    ]
+  },
+  {
+    "id": "2011-3",
+    "year": 2011,
+    "number": 3,
+    "primary": "c06",
+    "related": []
+  },
+  {
+    "id": "2011-4",
+    "year": 2011,
+    "number": 4,
+    "primary": "c15",
+    "related": []
+  },
+  {
+    "id": "2011-5",
+    "year": 2011,
+    "number": 5,
+    "primary": "c18",
+    "related": []
+  },
+  {
+    "id": "2011-6",
+    "year": 2011,
+    "number": 6,
+    "primary": "c11",
+    "related": []
+  },
+  {
+    "id": "2011-7",
+    "year": 2011,
+    "number": 7,
+    "primary": "l02",
+    "related": []
+  },
+  {
+    "id": "2011-8",
+    "year": 2011,
+    "number": 8,
+    "primary": "l04",
+    "related": [
+      "l03",
+      "l02"
+    ]
+  },
+  {
+    "id": "2011-9",
+    "year": 2011,
+    "number": 9,
+    "primary": "c01",
+    "related": []
+  },
+  {
+    "id": "2011-10",
+    "year": 2011,
+    "number": 10,
+    "primary": "c14",
+    "related": []
+  },
+  {
+    "id": "2011-11",
+    "year": 2011,
+    "number": 11,
+    "primary": "c13",
+    "related": []
+  },
+  {
+    "id": "2011-12",
+    "year": 2011,
+    "number": 12,
+    "primary": "c12",
+    "related": []
+  },
+  {
+    "id": "2011-13",
+    "year": 2011,
+    "number": 13,
+    "primary": "c19",
+    "related": []
+  },
+  {
+    "id": "2011-14",
+    "year": 2011,
+    "number": 14,
+    "primary": "l06",
+    "related": []
+  },
+  {
+    "id": "2011-15",
+    "year": 2011,
+    "number": 15,
+    "primary": "c01",
+    "related": [
+      "c11"
+    ]
+  },
+  {
+    "id": "2011-16",
+    "year": 2011,
+    "number": 16,
+    "primary": "c06",
+    "related": [
+      "c07",
+      "c04"
+    ]
+  },
+  {
+    "id": "2011-17",
+    "year": 2011,
+    "number": 17,
+    "primary": "c17",
+    "related": []
+  },
+  {
+    "id": "2011-18",
+    "year": 2011,
+    "number": 18,
+    "primary": "c14",
+    "related": [
+      "c09"
+    ]
+  },
+  {
+    "id": "2011-19",
+    "year": 2011,
+    "number": 19,
+    "primary": "c02",
+    "related": [
+      "c05"
+    ]
+  },
+  {
+    "id": "2011-20",
+    "year": 2011,
+    "number": 20,
+    "primary": "c13",
+    "related": []
+  },
+  {
+    "id": "2011-21",
+    "year": 2011,
+    "number": 21,
+    "primary": "c19",
+    "related": [
+      "c17"
+    ]
+  },
+  {
+    "id": "2011-22",
+    "year": 2011,
+    "number": 22,
+    "primary": "l03",
+    "related": []
+  },
+  {
+    "id": "2011-23",
+    "year": 2011,
+    "number": 23,
+    "primary": "l05",
+    "related": []
+  },
+  {
+    "id": "2012-1",
+    "year": 2012,
+    "number": 1,
+    "primary": "c09",
+    "related": []
+  },
+  {
+    "id": "2012-2",
+    "year": 2012,
+    "number": 2,
+    "primary": "c04",
+    "related": []
+  },
+  {
+    "id": "2012-3",
+    "year": 2012,
+    "number": 3,
+    "primary": "c02",
+    "related": []
+  },
+  {
+    "id": "2012-4",
+    "year": 2012,
+    "number": 4,
+    "primary": "c11",
+    "related": []
+  },
+  {
+    "id": "2012-5",
+    "year": 2012,
+    "number": 5,
+    "primary": "c16",
+    "related": [
+      "c06"
+    ]
+  },
+  {
+    "id": "2012-6",
+    "year": 2012,
+    "number": 6,
+    "primary": "c19",
+    "related": []
+  },
+  {
+    "id": "2012-7",
+    "year": 2012,
+    "number": 7,
+    "primary": "l03",
+    "related": []
+  },
+  {
+    "id": "2012-8",
+    "year": 2012,
+    "number": 8,
+    "primary": "l05",
+    "related": []
+  },
+  {
+    "id": "2012-9",
+    "year": 2012,
+    "number": 9,
+    "primary": "c04",
+    "related": [
+      "c17"
+    ]
+  },
+  {
+    "id": "2012-10",
+    "year": 2012,
+    "number": 10,
+    "primary": "c02",
+    "related": [
+      "c11"
+    ]
+  },
+  {
+    "id": "2012-11",
+    "year": 2012,
+    "number": 11,
+    "primary": "c17",
+    "related": []
+  },
+  {
+    "id": "2012-12",
+    "year": 2012,
+    "number": 12,
+    "primary": "c14",
+    "related": []
+  },
+  {
+    "id": "2012-13",
+    "year": 2012,
+    "number": 13,
+    "primary": "c09",
+    "related": []
+  },
+  {
+    "id": "2012-14",
+    "year": 2012,
+    "number": 14,
+    "primary": "l01",
+    "related": []
+  },
+  {
+    "id": "2012-15",
+    "year": 2012,
+    "number": 15,
+    "primary": "c01",
+    "related": [
+      "c08"
+    ]
+  },
+  {
+    "id": "2012-16",
+    "year": 2012,
+    "number": 16,
+    "primary": "c18",
+    "related": []
+  },
+  {
+    "id": "2012-17",
+    "year": 2012,
+    "number": 17,
+    "primary": "c13",
+    "related": [
+      "c09"
+    ]
+  },
+  {
+    "id": "2012-18",
+    "year": 2012,
+    "number": 18,
+    "primary": "c19",
+    "related": []
+  },
+  {
+    "id": "2012-19",
+    "year": 2012,
+    "number": 19,
+    "primary": "c15",
+    "related": [
+      "c07",
+      "c11"
+    ]
+  },
+  {
+    "id": "2012-20",
+    "year": 2012,
+    "number": 20,
+    "primary": "c05",
+    "related": []
+  },
+  {
+    "id": "2012-21",
+    "year": 2012,
+    "number": 21,
+    "primary": "c02",
+    "related": [
+      "c05"
+    ]
+  },
+  {
+    "id": "2012-22",
+    "year": 2012,
+    "number": 22,
+    "primary": "l04",
+    "related": [
+      "l01"
+    ],
+    "classification_note": "综合题主任务为参数方程组的无穷多解和通解；行列式为前置小问。"
+  },
+  {
+    "id": "2012-23",
+    "year": 2012,
+    "number": 23,
+    "primary": "l06",
+    "related": [
+      "l03",
+      "l05"
+    ]
+  },
+  {
+    "id": "2013-1",
+    "year": 2013,
+    "number": 1,
+    "primary": "c01",
+    "related": []
+  },
+  {
+    "id": "2013-2",
+    "year": 2013,
+    "number": 2,
+    "primary": "c04",
+    "related": [
+      "c01"
+    ]
+  },
+  {
+    "id": "2013-3",
+    "year": 2013,
+    "number": 3,
+    "primary": "c11",
+    "related": [
+      "c03",
+      "c04"
+    ]
+  },
+  {
+    "id": "2013-4",
+    "year": 2013,
+    "number": 4,
+    "primary": "c12",
+    "related": []
+  },
+  {
+    "id": "2013-5",
+    "year": 2013,
+    "number": 5,
+    "primary": "c17",
+    "related": []
+  },
+  {
+    "id": "2013-6",
+    "year": 2013,
+    "number": 6,
+    "primary": "c19",
+    "related": []
+  },
+  {
+    "id": "2013-7",
+    "year": 2013,
+    "number": 7,
+    "primary": "l03",
+    "related": [
+      "l02"
+    ],
+    "classification_note": "选项主要比较行、列向量组等价，归向量组，保留矩阵运算关联。"
+  },
+  {
+    "id": "2013-8",
+    "year": 2013,
+    "number": 8,
+    "primary": "l05",
+    "related": []
+  },
+  {
+    "id": "2013-9",
+    "year": 2013,
+    "number": 9,
+    "primary": "c01",
+    "related": []
+  },
+  {
+    "id": "2013-10",
+    "year": 2013,
+    "number": 10,
+    "primary": "c04",
+    "related": [
+      "c11"
+    ]
+  },
+  {
+    "id": "2013-11",
+    "year": 2013,
+    "number": 11,
+    "primary": "c13",
+    "related": []
+  },
+  {
+    "id": "2013-12",
+    "year": 2013,
+    "number": 12,
+    "primary": "c09",
+    "related": []
+  },
+  {
+    "id": "2013-13",
+    "year": 2013,
+    "number": 13,
+    "primary": "c15",
+    "related": []
+  },
+  {
+    "id": "2013-14",
+    "year": 2013,
+    "number": 14,
+    "primary": "l01",
+    "related": []
+  },
+  {
+    "id": "2013-15",
+    "year": 2013,
+    "number": 15,
+    "primary": "c01",
+    "related": [
+      "c08"
+    ]
+  },
+  {
+    "id": "2013-16",
+    "year": 2013,
+    "number": 16,
+    "primary": "c13",
+    "related": []
+  },
+  {
+    "id": "2013-17",
+    "year": 2013,
+    "number": 17,
+    "primary": "c19",
+    "related": []
+  },
+  {
+    "id": "2013-18",
+    "year": 2013,
+    "number": 18,
+    "primary": "c05",
+    "related": []
+  },
+  {
+    "id": "2013-19",
+    "year": 2013,
+    "number": 19,
+    "primary": "c18",
+    "related": [
+      "c17"
+    ]
+  },
+  {
+    "id": "2013-20",
+    "year": 2013,
+    "number": 20,
+    "primary": "c02",
+    "related": [
+      "c06"
+    ]
+  },
+  {
+    "id": "2013-21",
+    "year": 2013,
+    "number": 21,
+    "primary": "c13",
+    "related": []
+  },
+  {
+    "id": "2013-22",
+    "year": 2013,
+    "number": 22,
+    "primary": "l02",
+    "related": [
+      "l04"
+    ]
+  },
+  {
+    "id": "2013-23",
+    "year": 2013,
+    "number": 23,
+    "primary": "l06",
+    "related": [
+      "l03",
+      "l05"
+    ]
+  },
+  {
+    "id": "2014-1",
+    "year": 2014,
+    "number": 1,
+    "primary": "c01",
+    "related": []
+  },
+  {
+    "id": "2014-2",
+    "year": 2014,
+    "number": 2,
+    "primary": "c09",
+    "related": []
+  },
+  {
+    "id": "2014-3",
+    "year": 2014,
+    "number": 3,
+    "primary": "c07",
+    "related": [
+      "c05"
+    ]
+  },
+  {
+    "id": "2014-4",
+    "year": 2014,
+    "number": 4,
+    "primary": "c09",
+    "related": []
+  },
+  {
+    "id": "2014-5",
+    "year": 2014,
+    "number": 5,
+    "primary": "c01",
+    "related": [
+      "c05",
+      "c08"
+    ]
+  },
+  {
+    "id": "2014-6",
+    "year": 2014,
+    "number": 6,
+    "primary": "c18",
+    "related": []
+  },
+  {
+    "id": "2014-7",
+    "year": 2014,
+    "number": 7,
+    "primary": "l01",
+    "related": []
+  },
+  {
+    "id": "2014-8",
+    "year": 2014,
+    "number": 8,
+    "primary": "l03",
+    "related": []
+  },
+  {
+    "id": "2014-9",
+    "year": 2014,
+    "number": 9,
+    "primary": "c12",
+    "related": []
+  },
+  {
+    "id": "2014-10",
+    "year": 2014,
+    "number": 10,
+    "primary": "c11",
+    "related": [
+      "c01"
+    ]
+  },
+  {
+    "id": "2014-11",
+    "year": 2014,
+    "number": 11,
+    "primary": "c17",
+    "related": [
+      "c16"
+    ]
+  },
+  {
+    "id": "2014-12",
+    "year": 2014,
+    "number": 12,
+    "primary": "c09",
+    "related": []
+  },
+  {
+    "id": "2014-13",
+    "year": 2014,
+    "number": 13,
+    "primary": "c13",
+    "related": []
+  },
+  {
+    "id": "2014-14",
+    "year": 2014,
+    "number": 14,
+    "primary": "l06",
+    "related": []
+  },
+  {
+    "id": "2014-15",
+    "year": 2014,
+    "number": 15,
+    "primary": "c01",
+    "related": [
+      "c11",
+      "c08"
+    ]
+  },
+  {
+    "id": "2014-16",
+    "year": 2014,
+    "number": 16,
+    "primary": "c14",
+    "related": [
+      "c06"
+    ]
+  },
+  {
+    "id": "2014-17",
+    "year": 2014,
+    "number": 17,
+    "primary": "c19",
+    "related": []
+  },
+  {
+    "id": "2014-18",
+    "year": 2014,
+    "number": 18,
+    "primary": "c17",
+    "related": [
+      "c15"
+    ],
+    "classification_note": "主线是复合偏导关系经链式法则化简，后续联立微分方程求函数。"
+  },
+  {
+    "id": "2014-19",
+    "year": 2014,
+    "number": 19,
+    "primary": "c11",
+    "related": [
+      "c05"
+    ]
+  },
+  {
+    "id": "2014-20",
+    "year": 2014,
+    "number": 20,
+    "primary": "c02",
+    "related": [
+      "c11",
+      "c13"
+    ]
+  },
+  {
+    "id": "2014-21",
+    "year": 2014,
+    "number": 21,
+    "primary": "c13",
+    "related": [
+      "c16"
+    ]
+  },
+  {
+    "id": "2014-22",
+    "year": 2014,
+    "number": 22,
+    "primary": "l04",
+    "related": [
+      "l02"
+    ]
+  },
+  {
+    "id": "2014-23",
+    "year": 2014,
+    "number": 23,
+    "primary": "l05",
+    "related": []
+  },
+  {
+    "id": "2015-1",
+    "year": 2015,
+    "number": 1,
+    "primary": "c12",
+    "related": []
+  },
+  {
+    "id": "2015-2",
+    "year": 2015,
+    "number": 2,
+    "primary": "c03",
+    "related": [
+      "c01",
+      "c04"
+    ]
+  },
+  {
+    "id": "2015-3",
+    "year": 2015,
+    "number": 3,
+    "primary": "c04",
+    "related": [
+      "c03"
+    ]
+  },
+  {
+    "id": "2015-4",
+    "year": 2015,
+    "number": 4,
+    "primary": "c07",
+    "related": []
+  },
+  {
+    "id": "2015-5",
+    "year": 2015,
+    "number": 5,
+    "primary": "c17",
+    "related": []
+  },
+  {
+    "id": "2015-6",
+    "year": 2015,
+    "number": 6,
+    "primary": "c19",
+    "related": []
+  },
+  {
+    "id": "2015-7",
+    "year": 2015,
+    "number": 7,
+    "primary": "l04",
+    "related": []
+  },
+  {
+    "id": "2015-8",
+    "year": 2015,
+    "number": 8,
+    "primary": "l06",
+    "related": []
+  },
+  {
+    "id": "2015-9",
+    "year": 2015,
+    "number": 9,
+    "primary": "c04",
+    "related": []
+  },
+  {
+    "id": "2015-10",
+    "year": 2015,
+    "number": 10,
+    "primary": "c08",
+    "related": [
+      "c04"
+    ]
+  },
+  {
+    "id": "2015-11",
+    "year": 2015,
+    "number": 11,
+    "primary": "c11",
+    "related": [
+      "c04"
+    ]
+  },
+  {
+    "id": "2015-12",
+    "year": 2015,
+    "number": 12,
+    "primary": "c15",
+    "related": []
+  },
+  {
+    "id": "2015-13",
+    "year": 2015,
+    "number": 13,
+    "primary": "c17",
+    "related": [
+      "c16"
+    ]
+  },
+  {
+    "id": "2015-14",
+    "year": 2015,
+    "number": 14,
+    "primary": "l01",
+    "related": [
+      "l05"
+    ]
+  },
+  {
+    "id": "2015-15",
+    "year": 2015,
+    "number": 15,
+    "primary": "c01",
+    "related": [
+      "c08"
+    ]
+  },
+  {
+    "id": "2015-16",
+    "year": 2015,
+    "number": 16,
+    "primary": "c13",
+    "related": []
+  },
+  {
+    "id": "2015-17",
+    "year": 2015,
+    "number": 17,
+    "primary": "c18",
+    "related": [
+      "c16"
+    ]
+  },
+  {
+    "id": "2015-18",
+    "year": 2015,
+    "number": 18,
+    "primary": "c19",
+    "related": []
+  },
+  {
+    "id": "2015-19",
+    "year": 2015,
+    "number": 19,
+    "primary": "c06",
+    "related": [
+      "c11",
+      "c05"
+    ]
+  },
+  {
+    "id": "2015-20",
+    "year": 2015,
+    "number": 20,
+    "primary": "c14",
+    "related": []
+  },
+  {
+    "id": "2015-21",
+    "year": 2015,
+    "number": 21,
+    "primary": "c05",
+    "related": [
+      "c07",
+      "c09"
+    ]
+  },
+  {
+    "id": "2015-22",
+    "year": 2015,
+    "number": 22,
+    "primary": "l02",
+    "related": [
+      "l05"
+    ]
+  },
+  {
+    "id": "2015-23",
+    "year": 2015,
+    "number": 23,
+    "primary": "l05",
+    "related": [
+      "l01"
+    ]
+  },
+  {
+    "id": "2016-1",
+    "year": 2016,
+    "number": 1,
+    "primary": "c01",
+    "related": []
+  },
+  {
+    "id": "2016-2",
+    "year": 2016,
+    "number": 2,
+    "primary": "c10",
+    "related": [
+      "c03"
+    ]
+  },
+  {
+    "id": "2016-3",
+    "year": 2016,
+    "number": 3,
+    "primary": "c12",
+    "related": []
+  },
+  {
+    "id": "2016-4",
+    "year": 2016,
+    "number": 4,
+    "primary": "c06",
+    "related": [
+      "c07"
+    ]
+  },
+  {
+    "id": "2016-5",
+    "year": 2016,
+    "number": 5,
+    "primary": "c09",
+    "related": [
+      "c07",
+      "c08"
+    ]
+  },
+  {
+    "id": "2016-6",
+    "year": 2016,
+    "number": 6,
+    "primary": "c16",
+    "related": []
+  },
+  {
+    "id": "2016-7",
+    "year": 2016,
+    "number": 7,
+    "primary": "l05",
+    "related": []
+  },
+  {
+    "id": "2016-8",
+    "year": 2016,
+    "number": 8,
+    "primary": "l06",
+    "related": []
+  },
+  {
+    "id": "2016-9",
+    "year": 2016,
+    "number": 9,
+    "primary": "c09",
+    "related": []
+  },
+  {
+    "id": "2016-10",
+    "year": 2016,
+    "number": 10,
+    "primary": "c02",
+    "related": [
+      "c11"
+    ]
+  },
+  {
+    "id": "2016-11",
+    "year": 2016,
+    "number": 11,
+    "primary": "c14",
+    "related": []
+  },
+  {
+    "id": "2016-12",
+    "year": 2016,
+    "number": 12,
+    "primary": "c08",
+    "related": [
+      "c11",
+      "c14"
+    ]
+  },
+  {
+    "id": "2016-13",
+    "year": 2016,
+    "number": 13,
+    "primary": "c04",
+    "related": []
+  },
+  {
+    "id": "2016-14",
+    "year": 2016,
+    "number": 14,
+    "primary": "l03",
+    "related": []
+  },
+  {
+    "id": "2016-15",
+    "year": 2016,
+    "number": 15,
+    "primary": "c01",
+    "related": [
+      "c08"
+    ]
+  },
+  {
+    "id": "2016-16",
+    "year": 2016,
+    "number": 16,
+    "primary": "c06",
+    "related": [
+      "c11"
+    ]
+  },
+  {
+    "id": "2016-17",
+    "year": 2016,
+    "number": 17,
+    "primary": "c18",
+    "related": [
+      "c17"
+    ]
+  },
+  {
+    "id": "2016-18",
+    "year": 2016,
+    "number": 18,
+    "primary": "c19",
+    "related": []
+  },
+  {
+    "id": "2016-19",
+    "year": 2016,
+    "number": 19,
+    "primary": "c15",
+    "related": []
+  },
+  {
+    "id": "2016-20",
+    "year": 2016,
+    "number": 20,
+    "primary": "c13",
+    "related": []
+  },
+  {
+    "id": "2016-21",
+    "year": 2016,
+    "number": 21,
+    "primary": "c11",
+    "related": [
+      "c05",
+      "c06"
+    ]
+  },
+  {
+    "id": "2016-22",
+    "year": 2016,
+    "number": 22,
+    "primary": "l04",
+    "related": [
+      "l03"
+    ]
+  },
+  {
+    "id": "2016-23",
+    "year": 2016,
+    "number": 23,
+    "primary": "l05",
+    "related": [
+      "l02",
+      "l03"
+    ]
+  },
+  {
+    "id": "2017-1",
+    "year": 2017,
+    "number": 1,
+    "primary": "c03",
+    "related": []
+  },
+  {
+    "id": "2017-2",
+    "year": 2017,
+    "number": 2,
+    "primary": "c07",
+    "related": [
+      "c11"
+    ]
+  },
+  {
+    "id": "2017-3",
+    "year": 2017,
+    "number": 3,
+    "primary": "c02",
+    "related": []
+  },
+  {
+    "id": "2017-4",
+    "year": 2017,
+    "number": 4,
+    "primary": "c15",
+    "related": []
+  },
+  {
+    "id": "2017-5",
+    "year": 2017,
+    "number": 5,
+    "primary": "c16",
+    "related": []
+  },
+  {
+    "id": "2017-6",
+    "year": 2017,
+    "number": 6,
+    "primary": "c13",
+    "related": []
+  },
+  {
+    "id": "2017-7",
+    "year": 2017,
+    "number": 7,
+    "primary": "l05",
+    "related": []
+  },
+  {
+    "id": "2017-8",
+    "year": 2017,
+    "number": 8,
+    "primary": "l05",
+    "related": []
+  },
+  {
+    "id": "2017-9",
+    "year": 2017,
+    "number": 9,
+    "primary": "c09",
+    "related": [
+      "c01"
+    ]
+  },
+  {
+    "id": "2017-10",
+    "year": 2017,
+    "number": 10,
+    "primary": "c04",
+    "related": []
+  },
+  {
+    "id": "2017-11",
+    "year": 2017,
+    "number": 11,
+    "primary": "c12",
+    "related": []
+  },
+  {
+    "id": "2017-12",
+    "year": 2017,
+    "number": 12,
+    "primary": "c16",
+    "related": [
+      "c17"
+    ]
+  },
+  {
+    "id": "2017-13",
+    "year": 2017,
+    "number": 13,
+    "primary": "c19",
+    "related": []
+  },
+  {
+    "id": "2017-14",
+    "year": 2017,
+    "number": 14,
+    "primary": "l05",
+    "related": []
+  },
+  {
+    "id": "2017-15",
+    "year": 2017,
+    "number": 15,
+    "primary": "c01",
+    "related": [
+      "c11"
+    ]
+  },
+  {
+    "id": "2017-16",
+    "year": 2017,
+    "number": 16,
+    "primary": "c17",
+    "related": []
+  },
+  {
+    "id": "2017-17",
+    "year": 2017,
+    "number": 17,
+    "primary": "c02",
+    "related": [
+      "c11"
+    ]
+  },
+  {
+    "id": "2017-18",
+    "year": 2017,
+    "number": 18,
+    "primary": "c06",
+    "related": [
+      "c04"
+    ]
+  },
+  {
+    "id": "2017-19",
+    "year": 2017,
+    "number": 19,
+    "primary": "c05",
+    "related": []
+  },
+  {
+    "id": "2017-20",
+    "year": 2017,
+    "number": 20,
+    "primary": "c19",
+    "related": []
+  },
+  {
+    "id": "2017-21",
+    "year": 2017,
+    "number": 21,
+    "primary": "c14",
+    "related": [
+      "c09"
+    ]
+  },
+  {
+    "id": "2017-22",
+    "year": 2017,
+    "number": 22,
+    "primary": "l04",
+    "related": [
+      "l03",
+      "l05"
+    ],
+    "classification_note": "主设问包括求秩和方程组通解，完整收在线性方程组；保留特征值关联。"
+  },
+  {
+    "id": "2017-23",
+    "year": 2017,
+    "number": 23,
+    "primary": "l06",
+    "related": [
+      "l05"
+    ]
+  },
+  {
+    "id": "2018-1",
+    "year": 2018,
+    "number": 1,
+    "primary": "c01",
+    "related": [
+      "c08"
+    ]
+  },
+  {
+    "id": "2018-2",
+    "year": 2018,
+    "number": 2,
+    "primary": "c04",
+    "related": []
+  },
+  {
+    "id": "2018-3",
+    "year": 2018,
+    "number": 3,
+    "primary": "c03",
+    "related": []
+  },
+  {
+    "id": "2018-4",
+    "year": 2018,
+    "number": 4,
+    "primary": "c07",
+    "related": [
+      "c11",
+      "c05"
+    ],
+    "classification_note": "需依据凹凸性比较中点函数值与积分平均值，主归凹凸性。"
+  },
+  {
+    "id": "2018-5",
+    "year": 2018,
+    "number": 5,
+    "primary": "c11",
+    "related": []
+  },
+  {
+    "id": "2018-6",
+    "year": 2018,
+    "number": 6,
+    "primary": "c19",
+    "related": []
+  },
+  {
+    "id": "2018-7",
+    "year": 2018,
+    "number": 7,
+    "primary": "l05",
+    "related": []
+  },
+  {
+    "id": "2018-8",
+    "year": 2018,
+    "number": 8,
+    "primary": "l03",
+    "related": []
+  },
+  {
+    "id": "2018-9",
+    "year": 2018,
+    "number": 9,
+    "primary": "c01",
+    "related": []
+  },
+  {
+    "id": "2018-10",
+    "year": 2018,
+    "number": 10,
+    "primary": "c09",
+    "related": [
+      "c07"
+    ]
+  },
+  {
+    "id": "2018-11",
+    "year": 2018,
+    "number": 11,
+    "primary": "c12",
+    "related": []
+  },
+  {
+    "id": "2018-12",
+    "year": 2018,
+    "number": 12,
+    "primary": "c09",
+    "related": []
+  },
+  {
+    "id": "2018-13",
+    "year": 2018,
+    "number": 13,
+    "primary": "c17",
+    "related": []
+  },
+  {
+    "id": "2018-14",
+    "year": 2018,
+    "number": 14,
+    "primary": "l01",
+    "related": [
+      "l03",
+      "l05"
+    ]
+  },
+  {
+    "id": "2018-15",
+    "year": 2018,
+    "number": 15,
+    "primary": "c10",
+    "related": []
+  },
+  {
+    "id": "2018-16",
+    "year": 2018,
+    "number": 16,
+    "primary": "c14",
+    "related": [
+      "c11"
+    ],
+    "classification_note": "积分关系经求导转化为一阶微分方程；保留变上限积分关联。"
+  },
+  {
+    "id": "2018-17",
+    "year": 2018,
+    "number": 17,
+    "primary": "c19",
+    "related": []
+  },
+  {
+    "id": "2018-18",
+    "year": 2018,
+    "number": 18,
+    "primary": "c05",
+    "related": []
+  },
+  {
+    "id": "2018-19",
+    "year": 2018,
+    "number": 19,
+    "primary": "c18",
+    "related": []
+  },
+  {
+    "id": "2018-20",
+    "year": 2018,
+    "number": 20,
+    "primary": "c13",
+    "related": [
+      "c04"
+    ]
+  },
+  {
+    "id": "2018-21",
+    "year": 2018,
+    "number": 21,
+    "primary": "c02",
+    "related": [
+      "c05"
+    ]
+  },
+  {
+    "id": "2018-22",
+    "year": 2018,
+    "number": 22,
+    "primary": "l06",
+    "related": [
+      "l04",
+      "l03"
+    ]
+  },
+  {
+    "id": "2018-23",
+    "year": 2018,
+    "number": 23,
+    "primary": "l02",
+    "related": [
+      "l04"
+    ]
+  },
+  {
+    "id": "2019-1",
+    "year": 2019,
+    "number": 1,
+    "primary": "c01",
+    "related": [
+      "c08"
+    ]
+  },
+  {
+    "id": "2019-2",
+    "year": 2019,
+    "number": 2,
+    "primary": "c07",
+    "related": []
+  },
+  {
+    "id": "2019-3",
+    "year": 2019,
+    "number": 3,
+    "primary": "c12",
+    "related": []
+  },
+  {
+    "id": "2019-4",
+    "year": 2019,
+    "number": 4,
+    "primary": "c15",
+    "related": []
+  },
+  {
+    "id": "2019-5",
+    "year": 2019,
+    "number": 5,
+    "primary": "c19",
+    "related": []
+  },
+  {
+    "id": "2019-6",
+    "year": 2019,
+    "number": 6,
+    "primary": "c08",
+    "related": [
+      "c09",
+      "c01"
+    ],
+    "classification_note": "用二阶局部展开关联曲线接触与极限，主归泰勒公式，关联曲率。"
+  },
+  {
+    "id": "2019-7",
+    "year": 2019,
+    "number": 7,
+    "primary": "l03",
+    "related": []
+  },
+  {
+    "id": "2019-8",
+    "year": 2019,
+    "number": 8,
+    "primary": "l06",
+    "related": []
+  },
+  {
+    "id": "2019-9",
+    "year": 2019,
+    "number": 9,
+    "primary": "c01",
+    "related": []
+  },
+  {
+    "id": "2019-10",
+    "year": 2019,
+    "number": 10,
+    "primary": "c09",
+    "related": []
+  },
+  {
+    "id": "2019-11",
+    "year": 2019,
+    "number": 11,
+    "primary": "c17",
+    "related": []
+  },
+  {
+    "id": "2019-12",
+    "year": 2019,
+    "number": 12,
+    "primary": "c13",
+    "related": []
+  },
+  {
+    "id": "2019-13",
+    "year": 2019,
+    "number": 13,
+    "primary": "c11",
+    "related": []
+  },
+  {
+    "id": "2019-14",
+    "year": 2019,
+    "number": 14,
+    "primary": "l01",
+    "related": []
+  },
+  {
+    "id": "2019-15",
+    "year": 2019,
+    "number": 15,
+    "primary": "c06",
+    "related": []
+  },
+  {
+    "id": "2019-16",
+    "year": 2019,
+    "number": 16,
+    "primary": "c10",
+    "related": []
+  },
+  {
+    "id": "2019-17",
+    "year": 2019,
+    "number": 17,
+    "primary": "c14",
+    "related": [
+      "c13"
+    ]
+  },
+  {
+    "id": "2019-18",
+    "year": 2019,
+    "number": 18,
+    "primary": "c19",
+    "related": []
+  },
+  {
+    "id": "2019-19",
+    "year": 2019,
+    "number": 19,
+    "primary": "c13",
+    "related": [
+      "c02",
+      "c12"
+    ]
+  },
+  {
+    "id": "2019-20",
+    "year": 2019,
+    "number": 20,
+    "primary": "c17",
+    "related": [
+      "c16"
+    ]
+  },
+  {
+    "id": "2019-21",
+    "year": 2019,
+    "number": 21,
+    "primary": "c05",
+    "related": [
+      "c11"
+    ]
+  },
+  {
+    "id": "2019-22",
+    "year": 2019,
+    "number": 22,
+    "primary": "l03",
+    "related": []
+  },
+  {
+    "id": "2019-23",
+    "year": 2019,
+    "number": 23,
+    "primary": "l05",
+    "related": []
+  },
+  {
+    "id": "2020-1",
+    "year": 2020,
+    "number": 1,
+    "primary": "c01",
+    "related": [
+      "c11"
+    ]
+  },
+  {
+    "id": "2020-2",
+    "year": 2020,
+    "number": 2,
+    "primary": "c03",
+    "related": []
+  },
+  {
+    "id": "2020-3",
+    "year": 2020,
+    "number": 3,
+    "primary": "c11",
+    "related": []
+  },
+  {
+    "id": "2020-4",
+    "year": 2020,
+    "number": 4,
+    "primary": "c08",
+    "related": []
+  },
+  {
+    "id": "2020-5",
+    "year": 2020,
+    "number": 5,
+    "primary": "c16",
+    "related": []
+  },
+  {
+    "id": "2020-6",
+    "year": 2020,
+    "number": 6,
+    "primary": "c05",
+    "related": []
+  },
+  {
+    "id": "2020-7",
+    "year": 2020,
+    "number": 7,
+    "primary": "l04",
+    "related": []
+  },
+  {
+    "id": "2020-8",
+    "year": 2020,
+    "number": 8,
+    "primary": "l05",
+    "related": []
+  },
+  {
+    "id": "2020-9",
+    "year": 2020,
+    "number": 9,
+    "primary": "c04",
+    "related": []
+  },
+  {
+    "id": "2020-10",
+    "year": 2020,
+    "number": 10,
+    "primary": "c19",
+    "related": []
+  },
+  {
+    "id": "2020-11",
+    "year": 2020,
+    "number": 11,
+    "primary": "c16",
+    "related": []
+  },
+  {
+    "id": "2020-12",
+    "year": 2020,
+    "number": 12,
+    "primary": "c13",
+    "related": []
+  },
+  {
+    "id": "2020-13",
+    "year": 2020,
+    "number": 13,
+    "primary": "c15",
+    "related": [
+      "c12"
+    ]
+  },
+  {
+    "id": "2020-14",
+    "year": 2020,
+    "number": 14,
+    "primary": "l01",
+    "related": []
+  },
+  {
+    "id": "2020-15",
+    "year": 2020,
+    "number": 15,
+    "primary": "c09",
+    "related": [
+      "c01"
+    ]
+  },
+  {
+    "id": "2020-16",
+    "year": 2020,
+    "number": 16,
+    "primary": "c11",
+    "related": [
+      "c04",
+      "c03"
+    ]
+  },
+  {
+    "id": "2020-17",
+    "year": 2020,
+    "number": 17,
+    "primary": "c18",
+    "related": []
+  },
+  {
+    "id": "2020-18",
+    "year": 2020,
+    "number": 18,
+    "primary": "c13",
+    "related": [
+      "c01"
+    ]
+  },
+  {
+    "id": "2020-19",
+    "year": 2020,
+    "number": 19,
+    "primary": "c19",
+    "related": []
+  },
+  {
+    "id": "2020-20",
+    "year": 2020,
+    "number": 20,
+    "primary": "c05",
+    "related": [
+      "c11"
+    ]
+  },
+  {
+    "id": "2020-21",
+    "year": 2020,
+    "number": 21,
+    "primary": "c14",
+    "related": [
+      "c13",
+      "c09"
+    ]
+  },
+  {
+    "id": "2020-22",
+    "year": 2020,
+    "number": 22,
+    "primary": "l06",
+    "related": [
+      "l05"
+    ]
+  },
+  {
+    "id": "2020-23",
+    "year": 2020,
+    "number": 23,
+    "primary": "l05",
+    "related": [
+      "l02"
+    ]
+  },
+  {
+    "id": "2021-1",
+    "year": 2021,
+    "number": 1,
+    "primary": "c01",
+    "related": [
+      "c11",
+      "c08"
+    ]
+  },
+  {
+    "id": "2021-2",
+    "year": 2021,
+    "number": 2,
+    "primary": "c04",
+    "related": [
+      "c03",
+      "c06"
+    ]
+  },
+  {
+    "id": "2021-3",
+    "year": 2021,
+    "number": 3,
+    "primary": "c04",
+    "related": []
+  },
+  {
+    "id": "2021-4",
+    "year": 2021,
+    "number": 4,
+    "primary": "c06",
+    "related": []
+  },
+  {
+    "id": "2021-5",
+    "year": 2021,
+    "number": 5,
+    "primary": "c08",
+    "related": []
+  },
+  {
+    "id": "2021-6",
+    "year": 2021,
+    "number": 6,
+    "primary": "c17",
+    "related": [
+      "c16"
+    ]
+  },
+  {
+    "id": "2021-7",
+    "year": 2021,
+    "number": 7,
+    "primary": "c11",
+    "related": [
+      "c02"
+    ]
+  },
+  {
+    "id": "2021-8",
+    "year": 2021,
+    "number": 8,
+    "primary": "l06",
+    "related": []
+  },
+  {
+    "id": "2021-9",
+    "year": 2021,
+    "number": 9,
+    "primary": "l03",
+    "related": [
+      "l04"
+    ]
+  },
+  {
+    "id": "2021-10",
+    "year": 2021,
+    "number": 10,
+    "primary": "l02",
+    "related": []
+  },
+  {
+    "id": "2021-11",
+    "year": 2021,
+    "number": 11,
+    "primary": "c12",
+    "related": []
+  },
+  {
+    "id": "2021-12",
+    "year": 2021,
+    "number": 12,
+    "primary": "c04",
+    "related": []
+  },
+  {
+    "id": "2021-13",
+    "year": 2021,
+    "number": 13,
+    "primary": "c17",
+    "related": []
+  },
+  {
+    "id": "2021-14",
+    "year": 2021,
+    "number": 14,
+    "primary": "c11",
+    "related": [
+      "c19"
+    ]
+  },
+  {
+    "id": "2021-15",
+    "year": 2021,
+    "number": 15,
+    "primary": "c15",
+    "related": []
+  },
+  {
+    "id": "2021-16",
+    "year": 2021,
+    "number": 16,
+    "primary": "l01",
+    "related": []
+  },
+  {
+    "id": "2021-17",
+    "year": 2021,
+    "number": 17,
+    "primary": "c01",
+    "related": [
+      "c08",
+      "c11"
+    ]
+  },
+  {
+    "id": "2021-18",
+    "year": 2021,
+    "number": 18,
+    "primary": "c07",
+    "related": [
+      "c09"
+    ]
+  },
+  {
+    "id": "2021-19",
+    "year": 2021,
+    "number": 19,
+    "primary": "c13",
+    "related": [
+      "c10"
+    ]
+  },
+  {
+    "id": "2021-20",
+    "year": 2021,
+    "number": 20,
+    "primary": "c14",
+    "related": [
+      "c09",
+      "c06"
+    ]
+  },
+  {
+    "id": "2021-21",
+    "year": 2021,
+    "number": 21,
+    "primary": "c19",
+    "related": []
+  },
+  {
+    "id": "2021-22",
+    "year": 2021,
+    "number": 22,
+    "primary": "l05",
+    "related": []
+  },
+  {
+    "id": "2022-1",
+    "year": 2022,
+    "number": 1,
+    "primary": "c01",
+    "related": []
+  },
+  {
+    "id": "2022-2",
+    "year": 2022,
+    "number": 2,
+    "primary": "c19",
+    "related": []
+  },
+  {
+    "id": "2022-3",
+    "year": 2022,
+    "number": 3,
+    "primary": "c06",
+    "related": [
+      "c04",
+      "c07"
+    ],
+    "classification_note": "核心是导数条件与局部单调性、凹凸性的逻辑关系。"
+  },
+  {
+    "id": "2022-4",
+    "year": 2022,
+    "number": 4,
+    "primary": "c17",
+    "related": [
+      "c11"
+    ]
+  },
+  {
+    "id": "2022-5",
+    "year": 2022,
+    "number": 5,
+    "primary": "c12",
+    "related": []
+  },
+  {
+    "id": "2022-6",
+    "year": 2022,
+    "number": 6,
+    "primary": "c02",
+    "related": [
+      "c01"
+    ]
+  },
+  {
+    "id": "2022-7",
+    "year": 2022,
+    "number": 7,
+    "primary": "c11",
+    "related": []
+  },
+  {
+    "id": "2022-8",
+    "year": 2022,
+    "number": 8,
+    "primary": "l05",
+    "related": [
+      "l02"
+    ]
+  },
+  {
+    "id": "2022-9",
+    "year": 2022,
+    "number": 9,
+    "primary": "l04",
+    "related": []
+  },
+  {
+    "id": "2022-10",
+    "year": 2022,
+    "number": 10,
+    "primary": "l03",
+    "related": []
+  },
+  {
+    "id": "2022-11",
+    "year": 2022,
+    "number": 11,
+    "primary": "c01",
+    "related": []
+  },
+  {
+    "id": "2022-12",
+    "year": 2022,
+    "number": 12,
+    "primary": "c04",
+    "related": []
+  },
+  {
+    "id": "2022-13",
+    "year": 2022,
+    "number": 13,
+    "primary": "c11",
+    "related": []
+  },
+  {
+    "id": "2022-14",
+    "year": 2022,
+    "number": 14,
+    "primary": "c15",
+    "related": []
+  },
+  {
+    "id": "2022-15",
+    "year": 2022,
+    "number": 15,
+    "primary": "c13",
+    "related": []
+  },
+  {
+    "id": "2022-16",
+    "year": 2022,
+    "number": 16,
+    "primary": "l02",
+    "related": []
+  },
+  {
+    "id": "2022-17",
+    "year": 2022,
+    "number": 17,
+    "primary": "c04",
+    "related": [
+      "c01"
+    ]
+  },
+  {
+    "id": "2022-18",
+    "year": 2022,
+    "number": 18,
+    "primary": "c14",
+    "related": [
+      "c13"
+    ]
+  },
+  {
+    "id": "2022-19",
+    "year": 2022,
+    "number": 19,
+    "primary": "c19",
+    "related": []
+  },
+  {
+    "id": "2022-20",
+    "year": 2022,
+    "number": 20,
+    "primary": "c18",
+    "related": [
+      "c17",
+      "c16"
+    ]
+  },
+  {
+    "id": "2022-21",
+    "year": 2022,
+    "number": 21,
+    "primary": "c07",
+    "related": [
+      "c05",
+      "c11"
+    ]
+  },
+  {
+    "id": "2022-22",
+    "year": 2022,
+    "number": 22,
+    "primary": "l06",
+    "related": [
+      "l05"
+    ]
+  },
+  {
+    "id": "2023-1",
+    "year": 2023,
+    "number": 1,
+    "primary": "c09",
+    "related": []
+  },
+  {
+    "id": "2023-2",
+    "year": 2023,
+    "number": 2,
+    "primary": "c10",
+    "related": []
+  },
+  {
+    "id": "2023-3",
+    "year": 2023,
+    "number": 3,
+    "primary": "c02",
+    "related": [
+      "c01"
+    ]
+  },
+  {
+    "id": "2023-4",
+    "year": 2023,
+    "number": 4,
+    "primary": "c15",
+    "related": []
+  },
+  {
+    "id": "2023-5",
+    "year": 2023,
+    "number": 5,
+    "primary": "c04",
+    "related": []
+  },
+  {
+    "id": "2023-6",
+    "year": 2023,
+    "number": 6,
+    "primary": "c12",
+    "related": [
+      "c06"
+    ]
+  },
+  {
+    "id": "2023-7",
+    "year": 2023,
+    "number": 7,
+    "primary": "c06",
+    "related": [
+      "c07"
+    ]
+  },
+  {
+    "id": "2023-8",
+    "year": 2023,
+    "number": 8,
+    "primary": "l02",
+    "related": []
+  },
+  {
+    "id": "2023-9",
+    "year": 2023,
+    "number": 9,
+    "primary": "l06",
+    "related": []
+  },
+  {
+    "id": "2023-10",
+    "year": 2023,
+    "number": 10,
+    "primary": "l03",
+    "related": []
+  },
+  {
+    "id": "2023-11",
+    "year": 2023,
+    "number": 11,
+    "primary": "c01",
+    "related": [
+      "c08"
+    ]
+  },
+  {
+    "id": "2023-12",
+    "year": 2023,
+    "number": 12,
+    "primary": "c13",
+    "related": [
+      "c11"
+    ]
+  },
+  {
+    "id": "2023-13",
+    "year": 2023,
+    "number": 13,
+    "primary": "c17",
+    "related": []
+  },
+  {
+    "id": "2023-14",
+    "year": 2023,
+    "number": 14,
+    "primary": "c09",
+    "related": [
+      "c04"
+    ]
+  },
+  {
+    "id": "2023-15",
+    "year": 2023,
+    "number": 15,
+    "primary": "c11",
+    "related": []
+  },
+  {
+    "id": "2023-16",
+    "year": 2023,
+    "number": 16,
+    "primary": "l01",
+    "related": [
+      "l04"
+    ]
+  },
+  {
+    "id": "2023-17",
+    "year": 2023,
+    "number": 17,
+    "primary": "c14",
+    "related": [
+      "c06",
+      "c09"
+    ]
+  },
+  {
+    "id": "2023-18",
+    "year": 2023,
+    "number": 18,
+    "primary": "c18",
+    "related": []
+  },
+  {
+    "id": "2023-19",
+    "year": 2023,
+    "number": 19,
+    "primary": "c13",
+    "related": [
+      "c12"
+    ]
+  },
+  {
+    "id": "2023-20",
+    "year": 2023,
+    "number": 20,
+    "primary": "c19",
+    "related": []
+  },
+  {
+    "id": "2023-21",
+    "year": 2023,
+    "number": 21,
+    "primary": "c05",
+    "related": [
+      "c08"
+    ]
+  },
+  {
+    "id": "2023-22",
+    "year": 2023,
+    "number": 22,
+    "primary": "l05",
+    "related": [
+      "l02"
+    ]
+  },
+  {
+    "id": "2024-1",
+    "year": 2024,
+    "number": 1,
+    "primary": "c03",
+    "related": []
+  },
+  {
+    "id": "2024-2",
+    "year": 2024,
+    "number": 2,
+    "primary": "c04",
+    "related": [
+      "c01"
+    ]
+  },
+  {
+    "id": "2024-3",
+    "year": 2024,
+    "number": 3,
+    "primary": "c11",
+    "related": [
+      "c01"
+    ]
+  },
+  {
+    "id": "2024-4",
+    "year": 2024,
+    "number": 4,
+    "primary": "c02",
+    "related": []
+  },
+  {
+    "id": "2024-5",
+    "year": 2024,
+    "number": 5,
+    "primary": "c16",
+    "related": []
+  },
+  {
+    "id": "2024-6",
+    "year": 2024,
+    "number": 6,
+    "primary": "c19",
+    "related": []
+  },
+  {
+    "id": "2024-7",
+    "year": 2024,
+    "number": 7,
+    "primary": "c12",
+    "related": []
+  },
+  {
+    "id": "2024-8",
+    "year": 2024,
+    "number": 8,
+    "primary": "l02",
+    "related": [
+      "l05"
+    ]
+  },
+  {
+    "id": "2024-9",
+    "year": 2024,
+    "number": 9,
+    "primary": "l03",
+    "related": []
+  },
+  {
+    "id": "2024-10",
+    "year": 2024,
+    "number": 10,
+    "primary": "l05",
+    "related": []
+  },
+  {
+    "id": "2024-11",
+    "year": 2024,
+    "number": 11,
+    "primary": "c09",
+    "related": []
+  },
+  {
+    "id": "2024-12",
+    "year": 2024,
+    "number": 12,
+    "primary": "c18",
+    "related": []
+  },
+  {
+    "id": "2024-13",
+    "year": 2024,
+    "number": 13,
+    "primary": "c14",
+    "related": [
+      "c17"
+    ]
+  },
+  {
+    "id": "2024-14",
+    "year": 2024,
+    "number": 14,
+    "primary": "c08",
+    "related": []
+  },
+  {
+    "id": "2024-15",
+    "year": 2024,
+    "number": 15,
+    "primary": "c13",
+    "related": []
+  },
+  {
+    "id": "2024-16",
+    "year": 2024,
+    "number": 16,
+    "primary": "l03",
+    "related": []
+  },
+  {
+    "id": "2024-17",
+    "year": 2024,
+    "number": 17,
+    "primary": "c19",
+    "related": []
+  },
+  {
+    "id": "2024-18",
+    "year": 2024,
+    "number": 18,
+    "primary": "c15",
+    "related": [
+      "c11"
+    ]
+  },
+  {
+    "id": "2024-19",
+    "year": 2024,
+    "number": 19,
+    "primary": "c13",
+    "related": [
+      "c06"
+    ]
+  },
+  {
+    "id": "2024-20",
+    "year": 2024,
+    "number": 20,
+    "primary": "c17",
+    "related": [
+      "c16"
+    ]
+  },
+  {
+    "id": "2024-21",
+    "year": 2024,
+    "number": 21,
+    "primary": "c05",
+    "related": [
+      "c11",
+      "c08"
+    ]
+  },
+  {
+    "id": "2024-22",
+    "year": 2024,
+    "number": 22,
+    "primary": "l06",
+    "related": [
+      "l04",
+      "l05"
+    ],
+    "classification_note": "同一大题先用解空间确定参数，再将二次型正交化，整题主归二次型。"
+  },
+  {
+    "id": "2025-1",
+    "year": 2025,
+    "number": 1,
+    "primary": "c17",
+    "related": [
+      "c11"
+    ]
+  },
+  {
+    "id": "2025-2",
+    "year": 2025,
+    "number": 2,
+    "primary": "c06",
+    "related": [
+      "c07",
+      "c11"
+    ]
+  },
+  {
+    "id": "2025-3",
+    "year": 2025,
+    "number": 3,
+    "primary": "c15",
+    "related": [
+      "c12"
+    ]
+  },
+  {
+    "id": "2025-4",
+    "year": 2025,
+    "number": 4,
+    "primary": "c01",
+    "related": []
+  },
+  {
+    "id": "2025-5",
+    "year": 2025,
+    "number": 5,
+    "primary": "c19",
+    "related": []
+  },
+  {
+    "id": "2025-6",
+    "year": 2025,
+    "number": 6,
+    "primary": "c13",
+    "related": []
+  },
+  {
+    "id": "2025-7",
+    "year": 2025,
+    "number": 7,
+    "primary": "c04",
+    "related": []
+  },
+  {
+    "id": "2025-8",
+    "year": 2025,
+    "number": 8,
+    "primary": "l05",
+    "related": [
+      "l06",
+      "l01"
+    ]
+  },
+  {
+    "id": "2025-9",
+    "year": 2025,
+    "number": 9,
+    "primary": "l02",
+    "related": []
+  },
+  {
+    "id": "2025-10",
+    "year": 2025,
+    "number": 10,
+    "primary": "l03",
+    "related": [
+      "l04"
+    ]
+  },
+  {
+    "id": "2025-11",
+    "year": 2025,
+    "number": 11,
+    "primary": "c12",
+    "related": []
+  },
+  {
+    "id": "2025-12",
+    "year": 2025,
+    "number": 12,
+    "primary": "c09",
+    "related": []
+  },
+  {
+    "id": "2025-13",
+    "year": 2025,
+    "number": 13,
+    "primary": "c02",
+    "related": [
+      "c11"
+    ]
+  },
+  {
+    "id": "2025-14",
+    "year": 2025,
+    "number": 14,
+    "primary": "c04",
+    "related": [
+      "c11"
+    ]
+  },
+  {
+    "id": "2025-15",
+    "year": 2025,
+    "number": 15,
+    "primary": "c14",
+    "related": []
+  },
+  {
+    "id": "2025-16",
+    "year": 2025,
+    "number": 16,
+    "primary": "l04",
+    "related": []
+  },
+  {
+    "id": "2025-17",
+    "year": 2025,
+    "number": 17,
+    "primary": "c11",
+    "related": []
+  },
+  {
+    "id": "2025-18",
+    "year": 2025,
+    "number": 18,
+    "primary": "c04",
+    "related": [
+      "c01",
+      "c08"
+    ]
+  },
+  {
+    "id": "2025-19",
+    "year": 2025,
+    "number": 19,
+    "primary": "c18",
+    "related": [
+      "c16"
+    ]
+  },
+  {
+    "id": "2025-20",
+    "year": 2025,
+    "number": 20,
+    "primary": "c19",
+    "related": []
+  },
+  {
+    "id": "2025-21",
+    "year": 2025,
+    "number": 21,
+    "primary": "c07",
+    "related": [
+      "c05"
+    ]
+  },
+  {
+    "id": "2025-22",
+    "year": 2025,
+    "number": 22,
+    "primary": "l06",
+    "related": [
+      "l05"
+    ],
+    "classification_note": "合同与正交相似混合考查，完整收在二次型，保留特征值相似关联。"
+  },
+  {
+    "id": "2026-1",
+    "year": 2026,
+    "number": 1,
+    "primary": "c01",
+    "related": []
+  },
+  {
+    "id": "2026-2",
+    "year": 2026,
+    "number": 2,
+    "primary": "c15",
+    "related": []
+  },
+  {
+    "id": "2026-3",
+    "year": 2026,
+    "number": 3,
+    "primary": "c17",
+    "related": []
+  },
+  {
+    "id": "2026-4",
+    "year": 2026,
+    "number": 4,
+    "primary": "c13",
+    "related": [
+      "c11"
+    ]
+  },
+  {
+    "id": "2026-5",
+    "year": 2026,
+    "number": 5,
+    "primary": "c06",
+    "related": [
+      "c07"
+    ]
+  },
+  {
+    "id": "2026-6",
+    "year": 2026,
+    "number": 6,
+    "primary": "c04",
+    "related": [
+      "c11"
+    ]
+  },
+  {
+    "id": "2026-7",
+    "year": 2026,
+    "number": 7,
+    "primary": "c19",
+    "related": []
+  },
+  {
+    "id": "2026-8",
+    "year": 2026,
+    "number": 8,
+    "primary": "l02",
+    "related": [
+      "l01"
+    ]
+  },
+  {
+    "id": "2026-9",
+    "year": 2026,
+    "number": 9,
+    "primary": "l04",
+    "related": [
+      "l03"
+    ]
+  },
+  {
+    "id": "2026-10",
+    "year": 2026,
+    "number": 10,
+    "primary": "l05",
+    "related": [
+      "l02",
+      "l03"
+    ],
+    "classification_note": "选项考查矩阵关系导出的特征值、特征向量与秩性质，主归特征值。"
+  },
+  {
+    "id": "2026-11",
+    "year": 2026,
+    "number": 11,
+    "primary": "c12",
+    "related": []
+  },
+  {
+    "id": "2026-12",
+    "year": 2026,
+    "number": 12,
+    "primary": "c01",
+    "related": []
+  },
+  {
+    "id": "2026-13",
+    "year": 2026,
+    "number": 13,
+    "primary": "c09",
+    "related": []
+  },
+  {
+    "id": "2026-14",
+    "year": 2026,
+    "number": 14,
+    "primary": "c17",
+    "related": [
+      "c16"
+    ]
+  },
+  {
+    "id": "2026-15",
+    "year": 2026,
+    "number": 15,
+    "primary": "c11",
+    "related": []
+  },
+  {
+    "id": "2026-16",
+    "year": 2026,
+    "number": 16,
+    "primary": "l06",
+    "related": [
+      "l03"
+    ]
+  },
+  {
+    "id": "2026-17",
+    "year": 2026,
+    "number": 17,
+    "primary": "c19",
+    "related": []
+  },
+  {
+    "id": "2026-18",
+    "year": 2026,
+    "number": 18,
+    "primary": "c11",
+    "related": [
+      "c04",
+      "c03"
+    ]
+  },
+  {
+    "id": "2026-19",
+    "year": 2026,
+    "number": 19,
+    "primary": "c18",
+    "related": []
+  },
+  {
+    "id": "2026-20",
+    "year": 2026,
+    "number": 20,
+    "primary": "c13",
+    "related": [
+      "c07",
+      "c12"
+    ]
+  },
+  {
+    "id": "2026-21",
+    "year": 2026,
+    "number": 21,
+    "primary": "c15",
+    "related": [
+      "c14"
+    ]
+  },
+  {
+    "id": "2026-22",
+    "year": 2026,
+    "number": 22,
+    "primary": "l03",
+    "related": [
+      "l02"
+    ],
+    "classification_note": "极大无关组与秩分解是主线，矩阵幂作为交叉考点。"
+  }
+]

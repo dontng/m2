@@ -1,0 +1,177 @@
+[
+  {
+    "id": "l01",
+    "group": "linear-algebra",
+    "slug": "01-determinants",
+    "title": "行列式",
+    "scope": "行列式计算、性质、代数余子式及伴随矩阵行列式"
+  },
+  {
+    "id": "l02",
+    "group": "linear-algebra",
+    "slug": "02-matrices",
+    "title": "矩阵运算、逆矩阵与初等变换",
+    "scope": "矩阵运算与方程、初等矩阵、等价变换、伴随矩阵及矩阵幂"
+  },
+  {
+    "id": "l03",
+    "group": "linear-algebra",
+    "slug": "03-vectors-rank",
+    "title": "向量组、线性相关与秩",
+    "scope": "线性表示、向量组等价、极大无关组、矩阵秩与秩分解"
+  },
+  {
+    "id": "l04",
+    "group": "linear-algebra",
+    "slug": "04-linear-systems",
+    "title": "线性方程组",
+    "scope": "解的存在性、基础解系、通解及矩阵方程的可解性"
+  },
+  {
+    "id": "l05",
+    "group": "linear-algebra",
+    "slug": "05-eigenvalues-similarity",
+    "title": "特征值、特征向量与相似",
+    "scope": "特征值和特征向量、相似关系、对角化及其矩阵幂应用"
+  },
+  {
+    "id": "l06",
+    "group": "linear-algebra",
+    "slug": "06-quadratic-forms",
+    "title": "二次型",
+    "scope": "标准形与规范形、惯性指数、合同与正交变换"
+  },
+  {
+    "id": "c01",
+    "group": "calculus",
+    "slug": "01-limits",
+    "title": "函数极限与无穷小",
+    "scope": "等价无穷小、阶的比较、函数极限及含参数极限"
+  },
+  {
+    "id": "c02",
+    "group": "calculus",
+    "slug": "02-sequences",
+    "title": "数列极限与求和极限",
+    "scope": "数列收敛、递推、夹逼与单调有界、和式极限"
+  },
+  {
+    "id": "c03",
+    "group": "calculus",
+    "slug": "03-continuity",
+    "title": "连续与间断点",
+    "scope": "连续条件、分段函数连续性、间断点类型"
+  },
+  {
+    "id": "c04",
+    "group": "calculus",
+    "slug": "04-derivatives",
+    "title": "导数、微分与求导法则",
+    "scope": "导数定义、可导条件、参数方程、反函数与一元隐函数求导、变化率"
+  },
+  {
+    "id": "c05",
+    "group": "calculus",
+    "slug": "05-mean-value-proofs",
+    "title": "中值定理、零点与不等式证明",
+    "scope": "罗尔与拉格朗日等中值定理、构造辅助函数、存在性与不等式证明"
+  },
+  {
+    "id": "c06",
+    "group": "calculus",
+    "slug": "06-monotonicity-extrema",
+    "title": "单调性、极值与零点个数",
+    "scope": "一元函数单调性、极值、最值与零点个数"
+  },
+  {
+    "id": "c07",
+    "group": "calculus",
+    "slug": "07-convexity",
+    "title": "凹凸性与拐点",
+    "scope": "凹凸判定、拐点、弦切线关系及凸性等价条件"
+  },
+  {
+    "id": "c08",
+    "group": "calculus",
+    "slug": "08-taylor",
+    "title": "泰勒公式与高阶导数",
+    "scope": "泰勒展开、多项式系数、高阶导数与佩亚诺余项"
+  },
+  {
+    "id": "c09",
+    "group": "calculus",
+    "slug": "09-curve-geometry",
+    "title": "切线、法线、渐近线与曲率",
+    "scope": "曲线局部几何、切法线、各类渐近线、曲率与曲率圆"
+  },
+  {
+    "id": "c10",
+    "group": "calculus",
+    "slug": "10-antiderivatives",
+    "title": "不定积分与原函数",
+    "scope": "原函数判定、不定积分计算、分部与换元积分"
+  },
+  {
+    "id": "c11",
+    "group": "calculus",
+    "slug": "11-definite-integrals",
+    "title": "定积分、变上限积分与积分性质",
+    "scope": "定积分计算、变上限求导、积分比较、平均值及积分定义"
+  },
+  {
+    "id": "c12",
+    "group": "calculus",
+    "slug": "12-improper-integrals",
+    "title": "反常积分",
+    "scope": "无穷区间与瑕积分的计算、收敛判别与参数范围"
+  },
+  {
+    "id": "c13",
+    "group": "calculus",
+    "slug": "13-integral-applications",
+    "title": "定积分应用",
+    "scope": "面积、体积、弧长、旋转曲面面积、质心及力学应用"
+  },
+  {
+    "id": "c14",
+    "group": "calculus",
+    "slug": "14-first-order-ode",
+    "title": "一阶微分方程",
+    "scope": "可分离变量、线性及变量代换、初值问题与几何物理建模"
+  },
+  {
+    "id": "c15",
+    "group": "calculus",
+    "slug": "15-higher-order-ode",
+    "title": "高阶微分方程",
+    "scope": "常系数、欧拉方程、解的结构、特解形式与降阶"
+  },
+  {
+    "id": "c16",
+    "group": "calculus",
+    "slug": "16-multivariable-basics",
+    "title": "多元函数极限、偏导与全微分",
+    "scope": "二元极限、连续可微关系、偏导数与全微分的基本性质"
+  },
+  {
+    "id": "c17",
+    "group": "calculus",
+    "slug": "17-chain-implicit",
+    "title": "多元复合函数与隐函数求导",
+    "scope": "链式法则、隐函数求偏导、坐标变换与高阶偏导"
+  },
+  {
+    "id": "c18",
+    "group": "calculus",
+    "slug": "18-multivariable-extrema",
+    "title": "多元函数极值与最值",
+    "scope": "二元函数极值、条件极值及综合最值问题"
+  },
+  {
+    "id": "c19",
+    "group": "calculus",
+    "slug": "19-double-integrals",
+    "title": "二重积分",
+    "scope": "积分区域、换序、对称性、极坐标与二重积分计算"
+  }
+]

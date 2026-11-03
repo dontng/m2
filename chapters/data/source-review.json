@@ -1,0 +1,12 @@
+[
+  {
+    "id": "2013-20",
+    "status": "needs-independent-source-check",
+    "note": "现有年度题面中数列条件写为 ln(x_n)+1/x_n<1，需核对不等号及条件；本次不猜改。"
+  },
+  {
+    "id": "2022-8",
+    "status": "needs-independent-source-check",
+    "note": "现有年度题干给出A的对角矩阵，而选项使用未在题干定义的Λ，需核对字母标记；本次不猜改。"
+  }
+]

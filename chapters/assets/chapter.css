@@ -1,0 +1,52 @@
+@font-face { font-family:ChapterSong; src:url("chapter-song.otf") format("opentype"); font-display:swap; }
+:root {
+  --font-serif:"SimSun","Songti SC","ChapterSong",serif;
+  --font-hei:"SimHei","Heiti SC","ChapterSong",serif;
+}
+/* 仅覆盖章节题单，不改年度试卷样式。 */
+html, body { background:#fff; color:#111; }
+.chapter-paper { max-width:900px; margin:0 auto; padding:32px 40px; box-shadow:none; border:0; }
+.chapter-header { text-align:center; margin-bottom:30px; }
+.chapter-header h1 { font-size:24px; margin:10px 0; line-height:1.5; }
+.chapter-header p { margin:7px 0; }
+.chapter-scope { font-size:14px; }
+.chapter-nav { max-width:900px; margin:auto; padding:14px 40px; display:flex; align-items:center; gap:20px; border-bottom:1px solid #111; }
+.chapter-nav a, .chapter-paper a { color:inherit; text-underline-offset:3px; }
+.chapter-nav button { font:inherit; border:1px solid #111; background:#fff; padding:4px 12px; margin-left:auto; cursor:pointer; }
+.year-heading { font-size:18px; border-bottom:1px solid #111; padding-bottom:7px; margin:30px 0 0; break-after:avoid; }
+.bank-entry { padding:18px 0; border-bottom:1px solid #ccc; break-inside:avoid; }
+.question-origin { display:flex; justify-content:space-between; align-items:baseline; flex-wrap:wrap; gap:7px; margin-bottom:10px; font-size:14px; break-after:avoid; }
+.question-origin strong { font-weight:normal; }
+.question-origin .screen-only { font-size:12px; }
+.bank-entry .question { margin-bottom:0; }
+.bank-entry .answer-space { display:none; }
+.question-related { margin-top:10px; font-size:12px; line-height:1.7; }
+.related-index { margin-top:38px; font-size:14px; }
+.related-index h2 { font-size:18px; }
+.related-index li { margin:7px 0; }
+.chapter-index h2 { font-size:21px; margin-top:35px; }
+.chapter-index ol { padding-left:1.5em; }
+.chapter-index li { padding:12px 0; border-bottom:1px solid #ddd; }
+.chapter-index li > a { font-size:17px; }
+.chapter-index li > span { margin-left:15px; white-space:nowrap; }
+.chapter-index li p { font-size:13px; margin:5px 0 0; }
+.scope-note { font-size:13px; margin-top:35px; }
+@media screen and (max-width:640px) {
+  .chapter-paper { padding:20px 16px; }
+  .chapter-nav { padding:12px 16px; gap:12px; font-size:13px; }
+  .chapter-header h1 { font-size:21px; }
+  .bank-entry { overflow-x:auto; }
+}
+@page { size:A4; margin:15mm 16mm; }
+@media print {
+  .chapter-paper { max-width:none; margin:0; padding:0; }
+  .chapter-header { margin:0 0 5mm; }
+  .chapter-header h1 { font-size:15pt; }
+  .chapter-header p { font-size:9pt; }
+  .year-heading { margin:5mm 0 0; font-size:12pt; }
+  .bank-entry { padding:4mm 0; overflow:visible; }
+  .question-origin { font-size:9.5pt; margin-bottom:2mm; }
+  .question-related { font-size:8pt; }
+  .related-index { break-before:page; }
+}
+.source-review { margin:12px 0 0; padding:8px 10px; border:1px dashed #111; font-size:12px; }
