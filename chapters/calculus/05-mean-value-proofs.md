@@ -10,15 +10,11 @@
 
 ## 2024年
 
-### 2024年 · 第21题 · 解答题
+### 01 · 2024-21 · 解答题
 
-> 开篇硬骨头！当年压轴难题，别慌。第一问分别在 0 和 1 处写带拉格朗日余项的泰勒展开，按权重消掉一阶导；第二问对第一问两边直接取定积分，计算量其实不大。
+> *开篇硬骨头！当年压轴难题，别慌。第一问分别在 0 和 1 处写带拉格朗日余项的泰勒展开，按权重消掉一阶导；第二问对第一问两边直接取定积分，计算量其实不大。*
 
-设函数 $f(x)$ 具有二阶导数，且 $\displaystyle f'(0)=f'(1),\qquad |f''(x)|\le 1.$ 证明：
-
-1. 当 $x\in(0,1)$ 时， $\displaystyle \left|f(x)-f(0)(1-x)-f(1)x\right|\le \frac{x(1-x)}{2};$
-
-2. $\displaystyle \left|\int_0^1 f(x)\,dx-\frac{f(0)+f(1)}{2}\right|\le \frac{1}{12}.$
+<img src="../bank/2024/q21.png" alt="2024-21" style="display: block; width: 48.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
 *关联章节：[定积分、变上限积分与积分性质](11-definite-integrals.md) · [泰勒公式与高阶导数](08-taylor.md)*
 
@@ -26,15 +22,11 @@
 
 ## 2023年
 
-### 2023年 · 第21题 · 解答题
+### 02 · 2023-21 · 解答题
 
-> 又是一道压轴大题。第一问在 0 点左右展开泰勒相加直接出；第二问设极值点为 $x_0$，利用 $f'(x_0)=0$ 分别在 $x_0$ 展开到 $a$ 和 $-a$，做差放缩即可。
+> *又是一道压轴大题。第一问在 0 点左右展开泰勒相加直接出；第二问设极值点为 $x_0$，利用 $f'(x_0)=0$ 分别在 $x_0$ 展开到 $a$ 和 $-a$，做差放缩即可。*
 
-设函数 $f(x)$ 在 $[-a,a]$ 上具有二阶连续导数。证明：
-
-1. 若 $f(0)=0$ ，则存在 $\xi\in(-a,a)$ ，使得 $\displaystyle f''(\xi)=\frac{f(a)+f(-a)}{a^2};$
-
-2. 若 $f(x)$ 在 $(-a,a)$ 内取得极值，则存在 $\eta\in(-a,a)$ ，使得 $\displaystyle |f''(\eta)|\ge \frac{|f(a)-f(-a)|}{2a^2}.$
+<img src="../bank/2023/q21.png" alt="2023-21" style="display: block; width: 48.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
 *关联章节：[泰勒公式与高阶导数](08-taylor.md)*
 
@@ -42,27 +34,19 @@
 
 ## 2020年
 
-### 2020年 · 第6题 · 选择题
+### 03 · 2020-06 · 选择题
 
-> 导数不等式选择题。看到 $f'(x) > f(x) > 0$，立马联想构造辅助函数 $g(x) = e^{-x}f(x)$，求导发现 $g'(x) > 0$ 单调递增，比大小直接秒。
+> *导数不等式选择题。看到 $f'(x) > f(x) > 0$，立马联想构造辅助函数 $g(x) = e^{-x}f(x)$，求导发现 $g'(x) > 0$ 单调递增，比大小直接秒。*
 
-(6) 设函数 $f\left( x \right)$ 在区间 $\left[ -2,2 \right]$ 上可导，且 $f^{\prime}\left( x \right) > f\left( x \right) > 0$ ，则
-
-(A) $\dfrac{f\left( -2 \right)}{f\left( -1 \right)} > 1$　　(B) $\dfrac{f\left( 0 \right)}{f\left( -1 \right)} > e$
-
-(C) $\dfrac{f\left( 1 \right)}{f\left( -1 \right)} < e^{2}$　　(D) $\dfrac{f\left( 2 \right)}{f\left( -1 \right)} < e^{3}$
+<img src="../bank/2020/q06.png" alt="2020-06" style="display: block; width: 35.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
 ---
 
-### 2020年 · 第20题 · 解答题
+### 04 · 2020-20 · 解答题
 
-> 两问都是经典中值设问。第一问移项构造辅助函数 $g(x)=(x-2)f(x)$ 用罗尔定理；第二问变限积分除以 $\ln 2$ 用柯西中值定理，比硬算轻松得多。
+> *两问都是经典中值设问。第一问移项构造辅助函数 $g(x)=(x-2)f(x)$ 用罗尔定理；第二问变限积分除以 $\ln 2$ 用柯西中值定理，比硬算轻松得多。*
 
-设函数 $f\left( x \right)=\int_{1}^{x}{e^{t^{2}} \mathrm{~d} t}$ 。
-
-1. 证明：存在 $\xi \in \left( 1,2 \right)$ ，使得 $f\left( \xi \right)=\left( 2-\xi \right)e^{\xi^{2}}$ ；
-
-2. 证明：存在 $\eta \in \left( 1,2 \right)$ ，使得 $f\left( 2 \right)=\ln 2 \cdot \eta e^{\eta^{2}}$ 。
+<img src="../bank/2020/q20.png" alt="2020-20" style="display: block; width: 48.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
 *关联章节：[定积分、变上限积分与积分性质](11-definite-integrals.md)*
 
@@ -70,15 +54,11 @@
 
 ## 2019年
 
-### 2019年 · 第21题 · 解答题
+### 05 · 2019-21 · 解答题
 
-> 典型积分中值证明。第一问由积分值与端点值用连续函数介值或积分中值定理找零点；第二问用二阶泰勒展开，代入积分条件反推矛盾法或拉格朗日。
+> *典型积分中值证明。第一问由积分值与端点值用连续函数介值或积分中值定理找零点；第二问用二阶泰勒展开，代入积分条件反推矛盾法或拉格朗日。*
 
-已知函数 $f(x)$ 在 $[0,1]$ 上具有二阶导数，且 $\displaystyle f(0)=0,\qquad f(1)=1,\qquad \int_0^1f(x)\,\mathrm{d}x=1.$ 证明：
-
-（1）存在 $\xi\in(0,1)$ ，使得 $f'(\xi)=0$ ；
-
-（2）存在 $\eta\in(0,1)$ ，使得 $f''(\eta)<-2$ 。
+<img src="../bank/2019/q21.png" alt="2019-21" style="display: block; width: 47.61em; max-width: 100%; height: auto; margin: 12px 0;">
 
 *关联章节：[定积分、变上限积分与积分性质](11-definite-integrals.md)*
 
@@ -86,35 +66,31 @@
 
 ## 2018年
 
-### 2018年 · 第18题 · 解答题
+### 06 · 2018-18 · 解答题
 
-> 高难度不等式证明。令 $f(x)=x-\ln^2 x+2k\ln x-1$，求导发现导函数还能再求一次导。用二阶导的零点卡出一阶导单调性，分段讨论即可。
+> *高难度不等式证明。令 $f(x)=x-\ln^2 x+2k\ln x-1$，求导发现导函数还能再求一次导。用二阶导的零点卡出一阶导单调性，分段讨论即可。*
 
-已知常数 $k\geq \ln2-1$ 。证明： $\displaystyle (x-1)(x-\ln^2x+2k\ln x-1)\geq 0,\qquad x>0.$
+<img src="../bank/2018/q18.png" alt="2018-18" style="display: block; width: 39.79em; max-width: 100%; height: auto; margin: 12px 0;">
 
 ---
 
 ## 2017年
 
-### 2017年 · 第19题 · 解答题
+### 07 · 2017-19 · 解答题
 
-> 方程根的存在性大题。第一问用极限保号性判断 0 附近符号，与 $f(1)>0$ 夹出介值定理零点；第二问识别出左边是 $(f(x)f'(x))'$，罗尔定理层层下递。
+> *方程根的存在性大题。第一问用极限保号性判断 0 附近符号，与 $f(1)>0$ 夹出介值定理零点；第二问识别出左边是 $(f(x)f'(x))'$，罗尔定理层层下递。*
 
-设函数 $f(x)$ 在区间 $[0,1]$ 上具有二阶导数，且 $\displaystyle f(1)>0,\qquad \lim\limits_{x\to0^+}\frac{f(x)}{x}<0.$ 证明：
-
-（1）方程 $f(x)=0$ 在区间 $(0,1)$ 内至少存在一个实根；
-
-（2）方程 $\displaystyle f(x)f''(x)+\left(f'(x)\right)^2=0$ 在区间 $(0,1)$ 内至少存在两个不同实根。
+<img src="../bank/2017/q19.png" alt="2017-19" style="display: block; width: 41.79em; max-width: 100%; height: auto; margin: 12px 0;">
 
 ---
 
 ## 2015年
 
-### 2015年 · 第21题 · 解答题
+### 08 · 2015-21 · 解答题
 
-> 几何切线不等式证明。由二阶导大于 0 可知曲线是凹的（割线在上方，切线在下方）。写出切线方程求截距 $x_0$，用拉格朗日直接证 $a < x_0 < b$。
+> *几何切线不等式证明。由二阶导大于 0 可知曲线是凹的（割线在上方，切线在下方）。写出切线方程求截距 $x_0$，用拉格朗日直接证 $a < x_0 < b$。*
 
-已知函数 $f\left(x\right)$ 在区间 $\left[a,+\infty\right)$ 上具有 $2$ 阶导数， $f\left(a\right)=0$ ， $f^{\prime}\left(x\right)>0$ ， $f^{\prime\prime}\left(x\right)>0$ 。设 $b>a$ ，曲线 $y=f\left(x\right)$ 在点 $\left(b,f\left(b\right)\right)$ 处的切线与 $x$ 轴的交点是 $\left(x_{0},0\right)$ ，证明 $a<x_{0}<b$ 。
+<img src="../bank/2015/q21.png" alt="2015-21" style="display: block; width: 48.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
 *关联章节：[凹凸性与拐点](07-convexity.md) · [切线、法线、渐近线与曲率](09-curve-geometry.md)*
 
@@ -122,37 +98,31 @@
 
 ## 2013年
 
-### 2013年 · 第18题 · 解答题
+### 09 · 2013-18 · 解答题
 
-> 奇函数导数证明。奇函数二阶导依然有对称性，先由奇函数 $f(0)=0$ 结合 $f(1)=1$ 用罗尔得第一问；第二问构造辅助函数 $e^x(f'(x)-1)$ 再次罗尔。
+> *奇函数导数证明。奇函数二阶导依然有对称性，先由奇函数 $f(0)=0$ 结合 $f(1)=1$ 用罗尔得第一问；第二问构造辅助函数 $e^x(f'(x)-1)$ 再次罗尔。*
 
-设奇函数 $f\left(x\right)$ 在 $\left[-1,1\right]$ 上具有二阶导数，且 $f\left(1\right)=1$ 。证明：
-
-（I）存在 $\xi\in\left(0,1\right)$ ，使得 $f^{\prime}\left(\xi\right)=1$ ；
-
-（II）存在 $\eta\in\left(0,1\right)$ ，使得 $f^{\prime\prime}\left(\eta\right)+f^{\prime}\left(\eta\right)=1$ 。
+<img src="../bank/2013/q18.png" alt="2013-18" style="display: block; width: 32.93em; max-width: 100%; height: auto; margin: 12px 0;">
 
 ---
 
 ## 2012年
 
-### 2012年 · 第20题 · 解答题
+### 10 · 2012-20 · 解答题
 
-> 对数不等式证明。看到对称区间 $(-1,1)$，先移项构辅助函数并求导，导数若还看不出正负就求二阶导，二阶导通分后分子因式分解立现正负。
+> *对数不等式证明。看到对称区间 $(-1,1)$，先移项构辅助函数并求导，导数若还看不出正负就求二阶导，二阶导通分后分子因式分解立现正负。*
 
-证明：
-
-$x\ln\frac{1+x}{1-x}+\cos x\geq 1+\frac{x^{2}}{2},\quad -1<x<1$ 。
+<img src="../bank/2012/q20.png" alt="2012-20" style="display: block; width: 21.79em; max-width: 100%; height: auto; margin: 12px 0;">
 
 ---
 
 ## 2010年
 
-### 2010年 · 第21题 · 解答题
+### 11 · 2010-21 · 解答题
 
-> 双中值证明经典。区间 $[0,1]$ 被 $1/2$ 劈成两半，在 $[0, 1/2]$ 和 $[1/2, 1]$ 上分别应用拉格朗日中值定理，再相加凑出平方和。
+> *双中值证明经典。区间 $[0,1]$ 被 $1/2$ 劈成两半，在 $[0, 1/2]$ 和 $[1/2, 1]$ 上分别应用拉格朗日中值定理，再相加凑出平方和。*
 
-设函数 $f \left(x\right)$ 在闭区间 $\left[0,1\right]$ 上连续，在开区间 $\left(0,1\right)$ 内可导，且 $f \left(0\right) = 0, f \left(1\right) = \frac{1}{3}$ ，证明：存在 $\xi \in \left(0,\frac{1}{2}\right), \eta \in \left(\frac{1}{2},1\right)$ ，使得 $f^{\prime}\left(\xi\right) + f^{\prime}\left(\eta\right) = \xi^{2} + \eta^{2}$ .
+<img src="../bank/2010/q21.png" alt="2010-21" style="display: block; width: 48.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
 ---
 

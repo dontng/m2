@@ -10,45 +10,43 @@
 
 ## 2026年
 
-### 2026年 · 第13题 · 填空题
+### 01 · 2026-13 · 填空题
 
-> 隐函数曲率半径填空。在点 $(0,1)$ 处对隐方程求一阶导得 $y'$，再求二阶导得 $y''$，直接代入曲率半径公式 $R = (1+y'^2)^{3/2}/|y''|$，别算错代数式。
+> *隐函数曲率半径填空。在点 $(0,1)$ 处对隐方程求一阶导得 $y'$，再求二阶导得 $y''$，直接代入曲率半径公式 $R = (1+y'^2)^{3/2}/|y''|$，别算错代数式。*
 
-(13) 曲线 $\displaystyle x^2+2\sqrt3xy+y^2=1$ 在点 $(0,1)$ 处的曲率半径为 ______ .
+<img src="../bank/2026/q13.png" alt="2026-13" style="display: block; width: 37.14em; max-width: 100%; height: auto; margin: 12px 0;">
 
 ---
 
 ## 2025年
 
-### 2025年 · 第12题 · 填空题
+### 02 · 2025-12 · 填空题
 
-> 三次根式斜渐近线。求斜渐近线别死算两步极限，提公因子 $x$ 出来利用泰勒展开 $(1+u)^{1/3} = 1 + u/3 - u^2/9$，直接展开得到 $y = x - 1$。
+> *三次根式斜渐近线。求斜渐近线别死算两步极限，提公因子 $x$ 出来利用泰勒展开 $(1+u)^{1/3} = 1 + u/3 - u^2/9$，直接展开得到 $y = x - 1$。*
 
-(12) 曲线 $y = \sqrt[3]{x^{3} - 3x^{2} + 1}$ 的渐近线方程为 ______ .
+<img src="../bank/2025/q12.png" alt="2025-12" style="display: block; width: 30.46em; max-width: 100%; height: auto; margin: 12px 0;">
 
 ---
 
 ## 2024年
 
-### 2024年 · 第11题 · 填空题
+### 03 · 2024-11 · 填空题
 
-(11) 曲线 $y^2=x$ 在点 $(0,0)$ 处的曲率圆方程为 ______
+<img src="../bank/2024/q11.png" alt="2024-11" style="display: block; width: 30.82em; max-width: 100%; height: auto; margin: 12px 0;">
 
 ---
 
 ## 2023年
 
-### 2023年 · 第1题 · 选择题
+### 04 · 2023-01 · 选择题
 
-(1) 曲线 $\displaystyle y=x\ln\left(e+\frac{1}{x-1}\right)$ 的斜渐近线方程为（ ）。
-
-(A) $y=x+e$　　(B) $y=x+\dfrac{1}{e}$　　(C) $y=x$　　(D) $y=x-\dfrac{1}{e}$
+<img src="../bank/2023/q01.png" alt="2023-01" style="display: block; width: 45.75em; max-width: 100%; height: auto; margin: 12px 0;">
 
 ---
 
-### 2023年 · 第14题 · 填空题
+### 05 · 2023-14 · 填空题
 
-(14) 曲线 $\displaystyle 3x^3=y^5+2y^3$ 在 $x=1$ 对应点处的法线斜率为 $\displaystyle$ ______ .
+<img src="../bank/2023/q14.png" alt="2023-14" style="display: block; width: 36.43em; max-width: 100%; height: auto; margin: 12px 0;">
 
 *关联章节：[导数、微分与求导法则](04-derivatives.md)*
 
@@ -56,11 +54,11 @@
 
 ## 2020年
 
-### 2020年 · 第15题 · 解答题
+### 06 · 2020-15 · 解答题
 
-> 幂指函数斜渐近线大题。先算斜率 $a = \lim y/x$；算截距 $b = \lim (y-ax)$ 时化为 $x[(1+1/x)^{-x}-1]$，利用对数展开式或等价无穷小求极限。
+> *幂指函数斜渐近线大题。先算斜率 $a = \lim y/x$；算截距 $b = \lim (y-ax)$ 时化为 $x[(1+1/x)^{-x}-1]$，利用对数展开式或等价无穷小求极限。*
 
-求曲线 $y = \dfrac{x^{1+x}}{\left( 1+x \right)^{x}} \left( x>0 \right)$ 的斜渐近线方程。
+<img src="../bank/2020/q15.png" alt="2020-15" style="display: block; width: 24.43em; max-width: 100%; height: auto; margin: 12px 0;">
 
 *关联章节：[函数极限与无穷小](01-limits.md)*
 
@@ -68,33 +66,33 @@
 
 ## 2019年
 
-### 2019年 · 第10题 · 填空题
+### 07 · 2019-10 · 填空题
 
-(10) 曲线 $\displaystyle \begin{cases} x=t-\sin t,\\ y=1-\cos t \end{cases}$ 在对应点 $t=\frac{3\pi}{2}$ 处切线在轴上的截距为 ______ .
+<img src="../bank/2019/q10.png" alt="2019-10" style="display: block; width: 39.93em; max-width: 100%; height: auto; margin: 12px 0;">
 
 ---
 
 ## 2018年
 
-### 2018年 · 第10题 · 填空题
+### 08 · 2018-10 · 填空题
 
-(10) 曲线 $\displaystyle y=x^2+2\ln x$ 在其拐点处的切线方程是 ______ .
+<img src="../bank/2018/q10.png" alt="2018-10" style="display: block; width: 32.68em; max-width: 100%; height: auto; margin: 12px 0;">
 
 *关联章节：[凹凸性与拐点](07-convexity.md)*
 
 ---
 
-### 2018年 · 第12题 · 填空题
+### 09 · 2018-12 · 填空题
 
-(12) 曲线 $\displaystyle \begin{cases} x=\cos^3 t,\\ y=\sin^3 t \end{cases}$ 在 $t=\dfrac{\pi}{4}$ 对应点处的曲率为 ______ .
+<img src="../bank/2018/q12.png" alt="2018-12" style="display: block; width: 33.43em; max-width: 100%; height: auto; margin: 12px 0;">
 
 ---
 
 ## 2017年
 
-### 2017年 · 第9题 · 填空题
+### 10 · 2017-09 · 填空题
 
-(9) 曲线 $\displaystyle y=x\left(1+\arcsin\frac{2}{x}\right)$ 的斜渐近线方程为 ______
+<img src="../bank/2017/q09.png" alt="2017-09" style="display: block; width: 31.89em; max-width: 100%; height: auto; margin: 12px 0;">
 
 *关联章节：[函数极限与无穷小](01-limits.md)*
 
@@ -102,87 +100,75 @@
 
 ## 2016年
 
-### 2016年 · 第5题 · 选择题
+### 11 · 2016-05 · 选择题
 
-> 切线与曲率比较。两曲线相切说明一阶导相等；曲率大说明二阶导绝对值大。结合 $f''_i(x_0)<0$ 判定局部凸性与相对位置，画草图一目了然。
+> *切线与曲率比较。两曲线相切说明一阶导相等；曲率大说明二阶导绝对值大。结合 $f''_i(x_0)<0$ 判定局部凸性与相对位置，画草图一目了然。*
 
-(5) 设函数 $f_i(x)\ (i=1,2)$ 具有二阶连续导数，且 $f_i''(x_0)<0\ (i=1,2)$ 。若两条曲线 $y=f_i(x)\ (i=1,2)$ 在点 $(x_0,y_0)$ 处具有公切线 $y=g(x)$ ，且在该点处曲线 $y=f_1(x)$ 的曲率大于曲线 $y=f_2(x)$ 的曲率，则在 $x_0$ 的某个邻域内，有：
-
-(A) $f_1(x)\leqslant f_2(x)\leqslant g(x)$ 。　　(B) $f_2(x)\leqslant f_1(x)\leqslant g(x)$ 。
-
-(C) $f_1(x)\leqslant g(x)\leqslant f_2(x)$ 。　　(D) $f_2(x)\leqslant g(x)\leqslant f_1(x)$ 。
+<img src="../bank/2016/q05.png" alt="2016-05" style="display: block; width: 48.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
 *关联章节：[凹凸性与拐点](07-convexity.md) · [泰勒公式与高阶导数](08-taylor.md)*
 
 ---
 
-### 2016年 · 第9题 · 填空题
+### 12 · 2016-09 · 填空题
 
-(9) 曲线 $\displaystyle y=\frac{x^3}{1+x^2}+\arctan(1+x^2)$ 的斜渐近线方程为 ______ 。
+<img src="../bank/2016/q09.png" alt="2016-09" style="display: block; width: 35.75em; max-width: 100%; height: auto; margin: 12px 0;">
 
 ---
 
 ## 2014年
 
-### 2014年 · 第2题 · 选择题
+### 13 · 2014-02 · 选择题
 
-(2) 下列曲线有渐近线的是（ ）
-
-(A) $y=x+\sin x$　　(B) $y=x^{2}+\sin x$　　(C) $y=x+\sin \frac{1}{x}$　　(D) $y=x^{2}+\sin \frac{1}{x}$
+<img src="../bank/2014/q02.png" alt="2014-02" style="display: block; width: 47.61em; max-width: 100%; height: auto; margin: 12px 0;">
 
 ---
 
-### 2014年 · 第4题 · 选择题
+### 14 · 2014-04 · 选择题
 
-(4) 曲线 $\left\{\begin{matrix}x=t^{2}+7\\\ y=t^{2}+4t+1\end{matrix}\right.$ 上对应于 $t=1$ 的点处的曲率半径是（ ）
-
-(A) $\frac{\sqrt{10}}{50}$　　(B) $\frac{\sqrt{10}}{100}$　　(C) $10\sqrt{10}$　　(D) $5\sqrt{10}$
+<img src="../bank/2014/q04.png" alt="2014-04" style="display: block; width: 43.61em; max-width: 100%; height: auto; margin: 12px 0;">
 
 ---
 
-### 2014年 · 第12题 · 填空题
+### 15 · 2014-12 · 填空题
 
-(12) 曲线 $L$ 的极坐标方程为 $r=\theta$ ，则 $L$ 在点 $\left(r,\theta\right)=\left(\frac{\pi}{2},\frac{\pi}{2}\right)$ 处的切线方程为 ______ 。
+<img src="../bank/2014/q12.png" alt="2014-12" style="display: block; width: 46.11em; max-width: 100%; height: auto; margin: 12px 0;">
 
 ---
 
 ## 2013年
 
-### 2013年 · 第12题 · 填空题
+### 16 · 2013-12 · 填空题
 
-(12) 曲线 $\left\{\begin{matrix}x=\arctan t\\y=\ln\sqrt{1+t^{2}}\end{matrix}\right.$ 上对应于 $t=1$ 的点处的法线方程为 ______ .
+<img src="../bank/2013/q12.png" alt="2013-12" style="display: block; width: 39.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
 ---
 
 ## 2012年
 
-### 2012年 · 第1题 · 选择题
+### 17 · 2012-01 · 选择题
 
-(1) 曲线 $y=\frac{x^{2}+x}{x^{2}-1}$ 渐近线的条数为（ ）
-
-(A) $0$　　(B) $1$　　(C) $2$　　(D) $3$
+<img src="../bank/2012/q01.png" alt="2012-01" style="display: block; width: 41.61em; max-width: 100%; height: auto; margin: 12px 0;">
 
 ---
 
-### 2012年 · 第13题 · 填空题
+### 18 · 2012-13 · 填空题
 
-(13) 曲线 $y=x^{2}+x\left(x<0\right)$ 上曲率为 $\frac{\sqrt{2}}{2}$ 的点的坐标是 ______ 。
+<img src="../bank/2012/q13.png" alt="2012-13" style="display: block; width: 35.46em; max-width: 100%; height: auto; margin: 12px 0;">
 
 ---
 
 ## 2010年
 
-### 2010年 · 第3题 · 选择题
+### 19 · 2010-03 · 选择题
 
-(3) 曲线 $y = x^{2}$ 与曲线 $y = a \ln x \left(a \ne 0\right)$ 相切，则 $a =$ （ ）
-
-(A) $4e$ .　　(B) $3e$ .　　(C) $2e$ .　　(D) $e$ .
+<img src="../bank/2010/q03.png" alt="2010-03" style="display: block; width: 41.82em; max-width: 100%; height: auto; margin: 12px 0;">
 
 ---
 
-### 2010年 · 第10题 · 填空题
+### 20 · 2010-10 · 填空题
 
-(10) 曲线 $y = \frac{2x^{3}}{x^{2} + 1}$ 的渐近线方程为 ______ ..
+<img src="../bank/2010/q10.png" alt="2010-10" style="display: block; width: 26.25em; max-width: 100%; height: auto; margin: 12px 0;">
 
 ---
 

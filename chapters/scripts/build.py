@@ -7,6 +7,7 @@ from pathlib import Path
 from html import escape
 import json, hashlib, re
 from bs4 import BeautifulSoup
+from PIL import Image
 
 ROOT = Path(__file__).resolve().parents[1]
 REPO = ROOT.parent
@@ -170,7 +171,7 @@ for c in TAXONOMY:
     md_content.append(f"[查看对应网页版]({c['slug']}.html) · [返回章节总目录](../README.md)\n\n---\n")
 
     last = None
-    for r in rows:
+    for idx, r in enumerate(rows, 1):
         if r['year']!=last:
             last = r['year']
             html_content.append(f'<h2 class="year-heading" id="y{last}">{last}年</h2>')
@@ -197,15 +198,20 @@ for c in TAXONOMY:
 <header class="question-origin"><strong>{r['year']}年 · 第{r['number']}题 · {kind}</strong><span class="screen-only"><a href="../../exams/years/{r['year']}.html#q{r['id']}">返回整卷位置</a> · <a href="../../exams/pdf/math2_{r['year']}.pdf">年度PDF</a></span></header>{tip_block_html}
 <ol class="question-list" start="{r['number']}">{q}</ol>{source_flag_html}{cross_html}</article>''')
 
-        # Markdown entry
-        md_content.append(f"### {r['year']}年 · 第{r['number']}题 · {kind}\n")
+        # Markdown entry - 对齐项目44，嵌入真题原卷高清裁切题面图，还原真实考卷版式
+        im_file = ROOT / f"bank/{r['year']}/q{r['number']:02d}.png"
+        im = Image.open(im_file)
+        w, _ = im.size
+        w_em = round(min(w / 28.0, 48.0), 2)
+        img_rel = f"../bank/{r['year']}/q{r['number']:02d}.png"
+
+        md_content.append(f"### {idx:02d} · {r['year']}-{r['number']:02d} · {kind}\n")
         if tip_text:
-            md_content.append(f"> {tip_text}\n")
+            md_content.append(f"> *{tip_text}*\n")
         if r['id'] in SOURCE_REVIEW:
             md_content.append(f"> ⚠️ **题面待核对**：原年度转写稿存在疑点，本次保留题面，作答前请核对独立原题来源。\n")
         
-        md_question_body = question_to_markdown(original)
-        md_content.append(md_question_body + "\n")
+        md_content.append(f'<img src="{img_rel}" alt="{r["year"]}-{r["number"]:02d}" style="display: block; width: {w_em}em; max-width: 100%; height: auto; margin: 12px 0;">\n')
         
         if r['related']:
             links_md = ' · '.join(f'[{CHAPTERS[k]["title"]}]({md_chapter_rel(c, CHAPTERS[k])})' for k in r['related'])
@@ -251,7 +257,7 @@ index.append('<p class="scope-note">按既有年度转写稿整理。章节归�
 (ROOT/'index.html').write_text(page('目录','\n'.join(index),False))
 (ROOT/'data/summary.json').write_text(json.dumps(dict(totalQuestions=385,chapterCount=25,order='year descending, question number ascending',chapters=stats),ensure_ascii=False,indent=2)+'\n')
 
-readme=['# 数学（二）章节题单\n','2010—2026年，385道完整真题，25章。线性代数在前，高等数学在后；各章按年份从新到旧（2026→2010），同年按原题号升序。\n','提供 **Markdown (.md)** 与 **网页版 (.html)** 双格式，公式规范化（`\\limits` 上下标对齐），支持随时阅读、编辑与本地做题。\n','## 章节目录\n']
+readme=['# 数学（二）章节题单\n','2010—2026年，385道完整真题，25章。线性代数在前，高等数学在后；各章按年份从新到旧（2026→2010），同年按原题号升序。\n','提供 **Markdown (.md)** 与 **网页版 (.html)** 双格式。题单 Markdown 对齐项目44规范，直接嵌入考场原卷高清裁切图，100% 还原真实试卷排版风格，告别公式居中变形；同时保留网页版随时查阅与交互。\n','## 章节目录\n']
 for group,label in [('linear-algebra','线性代数'),('calculus','高等数学')]:
     readme.append(f'### {label}\n')
     for c in TAXONOMY:
@@ -259,7 +265,7 @@ for group,label in [('linear-algebra','线性代数'),('calculus','高等数学'
             s=next(x for x in stats if x['id']==c['id'])
             readme.append(f'- [{c["title"]}]({s["mdPath"]})（{s["questions"]}题 · [网页版]({s["path"]})）：{c["scope"]}')
     readme.append('')
-readme+=['## 提速提效与考点导引\n','- **双格式支持**：所有 25 章均提供配套的 `.md` 与 `.html`，Markdown 保持紧贴 HTML 同级存放，公式经排版优化确保下标严格置于正下方。\n','- **题头考点导引**：精选 106 处开篇重难题与易踩坑题，在题头提供 2 行以内的白话点拨（心理预期与关键招式）；常规直接计算题保持纯净留白。\n','- **网页版交互增强**：支持顶部年份快速跳转（平滑滚动）、题型统计胶囊、悬浮回顶及打印自适应格式。\n','## 原题面核对标记\n','分类时标记了2013年第20题、2022年第8题的原年度转写稿疑点，未据猜测修改公式。详见 `data/source-review.json`，相应章节有提示。\n','## 构建方式\n','```sh\npython3 -m pip install -r chapters/scripts/requirements.txt\npython3 chapters/scripts/build.py\n```\n','构建会同时生成 25 章 HTML 与 Markdown，检查 385 题无漏收、无重复主归属、年份倒序，以及题目正文、公式和附图一致性。\n']
+readme+=['## 提速提效与考点导引\n','- **双格式支持**：所有 25 章均提供配套的 `.md` 与 `.html`，Markdown 题单与 HTML 同级存放，直接以原卷高清图呈现，彻底消除公式居中与排版偏移。\n','- **题头考点导引**：精选 106 处开篇重难题与易踩坑题，在题头提供 2 行以内的白话点拨（心理预期与关键招式）；常规直接计算题保持纯净留白。\n','- **网页版交互增强**：支持顶部年份快速跳转（平滑滚动）、题型统计胶囊、悬浮回顶及打印自适应格式。\n','## 原题面核对标记\n','分类时标记了2013年第20题、2022年第8题的原年度转写稿疑点，未据猜测修改公式。详见 `data/source-review.json`，相应章节有提示。\n','## 构建方式\n','```sh\npython3 -m pip install -r chapters/scripts/requirements.txt\npython3 chapters/scripts/build.py\n```\n','构建会同时生成 25 章 HTML 与 Markdown，检查 385 题无漏收、无重复主归属、年份倒序，以及题目正文、公式和附图一致性。\n']
 (ROOT/'README.md').write_text('\n'.join(readme))
 (ROOT/'data/source-snapshot.json').write_text(json.dumps({str(p.relative_to(REPO)): hashlib.sha256(p.read_bytes()).hexdigest() for p in sorted((REPO/'exams/years').glob('*.html'))}, indent=2)+'\n')
 

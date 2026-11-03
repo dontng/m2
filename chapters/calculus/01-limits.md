@@ -10,41 +10,33 @@
 
 ## 2026年
 
-### 2026年 · 第1题 · 选择题
+### 01 · 2026-01 · 选择题
 
-> 等价无穷小含参定系数。把 $\arcsin x$ 和三次根式分别用泰勒展开到 $x^2$，对照同阶系数，不用多次洛必达。
+> *等价无穷小含参定系数。把 $\arcsin x$ 和三次根式分别用泰勒展开到 $x^2$，对照同阶系数，不用多次洛必达。*
 
-(1) 已知当 $x \to 0$ 时， $a x^{2} + b x + \arcsin x$ 与 $\sqrt[3]{1 + x^{2}} - 1$ 是等价无穷小，则
-
-(A) $a = \frac{1}{3},\ b = -1$　　(B) $a = \frac{1}{3},\ b = 1$
-
-(C) $a = \frac{2}{3},\ b = -1$　　(D) $a = \frac{2}{3},\ b = 1$
+<img src="../bank/2026/q01.png" alt="2026-01" style="display: block; width: 37.32em; max-width: 100%; height: auto; margin: 12px 0;">
 
 ---
 
-### 2026年 · 第12题 · 填空题
+### 02 · 2026-12 · 填空题
 
-(12) $\displaystyle \lim\limits_{x\to 0}\left(\frac1x-\frac{\ln(1+x)}{x\sin x}\right)=$ ______ .
+<img src="../bank/2026/q12.png" alt="2026-12" style="display: block; width: 22.57em; max-width: 100%; height: auto; margin: 12px 0;">
 
 ---
 
 ## 2025年
 
-### 2025年 · 第4题 · 选择题
+### 03 · 2025-04 · 选择题
 
-(4) 设函数 $f\left( x \right)$ ， $g\left( x \right)$ 在 $x = 0$ 的某去心邻域内有定义且恒不为零.若当 $x \to 0$ 时， $f\left( x \right)$ 是 $g\left( x \right)$ 的高阶无穷小，则当 $x \to 0$ 时，
-
-(A) $f\left( x \right) + g\left( x \right) = O\left( g\left( x \right) \right)$ .　　(B) $f\left( x \right) g\left( x \right) = o\left( f^{2}\left( x \right) \right)$ .
-
-(C) $f\left( x \right) = o\left( e^{g\left( x \right)} - 1 \right)$ .　　(D) $f\left( x \right) = o\left( g^{2}\left( x \right) \right)$ .
+<img src="../bank/2025/q04.png" alt="2025-04" style="display: block; width: 48.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
 ---
 
 ## 2023年
 
-### 2023年 · 第11题 · 填空题
+### 04 · 2023-11 · 填空题
 
-(11) 当 $x\to 0$ 时，函数 $\displaystyle f(x)=ax+bx^2+\ln(1+x)$ 与 $\displaystyle g(x)=e^{x^2}-\cos x$ 是等价无穷小，则 $\displaystyle ab=$ ______ .
+<img src="../bank/2023/q11.png" alt="2023-11" style="display: block; width: 48.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
 *关联章节：[泰勒公式与高阶导数](08-taylor.md)*
 
@@ -52,37 +44,33 @@
 
 ## 2022年
 
-### 2022年 · 第1题 · 选择题
+### 05 · 2022-01 · 选择题
 
-(1) 若当 $x \to 0$ 时， $a\left( x \right), \beta\left( x \right)$ 是非零无穷小量，则以下的命题中，
-
-(A) $①③$　　(B) $①④$　　(C) $①③④$　　(D) $②③④$
+<img src="../bank/2022/q01.png" alt="2022-01" style="display: block; width: 44.32em; max-width: 100%; height: auto; margin: 12px 0;">
 
 ---
 
-### 2022年 · 第11题 · 填空题
+### 06 · 2022-11 · 填空题
 
-(11) $\lim\limits_{x \to 0} \left( \frac{1 + e^{x}}{2} \right)^{\cot x} =$ ______ .
+<img src="../bank/2022/q11.png" alt="2022-11" style="display: block; width: 18.82em; max-width: 100%; height: auto; margin: 12px 0;">
 
 ---
 
 ## 2021年
 
-### 2021年 · 第1题 · 选择题
+### 07 · 2021-01 · 选择题
 
-(1) 当 $x \to 0$ 时， $\int_{0}^{x^{2}} \left(e^{t^3}-1\right) \mathrm{d} t$ 是 $x^{7}$ 的
-
-(A) 低阶无穷小　　(B) 等价无穷小　　(C) 高阶无穷小　　(D) 同阶但非等价无穷小
+<img src="../bank/2021/q01.png" alt="2021-01" style="display: block; width: 48.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
 *关联章节：[定积分、变上限积分与积分性质](11-definite-integrals.md) · [泰勒公式与高阶导数](08-taylor.md)*
 
 ---
 
-### 2021年 · 第17题 · 解答题
+### 08 · 2021-17 · 解答题
 
-> 含变上限积分的 0/0 极限。分子分母同时展开，把变上限积分 $\int_0^x e^{t^2}dt$ 泰勒展开成 $x + x^3/3 + o(x^3)$，比硬用洛必达快三倍。
+> *含变上限积分的 0/0 极限。分子分母同时展开，把变上限积分 $\int_0^x e^{t^2}dt$ 泰勒展开成 $x + x^3/3 + o(x^3)$，比硬用洛必达快三倍。*
 
-求极限 $\displaystyle \lim\limits_{x \to 0} \left(\frac{1+\int_{0}^{x} e^{t^{2}} \,\mathrm{d} t}{e^{x}-1}-\frac{1}{\sin x}\right).$
+<img src="../bank/2021/q17.png" alt="2021-17" style="display: block; width: 19.82em; max-width: 100%; height: auto; margin: 12px 0;">
 
 *关联章节：[泰勒公式与高阶导数](08-taylor.md) · [定积分、变上限积分与积分性质](11-definite-integrals.md)*
 
@@ -90,13 +78,9 @@
 
 ## 2020年
 
-### 2020年 · 第1题 · 选择题
+### 09 · 2020-01 · 选择题
 
-(1) 当 $x \to 0^{+}$ 时，下列无穷小量中阶最高的是
-
-(A) $\int_{0}^{x}{\left( e^{t^{2}} - 1 \right) \mathrm{~d} t}$　　(B) $\int_{0}^{x}{\ln \left( 1 + \sqrt{t^{3}} \right) \mathrm{~d} t}$
-
-(C) $\int_{0}^{\sin x}{\sin t^{2} \mathrm{~d} t}$　　(D) $\int_{0}^{1-\cos x}{\sqrt{\sin^{3} t} \mathrm{~d} t}$
+<img src="../bank/2020/q01.png" alt="2020-01" style="display: block; width: 37.93em; max-width: 100%; height: auto; margin: 12px 0;">
 
 *关联章节：[定积分、变上限积分与积分性质](11-definite-integrals.md)*
 
@@ -104,47 +88,41 @@
 
 ## 2019年
 
-### 2019年 · 第1题 · 选择题
+### 10 · 2019-01 · 选择题
 
-(1) 当 $x\to 0$ 时，若 $x-\tan x$ 与 $x^{k}$ 为同阶无穷小量，则 $k=$
-
-(A) $1$　　(B) $2$　　(C) $3$　　(D) $4$
+<img src="../bank/2019/q01.png" alt="2019-01" style="display: block; width: 41.64em; max-width: 100%; height: auto; margin: 12px 0;">
 
 *关联章节：[泰勒公式与高阶导数](08-taylor.md)*
 
 ---
 
-### 2019年 · 第9题 · 填空题
+### 11 · 2019-09 · 填空题
 
-(9) $\displaystyle \lim\limits_{x\to 0}\left(x+2^{x}\right)^{\frac{2}{x}}=$ ______ .
+<img src="../bank/2019/q09.png" alt="2019-09" style="display: block; width: 18.18em; max-width: 100%; height: auto; margin: 12px 0;">
 
 ---
 
 ## 2018年
 
-### 2018年 · 第1题 · 选择题
+### 12 · 2018-01 · 选择题
 
-(1) 若 $\displaystyle \lim\limits_{x \to 0}\left(e^{x}+a x^{2}+b x\right)^{\frac{1}{x^{2}}}=1,$ 则 $\left(\ \right)$
-
-(A) $a=\dfrac{1}{2},\ b=-1$　　(B) $a=-\dfrac{1}{2},\ b=-1$
-
-(C) $a=\dfrac{1}{2},\ b=1$　　(D) $a=-\dfrac{1}{2},\ b=1$
+<img src="../bank/2018/q01.png" alt="2018-01" style="display: block; width: 36.96em; max-width: 100%; height: auto; margin: 12px 0;">
 
 *关联章节：[泰勒公式与高阶导数](08-taylor.md)*
 
 ---
 
-### 2018年 · 第9题 · 填空题
+### 13 · 2018-09 · 填空题
 
-(9) $\displaystyle \lim\limits_{x\to+\infty}x^2\left[\arctan(x+1)-\arctan x\right] =$ ______ .
+<img src="../bank/2018/q09.png" alt="2018-09" style="display: block; width: 28.07em; max-width: 100%; height: auto; margin: 12px 0;">
 
 ---
 
 ## 2017年
 
-### 2017年 · 第15题 · 解答题
+### 14 · 2017-15 · 解答题
 
-求极限 $\displaystyle \lim\limits_{x\to0^+} \frac{\displaystyle\int_0^x\sqrt{x-t}e^t\mathrm{d}t}{\sqrt{x^3}}.$
+<img src="../bank/2017/q15.png" alt="2017-15" style="display: block; width: 15.61em; max-width: 100%; height: auto; margin: 12px 0;">
 
 *关联章节：[定积分、变上限积分与积分性质](11-definite-integrals.md)*
 
@@ -152,17 +130,15 @@
 
 ## 2016年
 
-### 2016年 · 第1题 · 选择题
+### 15 · 2016-01 · 选择题
 
-(1) 设 $a_{1}=x\left(\cos\sqrt{x}-1\right)$ ， $a_{2}=\sqrt{x}\ln\left(1+\sqrt[3]{x}\right)$ ， $a_{3}=\sqrt[3]{x+1}-1$ 。当 $x\to 0^{+}$ 时，以上 $3$ 个无穷小量按照从低阶到高阶的排序是：
-
-(A) $a_{1},a_{2},a_{3}$ 。　　(B) $a_{2},a_{3},a_{1}$ 。　　(C) $a_{2},a_{1},a_{3}$ 。　　(D) $a_{3},a_{2},a_{1}$ 。
+<img src="../bank/2016/q01.png" alt="2016-01" style="display: block; width: 48.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
 ---
 
-### 2016年 · 第15题 · 解答题
+### 16 · 2016-15 · 解答题
 
-求极限 $\displaystyle \lim\limits_{x\to0}\left(\cos2x+2x\sin x\right)^{1/x^4}.$
+<img src="../bank/2016/q15.png" alt="2016-15" style="display: block; width: 18.71em; max-width: 100%; height: auto; margin: 12px 0;">
 
 *关联章节：[泰勒公式与高阶导数](08-taylor.md)*
 
@@ -170,11 +146,11 @@
 
 ## 2015年
 
-### 2015年 · 第15题 · 解答题
+### 17 · 2015-15 · 解答题
 
-> 极限反求参数。看到 $x\to 0$ 且有三角函数和对数，全员展开到 $x^3$ 项，对比对应项系数直接列出方程组。
+> *极限反求参数。看到 $x\to 0$ 且有三角函数和对数，全员展开到 $x^3$ 项，对比对应项系数直接列出方程组。*
 
-设函数 $f\left(x\right)=\ln\left(1+x\right)+ax+bx\sin x$ ， $g\left(x\right)=kx^{3}$ 。若 $f\left(x\right)$ 与 $g\left(x\right)$ 在 $x\to 0$ 时是等价无穷小，求 $a,b,k$ 的值。
+<img src="../bank/2015/q15.png" alt="2015-15" style="display: block; width: 48.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
 *关联章节：[泰勒公式与高阶导数](08-taylor.md)*
 
@@ -182,27 +158,23 @@
 
 ## 2014年
 
-### 2014年 · 第1题 · 选择题
+### 18 · 2014-01 · 选择题
 
-(1) 当 $x\to 0^{+}$ 时，若 $\ln^{\alpha}\left(1+2x\right)$ ， $\left(1-\cos x\right)^{\frac{1}{\alpha}}$ 均是比 $x$ 高阶的无穷小，则 $\alpha$ 的可能取值范围是（ ）
-
-(A) $\left(2,+\infty\right)$　　(B) $\left(1,2\right)$　　(C) $\left(\frac{1}{2},1\right)$　　(D) $\left(0,\frac{1}{2}\right)$
+<img src="../bank/2014/q01.png" alt="2014-01" style="display: block; width: 48.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
 ---
 
-### 2014年 · 第5题 · 选择题
+### 19 · 2014-05 · 选择题
 
-(5) 设函数 $f\left(x\right)=\arctan x$ ，若 $f\left(x\right)=xf^{\prime}\left(\xi\right)$ ，则 $\lim\limits_{x\to 0}\frac{\xi^{2}}{x^{2}}=$ （ ）
-
-(A) $1$　　(B) $\frac{2}{3}$　　(C) $\frac{1}{2}$　　(D) $\frac{1}{3}$
+<img src="../bank/2014/q05.png" alt="2014-05" style="display: block; width: 41.61em; max-width: 100%; height: auto; margin: 12px 0;">
 
 *关联章节：[中值定理、零点与不等式证明](05-mean-value-proofs.md) · [泰勒公式与高阶导数](08-taylor.md)*
 
 ---
 
-### 2014年 · 第15题 · 解答题
+### 20 · 2014-15 · 解答题
 
-求极限 $\lim\limits_{x\to+\infty}\frac{\int_{1}^{x}\left(t^{2}\left(e^{\frac{1}{t}}-1\right)-t\right)\mathrm{~d}t}{x^{2}\ln\left(1+\frac{1}{x}\right)}$ 。
+<img src="../bank/2014/q15.png" alt="2014-15" style="display: block; width: 17.5em; max-width: 100%; height: auto; margin: 12px 0;">
 
 *关联章节：[定积分、变上限积分与积分性质](11-definite-integrals.md) · [泰勒公式与高阶导数](08-taylor.md)*
 
@@ -210,25 +182,21 @@
 
 ## 2013年
 
-### 2013年 · 第1题 · 选择题
+### 21 · 2013-01 · 选择题
 
-(1) 设 $\cos x-1=x\sin\alpha\left(x\right)$ ，其中 $\left|\alpha\left(x\right)\right|<\frac{\pi}{2}$ ，则当 $x\to 0$ 时， $\alpha\left(x\right)$ 是（ ）
-
-(A) 比 $x$ 高阶的无穷小　　(B) 比 $x$ 低阶的无穷小
-
-(C) 与 $x$ 同阶但不等价的无穷小　　(D) 与 $x$ 等价的无穷小
+<img src="../bank/2013/q01.png" alt="2013-01" style="display: block; width: 38.36em; max-width: 100%; height: auto; margin: 12px 0;">
 
 ---
 
-### 2013年 · 第9题 · 填空题
+### 22 · 2013-09 · 填空题
 
-(9) $\lim\limits_{x\to\infty}\left(2-\frac{\ln\left(1+x\right)}{x}\right)^{\frac{1}{x}}=$ ______ .
+<img src="../bank/2013/q09.png" alt="2013-09" style="display: block; width: 20.79em; max-width: 100%; height: auto; margin: 12px 0;">
 
 ---
 
-### 2013年 · 第15题 · 解答题
+### 23 · 2013-15 · 解答题
 
-当 $x\to 0$ 时， $1-\cos x\cos 2x\cos 3x$ 与 $ax^{n}$ 为等价无穷小，求 $n$ 与 $a$ 的值。
+<img src="../bank/2013/q15.png" alt="2013-15" style="display: block; width: 39.36em; max-width: 100%; height: auto; margin: 12px 0;">
 
 *关联章节：[泰勒公式与高阶导数](08-taylor.md)*
 
@@ -236,13 +204,9 @@
 
 ## 2012年
 
-### 2012年 · 第15题 · 解答题
+### 24 · 2012-15 · 解答题
 
-已知函数 $f\left(x\right)=\frac{1+x}{\sin x}-\frac{1}{x}$ ，记 $a=\lim\limits_{x\to 0}f\left(x\right)$ 。
-
-（1）求 $a$ 的值；
-
-（2）若当 $x\to 0$ 时， $f\left(x\right)-a$ 是 $x^{k}$ 的同阶无穷小，求 $k$ 。
+<img src="../bank/2012/q15.png" alt="2012-15" style="display: block; width: 31.18em; max-width: 100%; height: auto; margin: 12px 0;">
 
 *关联章节：[泰勒公式与高阶导数](08-taylor.md)*
 
@@ -250,25 +214,23 @@
 
 ## 2011年
 
-### 2011年 · 第1题 · 选择题
+### 25 · 2011-01 · 选择题
 
-(1) 已知当 $x\to 0$ 时， $f\left(x\right)=3\sin x-\sin 3x$ 与 $cx^{k}$ 是等价无穷小，则（ ）
-
-(A) $k=1,c=4$　　(B) $k=1,c=-4$　　(C) $k=3,c=4$　　(D) $k=3,c=-4$
+<img src="../bank/2011/q01.png" alt="2011-01" style="display: block; width: 47.46em; max-width: 100%; height: auto; margin: 12px 0;">
 
 *关联章节：[泰勒公式与高阶导数](08-taylor.md)*
 
 ---
 
-### 2011年 · 第9题 · 填空题
+### 26 · 2011-09 · 填空题
 
-(9) $\lim\limits_{x\to 0}\left(1+2x\right)^{\frac{1}{x}}=$ ______ .
+<img src="../bank/2011/q09.png" alt="2011-09" style="display: block; width: 18.25em; max-width: 100%; height: auto; margin: 12px 0;">
 
 ---
 
-### 2011年 · 第15题 · 解答题
+### 27 · 2011-15 · 解答题
 
-已知函数 $F\left(x\right)=\frac{\int_{0}^{x}\ln\left(1+t^{2}\right)\mathrm{~d}t}{x^{a}}$ ， 设 $\lim\limits_{x\to+\infty}F\left(x\right)=\lim\limits_{x\to 0^{+}}F\left(x\right)=0$ ，试求 $a$ 的取值范围。
+<img src="../bank/2011/q15.png" alt="2011-15" style="display: block; width: 43.39em; max-width: 100%; height: auto; margin: 12px 0;">
 
 *关联章节：[定积分、变上限积分与积分性质](11-definite-integrals.md)*
 

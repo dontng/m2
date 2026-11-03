@@ -10,55 +10,45 @@
 
 ## 2024年
 
-### 2024年 · 第1题 · 选择题
+### 01 · 2024-01 · 选择题
 
-> 幂指函数间断点。底数有绝对值，先看无定义的点 $x=0, 1, 2$。分别求各点处的左右极限，只有左右极限都存在且不等的才是第一类间断点。
+> *幂指函数间断点。底数有绝对值，先看无定义的点 $x=0, 1, 2$。分别求各点处的左右极限，只有左右极限都存在且不等的才是第一类间断点。*
 
-(1) 函数 $\displaystyle f(x)=|x|^{\frac{1}{(1-x)(x-2)}}$ 的第一类间断点的个数为（ ）
-
-(A) $3$　　(B) $2$　　(C) $1$　　(D) $0$
+<img src="../bank/2024/q01.png" alt="2024-01" style="display: block; width: 41.61em; max-width: 100%; height: auto; margin: 12px 0;">
 
 ---
 
 ## 2020年
 
-### 2020年 · 第2题 · 选择题
+### 02 · 2020-02 · 选择题
 
-> 第二类间断点判别。令分母为 0 找出疑点 $x=0, 1, 2$ 以及 $\ln|1+x|$ 的未定义点 $x=-1$。只要单侧极限是无穷大或振荡就归为第二类，逐个排查别漏点。
+> *第二类间断点判别。令分母为 0 找出疑点 $x=0, 1, 2$ 以及 $\ln|1+x|$ 的未定义点 $x=-1$。只要单侧极限是无穷大或振荡就归为第二类，逐个排查别漏点。*
 
-(2) 函数 $f\left( x \right) = \dfrac{e^{\frac{1}{x-1}} \ln \left| 1+x \right|}{\left( e^{x} - 1 \right)\left( x-2 \right)}$ 的第二类间断点的个数为
-
-(A) $1$ 个　　(B) $2$ 个　　(C) $3$ 个　　(D) $4$ 个
+<img src="../bank/2020/q02.png" alt="2020-02" style="display: block; width: 43.14em; max-width: 100%; height: auto; margin: 12px 0;">
 
 ---
 
 ## 2018年
 
-### 2018年 · 第3题 · 选择题
+### 03 · 2018-03 · 选择题
 
-(3) 设 $\displaystyle f(x)= \begin{cases} -1, & x<0,\\ 1, & x\geq 0, \end{cases} \qquad g(x)= \begin{cases} 2-a x, & x\leq -1,\\ x, & -1<x<0,\\ x-b, & x\geq 0. \end{cases}$ 若 $f(x)+g(x)$ 在 $\mathbb{R}$ 上连续，则 $\left(\ \right)$
-
-(A) $a=3,\ b=1$　　(B) $a=3,\ b=2$　　(C) $a=-3,\ b=1$　　(D) $a=-3,\ b=2$
+<img src="../bank/2018/q03.png" alt="2018-03" style="display: block; width: 48.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
 ---
 
 ## 2017年
 
-### 2017年 · 第1题 · 选择题
+### 04 · 2017-01 · 选择题
 
-(1) 若函数 $\displaystyle f(x)= \begin{cases} \dfrac{1-\cos\sqrt{x}}{ax}, & x>0,\\ b, & x\le 0 \end{cases}$ 在 $x=0$ 处连续，则（ ）
-
-(A) $ab=\dfrac{1}{2}$　　(B) $ab=-\dfrac{1}{2}$　　(C) $ab=0$　　(D) $ab=2$
+<img src="../bank/2017/q01.png" alt="2017-01" style="display: block; width: 44.11em; max-width: 100%; height: auto; margin: 12px 0;">
 
 ---
 
 ## 2015年
 
-### 2015年 · 第2题 · 选择题
+### 05 · 2015-02 · 选择题
 
-(2) 函数 $f\left(x\right)=\lim\limits_{t\to 0}\left(1+\frac{\sin t}{x}\right)^{\frac{x^{2}}{t}}$ 在 $\left(-\infty,+\infty\right)$ 内（ ）
-
-(A) 连续　　(B) 有可去间断点　　(C) 有跳跃间断点　　(D) 有无穷间断点
+<img src="../bank/2015/q02.png" alt="2015-02" style="display: block; width: 47.25em; max-width: 100%; height: auto; margin: 12px 0;">
 
 *关联章节：[函数极限与无穷小](01-limits.md) · [导数、微分与求导法则](04-derivatives.md)*
 
@@ -66,11 +56,9 @@
 
 ## 2010年
 
-### 2010年 · 第1题 · 选择题
+### 06 · 2010-01 · 选择题
 
-(1) 函数 $f \left(x\right) = \frac{x^{2} - x}{x^{2} - 1}\sqrt{1 + \frac{1}{x^{2}}}$ 的无穷间断点的个数为（ ）
-
-(A) $0$　　(B) $1$　　(C) $2$　　(D) $3$
+<img src="../bank/2010/q01.png" alt="2010-01" style="display: block; width: 41.61em; max-width: 100%; height: auto; margin: 12px 0;">
 
 ---
 

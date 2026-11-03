@@ -10,41 +10,37 @@
 
 ## 2026年
 
-### 2026年 · 第11题 · 填空题
+### 01 · 2026-11 · 填空题
 
-> 含参反常积分收敛性。区间拆成 $[0,1]$ 和 $[1,+\infty)$ 两段：0 处看瑕点（等价无穷小为 $x^{1-p}$），无穷远看衰减阶数（为 $1/x^{p+1}$），两端同时收敛交出 $p$ 范围。
+> *含参反常积分收敛性。区间拆成 $[0,1]$ 和 $[1,+\infty)$ 两段：0 处看瑕点（等价无穷小为 $x^{1-p}$），无穷远看衰减阶数（为 $1/x^{p+1}$），两端同时收敛交出 $p$ 范围。*
 
-(11) 设 $p$ 为常数，若反常积分 $\displaystyle \int_0^{+\infty}\frac{\arctan x}{x^p(x+1)}\,dx$ 收敛，则 $p$ 的取值范围是 ______ .
+<img src="../bank/2026/q11.png" alt="2026-11" style="display: block; width: 44.46em; max-width: 100%; height: auto; margin: 12px 0;">
 
 ---
 
 ## 2025年
 
-### 2025年 · 第11题 · 填空题
+### 02 · 2025-11 · 填空题
 
-(11) 设 $\int_{1}^{+\infty} \frac{a}{x\left( 2x + a \right)} \mathrm{~d} x = \ln 2$ ，则 $a =$ ______ .
+<img src="../bank/2025/q11.png" alt="2025-11" style="display: block; width: 26.96em; max-width: 100%; height: auto; margin: 12px 0;">
 
 ---
 
 ## 2024年
 
-### 2024年 · 第7题 · 选择题
+### 03 · 2024-07 · 选择题
 
-> 反常积分真假命题。注意无穷区间上反常积分收敛不代表被积函数趋向 0（可能有窄高尖峰）；被积函数非负且单调时才成立。用尖峰反例迅速判断。
+> *反常积分真假命题。注意无穷区间上反常积分收敛不代表被积函数趋向 0（可能有窄高尖峰）；被积函数非负且单调时才成立。用尖峰反例迅速判断。*
 
-(7) 设非负函数 $f(x)$ 在 $[0,+\infty)$ 上连续，给出三个命题：
-
-(A) $0$　　(B) $1$　　(C) $2$　　(D) $3$
+<img src="../bank/2024/q07.png" alt="2024-07" style="display: block; width: 48.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
 ---
 
 ## 2023年
 
-### 2023年 · 第6题 · 选择题
+### 04 · 2023-06 · 选择题
 
-(6) 若函数 $\displaystyle f(a)=\int_2^{+\infty}\frac{1}{x(\ln x)^{a+1}}\,dx$ 在 $a=a_0$ 处取得最小值，则 $a_0=$ （ ）。
-
-(A) $-\dfrac{1}{\ln(\ln 2)}$　　(B) $-\ln(\ln 2)$　　(C) $\dfrac{1}{\ln 2}$　　(D) $\ln 2$
+<img src="../bank/2023/q06.png" alt="2023-06" style="display: block; width: 42.68em; max-width: 100%; height: auto; margin: 12px 0;">
 
 *关联章节：[单调性、极值与零点个数](06-monotonicity-extrema.md)*
 
@@ -52,111 +48,91 @@
 
 ## 2022年
 
-### 2022年 · 第5题 · 选择题
+### 05 · 2022-05 · 选择题
 
-> 双瑕点反常积分。0 和 1 两个端点都是瑕点，必须两端都收敛。0 点处 $\ln x$ 不影响 $p$ 判别法则，1 点处利用 $\ln x \sim x-1$ 转化为 $p$ 积分判别。
+> *双瑕点反常积分。0 和 1 两个端点都是瑕点，必须两端都收敛。0 点处 $\ln x$ 不影响 $p$ 判别法则，1 点处利用 $\ln x \sim x-1$ 转化为 $p$ 积分判别。*
 
-(5) 设 $p$ 为常数，若反常积分 $\int_{0}^{1} \frac{\ln x}{x^{p}\left( 1-x \right)^{1-p}} \mathrm{~d}x$ 收敛，则 $p$ 的取值范围是 $\left( \ \right)$
-
-(A) $\left( -1,1 \right)$　　(B) $\left( -1,2 \right)$　　(C) $\left( -\infty,1 \right)$　　(D) $\left( -\infty,2 \right)$
+<img src="../bank/2022/q05.png" alt="2022-05" style="display: block; width: 44.82em; max-width: 100%; height: auto; margin: 12px 0;">
 
 ---
 
 ## 2021年
 
-### 2021年 · 第11题 · 填空题
+### 06 · 2021-11 · 填空题
 
-(11) $\displaystyle \int_{-\infty}^{+\infty} |x|3^{-x^2}\,\mathrm{d}x=$ ______ .
+<img src="../bank/2021/q11.png" alt="2021-11" style="display: block; width: 19.25em; max-width: 100%; height: auto; margin: 12px 0;">
 
 ---
 
 ## 2019年
 
-### 2019年 · 第3题 · 选择题
+### 07 · 2019-03 · 选择题
 
-(3) 下列反常积分发散的是
-
-(A) $\int_{0}^{+\infty}xe^{-x}\mathrm{d}x$　　(B) $\int_{0}^{+\infty}xe^{-x^{2}}\mathrm{d}x$
-
-(C) $\int_{0}^{+\infty}\frac{\arctan x}{1+x^{2}}\mathrm{d}x$　　(D) $\int_{0}^{+\infty}\frac{x}{1+x^{2}}\mathrm{d}x$
+<img src="../bank/2019/q03.png" alt="2019-03" style="display: block; width: 35.14em; max-width: 100%; height: auto; margin: 12px 0;">
 
 ---
 
 ## 2018年
 
-### 2018年 · 第11题 · 填空题
+### 08 · 2018-11 · 填空题
 
-(11) $\displaystyle \int_{5}^{+\infty}\frac{1}{x^2-4x+3}\,\mathrm{d}x =$ ______ .
+<img src="../bank/2018/q11.png" alt="2018-11" style="display: block; width: 21.75em; max-width: 100%; height: auto; margin: 12px 0;">
 
 ---
 
 ## 2017年
 
-### 2017年 · 第11题 · 填空题
+### 09 · 2017-11 · 填空题
 
-(11) $\displaystyle \int_{0}^{+\infty}\frac{\ln(1+x)}{(1+x)^2}\mathrm{d}x=$ ______ .
+<img src="../bank/2017/q11.png" alt="2017-11" style="display: block; width: 20.39em; max-width: 100%; height: auto; margin: 12px 0;">
 
 ---
 
 ## 2016年
 
-### 2016年 · 第3题 · 选择题
+### 10 · 2016-03 · 选择题
 
-(3) 反常积分 $\displaystyle (1) \ \int_{-\infty}^{0}\frac{e^{1/x}}{x^{2}}\,\mathrm{d}x,\qquad (2) \ \int_{0}^{+\infty}\frac{e^{1/x}}{x^{2}}\,\mathrm{d}x$ 的敛散性为：
-
-(A) (1) 收敛，(2) 收敛。　　(B) (1) 收敛，(2) 发散。
-
-(C) (1) 发散，(2) 收敛。　　(D) (1) 发散，(2) 发散。
+<img src="../bank/2016/q03.png" alt="2016-03" style="display: block; width: 39.07em; max-width: 100%; height: auto; margin: 12px 0;">
 
 ---
 
 ## 2015年
 
-### 2015年 · 第1题 · 选择题
+### 11 · 2015-01 · 选择题
 
-(1) 下列反常积分收敛的是（ ）
-
-(A) $\int_{2}^{+\infty}\frac{1}{\sqrt{x}}\mathrm{~d}x$　　(B) $\int_{2}^{+\infty}\frac{\ln x}{x}\mathrm{~d}x$
-
-(C) $\int_{2}^{+\infty}\frac{1}{x \ln x}\mathrm{~d}x$　　(D) $\int_{2}^{+\infty}\frac{x}{e^{x}}\mathrm{~d}x$
+<img src="../bank/2015/q01.png" alt="2015-01" style="display: block; width: 34.36em; max-width: 100%; height: auto; margin: 12px 0;">
 
 ---
 
 ## 2014年
 
-### 2014年 · 第9题 · 填空题
+### 12 · 2014-09 · 填空题
 
-(9) $\int_{-\infty}^{1}\frac{1}{x^{2}+2x+5}\mathrm{~d}x=$ ______ 。
+<img src="../bank/2014/q09.png" alt="2014-09" style="display: block; width: 18.64em; max-width: 100%; height: auto; margin: 12px 0;">
 
 ---
 
 ## 2013年
 
-### 2013年 · 第4题 · 选择题
+### 13 · 2013-04 · 选择题
 
-(4) 设函数 $f\left(x\right)=\left\{\begin{matrix}\frac{1}{\left(x-1\right)^{\alpha-1}},&1<x<e\\\frac{1}{x\left(\ln x\right)^{\alpha+1}},&x\geq e\end{matrix}\right.$ ， 若反常积分 $\int_{1}^{+\infty}f\left(x\right)\mathrm{~d}x$ 收敛，则（ ）
-
-(A) $\alpha<-2$　　(B) $\alpha>2$　　(C) $-2<\alpha<0$　　(D) $0<\alpha<2$
+<img src="../bank/2013/q04.png" alt="2013-04" style="display: block; width: 45.75em; max-width: 100%; height: auto; margin: 12px 0;">
 
 ---
 
 ## 2011年
 
-### 2011年 · 第12题 · 填空题
+### 14 · 2011-12 · 填空题
 
-(12) 设函数 $f\left(x\right)=\left\{\begin{matrix}\lambda e^{-\lambda x},&x>0 \\ 0,&x\leq 0\end{matrix}\right.$ ，其中 $\lambda>0$ ，则 $\int_{-\infty}^{+\infty}xf\left(x\right)\mathrm{~d}x=$ ______ .
+<img src="../bank/2011/q12.png" alt="2011-12" style="display: block; width: 43.04em; max-width: 100%; height: auto; margin: 12px 0;">
 
 ---
 
 ## 2010年
 
-### 2010年 · 第4题 · 选择题
+### 15 · 2010-04 · 选择题
 
-(4) 设 $m, n$ 是正整数，则反常积分 $\int_{0}^{1}\frac{\sqrt[m]{\ln^{2}\left(1 - x\right)}}{\sqrt[n]{x}} \mathrm{~d}x$ 的收敛性（ ）
-
-(A) 仅与 $m$ 的取值有关.　　(B) 仅与 $n$ 的取值有关.
-
-(C) 与 $m, n$ 取值都有关.　　(D) 与 $m, n$ 取值都无关.
+<img src="../bank/2010/q04.png" alt="2010-04" style="display: block; width: 38.89em; max-width: 100%; height: auto; margin: 12px 0;">
 
 ---
 

@@ -10,51 +10,41 @@
 
 ## 2024年
 
-### 2024年 · 第5题 · 选择题
+### 01 · 2024-05 · 选择题
 
-> 分段函数可微性判定。在 $(0,0)$ 处求偏导必须用定义算；判定可微性时验证极限 $\lim \frac{\Delta z - f_x \Delta x - f_y \Delta y}{\rho} = 0$，放缩后极坐标逼近。
+> *分段函数可微性判定。在 $(0,0)$ 处求偏导必须用定义算；判定可微性时验证极限 $\lim \frac{\Delta z - f_x \Delta x - f_y \Delta y}{\rho} = 0$，放缩后极坐标逼近。*
 
-(5) 已知函数 $\displaystyle f(x,y)= \begin{cases} (x^2+y^2)\sin\frac{1}{xy}, & xy\ne 0,\\ 0, & xy=0, \end{cases}$ 则在点 $(0,0)$ 处（ ）
-
-(A) $\dfrac{\partial f}{\partial x}$ 连续， $f$ 可微　　(B) $\dfrac{\partial f}{\partial x}$ 连续， $f$ 不可微
-
-(C) $\dfrac{\partial f}{\partial x}$ 不连续， $f$ 可微　　(D) $\dfrac{\partial f}{\partial x}$ 不连续， $f$ 不可微
+<img src="../bank/2024/q05.png" alt="2024-05" style="display: block; width: 39.82em; max-width: 100%; height: auto; margin: 12px 0;">
 
 ---
 
 ## 2020年
 
-### 2020年 · 第5题 · 选择题
+### 02 · 2020-05 · 选择题
 
-> 多命题反例辨析。二阶混合偏导相等要求连续，二元极限存在比累次极限强得多。拿经典马鞍面或分段函数逐条对准性质检验。
+> *多命题反例辨析。二阶混合偏导相等要求连续，二元极限存在比累次极限强得多。拿经典马鞍面或分段函数逐条对准性质检验。*
 
-(5) 关于函数 $\displaystyle f(x,y)= \begin{cases} xy, & xy\ne 0,\\ x, & y=0,\\ y, & x=0, \end{cases}$ 给出下列结论：
-
-(A) $4$　　(B) $3$　　(C) $2$　　(D) $1$
+<img src="../bank/2020/q05.png" alt="2020-05" style="display: block; width: 48.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
 ---
 
-### 2020年 · 第11题 · 填空题
+### 03 · 2020-11 · 填空题
 
-(11) 设 $z = \arctan \left[ xy + \sin \left( x+y \right) \right]$ ，则 $\left. \mathrm{d} z \right|_{\left( 0,\pi \right)} =$ ______ .
+<img src="../bank/2020/q11.png" alt="2020-11" style="display: block; width: 33.11em; max-width: 100%; height: auto; margin: 12px 0;">
 
 ---
 
 ## 2017年
 
-### 2017年 · 第5题 · 选择题
+### 04 · 2017-05 · 选择题
 
-(5) 设 $f(x,y)$ 具有一阶偏导数，且对任意 $(x,y)$ ，都有 $\displaystyle \frac{\partial f}{\partial x}>0,\qquad \frac{\partial f}{\partial y}<0,$ 则（ ）
-
-(A) $f(0,0)>f(1,1)$　　(B) $f(0,0)<f(1,1)$
-
-(C) $f(0,1)>f(1,0)$　　(D) $f(0,1)<f(1,0)$
+<img src="../bank/2017/q05.png" alt="2017-05" style="display: block; width: 40.75em; max-width: 100%; height: auto; margin: 12px 0;">
 
 ---
 
-### 2017年 · 第12题 · 填空题
+### 05 · 2017-12 · 填空题
 
-(12) 设函数 $f(x,y)$ 具有一阶连续偏导数，且 $\displaystyle \mathrm{d}f(x,y)=ye^y\mathrm{d}x+x(1+y)e^y\mathrm{d}y,\qquad f(0,0)=0,$ 则 $f(x,y)=$ ______
+<img src="../bank/2017/q12.png" alt="2017-12" style="display: block; width: 48.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
 *关联章节：[多元复合函数与隐函数求导](17-chain-implicit.md)*
 
@@ -62,25 +52,17 @@
 
 ## 2016年
 
-### 2016年 · 第6题 · 选择题
+### 06 · 2016-06 · 选择题
 
-(6) 已知函数 $f(x,y)=\dfrac{e^{x}}{x-y}$ ，则：
-
-(A) $f'_x-f'_y=0$ 。　　(B) $f'_x+f'_y=0$ 。
-
-(C) $f'_x-f'_y=f$ 。　　(D) $f'_x+f'_y=f$ 。
+<img src="../bank/2016/q06.png" alt="2016-06" style="display: block; width: 35.18em; max-width: 100%; height: auto; margin: 12px 0;">
 
 ---
 
 ## 2012年
 
-### 2012年 · 第5题 · 选择题
+### 07 · 2012-05 · 选择题
 
-(5) 设函数 $f\left(x,y\right)$ 可微，且对任意 $x,y$ 都有 $\frac{\partial f\left(x,y\right)}{\partial x}>0$ ， $\frac{\partial f\left(x,y\right)}{\partial y}<0$ ， $f\left(x_{1},y_{1}\right)<f\left(x_{2},y_{2}\right)$ 成立的一个充分条件是（ ）
-
-(A) $x_{1}>x_{2},y_{1}<y_{2}$　　(B) $x_{1}>x_{2},y_{1}>y_{2}$
-
-(C) $x_{1}<x_{2},y_{1}<y_{2}$　　(D) $x_{1}<x_{2},y_{1}>y_{2}$
+<img src="../bank/2012/q05.png" alt="2012-05" style="display: block; width: 48.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
 *关联章节：[单调性、极值与零点个数](06-monotonicity-extrema.md)*
 

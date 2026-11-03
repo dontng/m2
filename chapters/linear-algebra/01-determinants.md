@@ -10,11 +10,11 @@
 
 ## 2023年
 
-### 2023年 · 第16题 · 填空题
+### 01 · 2023-16 · 填空题
 
-> 方程组可解与行列式填空。方程组有解且方程数大于未知数数，增广矩阵行列式必为 0。利用按行展开与行列式性质建立两个行列式的倍数联系。
+> *方程组可解与行列式填空。方程组有解且方程数大于未知数数，增广矩阵行列式必为 0。利用按行展开与行列式性质建立两个行列式的倍数联系。*
 
-(16) 已知线性方程组 $\displaystyle \begin{cases} ax_1+x_3=1,\\ x_1+ax_2+x_3=0,\\ x_1+2x_2+ax_3=0,\\ ax_1+bx_2=2 \end{cases}$ 有解，其中 $a,b$ 为常数。若 $\displaystyle \begin{vmatrix} a&0&1\\ 1&a&1\\ 1&2&a \end{vmatrix}=4,$ 则 $\displaystyle \begin{vmatrix} 1&a&1\\ 1&2&a\\ a&b&0 \end{vmatrix} =$ ______ .
+<img src="../bank/2023/q16.png" alt="2023-16" style="display: block; width: 48.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
 *关联章节：[线性方程组](04-linear-systems.md)*
 
@@ -22,35 +22,35 @@
 
 ## 2021年
 
-### 2021年 · 第16题 · 填空题
+### 02 · 2021-16 · 填空题
 
-> 4阶多项式行列式系数。求 $x^3$ 项系数，根据行列式定义，只有主对角线或次对角线包含 $x$ 的乘积项才可能贡献 $x^3$，按项分析最快。
+> *4阶多项式行列式系数。求 $x^3$ 项系数，根据行列式定义，只有主对角线或次对角线包含 $x$ 的乘积项才可能贡献 $x^3$，按项分析最快。*
 
-(16) 多项式 $\displaystyle f(x)=\left|\begin{array}{cccc} x & x & 1 & 2x \\ 1 & x & 2 & -1 \\ 2 & 1 & x & 1 \\ 2 & -1 & 1 & x \end{array}\right|$ 中 $x^3$ 项的系数为 ______ .
+<img src="../bank/2021/q16.png" alt="2021-16" style="display: block; width: 36.46em; max-width: 100%; height: auto; margin: 12px 0;">
 
 ---
 
 ## 2020年
 
-### 2020年 · 第14题 · 填空题
+### 03 · 2020-14 · 填空题
 
-(14) 行列式 $\displaystyle \begin{vmatrix} a&0&-1&1\\ 0&a&1&-1\\ -1&1&a&0\\ 1&-1&0&a \end{vmatrix} =$ ______ .
+<img src="../bank/2020/q14.png" alt="2020-14" style="display: block; width: 25.68em; max-width: 100%; height: auto; margin: 12px 0;">
 
 ---
 
 ## 2019年
 
-### 2019年 · 第14题 · 填空题
+### 04 · 2019-14 · 填空题
 
-(14) 已知矩阵 $\displaystyle \boldsymbol{A}= \begin{pmatrix} 1&-1&0&0\\ -2&1&-1&1\\ 3&-2&2&-1\\ 0&0&3&4 \end{pmatrix},$ $A_{ij}$ 表示 $\boldsymbol{A}$ 中 $(i,j)$ 元的代数余子式，则 $\displaystyle A_{11}-A_{12}=$ ______ .
+<img src="../bank/2019/q14.png" alt="2019-14" style="display: block; width: 48.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
 ---
 
 ## 2018年
 
-### 2018年 · 第14题 · 填空题
+### 05 · 2018-14 · 填空题
 
-(14) 设 $\boldsymbol A$ 为 $3$ 阶矩阵， $\boldsymbol\alpha_1,\boldsymbol\alpha_2,\boldsymbol\alpha_3$ 为线性无关的向量组。若 $\displaystyle \boldsymbol A\boldsymbol\alpha_1=2\boldsymbol\alpha_1+\boldsymbol\alpha_2+\boldsymbol\alpha_3,$ $\displaystyle \boldsymbol A\boldsymbol\alpha_2=\boldsymbol\alpha_2+2\boldsymbol\alpha_3, \qquad \boldsymbol A\boldsymbol\alpha_3=-\boldsymbol\alpha_2+\boldsymbol\alpha_3,$ 则 $|\boldsymbol A|=$ ______ .
+<img src="../bank/2018/q14.png" alt="2018-14" style="display: block; width: 48.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
 *关联章节：[向量组、线性相关与秩](03-vectors-rank.md) · [特征值、特征向量与相似](05-eigenvalues-similarity.md)*
 
@@ -58,11 +58,11 @@
 
 ## 2015年
 
-### 2015年 · 第14题 · 填空题
+### 06 · 2015-14 · 填空题
 
-> 特征值映射性质题。$A$ 的特征值代入多项式直接算得 $B$ 的三个特征值为 3, 7, 1，矩阵行列式等于全部特征值之积，乘起来得 21。
+> *特征值映射性质题。$A$ 的特征值代入多项式直接算得 $B$ 的三个特征值为 3, 7, 1，矩阵行列式等于全部特征值之积，乘起来得 21。*
 
-(14) 若 $3$ 阶矩阵 $\boldsymbol{A}$ 的特征值为 $2,-2,1$ ， $\boldsymbol{B}=\boldsymbol{A}^{2}-\boldsymbol{A}+\boldsymbol{E}$ ，其中 $\boldsymbol{E}$ 为 $3$ 阶单位阵，则行列式 $\left|\boldsymbol{B}\right|=$ ______ .
+<img src="../bank/2015/q14.png" alt="2015-14" style="display: block; width: 48.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
 *关联章节：[特征值、特征向量与相似](05-eigenvalues-similarity.md)*
 
@@ -70,37 +70,33 @@
 
 ## 2014年
 
-### 2014年 · 第7题 · 选择题
+### 07 · 2014-07 · 选择题
 
-(7) 行列式 $\left|\begin{matrix}0&a&b&0\\\ a&0&0&b\\\ 0&c&d&0\\\ c&0&0&d\end{matrix}\right|$ 等于（ ）
-
-(A) $\left(ad-bc\right)^{2}$　　(B) $-\left(ad-bc\right)^{2}$
-
-(C) $a^{2}d^{2}-b^{2}c^{2}$　　(D) $-a^{2}d^{2}+b^{2}c^{2}$
+<img src="../bank/2014/q07.png" alt="2014-07" style="display: block; width: 35.29em; max-width: 100%; height: auto; margin: 12px 0;">
 
 ---
 
 ## 2013年
 
-### 2013年 · 第14题 · 填空题
+### 08 · 2013-14 · 填空题
 
-(14) 设 $\boldsymbol{A}=\left(a_{ij}\right)$ 是三阶非零矩阵， $\left|\boldsymbol{A}\right|$ 为 $\boldsymbol{A}$ 的行列式， $A_{ij}$ 为 $a_{ij}$ 的代数余子式，若 $a_{ij}+A_{ij}=0\left(i,j=1,2,3\right)$ ，则 $\left|\boldsymbol{A}\right|=$ ______ .
+<img src="../bank/2013/q14.png" alt="2013-14" style="display: block; width: 48.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
 ---
 
 ## 2012年
 
-### 2012年 · 第14题 · 填空题
+### 09 · 2012-14 · 填空题
 
-(14) 设 $\boldsymbol{A}$ 为 $3$ 阶矩阵， $\left|\boldsymbol{A}\right|=3$ ， $\boldsymbol{A}^{*}$ 为 $\boldsymbol{A}$ 的伴随矩阵，若交换 $\boldsymbol{A}$ 的第一行与第二行得到矩阵 $\boldsymbol{B}$ ，则 $\left|\boldsymbol{B}\boldsymbol{A}^{*}\right|=$ ______ 。
+<img src="../bank/2012/q14.png" alt="2012-14" style="display: block; width: 48.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
 ---
 
 ## 2010年
 
-### 2010年 · 第14题 · 填空题
+### 10 · 2010-14 · 填空题
 
-(14) 设 $\boldsymbol{A}, \boldsymbol{B}$ 为 3 阶矩阵，且 $\left|\boldsymbol{A}\right| = 3, \left|\boldsymbol{B}\right| = 2, \left|\boldsymbol{A}^{-1} + \boldsymbol{B}\right| = 2$ ，则 $\left|\boldsymbol{A} + \boldsymbol{B}^{-1}\right| =$ ______ ..
+<img src="../bank/2010/q14.png" alt="2010-14" style="display: block; width: 48.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
 ---
 

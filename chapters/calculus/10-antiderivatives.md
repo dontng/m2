@@ -10,55 +10,39 @@
 
 ## 2023年
 
-### 2023年 · 第2题 · 选择题
+### 01 · 2023-02 · 选择题
 
-> 分段函数原函数选择题。分段求出各段的不定积分，最关键的一步是：原函数在分界点 $x=0$ 处必须连续，据此定出两段积分常数 $C_1, C_2$ 的差值。
+> *分段函数原函数选择题。分段求出各段的不定积分，最关键的一步是：原函数在分界点 $x=0$ 处必须连续，据此定出两段积分常数 $C_1, C_2$ 的差值。*
 
-(2) 函数 $\displaystyle f(x)= \begin{cases} \dfrac{1}{\sqrt{1+x^2}}, & x\le 0,\\[0.6em] (x+1)\cos x, & x>0 \end{cases}$ 的一个原函数为（ ）。
-
-- (A) $\displaystyle F(x)= \begin{cases} \ln\left(\sqrt{1+x^2}-x\right), & x\le 0,\\ (x+1)\cos x-\sin x, & x>0 \end{cases}$
-
-- (B) $\displaystyle F(x)= \begin{cases} \ln\left(\sqrt{1+x^2}-x\right)+1, & x\le 0,\\ (x+1)\cos x-\sin x, & x>0 \end{cases}$
-
-- (C) $\displaystyle F(x)= \begin{cases} \ln\left(\sqrt{1+x^2}+x\right), & x\le 0,\\ (x+1)\sin x+\cos x, & x>0 \end{cases}$
-
-- (D) $\displaystyle F(x)= \begin{cases} \ln\left(\sqrt{1+x^2}+x\right)+1, & x\le 0,\\ (x+1)\sin x+\cos x, & x>0 \end{cases}$
+<img src="../bank/2023/q02.png" alt="2023-02" style="display: block; width: 30.89em; max-width: 100%; height: auto; margin: 12px 0;">
 
 ---
 
 ## 2019年
 
-### 2019年 · 第16题 · 解答题
+### 02 · 2019-16 · 解答题
 
-> 复杂有理函数不定积分大题。分母含有 $(x-1)^2(x^2+x+1)$，标准待定系数裂项为 $\frac{A}{x-1}+\frac{B}{(x-1)^2}+\frac{Cx+D}{x^2+x+1}$，通分仔细算分子系数。
+> *复杂有理函数不定积分大题。分母含有 $(x-1)^2(x^2+x+1)$，标准待定系数裂项为 $\frac{A}{x-1}+\frac{B}{(x-1)^2}+\frac{Cx+D}{x^2+x+1}$，通分仔细算分子系数。*
 
-求不定积分 $\displaystyle \int\frac{3x+6}{(x-1)^2(x^2+x+1)}\,\mathrm{d}x.$
+<img src="../bank/2019/q16.png" alt="2019-16" style="display: block; width: 21.25em; max-width: 100%; height: auto; margin: 12px 0;">
 
 ---
 
 ## 2018年
 
-### 2018年 · 第15题 · 解答题
+### 03 · 2018-15 · 解答题
 
-> 根式与反三角不定积分大题。含有 $\sqrt{e^x-1}$，果断做换元 $t = \sqrt{e^x-1}$，转化成有理多项式乘 $\arctan t$，再上分部积分法化简。
+> *根式与反三角不定积分大题。含有 $\sqrt{e^x-1}$，果断做换元 $t = \sqrt{e^x-1}$，转化成有理多项式乘 $\arctan t$，再上分部积分法化简。*
 
-求不定积分 $\displaystyle \int e^{2x}\arctan\sqrt{e^x-1}\,\mathrm{d}x.$
+<img src="../bank/2018/q15.png" alt="2018-15" style="display: block; width: 20.04em; max-width: 100%; height: auto; margin: 12px 0;">
 
 ---
 
 ## 2016年
 
-### 2016年 · 第2题 · 选择题
+### 04 · 2016-02 · 选择题
 
-(2) 已知函数 $f(x)$ 满足： $\displaystyle f(x)= \begin{cases} 2(x-1), & x<1,\\ \ln x, & x\geqslant 1. \end{cases}$ 则 $f(x)$ 的一个原函数是：
-
-- (A) $x<1$ 时， $F(x)=(x-1)^2$ ； $x\geqslant 1$ 时， $F(x)=x(\ln x-1)$ 。
-
-- (B) $x<1$ 时， $F(x)=(x-1)^2$ ； $x\geqslant 1$ 时， $F(x)=x(\ln x+1)-1$ 。
-
-- (C) $x<1$ 时， $F(x)=(x-1)^2$ ； $x\geqslant 1$ 时， $F(x)=x(\ln x+1)+1$ 。
-
-- (D) $x<1$ 时， $F(x)=(x-1)^2$ ； $x\geqslant 1$ 时， $F(x)=x(\ln x-1)+1$ 。
+<img src="../bank/2016/q02.png" alt="2016-02" style="display: block; width: 38.75em; max-width: 100%; height: auto; margin: 12px 0;">
 
 *关联章节：[连续与间断点](03-continuity.md)*
 

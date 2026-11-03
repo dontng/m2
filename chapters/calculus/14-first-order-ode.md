@@ -10,19 +10,19 @@
 
 ## 2025年
 
-### 2025年 · 第15题 · 填空题
+### 01 · 2025-15 · 填空题
 
-(15) 微分方程 $\left( 2y - 3x \right) \mathrm{d} x + \left( 2x - 5y \right) \mathrm{d} y = 0$ 满足条件 $y\left( 1 \right) = 1$ 的解为 ______ .
+<img src="../bank/2025/q15.png" alt="2025-15" style="display: block; width: 43.93em; max-width: 100%; height: auto; margin: 12px 0;">
 
 ---
 
 ## 2024年
 
-### 2024年 · 第13题 · 填空题
+### 02 · 2024-13 · 填空题
 
-> 变量代换型微分方程。看到 $x+y$ 捆在一起，果断设新变量 $u = x+y$，方程立刻化成分离变量方程，千万别直接硬解。
+> *变量代换型微分方程。看到 $x+y$ 捆在一起，果断设新变量 $u = x+y$，方程立刻化成分离变量方程，千万别直接硬解。*
 
-(13) 微分方程 $\displaystyle y'=\frac{1}{(x+y)^2}$ 满足初始条件 $y(1)=0$ 的解为 ______
+<img src="../bank/2024/q13.png" alt="2024-13" style="display: block; width: 36.68em; max-width: 100%; height: auto; margin: 12px 0;">
 
 *关联章节：[多元复合函数与隐函数求导](17-chain-implicit.md)*
 
@@ -30,15 +30,11 @@
 
 ## 2023年
 
-### 2023年 · 第17题 · 解答题
+### 03 · 2023-17 · 解答题
 
-> 切线与微分方程综合大题。根据切线法线斜率列出一阶线性方程求出曲线，第二问求极值严格按导数符号讨论。
+> *切线与微分方程综合大题。根据切线法线斜率列出一阶线性方程求出曲线，第二问求极值严格按导数符号讨论。*
 
-设曲线 $\boldsymbol L:y=y(x)$ （ $x>e$ ）经过点 $(e^2,0)$ ，且 $\boldsymbol L$ 上任一点 $P(x,y)$ 到 $y$ 轴的距离等于该点处切线在 $y$ 轴上的截距。
-
-1. 求 $y(x)$ ；
-
-2. 在 $\boldsymbol L$ 上求一点，使该点处的切线与两坐标轴所围三角形的面积最小，并求此最小面积。
+<img src="../bank/2023/q17.png" alt="2023-17" style="display: block; width: 48.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
 *关联章节：[单调性、极值与零点个数](06-monotonicity-extrema.md) · [切线、法线、渐近线与曲率](09-curve-geometry.md)*
 
@@ -46,9 +42,9 @@
 
 ## 2022年
 
-### 2022年 · 第18题 · 解答题
+### 04 · 2022-18 · 解答题
 
-设函数 $y\left( x \right)$ 是微分方程 $2x y^{\prime} - 4y = 2\ln x - 1$ 的满足条件 $y\left( 1 \right) = \frac{1}{4}$ 的解，求曲线 $y = y\left( x \right)$ 在 $\left[ 1,e \right]$ 上的弧长.
+<img src="../bank/2022/q18.png" alt="2022-18" style="display: block; width: 48.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
 *关联章节：[定积分应用](13-integral-applications.md)*
 
@@ -56,15 +52,11 @@
 
 ## 2021年
 
-### 2021年 · 第20题 · 解答题
+### 05 · 2021-20 · 解答题
 
-> 一阶线性方程与法线截距。第一问套公式求通解；第二问写出法线方程令 $x=0$ 得到截距函数 $I_y(x)$，求导求最小值即可。
+> *一阶线性方程与法线截距。第一问套公式求通解；第二问写出法线方程令 $x=0$ 得到截距函数 $I_y(x)$，求导求最小值即可。*
 
-函数 $y=y(x)$ 的微分方程 $\displaystyle xy'-6y=-6,$ 满足 $y\left(\sqrt{3}\right)=10$ 。
-
-1. 求 $y(x)$ ；
-
-2. $P$ 为曲线 $y=y(x)$ 上的一点，曲线在点 $P$ 的法线在 $y$ 轴上的截距为 $I_y$ 。为使 $I_y$ 最小，求 $P$ 的坐标。
+<img src="../bank/2021/q20.png" alt="2021-20" style="display: block; width: 48.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
 *关联章节：[切线、法线、渐近线与曲率](09-curve-geometry.md) · [单调性、极值与零点个数](06-monotonicity-extrema.md)*
 
@@ -72,9 +64,9 @@
 
 ## 2020年
 
-### 2020年 · 第21题 · 解答题
+### 06 · 2020-21 · 解答题
 
-设函数 $f\left( x \right)$ 可导，且 $f^{\prime}\left( x \right)>0$ ，曲线 $y=f\left( x \right)\left( x\geq 0 \right)$ 经过坐标原点 $O$ 。 $M$ 为其上任意一点，点 $M$ 处的切线与 $x$ 轴交于点 $T$ ，又 $MP$ 垂直 $x$ 轴于点 $P$ 。已知由曲线 $y=f\left( x \right)$ 、直线 $MP$ 以及 $x$ 轴所围图形的面积与 $\triangle MTP$ 的面积之比恒为 $3:2$ ，求满足上述条件的曲线方程。
+<img src="../bank/2020/q21.png" alt="2020-21" style="display: block; width: 48.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
 *关联章节：[定积分应用](13-integral-applications.md) · [切线、法线、渐近线与曲率](09-curve-geometry.md)*
 
@@ -82,13 +74,9 @@
 
 ## 2019年
 
-### 2019年 · 第17题 · 解答题
+### 07 · 2019-17 · 解答题
 
-$y=y(x)$ 是微分方程 $\displaystyle y'-xy=\frac{1}{2\sqrt{x}}e^{x^2/2}$ 满足 $y(1)=\sqrt e$ 的特解。
-
-（1）求 $y=y(x)$ ；
-
-（2） $D=\{(x,y)\mid 1\le x\le2,\ 0\le y\le y(x)\}$ ，求平面区域 $D$ 绕 $x$ 轴旋转成的旋转体体积。
+<img src="../bank/2019/q17.png" alt="2019-17" style="display: block; width: 45.39em; max-width: 100%; height: auto; margin: 12px 0;">
 
 *关联章节：[定积分应用](13-integral-applications.md)*
 
@@ -96,13 +84,11 @@ $y=y(x)$ 是微分方程 $\displaystyle y'-xy=\frac{1}{2\sqrt{x}}e^{x^2/2}$ 满�
 
 ## 2018年
 
-### 2018年 · 第16题 · 解答题
+### 08 · 2018-16 · 解答题
 
-> 积分方程求导题。第二项积分做变量代换 $u=x-t$ 剥离外层 $x$，两端同时求导脱去变限积分符号，转化成一阶线性微分方程。
+> *积分方程求导题。第二项积分做变量代换 $u=x-t$ 剥离外层 $x$，两端同时求导脱去变限积分符号，转化成一阶线性微分方程。*
 
-已知连续函数 $f(x)$ 满足 $\displaystyle \int_0^x f(t)\,\mathrm{d}t+\int_0^x t f(x-t)\,\mathrm{d}t=ax^2.$ （1）求 $f(x)$ ；
-
-（2）若 $f(x)$ 在区间 $[0,1]$ 上的平均值为 $1$ ，求 $a$ 的值。
+<img src="../bank/2018/q16.png" alt="2018-16" style="display: block; width: 37.71em; max-width: 100%; height: auto; margin: 12px 0;">
 
 *关联章节：[定积分、变上限积分与积分性质](11-definite-integrals.md)*
 
@@ -110,9 +96,9 @@ $y=y(x)$ 是微分方程 $\displaystyle y'-xy=\frac{1}{2\sqrt{x}}e^{x^2/2}$ 满�
 
 ## 2017年
 
-### 2017年 · 第21题 · 解答题
+### 09 · 2017-21 · 解答题
 
-设 $y(x)$ 是区间 $\left(0,\frac32\right)$ 内的可导函数，且 $y(1)=0$ 。点 $P$ 是曲线 $L:y=y(x)$ 上任意一点， $L$ 在点 $P$ 处的切线与 $y$ 轴相交于点 $(0,Y_p)$ ，法线与 $x$ 轴相交于点 $(X_p,0)$ 。若 $X_p=Y_p$ ，求 $L$ 上点的坐标 $(x,y)$ 满足的方程。
+<img src="../bank/2017/q21.png" alt="2017-21" style="display: block; width: 48.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
 *关联章节：[切线、法线、渐近线与曲率](09-curve-geometry.md)*
 
@@ -120,25 +106,25 @@ $y=y(x)$ 是微分方程 $\displaystyle y'-xy=\frac{1}{2\sqrt{x}}e^{x^2/2}$ 满�
 
 ## 2016年
 
-### 2016年 · 第11题 · 填空题
+### 10 · 2016-11 · 填空题
 
-(11) 以 $y=x^{2}-e^{x}$ 和 $y=x^{2}$ 为特解的一阶非齐次线性微分方程为 ______ 。
+<img src="../bank/2016/q11.png" alt="2016-11" style="display: block; width: 40.68em; max-width: 100%; height: auto; margin: 12px 0;">
 
 ---
 
 ## 2015年
 
-### 2015年 · 第20题 · 解答题
+### 11 · 2015-20 · 解答题
 
-已知高温物体置于低温介质中，任一时刻该物体温度对时间的变化率与该时刻物体和介质的温差成正比，现将一初始温度为 $120^\circ\mathrm{C}$ 的物体在 $20^\circ\mathrm{C}$ 的恒温介质中冷却， $30\mathrm{min}$ 后该物体降至 $30^\circ\mathrm{C}$ ，若要将该物体的温度继续降至 $21^\circ\mathrm{C}$ ，还需冷却多长时间？
+<img src="../bank/2015/q20.png" alt="2015-20" style="display: block; width: 48.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
 ---
 
 ## 2014年
 
-### 2014年 · 第16题 · 解答题
+### 12 · 2014-16 · 解答题
 
-已知函数 $y=y\left(x\right)$ 满足微分方程 $x^{2}+y^{2}y^{\prime}=1-y^{\prime}$ ，且 $y\left(2\right)=0$ ，求 $y\left(x\right)$ 的极大值和极小值。
+<img src="../bank/2014/q16.png" alt="2014-16" style="display: block; width: 48.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
 *关联章节：[单调性、极值与零点个数](06-monotonicity-extrema.md)*
 
@@ -146,25 +132,25 @@ $y=y(x)$ 是微分方程 $\displaystyle y'-xy=\frac{1}{2\sqrt{x}}e^{x^2/2}$ 满�
 
 ## 2012年
 
-### 2012年 · 第12题 · 填空题
+### 13 · 2012-12 · 填空题
 
-(12) 微分方程 $y\mathrm{d}x+\left(x-3y^{2}\right)\mathrm{d}y=0$ 满足初始条件 $\left.y\right|_{x=1}=1$ 的解为 ______ 。
+<img src="../bank/2012/q12.png" alt="2012-12" style="display: block; width: 41.96em; max-width: 100%; height: auto; margin: 12px 0;">
 
 ---
 
 ## 2011年
 
-### 2011年 · 第10题 · 填空题
+### 14 · 2011-10 · 填空题
 
-(10) 微分方程 $y^{\prime}-y=e^{x}\cos x$ 满足条件 $y\left(0\right)=0$ 的解为 ______ .
+<img src="../bank/2011/q10.png" alt="2011-10" style="display: block; width: 36.57em; max-width: 100%; height: auto; margin: 12px 0;">
 
 ---
 
-### 2011年 · 第18题 · 解答题
+### 15 · 2011-18 · 解答题
 
-> 别被倾角唬住，$\tan\alpha = y'$，两边求导就是 $\alpha' = \frac{y''}{1+y'^2}$。令 $p=y'$ 当一阶方程算。
+> *别被倾角唬住，$\tan\alpha = y'$，两边求导就是 $\alpha' = \frac{y''}{1+y'^2}$。令 $p=y'$ 当一阶方程算。*
 
-设函数 $y\left(x\right)$ 具有二阶导数，且曲线 $l:y=y\left(x\right)$ 与直线 $y=x$ 相切于原点，记 $\alpha$ 为曲线 $l$ 在点 $\left(x,y\right)$ 处切线的倾角，若 $\frac{\mathrm{d}\alpha}{\mathrm{d}x}=\frac{\mathrm{d}y}{\mathrm{d}x}$ ，求 $y\left(x\right)$ 的表达式。
+<img src="../bank/2011/q18.png" alt="2011-18" style="display: block; width: 48.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
 *关联章节：[切线、法线、渐近线与曲率](09-curve-geometry.md)*
 
@@ -172,13 +158,9 @@ $y=y(x)$ 是微分方程 $\displaystyle y'-xy=\frac{1}{2\sqrt{x}}e^{x^2/2}$ 满�
 
 ## 2010年
 
-### 2010年 · 第2题 · 选择题
+### 16 · 2010-02 · 选择题
 
-(2) 设 $y_{1}, y_{2}$ 是一阶线性非齐次微分方程 $y^{\prime} + p \left(x\right)y = q \left(x\right)$ 的两个特解，若常数 $\lambda, \mu$ 使 $\lambda y_{1} + \mu y_{2}$ 是该方程的解， $\lambda y_{1} - \mu y_{2}$ 是该方程对应的齐次方程的解，则（ ）
-
-(A) $\lambda = \frac{1}{2}, \mu = \frac{1}{2}$ .　　(B) $\lambda = -\frac{1}{2}, \mu = -\frac{1}{2}$ .
-
-(C) $\lambda = \frac{2}{3}, \mu = \frac{1}{3}$ .　　(D) $\lambda = \frac{2}{3}, \mu = \frac{2}{3}$ .
+<img src="../bank/2010/q02.png" alt="2010-02" style="display: block; width: 48.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
 ---
 

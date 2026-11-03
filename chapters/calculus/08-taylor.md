@@ -10,49 +10,37 @@
 
 ## 2024年
 
-### 2024年 · 第14题 · 填空题
+### 01 · 2024-14 · 填空题
 
-> 高阶导数计算。求 $x^2(e^x-1)$ 的 5 阶导，直接上莱布尼茨公式，因为 $x^2$ 求导三次就变 0，实际只需算前三项，千万别硬求五次。
+> *高阶导数计算。求 $x^2(e^x-1)$ 的 5 阶导，直接上莱布尼茨公式，因为 $x^2$ 求导三次就变 0，实际只需算前三项，千万别硬求五次。*
 
-(14) 已知函数 $\displaystyle f(x)=x^2(e^x-1),$ 则 $\displaystyle f^{(5)}(1)=$ ______ .
+<img src="../bank/2024/q14.png" alt="2024-14" style="display: block; width: 30.93em; max-width: 100%; height: auto; margin: 12px 0;">
 
 ---
 
 ## 2021年
 
-### 2021年 · 第5题 · 选择题
+### 02 · 2021-05 · 选择题
 
-(5) 设函数 $f(x)=\sec x$ 在 $x=0$ 处的 2 次泰勒多项式为 $1+ax+bx^2$ ，则
-
-(A) $a=1$ ， $b=-\dfrac{1}{2}$　　(B) $a=1$ ， $b=\dfrac{1}{2}$
-
-(C) $a=0$ ， $b=-\dfrac{1}{2}$　　(D) $a=0$ ， $b=\dfrac{1}{2}$
+<img src="../bank/2021/q05.png" alt="2021-05" style="display: block; width: 36.71em; max-width: 100%; height: auto; margin: 12px 0;">
 
 ---
 
 ## 2020年
 
-### 2020年 · 第4题 · 选择题
+### 03 · 2020-04 · 选择题
 
-> 高阶导数系数题。把 $\ln(1-x)$ 展开成麦克劳林级数，再乘前面的 $x^2$，对比 $x^n$ 项系数和高阶导公式 $f^{(n)}(0)/n!$，秒出答案。
+> *高阶导数系数题。把 $\ln(1-x)$ 展开成麦克劳林级数，再乘前面的 $x^2$，对比 $x^n$ 项系数和高阶导公式 $f^{(n)}(0)/n!$，秒出答案。*
 
-(4) 已知函数 $f\left( x \right) = x^{2} \ln \left( 1-x \right)$ ，当 $n \geq 3$ 时， $f^{\left( n \right)}\left( 0 \right) =$
-
-(A) $-\dfrac{n!}{n-2}$　　(B) $\dfrac{n!}{n-2}$
-
-(C) $-\dfrac{\left( n-2 \right)!}{n}$　　(D) $\dfrac{\left( n-2 \right)!}{n}$
+<img src="../bank/2020/q04.png" alt="2020-04" style="display: block; width: 33.18em; max-width: 100%; height: auto; margin: 12px 0;">
 
 ---
 
 ## 2019年
 
-### 2019年 · 第6题 · 选择题
+### 04 · 2019-06 · 选择题
 
-(6) 已知 $f(x),g(x)$ 二阶可导且在 $x=a$ 处连续，则 $f(x),g(x)$ 相切于 $a$ 且曲率相等是 $\displaystyle \lim\limits_{x\to a}\frac{f(x)-g(x)}{(x-a)^2}=0$ 的
-
-(A) 充分非必要条件　　(B) 充分必要条件
-
-(C) 必要非充分条件　　(D) 既非充分又非必要条件
+<img src="../bank/2019/q06.png" alt="2019-06" style="display: block; width: 48.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
 *关联章节：[切线、法线、渐近线与曲率](09-curve-geometry.md) · [函数极限与无穷小](01-limits.md)*
 
@@ -60,11 +48,11 @@
 
 ## 2016年
 
-### 2016年 · 第12题 · 填空题
+### 05 · 2016-12 · 填空题
 
-> 两边求一次导直接变成一阶微分方程，解出 $f(x)$ 之后看指数通项，别傻傻逐次求导找规律。
+> *两边求一次导直接变成一阶微分方程，解出 $f(x)$ 之后看指数通项，别傻傻逐次求导找规律。*
 
-(12) 已知函数 $f(x)$ 在 $(-\infty,+\infty)$ 上连续，且 $\displaystyle f(x)=(x+1)^2+2\int_0^x f(t)\,\mathrm{d}t,$ 则当 $n\geqslant 2$ 时， $f^{(n)}(0)=$ ______ 。
+<img src="../bank/2016/q12.png" alt="2016-12" style="display: block; width: 48.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
 *关联章节：[定积分、变上限积分与积分性质](11-definite-integrals.md) · [一阶微分方程](14-first-order-ode.md)*
 
@@ -72,9 +60,9 @@
 
 ## 2015年
 
-### 2015年 · 第10题 · 填空题
+### 06 · 2015-10 · 填空题
 
-(10) 函数 $f\left(x\right)=x^{2}\cdot 2^{x}$ 在 $x=0$ 处的 $n$ 阶导数 $f^{\left(n\right)}\left(0\right)=$ ______ .
+<img src="../bank/2015/q10.png" alt="2015-10" style="display: block; width: 37.61em; max-width: 100%; height: auto; margin: 12px 0;">
 
 *关联章节：[导数、微分与求导法则](04-derivatives.md)*
 
@@ -82,9 +70,9 @@
 
 ## 2010年
 
-### 2010年 · 第11题 · 填空题
+### 07 · 2010-11 · 填空题
 
-(11) 函数 $y = \ln \left(1 - 2x\right)$ 在 $x = 0$ 处的 $n$ 阶导数 $y^{\left(n\right)}\left(0\right) =$ ______ ..
+<img src="../bank/2010/q11.png" alt="2010-11" style="display: block; width: 38.39em; max-width: 100%; height: auto; margin: 12px 0;">
 
 ---
 
