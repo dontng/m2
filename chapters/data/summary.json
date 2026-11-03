@@ -7,6 +7,7 @@
       "id": "l01",
       "title": "行列式",
       "path": "linear-algebra/01-determinants.html",
+      "mdPath": "linear-algebra/01-determinants.md",
       "questions": 10,
       "relatedReferences": 4,
       "questionIds": [
@@ -26,6 +27,7 @@
       "id": "l02",
       "title": "矩阵运算、逆矩阵与初等变换",
       "path": "linear-algebra/02-matrices.html",
+      "mdPath": "linear-algebra/02-matrices.md",
       "questions": 10,
       "relatedReferences": 9,
       "questionIds": [
@@ -45,6 +47,7 @@
       "id": "l03",
       "title": "向量组、线性相关与秩",
       "path": "linear-algebra/03-vectors-rank.html",
+      "mdPath": "linear-algebra/03-vectors-rank.md",
       "questions": 16,
       "relatedReferences": 11,
       "questionIds": [
@@ -70,6 +73,7 @@
       "id": "l04",
       "title": "线性方程组",
       "path": "linear-algebra/04-linear-systems.html",
+      "mdPath": "linear-algebra/04-linear-systems.md",
       "questions": 11,
       "relatedReferences": 7,
       "questionIds": [
@@ -90,6 +94,7 @@
       "id": "l05",
       "title": "特征值、特征向量与相似",
       "path": "linear-algebra/05-eigenvalues-similarity.html",
+      "mdPath": "linear-algebra/05-eigenvalues-similarity.md",
       "questions": 22,
       "relatedReferences": 12,
       "questionIds": [
@@ -121,6 +126,7 @@
       "id": "l06",
       "title": "二次型",
       "path": "linear-algebra/06-quadratic-forms.html",
+      "mdPath": "linear-algebra/06-quadratic-forms.md",
       "questions": 16,
       "relatedReferences": 2,
       "questionIds": [
@@ -146,6 +152,7 @@
       "id": "c01",
       "title": "函数极限与无穷小",
       "path": "calculus/01-limits.html",
+      "mdPath": "calculus/01-limits.md",
       "questions": 27,
       "relatedReferences": 14,
       "questionIds": [
@@ -182,6 +189,7 @@
       "id": "c02",
       "title": "数列极限与求和极限",
       "path": "calculus/02-sequences.html",
+      "mdPath": "calculus/02-sequences.md",
       "questions": 15,
       "relatedReferences": 3,
       "questionIds": [
@@ -206,6 +214,7 @@
       "id": "c03",
       "title": "连续与间断点",
       "path": "calculus/03-continuity.html",
+      "mdPath": "calculus/03-continuity.md",
       "questions": 6,
       "relatedReferences": 6,
       "questionIds": [
@@ -221,6 +230,7 @@
       "id": "c04",
       "title": "导数、微分与求导法则",
       "path": "calculus/04-derivatives.html",
+      "mdPath": "calculus/04-derivatives.md",
       "questions": 23,
       "relatedReferences": 12,
       "questionIds": [
@@ -253,6 +263,7 @@
       "id": "c05",
       "title": "中值定理、零点与不等式证明",
       "path": "calculus/05-mean-value-proofs.html",
+      "mdPath": "calculus/05-mean-value-proofs.md",
       "questions": 11,
       "relatedReferences": 12,
       "questionIds": [
@@ -273,6 +284,7 @@
       "id": "c06",
       "title": "单调性、极值与零点个数",
       "path": "calculus/06-monotonicity-extrema.html",
+      "mdPath": "calculus/06-monotonicity-extrema.md",
       "questions": 13,
       "relatedReferences": 9,
       "questionIds": [
@@ -295,6 +307,7 @@
       "id": "c07",
       "title": "凹凸性与拐点",
       "path": "calculus/07-convexity.html",
+      "mdPath": "calculus/07-convexity.md",
       "questions": 8,
       "relatedReferences": 11,
       "questionIds": [
@@ -312,6 +325,7 @@
       "id": "c08",
       "title": "泰勒公式与高阶导数",
       "path": "calculus/08-taylor.html",
+      "mdPath": "calculus/08-taylor.md",
       "questions": 7,
       "relatedReferences": 16,
       "questionIds": [
@@ -328,6 +342,7 @@
       "id": "c09",
       "title": "切线、法线、渐近线与曲率",
       "path": "calculus/09-curve-geometry.html",
+      "mdPath": "calculus/09-curve-geometry.md",
       "questions": 20,
       "relatedReferences": 9,
       "questionIds": [
@@ -357,6 +372,7 @@
       "id": "c10",
       "title": "不定积分与原函数",
       "path": "calculus/10-antiderivatives.html",
+      "mdPath": "calculus/10-antiderivatives.md",
       "questions": 4,
       "relatedReferences": 1,
       "questionIds": [
@@ -370,6 +386,7 @@
       "id": "c11",
       "title": "定积分、变上限积分与积分性质",
       "path": "calculus/11-definite-integrals.html",
+      "mdPath": "calculus/11-definite-integrals.md",
       "questions": 21,
       "relatedReferences": 33,
       "questionIds": [
@@ -400,6 +417,7 @@
       "id": "c12",
       "title": "反常积分",
       "path": "calculus/12-improper-integrals.html",
+      "mdPath": "calculus/12-improper-integrals.md",
       "questions": 15,
       "relatedReferences": 5,
       "questionIds": [
@@ -424,6 +442,7 @@
       "id": "c13",
       "title": "定积分应用",
       "path": "calculus/13-integral-applications.html",
+      "mdPath": "calculus/13-integral-applications.md",
       "questions": 27,
       "relatedReferences": 4,
       "questionIds": [
@@ -460,6 +479,7 @@
       "id": "c14",
       "title": "一阶微分方程",
       "path": "calculus/14-first-order-ode.html",
+      "mdPath": "calculus/14-first-order-ode.md",
       "questions": 16,
       "relatedReferences": 3,
       "questionIds": [
@@ -485,6 +505,7 @@
       "id": "c15",
       "title": "高阶微分方程",
       "path": "calculus/15-higher-order-ode.html",
+      "mdPath": "calculus/15-higher-order-ode.md",
       "questions": 17,
       "relatedReferences": 1,
       "questionIds": [
@@ -511,6 +532,7 @@
       "id": "c16",
       "title": "多元函数极限、偏导与全微分",
       "path": "calculus/16-multivariable-basics.html",
+      "mdPath": "calculus/16-multivariable-basics.md",
       "questions": 7,
       "relatedReferences": 11,
       "questionIds": [
@@ -527,6 +549,7 @@
       "id": "c17",
       "title": "多元复合函数与隐函数求导",
       "path": "calculus/17-chain-implicit.html",
+      "mdPath": "calculus/17-chain-implicit.md",
       "questions": 21,
       "relatedReferences": 7,
       "questionIds": [
@@ -557,6 +580,7 @@
       "id": "c18",
       "title": "多元函数极值与最值",
       "path": "calculus/18-multivariable-extrema.html",
+      "mdPath": "calculus/18-multivariable-extrema.md",
       "questions": 13,
       "relatedReferences": 0,
       "questionIds": [
@@ -579,6 +603,7 @@
       "id": "c19",
       "title": "二重积分",
       "path": "calculus/19-double-integrals.html",
+      "mdPath": "calculus/19-double-integrals.md",
       "questions": 29,
       "relatedReferences": 2,
       "questionIds": [
