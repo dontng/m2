@@ -1,5 +1,6 @@
 """从年度试卷 HTML 原样截取真题高清图片库 (bank/{year}/qNN.png)。
-使用系统内置 Chromium Headless + CDP 渲染，保证与真题原卷字体、公式、排版 100% 严谨一致。
+使用 Chromium Headless + CDP 渲染年度 HTML；不是原始试卷扫描件。
+统一截图倍率与画布宽度，不按单题内容宽度缩放文字。
 
 依赖：python3 -m pip install websockets pillow
 执行：PYTHONPATH=/home/djology/.local/lib/python3.10/site-packages python3 chapters/scripts/crop_bank.py
@@ -10,6 +11,7 @@ for k in ['http_proxy', 'https_proxy', 'HTTP_PROXY', 'HTTPS_PROXY', 'all_proxy',
 
 import websockets
 from PIL import Image
+from image_geometry import CAPTURE_SCALE, SOURCE_FONT_PX, fixed_canvas, write_manifest
 
 ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..'))
 BANK_DIR = os.path.join(ROOT, 'chapters', 'bank')
@@ -69,11 +71,22 @@ async def main():
                                 return resp
 
                     # 等待 KaTeX 数学公式渲染和字体加载
-                    for _ in range(50):
+                    for _ in range(100):
                         await asyncio.sleep(0.1)
                         r = await send_page('Runtime.evaluate', {'expression': 'document.body && document.body.dataset.ready === "true"'})
                         if r.get('result', {}).get('result', {}).get('value') is True:
                             break
+                    else:
+                        raise RuntimeError(f'{year}: fonts/formulas did not finish loading')
+
+                    # A common source font is required before a common image scale.
+                    font_result = await send_page('Runtime.evaluate', {
+                        'expression': 'Array.from(document.querySelectorAll(".question-stem, .question-subjective-content, .question-score-title")).map(q => parseFloat(getComputedStyle(q).fontSize))',
+                        'returnByValue': True
+                    })
+                    font_sizes = font_result['result']['result']['value']
+                    if not font_sizes or any(abs(size - SOURCE_FONT_PX) > 0.01 for size in font_sizes):
+                        raise RuntimeError(f'{year}: inconsistent source font sizes: {set(font_sizes)}')
 
                     # 隐藏屏幕操作栏与解答题答题空白区
                     await send_page('Runtime.evaluate', {
@@ -110,7 +123,7 @@ async def main():
                                 'y': q['y'],
                                 'width': q['width'],
                                 'height': q['height'],
-                                'scale': 2
+                                'scale': CAPTURE_SCALE
                             },
                             'captureBeyondViewport': True
                         })
@@ -125,14 +138,15 @@ async def main():
                             box = (max(0, bbox[0] - pad), max(0, bbox[1] - pad), min(w, bbox[2] + pad), min(h, bbox[3] + pad))
                             im = im.crop(box)
                         out_path = os.path.join(year_bank, f"q{q['num']:02d}.png")
-                        im.save(out_path)
+                        fixed_canvas(im).save(out_path)
                         total_saved += 1
 
                     print(f'{year}: 成功截取 {len(q_list)} 道原卷题目。')
 
                 await send_cmd(b_ws, 'Target.closeTarget', {'targetId': target_id})
 
-            print(f'全部完成！总共截取保存 {total_saved} 张原卷高清题面。')
+            write_manifest()
+            print(f'全部完成！总共截取保存 {total_saved} 张年度 HTML 题面；统一画布与显示比例。')
     finally:
         proc.terminate()
 

@@ -12,7 +12,9 @@
 
 ### 01 · 2026-15 · 填空题
 
-<img src="../bank/2026/q15.png" alt="2026-15" style="display: block; width: 34.79em; max-width: 100%; height: auto; margin: 12px 0;">
+<div style="max-width:100%; overflow-x:auto;">
+<img src="../bank/2026/q15.png" alt="2026-15" width="772" style="display:block; width:48.275862em; max-width:none; height:auto; margin:12px 0;">
+</div>
 
 ---
 
@@ -20,7 +22,9 @@
 
 > *开篇变限积分大题。被积函数含复合项 $xt$，先换元 $u=xt$ 把变量 $x$ 提出来剥离干净再求导；第二问连续性注意在 $x=0$ 处必须用极限定义验证。*
 
-<img src="../bank/2026/q18.png" alt="2026-18" style="display: block; width: 48.0em; max-width: 100%; height: auto; margin: 12px 0;">
+<div style="max-width:100%; overflow-x:auto;">
+<img src="../bank/2026/q18.png" alt="2026-18" width="772" style="display:block; width:48.275862em; max-width:none; height:auto; margin:12px 0;">
+</div>
 
 *关联章节：[导数、微分与求导法则](04-derivatives.md) · [连续与间断点](03-continuity.md)*
 
@@ -30,7 +34,9 @@
 
 ### 03 · 2025-17 · 解答题
 
-<img src="../bank/2025/q17.png" alt="2025-17" style="display: block; width: 14.32em; max-width: 100%; height: auto; margin: 12px 0;">
+<div style="max-width:100%; overflow-x:auto;">
+<img src="../bank/2025/q17.png" alt="2025-17" width="772" style="display:block; width:48.275862em; max-width:none; height:auto; margin:12px 0;">
+</div>
 
 ---
 
@@ -38,7 +44,9 @@
 
 ### 04 · 2024-03 · 选择题
 
-<img src="../bank/2024/q03.png" alt="2024-03" style="display: block; width: 43.82em; max-width: 100%; height: auto; margin: 12px 0;">
+<div style="max-width:100%; overflow-x:auto;">
+<img src="../bank/2024/q03.png" alt="2024-03" width="772" style="display:block; width:48.275862em; max-width:none; height:auto; margin:12px 0;">
+</div>
 
 *关联章节：[函数极限与无穷小](01-limits.md)*
 
@@ -48,7 +56,9 @@
 
 ### 05 · 2023-15 · 填空题
 
-<img src="../bank/2023/q15.png" alt="2023-15" style="display: block; width: 48.0em; max-width: 100%; height: auto; margin: 12px 0;">
+<div style="max-width:100%; overflow-x:auto;">
+<img src="../bank/2023/q15.png" alt="2023-15" width="772" style="display:block; width:48.275862em; max-width:none; height:auto; margin:12px 0;">
+</div>
 
 ---
 
@@ -56,13 +66,17 @@
 
 ### 06 · 2022-07 · 选择题
 
-<img src="../bank/2022/q07.png" alt="2022-07" style="display: block; width: 46.64em; max-width: 100%; height: auto; margin: 12px 0;">
+<div style="max-width:100%; overflow-x:auto;">
+<img src="../bank/2022/q07.png" alt="2022-07" width="772" style="display:block; width:48.275862em; max-width:none; height:auto; margin:12px 0;">
+</div>
 
 ---
 
 ### 07 · 2022-13 · 填空题
 
-<img src="../bank/2022/q13.png" alt="2022-13" style="display: block; width: 18.18em; max-width: 100%; height: auto; margin: 12px 0;">
+<div style="max-width:100%; overflow-x:auto;">
+<img src="../bank/2022/q13.png" alt="2022-13" width="772" style="display:block; width:48.275862em; max-width:none; height:auto; margin:12px 0;">
+</div>
 
 ---
 
@@ -70,7 +84,9 @@
 
 ### 08 · 2021-07 · 选择题
 
-<img src="../bank/2021/q07.png" alt="2021-07" style="display: block; width: 39.68em; max-width: 100%; height: auto; margin: 12px 0;">
+<div style="max-width:100%; overflow-x:auto;">
+<img src="../bank/2021/q07.png" alt="2021-07" width="772" style="display:block; width:48.275862em; max-width:none; height:auto; margin:12px 0;">
+</div>
 
 *关联章节：[数列极限与求和极限](02-sequences.md)*
 
@@ -78,7 +94,9 @@
 
 ### 09 · 2021-14 · 填空题
 
-<img src="../bank/2021/q14.png" alt="2021-14" style="display: block; width: 34.5em; max-width: 100%; height: auto; margin: 12px 0;">
+<div style="max-width:100%; overflow-x:auto;">
+<img src="../bank/2021/q14.png" alt="2021-14" width="772" style="display:block; width:48.275862em; max-width:none; height:auto; margin:12px 0;">
+</div>
 
 *关联章节：[二重积分](19-double-integrals.md)*
 
@@ -88,7 +106,9 @@
 
 ### 10 · 2020-03 · 选择题
 
-<img src="../bank/2020/q03.png" alt="2020-03" style="display: block; width: 41.89em; max-width: 100%; height: auto; margin: 12px 0;">
+<div style="max-width:100%; overflow-x:auto;">
+<img src="../bank/2020/q03.png" alt="2020-03" width="772" style="display:block; width:48.275862em; max-width:none; height:auto; margin:12px 0;">
+</div>
 
 ---
 
@@ -96,7 +116,9 @@
 
 > *抽象连续函数极值大题。利用极限条件把 $f(x)$ 在 0 点的局部性质看作 $f(x) \sim x$，变上限积分求导找驻点，利用二阶导正负判断极值。*
 
-<img src="../bank/2020/q16.png" alt="2020-16" style="display: block; width: 48.0em; max-width: 100%; height: auto; margin: 12px 0;">
+<div style="max-width:100%; overflow-x:auto;">
+<img src="../bank/2020/q16.png" alt="2020-16" width="772" style="display:block; width:48.275862em; max-width:none; height:auto; margin:12px 0;">
+</div>
 
 *关联章节：[导数、微分与求导法则](04-derivatives.md) · [连续与间断点](03-continuity.md)*
 
@@ -106,7 +128,9 @@
 
 ### 12 · 2019-13 · 填空题
 
-<img src="../bank/2019/q13.png" alt="2019-13" style="display: block; width: 33.75em; max-width: 100%; height: auto; margin: 12px 0;">
+<div style="max-width:100%; overflow-x:auto;">
+<img src="../bank/2019/q13.png" alt="2019-13" width="772" style="display:block; width:48.275862em; max-width:none; height:auto; margin:12px 0;">
+</div>
 
 ---
 
@@ -114,7 +138,9 @@
 
 ### 13 · 2018-05 · 选择题
 
-<img src="../bank/2018/q05.png" alt="2018-05" style="display: block; width: 47.14em; max-width: 100%; height: auto; margin: 12px 0;">
+<div style="max-width:100%; overflow-x:auto;">
+<img src="../bank/2018/q05.png" alt="2018-05" width="772" style="display:block; width:48.275862em; max-width:none; height:auto; margin:12px 0;">
+</div>
 
 ---
 
@@ -124,7 +150,9 @@
 
 > *定积分不等式与中值大题。利用积分均值定理与导数单调性，构造辅助函数将定积分与端点值联系起来，两小问层层递进。*
 
-<img src="../bank/2016/q21.png" alt="2016-21" style="display: block; width: 46.46em; max-width: 100%; height: auto; margin: 12px 0;">
+<div style="max-width:100%; overflow-x:auto;">
+<img src="../bank/2016/q21.png" alt="2016-21" width="772" style="display:block; width:48.275862em; max-width:none; height:auto; margin:12px 0;">
+</div>
 
 *关联章节：[中值定理、零点与不等式证明](05-mean-value-proofs.md) · [单调性、极值与零点个数](06-monotonicity-extrema.md)*
 
@@ -134,7 +162,9 @@
 
 ### 15 · 2015-11 · 填空题
 
-<img src="../bank/2015/q11.png" alt="2015-11" style="display: block; width: 46.29em; max-width: 100%; height: auto; margin: 12px 0;">
+<div style="max-width:100%; overflow-x:auto;">
+<img src="../bank/2015/q11.png" alt="2015-11" width="772" style="display:block; width:48.275862em; max-width:none; height:auto; margin:12px 0;">
+</div>
 
 *关联章节：[导数、微分与求导法则](04-derivatives.md)*
 
@@ -144,7 +174,9 @@
 
 ### 16 · 2014-10 · 填空题
 
-<img src="../bank/2014/q10.png" alt="2014-10" style="display: block; width: 48.0em; max-width: 100%; height: auto; margin: 12px 0;">
+<div style="max-width:100%; overflow-x:auto;">
+<img src="../bank/2014/q10.png" alt="2014-10" width="772" style="display:block; width:48.275862em; max-width:none; height:auto; margin:12px 0;">
+</div>
 
 *关联章节：[函数极限与无穷小](01-limits.md)*
 
@@ -152,7 +184,9 @@
 
 ### 17 · 2014-19 · 解答题
 
-<img src="../bank/2014/q19.png" alt="2014-19" style="display: block; width: 41.79em; max-width: 100%; height: auto; margin: 12px 0;">
+<div style="max-width:100%; overflow-x:auto;">
+<img src="../bank/2014/q19.png" alt="2014-19" width="772" style="display:block; width:48.275862em; max-width:none; height:auto; margin:12px 0;">
+</div>
 
 *关联章节：[中值定理、零点与不等式证明](05-mean-value-proofs.md)*
 
@@ -162,7 +196,9 @@
 
 ### 18 · 2013-03 · 选择题
 
-<img src="../bank/2013/q03.png" alt="2013-03" style="display: block; width: 45.36em; max-width: 100%; height: auto; margin: 12px 0;">
+<div style="max-width:100%; overflow-x:auto;">
+<img src="../bank/2013/q03.png" alt="2013-03" width="772" style="display:block; width:48.275862em; max-width:none; height:auto; margin:12px 0;">
+</div>
 
 *关联章节：[连续与间断点](03-continuity.md) · [导数、微分与求导法则](04-derivatives.md)*
 
@@ -172,7 +208,9 @@
 
 ### 19 · 2012-04 · 选择题
 
-<img src="../bank/2012/q04.png" alt="2012-04" style="display: block; width: 46.68em; max-width: 100%; height: auto; margin: 12px 0;">
+<div style="max-width:100%; overflow-x:auto;">
+<img src="../bank/2012/q04.png" alt="2012-04" width="772" style="display:block; width:48.275862em; max-width:none; height:auto; margin:12px 0;">
+</div>
 
 ---
 
@@ -180,7 +218,9 @@
 
 ### 20 · 2011-06 · 选择题
 
-<img src="../bank/2011/q06.png" alt="2011-06" style="display: block; width: 46.25em; max-width: 100%; height: auto; margin: 12px 0;">
+<div style="max-width:100%; overflow-x:auto;">
+<img src="../bank/2011/q06.png" alt="2011-06" width="772" style="display:block; width:48.275862em; max-width:none; height:auto; margin:12px 0;">
+</div>
 
 ---
 
@@ -190,7 +230,9 @@
 
 > *对数幂次积分比较与极限。第一问比较大小直接在被积区间 $[0,1]$ 上比被积函数大小；第二问通过分部积分找到递推关系式，用夹逼定理求极限。*
 
-<img src="../bank/2010/q16.png" alt="2010-16" style="display: block; width: 42.68em; max-width: 100%; height: auto; margin: 12px 0;">
+<div style="max-width:100%; overflow-x:auto;">
+<img src="../bank/2010/q16.png" alt="2010-16" width="772" style="display:block; width:48.275862em; max-width:none; height:auto; margin:12px 0;">
+</div>
 
 *关联章节：[数列极限与求和极限](02-sequences.md) · [中值定理、零点与不等式证明](05-mean-value-proofs.md)*
 

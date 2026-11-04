@@ -14,7 +14,9 @@
 
 > *反交换矩阵特征值性质题。由 $AB+BA=O$ 得 $AB=-BA$。利用特征值迹或行列式反号性质，或乘特征向量分析对称分布，迅速排除错误项。*
 
-<img src="../bank/2026/q10.png" alt="2026-10" style="display: block; width: 46.57em; max-width: 100%; height: auto; margin: 12px 0;">
+<div style="max-width:100%; overflow-x:auto;">
+<img src="../bank/2026/q10.png" alt="2026-10" width="772" style="display:block; width:48.275862em; max-width:none; height:auto; margin:12px 0;">
+</div>
 
 *关联章节：[矩阵运算、逆矩阵与初等变换](02-matrices.md) · [向量组、线性相关与秩](03-vectors-rank.md)*
 
@@ -26,7 +28,9 @@
 
 > *实对称矩阵相似与行列式。实对称矩阵必可正交对角化。利用特征多项式或迹与行列式性质，建立 $a, b$ 的方程直接定解。*
 
-<img src="../bank/2025/q08.png" alt="2025-08" style="display: block; width: 47.14em; max-width: 100%; height: auto; margin: 12px 0;">
+<div style="max-width:100%; overflow-x:auto;">
+<img src="../bank/2025/q08.png" alt="2025-08" width="772" style="display:block; width:48.275862em; max-width:none; height:auto; margin:12px 0;">
+</div>
 
 *关联章节：[二次型](06-quadratic-forms.md) · [行列式](01-determinants.md)*
 
@@ -36,7 +40,9 @@
 
 ### 03 · 2024-10 · 选择题
 
-<img src="../bank/2024/q10.png" alt="2024-10" style="display: block; width: 48.0em; max-width: 100%; height: auto; margin: 12px 0;">
+<div style="max-width:100%; overflow-x:auto;">
+<img src="../bank/2024/q10.png" alt="2024-10" width="772" style="display:block; width:48.275862em; max-width:none; height:auto; margin:12px 0;">
+</div>
 
 ---
 
@@ -46,7 +52,9 @@
 
 > *向量外积型矩阵幂。条件是 $Ax = (a^T x) b$，说明矩阵 $A = ba^T$（秩 1 矩阵）。计算 $\mathrm{tr}(A)$ 得到非零特征值，矩阵幂直接用数乘规律搞定。*
 
-<img src="../bank/2023/q22.png" alt="2023-22" style="display: block; width: 48.0em; max-width: 100%; height: auto; margin: 12px 0;">
+<div style="max-width:100%; overflow-x:auto;">
+<img src="../bank/2023/q22.png" alt="2023-22" width="772" style="display:block; width:48.275862em; max-width:none; height:auto; margin:12px 0;">
+</div>
 
 *关联章节：[矩阵运算、逆矩阵与初等变换](02-matrices.md)*
 
@@ -58,7 +66,9 @@
 
 > ⚠️ **题面待核对**：原年度转写稿存在疑点，本次保留题面，作答前请核对独立原题来源。
 
-<img src="../bank/2022/q08.png" alt="2022-08" style="display: block; width: 46.75em; max-width: 100%; height: auto; margin: 12px 0;">
+<div style="max-width:100%; overflow-x:auto;">
+<img src="../bank/2022/q08.png" alt="2022-08" width="772" style="display:block; width:48.275862em; max-width:none; height:auto; margin:12px 0;">
+</div>
 
 *关联章节：[矩阵运算、逆矩阵与初等变换](02-matrices.md)*
 
@@ -70,7 +80,9 @@
 
 > *相似对角化大题。矩阵有重特征值时，可对角化的充要条件是重特征值对应的特征矩阵满足 $n - r(\lambda E - A) = \text{重数}$，列出秩方程定参数。*
 
-<img src="../bank/2021/q22.png" alt="2021-22" style="display: block; width: 48.0em; max-width: 100%; height: auto; margin: 12px 0;">
+<div style="max-width:100%; overflow-x:auto;">
+<img src="../bank/2021/q22.png" alt="2021-22" width="772" style="display:block; width:48.275862em; max-width:none; height:auto; margin:12px 0;">
+</div>
 
 ---
 
@@ -78,13 +90,17 @@
 
 ### 07 · 2020-08 · 选择题
 
-<img src="../bank/2020/q08.png" alt="2020-08" style="display: block; width: 48.0em; max-width: 100%; height: auto; margin: 12px 0;">
+<div style="max-width:100%; overflow-x:auto;">
+<img src="../bank/2020/q08.png" alt="2020-08" width="772" style="display:block; width:48.275862em; max-width:none; height:auto; margin:12px 0;">
+</div>
 
 ---
 
 ### 08 · 2020-23 · 解答题
 
-<img src="../bank/2020/q23.png" alt="2020-23" style="display: block; width: 48.0em; max-width: 100%; height: auto; margin: 12px 0;">
+<div style="max-width:100%; overflow-x:auto;">
+<img src="../bank/2020/q23.png" alt="2020-23" width="772" style="display:block; width:48.275862em; max-width:none; height:auto; margin:12px 0;">
+</div>
 
 *关联章节：[矩阵运算、逆矩阵与初等变换](02-matrices.md)*
 
@@ -94,7 +110,9 @@
 
 ### 09 · 2019-23 · 解答题
 
-<img src="../bank/2019/q23.png" alt="2019-23" style="display: block; width: 33.04em; max-width: 100%; height: auto; margin: 12px 0;">
+<div style="max-width:100%; overflow-x:auto;">
+<img src="../bank/2019/q23.png" alt="2019-23" width="772" style="display:block; width:48.275862em; max-width:none; height:auto; margin:12px 0;">
+</div>
 
 ---
 
@@ -102,7 +120,9 @@
 
 ### 10 · 2018-07 · 选择题
 
-<img src="../bank/2018/q07.png" alt="2018-07" style="display: block; width: 24.57em; max-width: 100%; height: auto; margin: 12px 0;">
+<div style="max-width:100%; overflow-x:auto;">
+<img src="../bank/2018/q07.png" alt="2018-07" width="772" style="display:block; width:48.275862em; max-width:none; height:auto; margin:12px 0;">
+</div>
 
 ---
 
@@ -110,19 +130,25 @@
 
 ### 11 · 2017-07 · 选择题
 
-<img src="../bank/2017/q07.png" alt="2017-07" style="display: block; width: 48.0em; max-width: 100%; height: auto; margin: 12px 0;">
+<div style="max-width:100%; overflow-x:auto;">
+<img src="../bank/2017/q07.png" alt="2017-07" width="772" style="display:block; width:48.275862em; max-width:none; height:auto; margin:12px 0;">
+</div>
 
 ---
 
 ### 12 · 2017-08 · 选择题
 
-<img src="../bank/2017/q08.png" alt="2017-08" style="display: block; width: 45.61em; max-width: 100%; height: auto; margin: 12px 0;">
+<div style="max-width:100%; overflow-x:auto;">
+<img src="../bank/2017/q08.png" alt="2017-08" width="772" style="display:block; width:48.275862em; max-width:none; height:auto; margin:12px 0;">
+</div>
 
 ---
 
 ### 13 · 2017-14 · 填空题
 
-<img src="../bank/2017/q14.png" alt="2017-14" style="display: block; width: 39.46em; max-width: 100%; height: auto; margin: 12px 0;">
+<div style="max-width:100%; overflow-x:auto;">
+<img src="../bank/2017/q14.png" alt="2017-14" width="772" style="display:block; width:48.275862em; max-width:none; height:auto; margin:12px 0;">
+</div>
 
 ---
 
@@ -130,13 +156,17 @@
 
 ### 14 · 2016-07 · 选择题
 
-<img src="../bank/2016/q07.png" alt="2016-07" style="display: block; width: 43.0em; max-width: 100%; height: auto; margin: 12px 0;">
+<div style="max-width:100%; overflow-x:auto;">
+<img src="../bank/2016/q07.png" alt="2016-07" width="772" style="display:block; width:48.275862em; max-width:none; height:auto; margin:12px 0;">
+</div>
 
 ---
 
 ### 15 · 2016-23 · 解答题
 
-<img src="../bank/2016/q23.png" alt="2016-23" style="display: block; width: 48.0em; max-width: 100%; height: auto; margin: 12px 0;">
+<div style="max-width:100%; overflow-x:auto;">
+<img src="../bank/2016/q23.png" alt="2016-23" width="772" style="display:block; width:48.275862em; max-width:none; height:auto; margin:12px 0;">
+</div>
 
 *关联章节：[矩阵运算、逆矩阵与初等变换](02-matrices.md) · [向量组、线性相关与秩](03-vectors-rank.md)*
 
@@ -146,7 +176,9 @@
 
 ### 16 · 2015-23 · 解答题
 
-<img src="../bank/2015/q23.png" alt="2015-23" style="display: block; width: 30.25em; max-width: 100%; height: auto; margin: 12px 0;">
+<div style="max-width:100%; overflow-x:auto;">
+<img src="../bank/2015/q23.png" alt="2015-23" width="772" style="display:block; width:48.275862em; max-width:none; height:auto; margin:12px 0;">
+</div>
 
 *关联章节：[行列式](01-determinants.md)*
 
@@ -156,7 +188,9 @@
 
 ### 17 · 2014-23 · 解答题
 
-<img src="../bank/2014/q23.png" alt="2014-23" style="display: block; width: 32.11em; max-width: 100%; height: auto; margin: 12px 0;">
+<div style="max-width:100%; overflow-x:auto;">
+<img src="../bank/2014/q23.png" alt="2014-23" width="772" style="display:block; width:48.275862em; max-width:none; height:auto; margin:12px 0;">
+</div>
 
 ---
 
@@ -164,7 +198,9 @@
 
 ### 18 · 2013-08 · 选择题
 
-<img src="../bank/2013/q08.png" alt="2013-08" style="display: block; width: 38.54em; max-width: 100%; height: auto; margin: 12px 0;">
+<div style="max-width:100%; overflow-x:auto;">
+<img src="../bank/2013/q08.png" alt="2013-08" width="772" style="display:block; width:48.275862em; max-width:none; height:auto; margin:12px 0;">
+</div>
 
 ---
 
@@ -172,7 +208,9 @@
 
 ### 19 · 2012-08 · 选择题
 
-<img src="../bank/2012/q08.png" alt="2012-08" style="display: block; width: 48.0em; max-width: 100%; height: auto; margin: 12px 0;">
+<div style="max-width:100%; overflow-x:auto;">
+<img src="../bank/2012/q08.png" alt="2012-08" width="772" style="display:block; width:48.275862em; max-width:none; height:auto; margin:12px 0;">
+</div>
 
 ---
 
@@ -180,7 +218,9 @@
 
 ### 20 · 2011-23 · 解答题
 
-<img src="../bank/2011/q23.png" alt="2011-23" style="display: block; width: 41.79em; max-width: 100%; height: auto; margin: 12px 0;">
+<div style="max-width:100%; overflow-x:auto;">
+<img src="../bank/2011/q23.png" alt="2011-23" width="772" style="display:block; width:48.275862em; max-width:none; height:auto; margin:12px 0;">
+</div>
 
 ---
 
@@ -188,13 +228,17 @@
 
 ### 21 · 2010-08 · 选择题
 
-<img src="../bank/2010/q08.png" alt="2010-08" style="display: block; width: 40.64em; max-width: 100%; height: auto; margin: 12px 0;">
+<div style="max-width:100%; overflow-x:auto;">
+<img src="../bank/2010/q08.png" alt="2010-08" width="772" style="display:block; width:48.275862em; max-width:none; height:auto; margin:12px 0;">
+</div>
 
 ---
 
 ### 22 · 2010-23 · 解答题
 
-<img src="../bank/2010/q23.png" alt="2010-23" style="display: block; width: 48.0em; max-width: 100%; height: auto; margin: 12px 0;">
+<div style="max-width:100%; overflow-x:auto;">
+<img src="../bank/2010/q23.png" alt="2010-23" width="772" style="display:block; width:48.275862em; max-width:none; height:auto; margin:12px 0;">
+</div>
 
 *关联章节：[二次型](06-quadratic-forms.md)*
 

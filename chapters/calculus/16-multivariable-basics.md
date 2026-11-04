@@ -14,7 +14,9 @@
 
 > *分段函数可微性判定。在 $(0,0)$ 处求偏导必须用定义算；判定可微性时验证极限 $\lim \frac{\Delta z - f_x \Delta x - f_y \Delta y}{\rho} = 0$，放缩后极坐标逼近。*
 
-<img src="../bank/2024/q05.png" alt="2024-05" style="display: block; width: 39.82em; max-width: 100%; height: auto; margin: 12px 0;">
+<div style="max-width:100%; overflow-x:auto;">
+<img src="../bank/2024/q05.png" alt="2024-05" width="772" style="display:block; width:48.275862em; max-width:none; height:auto; margin:12px 0;">
+</div>
 
 ---
 
@@ -24,13 +26,17 @@
 
 > *多命题反例辨析。二阶混合偏导相等要求连续，二元极限存在比累次极限强得多。拿经典马鞍面或分段函数逐条对准性质检验。*
 
-<img src="../bank/2020/q05.png" alt="2020-05" style="display: block; width: 48.0em; max-width: 100%; height: auto; margin: 12px 0;">
+<div style="max-width:100%; overflow-x:auto;">
+<img src="../bank/2020/q05.png" alt="2020-05" width="772" style="display:block; width:48.275862em; max-width:none; height:auto; margin:12px 0;">
+</div>
 
 ---
 
 ### 03 · 2020-11 · 填空题
 
-<img src="../bank/2020/q11.png" alt="2020-11" style="display: block; width: 33.11em; max-width: 100%; height: auto; margin: 12px 0;">
+<div style="max-width:100%; overflow-x:auto;">
+<img src="../bank/2020/q11.png" alt="2020-11" width="772" style="display:block; width:48.275862em; max-width:none; height:auto; margin:12px 0;">
+</div>
 
 ---
 
@@ -38,13 +44,17 @@
 
 ### 04 · 2017-05 · 选择题
 
-<img src="../bank/2017/q05.png" alt="2017-05" style="display: block; width: 40.75em; max-width: 100%; height: auto; margin: 12px 0;">
+<div style="max-width:100%; overflow-x:auto;">
+<img src="../bank/2017/q05.png" alt="2017-05" width="772" style="display:block; width:48.275862em; max-width:none; height:auto; margin:12px 0;">
+</div>
 
 ---
 
 ### 05 · 2017-12 · 填空题
 
-<img src="../bank/2017/q12.png" alt="2017-12" style="display: block; width: 48.0em; max-width: 100%; height: auto; margin: 12px 0;">
+<div style="max-width:100%; overflow-x:auto;">
+<img src="../bank/2017/q12.png" alt="2017-12" width="772" style="display:block; width:48.275862em; max-width:none; height:auto; margin:12px 0;">
+</div>
 
 *关联章节：[多元复合函数与隐函数求导](17-chain-implicit.md)*
 
@@ -54,7 +64,9 @@
 
 ### 06 · 2016-06 · 选择题
 
-<img src="../bank/2016/q06.png" alt="2016-06" style="display: block; width: 35.18em; max-width: 100%; height: auto; margin: 12px 0;">
+<div style="max-width:100%; overflow-x:auto;">
+<img src="../bank/2016/q06.png" alt="2016-06" width="772" style="display:block; width:48.275862em; max-width:none; height:auto; margin:12px 0;">
+</div>
 
 ---
 
@@ -62,7 +74,9 @@
 
 ### 07 · 2012-05 · 选择题
 
-<img src="../bank/2012/q05.png" alt="2012-05" style="display: block; width: 48.0em; max-width: 100%; height: auto; margin: 12px 0;">
+<div style="max-width:100%; overflow-x:auto;">
+<img src="../bank/2012/q05.png" alt="2012-05" width="772" style="display:block; width:48.275862em; max-width:none; height:auto; margin:12px 0;">
+</div>
 
 *关联章节：[单调性、极值与零点个数](06-monotonicity-extrema.md)*
 

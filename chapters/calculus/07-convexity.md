@@ -14,7 +14,9 @@
 
 > *当年压轴证明题。充分性直接利用拉格朗日中值定理把割线斜率换成导数，递增性立显；必要性取极限让点逼近，用导数定义把不等式还原回导函数递增。*
 
-<img src="../bank/2025/q21.png" alt="2025-21" style="display: block; width: 48.0em; max-width: 100%; height: auto; margin: 12px 0;">
+<div style="max-width:100%; overflow-x:auto;">
+<img src="../bank/2025/q21.png" alt="2025-21" width="772" style="display:block; width:48.275862em; max-width:none; height:auto; margin:12px 0;">
+</div>
 
 *关联章节：[中值定理、零点与不等式证明](05-mean-value-proofs.md)*
 
@@ -26,7 +28,9 @@
 
 > *当年大题难点。必要性直接在中点做一阶泰勒展开后两边积分（切线放缩）；充分性抓住极值点附近的局部凸性，用反证法排除反例。*
 
-<img src="../bank/2022/q21.png" alt="2022-21" style="display: block; width: 44.96em; max-width: 100%; height: auto; margin: 12px 0;">
+<div style="max-width:100%; overflow-x:auto;">
+<img src="../bank/2022/q21.png" alt="2022-21" width="772" style="display:block; width:48.275862em; max-width:none; height:auto; margin:12px 0;">
+</div>
 
 *关联章节：[中值定理、零点与不等式证明](05-mean-value-proofs.md) · [定积分、变上限积分与积分性质](11-definite-integrals.md)*
 
@@ -38,7 +42,9 @@
 
 > *绝对值分段讨论。去绝对值后分 $x>0$ 和 $x<0$ 分别求一阶、二阶导数定凹凸区间；渐近线别漏掉斜渐近线在正负无穷可能重合。*
 
-<img src="../bank/2021/q18.png" alt="2021-18" style="display: block; width: 25.46em; max-width: 100%; height: auto; margin: 12px 0;">
+<div style="max-width:100%; overflow-x:auto;">
+<img src="../bank/2021/q18.png" alt="2021-18" width="772" style="display:block; width:48.275862em; max-width:none; height:auto; margin:12px 0;">
+</div>
 
 *关联章节：[切线、法线、渐近线与曲率](09-curve-geometry.md)*
 
@@ -48,7 +54,9 @@
 
 ### 04 · 2019-02 · 选择题
 
-<img src="../bank/2019/q02.png" alt="2019-02" style="display: block; width: 33.75em; max-width: 100%; height: auto; margin: 12px 0;">
+<div style="max-width:100%; overflow-x:auto;">
+<img src="../bank/2019/q02.png" alt="2019-02" width="772" style="display:block; width:48.275862em; max-width:none; height:auto; margin:12px 0;">
+</div>
 
 ---
 
@@ -56,7 +64,9 @@
 
 ### 05 · 2018-04 · 选择题
 
-<img src="../bank/2018/q04.png" alt="2018-04" style="display: block; width: 43.29em; max-width: 100%; height: auto; margin: 12px 0;">
+<div style="max-width:100%; overflow-x:auto;">
+<img src="../bank/2018/q04.png" alt="2018-04" width="772" style="display:block; width:48.275862em; max-width:none; height:auto; margin:12px 0;">
+</div>
 
 *关联章节：[定积分、变上限积分与积分性质](11-definite-integrals.md) · [中值定理、零点与不等式证明](05-mean-value-proofs.md)*
 
@@ -66,7 +76,9 @@
 
 ### 06 · 2017-02 · 选择题
 
-<img src="../bank/2017/q02.png" alt="2017-02" style="display: block; width: 42.82em; max-width: 100%; height: auto; margin: 12px 0;">
+<div style="max-width:100%; overflow-x:auto;">
+<img src="../bank/2017/q02.png" alt="2017-02" width="772" style="display:block; width:48.275862em; max-width:none; height:auto; margin:12px 0;">
+</div>
 
 *关联章节：[定积分、变上限积分与积分性质](11-definite-integrals.md)*
 
@@ -76,7 +88,9 @@
 
 ### 07 · 2015-04 · 选择题
 
-<img src="../bank/2015/q04.png" alt="2015-04" style="display: block; width: 48.0em; max-width: 100%; height: auto; margin: 12px 0;">
+<div style="max-width:100%; overflow-x:auto;">
+<img src="../bank/2015/q04.png" alt="2015-04" width="772" style="display:block; width:48.275862em; max-width:none; height:auto; margin:12px 0;">
+</div>
 
 ---
 
@@ -84,7 +98,9 @@
 
 ### 08 · 2014-03 · 选择题
 
-<img src="../bank/2014/q03.png" alt="2014-03" style="display: block; width: 44.14em; max-width: 100%; height: auto; margin: 12px 0;">
+<div style="max-width:100%; overflow-x:auto;">
+<img src="../bank/2014/q03.png" alt="2014-03" width="772" style="display:block; width:48.275862em; max-width:none; height:auto; margin:12px 0;">
+</div>
 
 *关联章节：[中值定理、零点与不等式证明](05-mean-value-proofs.md)*
 

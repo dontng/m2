@@ -14,7 +14,9 @@
 
 > *含参反常积分收敛性。区间拆成 $[0,1]$ 和 $[1,+\infty)$ 两段：0 处看瑕点（等价无穷小为 $x^{1-p}$），无穷远看衰减阶数（为 $1/x^{p+1}$），两端同时收敛交出 $p$ 范围。*
 
-<img src="../bank/2026/q11.png" alt="2026-11" style="display: block; width: 44.46em; max-width: 100%; height: auto; margin: 12px 0;">
+<div style="max-width:100%; overflow-x:auto;">
+<img src="../bank/2026/q11.png" alt="2026-11" width="772" style="display:block; width:48.275862em; max-width:none; height:auto; margin:12px 0;">
+</div>
 
 ---
 
@@ -22,7 +24,9 @@
 
 ### 02 · 2025-11 · 填空题
 
-<img src="../bank/2025/q11.png" alt="2025-11" style="display: block; width: 26.96em; max-width: 100%; height: auto; margin: 12px 0;">
+<div style="max-width:100%; overflow-x:auto;">
+<img src="../bank/2025/q11.png" alt="2025-11" width="772" style="display:block; width:48.275862em; max-width:none; height:auto; margin:12px 0;">
+</div>
 
 ---
 
@@ -32,7 +36,9 @@
 
 > *反常积分真假命题。注意无穷区间上反常积分收敛不代表被积函数趋向 0（可能有窄高尖峰）；被积函数非负且单调时才成立。用尖峰反例迅速判断。*
 
-<img src="../bank/2024/q07.png" alt="2024-07" style="display: block; width: 48.0em; max-width: 100%; height: auto; margin: 12px 0;">
+<div style="max-width:100%; overflow-x:auto;">
+<img src="../bank/2024/q07.png" alt="2024-07" width="772" style="display:block; width:48.275862em; max-width:none; height:auto; margin:12px 0;">
+</div>
 
 ---
 
@@ -40,7 +46,9 @@
 
 ### 04 · 2023-06 · 选择题
 
-<img src="../bank/2023/q06.png" alt="2023-06" style="display: block; width: 42.68em; max-width: 100%; height: auto; margin: 12px 0;">
+<div style="max-width:100%; overflow-x:auto;">
+<img src="../bank/2023/q06.png" alt="2023-06" width="772" style="display:block; width:48.275862em; max-width:none; height:auto; margin:12px 0;">
+</div>
 
 *关联章节：[单调性、极值与零点个数](06-monotonicity-extrema.md)*
 
@@ -52,7 +60,9 @@
 
 > *双瑕点反常积分。0 和 1 两个端点都是瑕点，必须两端都收敛。0 点处 $\ln x$ 不影响 $p$ 判别法则，1 点处利用 $\ln x \sim x-1$ 转化为 $p$ 积分判别。*
 
-<img src="../bank/2022/q05.png" alt="2022-05" style="display: block; width: 44.82em; max-width: 100%; height: auto; margin: 12px 0;">
+<div style="max-width:100%; overflow-x:auto;">
+<img src="../bank/2022/q05.png" alt="2022-05" width="772" style="display:block; width:48.275862em; max-width:none; height:auto; margin:12px 0;">
+</div>
 
 ---
 
@@ -60,7 +70,9 @@
 
 ### 06 · 2021-11 · 填空题
 
-<img src="../bank/2021/q11.png" alt="2021-11" style="display: block; width: 19.25em; max-width: 100%; height: auto; margin: 12px 0;">
+<div style="max-width:100%; overflow-x:auto;">
+<img src="../bank/2021/q11.png" alt="2021-11" width="772" style="display:block; width:48.275862em; max-width:none; height:auto; margin:12px 0;">
+</div>
 
 ---
 
@@ -68,7 +80,9 @@
 
 ### 07 · 2019-03 · 选择题
 
-<img src="../bank/2019/q03.png" alt="2019-03" style="display: block; width: 35.14em; max-width: 100%; height: auto; margin: 12px 0;">
+<div style="max-width:100%; overflow-x:auto;">
+<img src="../bank/2019/q03.png" alt="2019-03" width="772" style="display:block; width:48.275862em; max-width:none; height:auto; margin:12px 0;">
+</div>
 
 ---
 
@@ -76,7 +90,9 @@
 
 ### 08 · 2018-11 · 填空题
 
-<img src="../bank/2018/q11.png" alt="2018-11" style="display: block; width: 21.75em; max-width: 100%; height: auto; margin: 12px 0;">
+<div style="max-width:100%; overflow-x:auto;">
+<img src="../bank/2018/q11.png" alt="2018-11" width="772" style="display:block; width:48.275862em; max-width:none; height:auto; margin:12px 0;">
+</div>
 
 ---
 
@@ -84,7 +100,9 @@
 
 ### 09 · 2017-11 · 填空题
 
-<img src="../bank/2017/q11.png" alt="2017-11" style="display: block; width: 20.39em; max-width: 100%; height: auto; margin: 12px 0;">
+<div style="max-width:100%; overflow-x:auto;">
+<img src="../bank/2017/q11.png" alt="2017-11" width="772" style="display:block; width:48.275862em; max-width:none; height:auto; margin:12px 0;">
+</div>
 
 ---
 
@@ -92,7 +110,9 @@
 
 ### 10 · 2016-03 · 选择题
 
-<img src="../bank/2016/q03.png" alt="2016-03" style="display: block; width: 39.07em; max-width: 100%; height: auto; margin: 12px 0;">
+<div style="max-width:100%; overflow-x:auto;">
+<img src="../bank/2016/q03.png" alt="2016-03" width="772" style="display:block; width:48.275862em; max-width:none; height:auto; margin:12px 0;">
+</div>
 
 ---
 
@@ -100,7 +120,9 @@
 
 ### 11 · 2015-01 · 选择题
 
-<img src="../bank/2015/q01.png" alt="2015-01" style="display: block; width: 34.36em; max-width: 100%; height: auto; margin: 12px 0;">
+<div style="max-width:100%; overflow-x:auto;">
+<img src="../bank/2015/q01.png" alt="2015-01" width="772" style="display:block; width:48.275862em; max-width:none; height:auto; margin:12px 0;">
+</div>
 
 ---
 
@@ -108,7 +130,9 @@
 
 ### 12 · 2014-09 · 填空题
 
-<img src="../bank/2014/q09.png" alt="2014-09" style="display: block; width: 18.64em; max-width: 100%; height: auto; margin: 12px 0;">
+<div style="max-width:100%; overflow-x:auto;">
+<img src="../bank/2014/q09.png" alt="2014-09" width="772" style="display:block; width:48.275862em; max-width:none; height:auto; margin:12px 0;">
+</div>
 
 ---
 
@@ -116,7 +140,9 @@
 
 ### 13 · 2013-04 · 选择题
 
-<img src="../bank/2013/q04.png" alt="2013-04" style="display: block; width: 45.75em; max-width: 100%; height: auto; margin: 12px 0;">
+<div style="max-width:100%; overflow-x:auto;">
+<img src="../bank/2013/q04.png" alt="2013-04" width="772" style="display:block; width:48.275862em; max-width:none; height:auto; margin:12px 0;">
+</div>
 
 ---
 
@@ -124,7 +150,9 @@
 
 ### 14 · 2011-12 · 填空题
 
-<img src="../bank/2011/q12.png" alt="2011-12" style="display: block; width: 43.04em; max-width: 100%; height: auto; margin: 12px 0;">
+<div style="max-width:100%; overflow-x:auto;">
+<img src="../bank/2011/q12.png" alt="2011-12" width="772" style="display:block; width:48.275862em; max-width:none; height:auto; margin:12px 0;">
+</div>
 
 ---
 
@@ -132,7 +160,9 @@
 
 ### 15 · 2010-04 · 选择题
 
-<img src="../bank/2010/q04.png" alt="2010-04" style="display: block; width: 38.89em; max-width: 100%; height: auto; margin: 12px 0;">
+<div style="max-width:100%; overflow-x:auto;">
+<img src="../bank/2010/q04.png" alt="2010-04" width="772" style="display:block; width:48.275862em; max-width:none; height:auto; margin:12px 0;">
+</div>
 
 ---
 

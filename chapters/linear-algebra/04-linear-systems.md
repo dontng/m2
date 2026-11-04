@@ -14,7 +14,9 @@
 
 > *矩阵方程解的存在性。$AB=C$ 相当于 $C$ 的每一列都能由 $A$ 的列向量线性表出，即 $r(A)=r(A, C)$，把增广矩阵做初等行变换定参数。*
 
-<img src="../bank/2026/q09.png" alt="2026-09" style="display: block; width: 41.04em; max-width: 100%; height: auto; margin: 12px 0;">
+<div style="max-width:100%; overflow-x:auto;">
+<img src="../bank/2026/q09.png" alt="2026-09" width="772" style="display:block; width:48.275862em; max-width:none; height:auto; margin:12px 0;">
+</div>
 
 *关联章节：[向量组、线性相关与秩](03-vectors-rank.md)*
 
@@ -24,7 +26,9 @@
 
 ### 02 · 2025-16 · 填空题
 
-<img src="../bank/2025/q16.png" alt="2025-16" style="display: block; width: 48.0em; max-width: 100%; height: auto; margin: 12px 0;">
+<div style="max-width:100%; overflow-x:auto;">
+<img src="../bank/2025/q16.png" alt="2025-16" width="772" style="display:block; width:48.275862em; max-width:none; height:auto; margin:12px 0;">
+</div>
 
 ---
 
@@ -32,7 +36,9 @@
 
 ### 03 · 2022-09 · 选择题
 
-<img src="../bank/2022/q09.png" alt="2022-09" style="display: block; width: 48.0em; max-width: 100%; height: auto; margin: 12px 0;">
+<div style="max-width:100%; overflow-x:auto;">
+<img src="../bank/2022/q09.png" alt="2022-09" width="772" style="display:block; width:48.275862em; max-width:none; height:auto; margin:12px 0;">
+</div>
 
 ---
 
@@ -42,7 +48,9 @@
 
 > *伴随矩阵方程基础解系。$A$ 不可逆且有非零代数余子式，故 $r(A)=3, r(A^*)=1$。方程组 $A^* x=0$ 的基础解系有 3 个向量，直接由 $A$ 的列向量构成。*
 
-<img src="../bank/2020/q07.png" alt="2020-07" style="display: block; width: 48.0em; max-width: 100%; height: auto; margin: 12px 0;">
+<div style="max-width:100%; overflow-x:auto;">
+<img src="../bank/2020/q07.png" alt="2020-07" width="772" style="display:block; width:48.275862em; max-width:none; height:auto; margin:12px 0;">
+</div>
 
 ---
 
@@ -52,7 +60,9 @@
 
 > *特征值与方程组求解大题。结合矩阵乘以向量的条件求出特征值和特征向量，确定矩阵 $A$；第二问求 $Ax=b$ 的通解按标准初等行变换走。*
 
-<img src="../bank/2017/q22.png" alt="2017-22" style="display: block; width: 48.0em; max-width: 100%; height: auto; margin: 12px 0;">
+<div style="max-width:100%; overflow-x:auto;">
+<img src="../bank/2017/q22.png" alt="2017-22" width="772" style="display:block; width:48.275862em; max-width:none; height:auto; margin:12px 0;">
+</div>
 
 *关联章节：[向量组、线性相关与秩](03-vectors-rank.md) · [特征值、特征向量与相似](05-eigenvalues-similarity.md)*
 
@@ -62,7 +72,9 @@
 
 ### 06 · 2016-22 · 解答题
 
-<img src="../bank/2016/q22.png" alt="2016-22" style="display: block; width: 40.86em; max-width: 100%; height: auto; margin: 12px 0;">
+<div style="max-width:100%; overflow-x:auto;">
+<img src="../bank/2016/q22.png" alt="2016-22" width="772" style="display:block; width:48.275862em; max-width:none; height:auto; margin:12px 0;">
+</div>
 
 *关联章节：[向量组、线性相关与秩](03-vectors-rank.md)*
 
@@ -72,7 +84,9 @@
 
 ### 07 · 2015-07 · 选择题
 
-<img src="../bank/2015/q07.png" alt="2015-07" style="display: block; width: 48.0em; max-width: 100%; height: auto; margin: 12px 0;">
+<div style="max-width:100%; overflow-x:auto;">
+<img src="../bank/2015/q07.png" alt="2015-07" width="772" style="display:block; width:48.275862em; max-width:none; height:auto; margin:12px 0;">
+</div>
 
 ---
 
@@ -80,7 +94,9 @@
 
 ### 08 · 2014-22 · 解答题
 
-<img src="../bank/2014/q22.png" alt="2014-22" style="display: block; width: 27.11em; max-width: 100%; height: auto; margin: 12px 0;">
+<div style="max-width:100%; overflow-x:auto;">
+<img src="../bank/2014/q22.png" alt="2014-22" width="772" style="display:block; width:48.275862em; max-width:none; height:auto; margin:12px 0;">
+</div>
 
 *关联章节：[矩阵运算、逆矩阵与初等变换](02-matrices.md)*
 
@@ -90,7 +106,9 @@
 
 ### 09 · 2012-22 · 解答题
 
-<img src="../bank/2012/q22.png" alt="2012-22" style="display: block; width: 45.39em; max-width: 100%; height: auto; margin: 12px 0;">
+<div style="max-width:100%; overflow-x:auto;">
+<img src="../bank/2012/q22.png" alt="2012-22" width="772" style="display:block; width:48.275862em; max-width:none; height:auto; margin:12px 0;">
+</div>
 
 *关联章节：[行列式](01-determinants.md)*
 
@@ -100,7 +118,9 @@
 
 ### 10 · 2011-08 · 选择题
 
-<img src="../bank/2011/q08.png" alt="2011-08" style="display: block; width: 48.0em; max-width: 100%; height: auto; margin: 12px 0;">
+<div style="max-width:100%; overflow-x:auto;">
+<img src="../bank/2011/q08.png" alt="2011-08" width="772" style="display:block; width:48.275862em; max-width:none; height:auto; margin:12px 0;">
+</div>
 
 *关联章节：[向量组、线性相关与秩](03-vectors-rank.md) · [矩阵运算、逆矩阵与初等变换](02-matrices.md)*
 
@@ -110,7 +130,9 @@
 
 ### 11 · 2010-22 · 解答题
 
-<img src="../bank/2010/q22.png" alt="2010-22" style="display: block; width: 41.5em; max-width: 100%; height: auto; margin: 12px 0;">
+<div style="max-width:100%; overflow-x:auto;">
+<img src="../bank/2010/q22.png" alt="2010-22" width="772" style="display:block; width:48.275862em; max-width:none; height:auto; margin:12px 0;">
+</div>
 
 ---
 

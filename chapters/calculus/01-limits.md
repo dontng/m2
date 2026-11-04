@@ -14,13 +14,17 @@
 
 > *等价无穷小含参定系数。把 $\arcsin x$ 和三次根式分别用泰勒展开到 $x^2$，对照同阶系数，不用多次洛必达。*
 
-<img src="../bank/2026/q01.png" alt="2026-01" style="display: block; width: 37.32em; max-width: 100%; height: auto; margin: 12px 0;">
+<div style="max-width:100%; overflow-x:auto;">
+<img src="../bank/2026/q01.png" alt="2026-01" width="772" style="display:block; width:48.275862em; max-width:none; height:auto; margin:12px 0;">
+</div>
 
 ---
 
 ### 02 · 2026-12 · 填空题
 
-<img src="../bank/2026/q12.png" alt="2026-12" style="display: block; width: 22.57em; max-width: 100%; height: auto; margin: 12px 0;">
+<div style="max-width:100%; overflow-x:auto;">
+<img src="../bank/2026/q12.png" alt="2026-12" width="772" style="display:block; width:48.275862em; max-width:none; height:auto; margin:12px 0;">
+</div>
 
 ---
 
@@ -28,7 +32,9 @@
 
 ### 03 · 2025-04 · 选择题
 
-<img src="../bank/2025/q04.png" alt="2025-04" style="display: block; width: 48.0em; max-width: 100%; height: auto; margin: 12px 0;">
+<div style="max-width:100%; overflow-x:auto;">
+<img src="../bank/2025/q04.png" alt="2025-04" width="772" style="display:block; width:48.275862em; max-width:none; height:auto; margin:12px 0;">
+</div>
 
 ---
 
@@ -36,7 +42,9 @@
 
 ### 04 · 2023-11 · 填空题
 
-<img src="../bank/2023/q11.png" alt="2023-11" style="display: block; width: 48.0em; max-width: 100%; height: auto; margin: 12px 0;">
+<div style="max-width:100%; overflow-x:auto;">
+<img src="../bank/2023/q11.png" alt="2023-11" width="772" style="display:block; width:48.275862em; max-width:none; height:auto; margin:12px 0;">
+</div>
 
 *关联章节：[泰勒公式与高阶导数](08-taylor.md)*
 
@@ -46,13 +54,17 @@
 
 ### 05 · 2022-01 · 选择题
 
-<img src="../bank/2022/q01.png" alt="2022-01" style="display: block; width: 44.32em; max-width: 100%; height: auto; margin: 12px 0;">
+<div style="max-width:100%; overflow-x:auto;">
+<img src="../bank/2022/q01.png" alt="2022-01" width="772" style="display:block; width:48.275862em; max-width:none; height:auto; margin:12px 0;">
+</div>
 
 ---
 
 ### 06 · 2022-11 · 填空题
 
-<img src="../bank/2022/q11.png" alt="2022-11" style="display: block; width: 18.82em; max-width: 100%; height: auto; margin: 12px 0;">
+<div style="max-width:100%; overflow-x:auto;">
+<img src="../bank/2022/q11.png" alt="2022-11" width="772" style="display:block; width:48.275862em; max-width:none; height:auto; margin:12px 0;">
+</div>
 
 ---
 
@@ -60,7 +72,9 @@
 
 ### 07 · 2021-01 · 选择题
 
-<img src="../bank/2021/q01.png" alt="2021-01" style="display: block; width: 48.0em; max-width: 100%; height: auto; margin: 12px 0;">
+<div style="max-width:100%; overflow-x:auto;">
+<img src="../bank/2021/q01.png" alt="2021-01" width="772" style="display:block; width:48.275862em; max-width:none; height:auto; margin:12px 0;">
+</div>
 
 *关联章节：[定积分、变上限积分与积分性质](11-definite-integrals.md) · [泰勒公式与高阶导数](08-taylor.md)*
 
@@ -70,7 +84,9 @@
 
 > *含变上限积分的 0/0 极限。分子分母同时展开，把变上限积分 $\int_0^x e^{t^2}dt$ 泰勒展开成 $x + x^3/3 + o(x^3)$，比硬用洛必达快三倍。*
 
-<img src="../bank/2021/q17.png" alt="2021-17" style="display: block; width: 19.82em; max-width: 100%; height: auto; margin: 12px 0;">
+<div style="max-width:100%; overflow-x:auto;">
+<img src="../bank/2021/q17.png" alt="2021-17" width="772" style="display:block; width:48.275862em; max-width:none; height:auto; margin:12px 0;">
+</div>
 
 *关联章节：[泰勒公式与高阶导数](08-taylor.md) · [定积分、变上限积分与积分性质](11-definite-integrals.md)*
 
@@ -80,7 +96,9 @@
 
 ### 09 · 2020-01 · 选择题
 
-<img src="../bank/2020/q01.png" alt="2020-01" style="display: block; width: 37.93em; max-width: 100%; height: auto; margin: 12px 0;">
+<div style="max-width:100%; overflow-x:auto;">
+<img src="../bank/2020/q01.png" alt="2020-01" width="772" style="display:block; width:48.275862em; max-width:none; height:auto; margin:12px 0;">
+</div>
 
 *关联章节：[定积分、变上限积分与积分性质](11-definite-integrals.md)*
 
@@ -90,7 +108,9 @@
 
 ### 10 · 2019-01 · 选择题
 
-<img src="../bank/2019/q01.png" alt="2019-01" style="display: block; width: 41.64em; max-width: 100%; height: auto; margin: 12px 0;">
+<div style="max-width:100%; overflow-x:auto;">
+<img src="../bank/2019/q01.png" alt="2019-01" width="772" style="display:block; width:48.275862em; max-width:none; height:auto; margin:12px 0;">
+</div>
 
 *关联章节：[泰勒公式与高阶导数](08-taylor.md)*
 
@@ -98,7 +118,9 @@
 
 ### 11 · 2019-09 · 填空题
 
-<img src="../bank/2019/q09.png" alt="2019-09" style="display: block; width: 18.18em; max-width: 100%; height: auto; margin: 12px 0;">
+<div style="max-width:100%; overflow-x:auto;">
+<img src="../bank/2019/q09.png" alt="2019-09" width="772" style="display:block; width:48.275862em; max-width:none; height:auto; margin:12px 0;">
+</div>
 
 ---
 
@@ -106,7 +128,9 @@
 
 ### 12 · 2018-01 · 选择题
 
-<img src="../bank/2018/q01.png" alt="2018-01" style="display: block; width: 36.96em; max-width: 100%; height: auto; margin: 12px 0;">
+<div style="max-width:100%; overflow-x:auto;">
+<img src="../bank/2018/q01.png" alt="2018-01" width="772" style="display:block; width:48.275862em; max-width:none; height:auto; margin:12px 0;">
+</div>
 
 *关联章节：[泰勒公式与高阶导数](08-taylor.md)*
 
@@ -114,7 +138,9 @@
 
 ### 13 · 2018-09 · 填空题
 
-<img src="../bank/2018/q09.png" alt="2018-09" style="display: block; width: 28.07em; max-width: 100%; height: auto; margin: 12px 0;">
+<div style="max-width:100%; overflow-x:auto;">
+<img src="../bank/2018/q09.png" alt="2018-09" width="772" style="display:block; width:48.275862em; max-width:none; height:auto; margin:12px 0;">
+</div>
 
 ---
 
@@ -122,7 +148,9 @@
 
 ### 14 · 2017-15 · 解答题
 
-<img src="../bank/2017/q15.png" alt="2017-15" style="display: block; width: 15.61em; max-width: 100%; height: auto; margin: 12px 0;">
+<div style="max-width:100%; overflow-x:auto;">
+<img src="../bank/2017/q15.png" alt="2017-15" width="772" style="display:block; width:48.275862em; max-width:none; height:auto; margin:12px 0;">
+</div>
 
 *关联章节：[定积分、变上限积分与积分性质](11-definite-integrals.md)*
 
@@ -132,13 +160,17 @@
 
 ### 15 · 2016-01 · 选择题
 
-<img src="../bank/2016/q01.png" alt="2016-01" style="display: block; width: 48.0em; max-width: 100%; height: auto; margin: 12px 0;">
+<div style="max-width:100%; overflow-x:auto;">
+<img src="../bank/2016/q01.png" alt="2016-01" width="772" style="display:block; width:48.275862em; max-width:none; height:auto; margin:12px 0;">
+</div>
 
 ---
 
 ### 16 · 2016-15 · 解答题
 
-<img src="../bank/2016/q15.png" alt="2016-15" style="display: block; width: 18.71em; max-width: 100%; height: auto; margin: 12px 0;">
+<div style="max-width:100%; overflow-x:auto;">
+<img src="../bank/2016/q15.png" alt="2016-15" width="772" style="display:block; width:48.275862em; max-width:none; height:auto; margin:12px 0;">
+</div>
 
 *关联章节：[泰勒公式与高阶导数](08-taylor.md)*
 
@@ -150,7 +182,9 @@
 
 > *极限反求参数。看到 $x\to 0$ 且有三角函数和对数，全员展开到 $x^3$ 项，对比对应项系数直接列出方程组。*
 
-<img src="../bank/2015/q15.png" alt="2015-15" style="display: block; width: 48.0em; max-width: 100%; height: auto; margin: 12px 0;">
+<div style="max-width:100%; overflow-x:auto;">
+<img src="../bank/2015/q15.png" alt="2015-15" width="772" style="display:block; width:48.275862em; max-width:none; height:auto; margin:12px 0;">
+</div>
 
 *关联章节：[泰勒公式与高阶导数](08-taylor.md)*
 
@@ -160,13 +194,17 @@
 
 ### 18 · 2014-01 · 选择题
 
-<img src="../bank/2014/q01.png" alt="2014-01" style="display: block; width: 48.0em; max-width: 100%; height: auto; margin: 12px 0;">
+<div style="max-width:100%; overflow-x:auto;">
+<img src="../bank/2014/q01.png" alt="2014-01" width="772" style="display:block; width:48.275862em; max-width:none; height:auto; margin:12px 0;">
+</div>
 
 ---
 
 ### 19 · 2014-05 · 选择题
 
-<img src="../bank/2014/q05.png" alt="2014-05" style="display: block; width: 41.61em; max-width: 100%; height: auto; margin: 12px 0;">
+<div style="max-width:100%; overflow-x:auto;">
+<img src="../bank/2014/q05.png" alt="2014-05" width="772" style="display:block; width:48.275862em; max-width:none; height:auto; margin:12px 0;">
+</div>
 
 *关联章节：[中值定理、零点与不等式证明](05-mean-value-proofs.md) · [泰勒公式与高阶导数](08-taylor.md)*
 
@@ -174,7 +212,9 @@
 
 ### 20 · 2014-15 · 解答题
 
-<img src="../bank/2014/q15.png" alt="2014-15" style="display: block; width: 17.5em; max-width: 100%; height: auto; margin: 12px 0;">
+<div style="max-width:100%; overflow-x:auto;">
+<img src="../bank/2014/q15.png" alt="2014-15" width="772" style="display:block; width:48.275862em; max-width:none; height:auto; margin:12px 0;">
+</div>
 
 *关联章节：[定积分、变上限积分与积分性质](11-definite-integrals.md) · [泰勒公式与高阶导数](08-taylor.md)*
 
@@ -184,19 +224,25 @@
 
 ### 21 · 2013-01 · 选择题
 
-<img src="../bank/2013/q01.png" alt="2013-01" style="display: block; width: 38.36em; max-width: 100%; height: auto; margin: 12px 0;">
+<div style="max-width:100%; overflow-x:auto;">
+<img src="../bank/2013/q01.png" alt="2013-01" width="772" style="display:block; width:48.275862em; max-width:none; height:auto; margin:12px 0;">
+</div>
 
 ---
 
 ### 22 · 2013-09 · 填空题
 
-<img src="../bank/2013/q09.png" alt="2013-09" style="display: block; width: 20.79em; max-width: 100%; height: auto; margin: 12px 0;">
+<div style="max-width:100%; overflow-x:auto;">
+<img src="../bank/2013/q09.png" alt="2013-09" width="772" style="display:block; width:48.275862em; max-width:none; height:auto; margin:12px 0;">
+</div>
 
 ---
 
 ### 23 · 2013-15 · 解答题
 
-<img src="../bank/2013/q15.png" alt="2013-15" style="display: block; width: 39.36em; max-width: 100%; height: auto; margin: 12px 0;">
+<div style="max-width:100%; overflow-x:auto;">
+<img src="../bank/2013/q15.png" alt="2013-15" width="772" style="display:block; width:48.275862em; max-width:none; height:auto; margin:12px 0;">
+</div>
 
 *关联章节：[泰勒公式与高阶导数](08-taylor.md)*
 
@@ -206,7 +252,9 @@
 
 ### 24 · 2012-15 · 解答题
 
-<img src="../bank/2012/q15.png" alt="2012-15" style="display: block; width: 31.18em; max-width: 100%; height: auto; margin: 12px 0;">
+<div style="max-width:100%; overflow-x:auto;">
+<img src="../bank/2012/q15.png" alt="2012-15" width="772" style="display:block; width:48.275862em; max-width:none; height:auto; margin:12px 0;">
+</div>
 
 *关联章节：[泰勒公式与高阶导数](08-taylor.md)*
 
@@ -216,7 +264,9 @@
 
 ### 25 · 2011-01 · 选择题
 
-<img src="../bank/2011/q01.png" alt="2011-01" style="display: block; width: 47.46em; max-width: 100%; height: auto; margin: 12px 0;">
+<div style="max-width:100%; overflow-x:auto;">
+<img src="../bank/2011/q01.png" alt="2011-01" width="772" style="display:block; width:48.275862em; max-width:none; height:auto; margin:12px 0;">
+</div>
 
 *关联章节：[泰勒公式与高阶导数](08-taylor.md)*
 
@@ -224,13 +274,17 @@
 
 ### 26 · 2011-09 · 填空题
 
-<img src="../bank/2011/q09.png" alt="2011-09" style="display: block; width: 18.25em; max-width: 100%; height: auto; margin: 12px 0;">
+<div style="max-width:100%; overflow-x:auto;">
+<img src="../bank/2011/q09.png" alt="2011-09" width="772" style="display:block; width:48.275862em; max-width:none; height:auto; margin:12px 0;">
+</div>
 
 ---
 
 ### 27 · 2011-15 · 解答题
 
-<img src="../bank/2011/q15.png" alt="2011-15" style="display: block; width: 43.39em; max-width: 100%; height: auto; margin: 12px 0;">
+<div style="max-width:100%; overflow-x:auto;">
+<img src="../bank/2011/q15.png" alt="2011-15" width="772" style="display:block; width:48.275862em; max-width:none; height:auto; margin:12px 0;">
+</div>
 
 *关联章节：[定积分、变上限积分与积分性质](11-definite-integrals.md)*
 
