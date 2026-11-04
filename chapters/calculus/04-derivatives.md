@@ -2,9 +2,12 @@
 
 # 高等数学 · 导数、微分与求导法则
 
-> **必会·按此顺序**：[2011-02](#q2011-2)（导数定义认极限） → [2021-02](#q2021-2)（分段点从定义求导） → [2017-10](#q2017-10)（参数方程二阶导） → [2022-12](#q2022-12)（隐函数连求两次导） → [2026-06](#q2026-6)（变上限与反函数求导）  
-> **冲一冲**：[2025-18](#q2025-18)（由极限反推可导） → [2021-03](#q2021-3)（相关变化率列式）  
-> **见识·先会开题**：[2023-05](#q2023-5)（含绝对值的参数曲线光滑性）  
+> **全章 23 题｜本表头已点名 23 题｜未归类 0 题。**\
+> **必会 5 题·按此顺序**：[2011-02](#q2011-2)（导数定义认极限） → [2021-02](#q2021-2)（分段点从定义求导） → [2017-10](#q2017-10)（参数方程二阶导） → [2022-12](#q2022-12)（隐函数连求两次导） → [2026-06](#q2026-6)（变上限与反函数求导）\
+> **补练 14 题·按薄弱点选做**：[2025-07](#q2025-7)、[2025-14](#q2025-14)、[2024-02](#q2024-2)、[2022-17](#q2022-17)、[2021-12](#q2021-12)、[2020-09](#q2020-9)、[2018-02](#q2018-2)、[2016-13](#q2016-13)、[2015-09](#q2015-9)、[2013-02](#q2013-2)、[2013-10](#q2013-10)、[2012-02](#q2012-2)、[2012-09](#q2012-9)、[2010-13](#q2010-13)\
+> **冲一冲 2 题**：[2025-18](#q2025-18)（由极限反推可导） → [2021-03](#q2021-3)（相关变化率列式）\
+> **见识 1 题·先会开题**：[2023-05](#q2023-5)（含绝对值的参数曲线光滑性）\
+> **首轮后放 1 题·本轮可跳过**：[2015-03](#q2015-3)\
 > **首轮过关**：分清对谁求导；二阶参数导数还要再除一次横坐标的导数。
 
 ---
@@ -13,7 +16,7 @@
 
 <a id="q2026-6"></a>
 
-### 01 · 2026-06 · 选择题
+### 01 · 2026-06 · 选择题 ·【必会】
 
 <img src="../bank/2026/q06.png" alt="2026-06" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
@@ -25,7 +28,7 @@
 
 <a id="q2025-7"></a>
 
-### 02 · 2025-07 · 选择题
+### 02 · 2025-07 · 选择题 ·【补练】
 
 <img src="../bank/2025/q07.png" alt="2025-07" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
@@ -33,7 +36,7 @@
 
 <a id="q2025-14"></a>
 
-### 03 · 2025-14 · 填空题
+### 03 · 2025-14 · 填空题 ·【补练】
 
 <img src="../bank/2025/q14.png" alt="2025-14" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
@@ -43,7 +46,7 @@
 
 <a id="q2025-18"></a>
 
-### 04 · 2025-18 · 解答题
+### 04 · 2025-18 · 解答题 ·【冲一冲】
 
 > 导数定义综合大题。条件是极限，分母用泰勒展开化简为 <img src="../math/81adc23082234fec.svg" alt="公式：-x^2" width="33" height="17" align="middle" style="width:2.021em;height:1.036em;vertical-align:-0.093em;">。先由极限存在推分子为 0 得 <img src="../math/51d8c66e0602bb4e.svg" alt="公式：f(0)" width="34" height="19" align="middle" style="width:2.068em;height:1.131em;vertical-align:-0.283em;">，再凑导数定义极限式求 <img src="../math/70a45b4b9a6f64c6.svg" alt="公式：f&#x27;(0)" width="40" height="19" align="middle" style="width:2.4415em;height:1.1415em;vertical-align:-0.283em;">。
 
@@ -57,7 +60,7 @@
 
 <a id="q2024-2"></a>
 
-### 05 · 2024-02 · 选择题
+### 05 · 2024-02 · 选择题 ·【补练】
 
 <img src="../bank/2024/q02.png" alt="2024-02" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
@@ -69,7 +72,7 @@
 
 <a id="q2023-5"></a>
 
-### 06 · 2023-05 · 选择题
+### 06 · 2023-05 · 选择题 ·【见识】
 
 <img src="../bank/2023/q05.png" alt="2023-05" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
@@ -79,7 +82,7 @@
 
 <a id="q2022-12"></a>
 
-### 07 · 2022-12 · 填空题
+### 07 · 2022-12 · 填空题 ·【必会】
 
 <img src="../bank/2022/q12.png" alt="2022-12" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
@@ -87,7 +90,7 @@
 
 <a id="q2022-17"></a>
 
-### 08 · 2022-17 · 解答题
+### 08 · 2022-17 · 解答题 ·【补练】
 
 > 抽象可导函数极限反推导数。把要求的极限式凑成导数定义形式，配凑出 <img src="../math/6f3f421d204de9d2.svg" alt="公式：\frac{f(1+x)-f(1)}{x}" width="82" height="26" align="middle" style="width:5.1245em;height:1.5835em;vertical-align:-0.399em;"> 与 <img src="../math/369593d77a6cddee.svg" alt="公式：\frac{f(1-x)-f(1)}{-x}" width="82" height="27" align="middle" style="width:5.1245em;height:1.6405em;vertical-align:-0.456em;"> 的线性组合。
 
@@ -101,7 +104,7 @@
 
 <a id="q2021-2"></a>
 
-### 09 · 2021-02 · 选择题
+### 09 · 2021-02 · 选择题 ·【必会】
 
 <img src="../bank/2021/q02.png" alt="2021-02" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
@@ -111,7 +114,7 @@
 
 <a id="q2021-3"></a>
 
-### 10 · 2021-03 · 选择题
+### 10 · 2021-03 · 选择题 ·【冲一冲】
 
 <img src="../bank/2021/q03.png" alt="2021-03" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
@@ -119,7 +122,7 @@
 
 <a id="q2021-12"></a>
 
-### 11 · 2021-12 · 填空题
+### 11 · 2021-12 · 填空题 ·【补练】
 
 <img src="../bank/2021/q12.png" alt="2021-12" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
@@ -129,7 +132,7 @@
 
 <a id="q2020-9"></a>
 
-### 12 · 2020-09 · 填空题
+### 12 · 2020-09 · 填空题 ·【补练】
 
 <img src="../bank/2020/q09.png" alt="2020-09" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
@@ -139,7 +142,7 @@
 
 <a id="q2018-2"></a>
 
-### 13 · 2018-02 · 选择题
+### 13 · 2018-02 · 选择题 ·【补练】
 
 <img src="../bank/2018/q02.png" alt="2018-02" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
@@ -149,7 +152,7 @@
 
 <a id="q2017-10"></a>
 
-### 14 · 2017-10 · 填空题
+### 14 · 2017-10 · 填空题 ·【必会】
 
 <img src="../bank/2017/q10.png" alt="2017-10" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
@@ -159,7 +162,7 @@
 
 <a id="q2016-13"></a>
 
-### 15 · 2016-13 · 填空题
+### 15 · 2016-13 · 填空题 ·【补练】
 
 <img src="../bank/2016/q13.png" alt="2016-13" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
@@ -169,7 +172,7 @@
 
 <a id="q2015-3"></a>
 
-### 16 · 2015-03 · 选择题
+### 16 · 2015-03 · 选择题 ·【首轮后放】
 
 <img src="../bank/2015/q03.png" alt="2015-03" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
@@ -179,7 +182,7 @@
 
 <a id="q2015-9"></a>
 
-### 17 · 2015-09 · 填空题
+### 17 · 2015-09 · 填空题 ·【补练】
 
 <img src="../bank/2015/q09.png" alt="2015-09" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
@@ -189,7 +192,7 @@
 
 <a id="q2013-2"></a>
 
-### 18 · 2013-02 · 选择题
+### 18 · 2013-02 · 选择题 ·【补练】
 
 <img src="../bank/2013/q02.png" alt="2013-02" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
@@ -199,7 +202,7 @@
 
 <a id="q2013-10"></a>
 
-### 19 · 2013-10 · 填空题
+### 19 · 2013-10 · 填空题 ·【补练】
 
 <img src="../bank/2013/q10.png" alt="2013-10" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
@@ -211,7 +214,7 @@
 
 <a id="q2012-2"></a>
 
-### 20 · 2012-02 · 选择题
+### 20 · 2012-02 · 选择题 ·【补练】
 
 <img src="../bank/2012/q02.png" alt="2012-02" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
@@ -219,7 +222,7 @@
 
 <a id="q2012-9"></a>
 
-### 21 · 2012-09 · 填空题
+### 21 · 2012-09 · 填空题 ·【补练】
 
 <img src="../bank/2012/q09.png" alt="2012-09" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
@@ -231,7 +234,7 @@
 
 <a id="q2011-2"></a>
 
-### 22 · 2011-02 · 选择题
+### 22 · 2011-02 · 选择题 ·【必会】
 
 <img src="../bank/2011/q02.png" alt="2011-02" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
@@ -243,7 +246,7 @@
 
 <a id="q2010-13"></a>
 
-### 23 · 2010-13 · 填空题
+### 23 · 2010-13 · 填空题 ·【补练】
 
 <img src="../bank/2010/q13.png" alt="2010-13" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 

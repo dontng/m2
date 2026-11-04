@@ -2,9 +2,12 @@
 
 # 高等数学 · 定积分、变上限积分与积分性质
 
-> **必会·按此顺序**：[2015-11](#q2015-11)（变上限求导） → [2024-03](#q2024-3)（变限积分的奇偶性） → [2021-07](#q2021-7)（定义中的步长与取点） → [2026-15](#q2026-15)（积分平均值） → [2025-17](#q2025-17)（完整写出定积分计算）  
-> **冲一冲**：[2026-18](#q2026-18)（先换元再求导并查零点连续性）  
-> **见识·先会开题**：[2014-19](#q2014-19)（单调函数与带权积分不等式）  
+> **全章 21 题｜本表头已点名 21 题｜未归类 0 题。**\
+> **必会 5 题·按此顺序**：[2015-11](#q2015-11)（变上限求导） → [2024-03](#q2024-3)（变限积分的奇偶性） → [2021-07](#q2021-7)（定义中的步长与取点） → [2026-15](#q2026-15)（积分平均值） → [2025-17](#q2025-17)（完整写出定积分计算）\
+> **补练 12 题·按薄弱点选做**：[2023-15](#q2023-15)、[2022-07](#q2022-7)、[2022-13](#q2022-13)、[2020-03](#q2020-3)、[2020-16](#q2020-16)、[2019-13](#q2019-13)、[2018-05](#q2018-5)、[2014-10](#q2014-10)、[2013-03](#q2013-3)、[2012-04](#q2012-4)、[2011-06](#q2011-6)、[2010-16](#q2010-16)\
+> **冲一冲 1 题**：[2026-18](#q2026-18)（先换元再求导并查零点连续性）\
+> **见识 1 题·先会开题**：[2014-19](#q2014-19)（单调函数与带权积分不等式）\
+> **首轮后放 2 题·本轮可跳过**：[2021-14](#q2021-14)、[2016-21](#q2016-21)\
 > **首轮过关**：积分求值能验算；变量上限要乘内导，不能把连续当作可导。
 
 ---
@@ -13,7 +16,7 @@
 
 <a id="q2026-15"></a>
 
-### 01 · 2026-15 · 填空题
+### 01 · 2026-15 · 填空题 ·【必会】
 
 <img src="../bank/2026/q15.png" alt="2026-15" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
@@ -21,7 +24,7 @@
 
 <a id="q2026-18"></a>
 
-### 02 · 2026-18 · 解答题
+### 02 · 2026-18 · 解答题 ·【冲一冲】
 
 > 开篇变限积分大题。被积函数含复合项 <img src="../math/d7939186d51d823b.svg" alt="公式：xt" width="17" height="12" align="middle" style="width:1.0555em;height:0.7205em;vertical-align:-0.0125em;">，先换元 <img src="../math/b52987517defb14e.svg" alt="公式：u=xt" width="52" height="13" align="middle" style="width:3.211em;height:0.801em;vertical-align:-0.093em;"> 把变量 <img src="../math/2d711642b726b044.svg" alt="公式：x" width="11" height="9" align="middle" style="width:0.647em;height:0.5125em;vertical-align:-0.0125em;"> 提出来剥离干净再求导；第二问连续性注意在 <img src="../math/794d66ff4ebd363e.svg" alt="公式：x=0" width="44" height="14" align="middle" style="width:2.721em;height:0.846em;vertical-align:-0.093em;"> 处必须用极限定义验证。
 
@@ -35,7 +38,7 @@
 
 <a id="q2025-17"></a>
 
-### 03 · 2025-17 · 解答题
+### 03 · 2025-17 · 解答题 ·【必会】
 
 <img src="../bank/2025/q17.png" alt="2025-17" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
@@ -45,7 +48,7 @@
 
 <a id="q2024-3"></a>
 
-### 04 · 2024-03 · 选择题
+### 04 · 2024-03 · 选择题 ·【必会】
 
 <img src="../bank/2024/q03.png" alt="2024-03" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
@@ -57,7 +60,7 @@
 
 <a id="q2023-15"></a>
 
-### 05 · 2023-15 · 填空题
+### 05 · 2023-15 · 填空题 ·【补练】
 
 <img src="../bank/2023/q15.png" alt="2023-15" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
@@ -67,7 +70,7 @@
 
 <a id="q2022-7"></a>
 
-### 06 · 2022-07 · 选择题
+### 06 · 2022-07 · 选择题 ·【补练】
 
 <img src="../bank/2022/q07.png" alt="2022-07" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
@@ -75,7 +78,7 @@
 
 <a id="q2022-13"></a>
 
-### 07 · 2022-13 · 填空题
+### 07 · 2022-13 · 填空题 ·【补练】
 
 <img src="../bank/2022/q13.png" alt="2022-13" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
@@ -85,7 +88,7 @@
 
 <a id="q2021-7"></a>
 
-### 08 · 2021-07 · 选择题
+### 08 · 2021-07 · 选择题 ·【必会】
 
 <img src="../bank/2021/q07.png" alt="2021-07" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
@@ -95,7 +98,7 @@
 
 <a id="q2021-14"></a>
 
-### 09 · 2021-14 · 填空题
+### 09 · 2021-14 · 填空题 ·【首轮后放】
 
 <img src="../bank/2021/q14.png" alt="2021-14" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
@@ -107,7 +110,7 @@
 
 <a id="q2020-3"></a>
 
-### 10 · 2020-03 · 选择题
+### 10 · 2020-03 · 选择题 ·【补练】
 
 <img src="../bank/2020/q03.png" alt="2020-03" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
@@ -115,7 +118,7 @@
 
 <a id="q2020-16"></a>
 
-### 11 · 2020-16 · 解答题
+### 11 · 2020-16 · 解答题 ·【补练】
 
 > 抽象连续函数极值大题。利用极限条件把 <img src="../math/259072e6c653cc56.svg" alt="公式：f(x)" width="35" height="19" align="middle" style="width:2.1495em;height:1.131em;vertical-align:-0.283em;"> 在 0 点的局部性质看作 <img src="../math/9a28043f7810eec5.svg" alt="公式：f(x) \sim x" width="69" height="19" align="middle" style="width:4.305em;height:1.131em;vertical-align:-0.283em;">，变上限积分求导找驻点，利用二阶导正负判断极值。
 
@@ -129,7 +132,7 @@
 
 <a id="q2019-13"></a>
 
-### 12 · 2019-13 · 填空题
+### 12 · 2019-13 · 填空题 ·【补练】
 
 <img src="../bank/2019/q13.png" alt="2019-13" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
@@ -139,7 +142,7 @@
 
 <a id="q2018-5"></a>
 
-### 13 · 2018-05 · 选择题
+### 13 · 2018-05 · 选择题 ·【补练】
 
 <img src="../bank/2018/q05.png" alt="2018-05" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
@@ -149,7 +152,7 @@
 
 <a id="q2016-21"></a>
 
-### 14 · 2016-21 · 解答题
+### 14 · 2016-21 · 解答题 ·【首轮后放】
 
 > 定积分不等式与中值大题。利用积分均值定理与导数单调性，构造辅助函数将定积分与端点值联系起来，两小问层层递进。
 
@@ -163,7 +166,7 @@
 
 <a id="q2015-11"></a>
 
-### 15 · 2015-11 · 填空题
+### 15 · 2015-11 · 填空题 ·【必会】
 
 <img src="../bank/2015/q11.png" alt="2015-11" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
@@ -175,7 +178,7 @@
 
 <a id="q2014-10"></a>
 
-### 16 · 2014-10 · 填空题
+### 16 · 2014-10 · 填空题 ·【补练】
 
 <img src="../bank/2014/q10.png" alt="2014-10" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
@@ -185,7 +188,7 @@
 
 <a id="q2014-19"></a>
 
-### 17 · 2014-19 · 解答题
+### 17 · 2014-19 · 解答题 ·【见识】
 
 <img src="../bank/2014/q19.png" alt="2014-19" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
@@ -197,7 +200,7 @@
 
 <a id="q2013-3"></a>
 
-### 18 · 2013-03 · 选择题
+### 18 · 2013-03 · 选择题 ·【补练】
 
 <img src="../bank/2013/q03.png" alt="2013-03" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
@@ -209,7 +212,7 @@
 
 <a id="q2012-4"></a>
 
-### 19 · 2012-04 · 选择题
+### 19 · 2012-04 · 选择题 ·【补练】
 
 <img src="../bank/2012/q04.png" alt="2012-04" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
@@ -219,7 +222,7 @@
 
 <a id="q2011-6"></a>
 
-### 20 · 2011-06 · 选择题
+### 20 · 2011-06 · 选择题 ·【补练】
 
 <img src="../bank/2011/q06.png" alt="2011-06" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
@@ -229,7 +232,7 @@
 
 <a id="q2010-16"></a>
 
-### 21 · 2010-16 · 解答题
+### 21 · 2010-16 · 解答题 ·【补练】
 
 > 对数幂次积分比较与极限。第一问比较大小直接在被积区间 <img src="../math/463f2998327eb3a6.svg" alt="公式：[0,1]" width="37" height="19" align="middle" style="width:2.263em;height:1.131em;vertical-align:-0.283em;"> 上比被积函数大小；第二问通过分部积分找到递推关系式，用夹逼定理求极限。
 

@@ -47,27 +47,49 @@ def markdown_hint(text):
         raise ValueError(f"提示中有未配对美元符号：{text}")
     return result
 
-def priority_header(c):
+PRIORITY_LABELS = dict(core='必会', practice='补练', stretch='冲一冲',
+                       exposure='见识', later='首轮后放', defer='待核')
+
+
+def question_decisions(c):
     plan = PRIORITIES[c['id']]
     owned = {r['id'] for r in ROWS if r['primary'] == c['id']}
-    assert set(plan['reviewed_ids']) == owned, c['id']
-    lines = []
-    chosen = set()
-    for key, label in [('core', '必会·按此顺序'), ('stretch', plan['stretch_label']),
-                       ('exposure', '见识·先会开题'), ('defer', '待核·暂不安排')]:
-        picks = plan.get(key, [])
+    assert set(plan['reviewed_ids']) == owned and len(plan['reviewed_ids']) == len(owned), c['id']
+    decisions = {}
+    for key in PRIORITY_LABELS:
+        for pick in plan[key]:
+            assert pick['id'] in owned and pick['id'] not in decisions, (c['id'], pick)
+            assert pick['focus'].strip() and '$' not in pick['focus'], pick
+            decisions[pick['id']] = (key, pick['focus'])
+    assert set(decisions) == owned, f"{c['id']} 有题目未安排，禁止默认归为补练"
+    return decisions
+
+
+def priority_header(c):
+    plan = PRIORITIES[c['id']]
+    decisions = question_decisions(c)
+    total = len(decisions)
+    lines = [f"> **全章 {total} 题｜本表头已点名 {total} 题｜未归类 0 题。**"]
+    for key, label in [('core', '必会'), ('practice', '补练'),
+                       ('stretch', plan['stretch_label']), ('exposure', '见识'),
+                       ('later', '首轮后放'), ('defer', '待核')]:
+        picks = plan[key]
         if not picks:
             continue
-        for pick in picks:
-            assert pick['id'] in owned and pick['id'] not in chosen, (c['id'], pick)
-            assert '$' not in pick['focus'], pick
-            chosen.add(pick['id'])
         def link(pick):
             year, num = pick['id'].split('-')
-            return f"[{year}-{int(num):02d}](#q{pick['id']})（{pick['focus']}）"
-        lines.append(f"> **{label}**：" + ' → '.join(link(p) for p in picks))
+            return f"[{year}-{int(num):02d}](#q{pick['id']})"
+        if key in ('practice', 'later'):
+            action = '按薄弱点选做' if key == 'practice' else '本轮可跳过'
+            listing = '、'.join(link(p) for p in picks)
+            lines.append(f"> **{label} {len(picks)} 题·{action}**：{listing}")
+        else:
+            action = {'core': '按此顺序', 'stretch': '', 'exposure': '先会开题', 'defer': '暂不训练'}[key]
+            suffix = f'·{action}' if action else ''
+            listing = ' → '.join(f"{link(p)}（{p['focus']}）" for p in picks)
+            lines.append(f"> **{label} {len(picks)} 题{suffix}**：{listing}")
     lines.append(f"> **首轮过关**：{plan['goal']}")
-    return '  \n'.join(lines) + '\n'
+    return '\\\n'.join(lines) + '\n'
 
 def chapter_nav(c):
     """与E2相同的首尾双向导航，按总目录顺序跨目录连接。"""
@@ -193,6 +215,7 @@ for r in ROWS:
 stats = []
 for c in TAXONOMY:
     rows = ordered([r for r in ROWS if r['primary']==c['id']])
+    decisions = question_decisions(c)
     refs = ordered([r for r in ROWS if c['id'] in r['related']])
     assert rows, f"空章节: {c['id']}"
 
@@ -263,7 +286,9 @@ for c in TAXONOMY:
         img_rel = f"../bank/{r['year']}/q{r['number']:02d}.png"
 
         md_content.append(f'<a id="q{r["id"]}"></a>\n')
-        md_content.append(f"### {idx:02d} · {r['year']}-{r['number']:02d} · {kind}\n")
+        decision_key = decisions[r['id']][0]
+        decision_label = PRIORITIES[c['id']]['stretch_label'] if decision_key == 'stretch' else PRIORITY_LABELS[decision_key]
+        md_content.append(f"### {idx:02d} · {r['year']}-{r['number']:02d} · {kind} ·【{decision_label}】\n")
         if tip_text:
             md_content.append(f"> {markdown_hint(tip_text)}\n")
         if r['id'] in SOURCE_REVIEW:
