@@ -17,6 +17,8 @@ def main():
     files = sorted([*ROOT.glob('calculus/*.md'), *ROOT.glob('linear-algebra/*.md')])
     for md in files:
         for tag in re.findall(r'<img\b[^>]*>', md.read_text()):
+            if 'src="../bank/' not in tag:
+                continue
             key = re.search(r'alt="(\d{4}-\d{2})"', tag)[1]
             src = re.search(r'src="([^"]+)"', tag)[1]
             assert (md.parent / src).resolve() == (ROOT / images[key]['path']).resolve()

@@ -1,10 +1,10 @@
+[« 定积分、变上限积分与积分性质](11-definite-integrals.md)　　[定积分应用 »](13-integral-applications.md)
+
 # 高等数学 · 反常积分
 
 > 2010—2026年 · 15 道完整真题 · 年份从新到旧（2026→2010）  
 > 题型分布：选择题 8 题 · 填空题 7 题 · 解答题 0 题  
 > 考查范围：无穷区间与瑕积分的计算、收敛判别与参数范围
-
-[查看对应网页版](12-improper-integrals.html) · [返回章节总目录](../README.md)
 
 ---
 
@@ -12,7 +12,7 @@
 
 ### 01 · 2026-11 · 填空题
 
-> *含参反常积分收敛性。区间拆成 $[0,1]$ 和 $[1,+\infty)$ 两段：0 处看瑕点（等价无穷小为 $x^{1-p}$），无穷远看衰减阶数（为 $1/x^{p+1}$），两端同时收敛交出 $p$ 范围。*
+> 含参反常积分收敛性。区间拆成 <img src="../math/463f2998327eb3a6.svg" alt="公式：[0,1]" width="37" height="19" align="middle" style="width:2.263em;height:1.131em;vertical-align:-0.283em;"> 和 <img src="../math/db64628d958ad794.svg" alt="公式：[1,+\infty)" width="62" height="19" align="middle" style="width:3.8345em;height:1.131em;vertical-align:-0.283em;"> 两段：0 处看瑕点（等价无穷小为 <img src="../math/dc64c99ed2680ebf.svg" alt="公式：x^{1-p}" width="35" height="16" align="middle" style="width:2.1655em;height:0.956em;vertical-align:-0.0125em;">），无穷远看衰减阶数（为 <img src="../math/08157c2a488fc7e2.svg" alt="公式：1/x^{p+1}" width="53" height="20" align="middle" style="width:3.297em;height:1.226em;vertical-align:-0.283em;">），两端同时收敛交出 <img src="../math/148de9c5a7a44d19.svg" alt="公式：p" width="10" height="12" align="middle" style="width:0.569em;height:0.7195em;vertical-align:-0.2195em;"> 范围。
 
 <img src="../bank/2026/q11.png" alt="2026-11" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
@@ -30,7 +30,7 @@
 
 ### 03 · 2024-07 · 选择题
 
-> *反常积分真假命题。注意无穷区间上反常积分收敛不代表被积函数趋向 0（可能有窄高尖峰）；被积函数非负且单调时才成立。用尖峰反例迅速判断。*
+> 反常积分真假命题。注意无穷区间上反常积分收敛不代表被积函数趋向 0（可能有窄高尖峰）；被积函数非负且单调时才成立。用尖峰反例迅速判断。
 
 <img src="../bank/2024/q07.png" alt="2024-07" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
@@ -50,7 +50,7 @@
 
 ### 05 · 2022-05 · 选择题
 
-> *双瑕点反常积分。0 和 1 两个端点都是瑕点，必须两端都收敛。0 点处 $\ln x$ 不影响 $p$ 判别法则，1 点处利用 $\ln x \sim x-1$ 转化为 $p$ 积分判别。*
+> 双瑕点反常积分。0 和 1 两个端点都是瑕点，必须两端都收敛。0 点处 <img src="../math/07b71bff45915df8.svg" alt="公式：\ln x" width="29" height="13" align="middle" style="width:1.779em;height:0.7975em;vertical-align:-0.0125em;"> 不影响 <img src="../math/148de9c5a7a44d19.svg" alt="公式：p" width="10" height="12" align="middle" style="width:0.569em;height:0.7195em;vertical-align:-0.2195em;"> 判别法则，1 点处利用 <img src="../math/9552476bb6af3ebf.svg" alt="公式：\ln x \sim x-1" width="95" height="15" align="middle" style="width:5.883em;height:0.878em;vertical-align:-0.093em;"> 转化为 <img src="../math/148de9c5a7a44d19.svg" alt="公式：p" width="10" height="12" align="middle" style="width:0.569em;height:0.7195em;vertical-align:-0.2195em;"> 积分判别。
 
 <img src="../bank/2022/q05.png" alt="2022-05" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
@@ -145,3 +145,5 @@
 - [2023年 · 第19题](13-integral-applications.md)（主章节：定积分应用）
 - [2020年 · 第13题](15-higher-order-ode.md)（主章节：高阶微分方程）
 - [2019年 · 第19题](13-integral-applications.md)（主章节：定积分应用）
+
+[« 定积分、变上限积分与积分性质](11-definite-integrals.md)　　[定积分应用 »](13-integral-applications.md)

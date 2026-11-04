@@ -1,10 +1,10 @@
+[« 单调性、极值与零点个数](06-monotonicity-extrema.md)　　[泰勒公式与高阶导数 »](08-taylor.md)
+
 # 高等数学 · 凹凸性与拐点
 
 > 2010—2026年 · 8 道完整真题 · 年份从新到旧（2026→2010）  
 > 题型分布：选择题 5 题 · 填空题 0 题 · 解答题 3 题  
 > 考查范围：凹凸判定、拐点、弦切线关系及凸性等价条件
-
-[查看对应网页版](07-convexity.html) · [返回章节总目录](../README.md)
 
 ---
 
@@ -12,7 +12,7 @@
 
 ### 01 · 2025-21 · 解答题
 
-> *当年压轴证明题。充分性直接利用拉格朗日中值定理把割线斜率换成导数，递增性立显；必要性取极限让点逼近，用导数定义把不等式还原回导函数递增。*
+> 当年压轴证明题。充分性直接利用拉格朗日中值定理把割线斜率换成导数，递增性立显；必要性取极限让点逼近，用导数定义把不等式还原回导函数递增。
 
 <img src="../bank/2025/q21.png" alt="2025-21" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
@@ -24,7 +24,7 @@
 
 ### 02 · 2022-21 · 解答题
 
-> *当年大题难点。必要性直接在中点做一阶泰勒展开后两边积分（切线放缩）；充分性抓住极值点附近的局部凸性，用反证法排除反例。*
+> 当年大题难点。必要性直接在中点做一阶泰勒展开后两边积分（切线放缩）；充分性抓住极值点附近的局部凸性，用反证法排除反例。
 
 <img src="../bank/2022/q21.png" alt="2022-21" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
@@ -36,7 +36,7 @@
 
 ### 03 · 2021-18 · 解答题
 
-> *绝对值分段讨论。去绝对值后分 $x>0$ 和 $x<0$ 分别求一阶、二阶导数定凹凸区间；渐近线别漏掉斜渐近线在正负无穷可能重合。*
+> 绝对值分段讨论。去绝对值后分 <img src="../math/17be29a8a74e8994.svg" alt="公式：x&gt;0" width="44" height="13" align="middle" style="width:2.721em;height:0.7985em;vertical-align:-0.045em;"> 和 <img src="../math/c6d5dff52b0a6767.svg" alt="公式：x&lt;0" width="44" height="13" align="middle" style="width:2.721em;height:0.7985em;vertical-align:-0.045em;"> 分别求一阶、二阶导数定凹凸区间；渐近线别漏掉斜渐近线在正负无穷可能重合。
 
 <img src="../bank/2021/q18.png" alt="2021-18" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
@@ -105,3 +105,5 @@
 - [2015年 · 第21题](05-mean-value-proofs.md)（主章节：中值定理、零点与不等式证明）
 - [2012年 · 第19题](15-higher-order-ode.md)（主章节：高阶微分方程）
 - [2011年 · 第16题](06-monotonicity-extrema.md)（主章节：单调性、极值与零点个数）
+
+[« 单调性、极值与零点个数](06-monotonicity-extrema.md)　　[泰勒公式与高阶导数 »](08-taylor.md)

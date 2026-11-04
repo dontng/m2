@@ -1,10 +1,10 @@
+[« 不定积分与原函数](10-antiderivatives.md)　　[反常积分 »](12-improper-integrals.md)
+
 # 高等数学 · 定积分、变上限积分与积分性质
 
 > 2010—2026年 · 21 道完整真题 · 年份从新到旧（2026→2010）  
 > 题型分布：选择题 8 题 · 填空题 7 题 · 解答题 6 题  
 > 考查范围：定积分计算、变上限求导、积分比较、平均值及积分定义
-
-[查看对应网页版](11-definite-integrals.html) · [返回章节总目录](../README.md)
 
 ---
 
@@ -18,7 +18,7 @@
 
 ### 02 · 2026-18 · 解答题
 
-> *开篇变限积分大题。被积函数含复合项 $xt$，先换元 $u=xt$ 把变量 $x$ 提出来剥离干净再求导；第二问连续性注意在 $x=0$ 处必须用极限定义验证。*
+> 开篇变限积分大题。被积函数含复合项 <img src="../math/d7939186d51d823b.svg" alt="公式：xt" width="17" height="12" align="middle" style="width:1.0555em;height:0.7205em;vertical-align:-0.0125em;">，先换元 <img src="../math/b52987517defb14e.svg" alt="公式：u=xt" width="52" height="13" align="middle" style="width:3.211em;height:0.801em;vertical-align:-0.093em;"> 把变量 <img src="../math/2d711642b726b044.svg" alt="公式：x" width="11" height="9" align="middle" style="width:0.647em;height:0.5125em;vertical-align:-0.0125em;"> 提出来剥离干净再求导；第二问连续性注意在 <img src="../math/794d66ff4ebd363e.svg" alt="公式：x=0" width="44" height="14" align="middle" style="width:2.721em;height:0.846em;vertical-align:-0.093em;"> 处必须用极限定义验证。
 
 <img src="../bank/2026/q18.png" alt="2026-18" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
@@ -94,7 +94,7 @@
 
 ### 11 · 2020-16 · 解答题
 
-> *抽象连续函数极值大题。利用极限条件把 $f(x)$ 在 0 点的局部性质看作 $f(x) \sim x$，变上限积分求导找驻点，利用二阶导正负判断极值。*
+> 抽象连续函数极值大题。利用极限条件把 <img src="../math/259072e6c653cc56.svg" alt="公式：f(x)" width="35" height="19" align="middle" style="width:2.1495em;height:1.131em;vertical-align:-0.283em;"> 在 0 点的局部性质看作 <img src="../math/9a28043f7810eec5.svg" alt="公式：f(x) \sim x" width="69" height="19" align="middle" style="width:4.305em;height:1.131em;vertical-align:-0.283em;">，变上限积分求导找驻点，利用二阶导正负判断极值。
 
 <img src="../bank/2020/q16.png" alt="2020-16" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
@@ -122,7 +122,7 @@
 
 ### 14 · 2016-21 · 解答题
 
-> *定积分不等式与中值大题。利用积分均值定理与导数单调性，构造辅助函数将定积分与端点值联系起来，两小问层层递进。*
+> 定积分不等式与中值大题。利用积分均值定理与导数单调性，构造辅助函数将定积分与端点值联系起来，两小问层层递进。
 
 <img src="../bank/2016/q21.png" alt="2016-21" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
@@ -188,7 +188,7 @@
 
 ### 21 · 2010-16 · 解答题
 
-> *对数幂次积分比较与极限。第一问比较大小直接在被积区间 $[0,1]$ 上比被积函数大小；第二问通过分部积分找到递推关系式，用夹逼定理求极限。*
+> 对数幂次积分比较与极限。第一问比较大小直接在被积区间 <img src="../math/463f2998327eb3a6.svg" alt="公式：[0,1]" width="37" height="19" align="middle" style="width:2.263em;height:1.131em;vertical-align:-0.283em;"> 上比被积函数大小；第二问通过分部积分找到递推关系式，用夹逼定理求极限。
 
 <img src="../bank/2010/q16.png" alt="2010-16" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
@@ -233,3 +233,5 @@
 - [2011年 · 第15题](01-limits.md)（主章节：函数极限与无穷小）
 - [2010年 · 第6题](02-sequences.md)（主章节：数列极限与求和极限）
 - [2010年 · 第15题](06-monotonicity-extrema.md)（主章节：单调性、极值与零点个数）
+
+[« 不定积分与原函数](10-antiderivatives.md)　　[反常积分 »](12-improper-integrals.md)

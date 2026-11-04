@@ -1,10 +1,10 @@
+[« 多元函数极值与最值](18-multivariable-extrema.md)
+
 # 高等数学 · 二重积分
 
 > 2010—2026年 · 29 道完整真题 · 年份从新到旧（2026→2010）  
 > 题型分布：选择题 9 题 · 填空题 3 题 · 解答题 17 题  
 > 考查范围：积分区域、换序、对称性、极坐标与二重积分计算
-
-[查看对应网页版](19-double-integrals.html) · [返回章节总目录](../README.md)
 
 ---
 
@@ -12,7 +12,7 @@
 
 ### 01 · 2026-07 · 选择题
 
-> *轮换对称性选择题。区域 $D$ 关于 $y=x$ 对称且 $f(x,y)=f(y,x)$，直接用轮换对称性将积分拆半，结合积分定义秒定选项。*
+> 轮换对称性选择题。区域 <img src="../math/3f39d5c348e5b79d.svg" alt="公式：D" width="15" height="13" align="middle" style="width:0.9365em;height:0.7725em;vertical-align:0em;"> 关于 <img src="../math/97b37ee44274a337.svg" alt="公式：y=x" width="44" height="15" align="middle" style="width:2.71em;height:0.8915em;vertical-align:-0.232em;"> 对称且 <img src="../math/5df5b5e2760a3709.svg" alt="公式：f(x,y)=f(y,x)" width="127" height="19" align="middle" style="width:7.922em;height:1.131em;vertical-align:-0.283em;">，直接用轮换对称性将积分拆半，结合积分定义秒定选项。
 
 <img src="../bank/2026/q07.png" alt="2026-07" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
@@ -20,7 +20,7 @@
 
 ### 02 · 2026-17 · 解答题
 
-> *二重积分计算大题。区域含 $|x|$ 且被积函数含 $\sqrt{x^2+y^2}$，画出图形明显是环形扇区，果断换极坐标，角度和半径范围切忌写错。*
+> 二重积分计算大题。区域含 <img src="../math/aeb41586998433be.svg" alt="公式：|x|" width="21" height="19" align="middle" style="width:1.276em;height:1.13em;vertical-align:-0.282em;"> 且被积函数含 <img src="../math/34c2c930343ac569.svg" alt="公式：\sqrt{x^2+y^2}" width="76" height="23" align="middle" style="width:4.7255em;height:1.4255em;vertical-align:-0.2885em;">，画出图形明显是环形扇区，果断换极坐标，角度和半径范围切忌写错。
 
 <img src="../bank/2026/q17.png" alt="2026-17" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
@@ -36,7 +36,7 @@
 
 ### 04 · 2025-20 · 解答题
 
-> *双圆相交二重积分。被积函数含 $x,y$，区域关于 $y=x$ 对称，先用轮换对称性将被积函数化简，再换极坐标分段定限。*
+> 双圆相交二重积分。被积函数含 <img src="../math/968e772cf168b7f1.svg" alt="公式：x,y" width="28" height="12" align="middle" style="width:1.7045em;height:0.732em;vertical-align:-0.232em;">，区域关于 <img src="../math/97b37ee44274a337.svg" alt="公式：y=x" width="44" height="15" align="middle" style="width:2.71em;height:0.8915em;vertical-align:-0.232em;"> 对称，先用轮换对称性将被积函数化简，再换极坐标分段定限。
 
 <img src="../bank/2025/q20.png" alt="2025-20" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
@@ -60,7 +60,7 @@
 
 ### 07 · 2023-20 · 解答题
 
-> *斜椭圆环状区域积分。曲线方程含 $x^2+y^2-xy$，换极坐标后把 $1 - \sin\theta\cos\theta$ 提到分母，先积 $r$ 再积 $\theta$ 会非常丝滑。*
+> 斜椭圆环状区域积分。曲线方程含 <img src="../math/4e956683e7f4bd02.svg" alt="公式：x^2+y^2-xy" width="99" height="19" align="middle" style="width:6.156em;height:1.1755em;vertical-align:-0.232em;">，换极坐标后把 <img src="../math/399ae76ca694957a.svg" alt="公式：1 - \sin\theta\cos\theta" width="104" height="15" align="middle" style="width:6.478em;height:0.8905em;vertical-align:-0.093em;"> 提到分母，先积 <img src="../math/454349e422f05297.svg" alt="公式：r" width="9" height="9" align="middle" style="width:0.51em;height:0.5125em;vertical-align:-0.0125em;"> 再积 <img src="../math/2b4af44cb17349bb.svg" alt="公式：\theta" width="9" height="13" align="middle" style="width:0.5305em;height:0.809em;vertical-align:-0.0115em;"> 会非常丝滑。
 
 <img src="../bank/2023/q20.png" alt="2023-20" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
@@ -84,7 +84,7 @@
 
 ### 10 · 2021-21 · 解答题
 
-> *双纽线区域二重积分。方程 $\left(x^2+y^2\right)^2 = x^2-y^2$ 是标准双纽线，直接换极坐标 $r^2 = \cos 2\theta$，半径积分一眼出结果。*
+> 双纽线区域二重积分。方程 <img src="../math/22615c0de2d55c06.svg" alt="公式：\left(x^2+y^2\right)^2 = x^2-y^2" width="163" height="26" align="middle" style="width:10.1825em;height:1.5805em;vertical-align:-0.3955em;"> 是标准双纽线，直接换极坐标 <img src="../math/4b6650b5729281fa.svg" alt="公式：r^2 = \cos 2\theta" width="85" height="17" align="middle" style="width:5.311em;height:1.036em;vertical-align:-0.093em;">，半径积分一眼出结果。
 
 <img src="../bank/2021/q21.png" alt="2021-21" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
@@ -234,3 +234,5 @@
 
 - [2021年 · 第14题](11-definite-integrals.md)（主章节：定积分、变上限积分与积分性质）
 - [2010年 · 第6题](02-sequences.md)（主章节：数列极限与求和极限）
+
+[« 多元函数极值与最值](18-multivariable-extrema.md)

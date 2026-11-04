@@ -1,10 +1,10 @@
+[« 多元函数极限、偏导与全微分](16-multivariable-basics.md)　　[多元函数极值与最值 »](18-multivariable-extrema.md)
+
 # 高等数学 · 多元复合函数与隐函数求导
 
 > 2010—2026年 · 21 道完整真题 · 年份从新到旧（2026→2010）  
 > 题型分布：选择题 7 题 · 填空题 8 题 · 解答题 6 题  
 > 考查范围：链式法则、隐函数求偏导、坐标变换与高阶偏导
-
-[查看对应网页版](17-chain-implicit.html) · [返回章节总目录](../README.md)
 
 ---
 
@@ -12,7 +12,7 @@
 
 ### 01 · 2026-03 · 选择题
 
-> *一阶隐函数求导。方程两边直接对 $x$ 和 $y$ 分别求偏导，把 $z$ 视为中间变量，直接求出偏导数比值，不要把 $z$ 硬解出来。*
+> 一阶隐函数求导。方程两边直接对 <img src="../math/2d711642b726b044.svg" alt="公式：x" width="11" height="9" align="middle" style="width:0.647em;height:0.5125em;vertical-align:-0.0125em;"> 和 <img src="../math/a1fce4363854ff88.svg" alt="公式：y" width="9" height="12" align="middle" style="width:0.5545em;height:0.732em;vertical-align:-0.232em;"> 分别求偏导，把 <img src="../math/594e519ae499312b.svg" alt="公式：z" width="9" height="9" align="middle" style="width:0.526em;height:0.5125em;vertical-align:-0.0125em;"> 视为中间变量，直接求出偏导数比值，不要把 <img src="../math/594e519ae499312b.svg" alt="公式：z" width="9" height="9" align="middle" style="width:0.526em;height:0.5125em;vertical-align:-0.0125em;"> 硬解出来。
 
 <img src="../bank/2026/q03.png" alt="2026-03" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
@@ -40,7 +40,7 @@
 
 ### 04 · 2024-20 · 解答题
 
-> *复合函数二阶偏导大题。令 $u=2x+y, v=3x-y$，用链式法则分别算一阶、二阶偏导，代入原偏微分方程，交叉偏导项会相互抵消，化成极简方程。*
+> 复合函数二阶偏导大题。令 <img src="../math/dc1b65e73a9769c3.svg" alt="公式：u=2x+y, v=3x-y" width="177" height="16" align="middle" style="width:11.0155em;height:0.9855em;vertical-align:-0.232em;">，用链式法则分别算一阶、二阶偏导，代入原偏微分方程，交叉偏导项会相互抵消，化成极简方程。
 
 <img src="../bank/2024/q20.png" alt="2024-20" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
@@ -92,7 +92,7 @@
 
 ### 10 · 2019-20 · 解答题
 
-> *偏微分方程坐标代换化简。做变量代换后，把所有偏导数换为关于新变量 $u, v$ 的导数，代入原方程整理，通常会化为标准的常微分方程形式。*
+> 偏微分方程坐标代换化简。做变量代换后，把所有偏导数换为关于新变量 <img src="../math/2d1aff819a8ce8f2.svg" alt="公式：u, v" width="28" height="12" align="middle" style="width:1.6985em;height:0.7205em;vertical-align:-0.2195em;"> 的导数，代入原方程整理，通常会化为标准的常微分方程形式。
 
 <img src="../bank/2019/q20.png" alt="2019-20" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
@@ -184,7 +184,7 @@
 
 ### 21 · 2010-19 · 解答题
 
-> *二阶偏导方程化简大题。链式法则展开时切记对每个中间变量逐层求导，利用二阶混合偏导连续性合并同类项，耐心整理系数。*
+> 二阶偏导方程化简大题。链式法则展开时切记对每个中间变量逐层求导，利用二阶混合偏导连续性合并同类项，耐心整理系数。
 
 <img src="../bank/2010/q19.png" alt="2010-19" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
@@ -203,3 +203,5 @@
 - [2013年 · 第19题](18-multivariable-extrema.md)（主章节：多元函数极值与最值）
 - [2012年 · 第9题](04-derivatives.md)（主章节：导数、微分与求导法则）
 - [2011年 · 第21题](19-double-integrals.md)（主章节：二重积分）
+
+[« 多元函数极限、偏导与全微分](16-multivariable-basics.md)　　[多元函数极值与最值 »](18-multivariable-extrema.md)

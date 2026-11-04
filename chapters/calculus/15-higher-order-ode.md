@@ -1,10 +1,10 @@
+[« 一阶微分方程](14-first-order-ode.md)　　[多元函数极限、偏导与全微分 »](16-multivariable-basics.md)
+
 # 高等数学 · 高阶微分方程
 
 > 2010—2026年 · 17 道完整真题 · 年份从新到旧（2026→2010）  
 > 题型分布：选择题 6 题 · 填空题 6 题 · 解答题 5 题  
 > 考查范围：常系数、欧拉方程、解的结构、特解形式与降阶
-
-[查看对应网页版](15-higher-order-ode.html) · [返回章节总目录](../README.md)
 
 ---
 
@@ -12,7 +12,7 @@
 
 ### 01 · 2026-02 · 选择题
 
-> *非齐次线性方程解的性质。非齐次特解做线性组合，组合系数和为 1 依然是非齐次特解，组合系数和为 0 则是齐次方程的特解，秒列方程解 $\lambda, \mu$。*
+> 非齐次线性方程解的性质。非齐次特解做线性组合，组合系数和为 1 依然是非齐次特解，组合系数和为 0 则是齐次方程的特解，秒列方程解 <img src="../math/72eb0e10a4f1b7c7.svg" alt="公式：\lambda, \mu" width="30" height="17" align="middle" style="width:1.8445em;height:1.0295em;vertical-align:-0.2445em;">。
 
 <img src="../bank/2026/q02.png" alt="2026-02" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
@@ -20,7 +20,7 @@
 
 ### 02 · 2026-21 · 解答题
 
-> *最新真题大题。方程不显含 $y$，令 $p=y'$ 降为关于 $p$ 的一阶方程，先分离变量求出 $y'$ 再积分求 $y$。步步为营，核心在别算错负号。*
+> 最新真题大题。方程不显含 <img src="../math/a1fce4363854ff88.svg" alt="公式：y" width="9" height="12" align="middle" style="width:0.5545em;height:0.732em;vertical-align:-0.232em;">，令 <img src="../math/11b39a2144879a0a.svg" alt="公式：p=y&#x27;" width="48" height="18" align="middle" style="width:2.9455em;height:1.0905em;vertical-align:-0.232em;"> 降为关于 <img src="../math/148de9c5a7a44d19.svg" alt="公式：p" width="10" height="12" align="middle" style="width:0.569em;height:0.7195em;vertical-align:-0.2195em;"> 的一阶方程，先分离变量求出 <img src="../math/241d1cd21689b8a9.svg" alt="公式：y&#x27;" width="14" height="18" align="middle" style="width:0.868em;height:1.0905em;vertical-align:-0.232em;"> 再积分求 <img src="../math/a1fce4363854ff88.svg" alt="公式：y" width="9" height="12" align="middle" style="width:0.5545em;height:0.732em;vertical-align:-0.232em;">。步步为营，核心在别算错负号。
 
 <img src="../bank/2026/q21.png" alt="2026-21" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
@@ -42,7 +42,7 @@
 
 ### 04 · 2024-18 · 解答题
 
-> *欧拉方程经典大题。作变换 $x=e^t$ 把自变量换为 $t$，降为常系数线性方程，求出齐次通解再求特解；第二问直接代入三角代换做定积分。*
+> 欧拉方程经典大题。作变换 <img src="../math/a60e74f880832b46.svg" alt="公式：x=e^t" width="50" height="17" align="middle" style="width:3.0655em;height:1.004em;vertical-align:-0.093em;"> 把自变量换为 <img src="../math/e3b98a4da31a127d.svg" alt="公式：t" width="7" height="12" align="middle" style="width:0.4085em;height:0.7205em;vertical-align:-0.0125em;">，降为常系数线性方程，求出齐次通解再求特解；第二问直接代入三角代换做定积分。
 
 <img src="../bank/2024/q18.png" alt="2024-18" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
@@ -104,7 +104,7 @@
 
 ### 11 · 2016-19 · 解答题
 
-> *已知特解求高阶方程未知系数。已知 $y_1=e^x$ 是解，代入方程定出系数关系；再用刘维尔公式或设 $y_2=u(x)e^x$ 降阶求出第二个特解。*
+> 已知特解求高阶方程未知系数。已知 <img src="../math/08f26459d19e56b9.svg" alt="公式：y_1=e^x" width="59" height="16" align="middle" style="width:3.6355em;height:0.996em;vertical-align:-0.232em;"> 是解，代入方程定出系数关系；再用刘维尔公式或设 <img src="../math/2f5376e1bd6ba3b0.svg" alt="公式：y_2=u(x)e^x" width="93" height="19" align="middle" style="width:5.8095em;height:1.131em;vertical-align:-0.283em;"> 降阶求出第二个特解。
 
 <img src="../bank/2016/q19.png" alt="2016-19" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
@@ -154,7 +154,7 @@
 
 ### 17 · 2010-17 · 解答题
 
-> *参数方程二阶导与高阶方程。用参数方程二阶导公式求出 $\frac{d^2y}{dx^2}$，与右端相等化为关于 $\psi'(t)$ 的一阶线性微分方程。*
+> 参数方程二阶导与高阶方程。用参数方程二阶导公式求出 <img src="../math/7421b755141857fc.svg" alt="公式：\frac{d^2y}{dx^2}" width="28" height="27" align="middle" style="width:1.7205em;height:1.6515em;vertical-align:-0.4355em;">，与右端相等化为关于 <img src="../math/b597e53696648145.svg" alt="公式：\psi&#x27;(t)" width="38" height="19" align="middle" style="width:2.3385em;height:1.1415em;vertical-align:-0.283em;"> 的一阶线性微分方程。
 
 <img src="../bank/2010/q17.png" alt="2010-17" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
@@ -167,3 +167,5 @@
 以下题目主归其他章节，点击跳转到对应章节题目；不计入本章主收录题数：
 
 - [2014年 · 第18题](17-chain-implicit.md)（主章节：多元复合函数与隐函数求导）
+
+[« 一阶微分方程](14-first-order-ode.md)　　[多元函数极限、偏导与全微分 »](16-multivariable-basics.md)

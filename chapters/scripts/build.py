@@ -17,6 +17,7 @@ CHAPTERS = {x['id']:x for x in TAXONOMY}
 SOURCE_REVIEW = {x['id']:x for x in json.loads((ROOT/'data/source-review.json').read_text())}
 HINTS_FILE = ROOT/'data/hints.json'
 HINTS = json.loads(HINTS_FILE.read_text()) if HINTS_FILE.exists() else {}
+HINT_MATH = json.loads((ROOT/'data/hint-math.json').read_text())['formulas']
 
 def chapter_path(c, ext="html"):
     return f"{c['group']}/{c['slug']}.{ext}"
@@ -26,6 +27,35 @@ def md_chapter_rel(from_c, to_c):
         return f"{to_c['slug']}.md"
     else:
         return f"../{to_c['group']}/{to_c['slug']}.md"
+
+def markdown_hint(text):
+    """公式使用本地SVG，避免阅读器未启用数学扩展时暴露美元符号。"""
+    def replace(match):
+        tex = match.group(1)
+        item = HINT_MATH[tex]
+        image = ROOT/item['path']
+        if hashlib.sha256(image.read_bytes()).hexdigest() != item['sha256']:
+            raise ValueError(f"提示公式图片变化，需要重新渲染：{image}")
+        return (f'<img src="../{item["path"]}" alt="公式：{escape(tex, quote=True)}" '
+                f'width="{item["width"]}" height="{item["height"]}" align="middle" '
+                f'style="width:{item["width_em"]}em;height:{item["height_em"]}em;'
+                f'vertical-align:{item["vertical_align_em"]}em;">')
+    result = re.sub(r'\$([^$]+)\$', replace, text)
+    if '$' in result:
+        raise ValueError(f"提示中有未配对美元符号：{text}")
+    return result
+
+def chapter_nav(c):
+    """与E2相同的首尾双向导航，按总目录顺序跨目录连接。"""
+    index = next(i for i, item in enumerate(TAXONOMY) if item['id'] == c['id'])
+    links = []
+    if index > 0:
+        previous = TAXONOMY[index - 1]
+        links.append(f"[« {previous['title']}]({md_chapter_rel(c, previous)})")
+    if index + 1 < len(TAXONOMY):
+        following = TAXONOMY[index + 1]
+        links.append(f"[{following['title']} »]({md_chapter_rel(c, following)})")
+    return '　　'.join(links)
 
 def ordered(rows):
     return sorted(rows, key=lambda r:(-r['year'],r['number']))
@@ -166,9 +196,10 @@ for c in TAXONOMY:
 {meta_pills}<p class="chapter-scope">{escape(c['scope'])}</p>{year_nav}</header>''']
 
     # --- 2. Markdown 内容组装 ---
-    md_content = [f"# {group_label} · {c['title']}\n"]
+    nav = chapter_nav(c)
+    md_content = [nav + "\n", f"# {group_label} · {c['title']}\n"]
     md_content.append(f"> 2010—2026年 · {len(rows)} 道完整真题 · 年份从新到旧（2026→2010）  \n> 题型分布：选择题 {count_choice} 题 · 填空题 {count_fill} 题 · 解答题 {count_subj} 题  \n> 考查范围：{c['scope']}\n")
-    md_content.append(f"[查看对应网页版]({c['slug']}.html) · [返回章节总目录](../README.md)\n\n---\n")
+    md_content.append("---\n")
 
     last = None
     for idx, r in enumerate(rows, 1):
@@ -209,7 +240,7 @@ for c in TAXONOMY:
 
         md_content.append(f"### {idx:02d} · {r['year']}-{r['number']:02d} · {kind}\n")
         if tip_text:
-            md_content.append(f"> *{tip_text}*\n")
+            md_content.append(f"> {markdown_hint(tip_text)}\n")
         if r['id'] in SOURCE_REVIEW:
             md_content.append(f"> ⚠️ **题面待核对**：原年度转写稿存在疑点，本次保留题面，作答前请核对独立原题来源。\n")
         
@@ -241,6 +272,7 @@ for c in TAXONOMY:
 
     # 写出 Markdown 文件
     target_md = ROOT/chapter_path(c, "md")
+    md_content.append(nav + "\n")
     target_md.write_text('\n'.join(md_content))
 
     stats.append(dict(id=c['id'], title=c['title'], path=chapter_path(c, "html"), mdPath=chapter_path(c, "md"), questions=len(rows), relatedReferences=len(refs), questionIds=[r['id'] for r in rows]))
@@ -268,7 +300,9 @@ for group,label in [('linear-algebra','线性代数'),('calculus','高等数学'
             readme.append(f'- [{c["title"]}]({s["mdPath"]})（{s["questions"]}题 · [网页版]({s["path"]})）：{c["scope"]}')
     readme.append('')
 readme+=['## 提速提效与考点导引\n','- **双格式支持**：所有 25 章均提供配套的 `.md` 与 `.html`，Markdown 题单与 HTML 同级存放，直接以原卷高清图呈现，彻底消除公式居中与排版偏移。\n','- **题头考点导引**：精选 106 处开篇重难题与易踩坑题，在题头提供 2 行以内的白话点拨（心理预期与关键招式）；常规直接计算题保持纯净留白。\n','- **网页版交互增强**：支持顶部年份快速跳转（平滑滚动）、题型统计胶囊、悬浮回顶及打印自适应格式。\n','## 原题面核对标记\n','分类时标记了2013年第20题、2022年第8题的原年度转写稿疑点，未据猜测修改公式。详见 `data/source-review.json`，相应章节有提示。\n','## 构建方式\n','```sh\npython3 -m pip install -r chapters/scripts/requirements.txt\npython3 chapters/scripts/build.py\n```\n','构建会同时生成 25 章 HTML 与 Markdown，检查 385 题无漏收、无重复主归属、年份倒序，以及题目正文、公式和附图一致性。\n']
-(ROOT/'README.md').write_text('\n'.join(readme))
+# README含人工维护的截图说明，不在重建题单时覆盖。
+if not (ROOT/'README.md').exists():
+    (ROOT/'README.md').write_text('\n'.join(readme))
 (ROOT/'data/source-snapshot.json').write_text(json.dumps({str(p.relative_to(REPO)): hashlib.sha256(p.read_bytes()).hexdigest() for p in sorted((REPO/'exams/years').glob('*.html'))}, indent=2)+'\n')
 
 print(f'Successfully built 25 HTML files and 25 Markdown (.md) files!')

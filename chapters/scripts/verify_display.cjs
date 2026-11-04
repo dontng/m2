@@ -13,6 +13,7 @@ const root = path.resolve(__dirname, '..');
       const md = fs.readFileSync(path.join(root, group, file), 'utf8');
       for (const tag of md.match(/<img\b[^>]*>/g) || []) {
         const src = tag.match(/src="([^"]+)"/)[1];
+        if (!src.includes('/bank/')) continue;
         tags.push(tag.replace(src, pathToFileURL(path.resolve(root, group, src)).href));
       }
     }

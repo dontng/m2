@@ -1,10 +1,10 @@
+[« 行列式](01-determinants.md)　　[向量组、线性相关与秩 »](03-vectors-rank.md)
+
 # 线性代数 · 矩阵运算、逆矩阵与初等变换
 
 > 2010—2026年 · 10 道完整真题 · 年份从新到旧（2026→2010）  
 > 题型分布：选择题 6 题 · 填空题 1 题 · 解答题 3 题  
 > 考查范围：矩阵运算与方程、初等矩阵、等价变换、伴随矩阵及矩阵幂
-
-[查看对应网页版](02-matrices.html) · [返回章节总目录](../README.md)
 
 ---
 
@@ -12,7 +12,7 @@
 
 ### 01 · 2026-08 · 选择题
 
-> *置换矩阵性质题。置换矩阵每行每列恰有一个 1，由初等变换性质可知必为正交矩阵，即 $A^{-1} = A^T$；其行列式为 $\pm 1$，伴随矩阵立可判定。*
+> 置换矩阵性质题。置换矩阵每行每列恰有一个 1，由初等变换性质可知必为正交矩阵，即 <img src="../math/8b6919cf10f49734.svg" alt="公式：A^{-1} = A^T" width="80" height="17" align="middle" style="width:4.9785em;height:1.045em;vertical-align:-0.093em;">；其行列式为 <img src="../math/809fc216bcad623d.svg" alt="公式：\pm 1" width="24" height="13" align="middle" style="width:1.4455em;height:0.7535em;vertical-align:0em;">，伴随矩阵立可判定。
 
 <img src="../bank/2026/q08.png" alt="2026-08" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
@@ -66,7 +66,7 @@
 
 ### 07 · 2018-23 · 解答题
 
-> *初等列变换与矩阵方程大题。列变换相当于右乘初等矩阵 $P$。把 $(A^T | B^T)$ 做行初等变换求出 $P^T$，转置即可得 $P$。*
+> 初等列变换与矩阵方程大题。列变换相当于右乘初等矩阵 <img src="../math/5c62e091b8c0565f.svg" alt="公式：P" width="14" height="13" align="middle" style="width:0.8495em;height:0.7725em;vertical-align:0em;">。把 <img src="../math/d54fc08bede6cb5f.svg" alt="公式：(A^T | B^T)" width="68" height="20" align="middle" style="width:4.2155em;height:1.235em;vertical-align:-0.283em;"> 做行初等变换求出 <img src="../math/0dcae00eb75d782f.svg" alt="公式：P^T" width="26" height="16" align="middle" style="width:1.5695em;height:0.952em;vertical-align:0em;">，转置即可得 <img src="../math/5c62e091b8c0565f.svg" alt="公式：P" width="14" height="13" align="middle" style="width:0.8495em;height:0.7725em;vertical-align:0em;">。
 
 <img src="../bank/2018/q23.png" alt="2018-23" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
@@ -78,7 +78,7 @@
 
 ### 08 · 2015-22 · 解答题
 
-> *幂零矩阵与可逆矩阵方程。由 $A^3=O$ 联想因式分解 $(E-A)(E+A+A^2)=E$；把方程因式分解配凑成 $(E-A)X(E-A)=E$，两边求逆秒解 $X$。*
+> 幂零矩阵与可逆矩阵方程。由 <img src="../math/7783af930d5f48b4.svg" alt="公式：A^3=O" width="60" height="17" align="middle" style="width:3.714em;height:1.0355em;vertical-align:-0.093em;"> 联想因式分解 <img src="../math/50bcfb6a730b8a6b.svg" alt="公式：(E-A)(E+A+A^2)=E" width="209" height="20" align="middle" style="width:13.049em;height:1.226em;vertical-align:-0.283em;">；把方程因式分解配凑成 <img src="../math/8b15bf667a51b475.svg" alt="公式：(E-A)X(E-A)=E" width="181" height="19" align="middle" style="width:11.288em;height:1.131em;vertical-align:-0.283em;">，两边求逆秒解 <img src="../math/4b68ab3847feda7d.svg" alt="公式：X" width="16" height="13" align="middle" style="width:0.964em;height:0.7725em;vertical-align:0em;">。
 
 <img src="../bank/2015/q22.png" alt="2015-22" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
@@ -117,3 +117,5 @@
 - [2014年 · 第22题](04-linear-systems.md)（主章节：线性方程组）
 - [2013年 · 第7题](03-vectors-rank.md)（主章节：向量组、线性相关与秩）
 - [2011年 · 第8题](04-linear-systems.md)（主章节：线性方程组）
+
+[« 行列式](01-determinants.md)　　[向量组、线性相关与秩 »](03-vectors-rank.md)

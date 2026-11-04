@@ -1,10 +1,10 @@
+[« 矩阵运算、逆矩阵与初等变换](02-matrices.md)　　[线性方程组 »](04-linear-systems.md)
+
 # 线性代数 · 向量组、线性相关与秩
 
 > 2010—2026年 · 16 道完整真题 · 年份从新到旧（2026→2010）  
 > 题型分布：选择题 11 题 · 填空题 2 题 · 解答题 3 题  
 > 考查范围：线性表示、向量组等价、极大无关组、矩阵秩与秩分解
-
-[查看对应网页版](03-vectors-rank.html) · [返回章节总目录](../README.md)
 
 ---
 
@@ -12,7 +12,7 @@
 
 ### 01 · 2026-22 · 解答题
 
-> *最新线代解答题。第一问行变换化阶梯形证极大无关组；第二问列出分解 $A=GH$（满秩分解），利用结合律 $A^{10} = G(HG)^9 H$ 降成 2 阶矩阵的幂。*
+> 最新线代解答题。第一问行变换化阶梯形证极大无关组；第二问列出分解 <img src="../math/c5d0723c3c329b77.svg" alt="公式：A=GH" width="69" height="15" align="middle" style="width:4.2505em;height:0.9025em;vertical-align:-0.093em;">（满秩分解），利用结合律 <img src="../math/eb1629dd2726dc3c.svg" alt="公式：A^{10} = G(HG)^9 H" width="135" height="20" align="middle" style="width:8.412em;height:1.226em;vertical-align:-0.283em;"> 降成 2 阶矩阵的幂。
 
 <img src="../bank/2026/q22.png" alt="2026-22" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
@@ -64,7 +64,7 @@
 
 ### 07 · 2021-09 · 选择题
 
-> *向量表出与方程解空间选择题。向量组 $A$ 能被 $B$ 线性表出意味着 $A=BC$。转置后 $A^T = C^T B^T$，从而 $B^T x=0$ 的解必定是 $A^T x=0$ 的解。*
+> 向量表出与方程解空间选择题。向量组 <img src="../math/559aead08264d579.svg" alt="公式：A" width="14" height="13" align="middle" style="width:0.8485em;height:0.81em;vertical-align:0em;"> 能被 <img src="../math/df7e70e5021544f4.svg" alt="公式：B" width="14" height="13" align="middle" style="width:0.8585em;height:0.7725em;vertical-align:0em;"> 线性表出意味着 <img src="../math/4d4a4d4c03552621.svg" alt="公式：A=BC" width="66" height="15" align="middle" style="width:4.0755em;height:0.9025em;vertical-align:-0.093em;">。转置后 <img src="../math/28959a609e8ace35.svg" alt="公式：A^T = C^T B^T" width="98" height="17" align="middle" style="width:6.1055em;height:1.045em;vertical-align:-0.093em;">，从而 <img src="../math/77ad3a9b1eaffedb.svg" alt="公式：B^T x=0" width="68" height="17" align="middle" style="width:4.237em;height:1.045em;vertical-align:-0.093em;"> 的解必定是 <img src="../math/04a285a1449a3475.svg" alt="公式：A^T x=0" width="68" height="17" align="middle" style="width:4.2265em;height:1.045em;vertical-align:-0.093em;"> 的解。
 
 <img src="../bank/2021/q09.png" alt="2021-09" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
@@ -82,7 +82,7 @@
 
 ### 09 · 2019-22 · 解答题
 
-> *两向量组等价大题。两向量组等价充分必要条件是秩相等且可互相线性表出，联立大矩阵做行初等变换同时解决秩与表出系数。*
+> 两向量组等价大题。两向量组等价充分必要条件是秩相等且可互相线性表出，联立大矩阵做行初等变换同时解决秩与表出系数。
 
 <img src="../bank/2019/q22.png" alt="2019-22" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
@@ -161,3 +161,5 @@
 - [2013年 · 第23题](06-quadratic-forms.md)（主章节：二次型）
 - [2012年 · 第23题](06-quadratic-forms.md)（主章节：二次型）
 - [2011年 · 第8题](04-linear-systems.md)（主章节：线性方程组）
+
+[« 矩阵运算、逆矩阵与初等变换](02-matrices.md)　　[线性方程组 »](04-linear-systems.md)

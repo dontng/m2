@@ -1,10 +1,10 @@
+[« 凹凸性与拐点](07-convexity.md)　　[切线、法线、渐近线与曲率 »](09-curve-geometry.md)
+
 # 高等数学 · 泰勒公式与高阶导数
 
 > 2010—2026年 · 7 道完整真题 · 年份从新到旧（2026→2010）  
 > 题型分布：选择题 3 题 · 填空题 4 题 · 解答题 0 题  
 > 考查范围：泰勒展开、多项式系数、高阶导数与佩亚诺余项
-
-[查看对应网页版](08-taylor.html) · [返回章节总目录](../README.md)
 
 ---
 
@@ -12,7 +12,7 @@
 
 ### 01 · 2024-14 · 填空题
 
-> *高阶导数计算。求 $x^2(e^x-1)$ 的 5 阶导，直接上莱布尼茨公式，因为 $x^2$ 求导三次就变 0，实际只需算前三项，千万别硬求五次。*
+> 高阶导数计算。求 <img src="../math/5d81706e04813f55.svg" alt="公式：x^2(e^x-1)" width="81" height="20" align="middle" style="width:5.048em;height:1.226em;vertical-align:-0.283em;"> 的 5 阶导，直接上莱布尼茨公式，因为 <img src="../math/5b029881cc5d477a.svg" alt="公式：x^2" width="19" height="16" align="middle" style="width:1.141em;height:0.956em;vertical-align:-0.0125em;"> 求导三次就变 0，实际只需算前三项，千万别硬求五次。
 
 <img src="../bank/2024/q14.png" alt="2024-14" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
@@ -30,7 +30,7 @@
 
 ### 03 · 2020-04 · 选择题
 
-> *高阶导数系数题。把 $\ln(1-x)$ 展开成麦克劳林级数，再乘前面的 $x^2$，对比 $x^n$ 项系数和高阶导公式 $f^{(n)}(0)/n!$，秒出答案。*
+> 高阶导数系数题。把 <img src="../math/ce13f8686ae61451.svg" alt="公式：\ln(1-x)" width="71" height="19" align="middle" style="width:4.419em;height:1.131em;vertical-align:-0.283em;"> 展开成麦克劳林级数，再乘前面的 <img src="../math/5b029881cc5d477a.svg" alt="公式：x^2" width="19" height="16" align="middle" style="width:1.141em;height:0.956em;vertical-align:-0.0125em;">，对比 <img src="../math/d8c5e1feefd58efd.svg" alt="公式：x^n" width="20" height="13" align="middle" style="width:1.221em;height:0.7765em;vertical-align:-0.0125em;"> 项系数和高阶导公式 <img src="../math/11ebf21c0e0c94c8.svg" alt="公式：f^{(n)}(0)/n!" width="79" height="21" align="middle" style="width:4.883em;height:1.2935em;vertical-align:-0.283em;">，秒出答案。
 
 <img src="../bank/2020/q04.png" alt="2020-04" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
@@ -50,7 +50,7 @@
 
 ### 05 · 2016-12 · 填空题
 
-> *两边求一次导直接变成一阶微分方程，解出 $f(x)$ 之后看指数通项，别傻傻逐次求导找规律。*
+> 两边求一次导直接变成一阶微分方程，解出 <img src="../math/259072e6c653cc56.svg" alt="公式：f(x)" width="35" height="19" align="middle" style="width:2.1495em;height:1.131em;vertical-align:-0.283em;"> 之后看指数通项，别傻傻逐次求导找规律。
 
 <img src="../bank/2016/q12.png" alt="2016-12" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
@@ -96,3 +96,5 @@
 - [2013年 · 第15题](01-limits.md)（主章节：函数极限与无穷小）
 - [2012年 · 第15题](01-limits.md)（主章节：函数极限与无穷小）
 - [2011年 · 第1题](01-limits.md)（主章节：函数极限与无穷小）
+
+[« 凹凸性与拐点](07-convexity.md)　　[切线、法线、渐近线与曲率 »](09-curve-geometry.md)

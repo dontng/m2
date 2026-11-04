@@ -57,3 +57,18 @@ python3 chapters/scripts/build.py
 ```
 
 构建会同时生成 25 章 HTML 与 Markdown，检查 385 题无漏收、无重复主归属、年份倒序，以及题目正文、公式和附图一致性。
+
+## Markdown阅读与维护
+
+25章题单的顶部、底部均提供“« 上一章 / 下一章 »”导航，按线性代数6章、高等数学19章的现有顺序连续跳转；首末章只显示实际存在的相邻章节。题单移除HTML与目录入口。
+
+提示文字保持Markdown，220处公式预渲染为172个本地SVG，放在 `math/`，同一公式复用同一文件。无需阅读器启用数学插件，公式缩放不失真；公式中的汉字也转为轮廓。源公式仍在 `data/hints.json`，改动后先重建公式图，再构建题单：
+
+```sh
+npm install --no-save mathjax-full@3.2.2 markdown-it@14
+node chapters/scripts/render_hint_math.cjs
+python3 chapters/scripts/build.py
+node chapters/scripts/audit_markdown.cjs
+```
+
+Python依赖见 `scripts/requirements.txt`；公式构建可用 `PYTHON` 指定Python路径。Markdown校验使用普通解析器，不加载数学插件；检查全部本地链接、题单首尾导航、公式哈希与裸露美元符号。常规重建题单不会覆盖本文件的维护说明。

@@ -1,10 +1,10 @@
+[« 数列极限与求和极限](02-sequences.md)　　[导数、微分与求导法则 »](04-derivatives.md)
+
 # 高等数学 · 连续与间断点
 
 > 2010—2026年 · 6 道完整真题 · 年份从新到旧（2026→2010）  
 > 题型分布：选择题 6 题 · 填空题 0 题 · 解答题 0 题  
 > 考查范围：连续条件、分段函数连续性、间断点类型
-
-[查看对应网页版](03-continuity.html) · [返回章节总目录](../README.md)
 
 ---
 
@@ -12,7 +12,7 @@
 
 ### 01 · 2024-01 · 选择题
 
-> *幂指函数间断点。底数有绝对值，先看无定义的点 $x=0, 1, 2$。分别求各点处的左右极限，只有左右极限都存在且不等的才是第一类间断点。*
+> 幂指函数间断点。底数有绝对值，先看无定义的点 <img src="../math/dad218514dc687bd.svg" alt="公式：x=0, 1, 2" width="78" height="16" align="middle" style="width:4.8585em;height:0.973em;vertical-align:-0.2195em;">。分别求各点处的左右极限，只有左右极限都存在且不等的才是第一类间断点。
 
 <img src="../bank/2024/q01.png" alt="2024-01" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
@@ -22,7 +22,7 @@
 
 ### 02 · 2020-02 · 选择题
 
-> *第二类间断点判别。令分母为 0 找出疑点 $x=0, 1, 2$ 以及 $\ln|1+x|$ 的未定义点 $x=-1$。只要单侧极限是无穷大或振荡就归为第二类，逐个排查别漏点。*
+> 第二类间断点判别。令分母为 0 找出疑点 <img src="../math/dad218514dc687bd.svg" alt="公式：x=0, 1, 2" width="78" height="16" align="middle" style="width:4.8585em;height:0.973em;vertical-align:-0.2195em;"> 以及 <img src="../math/e401a736d184d5af.svg" alt="公式：\ln|1+x|" width="70" height="19" align="middle" style="width:4.3565em;height:1.13em;vertical-align:-0.282em;"> 的未定义点 <img src="../math/1f253e4b34bf6486.svg" alt="公式：x=-1" width="58" height="14" align="middle" style="width:3.6015em;height:0.846em;vertical-align:-0.093em;">。只要单侧极限是无穷大或振荡就归为第二类，逐个排查别漏点。
 
 <img src="../bank/2020/q02.png" alt="2020-02" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
@@ -72,3 +72,5 @@
 - [2016年 · 第2题](10-antiderivatives.md)（主章节：不定积分与原函数）
 - [2015年 · 第3题](04-derivatives.md)（主章节：导数、微分与求导法则）
 - [2013年 · 第3题](11-definite-integrals.md)（主章节：定积分、变上限积分与积分性质）
+
+[« 数列极限与求和极限](02-sequences.md)　　[导数、微分与求导法则 »](04-derivatives.md)

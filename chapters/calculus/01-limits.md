@@ -1,10 +1,10 @@
+[« 二次型](../linear-algebra/06-quadratic-forms.md)　　[数列极限与求和极限 »](02-sequences.md)
+
 # 高等数学 · 函数极限与无穷小
 
 > 2010—2026年 · 27 道完整真题 · 年份从新到旧（2026→2010）  
 > 题型分布：选择题 12 题 · 填空题 7 题 · 解答题 8 题  
 > 考查范围：等价无穷小、阶的比较、函数极限及含参数极限
-
-[查看对应网页版](01-limits.html) · [返回章节总目录](../README.md)
 
 ---
 
@@ -12,7 +12,7 @@
 
 ### 01 · 2026-01 · 选择题
 
-> *等价无穷小含参定系数。把 $\arcsin x$ 和三次根式分别用泰勒展开到 $x^2$，对照同阶系数，不用多次洛必达。*
+> 等价无穷小含参定系数。把 <img src="../math/7dca0456cde70159.svg" alt="公式：\arcsin x" width="60" height="13" align="middle" style="width:3.736em;height:0.769em;vertical-align:-0.0125em;"> 和三次根式分别用泰勒展开到 <img src="../math/5b029881cc5d477a.svg" alt="公式：x^2" width="19" height="16" align="middle" style="width:1.141em;height:0.956em;vertical-align:-0.0125em;">，对照同阶系数，不用多次洛必达。
 
 <img src="../bank/2026/q01.png" alt="2026-01" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
@@ -68,7 +68,7 @@
 
 ### 08 · 2021-17 · 解答题
 
-> *含变上限积分的 0/0 极限。分子分母同时展开，把变上限积分 $\int_0^x e^{t^2}dt$ 泰勒展开成 $x + x^3/3 + o(x^3)$，比硬用洛必达快三倍。*
+> 含变上限积分的 0/0 极限。分子分母同时展开，把变上限积分 <img src="../math/800b3637cb87ad11.svg" alt="公式：\int_0^x e^{t^2}dt" width="60" height="24" align="middle" style="width:3.75em;height:1.481em;vertical-align:-0.403em;"> 泰勒展开成 <img src="../math/d5c9d2a7236556a5.svg" alt="公式：x + x^3/3 + o(x^3)" width="133" height="20" align="middle" style="width:8.2545em;height:1.2255em;vertical-align:-0.283em;">，比硬用洛必达快三倍。
 
 <img src="../bank/2021/q17.png" alt="2021-17" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
@@ -148,7 +148,7 @@
 
 ### 17 · 2015-15 · 解答题
 
-> *极限反求参数。看到 $x\to 0$ 且有三角函数和对数，全员展开到 $x^3$ 项，对比对应项系数直接列出方程组。*
+> 极限反求参数。看到 <img src="../math/8f8f7f807573000d.svg" alt="公式：x\to 0" width="48" height="13" align="middle" style="width:2.9725em;height:0.7785em;vertical-align:-0.025em;"> 且有三角函数和对数，全员展开到 <img src="../math/0bb5396bfe68a547.svg" alt="公式：x^3" width="19" height="16" align="middle" style="width:1.141em;height:0.955em;vertical-align:-0.0125em;"> 项，对比对应项系数直接列出方程组。
 
 <img src="../bank/2015/q15.png" alt="2015-15" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
@@ -254,3 +254,5 @@
 - [2014年 · 第10题](11-definite-integrals.md)（主章节：定积分、变上限积分与积分性质）
 - [2013年 · 第2题](04-derivatives.md)（主章节：导数、微分与求导法则）
 - [2011年 · 第2题](04-derivatives.md)（主章节：导数、微分与求导法则）
+
+[« 二次型](../linear-algebra/06-quadratic-forms.md)　　[数列极限与求和极限 »](02-sequences.md)
