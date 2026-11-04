@@ -19,6 +19,7 @@ HINTS_FILE = ROOT/'data/hints.json'
 HINTS = json.loads(HINTS_FILE.read_text()) if HINTS_FILE.exists() else {}
 HINT_MATH = json.loads((ROOT/'data/hint-math.json').read_text())['formulas']
 PRIORITIES = json.loads((ROOT/'data/learning-priorities.json').read_text())['chapters']
+assert set(PRIORITIES) == set(CHAPTERS), '25章选题指引必须齐全'
 
 def chapter_path(c, ext="html"):
     return f"{c['group']}/{c['slug']}.{ext}"
@@ -47,9 +48,7 @@ def markdown_hint(text):
     return result
 
 def priority_header(c):
-    plan = PRIORITIES.get(c['id'])
-    if not plan:
-        return None
+    plan = PRIORITIES[c['id']]
     owned = {r['id'] for r in ROWS if r['primary'] == c['id']}
     assert set(plan['reviewed_ids']) == owned, c['id']
     lines = []
@@ -223,11 +222,7 @@ for c in TAXONOMY:
     # --- 2. Markdown 内容组装 ---
     nav = chapter_nav(c)
     md_content = [nav + "\n", f"# {group_label} · {c['title']}\n"]
-    header = priority_header(c)
-    if header:
-        md_content.append(header)
-    else:
-        md_content.append(f"> 2010—2026年 · {len(rows)} 道完整真题 · 年份从新到旧（2026→2010）  \n> 题型分布：选择题 {count_choice} 题 · 填空题 {count_fill} 题 · 解答题 {count_subj} 题  \n> 考查范围：{c['scope']}\n")
+    md_content.append(priority_header(c))
     md_content.append("---\n")
 
     last = None
