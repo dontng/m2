@@ -37,7 +37,7 @@
           "number": 2,
           "type": "选择题",
           "points": 4,
-          "stem": "函数 $f\\left(x\\right)=\\lim\limits_{t\\to 0}\\left(1+\\frac{\\sin t}{x}\\right)^{\\frac{x^{2}}{t}}$ 在 $\\left(-\\infty,+\\infty\\right)$ 内（ ）",
+          "stem": "函数 $f\\left(x\\right)=\\lim\\limits_{t\\to 0}\\left(1+\\frac{\\sin t}{x}\\right)^{\\frac{x^{2}}{t}}$ 在 $\\left(-\\infty,+\\infty\\right)$ 内（ ）",
           "options": [
             {
               "label": "A",
@@ -138,7 +138,7 @@
           "number": 6,
           "type": "选择题",
           "points": 4,
-          "stem": "设 $D$ 是第一象限中由曲线 $2xy=1$、$4xy=1$ 与直线 $y=x$、$y=\\sqrt3x$ 围成的平面区域，函数 $f(x,y)$ 在 $D$ 上连续，则 $\\displaystyle\\iint\limits_D f(x,y)\\,\\mathrm dx\\,\\mathrm dy=$（ ）",
+          "stem": "设 $D$ 是第一象限中由曲线 $2xy=1$、$4xy=1$ 与直线 $y=x$、$y=\\sqrt3x$ 围成的平面区域，函数 $f(x,y)$ 在 $D$ 上连续，则 $\\displaystyle\\iint\\limits_D f(x,y)\\,\\mathrm dx\\,\\mathrm dy=$（ ）",
           "options": [
             {
               "label": "A",
@@ -279,7 +279,7 @@
           "number": 18,
           "type": "解答题",
           "points": 10,
-          "stem": "计算二重积分 $\\iint\limits_{D}x\\left(x+y\\right)\\mathrm{~d}x\\mathrm{~d}y$，其中 $D=\\left\\{\\left(x,y\\right)\\middle|x^{2}+y^{2}\\leq 2,y\\geq x^{2}\\right\\}$。"
+          "stem": "计算二重积分 $\\iint\\limits_{D}x\\left(x+y\\right)\\mathrm{~d}x\\mathrm{~d}y$，其中 $D=\\left\\{\\left(x,y\\right)\\middle|x^{2}+y^{2}\\leq 2,y\\geq x^{2}\\right\\}$。"
         },
         {
           "number": 19,

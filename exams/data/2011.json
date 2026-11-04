@@ -37,7 +37,7 @@
           "number": 2,
           "type": "选择题",
           "points": 4,
-          "stem": "已知 $f\\left(x\\right)$ 在 $x=0$ 处可导，且 $f\\left(0\\right)=0$，则 $\\lim\limits_{x\\to 0}\\frac{x^{2}f\\left(x\\right)-2f\\left(x^{3}\\right)}{x^{3}}=$（ ）",
+          "stem": "已知 $f\\left(x\\right)$ 在 $x=0$ 处可导，且 $f\\left(0\\right)=0$，则 $\\lim\\limits_{x\\to 0}\\frac{x^{2}f\\left(x\\right)-2f\\left(x^{3}\\right)}{x^{3}}=$（ ）",
           "options": [
             {
               "label": "A",
@@ -218,7 +218,7 @@
           "number": 9,
           "type": "填空题",
           "points": 4,
-          "stem": "$\\lim\limits_{x\\to 0}\\left(1+2x\\right)^{\\frac{1}{x}}=$"
+          "stem": "$\\lim\\limits_{x\\to 0}\\left(1+2x\\right)^{\\frac{1}{x}}=$"
         },
         {
           "number": 10,
@@ -242,7 +242,7 @@
           "number": 13,
           "type": "填空题",
           "points": 4,
-          "stem": "设平面区域 $D$ 由直线 $y=x$，圆 $x^{2}+y^{2}=2y$ 及 $y$ 轴围成，则二重积分 $\\iint\limits_{D}xy\\mathrm{d}\\sigma=$"
+          "stem": "设平面区域 $D$ 由直线 $y=x$，圆 $x^{2}+y^{2}=2y$ 及 $y$ 轴围成，则二重积分 $\\iint\\limits_{D}xy\\mathrm{d}\\sigma=$"
         },
         {
           "number": 14,
@@ -260,7 +260,7 @@
           "number": 15,
           "type": "解答题",
           "points": 10,
-          "stem": "已知函数\n\n$F\\left(x\\right)=\\frac{\\int_{0}^{x}\\ln\\left(1+t^{2}\\right)\\mathrm{~d}t}{x^{a}}$，\n\n设 $\\lim\limits_{x\\to+\\infty}F\\left(x\\right)=\\lim\limits_{x\\to 0^{+}}F\\left(x\\right)=0$，试求 $a$ 的取值范围。"
+          "stem": "已知函数\n\n$F\\left(x\\right)=\\frac{\\int_{0}^{x}\\ln\\left(1+t^{2}\\right)\\mathrm{~d}t}{x^{a}}$，\n\n设 $\\lim\\limits_{x\\to+\\infty}F\\left(x\\right)=\\lim\\limits_{x\\to 0^{+}}F\\left(x\\right)=0$，试求 $a$ 的取值范围。"
         },
         {
           "number": 16,
@@ -296,7 +296,7 @@
           "number": 21,
           "type": "解答题",
           "points": 11,
-          "stem": "已知函数 $f\\left(x,y\\right)$ 具有二阶连续偏导数，且 $f\\left(1,y\\right)=0$，$f\\left(x,1\\right)=0$，$\\iint\limits_{D}f\\left(x,y\\right)\\mathrm{~d}x\\mathrm{~d}y=a$，其中 $D=\\left\\{\\left(x,y\\right)\\middle|0\\leq x\\leq 1,0\\leq y\\leq 1\\right\\}$。计算二重积分\n\n$I=\\iint\limits_{D}xyf_{xy}^{\\prime\\prime}\\left(x,y\\right)\\mathrm{~d}x\\mathrm{~d}y$。"
+          "stem": "已知函数 $f\\left(x,y\\right)$ 具有二阶连续偏导数，且 $f\\left(1,y\\right)=0$，$f\\left(x,1\\right)=0$，$\\iint\\limits_{D}f\\left(x,y\\right)\\mathrm{~d}x\\mathrm{~d}y=a$，其中 $D=\\left\\{\\left(x,y\\right)\\middle|0\\leq x\\leq 1,0\\leq y\\leq 1\\right\\}$。计算二重积分\n\n$I=\\iint\\limits_{D}xyf_{xy}^{\\prime\\prime}\\left(x,y\\right)\\mathrm{~d}x\\mathrm{~d}y$。"
         },
         {
           "number": 22,

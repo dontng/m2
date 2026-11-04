@@ -137,7 +137,7 @@
           "number": 6,
           "type": "选择题",
           "points": 4,
-          "stem": "设区域 $D$ 由曲线 $y=\\sin x$，$x=\\pm\\frac{\\pi}{2}$，$y=1$ 围成，则 $\\iint\limits_{D}\\left(x^{5}y-1\\right)\\mathrm{~d}x\\mathrm{~d}y=$（ ）",
+          "stem": "设区域 $D$ 由曲线 $y=\\sin x$，$x=\\pm\\frac{\\pi}{2}$，$y=1$ 围成，则 $\\iint\\limits_{D}\\left(x^{5}y-1\\right)\\mathrm{~d}x\\mathrm{~d}y=$（ ）",
           "options": [
             {
               "label": "A",
@@ -224,7 +224,7 @@
           "number": 10,
           "type": "填空题",
           "points": 4,
-          "stem": "计算 $\\lim\limits_{n\\to\\infty}n\\left(\\frac{1}{1+n^{2}}+\\frac{1}{2^{2}+n^{2}}+\\cdots+\\frac{1}{n^{2}+n^{2}}\\right)=$ ________。"
+          "stem": "计算 $\\lim\\limits_{n\\to\\infty}n\\left(\\frac{1}{1+n^{2}}+\\frac{1}{2^{2}+n^{2}}+\\cdots+\\frac{1}{n^{2}+n^{2}}\\right)=$ ________。"
         },
         {
           "number": 11,
@@ -260,7 +260,7 @@
           "number": 15,
           "type": "解答题",
           "points": 10,
-          "stem": "已知函数 $f\\left(x\\right)=\\frac{1+x}{\\sin x}-\\frac{1}{x}$，记 $a=\\lim\limits_{x\\to 0}f\\left(x\\right)$。\n\n（1）求 $a$ 的值；\n\n（2）若当 $x\\to 0$ 时，$f\\left(x\\right)-a$ 是 $x^{k}$ 的同阶无穷小，求 $k$。"
+          "stem": "已知函数 $f\\left(x\\right)=\\frac{1+x}{\\sin x}-\\frac{1}{x}$，记 $a=\\lim\\limits_{x\\to 0}f\\left(x\\right)$。\n\n（1）求 $a$ 的值；\n\n（2）若当 $x\\to 0$ 时，$f\\left(x\\right)-a$ 是 $x^{k}$ 的同阶无穷小，求 $k$。"
         },
         {
           "number": 16,
@@ -278,7 +278,7 @@
           "number": 18,
           "type": "解答题",
           "points": 10,
-          "stem": "计算二重积分 $\\iint\limits_{D}xy\\mathrm{d}\\sigma$，其中区域 $D$ 为曲线 $r=1+\\cos\\theta\\left(0\\leq\\theta\\leq\\pi\\right)$ 与极轴围成。"
+          "stem": "计算二重积分 $\\iint\\limits_{D}xy\\mathrm{d}\\sigma$，其中区域 $D$ 为曲线 $r=1+\\cos\\theta\\left(0\\leq\\theta\\leq\\pi\\right)$ 与极轴围成。"
         },
         {
           "number": 19,
@@ -296,7 +296,7 @@
           "number": 21,
           "type": "解答题",
           "points": 10,
-          "stem": "（1）证明方程 $x^{n}+x^{n-1}+\\cdots+x=1\\left(n>1\\right.$ 的整数$\\left.\\right)$ 在区间 $\\left(\\frac{1}{2},1\\right)$ 内有且仅有一个实根；\n\n（2）记（1）中的实根为 $x_{n}$，证明 $\\lim\limits_{n\\to\\infty}x_{n}$ 存在，并求此极限。"
+          "stem": "（1）证明方程 $x^{n}+x^{n-1}+\\cdots+x=1\\left(n>1\\right.$ 的整数$\\left.\\right)$ 在区间 $\\left(\\frac{1}{2},1\\right)$ 内有且仅有一个实根；\n\n（2）记（1）中的实根为 $x_{n}$，证明 $\\lim\\limits_{n\\to\\infty}x_{n}$ 存在，并求此极限。"
         },
         {
           "number": 22,

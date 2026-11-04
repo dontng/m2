@@ -37,7 +37,7 @@
           "number": 2,
           "type": "选择题",
           "points": 5,
-          "stem": "已知\n$$\n\\left\\{\n\\begin{aligned}\nx &= 1+t^3,\\\\\ny &= e^{t^2},\n\\end{aligned}\n\\right.\n$$\n则\n$$\n\\lim\limits_{x\\to+\\infty}x\\!\\left[f\\!\\left(2+\\frac{2}{x}\\right)-f(2)\\right]\n$$\n等于（ ）",
+          "stem": "已知\n$$\n\\left\\{\n\\begin{aligned}\nx &= 1+t^3,\\\\\ny &= e^{t^2},\n\\end{aligned}\n\\right.\n$$\n则\n$$\n\\lim\\limits_{x\\to+\\infty}x\\!\\left[f\\!\\left(2+\\frac{2}{x}\\right)-f(2)\\right]\n$$\n等于（ ）",
           "options": [
             {
               "label": "A",
@@ -162,7 +162,7 @@
           "number": 7,
           "type": "选择题",
           "points": 5,
-          "stem": "设非负函数 $f(x)$ 在 $[0,+\\infty)$ 上连续，给出三个命题：\n\n1. 若 $\\int_0^{+\\infty}f^2(x)\\,dx$ 收敛，则 $\\int_0^{+\\infty}f(x)\\,dx$ 收敛；\n2. 若存在 $p>1$，使极限 $\\lim\limits_{x\\to+\\infty}x^p f(x)$ 存在，则 $\\int_0^{+\\infty}f(x)\\,dx$ 收敛；\n3. 若 $\\int_0^{+\\infty}f(x)\\,dx$ 收敛，则存在 $p>1$，使极限 $\\lim\limits_{x\\to+\\infty}x^p f(x)$ 存在。\n\n其中正确命题的个数是（ ）",
+          "stem": "设非负函数 $f(x)$ 在 $[0,+\\infty)$ 上连续，给出三个命题：\n\n1. 若 $\\int_0^{+\\infty}f^2(x)\\,dx$ 收敛，则 $\\int_0^{+\\infty}f(x)\\,dx$ 收敛；\n2. 若存在 $p>1$，使极限 $\\lim\\limits_{x\\to+\\infty}x^p f(x)$ 存在，则 $\\int_0^{+\\infty}f(x)\\,dx$ 收敛；\n3. 若 $\\int_0^{+\\infty}f(x)\\,dx$ 收敛，则存在 $p>1$，使极限 $\\lim\\limits_{x\\to+\\infty}x^p f(x)$ 存在。\n\n其中正确命题的个数是（ ）",
           "options": [
             {
               "label": "A",
@@ -310,7 +310,7 @@
           "number": 17,
           "type": "解答题",
           "points": 10,
-          "stem": "设平面有界区域 $D$ 位于第一象限，由曲线\n$$\nxy=\\frac13,\\qquad xy=3\n$$\n与直线\n$$\ny=\\frac13x,\\qquad y=3x\n$$\n围成，计算\n$$\n\\iint\limits_D(1+x-y)\\,dx\\,dy.\n$$"
+          "stem": "设平面有界区域 $D$ 位于第一象限，由曲线\n$$\nxy=\\frac13,\\qquad xy=3\n$$\n与直线\n$$\ny=\\frac13x,\\qquad y=3x\n$$\n围成，计算\n$$\n\\iint\\limits_D(1+x-y)\\,dx\\,dy.\n$$"
         },
         {
           "number": 18,

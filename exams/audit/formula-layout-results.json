@@ -1,0 +1,1683 @@
+[
+  {
+    "year": 2010,
+    "media": "screen",
+    "width": 900,
+    "overflow": [],
+    "overlap": [],
+    "clips": [],
+    "displayFormulas": 0,
+    "matrices": 8,
+    "pageWidth": 900
+  },
+  {
+    "year": 2011,
+    "media": "screen",
+    "width": 900,
+    "overflow": [],
+    "overlap": [],
+    "clips": [],
+    "displayFormulas": 0,
+    "matrices": 7,
+    "pageWidth": 900
+  },
+  {
+    "year": 2012,
+    "media": "screen",
+    "width": 900,
+    "overflow": [],
+    "overlap": [],
+    "clips": [],
+    "displayFormulas": 0,
+    "matrices": 12,
+    "pageWidth": 900
+  },
+  {
+    "year": 2013,
+    "media": "screen",
+    "width": 900,
+    "overflow": [],
+    "overlap": [],
+    "clips": [],
+    "displayFormulas": 0,
+    "matrices": 9,
+    "pageWidth": 900
+  },
+  {
+    "year": 2014,
+    "media": "screen",
+    "width": 900,
+    "overflow": [],
+    "overlap": [],
+    "clips": [],
+    "displayFormulas": 0,
+    "matrices": 5,
+    "pageWidth": 900
+  },
+  {
+    "year": 2015,
+    "media": "screen",
+    "width": 900,
+    "overflow": [],
+    "overlap": [],
+    "clips": [],
+    "displayFormulas": 0,
+    "matrices": 9,
+    "pageWidth": 900
+  },
+  {
+    "year": 2016,
+    "media": "screen",
+    "width": 900,
+    "overflow": [],
+    "overlap": [],
+    "clips": [],
+    "displayFormulas": 0,
+    "matrices": 6,
+    "pageWidth": 900
+  },
+  {
+    "year": 2017,
+    "media": "screen",
+    "width": 900,
+    "overflow": [],
+    "overlap": [],
+    "clips": [],
+    "displayFormulas": 0,
+    "matrices": 8,
+    "pageWidth": 900
+  },
+  {
+    "year": 2018,
+    "media": "screen",
+    "width": 900,
+    "overflow": [],
+    "overlap": [],
+    "clips": [],
+    "displayFormulas": 0,
+    "matrices": 11,
+    "pageWidth": 900
+  },
+  {
+    "year": 2019,
+    "media": "screen",
+    "width": 900,
+    "overflow": [],
+    "overlap": [],
+    "clips": [],
+    "displayFormulas": 0,
+    "matrices": 11,
+    "pageWidth": 900
+  },
+  {
+    "year": 2020,
+    "media": "screen",
+    "width": 900,
+    "overflow": [],
+    "overlap": [],
+    "clips": [],
+    "displayFormulas": 0,
+    "matrices": 6,
+    "pageWidth": 900
+  },
+  {
+    "year": 2021,
+    "media": "screen",
+    "width": 900,
+    "overflow": [],
+    "overlap": [],
+    "clips": [],
+    "displayFormulas": 0,
+    "matrices": 13,
+    "pageWidth": 900
+  },
+  {
+    "year": 2022,
+    "media": "screen",
+    "width": 900,
+    "overflow": [],
+    "overlap": [],
+    "clips": [],
+    "displayFormulas": 0,
+    "matrices": 8,
+    "pageWidth": 900
+  },
+  {
+    "year": 2023,
+    "media": "screen",
+    "width": 900,
+    "overflow": [],
+    "overlap": [],
+    "clips": [],
+    "displayFormulas": 0,
+    "matrices": 24,
+    "pageWidth": 900
+  },
+  {
+    "year": 2024,
+    "media": "screen",
+    "width": 900,
+    "overflow": [],
+    "overlap": [],
+    "clips": [],
+    "displayFormulas": 0,
+    "matrices": 13,
+    "pageWidth": 900
+  },
+  {
+    "year": 2025,
+    "media": "screen",
+    "width": 900,
+    "overflow": [],
+    "overlap": [],
+    "clips": [],
+    "displayFormulas": 0,
+    "matrices": 9,
+    "pageWidth": 900
+  },
+  {
+    "year": 2026,
+    "media": "screen",
+    "width": 900,
+    "overflow": [],
+    "overlap": [],
+    "clips": [],
+    "displayFormulas": 0,
+    "matrices": 7,
+    "pageWidth": 900
+  },
+  {
+    "year": 2010,
+    "media": "print",
+    "width": 665,
+    "overflow": [],
+    "overlap": [],
+    "clips": [],
+    "displayFormulas": 0,
+    "matrices": 8,
+    "pageWidth": 665
+  },
+  {
+    "year": 2011,
+    "media": "print",
+    "width": 665,
+    "overflow": [],
+    "overlap": [],
+    "clips": [],
+    "displayFormulas": 0,
+    "matrices": 7,
+    "pageWidth": 665
+  },
+  {
+    "year": 2012,
+    "media": "print",
+    "width": 665,
+    "overflow": [],
+    "overlap": [],
+    "clips": [],
+    "displayFormulas": 0,
+    "matrices": 12,
+    "pageWidth": 665
+  },
+  {
+    "year": 2013,
+    "media": "print",
+    "width": 665,
+    "overflow": [],
+    "overlap": [],
+    "clips": [],
+    "displayFormulas": 0,
+    "matrices": 9,
+    "pageWidth": 665
+  },
+  {
+    "year": 2014,
+    "media": "print",
+    "width": 665,
+    "overflow": [],
+    "overlap": [],
+    "clips": [],
+    "displayFormulas": 0,
+    "matrices": 5,
+    "pageWidth": 665
+  },
+  {
+    "year": 2015,
+    "media": "print",
+    "width": 665,
+    "overflow": [],
+    "overlap": [],
+    "clips": [],
+    "displayFormulas": 0,
+    "matrices": 9,
+    "pageWidth": 665
+  },
+  {
+    "year": 2016,
+    "media": "print",
+    "width": 665,
+    "overflow": [],
+    "overlap": [],
+    "clips": [],
+    "displayFormulas": 0,
+    "matrices": 6,
+    "pageWidth": 665
+  },
+  {
+    "year": 2017,
+    "media": "print",
+    "width": 665,
+    "overflow": [],
+    "overlap": [],
+    "clips": [],
+    "displayFormulas": 0,
+    "matrices": 8,
+    "pageWidth": 665
+  },
+  {
+    "year": 2018,
+    "media": "print",
+    "width": 665,
+    "overflow": [],
+    "overlap": [],
+    "clips": [],
+    "displayFormulas": 0,
+    "matrices": 11,
+    "pageWidth": 665
+  },
+  {
+    "year": 2019,
+    "media": "print",
+    "width": 665,
+    "overflow": [],
+    "overlap": [],
+    "clips": [],
+    "displayFormulas": 0,
+    "matrices": 11,
+    "pageWidth": 665
+  },
+  {
+    "year": 2020,
+    "media": "print",
+    "width": 665,
+    "overflow": [],
+    "overlap": [],
+    "clips": [],
+    "displayFormulas": 0,
+    "matrices": 6,
+    "pageWidth": 665
+  },
+  {
+    "year": 2021,
+    "media": "print",
+    "width": 665,
+    "overflow": [],
+    "overlap": [],
+    "clips": [],
+    "displayFormulas": 0,
+    "matrices": 13,
+    "pageWidth": 665
+  },
+  {
+    "year": 2022,
+    "media": "print",
+    "width": 665,
+    "overflow": [],
+    "overlap": [],
+    "clips": [],
+    "displayFormulas": 0,
+    "matrices": 8,
+    "pageWidth": 665
+  },
+  {
+    "year": 2023,
+    "media": "print",
+    "width": 665,
+    "overflow": [],
+    "overlap": [],
+    "clips": [],
+    "displayFormulas": 0,
+    "matrices": 24,
+    "pageWidth": 665
+  },
+  {
+    "year": 2024,
+    "media": "print",
+    "width": 665,
+    "overflow": [],
+    "overlap": [],
+    "clips": [],
+    "displayFormulas": 0,
+    "matrices": 13,
+    "pageWidth": 665
+  },
+  {
+    "year": 2025,
+    "media": "print",
+    "width": 665,
+    "overflow": [],
+    "overlap": [],
+    "clips": [],
+    "displayFormulas": 0,
+    "matrices": 9,
+    "pageWidth": 667
+  },
+  {
+    "year": 2026,
+    "media": "print",
+    "width": 665,
+    "overflow": [],
+    "overlap": [],
+    "clips": [],
+    "displayFormulas": 0,
+    "matrices": 7,
+    "pageWidth": 665
+  },
+  {
+    "year": 2010,
+    "media": "screen",
+    "width": 375,
+    "overflow": [
+      {
+        "q": "q2010-7",
+        "formula": "r \\le s",
+        "left": 315.859375,
+        "right": 322.859375,
+        "host": [
+          60,
+          315
+        ]
+      },
+      {
+        "q": "q2010-7",
+        "formula": "r > s",
+        "left": 316.859375,
+        "right": 323.859375,
+        "host": [
+          60,
+          315
+        ]
+      }
+    ],
+    "overlap": [],
+    "clips": [],
+    "displayFormulas": 0,
+    "matrices": 8,
+    "pageWidth": 375
+  },
+  {
+    "year": 2011,
+    "media": "screen",
+    "width": 375,
+    "overflow": [],
+    "overlap": [],
+    "clips": [],
+    "displayFormulas": 0,
+    "matrices": 7,
+    "pageWidth": 375
+  },
+  {
+    "year": 2012,
+    "media": "screen",
+    "width": 375,
+    "overflow": [],
+    "overlap": [],
+    "clips": [],
+    "displayFormulas": 0,
+    "matrices": 12,
+    "pageWidth": 375
+  },
+  {
+    "year": 2013,
+    "media": "screen",
+    "width": 375,
+    "overflow": [],
+    "overlap": [],
+    "clips": [],
+    "displayFormulas": 0,
+    "matrices": 9,
+    "pageWidth": 413
+  },
+  {
+    "year": 2014,
+    "media": "screen",
+    "width": 375,
+    "overflow": [
+      {
+        "q": "q2014-3",
+        "formula": "f\\left(x\\right)\\geq g\\left(x\\right)",
+        "left": 286.9375,
+        "right": 318,
+        "host": [
+          60,
+          315
+        ]
+      },
+      {
+        "q": "q2014-3",
+        "formula": "f\\left(x\\right)\\leq g\\left(x\\right)",
+        "left": 287.9375,
+        "right": 319,
+        "host": [
+          60,
+          315
+        ]
+      },
+      {
+        "q": "q2014-6",
+        "formula": "D",
+        "left": 408.59375,
+        "right": 421.015625,
+        "host": [
+          60,
+          315
+        ]
+      },
+      {
+        "q": "q2014-6",
+        "formula": "D",
+        "left": 408.59375,
+        "right": 421.015625,
+        "host": [
+          60,
+          315
+        ]
+      },
+      {
+        "q": "q2014-6",
+        "formula": "D",
+        "left": 474.015625,
+        "right": 486.4375,
+        "host": [
+          60,
+          315
+        ]
+      },
+      {
+        "q": "q2014-6",
+        "formula": "D",
+        "left": 475.015625,
+        "right": 487.4375,
+        "host": [
+          60,
+          315
+        ]
+      }
+    ],
+    "overlap": [],
+    "clips": [],
+    "displayFormulas": 0,
+    "matrices": 5,
+    "pageWidth": 566
+  },
+  {
+    "year": 2015,
+    "media": "screen",
+    "width": 375,
+    "overflow": [
+      {
+        "q": "q2015-6",
+        "formula": "\\displaystyle\\int_{\\pi/4}^{\\pi/3}\\mathrm d\\theta\\int_{\\frac1{2\\sin2\\theta}}^{\\frac1{\\sin2\\theta}} f(r\\cos\\theta,r\\sin\\theta)r\\,\\mathrm dr",
+        "left": 114,
+        "right": 346.3125,
+        "host": [
+          60,
+          315
+        ]
+      },
+      {
+        "q": "q2015-6",
+        "formula": "\\displaystyle\\int_{\\pi/4}^{\\pi/3}\\mathrm d\\theta\\int_{\\frac1{\\sqrt{2\\sin2\\theta}}}^{\\frac1{\\sqrt{\\sin2\\theta}}} f(r\\cos\\theta,r\\sin\\theta)r\\",
+        "left": 114,
+        "right": 352.640625,
+        "host": [
+          60,
+          315
+        ]
+      },
+      {
+        "q": "q2015-6",
+        "formula": "\\displaystyle\\int_{\\pi/4}^{\\pi/3}\\mathrm d\\theta\\int_{\\frac1{2\\sin2\\theta}}^{\\frac1{\\sin2\\theta}} f(r\\cos\\theta,r\\sin\\theta)\\,\\mathrm dr",
+        "left": 114,
+        "right": 338.890625,
+        "host": [
+          60,
+          315
+        ]
+      },
+      {
+        "q": "q2015-6",
+        "formula": "\\displaystyle\\int_{\\pi/4}^{\\pi/3}\\mathrm d\\theta\\int_{\\frac1{\\sqrt{2\\sin2\\theta}}}^{\\frac1{\\sqrt{\\sin2\\theta}}} f(r\\cos\\theta,r\\sin\\theta)\\,",
+        "left": 115,
+        "right": 346.21875,
+        "host": [
+          60,
+          315
+        ]
+      }
+    ],
+    "overlap": [],
+    "clips": [],
+    "displayFormulas": 0,
+    "matrices": 9,
+    "pageWidth": 375
+  },
+  {
+    "year": 2016,
+    "media": "screen",
+    "width": 375,
+    "overflow": [
+      {
+        "q": "q2016-2",
+        "formula": "x\\geqslant 1",
+        "left": 308.484375,
+        "right": 337.921875,
+        "host": [
+          60,
+          315
+        ]
+      },
+      {
+        "q": "q2016-2",
+        "formula": "x\\geqslant 1",
+        "left": 337.921875,
+        "right": 345.921875,
+        "host": [
+          60,
+          315
+        ]
+      },
+      {
+        "q": "q2016-2",
+        "formula": "F(x)=x(\\ln x-1)",
+        "left": 379.921875,
+        "right": 433.46875,
+        "host": [
+          60,
+          315
+        ]
+      },
+      {
+        "q": "q2016-2",
+        "formula": "F(x)=x(\\ln x-1)",
+        "left": 433.46875,
+        "right": 490.75,
+        "host": [
+          60,
+          315
+        ]
+      },
+      {
+        "q": "q2016-2",
+        "formula": "F(x)=x(\\ln x-1)",
+        "left": 490.75,
+        "right": 504.75,
+        "host": [
+          60,
+          315
+        ]
+      },
+      {
+        "q": "q2016-2",
+        "formula": "x\\geqslant 1",
+        "left": 308.484375,
+        "right": 337.921875,
+        "host": [
+          60,
+          315
+        ]
+      },
+      {
+        "q": "q2016-2",
+        "formula": "x\\geqslant 1",
+        "left": 337.921875,
+        "right": 345.921875,
+        "host": [
+          60,
+          315
+        ]
+      },
+      {
+        "q": "q2016-2",
+        "formula": "F(x)=x(\\ln x+1)-1",
+        "left": 379.921875,
+        "right": 433.46875,
+        "host": [
+          60,
+          315
+        ]
+      },
+      {
+        "q": "q2016-2",
+        "formula": "F(x)=x(\\ln x+1)-1",
+        "left": 433.46875,
+        "right": 490.75,
+        "host": [
+          60,
+          315
+        ]
+      },
+      {
+        "q": "q2016-2",
+        "formula": "F(x)=x(\\ln x+1)-1",
+        "left": 490.75,
+        "right": 523.5,
+        "host": [
+          60,
+          315
+        ]
+      },
+      {
+        "q": "q2016-2",
+        "formula": "F(x)=x(\\ln x+1)-1",
+        "left": 523.5,
+        "right": 531.5,
+        "host": [
+          60,
+          315
+        ]
+      },
+      {
+        "q": "q2016-2",
+        "formula": "x\\geqslant 1",
+        "left": 308.484375,
+        "right": 337.921875,
+        "host": [
+          60,
+          315
+        ]
+      },
+      {
+        "q": "q2016-2",
+        "formula": "x\\geqslant 1",
+        "left": 337.921875,
+        "right": 345.921875,
+        "host": [
+          60,
+          315
+        ]
+      },
+      {
+        "q": "q2016-2",
+        "formula": "F(x)=x(\\ln x+1)+1",
+        "left": 379.921875,
+        "right": 433.46875,
+        "host": [
+          60,
+          315
+        ]
+      },
+      {
+        "q": "q2016-2",
+        "formula": "F(x)=x(\\ln x+1)+1",
+        "left": 433.46875,
+        "right": 490.75,
+        "host": [
+          60,
+          315
+        ]
+      },
+      {
+        "q": "q2016-2",
+        "formula": "F(x)=x(\\ln x+1)+1",
+        "left": 490.75,
+        "right": 523.5,
+        "host": [
+          60,
+          315
+        ]
+      },
+      {
+        "q": "q2016-2",
+        "formula": "F(x)=x(\\ln x+1)+1",
+        "left": 523.5,
+        "right": 531.5,
+        "host": [
+          60,
+          315
+        ]
+      },
+      {
+        "q": "q2016-2",
+        "formula": "x\\geqslant 1",
+        "left": 309.484375,
+        "right": 338.921875,
+        "host": [
+          60,
+          315
+        ]
+      },
+      {
+        "q": "q2016-2",
+        "formula": "x\\geqslant 1",
+        "left": 338.921875,
+        "right": 346.921875,
+        "host": [
+          60,
+          315
+        ]
+      },
+      {
+        "q": "q2016-2",
+        "formula": "F(x)=x(\\ln x-1)+1",
+        "left": 380.921875,
+        "right": 434.46875,
+        "host": [
+          60,
+          315
+        ]
+      },
+      {
+        "q": "q2016-2",
+        "formula": "F(x)=x(\\ln x-1)+1",
+        "left": 434.46875,
+        "right": 491.75,
+        "host": [
+          60,
+          315
+        ]
+      },
+      {
+        "q": "q2016-2",
+        "formula": "F(x)=x(\\ln x-1)+1",
+        "left": 491.75,
+        "right": 524.5,
+        "host": [
+          60,
+          315
+        ]
+      },
+      {
+        "q": "q2016-2",
+        "formula": "F(x)=x(\\ln x-1)+1",
+        "left": 524.5,
+        "right": 532.5,
+        "host": [
+          60,
+          315
+        ]
+      },
+      {
+        "q": "q2016-3",
+        "formula": "\\displaystyle (1) \\ \\int_{-\\infty}^{0}\\frac{e^{1/x}}{x^{2}}\\,\\mathrm{d}x,\\qquad (2) \\ \\int_{0}^{+\\infty}\\frac{e^{1/x}}{x^{2}}\\,\\mathrm{d}x",
+        "left": 61,
+        "right": 324.9375,
+        "host": [
+          60,
+          315
+        ]
+      },
+      {
+        "q": "q2016-4",
+        "formula": "y=f(x)",
+        "left": 321.625,
+        "right": 349.59375,
+        "host": [
+          60,
+          315
+        ]
+      },
+      {
+        "q": "q2016-4",
+        "formula": "y=f(x)",
+        "left": 349.59375,
+        "right": 379.21875,
+        "host": [
+          60,
+          315
+        ]
+      },
+      {
+        "q": "q2016-4",
+        "formula": "2",
+        "left": 402.21875,
+        "right": 410.21875,
+        "host": [
+          60,
+          315
+        ]
+      },
+      {
+        "q": "q2016-4",
+        "formula": "y=f(x)",
+        "left": 321.625,
+        "right": 349.59375,
+        "host": [
+          60,
+          315
+        ]
+      },
+      {
+        "q": "q2016-4",
+        "formula": "y=f(x)",
+        "left": 349.59375,
+        "right": 379.21875,
+        "host": [
+          60,
+          315
+        ]
+      },
+      {
+        "q": "q2016-4",
+        "formula": "3",
+        "left": 402.21875,
+        "right": 410.21875,
+        "host": [
+          60,
+          315
+        ]
+      },
+      {
+        "q": "q2016-4",
+        "formula": "y=f(x)",
+        "left": 321.625,
+        "right": 349.59375,
+        "host": [
+          60,
+          315
+        ]
+      },
+      {
+        "q": "q2016-4",
+        "formula": "y=f(x)",
+        "left": 349.59375,
+        "right": 379.21875,
+        "host": [
+          60,
+          315
+        ]
+      },
+      {
+        "q": "q2016-4",
+        "formula": "1",
+        "left": 402.21875,
+        "right": 410.21875,
+        "host": [
+          60,
+          315
+        ]
+      },
+      {
+        "q": "q2016-4",
+        "formula": "y=f(x)",
+        "left": 322.625,
+        "right": 350.59375,
+        "host": [
+          60,
+          315
+        ]
+      },
+      {
+        "q": "q2016-4",
+        "formula": "y=f(x)",
+        "left": 350.59375,
+        "right": 380.21875,
+        "host": [
+          60,
+          315
+        ]
+      },
+      {
+        "q": "q2016-4",
+        "formula": "2",
+        "left": 403.21875,
+        "right": 411.21875,
+        "host": [
+          60,
+          315
+        ]
+      },
+      {
+        "q": "q2016-10",
+        "formula": "\\displaystyle \\lim\\limits_{n\\to\\infty}\\frac{1}{n^{2}}\\left(\\sin\\frac{1}{n}+2\\sin\\frac{2}{n}+\\cdots+n\\sin\\frac{n}{n}\\right)=",
+        "left": 61,
+        "right": 348.4375,
+        "host": [
+          60,
+          315
+        ]
+      }
+    ],
+    "overlap": [],
+    "clips": [],
+    "displayFormulas": 0,
+    "matrices": 6,
+    "pageWidth": 548
+  },
+  {
+    "year": 2017,
+    "media": "screen",
+    "width": 375,
+    "overflow": [
+      {
+        "q": "q2017-3",
+        "formula": "\\lim\\limits_{n\\to\\infty}x_n=0",
+        "left": 264.25,
+        "right": 332.96875,
+        "host": [
+          60,
+          315
+        ]
+      },
+      {
+        "q": "q2017-3",
+        "formula": "\\lim\\limits_{n\\to\\infty}x_n=0",
+        "left": 332.96875,
+        "right": 340.96875,
+        "host": [
+          60,
+          315
+        ]
+      },
+      {
+        "q": "q2017-3",
+        "formula": "\\lim\\limits_{n\\to\\infty}x_n=0",
+        "left": 311.90625,
+        "right": 380.625,
+        "host": [
+          60,
+          315
+        ]
+      },
+      {
+        "q": "q2017-3",
+        "formula": "\\lim\\limits_{n\\to\\infty}x_n=0",
+        "left": 380.625,
+        "right": 388.625,
+        "host": [
+          60,
+          315
+        ]
+      },
+      {
+        "q": "q2017-3",
+        "formula": "\\lim\\limits_{n\\to\\infty}x_n=0",
+        "left": 288.6875,
+        "right": 357.40625,
+        "host": [
+          60,
+          315
+        ]
+      },
+      {
+        "q": "q2017-3",
+        "formula": "\\lim\\limits_{n\\to\\infty}x_n=0",
+        "left": 357.40625,
+        "right": 365.40625,
+        "host": [
+          60,
+          315
+        ]
+      },
+      {
+        "q": "q2017-3",
+        "formula": "\\lim\\limits_{n\\to\\infty}x_n=0",
+        "left": 310.21875,
+        "right": 378.9375,
+        "host": [
+          60,
+          315
+        ]
+      },
+      {
+        "q": "q2017-3",
+        "formula": "\\lim\\limits_{n\\to\\infty}x_n=0",
+        "left": 378.9375,
+        "right": 386.9375,
+        "host": [
+          60,
+          315
+        ]
+      },
+      {
+        "q": "q2017-4",
+        "formula": "Ae^{2x}+e^{2x}(B\\cos2x+C\\sin2x)",
+        "left": 262.8125,
+        "right": 320.953125,
+        "host": [
+          60,
+          315
+        ]
+      },
+      {
+        "q": "q2017-4",
+        "formula": "Axe^{2x}+e^{2x}(B\\cos2x+C\\sin2x)",
+        "left": 271.8125,
+        "right": 329.953125,
+        "host": [
+          60,
+          315
+        ]
+      },
+      {
+        "q": "q2017-4",
+        "formula": "Ae^{2x}+xe^{2x}(B\\cos2x+C\\sin2x)",
+        "left": 271.8125,
+        "right": 329.953125,
+        "host": [
+          60,
+          315
+        ]
+      },
+      {
+        "q": "q2017-4",
+        "formula": "Axe^{2x}+xe^{2x}(B\\cos2x+C\\sin2x)",
+        "left": 281.8125,
+        "right": 339.953125,
+        "host": [
+          60,
+          315
+        ]
+      }
+    ],
+    "overlap": [],
+    "clips": [],
+    "displayFormulas": 0,
+    "matrices": 8,
+    "pageWidth": 389
+  },
+  {
+    "year": 2018,
+    "media": "screen",
+    "width": 375,
+    "overflow": [],
+    "overlap": [],
+    "clips": [],
+    "displayFormulas": 0,
+    "matrices": 11,
+    "pageWidth": 375
+  },
+  {
+    "year": 2019,
+    "media": "screen",
+    "width": 375,
+    "overflow": [],
+    "overlap": [],
+    "clips": [],
+    "displayFormulas": 0,
+    "matrices": 11,
+    "pageWidth": 375
+  },
+  {
+    "year": 2020,
+    "media": "screen",
+    "width": 375,
+    "overflow": [
+      {
+        "q": "q2020-7",
+        "formula": "k_1,k_2,k_3",
+        "left": 318.4375,
+        "right": 375.75,
+        "host": [
+          60,
+          315
+        ]
+      }
+    ],
+    "overlap": [],
+    "clips": [],
+    "displayFormulas": 0,
+    "matrices": 6,
+    "pageWidth": 470
+  },
+  {
+    "year": 2021,
+    "media": "screen",
+    "width": 375,
+    "overflow": [],
+    "overlap": [],
+    "clips": [],
+    "displayFormulas": 0,
+    "matrices": 13,
+    "pageWidth": 375
+  },
+  {
+    "year": 2022,
+    "media": "screen",
+    "width": 375,
+    "overflow": [
+      {
+        "q": "q2022-3",
+        "formula": "f^{\\prime}\\left( x_{0} \\right) > 0",
+        "left": 372.90625,
+        "right": 436,
+        "host": [
+          60,
+          315
+        ]
+      },
+      {
+        "q": "q2022-3",
+        "formula": "f^{\\prime}\\left( x_{0} \\right) > 0",
+        "left": 436,
+        "right": 444,
+        "host": [
+          60,
+          315
+        ]
+      },
+      {
+        "q": "q2022-3",
+        "formula": "f^{\\prime\\prime}\\left( x_{0} \\right) > 0",
+        "left": 372.90625,
+        "right": 439,
+        "host": [
+          60,
+          315
+        ]
+      },
+      {
+        "q": "q2022-3",
+        "formula": "f^{\\prime\\prime}\\left( x_{0} \\right) > 0",
+        "left": 439,
+        "right": 447,
+        "host": [
+          60,
+          315
+        ]
+      },
+      {
+        "q": "q2022-6",
+        "formula": "\\lim\\limits_{n \\to \\infty} x_{n}",
+        "left": 305.34375,
+        "right": 353.625,
+        "host": [
+          60,
+          315
+        ]
+      },
+      {
+        "q": "q2022-6",
+        "formula": "\\lim\\limits_{n \\to \\infty} x_{n}",
+        "left": 305.34375,
+        "right": 353.625,
+        "host": [
+          60,
+          315
+        ]
+      },
+      {
+        "q": "q2022-6",
+        "formula": "\\lim\\limits_{n \\to \\infty} \\sin x_{n}",
+        "left": 305.34375,
+        "right": 374.15625,
+        "host": [
+          60,
+          315
+        ]
+      },
+      {
+        "q": "q2022-6",
+        "formula": "\\lim\\limits_{n \\to \\infty} x_{n}",
+        "left": 442.15625,
+        "right": 490.4375,
+        "host": [
+          60,
+          315
+        ]
+      },
+      {
+        "q": "q2022-6",
+        "formula": "\\lim\\limits_{n \\to \\infty} \\cos x_{n}",
+        "left": 306.34375,
+        "right": 378.15625,
+        "host": [
+          60,
+          315
+        ]
+      },
+      {
+        "q": "q2022-6",
+        "formula": "\\lim\\limits_{n \\to \\infty} x_{n}",
+        "left": 446.15625,
+        "right": 494.4375,
+        "host": [
+          60,
+          315
+        ]
+      },
+      {
+        "q": "q2022-8",
+        "formula": "\\boldsymbol{A} = \\boldsymbol{P}\\boldsymbol{\\Lambda}\\boldsymbol{Q}",
+        "left": 289.953125,
+        "right": 323.390625,
+        "host": [
+          60,
+          315
+        ]
+      },
+      {
+        "q": "q2022-8",
+        "formula": "\\boldsymbol{A} = \\boldsymbol{P}\\boldsymbol{\\Lambda}\\boldsymbol{Q}",
+        "left": 323.390625,
+        "right": 361.8125,
+        "host": [
+          60,
+          315
+        ]
+      },
+      {
+        "q": "q2022-8",
+        "formula": "\\boldsymbol{A} = \\boldsymbol{P}\\boldsymbol{\\Lambda}\\boldsymbol{P}^{-1}",
+        "left": 303.859375,
+        "right": 358.453125,
+        "host": [
+          60,
+          315
+        ]
+      },
+      {
+        "q": "q2022-8",
+        "formula": "\\boldsymbol{A} = \\boldsymbol{Q}\\boldsymbol{\\Lambda}\\boldsymbol{Q}^{-1}",
+        "left": 303.4375,
+        "right": 357.1875,
+        "host": [
+          60,
+          315
+        ]
+      },
+      {
+        "q": "q2022-8",
+        "formula": "\\boldsymbol{A} = \\boldsymbol{P}\\boldsymbol{\\Lambda}\\boldsymbol{P}^{T}",
+        "left": 304.859375,
+        "right": 351.921875,
+        "host": [
+          60,
+          315
+        ]
+      },
+      {
+        "q": "q2022-19",
+        "formula": "D = \\left\\{ \\left( x,y \\right) \\mid y - 2 \\le x \\le \\sqrt{4 - y^{2}},\\ 0 \\le y \\le 2 \\right\\}",
+        "left": 61,
+        "right": 343.84375,
+        "host": [
+          60,
+          315
+        ]
+      }
+    ],
+    "overlap": [],
+    "clips": [],
+    "displayFormulas": 0,
+    "matrices": 8,
+    "pageWidth": 573
+  },
+  {
+    "year": 2023,
+    "media": "screen",
+    "width": 375,
+    "overflow": [
+      {
+        "q": "q2023-2",
+        "formula": "\\displaystyle F(x)= \\begin{cases} \\ln\\left(\\sqrt{1+x^2}-x\\right), & x\\le 0,\\\\ (x+1)\\cos x-\\sin x, & x>0 \\end{cases}",
+        "left": 167.546875,
+        "right": 373.109375,
+        "host": [
+          60,
+          315
+        ]
+      },
+      {
+        "q": "q2023-2",
+        "formula": "\\displaystyle F(x)= \\begin{cases} \\ln\\left(\\sqrt{1+x^2}-x\\right)+1, & x\\le 0,\\\\ (x+1)\\cos x-\\sin x, & x>0 \\end{cases}",
+        "left": 167.546875,
+        "right": 380.21875,
+        "host": [
+          60,
+          315
+        ]
+      },
+      {
+        "q": "q2023-2",
+        "formula": "\\displaystyle F(x)= \\begin{cases} \\ln\\left(\\sqrt{1+x^2}+x\\right), & x\\le 0,\\\\ (x+1)\\sin x+\\cos x, & x>0 \\end{cases}",
+        "left": 167.546875,
+        "right": 373.109375,
+        "host": [
+          60,
+          315
+        ]
+      },
+      {
+        "q": "q2023-2",
+        "formula": "\\displaystyle F(x)= \\begin{cases} \\ln\\left(\\sqrt{1+x^2}+x\\right)+1, & x\\le 0,\\\\ (x+1)\\sin x+\\cos x, & x>0 \\end{cases}",
+        "left": 168.546875,
+        "right": 381.21875,
+        "host": [
+          60,
+          315
+        ]
+      }
+    ],
+    "overlap": [],
+    "clips": [],
+    "displayFormulas": 0,
+    "matrices": 24,
+    "pageWidth": 381
+  },
+  {
+    "year": 2024,
+    "media": "screen",
+    "width": 375,
+    "overflow": [],
+    "overlap": [],
+    "clips": [],
+    "displayFormulas": 0,
+    "matrices": 13,
+    "pageWidth": 375
+  },
+  {
+    "year": 2025,
+    "media": "screen",
+    "width": 375,
+    "overflow": [
+      {
+        "q": "q2025-2",
+        "formula": "g\\left( x \\right)",
+        "left": 319.59375,
+        "right": 350.65625,
+        "host": [
+          60,
+          315
+        ]
+      },
+      {
+        "q": "q2025-2",
+        "formula": "\\left( 0, 0 \\right)",
+        "left": 285.59375,
+        "right": 320.125,
+        "host": [
+          60,
+          315
+        ]
+      },
+      {
+        "q": "q2025-2",
+        "formula": "y = g\\left( x \\right)",
+        "left": 373.125,
+        "right": 401.09375,
+        "host": [
+          60,
+          315
+        ]
+      },
+      {
+        "q": "q2025-2",
+        "formula": "y = g\\left( x \\right)",
+        "left": 401.09375,
+        "right": 432.15625,
+        "host": [
+          60,
+          315
+        ]
+      },
+      {
+        "q": "q2025-2",
+        "formula": "\\left( 0, 0 \\right)",
+        "left": 285.59375,
+        "right": 320.125,
+        "host": [
+          60,
+          315
+        ]
+      },
+      {
+        "q": "q2025-2",
+        "formula": "y = f\\left( x \\right)",
+        "left": 373.125,
+        "right": 401.09375,
+        "host": [
+          60,
+          315
+        ]
+      },
+      {
+        "q": "q2025-2",
+        "formula": "y = f\\left( x \\right)",
+        "left": 401.09375,
+        "right": 433.25,
+        "host": [
+          60,
+          315
+        ]
+      },
+      {
+        "q": "q2025-2",
+        "formula": "y = g\\left( x \\right)",
+        "left": 405.65625,
+        "right": 433.625,
+        "host": [
+          60,
+          315
+        ]
+      },
+      {
+        "q": "q2025-2",
+        "formula": "y = g\\left( x \\right)",
+        "left": 433.625,
+        "right": 464.6875,
+        "host": [
+          60,
+          315
+        ]
+      },
+      {
+        "q": "q2025-5",
+        "formula": "\\int_{0}^{4} \\left[ \\int_{-2}^{-\\sqrt{4 - y}} f\\left( x, y \\right) \\mathrm{~d} x + \\int_{\\sqrt{4 - y}}^{2} f\\left( x, y \\right) \\mathrm{~d} ",
+        "left": 114,
+        "right": 421.515625,
+        "host": [
+          60,
+          315
+        ]
+      },
+      {
+        "q": "q2025-5",
+        "formula": "\\int_{0}^{4} \\left[ \\int_{-2}^{\\sqrt{4 - y}} f\\left( x, y \\right) \\mathrm{~d} x + \\int_{\\sqrt{4 - y}}^{2} f\\left( x, y \\right) \\mathrm{~d} x",
+        "left": 114,
+        "right": 412.515625,
+        "host": [
+          60,
+          315
+        ]
+      },
+      {
+        "q": "q2025-5",
+        "formula": "\\int_{0}^{4} \\left[ \\int_{-2}^{-\\sqrt{4 - y}} f\\left( x, y \\right) \\mathrm{~d} x + \\int_{2}^{\\sqrt{4 - y}} f\\left( x, y \\right) \\mathrm{~d} ",
+        "left": 114,
+        "right": 421.515625,
+        "host": [
+          60,
+          315
+        ]
+      },
+      {
+        "q": "q2025-10",
+        "formula": "\\boldsymbol{B}\\boldsymbol{x} = 0",
+        "left": 282.4375,
+        "right": 326.609375,
+        "host": [
+          60,
+          315
+        ]
+      },
+      {
+        "q": "q2025-10",
+        "formula": "\\boldsymbol{B}\\boldsymbol{x} = 0",
+        "left": 326.609375,
+        "right": 334.609375,
+        "host": [
+          60,
+          315
+        ]
+      },
+      {
+        "q": "q2025-10",
+        "formula": "\\boldsymbol{B}\\boldsymbol{x} = 0",
+        "left": 282.4375,
+        "right": 326.609375,
+        "host": [
+          60,
+          315
+        ]
+      },
+      {
+        "q": "q2025-10",
+        "formula": "\\boldsymbol{B}\\boldsymbol{x} = 0",
+        "left": 326.609375,
+        "right": 334.609375,
+        "host": [
+          60,
+          315
+        ]
+      },
+      {
+        "q": "q2025-10",
+        "formula": "\\boldsymbol{B}\\boldsymbol{A}\\boldsymbol{B}\\boldsymbol{x} = 0",
+        "left": 310.171875,
+        "right": 381.078125,
+        "host": [
+          60,
+          315
+        ]
+      },
+      {
+        "q": "q2025-10",
+        "formula": "\\boldsymbol{B}\\boldsymbol{A}\\boldsymbol{B}\\boldsymbol{x} = 0",
+        "left": 381.078125,
+        "right": 389.078125,
+        "host": [
+          60,
+          315
+        ]
+      },
+      {
+        "q": "q2025-13",
+        "formula": "\\lim\\limits_{n \\to \\infty} \\frac{1}{n^{2}} \\left[ \\ln \\frac{1}{n} + 2 \\ln \\frac{2}{n} + \\cdots + \\left( n - 1 \\right) \\ln \\frac{n - 1}{n} \\r",
+        "left": 61,
+        "right": 364.1875,
+        "host": [
+          60,
+          315
+        ]
+      }
+    ],
+    "overlap": [],
+    "clips": [],
+    "displayFormulas": 0,
+    "matrices": 9,
+    "pageWidth": 519
+  },
+  {
+    "year": 2026,
+    "media": "screen",
+    "width": 375,
+    "overflow": [
+      {
+        "q": "q2026-5",
+        "formula": "(0,1)",
+        "left": 330.15625,
+        "right": 364.6875,
+        "host": [
+          60,
+          315
+        ]
+      },
+      {
+        "q": "q2026-5",
+        "formula": "f(0)",
+        "left": 458.6875,
+        "right": 487.3125,
+        "host": [
+          60,
+          315
+        ]
+      },
+      {
+        "q": "q2026-5",
+        "formula": "(-1,0)",
+        "left": 308.25,
+        "right": 354.78125,
+        "host": [
+          60,
+          315
+        ]
+      },
+      {
+        "q": "q2026-5",
+        "formula": "(0,1)",
+        "left": 452.78125,
+        "right": 487.3125,
+        "host": [
+          60,
+          315
+        ]
+      },
+      {
+        "q": "q2026-5",
+        "formula": "\\dfrac{f(x)-f(1)}{x-1}",
+        "left": 367.15625,
+        "right": 447.78125,
+        "host": [
+          60,
+          315
+        ]
+      },
+      {
+        "q": "q2026-5",
+        "formula": "[-1,1)",
+        "left": 470.78125,
+        "right": 515.3125,
+        "host": [
+          60,
+          315
+        ]
+      },
+      {
+        "q": "q2026-5",
+        "formula": "f(x)",
+        "left": 391.15625,
+        "right": 420.78125,
+        "host": [
+          60,
+          315
+        ]
+      },
+      {
+        "q": "q2026-5",
+        "formula": "[-1,1]",
+        "left": 488.78125,
+        "right": 531.3125,
+        "host": [
+          60,
+          315
+        ]
+      },
+      {
+        "q": "q2026-7",
+        "formula": "\\displaystyle 2\\lim\\limits_{n\\to\\infty}\\sum\\limits_{i=1}^n\\sum\\limits_{j=n+1-i}^n f\\!\\left(\\frac{i}{n},\\frac{j}{n}\\right)\\frac{1}{n^2}",
+        "left": 114,
+        "right": 317.046875,
+        "host": [
+          60,
+          315
+        ]
+      },
+      {
+        "q": "q2026-7",
+        "formula": "\\displaystyle 2\\lim\\limits_{n\\to\\infty}\\sum\\limits_{i=1}^{2n}\\sum\\limits_{j=1}^{2n+1-i} f\\!\\left(\\frac{i}{2n},\\frac{j}{2n}\\right)\\frac{1}{n^",
+        "left": 114,
+        "right": 324.4375,
+        "host": [
+          60,
+          315
+        ]
+      }
+    ],
+    "overlap": [],
+    "clips": [],
+    "displayFormulas": 0,
+    "matrices": 7,
+    "pageWidth": 595
+  }
+]

@@ -12,14 +12,11 @@
       { left: '$', right: '$', display: false }
     ],
     preProcess: (math) => {
-      // 1. 移除一元积分误加的 \limits，保证单积分上下限位于右侧偏上与偏下
-      let s = math.replace(/(?<!i)\\int\\limits(?=[_^])/g, '\\int');
-      // 2. 极限符号 lim 下标置于正下方
-      s = s.replace(/\\lim(?!\\limits)(?=[_^])/g, '\\lim\\limits');
-      // 3. 多重积分与环路积分区域置于正下方
-      s = s.replace(/\\(i{2,3}nt|oint)(?!\\limits)(?=[_^])/g, '\\$1\\limits');
-      // 4. 求和符号 sum 上下标置于正下与正上方
-      s = s.replace(/\\sum(?!\\limits)(?=[_^])/g, '\\sum\\limits');
+      // 正则匹配实际 LaTeX 的一个反斜杠；替换字符串保留一个。
+      let s = math.replace(/\\int\s*\\limits(?![A-Za-z])/g, '\\int');
+      s = s.replace(/\\lim(?![A-Za-z]|\s*\\(?:no)?limits(?![A-Za-z]))\s*(?=[_^])/g, '\\lim\\limits');
+      s = s.replace(/\\(i{2,3}nt|oint)(?![A-Za-z]|\s*\\(?:no)?limits(?![A-Za-z]))\s*(?=[_^])/g, '\\$1\\limits');
+      s = s.replace(/\\sum(?![A-Za-z]|\s*\\(?:no)?limits(?![A-Za-z]))\s*(?=[_^])/g, '\\sum\\limits');
       return s;
     },
     throwOnError: false,

@@ -37,7 +37,7 @@
           "number": 2,
           "type": "选择题",
           "points": 4,
-          "stem": "设函数 $y=f\\left(x\\right)$ 由方程 $\\cos\\left(xy\\right)-\\ln y+x=1$ 确定，则 $\\lim\limits_{n\\to\\infty}n\\left[f\\left(\\frac{2}{n}\\right)-1\\right]=$（ ）",
+          "stem": "设函数 $y=f\\left(x\\right)$ 由方程 $\\cos\\left(xy\\right)-\\ln y+x=1$ 确定，则 $\\lim\\limits_{n\\to\\infty}n\\left[f\\left(\\frac{2}{n}\\right)-1\\right]=$（ ）",
           "options": [
             {
               "label": "A",
@@ -137,7 +137,7 @@
           "number": 6,
           "type": "选择题",
           "points": 4,
-          "stem": "设 $D_{k}$ 是圆域 $D=\\left\\{\\left(x,y\\right)\\middle|x^{2}+y^{2}\\leq 1\\right\\}$ 在第 $k$ 象限的部分，记 $I_{k}=\\iint\limits_{D_{k}}\\left(y-x\\right)\\mathrm{~d}x\\mathrm{~d}y\\left(k=1,2,3,4\\right)$，则（ ）",
+          "stem": "设 $D_{k}$ 是圆域 $D=\\left\\{\\left(x,y\\right)\\middle|x^{2}+y^{2}\\leq 1\\right\\}$ 在第 $k$ 象限的部分，记 $I_{k}=\\iint\\limits_{D_{k}}\\left(y-x\\right)\\mathrm{~d}x\\mathrm{~d}y\\left(k=1,2,3,4\\right)$，则（ ）",
           "options": [
             {
               "label": "A",
@@ -218,7 +218,7 @@
           "number": 9,
           "type": "填空题",
           "points": 4,
-          "stem": "$\\lim\limits_{x\\to\\infty}\\left(2-\\frac{\\ln\\left(1+x\\right)}{x}\\right)^{\\frac{1}{x}}=$"
+          "stem": "$\\lim\\limits_{x\\to\\infty}\\left(2-\\frac{\\ln\\left(1+x\\right)}{x}\\right)^{\\frac{1}{x}}=$"
         },
         {
           "number": 10,
@@ -272,7 +272,7 @@
           "number": 17,
           "type": "解答题",
           "points": 10,
-          "stem": "设平面内区域 $D$ 由直线 $x=3y$，$y=3x$ 及 $x+y=8$ 围成，计算 $\\iint\limits_{D}x^{2}\\mathrm{~d}x\\mathrm{~d}y$。"
+          "stem": "设平面内区域 $D$ 由直线 $x=3y$，$y=3x$ 及 $x+y=8$ 围成，计算 $\\iint\\limits_{D}x^{2}\\mathrm{~d}x\\mathrm{~d}y$。"
         },
         {
           "number": 18,
@@ -290,7 +290,7 @@
           "number": 20,
           "type": "解答题",
           "points": 11,
-          "stem": "设函数 $f\\left(x\\right)=\\ln x+\\frac{1}{x}$。\n\n（I）求 $f\\left(x\\right)$ 的最小值；\n\n（II）设数列 $\\left\\{x_{n}\\right\\}$ 满足 $\\ln x_{n}+\\frac{1}{x_{n}}<1$，证明 $\\lim\limits_{n\\to\\infty}x_{n}$ 存在，并求此极限。"
+          "stem": "设函数 $f\\left(x\\right)=\\ln x+\\frac{1}{x}$。\n\n（I）求 $f\\left(x\\right)$ 的最小值；\n\n（II）设数列 $\\left\\{x_{n}\\right\\}$ 满足 $\\ln x_{n}+\\frac{1}{x_{n}}<1$，证明 $\\lim\\limits_{n\\to\\infty}x_{n}$ 存在，并求此极限。"
         },
         {
           "number": 21,
