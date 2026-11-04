@@ -67,7 +67,7 @@ def priority_header(c):
             year, num = pick['id'].split('-')
             return f"[{year}-{int(num):02d}](#q{pick['id']})（{pick['focus']}）"
         lines.append(f"> **{label}**：" + ' → '.join(link(p) for p in picks))
-    lines.append(f"> **过关标准**：{plan['goal']}")
+    lines.append(f"> **首轮过关**：{plan['goal']}")
     return '  \n'.join(lines) + '\n'
 
 def chapter_nav(c):

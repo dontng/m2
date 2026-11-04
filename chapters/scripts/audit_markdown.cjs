@@ -24,6 +24,8 @@ function audit(file) {
     check(child.type !== 'text' || !child.content.includes('$'), `${file}: 残留美元符号 ${child.content}`);
   }
   const html = md.render(source);
+  const anchors = new Set([...html.matchAll(/\bid="([^"]+)"/g)].map(m => m[1]));
+  for (const [, anchor] of html.matchAll(/href="#(q[^"]+)"/g)) check(anchors.has(anchor), `${file}: 缺失题目锚点 ${anchor}`);
   for (const [, target] of html.matchAll(/(?:href|src)="([^"]+)"/g)) {
     if (/^(?:[a-z]+:|#|\/)/i.test(target)) continue;
     const plain = target.split('#')[0];
