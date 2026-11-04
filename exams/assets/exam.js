@@ -24,14 +24,6 @@
     trust: false
   });
 
-  // 仅标记右侧带上下限的单积分；区域积分、求和及限值内部结构不受影响。
-  for (const operator of document.querySelectorAll('.katex .mop')) {
-    const symbol = operator.querySelector(':scope > .op-symbol');
-    if (symbol?.textContent === '∫' && operator.querySelector(':scope > .msupsub')) {
-      operator.classList.add('integral-side-limits');
-    }
-  }
-
   // 2. 选择题选项宽度智能防溢出：确保每项单行展示，绝不出现内部异常折行
   function fitOptions() {
     const groups = document.querySelectorAll('.options');

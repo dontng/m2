@@ -279,12 +279,8 @@ body {
   font-size: 1.05em;
 }
 
-/* 单积分右侧上下限左边缘对齐，保留 KaTeX 的符号斜体修正间距。
-   禁止压缩 op-symbol 的 margin-right：大积分号上端会伸向右侧。
-   只调整这一层上下限，避免影响限值内部的幂、分式和嵌套积分。 */
-.katex .integral-side-limits > .msupsub > .vlist-t > .vlist-r > .vlist > span {
-  margin-left: 0 !important;
-}
+/* 积分上下限使用 KaTeX 原生排版：保留斜体修正，紧凑且避让符号。
+   不覆盖 op-symbol / msupsub / vlist 的间距，也不强制上下限竖直对齐。 */
 
 .katex-display {
   margin: 0.35em 0;

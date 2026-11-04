@@ -22,13 +22,23 @@ const sha = p => createHash('sha256').update(fs.readFileSync(path.join(root, p))
         await page.evaluate(async () => { await document.fonts.ready; await Promise.all([...document.images].map(i => i.decode())); });
         const checks = await page.evaluate(() => {
           const failures = [];
-          const integrals = [...document.querySelectorAll('.integral-side-limits')];
+          const integrals = [...document.querySelectorAll('.katex .mop')].filter(op =>
+            op.querySelector(':scope > .op-symbol')?.textContent === '∫' && op.querySelector(':scope > .msupsub'));
+          // 原生下限会顺着积分号下端向左回收；不能再要求两限横坐标相等。
+          // 核对 KaTeX 逐公式生成的间距未被项目 CSS 覆盖。
+          function checkMargin(element, property, question) {
+            const inline = element.style[property] || '0px';
+            const style = getComputedStyle(element);
+            const expected = parseFloat(inline) * (inline.endsWith('em') ? parseFloat(style.fontSize) : 1);
+            const actual = parseFloat(style[property]);
+            if (Math.abs(expected - actual) > 0.05) failures.push({ question, property, expected, actual });
+          }
           for (const op of integrals) {
-            const symbol = op.querySelector(':scope > .op-symbol');
-            const rows = [...op.querySelectorAll(':scope > .msupsub > .vlist-t > .vlist-r > .vlist > span')].filter(e => e.querySelector('.sizing'));
-            const lefts = rows.map(e => e.querySelector(':scope > .sizing').getBoundingClientRect().left);
-            const symbolRight = symbol.getBoundingClientRect().right;
-            if (lefts.some(x => x < symbolRight - 0.1) || (lefts.length === 2 && Math.abs(lefts[0] - lefts[1]) > 0.1)) failures.push({ question: op.closest('.question').id, symbolRight, lefts });
+            const question = op.closest('.question').id;
+            checkMargin(op.querySelector(':scope > .op-symbol'), 'marginRight', question);
+            for (const row of op.querySelectorAll(':scope > .msupsub > .vlist-t > .vlist-r > .vlist > span')) {
+              if (row.querySelector('.sizing')) checkMargin(row, 'marginLeft', question);
+            }
           }
           return { questions: document.querySelectorAll('.question').length,
             formulas: document.querySelectorAll('.katex').length,
