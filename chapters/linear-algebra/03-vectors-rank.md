@@ -14,7 +14,7 @@
 
 > *最新线代解答题。第一问行变换化阶梯形证极大无关组；第二问列出分解 $A=GH$（满秩分解），利用结合律 $A^{10} = G(HG)^9 H$ 降成 2 阶矩阵的幂。*
 
-<img src="../bank/2026/q22.png" alt="2026-22" style="display: block; width: 48.0em; max-width: 100%; height: auto; margin: 12px 0;">
+<img src="../bank/2026/q22.png" alt="2026-22" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
 *关联章节：[矩阵运算、逆矩阵与初等变换](02-matrices.md)*
 
@@ -24,7 +24,7 @@
 
 ### 02 · 2025-10 · 选择题
 
-<img src="../bank/2025/q10.png" alt="2025-10" style="display: block; width: 31.61em; max-width: 100%; height: auto; margin: 12px 0;">
+<img src="../bank/2025/q10.png" alt="2025-10" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
 *关联章节：[线性方程组](04-linear-systems.md)*
 
@@ -34,13 +34,13 @@
 
 ### 03 · 2024-09 · 选择题
 
-<img src="../bank/2024/q09.png" alt="2024-09" style="display: block; width: 48.0em; max-width: 100%; height: auto; margin: 12px 0;">
+<img src="../bank/2024/q09.png" alt="2024-09" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
 ---
 
 ### 04 · 2024-16 · 填空题
 
-<img src="../bank/2024/q16.png" alt="2024-16" style="display: block; width: 48.0em; max-width: 100%; height: auto; margin: 12px 0;">
+<img src="../bank/2024/q16.png" alt="2024-16" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
 ---
 
@@ -48,7 +48,7 @@
 
 ### 05 · 2023-10 · 选择题
 
-<img src="../bank/2023/q10.png" alt="2023-10" style="display: block; width: 48.0em; max-width: 100%; height: auto; margin: 12px 0;">
+<img src="../bank/2023/q10.png" alt="2023-10" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
 ---
 
@@ -56,7 +56,7 @@
 
 ### 06 · 2022-10 · 选择题
 
-<img src="../bank/2022/q10.png" alt="2022-10" style="display: block; width: 48.0em; max-width: 100%; height: auto; margin: 12px 0;">
+<img src="../bank/2022/q10.png" alt="2022-10" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
 ---
 
@@ -66,7 +66,7 @@
 
 > *向量表出与方程解空间选择题。向量组 $A$ 能被 $B$ 线性表出意味着 $A=BC$。转置后 $A^T = C^T B^T$，从而 $B^T x=0$ 的解必定是 $A^T x=0$ 的解。*
 
-<img src="../bank/2021/q09.png" alt="2021-09" style="display: block; width: 48.0em; max-width: 100%; height: auto; margin: 12px 0;">
+<img src="../bank/2021/q09.png" alt="2021-09" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
 *关联章节：[线性方程组](04-linear-systems.md)*
 
@@ -76,7 +76,7 @@
 
 ### 08 · 2019-07 · 选择题
 
-<img src="../bank/2019/q07.png" alt="2019-07" style="display: block; width: 48.0em; max-width: 100%; height: auto; margin: 12px 0;">
+<img src="../bank/2019/q07.png" alt="2019-07" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
 ---
 
@@ -84,7 +84,7 @@
 
 > *两向量组等价大题。两向量组等价充分必要条件是秩相等且可互相线性表出，联立大矩阵做行初等变换同时解决秩与表出系数。*
 
-<img src="../bank/2019/q22.png" alt="2019-22" style="display: block; width: 48.0em; max-width: 100%; height: auto; margin: 12px 0;">
+<img src="../bank/2019/q22.png" alt="2019-22" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
 ---
 
@@ -92,7 +92,7 @@
 
 ### 10 · 2018-08 · 选择题
 
-<img src="../bank/2018/q08.png" alt="2018-08" style="display: block; width: 40.89em; max-width: 100%; height: auto; margin: 12px 0;">
+<img src="../bank/2018/q08.png" alt="2018-08" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
 ---
 
@@ -100,7 +100,7 @@
 
 ### 11 · 2016-14 · 填空题
 
-<img src="../bank/2016/q14.png" alt="2016-14" style="display: block; width: 38.93em; max-width: 100%; height: auto; margin: 12px 0;">
+<img src="../bank/2016/q14.png" alt="2016-14" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
 ---
 
@@ -108,7 +108,7 @@
 
 ### 12 · 2014-08 · 选择题
 
-<img src="../bank/2014/q08.png" alt="2014-08" style="display: block; width: 48.0em; max-width: 100%; height: auto; margin: 12px 0;">
+<img src="../bank/2014/q08.png" alt="2014-08" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
 ---
 
@@ -116,7 +116,7 @@
 
 ### 13 · 2013-07 · 选择题
 
-<img src="../bank/2013/q07.png" alt="2013-07" style="display: block; width: 34.89em; max-width: 100%; height: auto; margin: 12px 0;">
+<img src="../bank/2013/q07.png" alt="2013-07" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
 *关联章节：[矩阵运算、逆矩阵与初等变换](02-matrices.md)*
 
@@ -126,7 +126,7 @@
 
 ### 14 · 2012-07 · 选择题
 
-<img src="../bank/2012/q07.png" alt="2012-07" style="display: block; width: 48.0em; max-width: 100%; height: auto; margin: 12px 0;">
+<img src="../bank/2012/q07.png" alt="2012-07" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
 ---
 
@@ -134,7 +134,7 @@
 
 ### 15 · 2011-22 · 解答题
 
-<img src="../bank/2011/q22.png" alt="2011-22" style="display: block; width: 48.0em; max-width: 100%; height: auto; margin: 12px 0;">
+<img src="../bank/2011/q22.png" alt="2011-22" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
 ---
 
@@ -142,7 +142,7 @@
 
 ### 16 · 2010-07 · 选择题
 
-<img src="../bank/2010/q07.png" alt="2010-07" style="display: block; width: 46.79em; max-width: 100%; height: auto; margin: 12px 0;">
+<img src="../bank/2010/q07.png" alt="2010-07" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
 ---
 

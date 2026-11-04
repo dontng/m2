@@ -1,10 +1,10 @@
 """从年度试卷 HTML 原样截取真题高清图片库 (bank/{year}/qNN.png)。
-使用系统内置 Chromium Headless + CDP 渲染，保证与真题原卷字体、公式、排版 100% 严谨一致。
+使用 Chromium Headless + CDP 渲染年度转写 HTML；不是扫描原卷裁图。
 
 依赖：python3 -m pip install websockets pillow
-执行：PYTHONPATH=/home/djology/.local/lib/python3.10/site-packages python3 chapters/scripts/crop_bank.py
+执行：python3 chapters/scripts/crop_bank.py；可用 CHROME 指定浏览器路径。
 """
-import os, sys, asyncio, json, subprocess, time, base64, urllib.request, io
+import os, sys, asyncio, json, subprocess, time, base64, urllib.request, io, shutil, hashlib, tempfile
 for k in ['http_proxy', 'https_proxy', 'HTTP_PROXY', 'HTTPS_PROXY', 'all_proxy', 'ALL_PROXY']:
     os.environ.pop(k, None)
 
@@ -17,8 +17,14 @@ os.makedirs(BANK_DIR, exist_ok=True)
 
 async def main():
     # 启动 Chromium Headless
+    chrome = os.environ.get('CHROME') or shutil.which('google-chrome') or shutil.which('chromium')
+    if not chrome:
+        raise RuntimeError('需要 Chromium；请安装或设置 CHROME')
+    profile = tempfile.TemporaryDirectory(prefix='m2-capture-')
+    manifest = {}
     proc = subprocess.Popen([
-        'google-chrome',
+        chrome,
+        '--user-data-dir=' + profile.name,
         '--headless',
         '--disable-gpu',
         '--no-sandbox',
@@ -68,18 +74,26 @@ async def main():
                             if resp.get('id') == p_msg_id:
                                 return resp
 
+                    await send_page('Emulation.setDeviceMetricsOverride', {'width': 900, 'height': 1200, 'deviceScaleFactor': 2, 'mobile': False})
+                    await send_page('Page.reload', {'ignoreCache': True})
+
                     # 等待 KaTeX 数学公式渲染和字体加载
-                    for _ in range(50):
+                    for _ in range(300):
                         await asyncio.sleep(0.1)
                         r = await send_page('Runtime.evaluate', {'expression': 'document.body && document.body.dataset.ready === "true"'})
                         if r.get('result', {}).get('result', {}).get('value') is True:
                             break
+                    else:
+                        raise RuntimeError(f'{year}: 字体或公式未就绪，停止截图')
+                    ready = await send_page('Runtime.evaluate', {'expression': "(async () => { await document.fonts.ready; await Promise.all([...document.images].map(i => i.decode())); return !document.querySelector('.katex-error') })()", 'awaitPromise': True, 'returnByValue': True})
+                    if ready.get('result', {}).get('result', {}).get('value') is not True:
+                        raise RuntimeError(f'{year}: 附图或公式加载失败')
 
                     # 隐藏屏幕操作栏与解答题答题空白区
                     await send_page('Runtime.evaluate', {
                         'expression': '''
                             const s = document.createElement("style");
-                            s.innerHTML = ".screen-only, .toolbar { display: none !important; } .answer-space { display: none !important; } body { margin: 0; background: white; }";
+                            s.innerHTML = ".screen-only, .toolbar, .answer-space, .exam-header, .section-title, .exam-footer { display: none !important; } .question { display:none; } .question.capture-target { display:block; } body { margin: 0; background: white; }";
                             document.head.appendChild(s);
                         '''
                     })
@@ -88,15 +102,7 @@ async def main():
                         'expression': '''(() => {
                             const qs = document.querySelectorAll(".question");
                             return Array.from(qs).map(q => {
-                                const box = q.getBoundingClientRect();
-                                return {
-                                    id: q.id,
-                                    num: parseInt(q.dataset.number),
-                                    x: box.left + window.scrollX,
-                                    y: box.top + window.scrollY,
-                                    width: box.width,
-                                    height: box.height
-                                };
+                                return { id:q.id, num:parseInt(q.dataset.number) };
                             });
                         })()''',
                         'returnByValue': True
@@ -104,37 +110,87 @@ async def main():
                     q_list = res['result']['result']['value']
 
                     for q in q_list:
+                        bounds = await send_page('Runtime.evaluate', {
+                            'expression': """(async () => {
+                                document.querySelectorAll('.capture-target').forEach(q => q.classList.remove('capture-target'));
+                                const q = document.getElementById(%s);
+                                q.classList.add('capture-target');
+                                window.scrollTo(0,0);
+                                for (const group of q.querySelectorAll('.options')) {
+                                    const pref=group.dataset.layout||'4col';
+                                    let cols=pref==='1col'?1:pref==='2col'?2:4;
+                                    group.style.removeProperty('grid-template-columns');
+                                    group.className='options options-'+cols+'col';
+                                    const overflow=()=>[...group.querySelectorAll('.option')].some(o=>o.scrollWidth>o.clientWidth+2);
+                                    if(cols===4 && overflow()){cols=2;group.className='options options-2col';}
+                                    if(cols===2 && overflow()){cols=1;group.className='options options-1col';}
+                                    group.style.setProperty('grid-template-columns',`repeat(${cols}, minmax(0,1fr))`,'important');
+                                }
+                                await new Promise(r=>requestAnimationFrame(()=>requestAnimationFrame(r)));
+                                const box=q.getBoundingClientRect();
+                                // KaTeX的可见墨迹会越过行盒；只截行盒会丢上下标。
+                                // SVG含故意超宽、由父容器裁切的路径，不能直接并集全部后代边界。
+                                const left=Math.floor(box.left-24);
+                                const top=Math.floor(box.top-32);
+                                const right=Math.ceil(box.right+24);
+                                const bottom=Math.ceil(box.bottom+32);
+                                return {x:left,y:top,width:right-left,height:bottom-top};
+                            })()""" % json.dumps(q['id']),
+                            'returnByValue': True, 'awaitPromise': True
+                        })
+                        q.update(bounds['result']['result']['value'])
+
                         shot = await send_page('Page.captureScreenshot', {
                             'clip': {
                                 'x': q['x'],
                                 'y': q['y'],
                                 'width': q['width'],
                                 'height': q['height'],
-                                'scale': 2
+                                'scale': 1
                             },
                             'captureBeyondViewport': True
                         })
                         raw_bytes = base64.b64decode(shot['result']['data'])
+
                         im = Image.open(io.BytesIO(raw_bytes))
                         gray = im.convert('L')
                         mask = gray.point(lambda x: 255 if x < 236 else 0)
                         bbox = mask.getbbox()
+                        if not bbox or min(bbox[0], bbox[1], im.width-bbox[2], im.height-bbox[3]) < 10:
+                            raise RuntimeError(f'{year}-{q["num"]}: 截图墨迹接近边界，需要扩大捕获范围')
                         if bbox:
                             pad = 12
                             w, h = im.size
                             box = (max(0, bbox[0] - pad), max(0, bbox[1] - pad), min(w, bbox[2] + pad), min(h, bbox[3] + pad))
                             im = im.crop(box)
                         out_path = os.path.join(year_bank, f"q{q['num']:02d}.png")
-                        im.save(out_path)
+                        if im.width > 1440:
+                            raise RuntimeError(f'{year}-{q["num"]}: 超过统一画布 {im.size} / {q}，禁止缩小单题')
+                        original_size = list(im.size)
+                        original = io.BytesIO()
+                        im.save(original, format='PNG')
+                        canvas = Image.new('RGB', (1440, im.height), 'white')
+                        canvas.paste(im, (0, 0))
+                        canvas.save(out_path)
+                        with open(out_path, 'rb') as saved:
+                            digest = hashlib.sha256(saved.read()).hexdigest()
+                        manifest[f"{year}-{q['num']:02d}"] = dict(path=f"bank/{year}/q{q['num']:02d}.png", original_size=original_size, original_sha256=hashlib.sha256(original.getvalue()).hexdigest(), sha256=digest, canvas_width=1440, display_width=720)
                         total_saved += 1
 
-                    print(f'{year}: 成功截取 {len(q_list)} 道原卷题目。')
+                    print(f'{year}: 成功截取 {len(q_list)} 道HTML题目。')
 
                 await send_cmd(b_ws, 'Target.closeTarget', {'targetId': target_id})
 
-            print(f'全部完成！总共截取保存 {total_saved} 张原卷高清题面。')
+            if total_saved != 385:
+                raise RuntimeError(f'题量错误: {total_saved}')
+            with open(os.path.join(ROOT, 'chapters', 'data', 'image-display.json'), 'w') as f:
+                json.dump(dict(canvas_width=1440, display_width=720, source_scale=2, images=manifest), f, ensure_ascii=False, indent=2)
+                f.write('\n')
+            print(f'全部完成！总共截取保存 {total_saved} 张HTML高清题面。')
     finally:
         proc.terminate()
+        proc.wait(timeout=10)
+        profile.cleanup()
 
 if __name__ == '__main__':
     asyncio.run(main())

@@ -12,7 +12,7 @@
 
 ### 01 · 2025-15 · 填空题
 
-<img src="../bank/2025/q15.png" alt="2025-15" style="display: block; width: 43.93em; max-width: 100%; height: auto; margin: 12px 0;">
+<img src="../bank/2025/q15.png" alt="2025-15" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
 ---
 
@@ -22,7 +22,7 @@
 
 > *变量代换型微分方程。看到 $x+y$ 捆在一起，果断设新变量 $u = x+y$，方程立刻化成分离变量方程，千万别直接硬解。*
 
-<img src="../bank/2024/q13.png" alt="2024-13" style="display: block; width: 36.68em; max-width: 100%; height: auto; margin: 12px 0;">
+<img src="../bank/2024/q13.png" alt="2024-13" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
 *关联章节：[多元复合函数与隐函数求导](17-chain-implicit.md)*
 
@@ -34,7 +34,7 @@
 
 > *切线与微分方程综合大题。根据切线法线斜率列出一阶线性方程求出曲线，第二问求极值严格按导数符号讨论。*
 
-<img src="../bank/2023/q17.png" alt="2023-17" style="display: block; width: 48.0em; max-width: 100%; height: auto; margin: 12px 0;">
+<img src="../bank/2023/q17.png" alt="2023-17" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
 *关联章节：[单调性、极值与零点个数](06-monotonicity-extrema.md) · [切线、法线、渐近线与曲率](09-curve-geometry.md)*
 
@@ -44,7 +44,7 @@
 
 ### 04 · 2022-18 · 解答题
 
-<img src="../bank/2022/q18.png" alt="2022-18" style="display: block; width: 48.0em; max-width: 100%; height: auto; margin: 12px 0;">
+<img src="../bank/2022/q18.png" alt="2022-18" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
 *关联章节：[定积分应用](13-integral-applications.md)*
 
@@ -56,7 +56,7 @@
 
 > *一阶线性方程与法线截距。第一问套公式求通解；第二问写出法线方程令 $x=0$ 得到截距函数 $I_y(x)$，求导求最小值即可。*
 
-<img src="../bank/2021/q20.png" alt="2021-20" style="display: block; width: 48.0em; max-width: 100%; height: auto; margin: 12px 0;">
+<img src="../bank/2021/q20.png" alt="2021-20" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
 *关联章节：[切线、法线、渐近线与曲率](09-curve-geometry.md) · [单调性、极值与零点个数](06-monotonicity-extrema.md)*
 
@@ -66,7 +66,7 @@
 
 ### 06 · 2020-21 · 解答题
 
-<img src="../bank/2020/q21.png" alt="2020-21" style="display: block; width: 48.0em; max-width: 100%; height: auto; margin: 12px 0;">
+<img src="../bank/2020/q21.png" alt="2020-21" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
 *关联章节：[定积分应用](13-integral-applications.md) · [切线、法线、渐近线与曲率](09-curve-geometry.md)*
 
@@ -76,7 +76,7 @@
 
 ### 07 · 2019-17 · 解答题
 
-<img src="../bank/2019/q17.png" alt="2019-17" style="display: block; width: 45.39em; max-width: 100%; height: auto; margin: 12px 0;">
+<img src="../bank/2019/q17.png" alt="2019-17" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
 *关联章节：[定积分应用](13-integral-applications.md)*
 
@@ -88,7 +88,7 @@
 
 > *积分方程求导题。第二项积分做变量代换 $u=x-t$ 剥离外层 $x$，两端同时求导脱去变限积分符号，转化成一阶线性微分方程。*
 
-<img src="../bank/2018/q16.png" alt="2018-16" style="display: block; width: 37.71em; max-width: 100%; height: auto; margin: 12px 0;">
+<img src="../bank/2018/q16.png" alt="2018-16" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
 *关联章节：[定积分、变上限积分与积分性质](11-definite-integrals.md)*
 
@@ -98,7 +98,7 @@
 
 ### 09 · 2017-21 · 解答题
 
-<img src="../bank/2017/q21.png" alt="2017-21" style="display: block; width: 48.0em; max-width: 100%; height: auto; margin: 12px 0;">
+<img src="../bank/2017/q21.png" alt="2017-21" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
 *关联章节：[切线、法线、渐近线与曲率](09-curve-geometry.md)*
 
@@ -108,7 +108,7 @@
 
 ### 10 · 2016-11 · 填空题
 
-<img src="../bank/2016/q11.png" alt="2016-11" style="display: block; width: 40.68em; max-width: 100%; height: auto; margin: 12px 0;">
+<img src="../bank/2016/q11.png" alt="2016-11" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
 ---
 
@@ -116,7 +116,7 @@
 
 ### 11 · 2015-20 · 解答题
 
-<img src="../bank/2015/q20.png" alt="2015-20" style="display: block; width: 48.0em; max-width: 100%; height: auto; margin: 12px 0;">
+<img src="../bank/2015/q20.png" alt="2015-20" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
 ---
 
@@ -124,7 +124,7 @@
 
 ### 12 · 2014-16 · 解答题
 
-<img src="../bank/2014/q16.png" alt="2014-16" style="display: block; width: 48.0em; max-width: 100%; height: auto; margin: 12px 0;">
+<img src="../bank/2014/q16.png" alt="2014-16" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
 *关联章节：[单调性、极值与零点个数](06-monotonicity-extrema.md)*
 
@@ -134,7 +134,7 @@
 
 ### 13 · 2012-12 · 填空题
 
-<img src="../bank/2012/q12.png" alt="2012-12" style="display: block; width: 41.96em; max-width: 100%; height: auto; margin: 12px 0;">
+<img src="../bank/2012/q12.png" alt="2012-12" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
 ---
 
@@ -142,7 +142,7 @@
 
 ### 14 · 2011-10 · 填空题
 
-<img src="../bank/2011/q10.png" alt="2011-10" style="display: block; width: 36.57em; max-width: 100%; height: auto; margin: 12px 0;">
+<img src="../bank/2011/q10.png" alt="2011-10" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
 ---
 
@@ -150,7 +150,7 @@
 
 > *别被倾角唬住，$\tan\alpha = y'$，两边求导就是 $\alpha' = \frac{y''}{1+y'^2}$。令 $p=y'$ 当一阶方程算。*
 
-<img src="../bank/2011/q18.png" alt="2011-18" style="display: block; width: 48.0em; max-width: 100%; height: auto; margin: 12px 0;">
+<img src="../bank/2011/q18.png" alt="2011-18" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
 *关联章节：[切线、法线、渐近线与曲率](09-curve-geometry.md)*
 
@@ -160,7 +160,7 @@
 
 ### 16 · 2010-02 · 选择题
 
-<img src="../bank/2010/q02.png" alt="2010-02" style="display: block; width: 48.0em; max-width: 100%; height: auto; margin: 12px 0;">
+<img src="../bank/2010/q02.png" alt="2010-02" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
 ---
 

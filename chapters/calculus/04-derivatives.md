@@ -12,7 +12,7 @@
 
 ### 01 · 2026-06 · 选择题
 
-<img src="../bank/2026/q06.png" alt="2026-06" style="display: block; width: 38.89em; max-width: 100%; height: auto; margin: 12px 0;">
+<img src="../bank/2026/q06.png" alt="2026-06" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
 *关联章节：[定积分、变上限积分与积分性质](11-definite-integrals.md)*
 
@@ -22,13 +22,13 @@
 
 ### 02 · 2025-07 · 选择题
 
-<img src="../bank/2025/q07.png" alt="2025-07" style="display: block; width: 41.64em; max-width: 100%; height: auto; margin: 12px 0;">
+<img src="../bank/2025/q07.png" alt="2025-07" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
 ---
 
 ### 03 · 2025-14 · 填空题
 
-<img src="../bank/2025/q14.png" alt="2025-14" style="display: block; width: 47.61em; max-width: 100%; height: auto; margin: 12px 0;">
+<img src="../bank/2025/q14.png" alt="2025-14" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
 *关联章节：[定积分、变上限积分与积分性质](11-definite-integrals.md)*
 
@@ -38,7 +38,7 @@
 
 > *导数定义综合大题。条件是极限，分母用泰勒展开化简为 $-x^2$。先由极限存在推分子为 0 得 $f(0)$，再凑导数定义极限式求 $f'(0)$。*
 
-<img src="../bank/2025/q18.png" alt="2025-18" style="display: block; width: 48.0em; max-width: 100%; height: auto; margin: 12px 0;">
+<img src="../bank/2025/q18.png" alt="2025-18" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
 *关联章节：[函数极限与无穷小](01-limits.md) · [泰勒公式与高阶导数](08-taylor.md)*
 
@@ -48,7 +48,7 @@
 
 ### 05 · 2024-02 · 选择题
 
-<img src="../bank/2024/q02.png" alt="2024-02" style="display: block; width: 41.61em; max-width: 100%; height: auto; margin: 12px 0;">
+<img src="../bank/2024/q02.png" alt="2024-02" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
 *关联章节：[函数极限与无穷小](01-limits.md)*
 
@@ -58,7 +58,7 @@
 
 ### 06 · 2023-05 · 选择题
 
-<img src="../bank/2023/q05.png" alt="2023-05" style="display: block; width: 47.39em; max-width: 100%; height: auto; margin: 12px 0;">
+<img src="../bank/2023/q05.png" alt="2023-05" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
 ---
 
@@ -66,7 +66,7 @@
 
 ### 07 · 2022-12 · 填空题
 
-<img src="../bank/2022/q12.png" alt="2022-12" style="display: block; width: 41.25em; max-width: 100%; height: auto; margin: 12px 0;">
+<img src="../bank/2022/q12.png" alt="2022-12" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
 ---
 
@@ -74,7 +74,7 @@
 
 > *抽象可导函数极限反推导数。把要求的极限式凑成导数定义形式，配凑出 $\frac{f(1+x)-f(1)}{x}$ 与 $\frac{f(1-x)-f(1)}{-x}$ 的线性组合。*
 
-<img src="../bank/2022/q17.png" alt="2022-17" style="display: block; width: 37.11em; max-width: 100%; height: auto; margin: 12px 0;">
+<img src="../bank/2022/q17.png" alt="2022-17" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
 *关联章节：[函数极限与无穷小](01-limits.md)*
 
@@ -84,7 +84,7 @@
 
 ### 09 · 2021-02 · 选择题
 
-<img src="../bank/2021/q02.png" alt="2021-02" style="display: block; width: 48.0em; max-width: 100%; height: auto; margin: 12px 0;">
+<img src="../bank/2021/q02.png" alt="2021-02" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
 *关联章节：[连续与间断点](03-continuity.md) · [单调性、极值与零点个数](06-monotonicity-extrema.md)*
 
@@ -92,13 +92,13 @@
 
 ### 10 · 2021-03 · 选择题
 
-<img src="../bank/2021/q03.png" alt="2021-03" style="display: block; width: 48.0em; max-width: 100%; height: auto; margin: 12px 0;">
+<img src="../bank/2021/q03.png" alt="2021-03" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
 ---
 
 ### 11 · 2021-12 · 填空题
 
-<img src="../bank/2021/q12.png" alt="2021-12" style="display: block; width: 44.96em; max-width: 100%; height: auto; margin: 12px 0;">
+<img src="../bank/2021/q12.png" alt="2021-12" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
 ---
 
@@ -106,7 +106,7 @@
 
 ### 12 · 2020-09 · 填空题
 
-<img src="../bank/2020/q09.png" alt="2020-09" style="display: block; width: 30.07em; max-width: 100%; height: auto; margin: 12px 0;">
+<img src="../bank/2020/q09.png" alt="2020-09" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
 ---
 
@@ -114,7 +114,7 @@
 
 ### 13 · 2018-02 · 选择题
 
-<img src="../bank/2018/q02.png" alt="2018-02" style="display: block; width: 38.11em; max-width: 100%; height: auto; margin: 12px 0;">
+<img src="../bank/2018/q02.png" alt="2018-02" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
 ---
 
@@ -122,7 +122,7 @@
 
 ### 14 · 2017-10 · 填空题
 
-<img src="../bank/2017/q10.png" alt="2017-10" style="display: block; width: 41.21em; max-width: 100%; height: auto; margin: 12px 0;">
+<img src="../bank/2017/q10.png" alt="2017-10" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
 ---
 
@@ -130,7 +130,7 @@
 
 ### 15 · 2016-13 · 填空题
 
-<img src="../bank/2016/q13.png" alt="2016-13" style="display: block; width: 48.0em; max-width: 100%; height: auto; margin: 12px 0;">
+<img src="../bank/2016/q13.png" alt="2016-13" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
 ---
 
@@ -138,7 +138,7 @@
 
 ### 16 · 2015-03 · 选择题
 
-<img src="../bank/2015/q03.png" alt="2015-03" style="display: block; width: 47.75em; max-width: 100%; height: auto; margin: 12px 0;">
+<img src="../bank/2015/q03.png" alt="2015-03" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
 *关联章节：[连续与间断点](03-continuity.md)*
 
@@ -146,7 +146,7 @@
 
 ### 17 · 2015-09 · 填空题
 
-<img src="../bank/2015/q09.png" alt="2015-09" style="display: block; width: 24.43em; max-width: 100%; height: auto; margin: 12px 0;">
+<img src="../bank/2015/q09.png" alt="2015-09" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
 ---
 
@@ -154,7 +154,7 @@
 
 ### 18 · 2013-02 · 选择题
 
-<img src="../bank/2013/q02.png" alt="2013-02" style="display: block; width: 42.46em; max-width: 100%; height: auto; margin: 12px 0;">
+<img src="../bank/2013/q02.png" alt="2013-02" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
 *关联章节：[函数极限与无穷小](01-limits.md)*
 
@@ -162,7 +162,7 @@
 
 ### 19 · 2013-10 · 填空题
 
-<img src="../bank/2013/q10.png" alt="2013-10" style="display: block; width: 48.0em; max-width: 100%; height: auto; margin: 12px 0;">
+<img src="../bank/2013/q10.png" alt="2013-10" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
 *关联章节：[定积分、变上限积分与积分性质](11-definite-integrals.md)*
 
@@ -172,13 +172,13 @@
 
 ### 20 · 2012-02 · 选择题
 
-<img src="../bank/2012/q02.png" alt="2012-02" style="display: block; width: 41.39em; max-width: 100%; height: auto; margin: 12px 0;">
+<img src="../bank/2012/q02.png" alt="2012-02" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
 ---
 
 ### 21 · 2012-09 · 填空题
 
-<img src="../bank/2012/q09.png" alt="2012-09" style="display: block; width: 44.11em; max-width: 100%; height: auto; margin: 12px 0;">
+<img src="../bank/2012/q09.png" alt="2012-09" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
 *关联章节：[多元复合函数与隐函数求导](17-chain-implicit.md)*
 
@@ -188,7 +188,7 @@
 
 ### 22 · 2011-02 · 选择题
 
-<img src="../bank/2011/q02.png" alt="2011-02" style="display: block; width: 41.61em; max-width: 100%; height: auto; margin: 12px 0;">
+<img src="../bank/2011/q02.png" alt="2011-02" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
 *关联章节：[函数极限与无穷小](01-limits.md)*
 
@@ -198,7 +198,7 @@
 
 ### 23 · 2010-13 · 填空题
 
-<img src="../bank/2010/q13.png" alt="2010-13" style="display: block; width: 48.0em; max-width: 100%; height: auto; margin: 12px 0;">
+<img src="../bank/2010/q13.png" alt="2010-13" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
 ---
 

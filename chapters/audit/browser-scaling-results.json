@@ -1,0 +1,98 @@
+[
+  {
+    "mode": "styled",
+    "width": 320,
+    "fontSize": 16,
+    "count": 385,
+    "min": 0.2222222222222222,
+    "max": 0.2222222222222222
+  },
+  {
+    "mode": "styled",
+    "width": 320,
+    "fontSize": 20,
+    "count": 385,
+    "min": 0.2222222222222222,
+    "max": 0.2222222222222222
+  },
+  {
+    "mode": "styled",
+    "width": 768,
+    "fontSize": 16,
+    "count": 385,
+    "min": 0.5,
+    "max": 0.5
+  },
+  {
+    "mode": "styled",
+    "width": 768,
+    "fontSize": 20,
+    "count": 385,
+    "min": 0.5333333333333333,
+    "max": 0.5333333333333333
+  },
+  {
+    "mode": "styled",
+    "width": 1000,
+    "fontSize": 16,
+    "count": 385,
+    "min": 0.5,
+    "max": 0.5
+  },
+  {
+    "mode": "styled",
+    "width": 1000,
+    "fontSize": 20,
+    "count": 385,
+    "min": 0.625,
+    "max": 0.625
+  },
+  {
+    "mode": "style-stripped",
+    "width": 320,
+    "fontSize": 16,
+    "count": 385,
+    "min": 0.2222222222222222,
+    "max": 0.2222222222222222
+  },
+  {
+    "mode": "style-stripped",
+    "width": 320,
+    "fontSize": 20,
+    "count": 385,
+    "min": 0.2222222222222222,
+    "max": 0.2222222222222222
+  },
+  {
+    "mode": "style-stripped",
+    "width": 768,
+    "fontSize": 16,
+    "count": 385,
+    "min": 0.5,
+    "max": 0.5
+  },
+  {
+    "mode": "style-stripped",
+    "width": 768,
+    "fontSize": 20,
+    "count": 385,
+    "min": 0.5,
+    "max": 0.5
+  },
+  {
+    "mode": "style-stripped",
+    "width": 1000,
+    "fontSize": 16,
+    "count": 385,
+    "min": 0.5,
+    "max": 0.5
+  },
+  {
+    "mode": "style-stripped",
+    "width": 1000,
+    "fontSize": 20,
+    "count": 385,
+    "min": 0.5,
+    "max": 0.5
+  }
+]

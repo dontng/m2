@@ -198,11 +198,13 @@ for c in TAXONOMY:
 <header class="question-origin"><strong>{r['year']}年 · 第{r['number']}题 · {kind}</strong><span class="screen-only"><a href="../../exams/years/{r['year']}.html#q{r['id']}">返回整卷位置</a> · <a href="../../exams/pdf/math2_{r['year']}.pdf">年度PDF</a></span></header>{tip_block_html}
 <ol class="question-list" start="{r['number']}">{q}</ol>{source_flag_html}{cross_html}</article>''')
 
-        # Markdown entry - 对齐项目44，嵌入真题原卷高清裁切题面图，还原真实考卷版式
+        # Markdown题图：年度HTML渲染、统一画布和显示比例
         im_file = ROOT / f"bank/{r['year']}/q{r['number']:02d}.png"
         im = Image.open(im_file)
         w, _ = im.size
-        w_em = round(min(w / 28.0, 48.0), 2)
+        if w != 1440:
+            raise ValueError(f"题图未统一画布，请先运行 normalize_bank.py: {im_file}")
+        w_em = w / 2 / 16
         img_rel = f"../bank/{r['year']}/q{r['number']:02d}.png"
 
         md_content.append(f"### {idx:02d} · {r['year']}-{r['number']:02d} · {kind}\n")
@@ -211,7 +213,7 @@ for c in TAXONOMY:
         if r['id'] in SOURCE_REVIEW:
             md_content.append(f"> ⚠️ **题面待核对**：原年度转写稿存在疑点，本次保留题面，作答前请核对独立原题来源。\n")
         
-        md_content.append(f'<img src="{img_rel}" alt="{r["year"]}-{r["number"]:02d}" style="display: block; width: {w_em}em; max-width: 100%; height: auto; margin: 12px 0;">\n')
+        md_content.append(f'<img src="{img_rel}" alt="{r["year"]}-{r["number"]:02d}" width="720" style="display: block; width: {w_em}em; max-width: 100%; height: auto; margin: 12px 0;">\n')
         
         if r['related']:
             links_md = ' · '.join(f'[{CHAPTERS[k]["title"]}]({md_chapter_rel(c, CHAPTERS[k])})' for k in r['related'])
