@@ -2,13 +2,16 @@
 
 # 线性代数 · 矩阵运算、逆矩阵与初等变换
 
-> 2010—2026年 · 10 道完整真题 · 年份从新到旧（2026→2010）  
-> 题型分布：选择题 6 题 · 填空题 1 题 · 解答题 3 题  
-> 考查范围：矩阵运算与方程、初等矩阵、等价变换、伴随矩阵及矩阵幂
+> **必会·按此顺序**：[2011-07](#q2011-7)（分清左乘与右乘） → [2024-08](#q2024-8)（矩阵乘法顺序） → [2026-08](#q2026-8)（逆矩阵与伴随矩阵） → [2018-23](#q2018-23)（列变换求变换矩阵）  
+> **冲一冲**：[2015-22](#q2015-22)（幂零矩阵与方程因式分解）  
+> **见识·先会开题**：[2023-08](#q2023-8)（分块矩阵先求逆再求伴随）  
+> **过关标准**：能把行、列操作还原为矩阵乘法，并独立求出变换矩阵。
 
 ---
 
 ## 2026年
+
+<a id="q2026-8"></a>
 
 ### 01 · 2026-08 · 选择题
 
@@ -22,6 +25,8 @@
 
 ## 2025年
 
+<a id="q2025-9"></a>
+
 ### 02 · 2025-09 · 选择题
 
 <img src="../bank/2025/q09.png" alt="2025-09" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
@@ -29,6 +34,8 @@
 ---
 
 ## 2024年
+
+<a id="q2024-8"></a>
 
 ### 03 · 2024-08 · 选择题
 
@@ -40,6 +47,8 @@
 
 ## 2023年
 
+<a id="q2023-8"></a>
+
 ### 04 · 2023-08 · 选择题
 
 <img src="../bank/2023/q08.png" alt="2023-08" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
@@ -47,6 +56,8 @@
 ---
 
 ## 2022年
+
+<a id="q2022-16"></a>
 
 ### 05 · 2022-16 · 填空题
 
@@ -56,6 +67,8 @@
 
 ## 2021年
 
+<a id="q2021-10"></a>
+
 ### 06 · 2021-10 · 选择题
 
 <img src="../bank/2021/q10.png" alt="2021-10" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
@@ -63,6 +76,8 @@
 ---
 
 ## 2018年
+
+<a id="q2018-23"></a>
 
 ### 07 · 2018-23 · 解答题
 
@@ -76,6 +91,8 @@
 
 ## 2015年
 
+<a id="q2015-22"></a>
+
 ### 08 · 2015-22 · 解答题
 
 > 幂零矩阵与可逆矩阵方程。由 <img src="../math/7783af930d5f48b4.svg" alt="公式：A^3=O" width="60" height="17" align="middle" style="width:3.714em;height:1.0355em;vertical-align:-0.093em;"> 联想因式分解 <img src="../math/50bcfb6a730b8a6b.svg" alt="公式：(E-A)(E+A+A^2)=E" width="209" height="20" align="middle" style="width:13.049em;height:1.226em;vertical-align:-0.283em;">；把方程因式分解配凑成 <img src="../math/8b15bf667a51b475.svg" alt="公式：(E-A)X(E-A)=E" width="181" height="19" align="middle" style="width:11.288em;height:1.131em;vertical-align:-0.283em;">，两边求逆秒解 <img src="../math/4b68ab3847feda7d.svg" alt="公式：X" width="16" height="13" align="middle" style="width:0.964em;height:0.7725em;vertical-align:0em;">。
@@ -88,6 +105,8 @@
 
 ## 2013年
 
+<a id="q2013-22"></a>
+
 ### 09 · 2013-22 · 解答题
 
 <img src="../bank/2013/q22.png" alt="2013-22" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
@@ -97,6 +116,8 @@
 ---
 
 ## 2011年
+
+<a id="q2011-7"></a>
 
 ### 10 · 2011-07 · 选择题
 

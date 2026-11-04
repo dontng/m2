@@ -10,6 +10,8 @@
 
 ## 2024年
 
+<a id="q2024-5"></a>
+
 ### 01 · 2024-05 · 选择题
 
 > 分段函数可微性判定。在 <img src="../math/a2c508f756fd5044.svg" alt="公式：(0,0)" width="41" height="19" align="middle" style="width:2.5145em;height:1.131em;vertical-align:-0.283em;"> 处求偏导必须用定义算；判定可微性时验证极限 <img src="../math/f468afce6c6f590f.svg" alt="公式：\lim \frac{\Delta z - f_x \Delta x - f_y \Delta y}{\rho} = 0" width="166" height="29" align="middle" style="width:10.314em;height:1.7565em;vertical-align:-0.563em;">，放缩后极坐标逼近。
@@ -20,6 +22,8 @@
 
 ## 2020年
 
+<a id="q2020-5"></a>
+
 ### 02 · 2020-05 · 选择题
 
 > 多命题反例辨析。二阶混合偏导相等要求连续，二元极限存在比累次极限强得多。拿经典马鞍面或分段函数逐条对准性质检验。
@@ -27,6 +31,8 @@
 <img src="../bank/2020/q05.png" alt="2020-05" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
 ---
+
+<a id="q2020-11"></a>
 
 ### 03 · 2020-11 · 填空题
 
@@ -36,11 +42,15 @@
 
 ## 2017年
 
+<a id="q2017-5"></a>
+
 ### 04 · 2017-05 · 选择题
 
 <img src="../bank/2017/q05.png" alt="2017-05" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
 ---
+
+<a id="q2017-12"></a>
 
 ### 05 · 2017-12 · 填空题
 
@@ -52,6 +62,8 @@
 
 ## 2016年
 
+<a id="q2016-6"></a>
+
 ### 06 · 2016-06 · 选择题
 
 <img src="../bank/2016/q06.png" alt="2016-06" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
@@ -59,6 +71,8 @@
 ---
 
 ## 2012年
+
+<a id="q2012-5"></a>
 
 ### 07 · 2012-05 · 选择题
 

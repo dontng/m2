@@ -10,6 +10,8 @@
 
 ## 2026年
 
+<a id="q2026-19"></a>
+
 ### 01 · 2026-19 · 解答题
 
 > 二元极值大题。求一阶偏导令其为 0 解驻点，别漏掉退化点；对每个驻点求二阶偏导算 <img src="../math/a6fe46c149cd4712.svg" alt="公式：AC-B^2" width="72" height="17" align="middle" style="width:4.4435em;height:1.036em;vertical-align:-0.093em;">，正负性判断要仔细。
@@ -19,6 +21,8 @@
 ---
 
 ## 2025年
+
+<a id="q2025-19"></a>
 
 ### 02 · 2025-19 · 解答题
 
@@ -32,6 +36,8 @@
 
 ## 2024年
 
+<a id="q2024-12"></a>
+
 ### 03 · 2024-12 · 填空题
 
 <img src="../bank/2024/q12.png" alt="2024-12" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
@@ -40,6 +46,8 @@
 
 ## 2023年
 
+<a id="q2023-18"></a>
+
 ### 04 · 2023-18 · 解答题
 
 <img src="../bank/2023/q18.png" alt="2023-18" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
@@ -47,6 +55,8 @@
 ---
 
 ## 2022年
+
+<a id="q2022-20"></a>
 
 ### 05 · 2022-20 · 解答题
 
@@ -60,6 +70,8 @@
 
 ## 2020年
 
+<a id="q2020-17"></a>
+
 ### 06 · 2020-17 · 解答题
 
 <img src="../bank/2020/q17.png" alt="2020-17" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
@@ -67,6 +79,8 @@
 ---
 
 ## 2018年
+
+<a id="q2018-19"></a>
 
 ### 07 · 2018-19 · 解答题
 
@@ -78,6 +92,8 @@
 
 ## 2016年
 
+<a id="q2016-17"></a>
+
 ### 08 · 2016-17 · 解答题
 
 <img src="../bank/2016/q17.png" alt="2016-17" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
@@ -87,6 +103,8 @@
 ---
 
 ## 2015年
+
+<a id="q2015-17"></a>
 
 ### 09 · 2015-17 · 解答题
 
@@ -98,6 +116,8 @@
 
 ## 2014年
 
+<a id="q2014-6"></a>
+
 ### 10 · 2014-06 · 选择题
 
 <img src="../bank/2014/q06.png" alt="2014-06" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
@@ -105,6 +125,8 @@
 ---
 
 ## 2013年
+
+<a id="q2013-19"></a>
 
 ### 11 · 2013-19 · 解答题
 
@@ -118,6 +140,8 @@
 
 ## 2012年
 
+<a id="q2012-16"></a>
+
 ### 12 · 2012-16 · 解答题
 
 <img src="../bank/2012/q16.png" alt="2012-16" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
@@ -125,6 +149,8 @@
 ---
 
 ## 2011年
+
+<a id="q2011-5"></a>
 
 ### 13 · 2011-05 · 选择题
 

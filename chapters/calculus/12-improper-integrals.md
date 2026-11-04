@@ -10,6 +10,8 @@
 
 ## 2026年
 
+<a id="q2026-11"></a>
+
 ### 01 · 2026-11 · 填空题
 
 > 含参反常积分收敛性。区间拆成 <img src="../math/463f2998327eb3a6.svg" alt="公式：[0,1]" width="37" height="19" align="middle" style="width:2.263em;height:1.131em;vertical-align:-0.283em;"> 和 <img src="../math/db64628d958ad794.svg" alt="公式：[1,+\infty)" width="62" height="19" align="middle" style="width:3.8345em;height:1.131em;vertical-align:-0.283em;"> 两段：0 处看瑕点（等价无穷小为 <img src="../math/dc64c99ed2680ebf.svg" alt="公式：x^{1-p}" width="35" height="16" align="middle" style="width:2.1655em;height:0.956em;vertical-align:-0.0125em;">），无穷远看衰减阶数（为 <img src="../math/08157c2a488fc7e2.svg" alt="公式：1/x^{p+1}" width="53" height="20" align="middle" style="width:3.297em;height:1.226em;vertical-align:-0.283em;">），两端同时收敛交出 <img src="../math/148de9c5a7a44d19.svg" alt="公式：p" width="10" height="12" align="middle" style="width:0.569em;height:0.7195em;vertical-align:-0.2195em;"> 范围。
@@ -20,6 +22,8 @@
 
 ## 2025年
 
+<a id="q2025-11"></a>
+
 ### 02 · 2025-11 · 填空题
 
 <img src="../bank/2025/q11.png" alt="2025-11" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
@@ -27,6 +31,8 @@
 ---
 
 ## 2024年
+
+<a id="q2024-7"></a>
 
 ### 03 · 2024-07 · 选择题
 
@@ -38,6 +44,8 @@
 
 ## 2023年
 
+<a id="q2023-6"></a>
+
 ### 04 · 2023-06 · 选择题
 
 <img src="../bank/2023/q06.png" alt="2023-06" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
@@ -47,6 +55,8 @@
 ---
 
 ## 2022年
+
+<a id="q2022-5"></a>
 
 ### 05 · 2022-05 · 选择题
 
@@ -58,6 +68,8 @@
 
 ## 2021年
 
+<a id="q2021-11"></a>
+
 ### 06 · 2021-11 · 填空题
 
 <img src="../bank/2021/q11.png" alt="2021-11" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
@@ -65,6 +77,8 @@
 ---
 
 ## 2019年
+
+<a id="q2019-3"></a>
 
 ### 07 · 2019-03 · 选择题
 
@@ -74,6 +88,8 @@
 
 ## 2018年
 
+<a id="q2018-11"></a>
+
 ### 08 · 2018-11 · 填空题
 
 <img src="../bank/2018/q11.png" alt="2018-11" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
@@ -81,6 +97,8 @@
 ---
 
 ## 2017年
+
+<a id="q2017-11"></a>
 
 ### 09 · 2017-11 · 填空题
 
@@ -90,6 +108,8 @@
 
 ## 2016年
 
+<a id="q2016-3"></a>
+
 ### 10 · 2016-03 · 选择题
 
 <img src="../bank/2016/q03.png" alt="2016-03" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
@@ -97,6 +117,8 @@
 ---
 
 ## 2015年
+
+<a id="q2015-1"></a>
 
 ### 11 · 2015-01 · 选择题
 
@@ -106,6 +128,8 @@
 
 ## 2014年
 
+<a id="q2014-9"></a>
+
 ### 12 · 2014-09 · 填空题
 
 <img src="../bank/2014/q09.png" alt="2014-09" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
@@ -113,6 +137,8 @@
 ---
 
 ## 2013年
+
+<a id="q2013-4"></a>
 
 ### 13 · 2013-04 · 选择题
 
@@ -122,6 +148,8 @@
 
 ## 2011年
 
+<a id="q2011-12"></a>
+
 ### 14 · 2011-12 · 填空题
 
 <img src="../bank/2011/q12.png" alt="2011-12" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
@@ -129,6 +157,8 @@
 ---
 
 ## 2010年
+
+<a id="q2010-4"></a>
 
 ### 15 · 2010-04 · 选择题
 

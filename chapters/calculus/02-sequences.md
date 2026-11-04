@@ -10,6 +10,8 @@
 
 ## 2025年
 
+<a id="q2025-13"></a>
+
 ### 01 · 2025-13 · 填空题
 
 > 和式极限填空题。提一个公因子 <img src="../math/1c90ce97dbaa75b4.svg" alt="公式：\frac{1}{n}" width="16" height="23" align="middle" style="width:0.9775em;height:1.3775em;vertical-align:-0.399em;"> 出来，里面凑成 <img src="../math/c2624cca850317b0.svg" alt="公式：\frac{k}{n}\ln\frac{k}{n}" width="50" height="23" align="middle" style="width:3.0875em;height:1.4em;vertical-align:-0.399em;">，直接化成 <img src="../math/2964418d5a5f3de7.svg" alt="公式：\int_0^1 x\ln x\,dx" width="88" height="25" align="middle" style="width:5.4755em;height:1.5385em;vertical-align:-0.403em;"> 计算。
@@ -22,6 +24,8 @@
 
 ## 2024年
 
+<a id="q2024-4"></a>
+
 ### 02 · 2024-04 · 选择题
 
 > 数列发散性命题。拿最简单的振荡发散数列 <img src="../math/3a9fd3aae7523240.svg" alt="公式：a_n = (-1)^n" width="90" height="19" align="middle" style="width:5.5805em;height:1.131em;vertical-align:-0.283em;"> 或极限趋向 0 的数列当特例代入选项，快速排除错误项。
@@ -31,6 +35,8 @@
 ---
 
 ## 2023年
+
+<a id="q2023-3"></a>
 
 ### 03 · 2023-03 · 选择题
 
@@ -44,6 +50,8 @@
 
 ## 2022年
 
+<a id="q2022-6"></a>
+
 ### 04 · 2022-06 · 选择题
 
 <img src="../bank/2022/q06.png" alt="2022-06" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
@@ -53,6 +61,8 @@
 ---
 
 ## 2018年
+
+<a id="q2018-21"></a>
 
 ### 05 · 2018-21 · 解答题
 
@@ -66,11 +76,15 @@
 
 ## 2017年
 
+<a id="q2017-3"></a>
+
 ### 06 · 2017-03 · 选择题
 
 <img src="../bank/2017/q03.png" alt="2017-03" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
 ---
+
+<a id="q2017-17"></a>
 
 ### 07 · 2017-17 · 解答题
 
@@ -84,6 +98,8 @@
 
 ## 2016年
 
+<a id="q2016-10"></a>
+
 ### 08 · 2016-10 · 填空题
 
 <img src="../bank/2016/q10.png" alt="2016-10" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
@@ -93,6 +109,8 @@
 ---
 
 ## 2014年
+
+<a id="q2014-20"></a>
 
 ### 09 · 2014-20 · 解答题
 
@@ -105,6 +123,8 @@
 ---
 
 ## 2013年
+
+<a id="q2013-20"></a>
 
 ### 10 · 2013-20 · 解答题
 
@@ -120,11 +140,15 @@
 
 ## 2012年
 
+<a id="q2012-3"></a>
+
 ### 11 · 2012-03 · 选择题
 
 <img src="../bank/2012/q03.png" alt="2012-03" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
 ---
+
+<a id="q2012-10"></a>
 
 ### 12 · 2012-10 · 填空题
 
@@ -133,6 +157,8 @@
 *关联章节：[定积分、变上限积分与积分性质](11-definite-integrals.md)*
 
 ---
+
+<a id="q2012-21"></a>
 
 ### 13 · 2012-21 · 解答题
 
@@ -146,6 +172,8 @@
 
 ## 2011年
 
+<a id="q2011-19"></a>
+
 ### 14 · 2011-19 · 解答题
 
 > 调和级数与欧拉常数证明。第一问对 <img src="../math/63831e7f6909eb59.svg" alt="公式：\ln(1+1/n)" width="90" height="19" align="middle" style="width:5.582em;height:1.131em;vertical-align:-0.283em;"> 用拉格朗日；第二问利用第一问不等式直接证明数列递减且有下界，是单调有界的标准样板。
@@ -157,6 +185,8 @@
 ---
 
 ## 2010年
+
+<a id="q2010-6"></a>
 
 ### 15 · 2010-06 · 选择题
 

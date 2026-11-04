@@ -10,6 +10,8 @@
 
 ## 2024年
 
+<a id="q2024-21"></a>
+
 ### 01 · 2024-21 · 解答题
 
 > 开篇硬骨头！当年压轴难题，别慌。第一问分别在 0 和 1 处写带拉格朗日余项的泰勒展开，按权重消掉一阶导；第二问对第一问两边直接取定积分，计算量其实不大。
@@ -21,6 +23,8 @@
 ---
 
 ## 2023年
+
+<a id="q2023-21"></a>
 
 ### 02 · 2023-21 · 解答题
 
@@ -34,6 +38,8 @@
 
 ## 2020年
 
+<a id="q2020-6"></a>
+
 ### 03 · 2020-06 · 选择题
 
 > 导数不等式选择题。看到 <img src="../math/030353dfe7a53edd.svg" alt="公式：f&#x27;(x) &gt; f(x) &gt; 0" width="133" height="19" align="middle" style="width:8.255em;height:1.1415em;vertical-align:-0.283em;">，立马联想构造辅助函数 <img src="../math/fda7a17bdd9ab74d.svg" alt="公式：g(x) = e^{-x}f(x)" width="119" height="19" align="middle" style="width:7.4255em;height:1.16em;vertical-align:-0.283em;">，求导发现 <img src="../math/556730e3f1187feb.svg" alt="公式：g&#x27;(x) &gt; 0" width="72" height="19" align="middle" style="width:4.455em;height:1.1415em;vertical-align:-0.283em;"> 单调递增，比大小直接秒。
@@ -41,6 +47,8 @@
 <img src="../bank/2020/q06.png" alt="2020-06" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
 ---
+
+<a id="q2020-20"></a>
 
 ### 04 · 2020-20 · 解答题
 
@@ -54,6 +62,8 @@
 
 ## 2019年
 
+<a id="q2019-21"></a>
+
 ### 05 · 2019-21 · 解答题
 
 > 典型积分中值证明。第一问由积分值与端点值用连续函数介值或积分中值定理找零点；第二问用二阶泰勒展开，代入积分条件反推矛盾法或拉格朗日。
@@ -66,6 +76,8 @@
 
 ## 2018年
 
+<a id="q2018-18"></a>
+
 ### 06 · 2018-18 · 解答题
 
 > 高难度不等式证明。令 <img src="../math/cbbe58ff1ffa11a6.svg" alt="公式：f(x)=x-\ln^2 x+2k\ln x-1" width="231" height="21" align="middle" style="width:14.4145em;height:1.292em;vertical-align:-0.283em;">，求导发现导函数还能再求一次导。用二阶导的零点卡出一阶导单调性，分段讨论即可。
@@ -76,6 +88,8 @@
 
 ## 2017年
 
+<a id="q2017-19"></a>
+
 ### 07 · 2017-19 · 解答题
 
 > 方程根的存在性大题。第一问用极限保号性判断 0 附近符号，与 <img src="../math/8af75f137c8a9442.svg" alt="公式：f(1)&gt;0" width="67" height="19" align="middle" style="width:4.142em;height:1.131em;vertical-align:-0.283em;"> 夹出介值定理零点；第二问识别出左边是 <img src="../math/9de6798d9c70b2c6.svg" alt="公式：(f(x)f&#x27;(x))&#x27;" width="94" height="19" align="middle" style="width:5.8665em;height:1.1415em;vertical-align:-0.283em;">，罗尔定理层层下递。
@@ -85,6 +99,8 @@
 ---
 
 ## 2015年
+
+<a id="q2015-21"></a>
 
 ### 08 · 2015-21 · 解答题
 
@@ -98,6 +114,8 @@
 
 ## 2013年
 
+<a id="q2013-18"></a>
+
 ### 09 · 2013-18 · 解答题
 
 > 奇函数导数证明。奇函数二阶导依然有对称性，先由奇函数 <img src="../math/5b1b227f2ae90ff1.svg" alt="公式：f(0)=0" width="67" height="19" align="middle" style="width:4.142em;height:1.131em;vertical-align:-0.283em;"> 结合 <img src="../math/512792d638d3f065.svg" alt="公式：f(1)=1" width="67" height="19" align="middle" style="width:4.142em;height:1.131em;vertical-align:-0.283em;"> 用罗尔得第一问；第二问构造辅助函数 <img src="../math/f922521514f56555.svg" alt="公式：e^x(f&#x27;(x)-1)" width="103" height="19" align="middle" style="width:6.4305em;height:1.1415em;vertical-align:-0.283em;"> 再次罗尔。
@@ -108,6 +126,8 @@
 
 ## 2012年
 
+<a id="q2012-20"></a>
+
 ### 10 · 2012-20 · 解答题
 
 > 对数不等式证明。看到对称区间 <img src="../math/2a27b94be0d1e6c2.svg" alt="公式：(-1,1)" width="55" height="19" align="middle" style="width:3.3945em;height:1.131em;vertical-align:-0.283em;">，先移项构辅助函数并求导，导数若还看不出正负就求二阶导，二阶导通分后分子因式分解立现正负。
@@ -117,6 +137,8 @@
 ---
 
 ## 2010年
+
+<a id="q2010-21"></a>
 
 ### 11 · 2010-21 · 解答题
 

@@ -10,6 +10,8 @@
 
 ## 2026年
 
+<a id="q2026-1"></a>
+
 ### 01 · 2026-01 · 选择题
 
 > 等价无穷小含参定系数。把 <img src="../math/7dca0456cde70159.svg" alt="公式：\arcsin x" width="60" height="13" align="middle" style="width:3.736em;height:0.769em;vertical-align:-0.0125em;"> 和三次根式分别用泰勒展开到 <img src="../math/5b029881cc5d477a.svg" alt="公式：x^2" width="19" height="16" align="middle" style="width:1.141em;height:0.956em;vertical-align:-0.0125em;">，对照同阶系数，不用多次洛必达。
@@ -17,6 +19,8 @@
 <img src="../bank/2026/q01.png" alt="2026-01" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
 ---
+
+<a id="q2026-12"></a>
 
 ### 02 · 2026-12 · 填空题
 
@@ -26,6 +30,8 @@
 
 ## 2025年
 
+<a id="q2025-4"></a>
+
 ### 03 · 2025-04 · 选择题
 
 <img src="../bank/2025/q04.png" alt="2025-04" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
@@ -33,6 +39,8 @@
 ---
 
 ## 2023年
+
+<a id="q2023-11"></a>
 
 ### 04 · 2023-11 · 填空题
 
@@ -44,11 +52,15 @@
 
 ## 2022年
 
+<a id="q2022-1"></a>
+
 ### 05 · 2022-01 · 选择题
 
 <img src="../bank/2022/q01.png" alt="2022-01" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
 ---
+
+<a id="q2022-11"></a>
 
 ### 06 · 2022-11 · 填空题
 
@@ -58,6 +70,8 @@
 
 ## 2021年
 
+<a id="q2021-1"></a>
+
 ### 07 · 2021-01 · 选择题
 
 <img src="../bank/2021/q01.png" alt="2021-01" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
@@ -65,6 +79,8 @@
 *关联章节：[定积分、变上限积分与积分性质](11-definite-integrals.md) · [泰勒公式与高阶导数](08-taylor.md)*
 
 ---
+
+<a id="q2021-17"></a>
 
 ### 08 · 2021-17 · 解答题
 
@@ -78,6 +94,8 @@
 
 ## 2020年
 
+<a id="q2020-1"></a>
+
 ### 09 · 2020-01 · 选择题
 
 <img src="../bank/2020/q01.png" alt="2020-01" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
@@ -88,6 +106,8 @@
 
 ## 2019年
 
+<a id="q2019-1"></a>
+
 ### 10 · 2019-01 · 选择题
 
 <img src="../bank/2019/q01.png" alt="2019-01" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
@@ -95,6 +115,8 @@
 *关联章节：[泰勒公式与高阶导数](08-taylor.md)*
 
 ---
+
+<a id="q2019-9"></a>
 
 ### 11 · 2019-09 · 填空题
 
@@ -104,6 +126,8 @@
 
 ## 2018年
 
+<a id="q2018-1"></a>
+
 ### 12 · 2018-01 · 选择题
 
 <img src="../bank/2018/q01.png" alt="2018-01" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
@@ -112,6 +136,8 @@
 
 ---
 
+<a id="q2018-9"></a>
+
 ### 13 · 2018-09 · 填空题
 
 <img src="../bank/2018/q09.png" alt="2018-09" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
@@ -119,6 +145,8 @@
 ---
 
 ## 2017年
+
+<a id="q2017-15"></a>
 
 ### 14 · 2017-15 · 解答题
 
@@ -130,11 +158,15 @@
 
 ## 2016年
 
+<a id="q2016-1"></a>
+
 ### 15 · 2016-01 · 选择题
 
 <img src="../bank/2016/q01.png" alt="2016-01" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
 ---
+
+<a id="q2016-15"></a>
 
 ### 16 · 2016-15 · 解答题
 
@@ -145,6 +177,8 @@
 ---
 
 ## 2015年
+
+<a id="q2015-15"></a>
 
 ### 17 · 2015-15 · 解答题
 
@@ -158,11 +192,15 @@
 
 ## 2014年
 
+<a id="q2014-1"></a>
+
 ### 18 · 2014-01 · 选择题
 
 <img src="../bank/2014/q01.png" alt="2014-01" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
 ---
+
+<a id="q2014-5"></a>
 
 ### 19 · 2014-05 · 选择题
 
@@ -171,6 +209,8 @@
 *关联章节：[中值定理、零点与不等式证明](05-mean-value-proofs.md) · [泰勒公式与高阶导数](08-taylor.md)*
 
 ---
+
+<a id="q2014-15"></a>
 
 ### 20 · 2014-15 · 解答题
 
@@ -182,17 +222,23 @@
 
 ## 2013年
 
+<a id="q2013-1"></a>
+
 ### 21 · 2013-01 · 选择题
 
 <img src="../bank/2013/q01.png" alt="2013-01" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
 ---
 
+<a id="q2013-9"></a>
+
 ### 22 · 2013-09 · 填空题
 
 <img src="../bank/2013/q09.png" alt="2013-09" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
 ---
+
+<a id="q2013-15"></a>
 
 ### 23 · 2013-15 · 解答题
 
@@ -204,6 +250,8 @@
 
 ## 2012年
 
+<a id="q2012-15"></a>
+
 ### 24 · 2012-15 · 解答题
 
 <img src="../bank/2012/q15.png" alt="2012-15" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
@@ -214,6 +262,8 @@
 
 ## 2011年
 
+<a id="q2011-1"></a>
+
 ### 25 · 2011-01 · 选择题
 
 <img src="../bank/2011/q01.png" alt="2011-01" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
@@ -222,11 +272,15 @@
 
 ---
 
+<a id="q2011-9"></a>
+
 ### 26 · 2011-09 · 填空题
 
 <img src="../bank/2011/q09.png" alt="2011-09" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
 ---
+
+<a id="q2011-15"></a>
 
 ### 27 · 2011-15 · 解答题
 

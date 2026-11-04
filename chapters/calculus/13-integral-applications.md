@@ -10,6 +10,8 @@
 
 ## 2026年
 
+<a id="q2026-4"></a>
+
 ### 01 · 2026-04 · 选择题
 
 > 排在前面的物理题。别被物理名词吓退，建立直角坐标系，利用对称性可知水平分力对消为 0，写出微元 <img src="../math/1c206318128f2c1b.svg" alt="公式：dF_y" width="29" height="18" align="middle" style="width:1.8015em;height:1.1185em;vertical-align:-0.3335em;"> 直接算定积分。
@@ -19,6 +21,8 @@
 *关联章节：[定积分、变上限积分与积分性质](11-definite-integrals.md)*
 
 ---
+
+<a id="q2026-20"></a>
 
 ### 02 · 2026-20 · 解答题
 
@@ -32,6 +36,8 @@
 
 ## 2025年
 
+<a id="q2025-6"></a>
+
 ### 03 · 2025-06 · 选择题
 
 <img src="../bank/2025/q06.png" alt="2025-06" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
@@ -40,11 +46,15 @@
 
 ## 2024年
 
+<a id="q2024-15"></a>
+
 ### 04 · 2024-15 · 填空题
 
 <img src="../bank/2024/q15.png" alt="2024-15" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
 ---
+
+<a id="q2024-19"></a>
 
 ### 05 · 2024-19 · 解答题
 
@@ -58,6 +68,8 @@
 
 ## 2023年
 
+<a id="q2023-12"></a>
+
 ### 06 · 2023-12 · 填空题
 
 <img src="../bank/2023/q12.png" alt="2023-12" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
@@ -65,6 +77,8 @@
 *关联章节：[定积分、变上限积分与积分性质](11-definite-integrals.md)*
 
 ---
+
+<a id="q2023-19"></a>
 
 ### 07 · 2023-19 · 解答题
 
@@ -76,6 +90,8 @@
 
 ## 2022年
 
+<a id="q2022-15"></a>
+
 ### 08 · 2022-15 · 填空题
 
 <img src="../bank/2022/q15.png" alt="2022-15" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
@@ -83,6 +99,8 @@
 ---
 
 ## 2021年
+
+<a id="q2021-19"></a>
 
 ### 09 · 2021-19 · 解答题
 
@@ -96,11 +114,15 @@
 
 ## 2020年
 
+<a id="q2020-12"></a>
+
 ### 10 · 2020-12 · 填空题
 
 <img src="../bank/2020/q12.png" alt="2020-12" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
 ---
+
+<a id="q2020-18"></a>
 
 ### 11 · 2020-18 · 解答题
 
@@ -114,11 +136,15 @@
 
 ## 2019年
 
+<a id="q2019-12"></a>
+
 ### 12 · 2019-12 · 填空题
 
 <img src="../bank/2019/q12.png" alt="2019-12" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
 ---
+
+<a id="q2019-19"></a>
 
 ### 13 · 2019-19 · 解答题
 
@@ -130,6 +156,8 @@
 
 ## 2018年
 
+<a id="q2018-20"></a>
+
 ### 14 · 2018-20 · 解答题
 
 <img src="../bank/2018/q20.png" alt="2018-20" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
@@ -140,6 +168,8 @@
 
 ## 2017年
 
+<a id="q2017-6"></a>
+
 ### 15 · 2017-06 · 选择题
 
 <img src="../bank/2017/q06.png" alt="2017-06" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
@@ -147,6 +177,8 @@
 ---
 
 ## 2016年
+
+<a id="q2016-20"></a>
 
 ### 16 · 2016-20 · 解答题
 
@@ -156,6 +188,8 @@
 
 ## 2015年
 
+<a id="q2015-16"></a>
+
 ### 17 · 2015-16 · 解答题
 
 <img src="../bank/2015/q16.png" alt="2015-16" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
@@ -164,11 +198,15 @@
 
 ## 2014年
 
+<a id="q2014-13"></a>
+
 ### 18 · 2014-13 · 填空题
 
 <img src="../bank/2014/q13.png" alt="2014-13" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
 ---
+
+<a id="q2014-21"></a>
 
 ### 19 · 2014-21 · 解答题
 
@@ -182,17 +220,23 @@
 
 ## 2013年
 
+<a id="q2013-11"></a>
+
 ### 20 · 2013-11 · 填空题
 
 <img src="../bank/2013/q11.png" alt="2013-11" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
 ---
 
+<a id="q2013-16"></a>
+
 ### 21 · 2013-16 · 解答题
 
 <img src="../bank/2013/q16.png" alt="2013-16" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
 ---
+
+<a id="q2013-21"></a>
 
 ### 22 · 2013-21 · 解答题
 
@@ -201,6 +245,8 @@
 ---
 
 ## 2012年
+
+<a id="q2012-17"></a>
 
 ### 23 · 2012-17 · 解答题
 
@@ -212,11 +258,15 @@
 
 ## 2011年
 
+<a id="q2011-11"></a>
+
 ### 24 · 2011-11 · 填空题
 
 <img src="../bank/2011/q11.png" alt="2011-11" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
 ---
+
+<a id="q2011-20"></a>
 
 ### 25 · 2011-20 · 解答题
 
@@ -226,11 +276,15 @@
 
 ## 2010年
 
+<a id="q2010-12"></a>
+
 ### 26 · 2010-12 · 填空题
 
 <img src="../bank/2010/q12.png" alt="2010-12" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
 ---
+
+<a id="q2010-18"></a>
 
 ### 27 · 2010-18 · 解答题
 

@@ -10,6 +10,8 @@
 
 ## 2025年
 
+<a id="q2025-21"></a>
+
 ### 01 · 2025-21 · 解答题
 
 > 当年压轴证明题。充分性直接利用拉格朗日中值定理把割线斜率换成导数，递增性立显；必要性取极限让点逼近，用导数定义把不等式还原回导函数递增。
@@ -21,6 +23,8 @@
 ---
 
 ## 2022年
+
+<a id="q2022-21"></a>
 
 ### 02 · 2022-21 · 解答题
 
@@ -34,6 +38,8 @@
 
 ## 2021年
 
+<a id="q2021-18"></a>
+
 ### 03 · 2021-18 · 解答题
 
 > 绝对值分段讨论。去绝对值后分 <img src="../math/17be29a8a74e8994.svg" alt="公式：x&gt;0" width="44" height="13" align="middle" style="width:2.721em;height:0.7985em;vertical-align:-0.045em;"> 和 <img src="../math/c6d5dff52b0a6767.svg" alt="公式：x&lt;0" width="44" height="13" align="middle" style="width:2.721em;height:0.7985em;vertical-align:-0.045em;"> 分别求一阶、二阶导数定凹凸区间；渐近线别漏掉斜渐近线在正负无穷可能重合。
@@ -46,6 +52,8 @@
 
 ## 2019年
 
+<a id="q2019-2"></a>
+
 ### 04 · 2019-02 · 选择题
 
 <img src="../bank/2019/q02.png" alt="2019-02" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
@@ -53,6 +61,8 @@
 ---
 
 ## 2018年
+
+<a id="q2018-4"></a>
 
 ### 05 · 2018-04 · 选择题
 
@@ -64,6 +74,8 @@
 
 ## 2017年
 
+<a id="q2017-2"></a>
+
 ### 06 · 2017-02 · 选择题
 
 <img src="../bank/2017/q02.png" alt="2017-02" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
@@ -74,6 +86,8 @@
 
 ## 2015年
 
+<a id="q2015-4"></a>
+
 ### 07 · 2015-04 · 选择题
 
 <img src="../bank/2015/q04.png" alt="2015-04" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
@@ -81,6 +95,8 @@
 ---
 
 ## 2014年
+
+<a id="q2014-3"></a>
 
 ### 08 · 2014-03 · 选择题
 

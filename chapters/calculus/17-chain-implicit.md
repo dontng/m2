@@ -10,6 +10,8 @@
 
 ## 2026年
 
+<a id="q2026-3"></a>
+
 ### 01 · 2026-03 · 选择题
 
 > 一阶隐函数求导。方程两边直接对 <img src="../math/2d711642b726b044.svg" alt="公式：x" width="11" height="9" align="middle" style="width:0.647em;height:0.5125em;vertical-align:-0.0125em;"> 和 <img src="../math/a1fce4363854ff88.svg" alt="公式：y" width="9" height="12" align="middle" style="width:0.5545em;height:0.732em;vertical-align:-0.232em;"> 分别求偏导，把 <img src="../math/594e519ae499312b.svg" alt="公式：z" width="9" height="9" align="middle" style="width:0.526em;height:0.5125em;vertical-align:-0.0125em;"> 视为中间变量，直接求出偏导数比值，不要把 <img src="../math/594e519ae499312b.svg" alt="公式：z" width="9" height="9" align="middle" style="width:0.526em;height:0.5125em;vertical-align:-0.0125em;"> 硬解出来。
@@ -17,6 +19,8 @@
 <img src="../bank/2026/q03.png" alt="2026-03" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
 ---
+
+<a id="q2026-14"></a>
 
 ### 02 · 2026-14 · 填空题
 
@@ -28,6 +32,8 @@
 
 ## 2025年
 
+<a id="q2025-1"></a>
+
 ### 03 · 2025-01 · 选择题
 
 <img src="../bank/2025/q01.png" alt="2025-01" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
@@ -37,6 +43,8 @@
 ---
 
 ## 2024年
+
+<a id="q2024-20"></a>
 
 ### 04 · 2024-20 · 解答题
 
@@ -50,6 +58,8 @@
 
 ## 2023年
 
+<a id="q2023-13"></a>
+
 ### 05 · 2023-13 · 填空题
 
 <img src="../bank/2023/q13.png" alt="2023-13" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
@@ -57,6 +67,8 @@
 ---
 
 ## 2022年
+
+<a id="q2022-4"></a>
 
 ### 06 · 2022-04 · 选择题
 
@@ -68,6 +80,8 @@
 
 ## 2021年
 
+<a id="q2021-6"></a>
+
 ### 07 · 2021-06 · 选择题
 
 <img src="../bank/2021/q06.png" alt="2021-06" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
@@ -75,6 +89,8 @@
 *关联章节：[多元函数极限、偏导与全微分](16-multivariable-basics.md)*
 
 ---
+
+<a id="q2021-13"></a>
 
 ### 08 · 2021-13 · 填空题
 
@@ -84,11 +100,15 @@
 
 ## 2019年
 
+<a id="q2019-11"></a>
+
 ### 09 · 2019-11 · 填空题
 
 <img src="../bank/2019/q11.png" alt="2019-11" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
 ---
+
+<a id="q2019-20"></a>
 
 ### 10 · 2019-20 · 解答题
 
@@ -102,6 +122,8 @@
 
 ## 2018年
 
+<a id="q2018-13"></a>
+
 ### 11 · 2018-13 · 填空题
 
 <img src="../bank/2018/q13.png" alt="2018-13" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
@@ -109,6 +131,8 @@
 ---
 
 ## 2017年
+
+<a id="q2017-16"></a>
 
 ### 12 · 2017-16 · 解答题
 
@@ -118,11 +142,15 @@
 
 ## 2015年
 
+<a id="q2015-5"></a>
+
 ### 13 · 2015-05 · 选择题
 
 <img src="../bank/2015/q05.png" alt="2015-05" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
 ---
+
+<a id="q2015-13"></a>
 
 ### 14 · 2015-13 · 填空题
 
@@ -134,6 +162,8 @@
 
 ## 2014年
 
+<a id="q2014-11"></a>
+
 ### 15 · 2014-11 · 填空题
 
 <img src="../bank/2014/q11.png" alt="2014-11" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
@@ -141,6 +171,8 @@
 *关联章节：[多元函数极限、偏导与全微分](16-multivariable-basics.md)*
 
 ---
+
+<a id="q2014-18"></a>
 
 ### 16 · 2014-18 · 解答题
 
@@ -152,6 +184,8 @@
 
 ## 2013年
 
+<a id="q2013-5"></a>
+
 ### 17 · 2013-05 · 选择题
 
 <img src="../bank/2013/q05.png" alt="2013-05" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
@@ -159,6 +193,8 @@
 ---
 
 ## 2012年
+
+<a id="q2012-11"></a>
 
 ### 18 · 2012-11 · 填空题
 
@@ -168,6 +204,8 @@
 
 ## 2011年
 
+<a id="q2011-17"></a>
+
 ### 19 · 2011-17 · 解答题
 
 <img src="../bank/2011/q17.png" alt="2011-17" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
@@ -176,11 +214,15 @@
 
 ## 2010年
 
+<a id="q2010-5"></a>
+
 ### 20 · 2010-05 · 选择题
 
 <img src="../bank/2010/q05.png" alt="2010-05" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
 ---
+
+<a id="q2010-19"></a>
 
 ### 21 · 2010-19 · 解答题
 

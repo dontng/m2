@@ -18,6 +18,7 @@ SOURCE_REVIEW = {x['id']:x for x in json.loads((ROOT/'data/source-review.json').
 HINTS_FILE = ROOT/'data/hints.json'
 HINTS = json.loads(HINTS_FILE.read_text()) if HINTS_FILE.exists() else {}
 HINT_MATH = json.loads((ROOT/'data/hint-math.json').read_text())['formulas']
+PRIORITIES = json.loads((ROOT/'data/learning-priorities.json').read_text())['chapters']
 
 def chapter_path(c, ext="html"):
     return f"{c['group']}/{c['slug']}.{ext}"
@@ -44,6 +45,30 @@ def markdown_hint(text):
     if '$' in result:
         raise ValueError(f"提示中有未配对美元符号：{text}")
     return result
+
+def priority_header(c):
+    plan = PRIORITIES.get(c['id'])
+    if not plan:
+        return None
+    owned = {r['id'] for r in ROWS if r['primary'] == c['id']}
+    assert set(plan['reviewed_ids']) == owned, c['id']
+    lines = []
+    chosen = set()
+    for key, label in [('core', '必会·按此顺序'), ('stretch', plan['stretch_label']),
+                       ('exposure', '见识·先会开题'), ('defer', '待核·暂不安排')]:
+        picks = plan.get(key, [])
+        if not picks:
+            continue
+        for pick in picks:
+            assert pick['id'] in owned and pick['id'] not in chosen, (c['id'], pick)
+            assert '$' not in pick['focus'], pick
+            chosen.add(pick['id'])
+        def link(pick):
+            year, num = pick['id'].split('-')
+            return f"[{year}-{int(num):02d}](#q{pick['id']})（{pick['focus']}）"
+        lines.append(f"> **{label}**：" + ' → '.join(link(p) for p in picks))
+    lines.append(f"> **过关标准**：{plan['goal']}")
+    return '  \n'.join(lines) + '\n'
 
 def chapter_nav(c):
     """与E2相同的首尾双向导航，按总目录顺序跨目录连接。"""
@@ -198,7 +223,11 @@ for c in TAXONOMY:
     # --- 2. Markdown 内容组装 ---
     nav = chapter_nav(c)
     md_content = [nav + "\n", f"# {group_label} · {c['title']}\n"]
-    md_content.append(f"> 2010—2026年 · {len(rows)} 道完整真题 · 年份从新到旧（2026→2010）  \n> 题型分布：选择题 {count_choice} 题 · 填空题 {count_fill} 题 · 解答题 {count_subj} 题  \n> 考查范围：{c['scope']}\n")
+    header = priority_header(c)
+    if header:
+        md_content.append(header)
+    else:
+        md_content.append(f"> 2010—2026年 · {len(rows)} 道完整真题 · 年份从新到旧（2026→2010）  \n> 题型分布：选择题 {count_choice} 题 · 填空题 {count_fill} 题 · 解答题 {count_subj} 题  \n> 考查范围：{c['scope']}\n")
     md_content.append("---\n")
 
     last = None
@@ -238,6 +267,7 @@ for c in TAXONOMY:
         w_em = w / 2 / 16
         img_rel = f"../bank/{r['year']}/q{r['number']:02d}.png"
 
+        md_content.append(f'<a id="q{r["id"]}"></a>\n')
         md_content.append(f"### {idx:02d} · {r['year']}-{r['number']:02d} · {kind}\n")
         if tip_text:
             md_content.append(f"> {markdown_hint(tip_text)}\n")

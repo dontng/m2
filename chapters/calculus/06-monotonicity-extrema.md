@@ -10,6 +10,8 @@
 
 ## 2026年
 
+<a id="q2026-5"></a>
+
 ### 01 · 2026-05 · 选择题
 
 > 导数与极值概念辨析。注意：单调递减加递增确实能推极小值；但反过来极值点两侧导数不一定单调（可能有无穷次振荡）。代入经典振荡函数排除假命题。
@@ -21,6 +23,8 @@
 ---
 
 ## 2025年
+
+<a id="q2025-2"></a>
 
 ### 02 · 2025-02 · 选择题
 
@@ -34,6 +38,8 @@
 
 ## 2023年
 
+<a id="q2023-7"></a>
+
 ### 03 · 2023-07 · 选择题
 
 <img src="../bank/2023/q07.png" alt="2023-07" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
@@ -43,6 +49,8 @@
 ---
 
 ## 2022年
+
+<a id="q2022-3"></a>
 
 ### 04 · 2022-03 · 选择题
 
@@ -54,6 +62,8 @@
 
 ## 2021年
 
+<a id="q2021-4"></a>
+
 ### 05 · 2021-04 · 选择题
 
 <img src="../bank/2021/q04.png" alt="2021-04" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
@@ -62,6 +72,8 @@
 
 ## 2019年
 
+<a id="q2019-15"></a>
+
 ### 06 · 2019-15 · 解答题
 
 <img src="../bank/2019/q15.png" alt="2019-15" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
@@ -69,6 +81,8 @@
 ---
 
 ## 2017年
+
+<a id="q2017-18"></a>
 
 ### 07 · 2017-18 · 解答题
 
@@ -80,6 +94,8 @@
 
 ## 2016年
 
+<a id="q2016-4"></a>
+
 ### 08 · 2016-04 · 选择题
 
 <img src="../bank/2016/q04.png" alt="2016-04" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
@@ -87,6 +103,8 @@
 *关联章节：[凹凸性与拐点](07-convexity.md)*
 
 ---
+
+<a id="q2016-16"></a>
 
 ### 09 · 2016-16 · 解答题
 
@@ -100,6 +118,8 @@
 
 ## 2015年
 
+<a id="q2015-19"></a>
+
 ### 10 · 2015-19 · 解答题
 
 > 变限积分零点个数大题。两边求导得到 <img src="../math/f88c04694b6024ac.svg" alt="公式：f&#x27;(x)" width="41" height="19" align="middle" style="width:2.523em;height:1.1415em;vertical-align:-0.283em;">，解出导数驻点并判断单调区间；结合端点极限 <img src="../math/3973a3ce1657d3b0.svg" alt="公式：x\to 0^+" width="60" height="15" align="middle" style="width:3.6885em;height:0.902em;vertical-align:-0.025em;"> 和 <img src="../math/7a22d19a76a346e7.svg" alt="公式：x\to +\infty" width="71" height="13" align="middle" style="width:4.418em;height:0.7525em;vertical-align:-0.093em;"> 的函数值正负卡出零点个数。
@@ -112,11 +132,15 @@
 
 ## 2011年
 
+<a id="q2011-3"></a>
+
 ### 11 · 2011-03 · 选择题
 
 <img src="../bank/2011/q03.png" alt="2011-03" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
 ---
+
+<a id="q2011-16"></a>
 
 ### 12 · 2011-16 · 解答题
 
@@ -129,6 +153,8 @@
 ---
 
 ## 2010年
+
+<a id="q2010-15"></a>
 
 ### 13 · 2010-15 · 解答题
 

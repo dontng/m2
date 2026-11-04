@@ -10,6 +10,8 @@
 
 ## 2026年
 
+<a id="q2026-2"></a>
+
 ### 01 · 2026-02 · 选择题
 
 > 非齐次线性方程解的性质。非齐次特解做线性组合，组合系数和为 1 依然是非齐次特解，组合系数和为 0 则是齐次方程的特解，秒列方程解 <img src="../math/72eb0e10a4f1b7c7.svg" alt="公式：\lambda, \mu" width="30" height="17" align="middle" style="width:1.8445em;height:1.0295em;vertical-align:-0.2445em;">。
@@ -17,6 +19,8 @@
 <img src="../bank/2026/q02.png" alt="2026-02" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
 ---
+
+<a id="q2026-21"></a>
 
 ### 02 · 2026-21 · 解答题
 
@@ -30,6 +34,8 @@
 
 ## 2025年
 
+<a id="q2025-3"></a>
+
 ### 03 · 2025-03 · 选择题
 
 <img src="../bank/2025/q03.png" alt="2025-03" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
@@ -39,6 +45,8 @@
 ---
 
 ## 2024年
+
+<a id="q2024-18"></a>
 
 ### 04 · 2024-18 · 解答题
 
@@ -52,6 +60,8 @@
 
 ## 2023年
 
+<a id="q2023-4"></a>
+
 ### 05 · 2023-04 · 选择题
 
 <img src="../bank/2023/q04.png" alt="2023-04" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
@@ -59,6 +69,8 @@
 ---
 
 ## 2022年
+
+<a id="q2022-14"></a>
 
 ### 06 · 2022-14 · 填空题
 
@@ -68,6 +80,8 @@
 
 ## 2021年
 
+<a id="q2021-15"></a>
+
 ### 07 · 2021-15 · 填空题
 
 <img src="../bank/2021/q15.png" alt="2021-15" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
@@ -75,6 +89,8 @@
 ---
 
 ## 2020年
+
+<a id="q2020-13"></a>
 
 ### 08 · 2020-13 · 填空题
 
@@ -86,6 +102,8 @@
 
 ## 2019年
 
+<a id="q2019-4"></a>
+
 ### 09 · 2019-04 · 选择题
 
 <img src="../bank/2019/q04.png" alt="2019-04" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
@@ -94,6 +112,8 @@
 
 ## 2017年
 
+<a id="q2017-4"></a>
+
 ### 10 · 2017-04 · 选择题
 
 <img src="../bank/2017/q04.png" alt="2017-04" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
@@ -101,6 +121,8 @@
 ---
 
 ## 2016年
+
+<a id="q2016-19"></a>
 
 ### 11 · 2016-19 · 解答题
 
@@ -112,6 +134,8 @@
 
 ## 2015年
 
+<a id="q2015-12"></a>
+
 ### 12 · 2015-12 · 填空题
 
 <img src="../bank/2015/q12.png" alt="2015-12" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
@@ -120,6 +144,8 @@
 
 ## 2013年
 
+<a id="q2013-13"></a>
+
 ### 13 · 2013-13 · 填空题
 
 <img src="../bank/2013/q13.png" alt="2013-13" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
@@ -127,6 +153,8 @@
 ---
 
 ## 2012年
+
+<a id="q2012-19"></a>
 
 ### 14 · 2012-19 · 解答题
 
@@ -138,6 +166,8 @@
 
 ## 2011年
 
+<a id="q2011-4"></a>
+
 ### 15 · 2011-04 · 选择题
 
 <img src="../bank/2011/q04.png" alt="2011-04" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
@@ -146,11 +176,15 @@
 
 ## 2010年
 
+<a id="q2010-9"></a>
+
 ### 16 · 2010-09 · 填空题
 
 <img src="../bank/2010/q09.png" alt="2010-09" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
 ---
+
+<a id="q2010-17"></a>
 
 ### 17 · 2010-17 · 解答题
 

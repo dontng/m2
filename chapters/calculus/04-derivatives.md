@@ -10,6 +10,8 @@
 
 ## 2026年
 
+<a id="q2026-6"></a>
+
 ### 01 · 2026-06 · 选择题
 
 <img src="../bank/2026/q06.png" alt="2026-06" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
@@ -20,11 +22,15 @@
 
 ## 2025年
 
+<a id="q2025-7"></a>
+
 ### 02 · 2025-07 · 选择题
 
 <img src="../bank/2025/q07.png" alt="2025-07" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
 ---
+
+<a id="q2025-14"></a>
 
 ### 03 · 2025-14 · 填空题
 
@@ -33,6 +39,8 @@
 *关联章节：[定积分、变上限积分与积分性质](11-definite-integrals.md)*
 
 ---
+
+<a id="q2025-18"></a>
 
 ### 04 · 2025-18 · 解答题
 
@@ -46,6 +54,8 @@
 
 ## 2024年
 
+<a id="q2024-2"></a>
+
 ### 05 · 2024-02 · 选择题
 
 <img src="../bank/2024/q02.png" alt="2024-02" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
@@ -56,6 +66,8 @@
 
 ## 2023年
 
+<a id="q2023-5"></a>
+
 ### 06 · 2023-05 · 选择题
 
 <img src="../bank/2023/q05.png" alt="2023-05" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
@@ -64,11 +76,15 @@
 
 ## 2022年
 
+<a id="q2022-12"></a>
+
 ### 07 · 2022-12 · 填空题
 
 <img src="../bank/2022/q12.png" alt="2022-12" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
 ---
+
+<a id="q2022-17"></a>
 
 ### 08 · 2022-17 · 解答题
 
@@ -82,6 +98,8 @@
 
 ## 2021年
 
+<a id="q2021-2"></a>
+
 ### 09 · 2021-02 · 选择题
 
 <img src="../bank/2021/q02.png" alt="2021-02" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
@@ -90,11 +108,15 @@
 
 ---
 
+<a id="q2021-3"></a>
+
 ### 10 · 2021-03 · 选择题
 
 <img src="../bank/2021/q03.png" alt="2021-03" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
 ---
+
+<a id="q2021-12"></a>
 
 ### 11 · 2021-12 · 填空题
 
@@ -104,6 +126,8 @@
 
 ## 2020年
 
+<a id="q2020-9"></a>
+
 ### 12 · 2020-09 · 填空题
 
 <img src="../bank/2020/q09.png" alt="2020-09" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
@@ -111,6 +135,8 @@
 ---
 
 ## 2018年
+
+<a id="q2018-2"></a>
 
 ### 13 · 2018-02 · 选择题
 
@@ -120,6 +146,8 @@
 
 ## 2017年
 
+<a id="q2017-10"></a>
+
 ### 14 · 2017-10 · 填空题
 
 <img src="../bank/2017/q10.png" alt="2017-10" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
@@ -127,6 +155,8 @@
 ---
 
 ## 2016年
+
+<a id="q2016-13"></a>
 
 ### 15 · 2016-13 · 填空题
 
@@ -136,6 +166,8 @@
 
 ## 2015年
 
+<a id="q2015-3"></a>
+
 ### 16 · 2015-03 · 选择题
 
 <img src="../bank/2015/q03.png" alt="2015-03" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
@@ -143,6 +175,8 @@
 *关联章节：[连续与间断点](03-continuity.md)*
 
 ---
+
+<a id="q2015-9"></a>
 
 ### 17 · 2015-09 · 填空题
 
@@ -152,6 +186,8 @@
 
 ## 2013年
 
+<a id="q2013-2"></a>
+
 ### 18 · 2013-02 · 选择题
 
 <img src="../bank/2013/q02.png" alt="2013-02" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
@@ -159,6 +195,8 @@
 *关联章节：[函数极限与无穷小](01-limits.md)*
 
 ---
+
+<a id="q2013-10"></a>
 
 ### 19 · 2013-10 · 填空题
 
@@ -170,11 +208,15 @@
 
 ## 2012年
 
+<a id="q2012-2"></a>
+
 ### 20 · 2012-02 · 选择题
 
 <img src="../bank/2012/q02.png" alt="2012-02" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
 ---
+
+<a id="q2012-9"></a>
 
 ### 21 · 2012-09 · 填空题
 
@@ -186,6 +228,8 @@
 
 ## 2011年
 
+<a id="q2011-2"></a>
+
 ### 22 · 2011-02 · 选择题
 
 <img src="../bank/2011/q02.png" alt="2011-02" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
@@ -195,6 +239,8 @@
 ---
 
 ## 2010年
+
+<a id="q2010-13"></a>
 
 ### 23 · 2010-13 · 填空题
 

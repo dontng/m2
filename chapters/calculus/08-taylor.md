@@ -10,6 +10,8 @@
 
 ## 2024年
 
+<a id="q2024-14"></a>
+
 ### 01 · 2024-14 · 填空题
 
 > 高阶导数计算。求 <img src="../math/5d81706e04813f55.svg" alt="公式：x^2(e^x-1)" width="81" height="20" align="middle" style="width:5.048em;height:1.226em;vertical-align:-0.283em;"> 的 5 阶导，直接上莱布尼茨公式，因为 <img src="../math/5b029881cc5d477a.svg" alt="公式：x^2" width="19" height="16" align="middle" style="width:1.141em;height:0.956em;vertical-align:-0.0125em;"> 求导三次就变 0，实际只需算前三项，千万别硬求五次。
@@ -20,6 +22,8 @@
 
 ## 2021年
 
+<a id="q2021-5"></a>
+
 ### 02 · 2021-05 · 选择题
 
 <img src="../bank/2021/q05.png" alt="2021-05" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
@@ -27,6 +31,8 @@
 ---
 
 ## 2020年
+
+<a id="q2020-4"></a>
 
 ### 03 · 2020-04 · 选择题
 
@@ -38,6 +44,8 @@
 
 ## 2019年
 
+<a id="q2019-6"></a>
+
 ### 04 · 2019-06 · 选择题
 
 <img src="../bank/2019/q06.png" alt="2019-06" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
@@ -47,6 +55,8 @@
 ---
 
 ## 2016年
+
+<a id="q2016-12"></a>
 
 ### 05 · 2016-12 · 填空题
 
@@ -60,6 +70,8 @@
 
 ## 2015年
 
+<a id="q2015-10"></a>
+
 ### 06 · 2015-10 · 填空题
 
 <img src="../bank/2015/q10.png" alt="2015-10" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
@@ -69,6 +81,8 @@
 ---
 
 ## 2010年
+
+<a id="q2010-11"></a>
 
 ### 07 · 2010-11 · 填空题
 

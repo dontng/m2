@@ -10,6 +10,8 @@
 
 ## 2024年
 
+<a id="q2024-1"></a>
+
 ### 01 · 2024-01 · 选择题
 
 > 幂指函数间断点。底数有绝对值，先看无定义的点 <img src="../math/dad218514dc687bd.svg" alt="公式：x=0, 1, 2" width="78" height="16" align="middle" style="width:4.8585em;height:0.973em;vertical-align:-0.2195em;">。分别求各点处的左右极限，只有左右极限都存在且不等的才是第一类间断点。
@@ -19,6 +21,8 @@
 ---
 
 ## 2020年
+
+<a id="q2020-2"></a>
 
 ### 02 · 2020-02 · 选择题
 
@@ -30,6 +34,8 @@
 
 ## 2018年
 
+<a id="q2018-3"></a>
+
 ### 03 · 2018-03 · 选择题
 
 <img src="../bank/2018/q03.png" alt="2018-03" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
@@ -38,6 +44,8 @@
 
 ## 2017年
 
+<a id="q2017-1"></a>
+
 ### 04 · 2017-01 · 选择题
 
 <img src="../bank/2017/q01.png" alt="2017-01" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
@@ -45,6 +53,8 @@
 ---
 
 ## 2015年
+
+<a id="q2015-2"></a>
 
 ### 05 · 2015-02 · 选择题
 
@@ -55,6 +65,8 @@
 ---
 
 ## 2010年
+
+<a id="q2010-1"></a>
 
 ### 06 · 2010-01 · 选择题
 
