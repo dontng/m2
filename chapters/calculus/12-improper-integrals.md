@@ -20,7 +20,7 @@
 
 > 含参反常积分收敛性。区间拆成 <img src="../math/463f2998327eb3a6.svg" alt="公式：[0,1]" width="37" height="19" align="middle" style="width:2.263em;height:1.131em;vertical-align:-0.283em;"> 和 <img src="../math/db64628d958ad794.svg" alt="公式：[1,+\infty)" width="62" height="19" align="middle" style="width:3.8345em;height:1.131em;vertical-align:-0.283em;"> 两段：0 处看瑕点（等价无穷小为 <img src="../math/dc64c99ed2680ebf.svg" alt="公式：x^{1-p}" width="35" height="16" align="middle" style="width:2.1655em;height:0.956em;vertical-align:-0.0125em;">），无穷远看衰减阶数（为 <img src="../math/08157c2a488fc7e2.svg" alt="公式：1/x^{p+1}" width="53" height="20" align="middle" style="width:3.297em;height:1.226em;vertical-align:-0.283em;">），两端同时收敛交出 <img src="../math/148de9c5a7a44d19.svg" alt="公式：p" width="10" height="12" align="middle" style="width:0.569em;height:0.7195em;vertical-align:-0.2195em;"> 范围。
 
-<img src="../bank/2026/q11.png" alt="2026-11" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
+<img src="../bank/2026/q11.png?v=601ace6fa4a6" alt="2026-11" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
 ---
 
@@ -30,7 +30,7 @@
 
 ### 02 · 2025-11 · 填空题 ·【补练】
 
-<img src="../bank/2025/q11.png" alt="2025-11" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
+<img src="../bank/2025/q11.png?v=c0157edaa8cb" alt="2025-11" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
 ---
 
@@ -42,7 +42,7 @@
 
 > 反常积分真假命题。注意无穷区间上反常积分收敛不代表被积函数趋向 0（可能有窄高尖峰）；被积函数非负且单调时才成立。用尖峰反例迅速判断。
 
-<img src="../bank/2024/q07.png" alt="2024-07" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
+<img src="../bank/2024/q07.png?v=6f59b955a21c" alt="2024-07" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
 ---
 
@@ -52,7 +52,7 @@
 
 ### 04 · 2023-06 · 选择题 ·【冲一冲】
 
-<img src="../bank/2023/q06.png" alt="2023-06" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
+<img src="../bank/2023/q06.png?v=5f7991a0596f" alt="2023-06" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
 *关联章节：[单调性、极值与零点个数](06-monotonicity-extrema.md)*
 
@@ -66,7 +66,7 @@
 
 > 双瑕点反常积分。0 和 1 两个端点都是瑕点，必须两端都收敛。0 点处 <img src="../math/07b71bff45915df8.svg" alt="公式：\ln x" width="29" height="13" align="middle" style="width:1.779em;height:0.7975em;vertical-align:-0.0125em;"> 不影响 <img src="../math/148de9c5a7a44d19.svg" alt="公式：p" width="10" height="12" align="middle" style="width:0.569em;height:0.7195em;vertical-align:-0.2195em;"> 判别法则，1 点处利用 <img src="../math/9552476bb6af3ebf.svg" alt="公式：\ln x \sim x-1" width="95" height="15" align="middle" style="width:5.883em;height:0.878em;vertical-align:-0.093em;"> 转化为 <img src="../math/148de9c5a7a44d19.svg" alt="公式：p" width="10" height="12" align="middle" style="width:0.569em;height:0.7195em;vertical-align:-0.2195em;"> 积分判别。
 
-<img src="../bank/2022/q05.png" alt="2022-05" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
+<img src="../bank/2022/q05.png?v=53a9b45f5dc9" alt="2022-05" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
 ---
 
@@ -76,7 +76,7 @@
 
 ### 06 · 2021-11 · 填空题 ·【必会】
 
-<img src="../bank/2021/q11.png" alt="2021-11" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
+<img src="../bank/2021/q11.png?v=7195fae7e26d" alt="2021-11" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
 ---
 
@@ -86,7 +86,7 @@
 
 ### 07 · 2019-03 · 选择题 ·【补练】
 
-<img src="../bank/2019/q03.png" alt="2019-03" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
+<img src="../bank/2019/q03.png?v=c77b85e7a242" alt="2019-03" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
 ---
 
@@ -96,7 +96,7 @@
 
 ### 08 · 2018-11 · 填空题 ·【补练】
 
-<img src="../bank/2018/q11.png" alt="2018-11" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
+<img src="../bank/2018/q11.png?v=c9f4f094741c" alt="2018-11" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
 ---
 
@@ -106,7 +106,7 @@
 
 ### 09 · 2017-11 · 填空题 ·【必会】
 
-<img src="../bank/2017/q11.png" alt="2017-11" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
+<img src="../bank/2017/q11.png?v=373af75c7473" alt="2017-11" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
 ---
 
@@ -116,7 +116,7 @@
 
 ### 10 · 2016-03 · 选择题 ·【补练】
 
-<img src="../bank/2016/q03.png" alt="2016-03" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
+<img src="../bank/2016/q03.png?v=5d99e87103f2" alt="2016-03" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
 ---
 
@@ -126,7 +126,7 @@
 
 ### 11 · 2015-01 · 选择题 ·【必会】
 
-<img src="../bank/2015/q01.png" alt="2015-01" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
+<img src="../bank/2015/q01.png?v=ad9e5e3ae092" alt="2015-01" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
 ---
 
@@ -136,7 +136,7 @@
 
 ### 12 · 2014-09 · 填空题 ·【补练】
 
-<img src="../bank/2014/q09.png" alt="2014-09" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
+<img src="../bank/2014/q09.png?v=e56cc109edc0" alt="2014-09" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
 ---
 
@@ -146,7 +146,7 @@
 
 ### 13 · 2013-04 · 选择题 ·【补练】
 
-<img src="../bank/2013/q04.png" alt="2013-04" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
+<img src="../bank/2013/q04.png?v=2ad313292db9" alt="2013-04" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
 ---
 
@@ -156,7 +156,7 @@
 
 ### 14 · 2011-12 · 填空题 ·【补练】
 
-<img src="../bank/2011/q12.png" alt="2011-12" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
+<img src="../bank/2011/q12.png?v=02f9458d2606" alt="2011-12" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
 ---
 
@@ -166,7 +166,7 @@
 
 ### 15 · 2010-04 · 选择题 ·【首轮后放】
 
-<img src="../bank/2010/q04.png" alt="2010-04" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
+<img src="../bank/2010/q04.png?v=3137789fee9d" alt="2010-04" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
 ---
 

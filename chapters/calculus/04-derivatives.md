@@ -18,7 +18,7 @@
 
 ### 01 · 2026-06 · 选择题 ·【必会】
 
-<img src="../bank/2026/q06.png" alt="2026-06" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
+<img src="../bank/2026/q06.png?v=e36017e2822f" alt="2026-06" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
 *关联章节：[定积分、变上限积分与积分性质](11-definite-integrals.md)*
 
@@ -30,7 +30,7 @@
 
 ### 02 · 2025-07 · 选择题 ·【补练】
 
-<img src="../bank/2025/q07.png" alt="2025-07" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
+<img src="../bank/2025/q07.png?v=05543c38553b" alt="2025-07" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
 ---
 
@@ -38,7 +38,7 @@
 
 ### 03 · 2025-14 · 填空题 ·【补练】
 
-<img src="../bank/2025/q14.png" alt="2025-14" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
+<img src="../bank/2025/q14.png?v=4f39eb5dacb2" alt="2025-14" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
 *关联章节：[定积分、变上限积分与积分性质](11-definite-integrals.md)*
 
@@ -50,7 +50,7 @@
 
 > 导数定义综合大题。条件是极限，分母用泰勒展开化简为 <img src="../math/81adc23082234fec.svg" alt="公式：-x^2" width="33" height="17" align="middle" style="width:2.021em;height:1.036em;vertical-align:-0.093em;">。先由极限存在推分子为 0 得 <img src="../math/51d8c66e0602bb4e.svg" alt="公式：f(0)" width="34" height="19" align="middle" style="width:2.068em;height:1.131em;vertical-align:-0.283em;">，再凑导数定义极限式求 <img src="../math/70a45b4b9a6f64c6.svg" alt="公式：f&#x27;(0)" width="40" height="19" align="middle" style="width:2.4415em;height:1.1415em;vertical-align:-0.283em;">。
 
-<img src="../bank/2025/q18.png" alt="2025-18" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
+<img src="../bank/2025/q18.png?v=b75d3e76e089" alt="2025-18" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
 *关联章节：[函数极限与无穷小](01-limits.md) · [泰勒公式与高阶导数](08-taylor.md)*
 
@@ -62,7 +62,7 @@
 
 ### 05 · 2024-02 · 选择题 ·【补练】
 
-<img src="../bank/2024/q02.png" alt="2024-02" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
+<img src="../bank/2024/q02.png?v=82cb77da10e0" alt="2024-02" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
 *关联章节：[函数极限与无穷小](01-limits.md)*
 
@@ -74,7 +74,7 @@
 
 ### 06 · 2023-05 · 选择题 ·【见识】
 
-<img src="../bank/2023/q05.png" alt="2023-05" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
+<img src="../bank/2023/q05.png?v=fc1f0152f6e6" alt="2023-05" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
 ---
 
@@ -84,7 +84,7 @@
 
 ### 07 · 2022-12 · 填空题 ·【必会】
 
-<img src="../bank/2022/q12.png" alt="2022-12" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
+<img src="../bank/2022/q12.png?v=5ba368a0ff10" alt="2022-12" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
 ---
 
@@ -94,7 +94,7 @@
 
 > 抽象可导函数极限反推导数。把要求的极限式凑成导数定义形式，配凑出 <img src="../math/6f3f421d204de9d2.svg" alt="公式：\frac{f(1+x)-f(1)}{x}" width="82" height="26" align="middle" style="width:5.1245em;height:1.5835em;vertical-align:-0.399em;"> 与 <img src="../math/369593d77a6cddee.svg" alt="公式：\frac{f(1-x)-f(1)}{-x}" width="82" height="27" align="middle" style="width:5.1245em;height:1.6405em;vertical-align:-0.456em;"> 的线性组合。
 
-<img src="../bank/2022/q17.png" alt="2022-17" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
+<img src="../bank/2022/q17.png?v=2b1174f5c9c4" alt="2022-17" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
 *关联章节：[函数极限与无穷小](01-limits.md)*
 
@@ -106,7 +106,7 @@
 
 ### 09 · 2021-02 · 选择题 ·【必会】
 
-<img src="../bank/2021/q02.png" alt="2021-02" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
+<img src="../bank/2021/q02.png?v=3b044fd7e31b" alt="2021-02" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
 *关联章节：[连续与间断点](03-continuity.md) · [单调性、极值与零点个数](06-monotonicity-extrema.md)*
 
@@ -116,7 +116,7 @@
 
 ### 10 · 2021-03 · 选择题 ·【冲一冲】
 
-<img src="../bank/2021/q03.png" alt="2021-03" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
+<img src="../bank/2021/q03.png?v=8f6451bc4080" alt="2021-03" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
 ---
 
@@ -124,7 +124,7 @@
 
 ### 11 · 2021-12 · 填空题 ·【补练】
 
-<img src="../bank/2021/q12.png" alt="2021-12" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
+<img src="../bank/2021/q12.png?v=751f4fd179d4" alt="2021-12" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
 ---
 
@@ -134,7 +134,7 @@
 
 ### 12 · 2020-09 · 填空题 ·【补练】
 
-<img src="../bank/2020/q09.png" alt="2020-09" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
+<img src="../bank/2020/q09.png?v=c6264148a249" alt="2020-09" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
 ---
 
@@ -144,7 +144,7 @@
 
 ### 13 · 2018-02 · 选择题 ·【补练】
 
-<img src="../bank/2018/q02.png" alt="2018-02" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
+<img src="../bank/2018/q02.png?v=6195749ccbbb" alt="2018-02" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
 ---
 
@@ -154,7 +154,7 @@
 
 ### 14 · 2017-10 · 填空题 ·【必会】
 
-<img src="../bank/2017/q10.png" alt="2017-10" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
+<img src="../bank/2017/q10.png?v=bc16408c1b38" alt="2017-10" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
 ---
 
@@ -164,7 +164,7 @@
 
 ### 15 · 2016-13 · 填空题 ·【补练】
 
-<img src="../bank/2016/q13.png" alt="2016-13" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
+<img src="../bank/2016/q13.png?v=6eba3667e39b" alt="2016-13" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
 ---
 
@@ -174,7 +174,7 @@
 
 ### 16 · 2015-03 · 选择题 ·【首轮后放】
 
-<img src="../bank/2015/q03.png" alt="2015-03" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
+<img src="../bank/2015/q03.png?v=ede68ff8b194" alt="2015-03" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
 *关联章节：[连续与间断点](03-continuity.md)*
 
@@ -184,7 +184,7 @@
 
 ### 17 · 2015-09 · 填空题 ·【补练】
 
-<img src="../bank/2015/q09.png" alt="2015-09" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
+<img src="../bank/2015/q09.png?v=f6331fda9521" alt="2015-09" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
 ---
 
@@ -194,7 +194,7 @@
 
 ### 18 · 2013-02 · 选择题 ·【补练】
 
-<img src="../bank/2013/q02.png" alt="2013-02" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
+<img src="../bank/2013/q02.png?v=55d4fa5bf9d4" alt="2013-02" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
 *关联章节：[函数极限与无穷小](01-limits.md)*
 
@@ -204,7 +204,7 @@
 
 ### 19 · 2013-10 · 填空题 ·【补练】
 
-<img src="../bank/2013/q10.png" alt="2013-10" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
+<img src="../bank/2013/q10.png?v=a1c97c6fbc83" alt="2013-10" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
 *关联章节：[定积分、变上限积分与积分性质](11-definite-integrals.md)*
 
@@ -216,7 +216,7 @@
 
 ### 20 · 2012-02 · 选择题 ·【补练】
 
-<img src="../bank/2012/q02.png" alt="2012-02" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
+<img src="../bank/2012/q02.png?v=d03834ecd9f1" alt="2012-02" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
 ---
 
@@ -224,7 +224,7 @@
 
 ### 21 · 2012-09 · 填空题 ·【补练】
 
-<img src="../bank/2012/q09.png" alt="2012-09" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
+<img src="../bank/2012/q09.png?v=8b70df479396" alt="2012-09" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
 *关联章节：[多元复合函数与隐函数求导](17-chain-implicit.md)*
 
@@ -236,7 +236,7 @@
 
 ### 22 · 2011-02 · 选择题 ·【必会】
 
-<img src="../bank/2011/q02.png" alt="2011-02" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
+<img src="../bank/2011/q02.png?v=adb7c98a374e" alt="2011-02" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
 *关联章节：[函数极限与无穷小](01-limits.md)*
 
@@ -248,7 +248,7 @@
 
 ### 23 · 2010-13 · 填空题 ·【补练】
 
-<img src="../bank/2010/q13.png" alt="2010-13" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
+<img src="../bank/2010/q13.png?v=f5ea1d7d97b4" alt="2010-13" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
 ---
 

@@ -21,7 +21,7 @@
 
 > 隐函数曲率半径填空。在点 <img src="../math/2952887bc45642d0.svg" alt="公式：(0,1)" width="41" height="19" align="middle" style="width:2.5145em;height:1.131em;vertical-align:-0.283em;"> 处对隐方程求一阶导得 <img src="../math/241d1cd21689b8a9.svg" alt="公式：y&#x27;" width="14" height="18" align="middle" style="width:0.868em;height:1.0905em;vertical-align:-0.232em;">，再求二阶导得 <img src="../math/8b40d33482df931f.svg" alt="公式：y&#x27;&#x27;" width="18" height="18" align="middle" style="width:1.088em;height:1.0905em;vertical-align:-0.232em;">，直接代入曲率半径公式 <img src="../math/98f5844049d15861.svg" alt="公式：R = (1+y&#x27;^2)^{3/2}/|y&#x27;&#x27;|" width="161" height="21" align="middle" style="width:10.04em;height:1.2935em;vertical-align:-0.283em;">，别算错代数式。
 
-<img src="../bank/2026/q13.png" alt="2026-13" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
+<img src="../bank/2026/q13.png?v=aaa5a4b6808c" alt="2026-13" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
 ---
 
@@ -33,7 +33,7 @@
 
 > 三次根式斜渐近线。求斜渐近线别死算两步极限，提公因子 <img src="../math/2d711642b726b044.svg" alt="公式：x" width="11" height="9" align="middle" style="width:0.647em;height:0.5125em;vertical-align:-0.0125em;"> 出来利用泰勒展开 <img src="../math/ccec8b8c5d0c089a.svg" alt="公式：(1+u)^{1/3} = 1 + u/3 - u^2/9" width="219" height="21" align="middle" style="width:13.6595em;height:1.2935em;vertical-align:-0.283em;">，直接展开得到 <img src="../math/9640ae2026d6d970.svg" alt="公式：y = x - 1" width="75" height="16" align="middle" style="width:4.6585em;height:0.9855em;vertical-align:-0.232em;">。
 
-<img src="../bank/2025/q12.png" alt="2025-12" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
+<img src="../bank/2025/q12.png?v=21c0d7320241" alt="2025-12" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
 ---
 
@@ -43,7 +43,7 @@
 
 ### 03 · 2024-11 · 填空题 ·【见识】
 
-<img src="../bank/2024/q11.png" alt="2024-11" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
+<img src="../bank/2024/q11.png?v=da83b6b021c6" alt="2024-11" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
 ---
 
@@ -53,7 +53,7 @@
 
 ### 04 · 2023-01 · 选择题 ·【补练】
 
-<img src="../bank/2023/q01.png" alt="2023-01" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
+<img src="../bank/2023/q01.png?v=f2db55a49523" alt="2023-01" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
 ---
 
@@ -61,7 +61,7 @@
 
 ### 05 · 2023-14 · 填空题 ·【补练】
 
-<img src="../bank/2023/q14.png" alt="2023-14" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
+<img src="../bank/2023/q14.png?v=3ef1a76e08a1" alt="2023-14" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
 *关联章节：[导数、微分与求导法则](04-derivatives.md)*
 
@@ -75,7 +75,7 @@
 
 > 幂指函数斜渐近线大题。先算斜率 <img src="../math/608c451cd5c6b17d.svg" alt="公式：a = \lim y/x" width="91" height="19" align="middle" style="width:5.6335em;height:1.131em;vertical-align:-0.283em;">；算截距 <img src="../math/200262fc3e0692ee.svg" alt="公式：b = \lim (y-ax)" width="123" height="19" align="middle" style="width:7.628em;height:1.131em;vertical-align:-0.283em;"> 时化为 <img src="../math/fe75e88ef7352234.svg" alt="公式：x[(1+1/x)^{-x}-1]" width="145" height="19" align="middle" style="width:9.005em;height:1.16em;vertical-align:-0.283em;">，利用对数展开式或等价无穷小求极限。
 
-<img src="../bank/2020/q15.png" alt="2020-15" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
+<img src="../bank/2020/q15.png?v=893af147a9c7" alt="2020-15" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
 *关联章节：[函数极限与无穷小](01-limits.md)*
 
@@ -87,7 +87,7 @@
 
 ### 07 · 2019-10 · 填空题 ·【待核】
 
-<img src="../bank/2019/q10.png" alt="2019-10" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
+<img src="../bank/2019/q10.png?v=725cf83e8250" alt="2019-10" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
 ---
 
@@ -97,7 +97,7 @@
 
 ### 08 · 2018-10 · 填空题 ·【补练】
 
-<img src="../bank/2018/q10.png" alt="2018-10" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
+<img src="../bank/2018/q10.png?v=60f3e9955b73" alt="2018-10" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
 *关联章节：[凹凸性与拐点](07-convexity.md)*
 
@@ -107,7 +107,7 @@
 
 ### 09 · 2018-12 · 填空题 ·【补练】
 
-<img src="../bank/2018/q12.png" alt="2018-12" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
+<img src="../bank/2018/q12.png?v=3aff3e1c4d96" alt="2018-12" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
 ---
 
@@ -117,7 +117,7 @@
 
 ### 10 · 2017-09 · 填空题 ·【补练】
 
-<img src="../bank/2017/q09.png" alt="2017-09" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
+<img src="../bank/2017/q09.png?v=2ebf08bd63e9" alt="2017-09" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
 *关联章节：[函数极限与无穷小](01-limits.md)*
 
@@ -131,7 +131,7 @@
 
 > 切线与曲率比较。两曲线相切说明一阶导相等；曲率大说明二阶导绝对值大。结合 <img src="../math/150a61bb6319c74c.svg" alt="公式：f&#x27;&#x27;_i(x_0)&lt;0" width="85" height="20" align="middle" style="width:5.311em;height:1.189em;vertical-align:-0.3305em;"> 判定局部凸性与相对位置，画草图一目了然。
 
-<img src="../bank/2016/q05.png" alt="2016-05" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
+<img src="../bank/2016/q05.png?v=3484dde962f4" alt="2016-05" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
 *关联章节：[凹凸性与拐点](07-convexity.md) · [泰勒公式与高阶导数](08-taylor.md)*
 
@@ -141,7 +141,7 @@
 
 ### 12 · 2016-09 · 填空题 ·【补练】
 
-<img src="../bank/2016/q09.png" alt="2016-09" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
+<img src="../bank/2016/q09.png?v=48e25b6fa981" alt="2016-09" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
 ---
 
@@ -151,7 +151,7 @@
 
 ### 13 · 2014-02 · 选择题 ·【补练】
 
-<img src="../bank/2014/q02.png" alt="2014-02" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
+<img src="../bank/2014/q02.png?v=26111d540ed1" alt="2014-02" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
 ---
 
@@ -159,7 +159,7 @@
 
 ### 14 · 2014-04 · 选择题 ·【必会】
 
-<img src="../bank/2014/q04.png" alt="2014-04" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
+<img src="../bank/2014/q04.png?v=9dda1ba4932c" alt="2014-04" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
 ---
 
@@ -167,7 +167,7 @@
 
 ### 15 · 2014-12 · 填空题 ·【首轮后放】
 
-<img src="../bank/2014/q12.png" alt="2014-12" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
+<img src="../bank/2014/q12.png?v=95deade131a9" alt="2014-12" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
 ---
 
@@ -177,7 +177,7 @@
 
 ### 16 · 2013-12 · 填空题 ·【补练】
 
-<img src="../bank/2013/q12.png" alt="2013-12" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
+<img src="../bank/2013/q12.png?v=921d1ed88b6b" alt="2013-12" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
 ---
 
@@ -187,7 +187,7 @@
 
 ### 17 · 2012-01 · 选择题 ·【必会】
 
-<img src="../bank/2012/q01.png" alt="2012-01" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
+<img src="../bank/2012/q01.png?v=114e94645da7" alt="2012-01" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
 ---
 
@@ -195,7 +195,7 @@
 
 ### 18 · 2012-13 · 填空题 ·【补练】
 
-<img src="../bank/2012/q13.png" alt="2012-13" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
+<img src="../bank/2012/q13.png?v=d46725e25a12" alt="2012-13" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
 ---
 
@@ -205,7 +205,7 @@
 
 ### 19 · 2010-03 · 选择题 ·【必会】
 
-<img src="../bank/2010/q03.png" alt="2010-03" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
+<img src="../bank/2010/q03.png?v=9db0e0a86a8e" alt="2010-03" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
 ---
 
@@ -213,7 +213,7 @@
 
 ### 20 · 2010-10 · 填空题 ·【补练】
 
-<img src="../bank/2010/q10.png" alt="2010-10" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
+<img src="../bank/2010/q10.png?v=726aca95e777" alt="2010-10" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
 ---
 

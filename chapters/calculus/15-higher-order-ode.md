@@ -20,7 +20,7 @@
 
 > 非齐次线性方程解的性质。非齐次特解做线性组合，组合系数和为 1 依然是非齐次特解，组合系数和为 0 则是齐次方程的特解，秒列方程解 <img src="../math/72eb0e10a4f1b7c7.svg" alt="公式：\lambda, \mu" width="30" height="17" align="middle" style="width:1.8445em;height:1.0295em;vertical-align:-0.2445em;">。
 
-<img src="../bank/2026/q02.png" alt="2026-02" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
+<img src="../bank/2026/q02.png?v=04ca63a71af0" alt="2026-02" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
 ---
 
@@ -30,7 +30,7 @@
 
 > 最新真题大题。方程不显含 <img src="../math/a1fce4363854ff88.svg" alt="公式：y" width="9" height="12" align="middle" style="width:0.5545em;height:0.732em;vertical-align:-0.232em;">，令 <img src="../math/11b39a2144879a0a.svg" alt="公式：p=y&#x27;" width="48" height="18" align="middle" style="width:2.9455em;height:1.0905em;vertical-align:-0.232em;"> 降为关于 <img src="../math/148de9c5a7a44d19.svg" alt="公式：p" width="10" height="12" align="middle" style="width:0.569em;height:0.7195em;vertical-align:-0.2195em;"> 的一阶方程，先分离变量求出 <img src="../math/241d1cd21689b8a9.svg" alt="公式：y&#x27;" width="14" height="18" align="middle" style="width:0.868em;height:1.0905em;vertical-align:-0.232em;"> 再积分求 <img src="../math/a1fce4363854ff88.svg" alt="公式：y" width="9" height="12" align="middle" style="width:0.5545em;height:0.732em;vertical-align:-0.232em;">。步步为营，核心在别算错负号。
 
-<img src="../bank/2026/q21.png" alt="2026-21" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
+<img src="../bank/2026/q21.png?v=48dcf2c1aa40" alt="2026-21" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
 *关联章节：[一阶微分方程](14-first-order-ode.md)*
 
@@ -42,7 +42,7 @@
 
 ### 03 · 2025-03 · 选择题 ·【首轮后放】
 
-<img src="../bank/2025/q03.png" alt="2025-03" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
+<img src="../bank/2025/q03.png?v=c67b56237439" alt="2025-03" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
 *关联章节：[反常积分](12-improper-integrals.md)*
 
@@ -56,7 +56,7 @@
 
 > 欧拉方程经典大题。作变换 <img src="../math/a60e74f880832b46.svg" alt="公式：x=e^t" width="50" height="17" align="middle" style="width:3.0655em;height:1.004em;vertical-align:-0.093em;"> 把自变量换为 <img src="../math/e3b98a4da31a127d.svg" alt="公式：t" width="7" height="12" align="middle" style="width:0.4085em;height:0.7205em;vertical-align:-0.0125em;">，降为常系数线性方程，求出齐次通解再求特解；第二问直接代入三角代换做定积分。
 
-<img src="../bank/2024/q18.png" alt="2024-18" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
+<img src="../bank/2024/q18.png?v=06d3615e2c0b" alt="2024-18" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
 *关联章节：[定积分、变上限积分与积分性质](11-definite-integrals.md)*
 
@@ -68,7 +68,7 @@
 
 ### 05 · 2023-04 · 选择题 ·【首轮后放】
 
-<img src="../bank/2023/q04.png" alt="2023-04" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
+<img src="../bank/2023/q04.png?v=87902ed2bcb3" alt="2023-04" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
 ---
 
@@ -78,7 +78,7 @@
 
 ### 06 · 2022-14 · 填空题 ·【补练】
 
-<img src="../bank/2022/q14.png" alt="2022-14" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
+<img src="../bank/2022/q14.png?v=09f79aa92a3c" alt="2022-14" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
 ---
 
@@ -88,7 +88,7 @@
 
 ### 07 · 2021-15 · 填空题 ·【补练】
 
-<img src="../bank/2021/q15.png" alt="2021-15" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
+<img src="../bank/2021/q15.png?v=6a23862dc9d2" alt="2021-15" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
 ---
 
@@ -98,7 +98,7 @@
 
 ### 08 · 2020-13 · 填空题 ·【补练】
 
-<img src="../bank/2020/q13.png" alt="2020-13" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
+<img src="../bank/2020/q13.png?v=f5bad644a2d9" alt="2020-13" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
 *关联章节：[反常积分](12-improper-integrals.md)*
 
@@ -110,7 +110,7 @@
 
 ### 09 · 2019-04 · 选择题 ·【补练】
 
-<img src="../bank/2019/q04.png" alt="2019-04" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
+<img src="../bank/2019/q04.png?v=738e21fb7761" alt="2019-04" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
 ---
 
@@ -120,7 +120,7 @@
 
 ### 10 · 2017-04 · 选择题 ·【必会】
 
-<img src="../bank/2017/q04.png" alt="2017-04" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
+<img src="../bank/2017/q04.png?v=8ad0965090a7" alt="2017-04" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
 ---
 
@@ -132,7 +132,7 @@
 
 > 已知特解求高阶方程未知系数。已知 <img src="../math/08f26459d19e56b9.svg" alt="公式：y_1=e^x" width="59" height="16" align="middle" style="width:3.6355em;height:0.996em;vertical-align:-0.232em;"> 是解，代入方程定出系数关系；再用刘维尔公式或设 <img src="../math/2f5376e1bd6ba3b0.svg" alt="公式：y_2=u(x)e^x" width="93" height="19" align="middle" style="width:5.8095em;height:1.131em;vertical-align:-0.283em;"> 降阶求出第二个特解。
 
-<img src="../bank/2016/q19.png" alt="2016-19" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
+<img src="../bank/2016/q19.png?v=c31b682a5471" alt="2016-19" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
 ---
 
@@ -142,7 +142,7 @@
 
 ### 12 · 2015-12 · 填空题 ·【必会】
 
-<img src="../bank/2015/q12.png" alt="2015-12" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
+<img src="../bank/2015/q12.png?v=216b763e5ea3" alt="2015-12" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
 ---
 
@@ -152,7 +152,7 @@
 
 ### 13 · 2013-13 · 填空题 ·【补练】
 
-<img src="../bank/2013/q13.png" alt="2013-13" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
+<img src="../bank/2013/q13.png?v=5e528929b21b" alt="2013-13" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
 ---
 
@@ -162,7 +162,7 @@
 
 ### 14 · 2012-19 · 解答题 ·【首轮后放】
 
-<img src="../bank/2012/q19.png" alt="2012-19" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
+<img src="../bank/2012/q19.png?v=0c10f1f7b131" alt="2012-19" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
 *关联章节：[凹凸性与拐点](07-convexity.md) · [定积分、变上限积分与积分性质](11-definite-integrals.md)*
 
@@ -174,7 +174,7 @@
 
 ### 15 · 2011-04 · 选择题 ·【补练】
 
-<img src="../bank/2011/q04.png" alt="2011-04" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
+<img src="../bank/2011/q04.png?v=b8335c8bfd2c" alt="2011-04" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
 ---
 
@@ -184,7 +184,7 @@
 
 ### 16 · 2010-09 · 填空题 ·【必会】
 
-<img src="../bank/2010/q09.png" alt="2010-09" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
+<img src="../bank/2010/q09.png?v=41cb03a49243" alt="2010-09" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
 ---
 
@@ -194,7 +194,7 @@
 
 > 参数方程二阶导与高阶方程。用参数方程二阶导公式求出 <img src="../math/7421b755141857fc.svg" alt="公式：\frac{d^2y}{dx^2}" width="28" height="27" align="middle" style="width:1.7205em;height:1.6515em;vertical-align:-0.4355em;">，与右端相等化为关于 <img src="../math/b597e53696648145.svg" alt="公式：\psi&#x27;(t)" width="38" height="19" align="middle" style="width:2.3385em;height:1.1415em;vertical-align:-0.283em;"> 的一阶线性微分方程。
 
-<img src="../bank/2010/q17.png" alt="2010-17" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
+<img src="../bank/2010/q17.png?v=a9d4679cd711" alt="2010-17" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
 *关联章节：[导数、微分与求导法则](04-derivatives.md) · [一阶微分方程](14-first-order-ode.md)*
 

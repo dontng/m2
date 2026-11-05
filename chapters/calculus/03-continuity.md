@@ -18,7 +18,7 @@
 
 > 幂指函数间断点。底数有绝对值，先看无定义的点 <img src="../math/dad218514dc687bd.svg" alt="公式：x=0, 1, 2" width="78" height="16" align="middle" style="width:4.8585em;height:0.973em;vertical-align:-0.2195em;">。分别求各点处的左右极限，只有左右极限都存在且不等的才是第一类间断点。
 
-<img src="../bank/2024/q01.png" alt="2024-01" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
+<img src="../bank/2024/q01.png?v=c764be7c5130" alt="2024-01" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
 ---
 
@@ -30,7 +30,7 @@
 
 > 第二类间断点判别。令分母为 0 找出疑点 <img src="../math/dad218514dc687bd.svg" alt="公式：x=0, 1, 2" width="78" height="16" align="middle" style="width:4.8585em;height:0.973em;vertical-align:-0.2195em;"> 以及 <img src="../math/e401a736d184d5af.svg" alt="公式：\ln|1+x|" width="70" height="19" align="middle" style="width:4.3565em;height:1.13em;vertical-align:-0.282em;"> 的未定义点 <img src="../math/1f253e4b34bf6486.svg" alt="公式：x=-1" width="58" height="14" align="middle" style="width:3.6015em;height:0.846em;vertical-align:-0.093em;">。只要单侧极限是无穷大或振荡就归为第二类，逐个排查别漏点。
 
-<img src="../bank/2020/q02.png" alt="2020-02" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
+<img src="../bank/2020/q02.png?v=f22ce1b8e0ee" alt="2020-02" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
 ---
 
@@ -40,7 +40,7 @@
 
 ### 03 · 2018-03 · 选择题 ·【必会】
 
-<img src="../bank/2018/q03.png" alt="2018-03" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
+<img src="../bank/2018/q03.png?v=b922134b2b7f" alt="2018-03" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
 ---
 
@@ -50,7 +50,7 @@
 
 ### 04 · 2017-01 · 选择题 ·【必会】
 
-<img src="../bank/2017/q01.png" alt="2017-01" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
+<img src="../bank/2017/q01.png?v=e8be9af43046" alt="2017-01" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
 ---
 
@@ -60,7 +60,7 @@
 
 ### 05 · 2015-02 · 选择题 ·【见识】
 
-<img src="../bank/2015/q02.png" alt="2015-02" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
+<img src="../bank/2015/q02.png?v=f4be2b6816c6" alt="2015-02" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
 *关联章节：[函数极限与无穷小](01-limits.md) · [导数、微分与求导法则](04-derivatives.md)*
 
@@ -72,7 +72,7 @@
 
 ### 06 · 2010-01 · 选择题 ·【必会】
 
-<img src="../bank/2010/q01.png" alt="2010-01" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
+<img src="../bank/2010/q01.png?v=6c0ec02db1eb" alt="2010-01" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
 ---
 

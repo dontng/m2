@@ -21,7 +21,7 @@
 
 > 轮换对称性选择题。区域 <img src="../math/3f39d5c348e5b79d.svg" alt="公式：D" width="15" height="13" align="middle" style="width:0.9365em;height:0.7725em;vertical-align:0em;"> 关于 <img src="../math/97b37ee44274a337.svg" alt="公式：y=x" width="44" height="15" align="middle" style="width:2.71em;height:0.8915em;vertical-align:-0.232em;"> 对称且 <img src="../math/5df5b5e2760a3709.svg" alt="公式：f(x,y)=f(y,x)" width="127" height="19" align="middle" style="width:7.922em;height:1.131em;vertical-align:-0.283em;">，直接用轮换对称性将积分拆半，结合积分定义秒定选项。
 
-<img src="../bank/2026/q07.png" alt="2026-07" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
+<img src="../bank/2026/q07.png?v=0855ca9befc9" alt="2026-07" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
 ---
 
@@ -31,7 +31,7 @@
 
 > 二重积分计算大题。区域含 <img src="../math/aeb41586998433be.svg" alt="公式：|x|" width="21" height="19" align="middle" style="width:1.276em;height:1.13em;vertical-align:-0.282em;"> 且被积函数含 <img src="../math/34c2c930343ac569.svg" alt="公式：\sqrt{x^2+y^2}" width="76" height="23" align="middle" style="width:4.7255em;height:1.4255em;vertical-align:-0.2885em;">，画出图形明显是环形扇区，果断换极坐标，角度和半径范围切忌写错。
 
-<img src="../bank/2026/q17.png" alt="2026-17" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
+<img src="../bank/2026/q17.png?v=f1eeab606e61" alt="2026-17" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
 ---
 
@@ -41,7 +41,7 @@
 
 ### 03 · 2025-05 · 选择题 ·【待核】
 
-<img src="../bank/2025/q05.png" alt="2025-05" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
+<img src="../bank/2025/q05.png?v=41dd904e4383" alt="2025-05" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
 ---
 
@@ -51,7 +51,7 @@
 
 > 双圆相交二重积分。被积函数含 <img src="../math/968e772cf168b7f1.svg" alt="公式：x,y" width="28" height="12" align="middle" style="width:1.7045em;height:0.732em;vertical-align:-0.232em;">，区域关于 <img src="../math/97b37ee44274a337.svg" alt="公式：y=x" width="44" height="15" align="middle" style="width:2.71em;height:0.8915em;vertical-align:-0.232em;"> 对称，先用轮换对称性将被积函数化简，再换极坐标分段定限。
 
-<img src="../bank/2025/q20.png" alt="2025-20" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
+<img src="../bank/2025/q20.png?v=c9d0b4480d50" alt="2025-20" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
 ---
 
@@ -61,7 +61,7 @@
 
 ### 05 · 2024-06 · 选择题 ·【必会】
 
-<img src="../bank/2024/q06.png" alt="2024-06" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
+<img src="../bank/2024/q06.png?v=42bc2fb6b973" alt="2024-06" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
 ---
 
@@ -69,7 +69,7 @@
 
 ### 06 · 2024-17 · 解答题 ·【冲一冲】
 
-<img src="../bank/2024/q17.png" alt="2024-17" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
+<img src="../bank/2024/q17.png?v=50134ccec8be" alt="2024-17" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
 ---
 
@@ -81,7 +81,7 @@
 
 > 斜椭圆环状区域积分。曲线方程含 <img src="../math/4e956683e7f4bd02.svg" alt="公式：x^2+y^2-xy" width="99" height="19" align="middle" style="width:6.156em;height:1.1755em;vertical-align:-0.232em;">，换极坐标后把 <img src="../math/399ae76ca694957a.svg" alt="公式：1 - \sin\theta\cos\theta" width="104" height="15" align="middle" style="width:6.478em;height:0.8905em;vertical-align:-0.093em;"> 提到分母，先积 <img src="../math/454349e422f05297.svg" alt="公式：r" width="9" height="9" align="middle" style="width:0.51em;height:0.5125em;vertical-align:-0.0125em;"> 再积 <img src="../math/2b4af44cb17349bb.svg" alt="公式：\theta" width="9" height="13" align="middle" style="width:0.5305em;height:0.809em;vertical-align:-0.0115em;"> 会非常丝滑。
 
-<img src="../bank/2023/q20.png" alt="2023-20" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
+<img src="../bank/2023/q20.png?v=c4b89ec78839" alt="2023-20" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
 ---
 
@@ -91,7 +91,7 @@
 
 ### 08 · 2022-02 · 选择题 ·【补练】
 
-<img src="../bank/2022/q02.png" alt="2022-02" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
+<img src="../bank/2022/q02.png?v=2ebf79c68996" alt="2022-02" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
 ---
 
@@ -99,7 +99,7 @@
 
 ### 09 · 2022-19 · 解答题 ·【首轮后放】
 
-<img src="../bank/2022/q19.png" alt="2022-19" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
+<img src="../bank/2022/q19.png?v=37b3c1c562aa" alt="2022-19" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
 ---
 
@@ -111,7 +111,7 @@
 
 > 双纽线区域二重积分。方程 <img src="../math/22615c0de2d55c06.svg" alt="公式：\left(x^2+y^2\right)^2 = x^2-y^2" width="163" height="26" align="middle" style="width:10.1825em;height:1.5805em;vertical-align:-0.3955em;"> 是标准双纽线，直接换极坐标 <img src="../math/4b6650b5729281fa.svg" alt="公式：r^2 = \cos 2\theta" width="85" height="17" align="middle" style="width:5.311em;height:1.036em;vertical-align:-0.093em;">，半径积分一眼出结果。
 
-<img src="../bank/2021/q21.png" alt="2021-21" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
+<img src="../bank/2021/q21.png?v=7d57006ec952" alt="2021-21" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
 ---
 
@@ -121,7 +121,7 @@
 
 ### 11 · 2020-10 · 填空题 ·【补练】
 
-<img src="../bank/2020/q10.png" alt="2020-10" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
+<img src="../bank/2020/q10.png?v=a12c118b5f3e" alt="2020-10" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
 ---
 
@@ -129,7 +129,7 @@
 
 ### 12 · 2020-19 · 解答题 ·【补练】
 
-<img src="../bank/2020/q19.png" alt="2020-19" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
+<img src="../bank/2020/q19.png?v=7cd06dbe1f8e" alt="2020-19" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
 ---
 
@@ -139,7 +139,7 @@
 
 ### 13 · 2019-05 · 选择题 ·【补练】
 
-<img src="../bank/2019/q05.png" alt="2019-05" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
+<img src="../bank/2019/q05.png?v=f0f1aec12e83" alt="2019-05" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
 ---
 
@@ -147,7 +147,7 @@
 
 ### 14 · 2019-18 · 解答题 ·【补练】
 
-<img src="../bank/2019/q18.png" alt="2019-18" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
+<img src="../bank/2019/q18.png?v=e4e4df45a777" alt="2019-18" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
 ---
 
@@ -157,7 +157,7 @@
 
 ### 15 · 2018-06 · 选择题 ·【必会】
 
-<img src="../bank/2018/q06.png" alt="2018-06" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
+<img src="../bank/2018/q06.png?v=b406afd90302" alt="2018-06" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
 ---
 
@@ -165,7 +165,7 @@
 
 ### 16 · 2018-17 · 解答题 ·【首轮后放】
 
-<img src="../bank/2018/q17.png" alt="2018-17" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
+<img src="../bank/2018/q17.png?v=7dc9dd4a657c" alt="2018-17" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
 ---
 
@@ -175,7 +175,7 @@
 
 ### 17 · 2017-13 · 填空题 ·【必会】
 
-<img src="../bank/2017/q13.png" alt="2017-13" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
+<img src="../bank/2017/q13.png?v=7f853dcf5e35" alt="2017-13" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
 ---
 
@@ -183,7 +183,7 @@
 
 ### 18 · 2017-20 · 解答题 ·【补练】
 
-<img src="../bank/2017/q20.png" alt="2017-20" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
+<img src="../bank/2017/q20.png?v=4f85f8617fb6" alt="2017-20" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
 ---
 
@@ -193,7 +193,7 @@
 
 ### 19 · 2016-18 · 解答题 ·【补练】
 
-<img src="../bank/2016/q18.png" alt="2016-18" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
+<img src="../bank/2016/q18.png?v=0edb6c52f3f6" alt="2016-18" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
 ---
 
@@ -203,7 +203,7 @@
 
 ### 20 · 2015-06 · 选择题 ·【补练】
 
-<img src="../bank/2015/q06.png" alt="2015-06" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
+<img src="../bank/2015/q06.png?v=1b8bc37fc8e6" alt="2015-06" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
 ---
 
@@ -211,7 +211,7 @@
 
 ### 21 · 2015-18 · 解答题 ·【补练】
 
-<img src="../bank/2015/q18.png" alt="2015-18" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
+<img src="../bank/2015/q18.png?v=a9bc0de7aa25" alt="2015-18" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
 ---
 
@@ -221,7 +221,7 @@
 
 ### 22 · 2014-17 · 解答题 ·【必会】
 
-<img src="../bank/2014/q17.png" alt="2014-17" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
+<img src="../bank/2014/q17.png?v=1ec4b4e8ffdd" alt="2014-17" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
 ---
 
@@ -231,7 +231,7 @@
 
 ### 23 · 2013-06 · 选择题 ·【补练】
 
-<img src="../bank/2013/q06.png" alt="2013-06" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
+<img src="../bank/2013/q06.png?v=e107ac3e45fb" alt="2013-06" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
 ---
 
@@ -239,7 +239,7 @@
 
 ### 24 · 2013-17 · 解答题 ·【必会】
 
-<img src="../bank/2013/q17.png" alt="2013-17" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
+<img src="../bank/2013/q17.png?v=812fca047a86" alt="2013-17" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
 ---
 
@@ -249,7 +249,7 @@
 
 ### 25 · 2012-06 · 选择题 ·【补练】
 
-<img src="../bank/2012/q06.png" alt="2012-06" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
+<img src="../bank/2012/q06.png?v=8376f6b62759" alt="2012-06" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
 ---
 
@@ -257,7 +257,7 @@
 
 ### 26 · 2012-18 · 解答题 ·【补练】
 
-<img src="../bank/2012/q18.png" alt="2012-18" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
+<img src="../bank/2012/q18.png?v=3d36ed9646b9" alt="2012-18" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
 ---
 
@@ -267,7 +267,7 @@
 
 ### 27 · 2011-13 · 填空题 ·【补练】
 
-<img src="../bank/2011/q13.png" alt="2011-13" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
+<img src="../bank/2011/q13.png?v=2b049cf02ec1" alt="2011-13" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
 ---
 
@@ -275,7 +275,7 @@
 
 ### 28 · 2011-21 · 解答题 ·【首轮后放】
 
-<img src="../bank/2011/q21.png" alt="2011-21" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
+<img src="../bank/2011/q21.png?v=3c2edbd80fa9" alt="2011-21" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
 *关联章节：[多元复合函数与隐函数求导](17-chain-implicit.md)*
 
@@ -287,7 +287,7 @@
 
 ### 29 · 2010-20 · 解答题 ·【首轮后放】
 
-<img src="../bank/2010/q20.png" alt="2010-20" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
+<img src="../bank/2010/q20.png?v=a285367170cd" alt="2010-20" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
 ---
 

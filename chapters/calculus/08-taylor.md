@@ -19,7 +19,7 @@
 
 > 高阶导数计算。求 <img src="../math/5d81706e04813f55.svg" alt="公式：x^2(e^x-1)" width="81" height="20" align="middle" style="width:5.048em;height:1.226em;vertical-align:-0.283em;"> 的 5 阶导，直接上莱布尼茨公式，因为 <img src="../math/5b029881cc5d477a.svg" alt="公式：x^2" width="19" height="16" align="middle" style="width:1.141em;height:0.956em;vertical-align:-0.0125em;"> 求导三次就变 0，实际只需算前三项，千万别硬求五次。
 
-<img src="../bank/2024/q14.png" alt="2024-14" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
+<img src="../bank/2024/q14.png?v=82bdf0ce73d5" alt="2024-14" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
 ---
 
@@ -29,7 +29,7 @@
 
 ### 02 · 2021-05 · 选择题 ·【必会】
 
-<img src="../bank/2021/q05.png" alt="2021-05" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
+<img src="../bank/2021/q05.png?v=8d97fdfe2d47" alt="2021-05" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
 ---
 
@@ -41,7 +41,7 @@
 
 > 高阶导数系数题。把 <img src="../math/ce13f8686ae61451.svg" alt="公式：\ln(1-x)" width="71" height="19" align="middle" style="width:4.419em;height:1.131em;vertical-align:-0.283em;"> 展开成麦克劳林级数，再乘前面的 <img src="../math/5b029881cc5d477a.svg" alt="公式：x^2" width="19" height="16" align="middle" style="width:1.141em;height:0.956em;vertical-align:-0.0125em;">，对比 <img src="../math/d8c5e1feefd58efd.svg" alt="公式：x^n" width="20" height="13" align="middle" style="width:1.221em;height:0.7765em;vertical-align:-0.0125em;"> 项系数和高阶导公式 <img src="../math/11ebf21c0e0c94c8.svg" alt="公式：f^{(n)}(0)/n!" width="79" height="21" align="middle" style="width:4.883em;height:1.2935em;vertical-align:-0.283em;">，秒出答案。
 
-<img src="../bank/2020/q04.png" alt="2020-04" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
+<img src="../bank/2020/q04.png?v=76d533d99b78" alt="2020-04" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
 ---
 
@@ -51,7 +51,7 @@
 
 ### 04 · 2019-06 · 选择题 ·【见识】
 
-<img src="../bank/2019/q06.png" alt="2019-06" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
+<img src="../bank/2019/q06.png?v=dac259e1d537" alt="2019-06" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
 *关联章节：[切线、法线、渐近线与曲率](09-curve-geometry.md) · [函数极限与无穷小](01-limits.md)*
 
@@ -65,7 +65,7 @@
 
 > 两边求一次导直接变成一阶微分方程，解出 <img src="../math/259072e6c653cc56.svg" alt="公式：f(x)" width="35" height="19" align="middle" style="width:2.1495em;height:1.131em;vertical-align:-0.283em;"> 之后看指数通项，别傻傻逐次求导找规律。
 
-<img src="../bank/2016/q12.png" alt="2016-12" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
+<img src="../bank/2016/q12.png?v=14469ba846c1" alt="2016-12" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
 *关联章节：[定积分、变上限积分与积分性质](11-definite-integrals.md) · [一阶微分方程](14-first-order-ode.md)*
 
@@ -77,7 +77,7 @@
 
 ### 06 · 2015-10 · 填空题 ·【补练】
 
-<img src="../bank/2015/q10.png" alt="2015-10" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
+<img src="../bank/2015/q10.png?v=d8d06f7fd8c8" alt="2015-10" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
 *关联章节：[导数、微分与求导法则](04-derivatives.md)*
 
@@ -89,7 +89,7 @@
 
 ### 07 · 2010-11 · 填空题 ·【必会】
 
-<img src="../bank/2010/q11.png" alt="2010-11" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
+<img src="../bank/2010/q11.png?v=785f232c9fcd" alt="2010-11" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
 
 ---
 

@@ -1,0 +1,118 @@
+{
+  "pdfs": [
+    {
+      "year": 2010,
+      "pages": 4,
+      "sha256": "53a888088aa0188c78a74ac014993573ed957a5b99ac6b47f5921928477c793f",
+      "missingGlyphs": []
+    },
+    {
+      "year": 2011,
+      "pages": 4,
+      "sha256": "dacd7ebb2ae7349f4c5e702b4d5f224eb267517be5ea97b83c995afd7855c592",
+      "missingGlyphs": []
+    },
+    {
+      "year": 2012,
+      "pages": 4,
+      "sha256": "da187379e0992351f06650ed9fa56fd56b71f44c5f0b177f2cca747f9d448e8b",
+      "missingGlyphs": []
+    },
+    {
+      "year": 2013,
+      "pages": 4,
+      "sha256": "1496b48a4f19e2ffee5023f95239dd3d6b5583ee9ff0d62cf20579f0b3045f35",
+      "missingGlyphs": []
+    },
+    {
+      "year": 2014,
+      "pages": 4,
+      "sha256": "281cb649cb1331df4a4ab01f4954a45b2c220f98006c982a9ba5b956f7fe6f4a",
+      "missingGlyphs": []
+    },
+    {
+      "year": 2015,
+      "pages": 4,
+      "sha256": "e1e8472df1d79c4714e8357c71071561908ce40a9444e085f6163948d780d4e8",
+      "missingGlyphs": []
+    },
+    {
+      "year": 2016,
+      "pages": 4,
+      "sha256": "15f69c123e3bd57e3502ea6f83c77abb915abf7f4846cbd84fd8f2bf4e97e0fb",
+      "missingGlyphs": []
+    },
+    {
+      "year": 2017,
+      "pages": 4,
+      "sha256": "df3f4e53ebcfaba57e8bba114575b8fb0427bc7b3906082a445288bc0f5ab8af",
+      "missingGlyphs": []
+    },
+    {
+      "year": 2018,
+      "pages": 4,
+      "sha256": "cdc1940b73c3dcbd86de8c53791af57b3b55d3af267998665275edfa12874745",
+      "missingGlyphs": []
+    },
+    {
+      "year": 2019,
+      "pages": 4,
+      "sha256": "63456829d22276f92d36e566e116d80f3f9a4d3943ceb01f51f2dc5d4f9b8a87",
+      "missingGlyphs": []
+    },
+    {
+      "year": 2020,
+      "pages": 4,
+      "sha256": "16ec2d5052084d129e7338c34819b30ba5a33822a03b443670aff212899c696c",
+      "missingGlyphs": []
+    },
+    {
+      "year": 2021,
+      "pages": 4,
+      "sha256": "7e7d25f2f57c13350c4d7a1a0418e0f99e04070a9ce076a844314a6d66d0b0af",
+      "missingGlyphs": []
+    },
+    {
+      "year": 2022,
+      "pages": 4,
+      "sha256": "048079c3f773e9a37848f7c50c7decf12586c488bf17f41c77e95991037f6675",
+      "missingGlyphs": []
+    },
+    {
+      "year": 2023,
+      "pages": 4,
+      "sha256": "b8d45f92a9efbbf1715c243cc8cfd42e90efc01c862cc598c94f8b1548ba13e0",
+      "missingGlyphs": []
+    },
+    {
+      "year": 2024,
+      "pages": 4,
+      "sha256": "7038a9f5b07ae22d3054d8c3979b7fe876c20dfc6529c53f45548f642436c7c8",
+      "missingGlyphs": []
+    },
+    {
+      "year": 2025,
+      "pages": 4,
+      "sha256": "ac27bb29a16cf54e799dfe59800571aed56e1f2bc2da27284eacca62ea878e96",
+      "missingGlyphs": []
+    },
+    {
+      "year": 2026,
+      "pages": 4,
+      "sha256": "b3afa471d18014a10a86265623eec224a7be416387fb1486390665e4c54d1035",
+      "missingGlyphs": []
+    }
+  ],
+  "pdfCount": 17,
+  "pdfPages": 68,
+  "questionImages": 385,
+  "chapters": 25,
+  "localLinks": 1160,
+  "browserConditions": 12,
+  "repairedEmptyImage": "2013-23",
+  "originalSourceReviewFlags": [
+    "2013-20",
+    "2022-08"
+  ],
+  "conversationInterruptionCause": "unconfirmed; previous service logs unavailable"
+}
