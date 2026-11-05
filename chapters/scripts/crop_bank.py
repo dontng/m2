@@ -193,7 +193,18 @@ async def main():
                         im.save(original, format='PNG')
                         canvas = Image.new('RGB', (1440, im.height), 'white')
                         canvas.paste(im, (0, 0))
-                        canvas.save(out_path)
+                        # 完整编码并验证后再原子替换，避免中断留下零字节题图。
+                        encoded = io.BytesIO()
+                        canvas.save(encoded, format='PNG')
+                        payload = encoded.getvalue()
+                        with Image.open(io.BytesIO(payload)) as verified:
+                            verified.verify()
+                        temporary = out_path + '.tmp'
+                        with open(temporary, 'wb') as saved:
+                            saved.write(payload)
+                            saved.flush()
+                            os.fsync(saved.fileno())
+                        os.replace(temporary, out_path)
                         with open(out_path, 'rb') as saved:
                             digest = hashlib.sha256(saved.read()).hexdigest()
                         manifest[f"{year}-{q['num']:02d}"] = dict(path=f"bank/{year}/q{q['num']:02d}.png", original_size=original_size, original_sha256=hashlib.sha256(original.getvalue()).hexdigest(), sha256=digest, canvas_width=1440, display_width=720)

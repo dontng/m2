@@ -1,9 +1,71 @@
 {
   "year": 2023,
-  "sourceHtmlSha256": "549da82248d0217f876af85692a92ce3f291bfc19e9693d2d5155722d3232efa",
+  "sourceCommit": "b22ef0d634a09da1e72adb1b4d1106150e7d24b6",
+  "sourceHtmlSha256": "ae4e6ca8d844184d2d415f2b7a7ef6d972b8745d4ec177411e01904331e9a2cf",
+  "sourceCssSha256": "97284696db9056aa5961af25c64dd14e7d882d12a91d94eda340f210c0f496f8",
+  "sourceJsSha256": "45bc12485aca1a2f71b9da678df9d1099aac2b119546869dfbbda2db6aaa0b2b",
+  "fontCoverage": {
+    "requiredCharacters": 536,
+    "fonts": {
+      "serif": {
+        "file": "exam-song.otf",
+        "sha256": "b5b389162f931162d572ea8188a09e305df06eb639c723a416bd108733c41902",
+        "mappedCharacters": 592,
+        "missing": []
+      },
+      "sans": {
+        "file": "exam-hei.otf",
+        "sha256": "61e9d6159ce834d79020254630eec893cec40c9f1de6ffee9676b66290cd48de",
+        "mappedCharacters": 592,
+        "missing": []
+      }
+    }
+  },
+  "fontLoading": {
+    "songLoaded": true,
+    "heiLoaded": true,
+    "failures": []
+  },
+  "pdfGlyphs": {
+    "file": "math2_2023.pdf",
+    "pages": 4,
+    "tracedCharacters": 2685,
+    "missingGlyphs": []
+  },
+  "residualMath": [],
   "questions": 22,
+  "questionNumbers": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22
+  ],
+  "formulas": 133,
+  "formulaErrors": 0,
+  "unrenderedMath": 0,
+  "imagesLoaded": true,
+  "htmlPages": 0,
+  "horizontalOverflow": [],
+  "pageOverflow": [],
+  "failedRequests": [],
   "pdfPages": 4,
-  "paperSize": "A4",
-  "footers_ok": true,
-  "pdfTextPresentOnAllPages": true
+  "pdfSha256": "b8d45f92a9efbbf1715c243cc8cfd42e90efc01c862cc598c94f8b1548ba13e0"
 }
