@@ -2,300 +2,261 @@
 
 # 高等数学 · 二重积分
 
-> **全章 29 题｜本表头已点名 29 题｜未归类 0 题。**\
-> **必会 6 题·按此顺序**：[2013-17](#q2013-17)（画区域并定上下限） → [2024-06](#q2024-6)（交换积分次序） → [2017-13](#q2017-13)（换序后才能顺利积分） → [2018-06](#q2018-6)（对称性消去奇函数项） → [2026-17](#q2026-17)（极坐标完整计算） → [2014-17](#q2014-17)（交换变量的对称性）\
-> **补练 14 题·按薄弱点选做**：[2022-02](#q2022-2)、[2021-21](#q2021-21)、[2020-10](#q2020-10)、[2020-19](#q2020-19)、[2019-05](#q2019-5)、[2019-18](#q2019-18)、[2017-20](#q2017-20)、[2016-18](#q2016-18)、[2015-06](#q2015-6)、[2015-18](#q2015-18)、[2013-06](#q2013-6)、[2012-06](#q2012-6)、[2012-18](#q2012-18)、[2011-13](#q2011-13)\
-> **冲一冲 2 题**：[2025-20](#q2025-20)（交圆区域分段） → [2024-17](#q2024-17)（双曲线边界的换元）\
-> **见识 1 题·先会开题**：[2026-07](#q2026-7)（双重求和中的取点与区域）\
-> **首轮后放 5 题·本轮可跳过**：[2023-20](#q2023-20)、[2022-19](#q2022-19)、[2018-17](#q2018-17)、[2011-21](#q2011-21)、[2010-20](#q2010-20)\
-> **待核 1 题·暂不训练**：[2025-05](#q2025-5)（内层上下限与选项不一致，待核）\
-> **首轮过关**：先画域再写限；极坐标别漏半径因子，对称性必须连积分域一起核对。
+> **本章共 29 题**
+> 
+> - **核心必做（建议按顺序攻克关键方法）**：  
+>   [第 24 题](#q24)（画区域并定上下限） → [第 05 题](#q05)（交换积分次序） → [第 17 题](#q17)（换序后才能顺利积分） → [第 15 题](#q15)（对称性消去奇函数项） → [第 02 题](#q02)（极坐标完整计算） → [第 22 题](#q22)（交换变量的对称性）
+> 
+> - **分流与刷题建议**：  
+>   - **较难挑战**：[第 04 题](#q04)（交圆区域分段）、[第 06 题](#q06)（双曲线边界的换元）  
+>   - **重在看思路**：[第 01 题](#q01)（双重求和中的取点与区域）  
+>   - **首轮可跳过**：[第 07 题](#q07)、[第 09 题](#q09)、[第 16 题](#q16)、[第 28 题](#q28)、[第 29 题](#q29)（技巧较偏或综合度高，首轮不必死磕）  
+>   - **题面存疑暂缓**：[第 03 题](#q03)（内层上下限与选项不一致，待核）（原卷转写存疑，首轮暂不安排）  
+> 
+> - **过关目标**：先画域再写限；极坐标别漏半径因子，对称性必须连积分域一起核对。
 
 ---
 
-## 2026年
+<a id="q01"></a><a id="q2026-7"></a>
 
-<a id="q2026-7"></a>
+### 01 · 2026年
 
-### 01 · 2026-07 · 选择题 ·【见识】
+> *轮换对称性选择题。区域 $D$ 关于 $y=x$ 对称且 $f(x,y)=f(y,x)$，直接用轮换对称性将积分拆半，结合积分定义秒定选项。*
 
-> 轮换对称性选择题。区域 <img src="../math/3f39d5c348e5b79d.svg" alt="公式：D" width="15" height="13" align="middle" style="width:0.9365em;height:0.7725em;vertical-align:0em;"> 关于 <img src="../math/97b37ee44274a337.svg" alt="公式：y=x" width="44" height="15" align="middle" style="width:2.71em;height:0.8915em;vertical-align:-0.232em;"> 对称且 <img src="../math/5df5b5e2760a3709.svg" alt="公式：f(x,y)=f(y,x)" width="127" height="19" align="middle" style="width:7.922em;height:1.131em;vertical-align:-0.283em;">，直接用轮换对称性将积分拆半，结合积分定义秒定选项。
-
-<img src="../bank/2026/q07.png?v=0855ca9befc9" alt="2026-07" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
+<img src="../bank/2026/q07.png" alt="01 (2026)" width="781" style="display: block; width: 48.83em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
-<a id="q2026-17"></a>
+<a id="q02"></a><a id="q2026-17"></a>
 
-### 02 · 2026-17 · 解答题 ·【必会】
+### 02 · 2026年
 
-> 二重积分计算大题。区域含 <img src="../math/aeb41586998433be.svg" alt="公式：|x|" width="21" height="19" align="middle" style="width:1.276em;height:1.13em;vertical-align:-0.282em;"> 且被积函数含 <img src="../math/34c2c930343ac569.svg" alt="公式：\sqrt{x^2+y^2}" width="76" height="23" align="middle" style="width:4.7255em;height:1.4255em;vertical-align:-0.2885em;">，画出图形明显是环形扇区，果断换极坐标，角度和半径范围切忌写错。
+> *二重积分计算大题。区域含 $|x|$ 且被积函数含 $\sqrt{x^2+y^2}$，画出图形明显是环形扇区，果断换极坐标，角度和半径范围切忌写错。*
 
-<img src="../bank/2026/q17.png?v=f1eeab606e61" alt="2026-17" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
-
----
-
-## 2025年
-
-<a id="q2025-5"></a>
-
-### 03 · 2025-05 · 选择题 ·【待核】
-
-<img src="../bank/2025/q05.png?v=41dd904e4383" alt="2025-05" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
+<img src="../bank/2026/q17.png" alt="02 (2026)" width="350" style="display: block; width: 21.86em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
-<a id="q2025-20"></a>
+<a id="q03"></a><a id="q2025-5"></a>
 
-### 04 · 2025-20 · 解答题 ·【冲一冲】
+### 03 · 2025年
 
-> 双圆相交二重积分。被积函数含 <img src="../math/968e772cf168b7f1.svg" alt="公式：x,y" width="28" height="12" align="middle" style="width:1.7045em;height:0.732em;vertical-align:-0.232em;">，区域关于 <img src="../math/97b37ee44274a337.svg" alt="公式：y=x" width="44" height="15" align="middle" style="width:2.71em;height:0.8915em;vertical-align:-0.232em;"> 对称，先用轮换对称性将被积函数化简，再换极坐标分段定限。
-
-<img src="../bank/2025/q20.png?v=c9d0b4480d50" alt="2025-20" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
+<img src="../bank/2025/q05.png" alt="03 (2025)" width="410" style="display: block; width: 25.62em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
-## 2024年
+<a id="q04"></a><a id="q2025-20"></a>
 
-<a id="q2024-6"></a>
+### 04 · 2025年
 
-### 05 · 2024-06 · 选择题 ·【必会】
+> *双圆相交二重积分。被积函数含 $x,y$，区域关于 $y=x$ 对称，先用轮换对称性将被积函数化简，再换极坐标分段定限。*
 
-<img src="../bank/2024/q06.png?v=42bc2fb6b973" alt="2024-06" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
-
----
-
-<a id="q2024-17"></a>
-
-### 06 · 2024-17 · 解答题 ·【冲一冲】
-
-<img src="../bank/2024/q17.png?v=50134ccec8be" alt="2024-17" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
+<img src="../bank/2025/q20.png" alt="04 (2025)" width="665" style="display: block; width: 41.59em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
-## 2023年
+<a id="q05"></a><a id="q2024-6"></a>
 
-<a id="q2023-20"></a>
+### 05 · 2024年
 
-### 07 · 2023-20 · 解答题 ·【首轮后放】
-
-> 斜椭圆环状区域积分。曲线方程含 <img src="../math/4e956683e7f4bd02.svg" alt="公式：x^2+y^2-xy" width="99" height="19" align="middle" style="width:6.156em;height:1.1755em;vertical-align:-0.232em;">，换极坐标后把 <img src="../math/399ae76ca694957a.svg" alt="公式：1 - \sin\theta\cos\theta" width="104" height="15" align="middle" style="width:6.478em;height:0.8905em;vertical-align:-0.093em;"> 提到分母，先积 <img src="../math/454349e422f05297.svg" alt="公式：r" width="9" height="9" align="middle" style="width:0.51em;height:0.5125em;vertical-align:-0.0125em;"> 再积 <img src="../math/2b4af44cb17349bb.svg" alt="公式：\theta" width="9" height="13" align="middle" style="width:0.5305em;height:0.809em;vertical-align:-0.0115em;"> 会非常丝滑。
-
-<img src="../bank/2023/q20.png?v=c4b89ec78839" alt="2023-20" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
+<img src="../bank/2024/q06.png" alt="05 (2024)" width="634" style="display: block; width: 39.62em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
-## 2022年
+<a id="q06"></a><a id="q2024-17"></a>
 
-<a id="q2022-2"></a>
+### 06 · 2024年
 
-### 08 · 2022-02 · 选择题 ·【补练】
-
-<img src="../bank/2022/q02.png?v=2ebf79c68996" alt="2022-02" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
+<img src="../bank/2024/q17.png" alt="06 (2024)" width="782" style="display: block; width: 48.86em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
-<a id="q2022-19"></a>
+<a id="q07"></a><a id="q2023-20"></a>
 
-### 09 · 2022-19 · 解答题 ·【首轮后放】
+### 07 · 2023年
 
-<img src="../bank/2022/q19.png?v=37b3c1c562aa" alt="2022-19" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
+> *斜椭圆环状区域积分。曲线方程含 $x^2+y^2-xy$，换极坐标后把 $1 - \sin\theta\cos\theta$ 提到分母，先积 $r$ 再积 $\theta$ 会非常丝滑。*
 
----
-
-## 2021年
-
-<a id="q2021-21"></a>
-
-### 10 · 2021-21 · 解答题 ·【补练】
-
-> 双纽线区域二重积分。方程 <img src="../math/22615c0de2d55c06.svg" alt="公式：\left(x^2+y^2\right)^2 = x^2-y^2" width="163" height="26" align="middle" style="width:10.1825em;height:1.5805em;vertical-align:-0.3955em;"> 是标准双纽线，直接换极坐标 <img src="../math/4b6650b5729281fa.svg" alt="公式：r^2 = \cos 2\theta" width="85" height="17" align="middle" style="width:5.311em;height:1.036em;vertical-align:-0.093em;">，半径积分一眼出结果。
-
-<img src="../bank/2021/q21.png?v=7d57006ec952" alt="2021-21" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
+<img src="../bank/2023/q20.png" alt="07 (2023)" width="777" style="display: block; width: 48.55em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
-## 2020年
+<a id="q08"></a><a id="q2022-2"></a>
 
-<a id="q2020-10"></a>
+### 08 · 2022年
 
-### 11 · 2020-10 · 填空题 ·【补练】
-
-<img src="../bank/2020/q10.png?v=a12c118b5f3e" alt="2020-10" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
+<img src="../bank/2022/q02.png" alt="08 (2022)" width="644" style="display: block; width: 40.28em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
-<a id="q2020-19"></a>
+<a id="q09"></a><a id="q2022-19"></a>
 
-### 12 · 2020-19 · 解答题 ·【补练】
+### 09 · 2022年
 
-<img src="../bank/2020/q19.png?v=7cd06dbe1f8e" alt="2020-19" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
-
----
-
-## 2019年
-
-<a id="q2019-5"></a>
-
-### 13 · 2019-05 · 选择题 ·【补练】
-
-<img src="../bank/2019/q05.png?v=f0f1aec12e83" alt="2019-05" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
+<img src="../bank/2022/q19.png" alt="09 (2022)" width="674" style="display: block; width: 42.14em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
-<a id="q2019-18"></a>
+<a id="q10"></a><a id="q2021-21"></a>
 
-### 14 · 2019-18 · 解答题 ·【补练】
+### 10 · 2021年
 
-<img src="../bank/2019/q18.png?v=e4e4df45a777" alt="2019-18" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
+> *双纽线区域二重积分。方程 $\left(x^2+y^2\right)^2 = x^2-y^2$ 是标准双纽线，直接换极坐标 $r^2 = \cos 2\theta$，半径积分一眼出结果。*
 
----
-
-## 2018年
-
-<a id="q2018-6"></a>
-
-### 15 · 2018-06 · 选择题 ·【必会】
-
-<img src="../bank/2018/q06.png?v=b406afd90302" alt="2018-06" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
+<img src="../bank/2021/q21.png" alt="10 (2021)" width="688" style="display: block; width: 43.0em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
-<a id="q2018-17"></a>
+<a id="q11"></a><a id="q2020-10"></a>
 
-### 16 · 2018-17 · 解答题 ·【首轮后放】
+### 11 · 2020年
 
-<img src="../bank/2018/q17.png?v=7dc9dd4a657c" alt="2018-17" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
-
----
-
-## 2017年
-
-<a id="q2017-13"></a>
-
-### 17 · 2017-13 · 填空题 ·【必会】
-
-<img src="../bank/2017/q13.png?v=7f853dcf5e35" alt="2017-13" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
+<img src="../bank/2020/q10.png" alt="11 (2020)" width="339" style="display: block; width: 21.21em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
-<a id="q2017-20"></a>
+<a id="q12"></a><a id="q2020-19"></a>
 
-### 18 · 2017-20 · 解答题 ·【补练】
+### 12 · 2020年
 
-<img src="../bank/2017/q20.png?v=4f85f8617fb6" alt="2017-20" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
-
----
-
-## 2016年
-
-<a id="q2016-18"></a>
-
-### 19 · 2016-18 · 解答题 ·【补练】
-
-<img src="../bank/2016/q18.png?v=0edb6c52f3f6" alt="2016-18" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
+<img src="../bank/2020/q19.png" alt="12 (2020)" width="650" style="display: block; width: 40.66em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
-## 2015年
+<a id="q13"></a><a id="q2019-5"></a>
 
-<a id="q2015-6"></a>
+### 13 · 2019年
 
-### 20 · 2015-06 · 选择题 ·【补练】
-
-<img src="../bank/2015/q06.png?v=1b8bc37fc8e6" alt="2015-06" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
+<img src="../bank/2019/q05.png" alt="13 (2019)" width="783" style="display: block; width: 48.93em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
-<a id="q2015-18"></a>
+<a id="q14"></a><a id="q2019-18"></a>
 
-### 21 · 2015-18 · 解答题 ·【补练】
+### 14 · 2019年
 
-<img src="../bank/2015/q18.png?v=a9bc0de7aa25" alt="2015-18" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
-
----
-
-## 2014年
-
-<a id="q2014-17"></a>
-
-### 22 · 2014-17 · 解答题 ·【必会】
-
-<img src="../bank/2014/q17.png?v=1ec4b4e8ffdd" alt="2014-17" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
+<img src="../bank/2019/q18.png" alt="14 (2019)" width="581" style="display: block; width: 36.31em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
-## 2013年
+<a id="q15"></a><a id="q2018-6"></a>
 
-<a id="q2013-6"></a>
+### 15 · 2018年
 
-### 23 · 2013-06 · 选择题 ·【补练】
-
-<img src="../bank/2013/q06.png?v=e107ac3e45fb" alt="2013-06" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
+<img src="../bank/2018/q06.png" alt="15 (2018)" width="647" style="display: block; width: 40.41em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
-<a id="q2013-17"></a>
+<a id="q16"></a><a id="q2018-17"></a>
 
-### 24 · 2013-17 · 解答题 ·【必会】
+### 16 · 2018年
 
-<img src="../bank/2013/q17.png?v=812fca047a86" alt="2013-17" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
-
----
-
-## 2012年
-
-<a id="q2012-6"></a>
-
-### 25 · 2012-06 · 选择题 ·【补练】
-
-<img src="../bank/2012/q06.png?v=8376f6b62759" alt="2012-06" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
+<img src="../bank/2018/q17.png" alt="16 (2018)" width="766" style="display: block; width: 47.9em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
-<a id="q2012-18"></a>
+<a id="q17"></a><a id="q2017-13"></a>
 
-### 26 · 2012-18 · 解答题 ·【补练】
+### 17 · 2017年
 
-<img src="../bank/2012/q18.png?v=3d36ed9646b9" alt="2012-18" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
-
----
-
-## 2011年
-
-<a id="q2011-13"></a>
-
-### 27 · 2011-13 · 填空题 ·【补练】
-
-<img src="../bank/2011/q13.png?v=2b049cf02ec1" alt="2011-13" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
+<img src="../bank/2017/q13.png" alt="17 (2017)" width="320" style="display: block; width: 20.0em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
-<a id="q2011-21"></a>
+<a id="q18"></a><a id="q2017-20"></a>
 
-### 28 · 2011-21 · 解答题 ·【首轮后放】
+### 18 · 2017年
 
-<img src="../bank/2011/q21.png?v=3c2edbd80fa9" alt="2011-21" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
-
-*关联章节：[多元复合函数与隐函数求导](17-chain-implicit.md)*
+<img src="../bank/2017/q20.png" alt="18 (2017)" width="585" style="display: block; width: 36.55em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
-## 2010年
+<a id="q19"></a><a id="q2016-18"></a>
 
-<a id="q2010-20"></a>
+### 19 · 2016年
 
-### 29 · 2010-20 · 解答题 ·【首轮后放】
-
-<img src="../bank/2010/q20.png?v=a285367170cd" alt="2010-20" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
+<img src="../bank/2016/q18.png" alt="19 (2016)" width="732" style="display: block; width: 45.72em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
-## 交叉考点索引
+<a id="q20"></a><a id="q2015-6"></a>
 
-以下题目主归其他章节，点击跳转到对应章节题目；不计入本章主收录题数：
+### 20 · 2015年
 
-- [2021年 · 第14题](11-definite-integrals.md)（主章节：定积分、变上限积分与积分性质）
-- [2010年 · 第6题](02-sequences.md)（主章节：数列极限与求和极限）
+<img src="../bank/2015/q06.png" alt="20 (2015)" width="781" style="display: block; width: 48.83em; max-width: 100%; height: auto; margin: 14px 0;">
+
+---
+
+<a id="q21"></a><a id="q2015-18"></a>
+
+### 21 · 2015年
+
+<img src="../bank/2015/q18.png" alt="21 (2015)" width="580" style="display: block; width: 36.28em; max-width: 100%; height: auto; margin: 14px 0;">
+
+---
+
+<a id="q22"></a><a id="q2014-17"></a>
+
+### 22 · 2014年
+
+<img src="../bank/2014/q17.png" alt="22 (2014)" width="664" style="display: block; width: 41.52em; max-width: 100%; height: auto; margin: 14px 0;">
+
+---
+
+<a id="q23"></a><a id="q2013-6"></a>
+
+### 23 · 2013年
+
+<img src="../bank/2013/q06.png" alt="23 (2013)" width="781" style="display: block; width: 48.79em; max-width: 100%; height: auto; margin: 14px 0;">
+
+---
+
+<a id="q24"></a><a id="q2013-17"></a>
+
+### 24 · 2013年
+
+<img src="../bank/2013/q17.png" alt="24 (2013)" width="610" style="display: block; width: 38.14em; max-width: 100%; height: auto; margin: 14px 0;">
+
+---
+
+<a id="q25"></a><a id="q2012-6"></a>
+
+### 25 · 2012年
+
+<img src="../bank/2012/q06.png" alt="25 (2012)" width="659" style="display: block; width: 41.17em; max-width: 100%; height: auto; margin: 14px 0;">
+
+---
+
+<a id="q26"></a><a id="q2012-18"></a>
+
+### 26 · 2012年
+
+<img src="../bank/2012/q18.png" alt="26 (2012)" width="640" style="display: block; width: 40.0em; max-width: 100%; height: auto; margin: 14px 0;">
+
+---
+
+<a id="q27"></a><a id="q2011-13"></a>
+
+### 27 · 2011年
+
+<img src="../bank/2011/q13.png" alt="27 (2011)" width="767" style="display: block; width: 47.93em; max-width: 100%; height: auto; margin: 14px 0;">
+
+---
+
+<a id="q28"></a><a id="q2011-21"></a>
+
+### 28 · 2011年
+
+<img src="../bank/2011/q21.png" alt="28 (2011)" width="781" style="display: block; width: 48.83em; max-width: 100%; height: auto; margin: 14px 0;">
+
+---
+
+<a id="q29"></a><a id="q2010-20"></a>
+
+### 29 · 2010年
+
+<img src="../bank/2010/q20.png" alt="29 (2010)" width="736" style="display: block; width: 46.0em; max-width: 100%; height: auto; margin: 14px 0;">
+
+---
 
 [« 多元函数极值与最值](18-multivariable-extrema.md)
