@@ -2,208 +2,164 @@
 
 # 高等数学 · 高阶微分方程
 
-> **全章 17 题｜本表头已点名 17 题｜未归类 0 题。**\
-> **必会 5 题·按此顺序**：[2010-09](#q2010-9)（特征根与通解） → [2015-12](#q2015-12)（极值条件转成初值） → [2017-04](#q2017-4)（特解遇重根需调整） → [2026-02](#q2026-2)（齐次与非齐次解的组合） → [2024-18](#q2024-18)（欧拉方程换元）\
-> **补练 7 题·按薄弱点选做**：[2022-14](#q2022-14)、[2021-15](#q2021-15)、[2020-13](#q2020-13)、[2019-04](#q2019-4)、[2013-13](#q2013-13)、[2011-04](#q2011-4)、[2010-17](#q2010-17)\
-> **冲一冲 1 题**：[2026-21](#q2026-21)（不显含原函数的非线性降阶）\
-> **见识 1 题·先会开题**：[2016-19](#q2016-19)（已知一个解再找第二个解）\
-> **首轮后放 3 题·本轮可跳过**：[2025-03](#q2025-3)、[2023-04](#q2023-4)、[2012-19](#q2012-19)\
-> **首轮过关**：通解不漏独立解；特解形式先查是否与齐次解重复。
+> **本章共 17 题**
+> 
+> - **核心必做（建议按顺序攻克关键方法）**：  
+>   [第 16 题](#q16)（特征根与通解） → [第 12 题](#q12)（极值条件转成初值） → [第 10 题](#q10)（特解遇重根需调整） → [第 01 题](#q01)（齐次与非齐次解的组合） → [第 04 题](#q04)（欧拉方程换元）
+> 
+> - **分流与刷题建议**：  
+>   - **较难挑战**：[第 02 题](#q02)（不显含原函数的非线性降阶）  
+>   - **重在看思路**：[第 11 题](#q11)（已知一个解再找第二个解）  
+>   - **首轮可跳过**：[第 03 题](#q03)、[第 05 题](#q05)、[第 14 题](#q14)（技巧较偏或综合度高，首轮不必死磕）  
+> 
+> - **过关目标**：通解不漏独立解；特解形式先查是否与齐次解重复。
 
 ---
 
-## 2026年
+<a id="q01"></a><a id="q2026-2"></a>
 
-<a id="q2026-2"></a>
+### 01 · 2026年
 
-### 01 · 2026-02 · 选择题 ·【必会】
+> *非齐次线性方程解的性质。非齐次特解做线性组合，组合系数和为 1 依然是非齐次特解，组合系数和为 0 则是齐次方程的特解，秒列方程解 $\lambda, \mu$。*
 
-> 非齐次线性方程解的性质。非齐次特解做线性组合，组合系数和为 1 依然是非齐次特解，组合系数和为 0 则是齐次方程的特解，秒列方程解 <img src="../math/72eb0e10a4f1b7c7.svg" alt="公式：\lambda, \mu" width="30" height="17" align="middle" style="width:1.8445em;height:1.0295em;vertical-align:-0.2445em;">。
-
-<img src="../bank/2026/q02.png?v=04ca63a71af0" alt="2026-02" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
+<img src="../bank/2026/q02.png" alt="01 (2026)" width="781" style="display: block; width: 48.83em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
-<a id="q2026-21"></a>
+<a id="q02"></a><a id="q2026-21"></a>
 
-### 02 · 2026-21 · 解答题 ·【冲一冲】
+### 02 · 2026年
 
-> 最新真题大题。方程不显含 <img src="../math/a1fce4363854ff88.svg" alt="公式：y" width="9" height="12" align="middle" style="width:0.5545em;height:0.732em;vertical-align:-0.232em;">，令 <img src="../math/11b39a2144879a0a.svg" alt="公式：p=y&#x27;" width="48" height="18" align="middle" style="width:2.9455em;height:1.0905em;vertical-align:-0.232em;"> 降为关于 <img src="../math/148de9c5a7a44d19.svg" alt="公式：p" width="10" height="12" align="middle" style="width:0.569em;height:0.7195em;vertical-align:-0.2195em;"> 的一阶方程，先分离变量求出 <img src="../math/241d1cd21689b8a9.svg" alt="公式：y&#x27;" width="14" height="18" align="middle" style="width:0.868em;height:1.0905em;vertical-align:-0.232em;"> 再积分求 <img src="../math/a1fce4363854ff88.svg" alt="公式：y" width="9" height="12" align="middle" style="width:0.5545em;height:0.732em;vertical-align:-0.232em;">。步步为营，核心在别算错负号。
+> *最新真题大题。方程不显含 $y$，令 $p=y'$ 降为关于 $p$ 的一阶方程，先分离变量求出 $y'$ 再积分求 $y$。步步为营，核心在别算错负号。*
 
-<img src="../bank/2026/q21.png?v=48dcf2c1aa40" alt="2026-21" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
-
-*关联章节：[一阶微分方程](14-first-order-ode.md)*
+<img src="../bank/2026/q21.png" alt="02 (2026)" width="707" style="display: block; width: 44.17em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
-## 2025年
+<a id="q03"></a><a id="q2025-3"></a>
 
-<a id="q2025-3"></a>
+### 03 · 2025年
 
-### 03 · 2025-03 · 选择题 ·【首轮后放】
-
-<img src="../bank/2025/q03.png?v=c67b56237439" alt="2025-03" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
-
-*关联章节：[反常积分](12-improper-integrals.md)*
+<img src="../bank/2025/q03.png" alt="03 (2025)" width="782" style="display: block; width: 48.86em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
-## 2024年
+<a id="q04"></a><a id="q2024-18"></a>
 
-<a id="q2024-18"></a>
+### 04 · 2024年
 
-### 04 · 2024-18 · 解答题 ·【必会】
+> *欧拉方程经典大题。作变换 $x=e^t$ 把自变量换为 $t$，降为常系数线性方程，求出齐次通解再求特解；第二问直接代入三角代换做定积分。*
 
-> 欧拉方程经典大题。作变换 <img src="../math/a60e74f880832b46.svg" alt="公式：x=e^t" width="50" height="17" align="middle" style="width:3.0655em;height:1.004em;vertical-align:-0.093em;"> 把自变量换为 <img src="../math/e3b98a4da31a127d.svg" alt="公式：t" width="7" height="12" align="middle" style="width:0.4085em;height:0.7205em;vertical-align:-0.0125em;">，降为常系数线性方程，求出齐次通解再求特解；第二问直接代入三角代换做定积分。
-
-<img src="../bank/2024/q18.png?v=06d3615e2c0b" alt="2024-18" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
-
-*关联章节：[定积分、变上限积分与积分性质](11-definite-integrals.md)*
+<img src="../bank/2024/q18.png" alt="04 (2024)" width="782" style="display: block; width: 48.86em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
-## 2023年
+<a id="q05"></a><a id="q2023-4"></a>
 
-<a id="q2023-4"></a>
+### 05 · 2023年
 
-### 05 · 2023-04 · 选择题 ·【首轮后放】
-
-<img src="../bank/2023/q04.png?v=87902ed2bcb3" alt="2023-04" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
+<img src="../bank/2023/q04.png" alt="05 (2023)" width="724" style="display: block; width: 45.24em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
-## 2022年
+<a id="q06"></a><a id="q2022-14"></a>
 
-<a id="q2022-14"></a>
+### 06 · 2022年
 
-### 06 · 2022-14 · 填空题 ·【补练】
-
-<img src="../bank/2022/q14.png?v=09f79aa92a3c" alt="2022-14" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
+<img src="../bank/2022/q14.png" alt="06 (2022)" width="505" style="display: block; width: 31.55em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
-## 2021年
+<a id="q07"></a><a id="q2021-15"></a>
 
-<a id="q2021-15"></a>
+### 07 · 2021年
 
-### 07 · 2021-15 · 填空题 ·【补练】
-
-<img src="../bank/2021/q15.png?v=6a23862dc9d2" alt="2021-15" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
+<img src="../bank/2021/q15.png" alt="07 (2021)" width="404" style="display: block; width: 25.24em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
-## 2020年
+<a id="q08"></a><a id="q2020-13"></a>
 
-<a id="q2020-13"></a>
+### 08 · 2020年
 
-### 08 · 2020-13 · 填空题 ·【补练】
-
-<img src="../bank/2020/q13.png?v=f5bad644a2d9" alt="2020-13" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
-
-*关联章节：[反常积分](12-improper-integrals.md)*
+<img src="../bank/2020/q13.png" alt="08 (2020)" width="755" style="display: block; width: 47.17em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
-## 2019年
+<a id="q09"></a><a id="q2019-4"></a>
 
-<a id="q2019-4"></a>
+### 09 · 2019年
 
-### 09 · 2019-04 · 选择题 ·【补练】
-
-<img src="../bank/2019/q04.png?v=738e21fb7761" alt="2019-04" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
+<img src="../bank/2019/q04.png" alt="09 (2019)" width="676" style="display: block; width: 42.24em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
-## 2017年
+<a id="q10"></a><a id="q2017-4"></a>
 
-<a id="q2017-4"></a>
+### 10 · 2017年
 
-### 10 · 2017-04 · 选择题 ·【必会】
-
-<img src="../bank/2017/q04.png?v=8ad0965090a7" alt="2017-04" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
+<img src="../bank/2017/q04.png" alt="10 (2017)" width="701" style="display: block; width: 43.79em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
-## 2016年
+<a id="q11"></a><a id="q2016-19"></a>
 
-<a id="q2016-19"></a>
+### 11 · 2016年
 
-### 11 · 2016-19 · 解答题 ·【见识】
+> *已知特解求高阶方程未知系数。已知 $y_1=e^x$ 是解，代入方程定出系数关系；再用刘维尔公式或设 $y_2=u(x)e^x$ 降阶求出第二个特解。*
 
-> 已知特解求高阶方程未知系数。已知 <img src="../math/08f26459d19e56b9.svg" alt="公式：y_1=e^x" width="59" height="16" align="middle" style="width:3.6355em;height:0.996em;vertical-align:-0.232em;"> 是解，代入方程定出系数关系；再用刘维尔公式或设 <img src="../math/2f5376e1bd6ba3b0.svg" alt="公式：y_2=u(x)e^x" width="93" height="19" align="middle" style="width:5.8095em;height:1.131em;vertical-align:-0.283em;"> 降阶求出第二个特解。
-
-<img src="../bank/2016/q19.png?v=c31b682a5471" alt="2016-19" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
+<img src="../bank/2016/q19.png" alt="11 (2016)" width="782" style="display: block; width: 48.9em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
-## 2015年
+<a id="q12"></a><a id="q2015-12"></a>
 
-<a id="q2015-12"></a>
+### 12 · 2015年
 
-### 12 · 2015-12 · 填空题 ·【必会】
-
-<img src="../bank/2015/q12.png?v=216b763e5ea3" alt="2015-12" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
+<img src="../bank/2015/q12.png" alt="12 (2015)" width="781" style="display: block; width: 48.83em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
-## 2013年
+<a id="q13"></a><a id="q2013-13"></a>
 
-<a id="q2013-13"></a>
+### 13 · 2013年
 
-### 13 · 2013-13 · 填空题 ·【补练】
-
-<img src="../bank/2013/q13.png?v=5e528929b21b" alt="2013-13" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
+<img src="../bank/2013/q13.png" alt="13 (2013)" width="770" style="display: block; width: 48.14em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
-## 2012年
+<a id="q14"></a><a id="q2012-19"></a>
 
-<a id="q2012-19"></a>
+### 14 · 2012年
 
-### 14 · 2012-19 · 解答题 ·【首轮后放】
-
-<img src="../bank/2012/q19.png?v=0c10f1f7b131" alt="2012-19" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
-
-*关联章节：[凹凸性与拐点](07-convexity.md) · [定积分、变上限积分与积分性质](11-definite-integrals.md)*
+<img src="../bank/2012/q19.png" alt="14 (2012)" width="598" style="display: block; width: 37.38em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
-## 2011年
+<a id="q15"></a><a id="q2011-4"></a>
 
-<a id="q2011-4"></a>
+### 15 · 2011年
 
-### 15 · 2011-04 · 选择题 ·【补练】
-
-<img src="../bank/2011/q04.png?v=b8335c8bfd2c" alt="2011-04" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
+<img src="../bank/2011/q04.png" alt="15 (2011)" width="577" style="display: block; width: 36.07em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
-## 2010年
+<a id="q16"></a><a id="q2010-9"></a>
 
-<a id="q2010-9"></a>
+### 16 · 2010年
 
-### 16 · 2010-09 · 填空题 ·【必会】
-
-<img src="../bank/2010/q09.png?v=41cb03a49243" alt="2010-09" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
+<img src="../bank/2010/q09.png" alt="16 (2010)" width="651" style="display: block; width: 40.69em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
-<a id="q2010-17"></a>
+<a id="q17"></a><a id="q2010-17"></a>
 
-### 17 · 2010-17 · 解答题 ·【补练】
+### 17 · 2010年
 
-> 参数方程二阶导与高阶方程。用参数方程二阶导公式求出 <img src="../math/7421b755141857fc.svg" alt="公式：\frac{d^2y}{dx^2}" width="28" height="27" align="middle" style="width:1.7205em;height:1.6515em;vertical-align:-0.4355em;">，与右端相等化为关于 <img src="../math/b597e53696648145.svg" alt="公式：\psi&#x27;(t)" width="38" height="19" align="middle" style="width:2.3385em;height:1.1415em;vertical-align:-0.283em;"> 的一阶线性微分方程。
+> *参数方程二阶导与高阶方程。用参数方程二阶导公式求出 $\frac{d^2y}{dx^2}$，与右端相等化为关于 $\psi'(t)$ 的一阶线性微分方程。*
 
-<img src="../bank/2010/q17.png?v=a9d4679cd711" alt="2010-17" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
-
-*关联章节：[导数、微分与求导法则](04-derivatives.md) · [一阶微分方程](14-first-order-ode.md)*
+<img src="../bank/2010/q17.png" alt="17 (2010)" width="777" style="display: block; width: 48.55em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
-
-## 交叉考点索引
-
-以下题目主归其他章节，点击跳转到对应章节题目；不计入本章主收录题数：
-
-- [2014年 · 第18题](17-chain-implicit.md)（主章节：多元复合函数与隐函数求导）
 
 [« 一阶微分方程](14-first-order-ode.md)　　[多元函数极限、偏导与全微分 »](16-multivariable-basics.md)
