@@ -2,282 +2,194 @@
 
 # 高等数学 · 定积分、变上限积分与积分性质
 
-> **全章 21 题｜本表头已点名 21 题｜未归类 0 题。**\
-> **必会 5 题·按此顺序**：[2015-11](#q2015-11)（变上限求导） → [2024-03](#q2024-3)（变限积分的奇偶性） → [2021-07](#q2021-7)（定义中的步长与取点） → [2026-15](#q2026-15)（积分平均值） → [2025-17](#q2025-17)（完整写出定积分计算）\
-> **补练 12 题·按薄弱点选做**：[2023-15](#q2023-15)、[2022-07](#q2022-7)、[2022-13](#q2022-13)、[2020-03](#q2020-3)、[2020-16](#q2020-16)、[2019-13](#q2019-13)、[2018-05](#q2018-5)、[2014-10](#q2014-10)、[2013-03](#q2013-3)、[2012-04](#q2012-4)、[2011-06](#q2011-6)、[2010-16](#q2010-16)\
-> **冲一冲 1 题**：[2026-18](#q2026-18)（先换元再求导并查零点连续性）\
-> **见识 1 题·先会开题**：[2014-19](#q2014-19)（单调函数与带权积分不等式）\
-> **首轮后放 2 题·本轮可跳过**：[2021-14](#q2021-14)、[2016-21](#q2016-21)\
-> **首轮过关**：积分求值能验算；变量上限要乘内导，不能把连续当作可导。
+> **本章共 21 题**
+> 
+> - **核心必做（建议按顺序攻克关键方法）**：  
+>   [第 15 题](#q15)（变上限求导） → [第 04 题](#q04)（变限积分的奇偶性） → [第 08 题](#q08)（定义中的步长与取点） → [第 01 题](#q01)（积分平均值） → [第 03 题](#q03)（完整写出定积分计算）
+> 
+> - **分流与刷题建议**：  
+>   - **较难挑战**：[第 02 题](#q02)（先换元再求导并查零点连续性）  
+>   - **重在看思路**：[第 17 题](#q17)（单调函数与带权积分不等式）  
+>   - **首轮可跳过**：[第 09 题](#q09)、[第 14 题](#q14)（技巧较偏或综合度高，首轮不必死磕）  
+> 
+> - **过关目标**：积分求值能验算；变量上限要乘内导，不能把连续当作可导。
 
 ---
 
-## 2026年
+<a id="q01"></a><a id="q2026-15"></a>
 
-<a id="q2026-15"></a>
+### 01 · 2026年
 
-### 01 · 2026-15 · 填空题 ·【必会】
-
-<img src="../bank/2026/q15.png?v=df7a3e82da25" alt="2026-15" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
+<img src="../bank/2026/q15.png" alt="01 (2026)" width="524" style="display: block; width: 32.72em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
-<a id="q2026-18"></a>
+<a id="q02"></a><a id="q2026-18"></a>
 
-### 02 · 2026-18 · 解答题 ·【冲一冲】
+### 02 · 2026年
 
-> 开篇变限积分大题。被积函数含复合项 <img src="../math/d7939186d51d823b.svg" alt="公式：xt" width="17" height="12" align="middle" style="width:1.0555em;height:0.7205em;vertical-align:-0.0125em;">，先换元 <img src="../math/b52987517defb14e.svg" alt="公式：u=xt" width="52" height="13" align="middle" style="width:3.211em;height:0.801em;vertical-align:-0.093em;"> 把变量 <img src="../math/2d711642b726b044.svg" alt="公式：x" width="11" height="9" align="middle" style="width:0.647em;height:0.5125em;vertical-align:-0.0125em;"> 提出来剥离干净再求导；第二问连续性注意在 <img src="../math/794d66ff4ebd363e.svg" alt="公式：x=0" width="44" height="14" align="middle" style="width:2.721em;height:0.846em;vertical-align:-0.093em;"> 处必须用极限定义验证。
+> *开篇变限积分大题。被积函数含复合项 $xt$，先换元 $u=xt$ 把变量 $x$ 提出来剥离干净再求导；第二问连续性注意在 $x=0$ 处必须用极限定义验证。*
 
-<img src="../bank/2026/q18.png?v=02646ed4180e" alt="2026-18" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
-
-*关联章节：[导数、微分与求导法则](04-derivatives.md) · [连续与间断点](03-continuity.md)*
+<img src="../bank/2026/q18.png" alt="02 (2026)" width="754" style="display: block; width: 47.1em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
-## 2025年
+<a id="q03"></a><a id="q2025-17"></a>
 
-<a id="q2025-17"></a>
+### 03 · 2025年
 
-### 03 · 2025-17 · 解答题 ·【必会】
-
-<img src="../bank/2025/q17.png?v=b938dac7f332" alt="2025-17" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
+<img src="../bank/2025/q17.png" alt="03 (2025)" width="226" style="display: block; width: 14.14em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
-## 2024年
+<a id="q04"></a><a id="q2024-3"></a>
 
-<a id="q2024-3"></a>
+### 04 · 2024年
 
-### 04 · 2024-03 · 选择题 ·【必会】
-
-<img src="../bank/2024/q03.png?v=85342c20f3af" alt="2024-03" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
-
-*关联章节：[函数极限与无穷小](01-limits.md)*
+<img src="../bank/2024/q03.png" alt="04 (2024)" width="675" style="display: block; width: 42.17em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
-## 2023年
+<a id="q05"></a><a id="q2023-15"></a>
 
-<a id="q2023-15"></a>
+### 05 · 2023年
 
-### 05 · 2023-15 · 填空题 ·【补练】
-
-<img src="../bank/2023/q15.png?v=14a2db041f6c" alt="2023-15" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
+<img src="../bank/2023/q15.png" alt="05 (2023)" width="760" style="display: block; width: 47.52em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
-## 2022年
+<a id="q06"></a><a id="q2022-7"></a>
 
-<a id="q2022-7"></a>
+### 06 · 2022年
 
-### 06 · 2022-07 · 选择题 ·【补练】
-
-<img src="../bank/2022/q07.png?v=1b47e7ce7a0f" alt="2022-07" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
+<img src="../bank/2022/q07.png" alt="06 (2022)" width="723" style="display: block; width: 45.21em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
-<a id="q2022-13"></a>
+<a id="q07"></a><a id="q2022-13"></a>
 
-### 07 · 2022-13 · 填空题 ·【补练】
+### 07 · 2022年
 
-<img src="../bank/2022/q13.png?v=de5965bd8f72" alt="2022-13" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
-
----
-
-## 2021年
-
-<a id="q2021-7"></a>
-
-### 08 · 2021-07 · 选择题 ·【必会】
-
-<img src="../bank/2021/q07.png?v=d0255f150192" alt="2021-07" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
-
-*关联章节：[数列极限与求和极限](02-sequences.md)*
+<img src="../bank/2022/q13.png" alt="07 (2022)" width="280" style="display: block; width: 17.52em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
-<a id="q2021-14"></a>
+<a id="q08"></a><a id="q2021-7"></a>
 
-### 09 · 2021-14 · 填空题 ·【首轮后放】
+### 08 · 2021年
 
-<img src="../bank/2021/q14.png?v=02a7b2b6fb8b" alt="2021-14" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
-
-*关联章节：[二重积分](19-double-integrals.md)*
+<img src="../bank/2021/q07.png" alt="08 (2021)" width="617" style="display: block; width: 38.55em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
-## 2020年
+<a id="q09"></a><a id="q2021-14"></a>
 
-<a id="q2020-3"></a>
+### 09 · 2021年
 
-### 10 · 2020-03 · 选择题 ·【补练】
-
-<img src="../bank/2020/q03.png?v=97ad39a39689" alt="2020-03" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
+<img src="../bank/2021/q14.png" alt="09 (2021)" width="520" style="display: block; width: 32.52em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
-<a id="q2020-16"></a>
+<a id="q10"></a><a id="q2020-3"></a>
 
-### 11 · 2020-16 · 解答题 ·【补练】
+### 10 · 2020年
 
-> 抽象连续函数极值大题。利用极限条件把 <img src="../math/259072e6c653cc56.svg" alt="公式：f(x)" width="35" height="19" align="middle" style="width:2.1495em;height:1.131em;vertical-align:-0.283em;"> 在 0 点的局部性质看作 <img src="../math/9a28043f7810eec5.svg" alt="公式：f(x) \sim x" width="69" height="19" align="middle" style="width:4.305em;height:1.131em;vertical-align:-0.283em;">，变上限积分求导找驻点，利用二阶导正负判断极值。
-
-<img src="../bank/2020/q16.png?v=915be7fc4637" alt="2020-16" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
-
-*关联章节：[导数、微分与求导法则](04-derivatives.md) · [连续与间断点](03-continuity.md)*
+<img src="../bank/2020/q03.png" alt="10 (2020)" width="648" style="display: block; width: 40.48em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
-## 2019年
+<a id="q11"></a><a id="q2020-16"></a>
 
-<a id="q2019-13"></a>
+### 11 · 2020年
 
-### 12 · 2019-13 · 填空题 ·【补练】
+> *抽象连续函数极值大题。利用极限条件把 $f(x)$ 在 0 点的局部性质看作 $f(x) \sim x$，变上限积分求导找驻点，利用二阶导正负判断极值。*
 
-<img src="../bank/2019/q13.png?v=af6315c542a5" alt="2019-13" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
-
----
-
-## 2018年
-
-<a id="q2018-5"></a>
-
-### 13 · 2018-05 · 选择题 ·【补练】
-
-<img src="../bank/2018/q05.png?v=96762c24046c" alt="2018-05" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
+<img src="../bank/2020/q16.png" alt="11 (2020)" width="782" style="display: block; width: 48.86em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
-## 2016年
+<a id="q12"></a><a id="q2019-13"></a>
 
-<a id="q2016-21"></a>
+### 12 · 2019年
 
-### 14 · 2016-21 · 解答题 ·【首轮后放】
-
-> 定积分不等式与中值大题。利用积分均值定理与导数单调性，构造辅助函数将定积分与端点值联系起来，两小问层层递进。
-
-<img src="../bank/2016/q21.png?v=b9577b7dab7f" alt="2016-21" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
-
-*关联章节：[中值定理、零点与不等式证明](05-mean-value-proofs.md) · [单调性、极值与零点个数](06-monotonicity-extrema.md)*
+<img src="../bank/2019/q13.png" alt="12 (2019)" width="520" style="display: block; width: 32.48em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
-## 2015年
+<a id="q13"></a><a id="q2018-5"></a>
 
-<a id="q2015-11"></a>
+### 13 · 2018年
 
-### 15 · 2015-11 · 填空题 ·【必会】
-
-<img src="../bank/2015/q11.png?v=2f6e0ebb6574" alt="2015-11" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
-
-*关联章节：[导数、微分与求导法则](04-derivatives.md)*
+<img src="../bank/2018/q05.png" alt="13 (2018)" width="729" style="display: block; width: 45.55em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
-## 2014年
+<a id="q14"></a><a id="q2016-21"></a>
 
-<a id="q2014-10"></a>
+### 14 · 2016年
 
-### 16 · 2014-10 · 填空题 ·【补练】
+> *定积分不等式与中值大题。利用积分均值定理与导数单调性，构造辅助函数将定积分与端点值联系起来，两小问层层递进。*
 
-<img src="../bank/2014/q10.png?v=6cecfceb057e" alt="2014-10" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
-
-*关联章节：[函数极限与无穷小](01-limits.md)*
+<img src="../bank/2016/q21.png" alt="14 (2016)" width="700" style="display: block; width: 43.72em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
-<a id="q2014-19"></a>
+<a id="q15"></a><a id="q2015-11"></a>
 
-### 17 · 2014-19 · 解答题 ·【见识】
+### 15 · 2015年
 
-<img src="../bank/2014/q19.png?v=5d3a2ca14ad8" alt="2014-19" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
-
-*关联章节：[中值定理、零点与不等式证明](05-mean-value-proofs.md)*
+<img src="../bank/2015/q11.png" alt="15 (2015)" width="703" style="display: block; width: 43.97em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
-## 2013年
+<a id="q16"></a><a id="q2014-10"></a>
 
-<a id="q2013-3"></a>
+### 16 · 2014年
 
-### 18 · 2013-03 · 选择题 ·【补练】
-
-<img src="../bank/2013/q03.png?v=a4dcfc0edd74" alt="2013-03" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
-
-*关联章节：[连续与间断点](03-continuity.md) · [导数、微分与求导法则](04-derivatives.md)*
+<img src="../bank/2014/q10.png" alt="16 (2014)" width="745" style="display: block; width: 46.55em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
-## 2012年
+<a id="q17"></a><a id="q2014-19"></a>
 
-<a id="q2012-4"></a>
+### 17 · 2014年
 
-### 19 · 2012-04 · 选择题 ·【补练】
-
-<img src="../bank/2012/q04.png?v=b60db35b7996" alt="2012-04" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
+<img src="../bank/2014/q19.png" alt="17 (2014)" width="634" style="display: block; width: 39.62em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
-## 2011年
+<a id="q18"></a><a id="q2013-3"></a>
 
-<a id="q2011-6"></a>
+### 18 · 2013年
 
-### 20 · 2011-06 · 选择题 ·【补练】
-
-<img src="../bank/2011/q06.png?v=2d89aac87cad" alt="2011-06" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
+<img src="../bank/2013/q03.png" alt="18 (2013)" width="696" style="display: block; width: 43.52em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
-## 2010年
+<a id="q19"></a><a id="q2012-4"></a>
 
-<a id="q2010-16"></a>
+### 19 · 2012年
 
-### 21 · 2010-16 · 解答题 ·【补练】
-
-> 对数幂次积分比较与极限。第一问比较大小直接在被积区间 <img src="../math/463f2998327eb3a6.svg" alt="公式：[0,1]" width="37" height="19" align="middle" style="width:2.263em;height:1.131em;vertical-align:-0.283em;"> 上比被积函数大小；第二问通过分部积分找到递推关系式，用夹逼定理求极限。
-
-<img src="../bank/2010/q16.png?v=c5dee7dc2b88" alt="2010-16" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
-
-*关联章节：[数列极限与求和极限](02-sequences.md) · [中值定理、零点与不等式证明](05-mean-value-proofs.md)*
+<img src="../bank/2012/q04.png" alt="19 (2012)" width="724" style="display: block; width: 45.24em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
-## 交叉考点索引
+<a id="q20"></a><a id="q2011-6"></a>
 
-以下题目主归其他章节，点击跳转到对应章节题目；不计入本章主收录题数：
+### 20 · 2011年
 
-- [2026年 · 第4题](13-integral-applications.md)（主章节：定积分应用）
-- [2026年 · 第6题](04-derivatives.md)（主章节：导数、微分与求导法则）
-- [2025年 · 第1题](17-chain-implicit.md)（主章节：多元复合函数与隐函数求导）
-- [2025年 · 第2题](06-monotonicity-extrema.md)（主章节：单调性、极值与零点个数）
-- [2025年 · 第13题](02-sequences.md)（主章节：数列极限与求和极限）
-- [2025年 · 第14题](04-derivatives.md)（主章节：导数、微分与求导法则）
-- [2024年 · 第18题](15-higher-order-ode.md)（主章节：高阶微分方程）
-- [2024年 · 第21题](05-mean-value-proofs.md)（主章节：中值定理、零点与不等式证明）
-- [2023年 · 第12题](13-integral-applications.md)（主章节：定积分应用）
-- [2022年 · 第4题](17-chain-implicit.md)（主章节：多元复合函数与隐函数求导）
-- [2022年 · 第21题](07-convexity.md)（主章节：凹凸性与拐点）
-- [2021年 · 第1题](01-limits.md)（主章节：函数极限与无穷小）
-- [2021年 · 第17题](01-limits.md)（主章节：函数极限与无穷小）
-- [2020年 · 第1题](01-limits.md)（主章节：函数极限与无穷小）
-- [2020年 · 第20题](05-mean-value-proofs.md)（主章节：中值定理、零点与不等式证明）
-- [2019年 · 第21题](05-mean-value-proofs.md)（主章节：中值定理、零点与不等式证明）
-- [2018年 · 第4题](07-convexity.md)（主章节：凹凸性与拐点）
-- [2018年 · 第16题](14-first-order-ode.md)（主章节：一阶微分方程）
-- [2017年 · 第2题](07-convexity.md)（主章节：凹凸性与拐点）
-- [2017年 · 第15题](01-limits.md)（主章节：函数极限与无穷小）
-- [2017年 · 第17题](02-sequences.md)（主章节：数列极限与求和极限）
-- [2016年 · 第10题](02-sequences.md)（主章节：数列极限与求和极限）
-- [2016年 · 第12题](08-taylor.md)（主章节：泰勒公式与高阶导数）
-- [2016年 · 第16题](06-monotonicity-extrema.md)（主章节：单调性、极值与零点个数）
-- [2015年 · 第19题](06-monotonicity-extrema.md)（主章节：单调性、极值与零点个数）
-- [2014年 · 第15题](01-limits.md)（主章节：函数极限与无穷小）
-- [2014年 · 第20题](02-sequences.md)（主章节：数列极限与求和极限）
-- [2013年 · 第10题](04-derivatives.md)（主章节：导数、微分与求导法则）
-- [2012年 · 第10题](02-sequences.md)（主章节：数列极限与求和极限）
-- [2012年 · 第19题](15-higher-order-ode.md)（主章节：高阶微分方程）
-- [2011年 · 第15题](01-limits.md)（主章节：函数极限与无穷小）
-- [2010年 · 第6题](02-sequences.md)（主章节：数列极限与求和极限）
-- [2010年 · 第15题](06-monotonicity-extrema.md)（主章节：单调性、极值与零点个数）
+<img src="../bank/2011/q06.png" alt="20 (2011)" width="714" style="display: block; width: 44.66em; max-width: 100%; height: auto; margin: 14px 0;">
+
+---
+
+<a id="q21"></a><a id="q2010-16"></a>
+
+### 21 · 2010年
+
+> *对数幂次积分比较与极限。第一问比较大小直接在被积区间 $[0,1]$ 上比被积函数大小；第二问通过分部积分找到递推关系式，用夹逼定理求极限。*
+
+<img src="../bank/2010/q16.png" alt="21 (2010)" width="653" style="display: block; width: 40.83em; max-width: 100%; height: auto; margin: 14px 0;">
+
+---
 
 [« 不定积分与原函数](10-antiderivatives.md)　　[反常积分 »](12-improper-integrals.md)

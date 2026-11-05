@@ -2,233 +2,187 @@
 
 # 高等数学 · 切线、法线、渐近线与曲率
 
-> **全章 20 题｜本表头已点名 20 题｜未归类 0 题。**\
-> **必会 5 题·按此顺序**：[2010-03](#q2010-3)（相切的两个条件） → [2012-01](#q2012-1)（渐近线与可去点区别） → [2025-12](#q2025-12)（斜渐近线截距） → [2014-04](#q2014-4)（参数曲线曲率半径） → [2026-13](#q2026-13)（隐曲线曲率半径）\
-> **补练 11 题·按薄弱点选做**：[2023-01](#q2023-1)、[2023-14](#q2023-14)、[2018-10](#q2018-10)、[2018-12](#q2018-12)、[2017-09](#q2017-9)、[2016-05](#q2016-5)、[2016-09](#q2016-9)、[2014-02](#q2014-2)、[2013-12](#q2013-12)、[2012-13](#q2012-13)、[2010-10](#q2010-10)\
-> **冲一冲 1 题**：[2020-15](#q2020-15)（幂指函数的斜渐近线）\
-> **见识 1 题·先会开题**：[2024-11](#q2024-11)（竖直切线处换自变量求曲率圆）\
-> **首轮后放 1 题·本轮可跳过**：[2014-12](#q2014-12)\
-> **待核 1 题·暂不训练**：[2019-10](#q2019-10)（题干未明确截距对应哪个坐标轴，待核）\
-> **首轮过关**：切线要有点和斜率；渐近线查差值，曲率注意绝对值与倒数。
+> **本章共 20 题**
+> 
+> - **核心必做（建议按顺序攻克关键方法）**：  
+>   [第 19 题](#q19)（相切的两个条件） → [第 17 题](#q17)（渐近线与可去点区别） → [第 02 题](#q02)（斜渐近线截距） → [第 14 题](#q14)（参数曲线曲率半径） → [第 01 题](#q01)（隐曲线曲率半径）
+> 
+> - **分流与刷题建议**：  
+>   - **较难挑战**：[第 06 题](#q06)（幂指函数的斜渐近线）  
+>   - **重在看思路**：[第 03 题](#q03)（竖直切线处换自变量求曲率圆）  
+>   - **首轮可跳过**：[第 15 题](#q15)（技巧较偏或综合度高，首轮不必死磕）  
+>   - **题面存疑暂缓**：[第 07 题](#q07)（题干未明确截距对应哪个坐标轴，待核）（原卷转写存疑，首轮暂不安排）  
+> 
+> - **过关目标**：切线要有点和斜率；渐近线查差值，曲率注意绝对值与倒数。
 
 ---
 
-## 2026年
+<a id="q01"></a><a id="q2026-13"></a>
 
-<a id="q2026-13"></a>
+### 01 · 2026年
 
-### 01 · 2026-13 · 填空题 ·【必会】
+> *隐函数曲率半径填空。在点 $(0,1)$ 处对隐方程求一阶导得 $y'$，再求二阶导得 $y''$，直接代入曲率半径公式 $R = (1+y'^2)^{3/2}/|y''|$，别算错代数式。*
 
-> 隐函数曲率半径填空。在点 <img src="../math/2952887bc45642d0.svg" alt="公式：(0,1)" width="41" height="19" align="middle" style="width:2.5145em;height:1.131em;vertical-align:-0.283em;"> 处对隐方程求一阶导得 <img src="../math/241d1cd21689b8a9.svg" alt="公式：y&#x27;" width="14" height="18" align="middle" style="width:0.868em;height:1.0905em;vertical-align:-0.232em;">，再求二阶导得 <img src="../math/8b40d33482df931f.svg" alt="公式：y&#x27;&#x27;" width="18" height="18" align="middle" style="width:1.088em;height:1.0905em;vertical-align:-0.232em;">，直接代入曲率半径公式 <img src="../math/98f5844049d15861.svg" alt="公式：R = (1+y&#x27;^2)^{3/2}/|y&#x27;&#x27;|" width="161" height="21" align="middle" style="width:10.04em;height:1.2935em;vertical-align:-0.283em;">，别算错代数式。
-
-<img src="../bank/2026/q13.png?v=aaa5a4b6808c" alt="2026-13" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
+<img src="../bank/2026/q13.png" alt="01 (2026)" width="563" style="display: block; width: 35.17em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
-## 2025年
+<a id="q02"></a><a id="q2025-12"></a>
 
-<a id="q2025-12"></a>
+### 02 · 2025年
 
-### 02 · 2025-12 · 填空题 ·【必会】
+> *三次根式斜渐近线。求斜渐近线别死算两步极限，提公因子 $x$ 出来利用泰勒展开 $(1+u)^{1/3} = 1 + u/3 - u^2/9$，直接展开得到 $y = x - 1$。*
 
-> 三次根式斜渐近线。求斜渐近线别死算两步极限，提公因子 <img src="../math/2d711642b726b044.svg" alt="公式：x" width="11" height="9" align="middle" style="width:0.647em;height:0.5125em;vertical-align:-0.0125em;"> 出来利用泰勒展开 <img src="../math/ccec8b8c5d0c089a.svg" alt="公式：(1+u)^{1/3} = 1 + u/3 - u^2/9" width="219" height="21" align="middle" style="width:13.6595em;height:1.2935em;vertical-align:-0.283em;">，直接展开得到 <img src="../math/9640ae2026d6d970.svg" alt="公式：y = x - 1" width="75" height="16" align="middle" style="width:4.6585em;height:0.9855em;vertical-align:-0.232em;">。
-
-<img src="../bank/2025/q12.png?v=21c0d7320241" alt="2025-12" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
+<img src="../bank/2025/q12.png" alt="02 (2025)" width="466" style="display: block; width: 29.1em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
-## 2024年
+<a id="q03"></a><a id="q2024-11"></a>
 
-<a id="q2024-11"></a>
+### 03 · 2024年
 
-### 03 · 2024-11 · 填空题 ·【见识】
-
-<img src="../bank/2024/q11.png?v=da83b6b021c6" alt="2024-11" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
+<img src="../bank/2024/q11.png" alt="03 (2024)" width="462" style="display: block; width: 28.9em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
-## 2023年
+<a id="q04"></a><a id="q2023-1"></a>
 
-<a id="q2023-1"></a>
+### 04 · 2023年
 
-### 04 · 2023-01 · 选择题 ·【补练】
-
-<img src="../bank/2023/q01.png?v=f2db55a49523" alt="2023-01" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
+<img src="../bank/2023/q01.png" alt="04 (2023)" width="707" style="display: block; width: 44.21em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
-<a id="q2023-14"></a>
+<a id="q05"></a><a id="q2023-14"></a>
 
-### 05 · 2023-14 · 填空题 ·【补练】
+### 05 · 2023年
 
-<img src="../bank/2023/q14.png?v=3ef1a76e08a1" alt="2023-14" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
-
-*关联章节：[导数、微分与求导法则](04-derivatives.md)*
+<img src="../bank/2023/q14.png" alt="05 (2023)" width="553" style="display: block; width: 34.59em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
-## 2020年
+<a id="q06"></a><a id="q2020-15"></a>
 
-<a id="q2020-15"></a>
+### 06 · 2020年
 
-### 06 · 2020-15 · 解答题 ·【冲一冲】
+> *幂指函数斜渐近线大题。先算斜率 $a = \lim y/x$；算截距 $b = \lim (y-ax)$ 时化为 $x[(1+1/x)^{-x}-1]$，利用对数展开式或等价无穷小求极限。*
 
-> 幂指函数斜渐近线大题。先算斜率 <img src="../math/608c451cd5c6b17d.svg" alt="公式：a = \lim y/x" width="91" height="19" align="middle" style="width:5.6335em;height:1.131em;vertical-align:-0.283em;">；算截距 <img src="../math/200262fc3e0692ee.svg" alt="公式：b = \lim (y-ax)" width="123" height="19" align="middle" style="width:7.628em;height:1.131em;vertical-align:-0.283em;"> 时化为 <img src="../math/fe75e88ef7352234.svg" alt="公式：x[(1+1/x)^{-x}-1]" width="145" height="19" align="middle" style="width:9.005em;height:1.16em;vertical-align:-0.283em;">，利用对数展开式或等价无穷小求极限。
-
-<img src="../bank/2020/q15.png?v=893af147a9c7" alt="2020-15" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
-
-*关联章节：[函数极限与无穷小](01-limits.md)*
+<img src="../bank/2020/q15.png" alt="06 (2020)" width="376" style="display: block; width: 23.52em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
-## 2019年
+<a id="q07"></a><a id="q2019-10"></a>
 
-<a id="q2019-10"></a>
+### 07 · 2019年
 
-### 07 · 2019-10 · 填空题 ·【待核】
-
-<img src="../bank/2019/q10.png?v=725cf83e8250" alt="2019-10" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
+<img src="../bank/2019/q10.png" alt="07 (2019)" width="605" style="display: block; width: 37.79em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
-## 2018年
+<a id="q08"></a><a id="q2018-10"></a>
 
-<a id="q2018-10"></a>
+### 08 · 2018年
 
-### 08 · 2018-10 · 填空题 ·【补练】
-
-<img src="../bank/2018/q10.png?v=60f3e9955b73" alt="2018-10" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
-
-*关联章节：[凹凸性与拐点](07-convexity.md)*
+<img src="../bank/2018/q10.png" alt="08 (2018)" width="500" style="display: block; width: 31.24em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
-<a id="q2018-12"></a>
+<a id="q09"></a><a id="q2018-12"></a>
 
-### 09 · 2018-12 · 填空题 ·【补练】
+### 09 · 2018年
 
-<img src="../bank/2018/q12.png?v=3aff3e1c4d96" alt="2018-12" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
-
----
-
-## 2017年
-
-<a id="q2017-9"></a>
-
-### 10 · 2017-09 · 填空题 ·【补练】
-
-<img src="../bank/2017/q09.png?v=2ebf08bd63e9" alt="2017-09" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
-
-*关联章节：[函数极限与无穷小](01-limits.md)*
+<img src="../bank/2018/q12.png" alt="09 (2018)" width="503" style="display: block; width: 31.41em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
-## 2016年
+<a id="q10"></a><a id="q2017-9"></a>
 
-<a id="q2016-5"></a>
+### 10 · 2017年
 
-### 11 · 2016-05 · 选择题 ·【补练】
-
-> 切线与曲率比较。两曲线相切说明一阶导相等；曲率大说明二阶导绝对值大。结合 <img src="../math/150a61bb6319c74c.svg" alt="公式：f&#x27;&#x27;_i(x_0)&lt;0" width="85" height="20" align="middle" style="width:5.311em;height:1.189em;vertical-align:-0.3305em;"> 判定局部凸性与相对位置，画草图一目了然。
-
-<img src="../bank/2016/q05.png?v=3484dde962f4" alt="2016-05" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
-
-*关联章节：[凹凸性与拐点](07-convexity.md) · [泰勒公式与高阶导数](08-taylor.md)*
+<img src="../bank/2017/q09.png" alt="10 (2017)" width="484" style="display: block; width: 30.28em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
-<a id="q2016-9"></a>
+<a id="q11"></a><a id="q2016-5"></a>
 
-### 12 · 2016-09 · 填空题 ·【补练】
+### 11 · 2016年
 
-<img src="../bank/2016/q09.png?v=48e25b6fa981" alt="2016-09" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
+> *切线与曲率比较。两曲线相切说明一阶导相等；曲率大说明二阶导绝对值大。结合 $f''_i(x_0)<0$ 判定局部凸性与相对位置，画草图一目了然。*
 
----
-
-## 2014年
-
-<a id="q2014-2"></a>
-
-### 13 · 2014-02 · 选择题 ·【补练】
-
-<img src="../bank/2014/q02.png?v=26111d540ed1" alt="2014-02" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
+<img src="../bank/2016/q05.png" alt="11 (2016)" width="782" style="display: block; width: 48.86em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
-<a id="q2014-4"></a>
+<a id="q12"></a><a id="q2016-9"></a>
 
-### 14 · 2014-04 · 选择题 ·【必会】
+### 12 · 2016年
 
-<img src="../bank/2014/q04.png?v=9dda1ba4932c" alt="2014-04" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
-
----
-
-<a id="q2014-12"></a>
-
-### 15 · 2014-12 · 填空题 ·【首轮后放】
-
-<img src="../bank/2014/q12.png?v=95deade131a9" alt="2014-12" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
+<img src="../bank/2016/q09.png" alt="12 (2016)" width="547" style="display: block; width: 34.21em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
-## 2013年
+<a id="q13"></a><a id="q2014-2"></a>
 
-<a id="q2013-12"></a>
+### 13 · 2014年
 
-### 16 · 2013-12 · 填空题 ·【补练】
-
-<img src="../bank/2013/q12.png?v=921d1ed88b6b" alt="2013-12" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
+<img src="../bank/2014/q02.png" alt="13 (2014)" width="736" style="display: block; width: 46.0em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
-## 2012年
+<a id="q14"></a><a id="q2014-4"></a>
 
-<a id="q2012-1"></a>
+### 14 · 2014年
 
-### 17 · 2012-01 · 选择题 ·【必会】
-
-<img src="../bank/2012/q01.png?v=114e94645da7" alt="2012-01" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
+<img src="../bank/2014/q04.png" alt="14 (2014)" width="675" style="display: block; width: 42.21em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
-<a id="q2012-13"></a>
+<a id="q15"></a><a id="q2014-12"></a>
 
-### 18 · 2012-13 · 填空题 ·【补练】
+### 15 · 2014年
 
-<img src="../bank/2012/q13.png?v=d46725e25a12" alt="2012-13" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
-
----
-
-## 2010年
-
-<a id="q2010-3"></a>
-
-### 19 · 2010-03 · 选择题 ·【必会】
-
-<img src="../bank/2010/q03.png?v=9db0e0a86a8e" alt="2010-03" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
+<img src="../bank/2014/q12.png" alt="15 (2014)" width="694" style="display: block; width: 43.34em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
-<a id="q2010-10"></a>
+<a id="q16"></a><a id="q2013-12"></a>
 
-### 20 · 2010-10 · 填空题 ·【补练】
+### 16 · 2013年
 
-<img src="../bank/2010/q10.png?v=726aca95e777" alt="2010-10" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
+<img src="../bank/2013/q12.png" alt="16 (2013)" width="590" style="display: block; width: 36.86em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
-## 交叉考点索引
+<a id="q17"></a><a id="q2012-1"></a>
 
-以下题目主归其他章节，点击跳转到对应章节题目；不计入本章主收录题数：
+### 17 · 2012年
 
-- [2023年 · 第17题](14-first-order-ode.md)（主章节：一阶微分方程）
-- [2021年 · 第18题](07-convexity.md)（主章节：凹凸性与拐点）
-- [2021年 · 第20题](14-first-order-ode.md)（主章节：一阶微分方程）
-- [2020年 · 第21题](14-first-order-ode.md)（主章节：一阶微分方程）
-- [2019年 · 第6题](08-taylor.md)（主章节：泰勒公式与高阶导数）
-- [2017年 · 第21题](14-first-order-ode.md)（主章节：一阶微分方程）
-- [2015年 · 第21题](05-mean-value-proofs.md)（主章节：中值定理、零点与不等式证明）
-- [2012年 · 第17题](13-integral-applications.md)（主章节：定积分应用）
-- [2011年 · 第18题](14-first-order-ode.md)（主章节：一阶微分方程）
+<img src="../bank/2012/q01.png" alt="17 (2012)" width="643" style="display: block; width: 40.21em; max-width: 100%; height: auto; margin: 14px 0;">
+
+---
+
+<a id="q18"></a><a id="q2012-13"></a>
+
+### 18 · 2012年
+
+<img src="../bank/2012/q13.png" alt="18 (2012)" width="540" style="display: block; width: 33.72em; max-width: 100%; height: auto; margin: 14px 0;">
+
+---
+
+<a id="q19"></a><a id="q2010-3"></a>
+
+### 19 · 2010年
+
+<img src="../bank/2010/q03.png" alt="19 (2010)" width="647" style="display: block; width: 40.45em; max-width: 100%; height: auto; margin: 14px 0;">
+
+---
+
+<a id="q20"></a><a id="q2010-10"></a>
+
+### 20 · 2010年
+
+<img src="../bank/2010/q10.png" alt="20 (2010)" width="396" style="display: block; width: 24.72em; max-width: 100%; height: auto; margin: 14px 0;">
+
+---
 
 [« 泰勒公式与高阶导数](08-taylor.md)　　[不定积分与原函数 »](10-antiderivatives.md)

@@ -2,309 +2,248 @@
 
 # 高等数学 · 定积分应用
 
-> **全章 27 题｜本表头已点名 27 题｜未归类 0 题。**\
-> **必会 6 题·按此顺序**：[2013-16](#q2013-16)（分清两种旋转轴） → [2019-12](#q2019-12)（弧长列式） → [2022-15](#q2022-15)（极坐标面积） → [2014-13](#q2014-13)（质心的加权积分） → [2026-04](#q2026-4)（引力的方向分量） → [2024-19](#q2024-19)（旋转体体积再求最值）\
-> **补练 12 题·按薄弱点选做**：[2026-20](#q2026-20)、[2025-06](#q2025-6)、[2024-15](#q2024-15)、[2023-12](#q2023-12)、[2023-19](#q2023-19)、[2020-12](#q2020-12)、[2018-20](#q2018-20)、[2017-06](#q2017-6)、[2015-16](#q2015-16)、[2013-11](#q2013-11)、[2011-11](#q2011-11)、[2010-12](#q2010-12)\
-> **冲一冲 1 题**：[2021-19](#q2021-19)（弧长与旋转曲面面积）\
-> **见识 1 题·先会开题**：[2011-20](#q2011-20)（抽水做功按高度切片建模）\
-> **首轮后放 7 题·本轮可跳过**：[2020-18](#q2020-18)、[2019-19](#q2019-19)、[2016-20](#q2016-20)、[2014-21](#q2014-21)、[2013-21](#q2013-21)、[2012-17](#q2012-17)、[2010-18](#q2010-18)\
-> **首轮过关**：先画图、列微元；面积、体积、曲面面积不能混用公式。
+> **本章共 27 题**
+> 
+> - **核心必做（建议按顺序攻克关键方法）**：  
+>   [第 21 题](#q21)（分清两种旋转轴） → [第 12 题](#q12)（弧长列式） → [第 08 题](#q08)（极坐标面积） → [第 18 题](#q18)（质心的加权积分） → [第 01 题](#q01)（引力的方向分量） → [第 05 题](#q05)（旋转体体积再求最值）
+> 
+> - **分流与刷题建议**：  
+>   - **较难挑战**：[第 09 题](#q09)（弧长与旋转曲面面积）  
+>   - **重在看思路**：[第 25 题](#q25)（抽水做功按高度切片建模）  
+>   - **首轮可跳过**：[第 11 题](#q11)、[第 13 题](#q13)、[第 16 题](#q16)、[第 19 题](#q19)、[第 22 题](#q22)、[第 23 题](#q23)、[第 27 题](#q27)（技巧较偏或综合度高，首轮不必死磕）  
+> 
+> - **过关目标**：先画图、列微元；面积、体积、曲面面积不能混用公式。
 
 ---
 
-## 2026年
+<a id="q01"></a><a id="q2026-4"></a>
 
-<a id="q2026-4"></a>
+### 01 · 2026年
 
-### 01 · 2026-04 · 选择题 ·【必会】
+> *排在前面的物理题。别被物理名词吓退，建立直角坐标系，利用对称性可知水平分力对消为 0，写出微元 $dF_y$ 直接算定积分。*
 
-> 排在前面的物理题。别被物理名词吓退，建立直角坐标系，利用对称性可知水平分力对消为 0，写出微元 <img src="../math/1c206318128f2c1b.svg" alt="公式：dF_y" width="29" height="18" align="middle" style="width:1.8015em;height:1.1185em;vertical-align:-0.3335em;"> 直接算定积分。
-
-<img src="../bank/2026/q04.png?v=a8170c4a7901" alt="2026-04" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
-
-*关联章节：[定积分、变上限积分与积分性质](11-definite-integrals.md)*
+<img src="../bank/2026/q04.png" alt="01 (2026)" width="782" style="display: block; width: 48.86em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
-<a id="q2026-20"></a>
+<a id="q02"></a><a id="q2026-20"></a>
 
-### 02 · 2026-20 · 解答题 ·【补练】
+### 02 · 2026年
 
-> 拐点与旋转体体积综合大题。先求二阶导求出拐点坐标，无界区域绕 <img src="../math/2d711642b726b044.svg" alt="公式：x" width="11" height="9" align="middle" style="width:0.647em;height:0.5125em;vertical-align:-0.0125em;"> 轴旋转体积按广义积分做，切忌把线段 <img src="../math/7469366c72362c3a.svg" alt="公式：OM" width="33" height="14" align="middle" style="width:2.052em;height:0.8215em;vertical-align:-0.025em;"> 产生的圆锥体积漏掉。
+> *拐点与旋转体体积综合大题。先求二阶导求出拐点坐标，无界区域绕 $x$ 轴旋转体积按广义积分做，切忌把线段 $OM$ 产生的圆锥体积漏掉。*
 
-<img src="../bank/2026/q20.png?v=bd59c26ce36c" alt="2026-20" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
-
-*关联章节：[凹凸性与拐点](07-convexity.md) · [反常积分](12-improper-integrals.md)*
+<img src="../bank/2026/q20.png" alt="02 (2026)" width="777" style="display: block; width: 48.55em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
-## 2025年
+<a id="q03"></a><a id="q2025-6"></a>
 
-<a id="q2025-6"></a>
+### 03 · 2025年
 
-### 03 · 2025-06 · 选择题 ·【补练】
-
-<img src="../bank/2025/q06.png?v=5cb4c7ec38c4" alt="2025-06" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
+<img src="../bank/2025/q06.png" alt="03 (2025)" width="782" style="display: block; width: 48.86em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
-## 2024年
+<a id="q04"></a><a id="q2024-15"></a>
 
-<a id="q2024-15"></a>
+### 04 · 2024年
 
-### 04 · 2024-15 · 填空题 ·【补练】
-
-<img src="../bank/2024/q15.png?v=9f7dc581f153" alt="2024-15" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
+<img src="../bank/2024/q15.png" alt="04 (2024)" width="781" style="display: block; width: 48.83em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
-<a id="q2024-19"></a>
+<a id="q05"></a><a id="q2024-19"></a>
 
-### 05 · 2024-19 · 解答题 ·【必会】
+### 05 · 2024年
 
-> 定积分求体积极值。先用旋转体体积公式写出关于截距 <img src="../math/e3b98a4da31a127d.svg" alt="公式：t" width="7" height="12" align="middle" style="width:0.4085em;height:0.7205em;vertical-align:-0.0125em;"> 的函数 <img src="../math/f73480708f5b20fd.svg" alt="公式：V(t)" width="35" height="19" align="middle" style="width:2.1585em;height:1.131em;vertical-align:-0.283em;">，再对 <img src="../math/e3b98a4da31a127d.svg" alt="公式：t" width="7" height="12" align="middle" style="width:0.4085em;height:0.7205em;vertical-align:-0.0125em;"> 求导找极大值点，几何计算和导数极值两段都很规整。
+> *定积分求体积极值。先用旋转体体积公式写出关于截距 $t$ 的函数 $V(t)$，再对 $t$ 求导找极大值点，几何计算和导数极值两段都很规整。*
 
-<img src="../bank/2024/q19.png?v=adfc558318a4" alt="2024-19" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
-
-*关联章节：[单调性、极值与零点个数](06-monotonicity-extrema.md)*
+<img src="../bank/2024/q19.png" alt="05 (2024)" width="782" style="display: block; width: 48.86em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
-## 2023年
+<a id="q06"></a><a id="q2023-12"></a>
 
-<a id="q2023-12"></a>
+### 06 · 2023年
 
-### 06 · 2023-12 · 填空题 ·【补练】
-
-<img src="../bank/2023/q12.png?v=d4b9ca0a2e43" alt="2023-12" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
-
-*关联章节：[定积分、变上限积分与积分性质](11-definite-integrals.md)*
+<img src="../bank/2023/q12.png" alt="06 (2023)" width="424" style="display: block; width: 26.48em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
-<a id="q2023-19"></a>
+<a id="q07"></a><a id="q2023-19"></a>
 
-### 07 · 2023-19 · 解答题 ·【补练】
+### 07 · 2023年
 
-<img src="../bank/2023/q19.png?v=279b26ce8ec3" alt="2023-19" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
-
-*关联章节：[反常积分](12-improper-integrals.md)*
+<img src="../bank/2023/q19.png" alt="07 (2023)" width="782" style="display: block; width: 48.86em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
-## 2022年
+<a id="q08"></a><a id="q2022-15"></a>
 
-<a id="q2022-15"></a>
+### 08 · 2022年
 
-### 08 · 2022-15 · 填空题 ·【必会】
-
-<img src="../bank/2022/q15.png?v=cf40c8b4487e" alt="2022-15" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
+<img src="../bank/2022/q15.png" alt="08 (2022)" width="777" style="display: block; width: 48.55em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
-## 2021年
+<a id="q09"></a><a id="q2021-19"></a>
 
-<a id="q2021-19"></a>
+### 09 · 2021年
 
-### 09 · 2021-19 · 解答题 ·【冲一冲】
+> *积分与弧长综合大题。两端同时求导解出 $f(x)$，套用直角坐标弧长积分公式 $\sqrt{1+y'^2}$，根号下正好能配成完全平方直接开方。*
 
-> 积分与弧长综合大题。两端同时求导解出 <img src="../math/259072e6c653cc56.svg" alt="公式：f(x)" width="35" height="19" align="middle" style="width:2.1495em;height:1.131em;vertical-align:-0.283em;">，套用直角坐标弧长积分公式 <img src="../math/67e9d4fe2670078c.svg" alt="公式：\sqrt{1+y&#x27;^2}" width="70" height="23" align="middle" style="width:4.3705em;height:1.4255em;vertical-align:-0.2885em;">，根号下正好能配成完全平方直接开方。
-
-<img src="../bank/2021/q19.png?v=7dfefbeae9ac" alt="2021-19" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
-
-*关联章节：[不定积分与原函数](10-antiderivatives.md)*
+<img src="../bank/2021/q19.png" alt="09 (2021)" width="782" style="display: block; width: 48.86em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
-## 2020年
+<a id="q10"></a><a id="q2020-12"></a>
 
-<a id="q2020-12"></a>
+### 10 · 2020年
 
-### 10 · 2020-12 · 填空题 ·【补练】
-
-<img src="../bank/2020/q12.png?v=90e4151fdf49" alt="2020-12" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
+<img src="../bank/2020/q12.png" alt="10 (2020)" width="781" style="display: block; width: 48.83em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
-<a id="q2020-18"></a>
+<a id="q11"></a><a id="q2020-18"></a>
 
-### 11 · 2020-18 · 解答题 ·【首轮后放】
+### 11 · 2020年
 
-> 函数方程与旋转体体积。方程里把 <img src="../math/2d711642b726b044.svg" alt="公式：x" width="11" height="9" align="middle" style="width:0.647em;height:0.5125em;vertical-align:-0.0125em;"> 换成 <img src="../math/cf2ae21ad027cb22.svg" alt="公式：1/x" width="29" height="19" align="middle" style="width:1.7785em;height:1.131em;vertical-align:-0.283em;"> 联立解出 <img src="../math/259072e6c653cc56.svg" alt="公式：f(x)" width="35" height="19" align="middle" style="width:2.1495em;height:1.131em;vertical-align:-0.283em;">，求体积时注意积分变量选择，选好绕 <img src="../math/2d711642b726b044.svg" alt="公式：x" width="11" height="9" align="middle" style="width:0.647em;height:0.5125em;vertical-align:-0.0125em;"> 轴还是 <img src="../math/a1fce4363854ff88.svg" alt="公式：y" width="9" height="12" align="middle" style="width:0.5545em;height:0.732em;vertical-align:-0.232em;"> 轴算壳层微元。
+> *函数方程与旋转体体积。方程里把 $x$ 换成 $1/x$ 联立解出 $f(x)$，求体积时注意积分变量选择，选好绕 $x$ 轴还是 $y$ 轴算壳层微元。*
 
-<img src="../bank/2020/q18.png?v=02540364c361" alt="2020-18" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
-
-*关联章节：[函数极限与无穷小](01-limits.md)*
+<img src="../bank/2020/q18.png" alt="11 (2020)" width="781" style="display: block; width: 48.79em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
-## 2019年
+<a id="q12"></a><a id="q2019-12"></a>
 
-<a id="q2019-12"></a>
+### 12 · 2019年
 
-### 12 · 2019-12 · 填空题 ·【必会】
-
-<img src="../bank/2019/q12.png?v=6a309acd9399" alt="2019-12" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
+<img src="../bank/2019/q12.png" alt="12 (2019)" width="454" style="display: block; width: 28.34em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
-<a id="q2019-19"></a>
+<a id="q13"></a><a id="q2019-19"></a>
 
-### 13 · 2019-19 · 解答题 ·【首轮后放】
+### 13 · 2019年
 
-<img src="../bank/2019/q19.png?v=f795fe4a0358" alt="2019-19" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
-
-*关联章节：[数列极限与求和极限](02-sequences.md) · [反常积分](12-improper-integrals.md)*
+<img src="../bank/2019/q19.png" alt="13 (2019)" width="782" style="display: block; width: 48.9em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
-## 2018年
+<a id="q14"></a><a id="q2018-20"></a>
 
-<a id="q2018-20"></a>
+### 14 · 2018年
 
-### 14 · 2018-20 · 解答题 ·【补练】
-
-<img src="../bank/2018/q20.png?v=3594676b1118" alt="2018-20" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
-
-*关联章节：[导数、微分与求导法则](04-derivatives.md)*
+<img src="../bank/2018/q20.png" alt="14 (2018)" width="782" style="display: block; width: 48.9em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
-## 2017年
+<a id="q15"></a><a id="q2017-6"></a>
 
-<a id="q2017-6"></a>
+### 15 · 2017年
 
-### 15 · 2017-06 · 选择题 ·【补练】
-
-<img src="../bank/2017/q06.png?v=f3827759d412" alt="2017-06" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
+<img src="../bank/2017/q06.png" alt="15 (2017)" width="782" style="display: block; width: 48.86em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
-## 2016年
+<a id="q16"></a><a id="q2016-20"></a>
 
-<a id="q2016-20"></a>
+### 16 · 2016年
 
-### 16 · 2016-20 · 解答题 ·【首轮后放】
-
-<img src="../bank/2016/q20.png?v=4456585add60" alt="2016-20" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
+<img src="../bank/2016/q20.png" alt="16 (2016)" width="781" style="display: block; width: 48.83em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
-## 2015年
+<a id="q17"></a><a id="q2015-16"></a>
 
-<a id="q2015-16"></a>
+### 17 · 2015年
 
-### 17 · 2015-16 · 解答题 ·【补练】
-
-<img src="../bank/2015/q16.png?v=aae8a9412958" alt="2015-16" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
+<img src="../bank/2015/q16.png" alt="17 (2015)" width="781" style="display: block; width: 48.83em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
-## 2014年
+<a id="q18"></a><a id="q2014-13"></a>
 
-<a id="q2014-13"></a>
+### 18 · 2014年
 
-### 18 · 2014-13 · 填空题 ·【必会】
-
-<img src="../bank/2014/q13.png?v=afd3385b443c" alt="2014-13" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
+<img src="../bank/2014/q13.png" alt="18 (2014)" width="782" style="display: block; width: 48.9em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
-<a id="q2014-21"></a>
+<a id="q19"></a><a id="q2014-21"></a>
 
-### 19 · 2014-21 · 解答题 ·【首轮后放】
+### 19 · 2014年
 
-> 偏导与旋转体积大题。对偏导对 <img src="../math/a1fce4363854ff88.svg" alt="公式：y" width="9" height="12" align="middle" style="width:0.5545em;height:0.732em;vertical-align:-0.232em;"> 积分恢复出含有未知函数 <img src="../math/5a2552b096f278ae.svg" alt="公式：C(x)" width="39" height="19" align="middle" style="width:2.387em;height:1.131em;vertical-align:-0.283em;"> 的表达式，代入条件定出 <img src="../math/611fd5e7e553a5ef.svg" alt="公式：f(x,y)" width="52" height="19" align="middle" style="width:3.2065em;height:1.131em;vertical-align:-0.283em;">，再画草图看清旋转中心是 <img src="../math/866941818f41e81f.svg" alt="公式：y=-1" width="57" height="16" align="middle" style="width:3.5085em;height:0.9855em;vertical-align:-0.232em;">。
+> *偏导与旋转体积大题。对偏导对 $y$ 积分恢复出含有未知函数 $C(x)$ 的表达式，代入条件定出 $f(x,y)$，再画草图看清旋转中心是 $y=-1$。*
 
-<img src="../bank/2014/q21.png?v=59b5fbfd52f3" alt="2014-21" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
-
-*关联章节：[多元函数极限、偏导与全微分](16-multivariable-basics.md)*
+<img src="../bank/2014/q21.png" alt="19 (2014)" width="781" style="display: block; width: 48.83em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
-## 2013年
+<a id="q20"></a><a id="q2013-11"></a>
 
-<a id="q2013-11"></a>
+### 20 · 2013年
 
-### 20 · 2013-11 · 填空题 ·【补练】
-
-<img src="../bank/2013/q11.png?v=f65761959965" alt="2013-11" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
+<img src="../bank/2013/q11.png" alt="20 (2013)" width="781" style="display: block; width: 48.83em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
-<a id="q2013-16"></a>
+<a id="q21"></a><a id="q2013-16"></a>
 
-### 21 · 2013-16 · 解答题 ·【必会】
+### 21 · 2013年
 
-<img src="../bank/2013/q16.png?v=979cae8751b5" alt="2013-16" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
-
----
-
-<a id="q2013-21"></a>
-
-### 22 · 2013-21 · 解答题 ·【首轮后放】
-
-<img src="../bank/2013/q21.png?v=c4df32dd81c5" alt="2013-21" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
+<img src="../bank/2013/q16.png" alt="21 (2013)" width="782" style="display: block; width: 48.86em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
-## 2012年
+<a id="q22"></a><a id="q2013-21"></a>
 
-<a id="q2012-17"></a>
+### 22 · 2013年
 
-### 23 · 2012-17 · 解答题 ·【首轮后放】
-
-<img src="../bank/2012/q17.png?v=40b721778e4d" alt="2012-17" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
-
-*关联章节：[切线、法线、渐近线与曲率](09-curve-geometry.md)*
+<img src="../bank/2013/q21.png" alt="22 (2013)" width="682" style="display: block; width: 42.66em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
-## 2011年
+<a id="q23"></a><a id="q2012-17"></a>
 
-<a id="q2011-11"></a>
+### 23 · 2012年
 
-### 24 · 2011-11 · 填空题 ·【补练】
-
-<img src="../bank/2011/q11.png?v=fc546d05433b" alt="2011-11" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
+<img src="../bank/2012/q17.png" alt="23 (2012)" width="782" style="display: block; width: 48.9em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
-<a id="q2011-20"></a>
+<a id="q24"></a><a id="q2011-11"></a>
 
-### 25 · 2011-20 · 解答题 ·【见识】
+### 24 · 2011年
 
-<img src="../bank/2011/q20.png?v=b3f252fda27d" alt="2011-20" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
-
----
-
-## 2010年
-
-<a id="q2010-12"></a>
-
-### 26 · 2010-12 · 填空题 ·【补练】
-
-<img src="../bank/2010/q12.png?v=e2defd957f0c" alt="2010-12" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
+<img src="../bank/2011/q11.png" alt="24 (2011)" width="486" style="display: block; width: 30.38em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
-<a id="q2010-18"></a>
+<a id="q25"></a><a id="q2011-20"></a>
 
-### 27 · 2010-18 · 解答题 ·【首轮后放】
+### 25 · 2011年
 
-> 柱体贮油罐质量物理题。横截面是椭圆，油罐平放时积分变量沿高度积，微元面积是一块椭圆弦长弓形，利用椭圆对称性化简积分。
-
-<img src="../bank/2010/q18.png?v=7150d06e97e5" alt="2010-18" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
+<img src="../bank/2011/q20.png" alt="25 (2011)" width="782" style="display: block; width: 48.9em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
-## 交叉考点索引
+<a id="q26"></a><a id="q2010-12"></a>
 
-以下题目主归其他章节，点击跳转到对应章节题目；不计入本章主收录题数：
+### 26 · 2010年
 
-- [2022年 · 第18题](14-first-order-ode.md)（主章节：一阶微分方程）
-- [2020年 · 第21题](14-first-order-ode.md)（主章节：一阶微分方程）
-- [2019年 · 第17题](14-first-order-ode.md)（主章节：一阶微分方程）
-- [2014年 · 第20题](02-sequences.md)（主章节：数列极限与求和极限）
+<img src="../bank/2010/q12.png" alt="26 (2010)" width="492" style="display: block; width: 30.76em; max-width: 100%; height: auto; margin: 14px 0;">
+
+---
+
+<a id="q27"></a><a id="q2010-18"></a>
+
+### 27 · 2010年
+
+> *柱体贮油罐质量物理题。横截面是椭圆，油罐平放时积分变量沿高度积，微元面积是一块椭圆弦长弓形，利用椭圆对称性化简积分。*
+
+<img src="../bank/2010/q18.png" alt="27 (2010)" width="782" style="display: block; width: 48.86em; max-width: 100%; height: auto; margin: 14px 0;">
+
+---
 
 [« 反常积分](12-improper-integrals.md)　　[一阶微分方程 »](14-first-order-ode.md)
