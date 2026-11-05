@@ -1,11 +1,39 @@
 {
   "year": 2025,
   "status": "preview-awaiting-user-review",
-  "sourceCommit": "e0fc390df3f9a5d95b4a6e55da724879d45f69b5",
+  "sourceCommit": "e4539e3c6974cda771d8712cb640bd50e875e3f2",
   "sourceHtmlSha256": "9661d955bd343bb03c22d6a35e596a5772fb962b20775aefa8923234f31f44bc",
-  "sourceCssSha256": "948201d635a43d40e0e7b2ed277741a3eafbcf780d4892986695cd5b1c0e5613",
+  "sourceCssSha256": "97284696db9056aa5961af25c64dd14e7d882d12a91d94eda340f210c0f496f8",
   "sourceJsSha256": "45bc12485aca1a2f71b9da678df9d1099aac2b119546869dfbbda2db6aaa0b2b",
   "browser": "153.0.8010.0",
+  "fontCoverage": {
+    "requiredCharacters": 536,
+    "fonts": {
+      "serif": {
+        "file": "exam-song.otf",
+        "sha256": "b5b389162f931162d572ea8188a09e305df06eb639c723a416bd108733c41902",
+        "mappedCharacters": 592,
+        "missing": []
+      },
+      "sans": {
+        "file": "exam-hei.otf",
+        "sha256": "61e9d6159ce834d79020254630eec893cec40c9f1de6ffee9676b66290cd48de",
+        "mappedCharacters": 592,
+        "missing": []
+      }
+    }
+  },
+  "fontLoading": {
+    "songLoaded": true,
+    "heiLoaded": true,
+    "failures": []
+  },
+  "pdfGlyphs": {
+    "file": "math2_2025_preview.pdf",
+    "pages": 4,
+    "tracedCharacters": 2763,
+    "missingGlyphs": []
+  },
   "questions": 22,
   "numbers": [
     1,
@@ -36,7 +64,7 @@
   "unrendered": 0,
   "overflow": [],
   "imagesLoaded": true,
+  "pdfSha256": "52f645a637766f04a8c07ac6aff765bc766e59d7df63836bc451fec64bb48b90",
   "pdfPages": 4,
-  "pdfSha256": "c40da3ee1c8f3501ec1c8e61976654603ad451850f4c0e46bfa1ffdae56fe8b3",
-  "visualReview": "All 4 pages rendered and reviewed; no detected formula overlap or missing headings/footers."
+  "visualReview": "All four pages rendered; section headings enlarged and checked, including 案、母、括。"
 }

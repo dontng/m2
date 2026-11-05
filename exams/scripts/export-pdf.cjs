@@ -19,10 +19,12 @@ if (start < 2010 || end > 2026 || start > end) throw new Error('年份范围应�
   });
   const output = process.env.PDF_OUTPUT || path.join(root, 'pdf');
   fs.mkdirSync(output, { recursive: true });
+  const page = await browser.newPage({ viewport: { width: 665, height: 1040 } });
+  try {
   for (let year = start; year <= end; year++) {
-    const page = await browser.newPage({ viewport: { width: 665, height: 1040 } });
     const failedRequests = [];
-    page.on('requestfailed', request => failedRequests.push(request.url()));
+    const onFailed = request => failedRequests.push(request.url());
+    page.on('requestfailed', onFailed);
     await page.emulateMedia({ media: 'print' });
     await page.goto(pathToFileURL(path.join(root, `years/${year}.html`)).href);
     await page.waitForFunction(() => document.body.dataset.ready === 'true');
@@ -67,7 +69,7 @@ if (start < 2010 || end > 2026 || start > end) throw new Error('年份范围应�
     pdfGlyphs.file = path.basename(file);
     fs.writeFileSync(path.join(output, `math2_${year}.json`), JSON.stringify({ year, sourceCommit, sourceHtmlSha256: createHash('sha256').update(fs.readFileSync(path.join(root, `years/${year}.html`))).digest('hex'), sourceCssSha256: createHash('sha256').update(fs.readFileSync(path.join(root, 'assets/exam.css'))).digest('hex'), sourceJsSha256: createHash('sha256').update(fs.readFileSync(path.join(root, 'assets/exam.js'))).digest('hex'), fontCoverage, fontLoading, pdfGlyphs, ...checks, failedRequests }, null, 2) + '\n');
     console.log(`${year}: PDF 已生成；${checks.questions}题，${checks.formulas}段公式，${pdfGlyphs.pages}页PDF，缺字检查通过`);
-    await page.close();
+    page.off('requestfailed', onFailed);
   }
-  await browser.close();
+  } finally { await browser.close(); }
 })().catch(error => { console.error(error); process.exit(1); });

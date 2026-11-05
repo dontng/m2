@@ -16,7 +16,7 @@ Chromium 的合法 Type3 汉字轮廓也可能报告 glyph 0，因此不能一�
 
 ## 检查与重建
 
-依赖 Python fonttools、PyMuPDF；导出还需 Playwright 与 Chromium。
+依赖 Python fonttools、PyMuPDF（`pip install -r exams/scripts/font-requirements.txt`）；导出还需 Playwright 与 Chromium。
 
 ```sh
 python exams/scripts/font_assets.py

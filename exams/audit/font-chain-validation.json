@@ -1,0 +1,208 @@
+{
+  "scope": "17 annual HTML papers; temporary verification only",
+  "isolatedSystemFont": "Only DejaVuSans.ttf; no system CJK fonts",
+  "fontconfig": "<fontconfig><dir>/tmp/m2-empty-fonts</dir></fontconfig>",
+  "dependencies": {
+    "fonttools": "4.61.1",
+    "PyMuPDF": "1.26.6"
+  },
+  "oldPreviewRegression": [
+    {
+      "year": 2016,
+      "rejected": true,
+      "missingGlyphs": 3
+    },
+    {
+      "year": 2025,
+      "rejected": true,
+      "missingGlyphs": 3
+    }
+  ],
+  "annualResults": [
+    {
+      "year": 2010,
+      "questions": 23,
+      "formulas": 115,
+      "pages": 4,
+      "missingGlyphs": 0,
+      "horizontalOverflow": [],
+      "fontsLoaded": true,
+      "pdfSha256": "4e1d856801d79afcba008f459ebdbb6241506bc62963af3602350c9f9c70aa52"
+    },
+    {
+      "year": 2011,
+      "questions": 23,
+      "formulas": 136,
+      "pages": 4,
+      "missingGlyphs": 0,
+      "horizontalOverflow": [],
+      "fontsLoaded": true,
+      "pdfSha256": "829fb8a4de9a2d855427ea489ad8108a168c016dbb907527d7e63b2953971de5"
+    },
+    {
+      "year": 2012,
+      "questions": 23,
+      "formulas": 127,
+      "pages": 4,
+      "missingGlyphs": 0,
+      "horizontalOverflow": [],
+      "fontsLoaded": true,
+      "pdfSha256": "c317d1eaed6f46434cb04567ff790a326e608496cdf632a6de59225837b66f04"
+    },
+    {
+      "year": 2013,
+      "questions": 23,
+      "formulas": 142,
+      "pages": 4,
+      "missingGlyphs": 0,
+      "horizontalOverflow": [],
+      "fontsLoaded": true,
+      "pdfSha256": "e58d4fa2c4572e6f1d4e3d316c4fe7c7adcfa41f138f9881d523749a57e6b870"
+    },
+    {
+      "year": 2014,
+      "questions": 23,
+      "formulas": 120,
+      "pages": 4,
+      "missingGlyphs": 0,
+      "horizontalOverflow": [],
+      "fontsLoaded": true,
+      "pdfSha256": "2851bba21c43645e605a8c3030b8ac201b4776a99bb88316450361614a80bf29"
+    },
+    {
+      "year": 2015,
+      "questions": 23,
+      "formulas": 144,
+      "pages": 4,
+      "missingGlyphs": 0,
+      "horizontalOverflow": [],
+      "fontsLoaded": true,
+      "pdfSha256": "c1bc06e78aebc60207f75535b5026ed53f2ee4a610c9184b416389837677bb62"
+    },
+    {
+      "year": 2016,
+      "questions": 23,
+      "formulas": 148,
+      "pages": 4,
+      "missingGlyphs": 0,
+      "horizontalOverflow": [],
+      "fontsLoaded": true,
+      "pdfSha256": "f8ff401ed8f51fe1f4e5d335c5d25a6e20abb0fc3a4d10f97ce33a77186f716b"
+    },
+    {
+      "year": 2017,
+      "questions": 23,
+      "formulas": 123,
+      "pages": 4,
+      "missingGlyphs": 0,
+      "horizontalOverflow": [],
+      "fontsLoaded": true,
+      "pdfSha256": "936052958ccf4838a86b43b09cfe70a2fb9867e7e4e221a39ff13bdf809bba4d"
+    },
+    {
+      "year": 2018,
+      "questions": 23,
+      "formulas": 117,
+      "pages": 4,
+      "missingGlyphs": 0,
+      "horizontalOverflow": [],
+      "fontsLoaded": true,
+      "pdfSha256": "f6c72d72e7b4d84a4ad20edb04100c93ff7f28b45360b8f361d1eb85b79f7558"
+    },
+    {
+      "year": 2019,
+      "questions": 23,
+      "formulas": 111,
+      "pages": 4,
+      "missingGlyphs": 0,
+      "horizontalOverflow": [],
+      "fontsLoaded": true,
+      "pdfSha256": "b097ea777c38eea6e0eb2c525c12229adad3f76d14a3d107ea96acf91501e66c"
+    },
+    {
+      "year": 2020,
+      "questions": 23,
+      "formulas": 135,
+      "pages": 4,
+      "missingGlyphs": 0,
+      "horizontalOverflow": [],
+      "fontsLoaded": true,
+      "pdfSha256": "58b92cb8a06fc4f780a6b5eef7dc60fb7d24c522be3fdf3d9ae94920c8392f91"
+    },
+    {
+      "year": 2021,
+      "questions": 22,
+      "formulas": 132,
+      "pages": 4,
+      "missingGlyphs": 0,
+      "horizontalOverflow": [],
+      "fontsLoaded": true,
+      "pdfSha256": "4adb0fe517960a9f9df34683bb123f64e0d5572f2d30b8b81d6388acf502356d"
+    },
+    {
+      "year": 2022,
+      "questions": 22,
+      "formulas": 140,
+      "pages": 4,
+      "missingGlyphs": 0,
+      "horizontalOverflow": [],
+      "fontsLoaded": true,
+      "pdfSha256": "4b8bc71cec5eebb4d7ce01ad2d47e0da52af8cda950b0064fe6865245ed3ab52"
+    },
+    {
+      "year": 2023,
+      "questions": 22,
+      "formulas": 133,
+      "pages": 4,
+      "missingGlyphs": 0,
+      "horizontalOverflow": [],
+      "fontsLoaded": true,
+      "pdfSha256": "7a266a1fb3ebae9467ebc65527f69f53a59823eb3c28b5a623bb2172c88b8c24"
+    },
+    {
+      "year": 2024,
+      "questions": 22,
+      "formulas": 135,
+      "pages": 4,
+      "missingGlyphs": 0,
+      "horizontalOverflow": [],
+      "fontsLoaded": true,
+      "pdfSha256": "6f2bc5d042f3adafea70d8d424f5793ab05e929db5dfd1573aa62df05d4f40f1"
+    },
+    {
+      "year": 2025,
+      "questions": 22,
+      "formulas": 145,
+      "pages": 4,
+      "missingGlyphs": 0,
+      "horizontalOverflow": [],
+      "fontsLoaded": true,
+      "pdfSha256": "ff31527501864035e3e5e9a730a4a402bb9f1eb455f344773ab0fb3ad05e58ee"
+    },
+    {
+      "year": 2026,
+      "questions": 22,
+      "formulas": 128,
+      "pages": 4,
+      "missingGlyphs": 0,
+      "horizontalOverflow": [],
+      "fontsLoaded": true,
+      "pdfSha256": "f44b1ca2d628f2f8a251735ee4d8654ac855340325e601addb37c5ef932ef857"
+    }
+  ],
+  "totalPages": 68,
+  "totalQuestions": 385,
+  "validationFilesSha256": {
+    "assets/exam.css": "97284696db9056aa5961af25c64dd14e7d882d12a91d94eda340f210c0f496f8",
+    "assets/exam-song.otf": "b5b389162f931162d572ea8188a09e305df06eb639c723a416bd108733c41902",
+    "assets/exam-hei.otf": "61e9d6159ce834d79020254630eec893cec40c9f1de6ffee9676b66290cd48de",
+    "scripts/font_assets.py": "78f141f6c38922845be38bb4a95b99507e8dcc05bfb054ce54d04c561125679a",
+    "scripts/pdf-guards.cjs": "5977799ca20308c39382623bea099399021ac05e33df85161cf9a766e1d49b43",
+    "scripts/pdf_glyphs.py": "213a48d65aff283ab494c87a0b20000fa0845b1ad6d477bcc2e9385d4a6a3504",
+    "scripts/export-pdf.cjs": "ad234d021c7ab04b4d4eb2521fddf57efc300c84c8621d813a55eb17e1b4c371",
+    "scripts/export-preview.cjs": "aad2a9643f18c3d0a8f9d4a278d359cf6c336a3d77033eb968acc5830ed2f344"
+  },
+  "systemFontsAvailable": [
+    "DejaVu Sans"
+  ]
+}

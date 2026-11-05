@@ -53,13 +53,16 @@ def check():
     for kind, name in FONTS.items():
         path = ASSETS / name
         font = TTFont(path); cmap = font.getBestCmap()
-        missing = sorted(codes - set(cmap))
+        missing = sorted(c for c in codes if c not in cmap or font.getGlyphID(cmap[c]) == 0)
         if missing:
             raise ValueError(f'{name}: missing ' + ', '.join(f'U+{c:04X} {chr(c)}' for c in missing))
         result[kind] = dict(file=name, sha256=digest(path), mappedCharacters=len(cmap), missing=[])
     css = (ASSETS / 'exam.css').read_text()
     for token in ['--font-serif: "ExamSong"', '--font-hei: "ExamHei"', 'font-family: var(--font-serif);']:
         if token not in css: raise ValueError('Local font routing missing: ' + token)
+    footer = re.search(r'@bottom-center\s*\{([^}]+)', css)
+    if not footer or not re.search(r'font-family\s*:\s*var\(--font-serif\)', footer[1]):
+        raise ValueError('Page footer must use the local serif font route')
     return dict(requiredCharacters=len(codes), fonts=result)
 
 def main():
