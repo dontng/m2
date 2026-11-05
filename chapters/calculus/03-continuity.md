@@ -2,89 +2,69 @@
 
 # 高等数学 · 连续与间断点
 
-> **全章 6 题｜本表头已点名 6 题｜未归类 0 题。**\
-> **必会 3 题·按此顺序**：[2017-01](#q2017-1)（连续条件定参数） → [2018-03](#q2018-3)（逐处分段接缝） → [2010-01](#q2010-1)（约分后仍查定义域）\
-> **再练 2 题**：[2024-01](#q2024-1)（幂指函数左右极限） → [2020-02](#q2020-2)（逐个筛查奇点）\
-> **见识 1 题·先会开题**：[2015-02](#q2015-2)（极限定义函数仍须查定义域）\
-> **首轮过关**：每个疑点都列左右极限与函数值，再判间断点类别。
+> **本章共 6 题**
+> 
+> - **核心必做（建议按顺序攻克关键方法）**：  
+>   [第 04 题](#q04)（连续条件定参数） → [第 03 题](#q03)（逐处分段接缝） → [第 06 题](#q06)（约分后仍查定义域）
+> 
+> - **分流与刷题建议**：  
+>   - **较难挑战**：[第 01 题](#q01)（幂指函数左右极限）、[第 02 题](#q02)（逐个筛查奇点）  
+>   - **重在看思路**：[第 05 题](#q05)（极限定义函数仍须查定义域）  
+> 
+> - **过关目标**：每个疑点都列左右极限与函数值，再判间断点类别。
 
 ---
 
-## 2024年
+<a id="q01"></a><a id="q2024-1"></a>
 
-<a id="q2024-1"></a>
+### 01 · 2024年
 
-### 01 · 2024-01 · 选择题 ·【再练】
+> *幂指函数间断点。底数有绝对值，先看无定义的点 $x=0, 1, 2$。分别求各点处的左右极限，只有左右极限都存在且不等的才是第一类间断点。*
 
-> 幂指函数间断点。底数有绝对值，先看无定义的点 <img src="../math/dad218514dc687bd.svg" alt="公式：x=0, 1, 2" width="78" height="16" align="middle" style="width:4.8585em;height:0.973em;vertical-align:-0.2195em;">。分别求各点处的左右极限，只有左右极限都存在且不等的才是第一类间断点。
-
-<img src="../bank/2024/q01.png?v=c764be7c5130" alt="2024-01" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
+<img src="../bank/2024/q01.png" alt="01 (2024)" width="643" style="display: block; width: 40.21em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
-## 2020年
+<a id="q02"></a><a id="q2020-2"></a>
 
-<a id="q2020-2"></a>
+### 02 · 2020年
 
-### 02 · 2020-02 · 选择题 ·【再练】
+> *第二类间断点判别。令分母为 0 找出疑点 $x=0, 1, 2$ 以及 $\ln|1+x|$ 的未定义点 $x=-1$。只要单侧极限是无穷大或振荡就归为第二类，逐个排查别漏点。*
 
-> 第二类间断点判别。令分母为 0 找出疑点 <img src="../math/dad218514dc687bd.svg" alt="公式：x=0, 1, 2" width="78" height="16" align="middle" style="width:4.8585em;height:0.973em;vertical-align:-0.2195em;"> 以及 <img src="../math/e401a736d184d5af.svg" alt="公式：\ln|1+x|" width="70" height="19" align="middle" style="width:4.3565em;height:1.13em;vertical-align:-0.282em;"> 的未定义点 <img src="../math/1f253e4b34bf6486.svg" alt="公式：x=-1" width="58" height="14" align="middle" style="width:3.6015em;height:0.846em;vertical-align:-0.093em;">。只要单侧极限是无穷大或振荡就归为第二类，逐个排查别漏点。
-
-<img src="../bank/2020/q02.png?v=f22ce1b8e0ee" alt="2020-02" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
+<img src="../bank/2020/q02.png" alt="02 (2020)" width="664" style="display: block; width: 41.52em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
-## 2018年
+<a id="q03"></a><a id="q2018-3"></a>
 
-<a id="q2018-3"></a>
+### 03 · 2018年
 
-### 03 · 2018-03 · 选择题 ·【必会】
-
-<img src="../bank/2018/q03.png?v=b922134b2b7f" alt="2018-03" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
+<img src="../bank/2018/q03.png" alt="03 (2018)" width="743" style="display: block; width: 46.45em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
-## 2017年
+<a id="q04"></a><a id="q2017-1"></a>
 
-<a id="q2017-1"></a>
+### 04 · 2017年
 
-### 04 · 2017-01 · 选择题 ·【必会】
-
-<img src="../bank/2017/q01.png?v=e8be9af43046" alt="2017-01" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
+<img src="../bank/2017/q01.png" alt="04 (2017)" width="681" style="display: block; width: 42.55em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
-## 2015年
+<a id="q05"></a><a id="q2015-2"></a>
 
-<a id="q2015-2"></a>
+### 05 · 2015年
 
-### 05 · 2015-02 · 选择题 ·【见识】
-
-<img src="../bank/2015/q02.png?v=f4be2b6816c6" alt="2015-02" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
-
-*关联章节：[函数极限与无穷小](01-limits.md) · [导数、微分与求导法则](04-derivatives.md)*
+<img src="../bank/2015/q02.png" alt="05 (2015)" width="734" style="display: block; width: 45.86em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
-## 2010年
+<a id="q06"></a><a id="q2010-1"></a>
 
-<a id="q2010-1"></a>
+### 06 · 2010年
 
-### 06 · 2010-01 · 选择题 ·【必会】
-
-<img src="../bank/2010/q01.png?v=6c0ec02db1eb" alt="2010-01" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
+<img src="../bank/2010/q01.png" alt="06 (2010)" width="643" style="display: block; width: 40.21em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
-
-## 交叉考点索引
-
-以下题目主归其他章节，点击跳转到对应章节题目；不计入本章主收录题数：
-
-- [2026年 · 第18题](11-definite-integrals.md)（主章节：定积分、变上限积分与积分性质）
-- [2021年 · 第2题](04-derivatives.md)（主章节：导数、微分与求导法则）
-- [2020年 · 第16题](11-definite-integrals.md)（主章节：定积分、变上限积分与积分性质）
-- [2016年 · 第2题](10-antiderivatives.md)（主章节：不定积分与原函数）
-- [2015年 · 第3题](04-derivatives.md)（主章节：导数、微分与求导法则）
-- [2013年 · 第3题](11-definite-integrals.md)（主章节：定积分、变上限积分与积分性质）
 
 [« 数列极限与求和极限](02-sequences.md)　　[导数、微分与求导法则 »](04-derivatives.md)
