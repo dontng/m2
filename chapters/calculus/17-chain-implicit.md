@@ -2,253 +2,195 @@
 
 # 高等数学 · 多元复合函数与隐函数求导
 
-> **全章 21 题｜本表头已点名 21 题｜未归类 0 题。**\
-> **必会 5 题·按此顺序**：[2012-11](#q2012-11)（链式法则的内外层） → [2015-13](#q2015-13)（隐函数全微分） → [2023-13](#q2023-13)（隐函数二阶偏导） → [2017-16](#q2017-16)（复合函数二阶导） → [2011-17](#q2011-17)（混合偏导与给定极值条件）\
-> **补练 9 题·按薄弱点选做**：[2026-03](#q2026-3)、[2026-14](#q2026-14)、[2025-01](#q2025-1)、[2022-04](#q2022-4)、[2021-13](#q2021-13)、[2019-11](#q2019-11)、[2018-13](#q2018-13)、[2014-11](#q2014-11)、[2013-05](#q2013-5)\
-> **冲一冲 1 题**：[2024-20](#q2024-20)（二阶变量替换并恢复函数）\
-> **见识 1 题·先会开题**：[2010-05](#q2010-5)（齐次结构让偏导组合消去）\
-> **首轮后放 3 题·本轮可跳过**：[2019-20](#q2019-20)、[2014-18](#q2014-18)、[2010-19](#q2010-19)\
-> **待核 2 题·暂不训练**：[2015-05](#q2015-5)（目标点与当前换元定义不符，待核） → [2021-06](#q2021-6)（按两条恒等式求导的结果与选项不符，待核）\
-> **首轮过关**：二阶求导要保留每一层内导；先求基点再代数值。
+> **本章共 21 题**
+> 
+> - **核心必做（建议按顺序攻克关键方法）**：  
+>   [第 18 题](#q18)（链式法则的内外层） → [第 14 题](#q14)（隐函数全微分） → [第 05 题](#q05)（隐函数二阶偏导） → [第 12 题](#q12)（复合函数二阶导） → [第 19 题](#q19)（混合偏导与给定极值条件）
+> 
+> - **分流与刷题建议**：  
+>   - **较难挑战**：[第 04 题](#q04)（二阶变量替换并恢复函数）  
+>   - **重在看思路**：[第 20 题](#q20)（齐次结构让偏导组合消去）  
+>   - **首轮可跳过**：[第 10 题](#q10)、[第 16 题](#q16)、[第 21 题](#q21)（技巧较偏或综合度高，首轮不必死磕）  
+>   - **题面存疑暂缓**：[第 13 题](#q13)（目标点与当前换元定义不符，待核）、[第 07 题](#q07)（按两条恒等式求导的结果与选项不符，待核）（原卷转写存疑，首轮暂不安排）  
+> 
+> - **过关目标**：二阶求导要保留每一层内导；先求基点再代数值。
 
 ---
 
-## 2026年
+<a id="q01"></a><a id="q2026-3"></a>
 
-<a id="q2026-3"></a>
+### 01 · 2026年
 
-### 01 · 2026-03 · 选择题 ·【补练】
+> *一阶隐函数求导。方程两边直接对 $x$ 和 $y$ 分别求偏导，把 $z$ 视为中间变量，直接求出偏导数比值，不要把 $z$ 硬解出来。*
 
-> 一阶隐函数求导。方程两边直接对 <img src="../math/2d711642b726b044.svg" alt="公式：x" width="11" height="9" align="middle" style="width:0.647em;height:0.5125em;vertical-align:-0.0125em;"> 和 <img src="../math/a1fce4363854ff88.svg" alt="公式：y" width="9" height="12" align="middle" style="width:0.5545em;height:0.732em;vertical-align:-0.232em;"> 分别求偏导，把 <img src="../math/594e519ae499312b.svg" alt="公式：z" width="9" height="9" align="middle" style="width:0.526em;height:0.5125em;vertical-align:-0.0125em;"> 视为中间变量，直接求出偏导数比值，不要把 <img src="../math/594e519ae499312b.svg" alt="公式：z" width="9" height="9" align="middle" style="width:0.526em;height:0.5125em;vertical-align:-0.0125em;"> 硬解出来。
-
-<img src="../bank/2026/q03.png?v=ce9c91903606" alt="2026-03" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
+<img src="../bank/2026/q03.png" alt="01 (2026)" width="567" style="display: block; width: 35.45em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
-<a id="q2026-14"></a>
+<a id="q02"></a><a id="q2026-14"></a>
 
-### 02 · 2026-14 · 填空题 ·【补练】
+### 02 · 2026年
 
-<img src="../bank/2026/q14.png?v=d5beefdd19da" alt="2026-14" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
-
-*关联章节：[多元函数极限、偏导与全微分](16-multivariable-basics.md)*
+<img src="../bank/2026/q14.png" alt="02 (2026)" width="781" style="display: block; width: 48.83em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
-## 2025年
+<a id="q03"></a><a id="q2025-1"></a>
 
-<a id="q2025-1"></a>
+### 03 · 2025年
 
-### 03 · 2025-01 · 选择题 ·【补练】
-
-<img src="../bank/2025/q01.png?v=60a20247370d" alt="2025-01" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
-
-*关联章节：[定积分、变上限积分与积分性质](11-definite-integrals.md)*
+<img src="../bank/2025/q01.png" alt="03 (2025)" width="595" style="display: block; width: 37.17em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
-## 2024年
+<a id="q04"></a><a id="q2024-20"></a>
 
-<a id="q2024-20"></a>
+### 04 · 2024年
 
-### 04 · 2024-20 · 解答题 ·【冲一冲】
+> *复合函数二阶偏导大题。令 $u=2x+y, v=3x-y$，用链式法则分别算一阶、二阶偏导，代入原偏微分方程，交叉偏导项会相互抵消，化成极简方程。*
 
-> 复合函数二阶偏导大题。令 <img src="../math/dc1b65e73a9769c3.svg" alt="公式：u=2x+y, v=3x-y" width="177" height="16" align="middle" style="width:11.0155em;height:0.9855em;vertical-align:-0.232em;">，用链式法则分别算一阶、二阶偏导，代入原偏微分方程，交叉偏导项会相互抵消，化成极简方程。
-
-<img src="../bank/2024/q20.png?v=7602c5121de8" alt="2024-20" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
-
-*关联章节：[多元函数极限、偏导与全微分](16-multivariable-basics.md)*
+<img src="../bank/2024/q20.png" alt="04 (2024)" width="781" style="display: block; width: 48.83em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
-## 2023年
+<a id="q05"></a><a id="q2023-13"></a>
 
-<a id="q2023-13"></a>
+### 05 · 2023年
 
-### 05 · 2023-13 · 填空题 ·【必会】
-
-<img src="../bank/2023/q13.png?v=a0b7aa9029c0" alt="2023-13" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
+<img src="../bank/2023/q13.png" alt="05 (2023)" width="609" style="display: block; width: 38.03em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
-## 2022年
+<a id="q06"></a><a id="q2022-4"></a>
 
-<a id="q2022-4"></a>
+### 06 · 2022年
 
-### 06 · 2022-04 · 选择题 ·【补练】
-
-<img src="../bank/2022/q04.png?v=2a35fce7425a" alt="2022-04" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
-
-*关联章节：[定积分、变上限积分与积分性质](11-definite-integrals.md)*
+<img src="../bank/2022/q04.png" alt="06 (2022)" width="474" style="display: block; width: 29.62em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
-## 2021年
+<a id="q07"></a><a id="q2021-6"></a>
 
-<a id="q2021-6"></a>
+### 07 · 2021年
 
-### 07 · 2021-06 · 选择题 ·【待核】
-
-<img src="../bank/2021/q06.png?v=bfe378178413" alt="2021-06" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
-
-*关联章节：[多元函数极限、偏导与全微分](16-multivariable-basics.md)*
+<img src="../bank/2021/q06.png" alt="07 (2021)" width="674" style="display: block; width: 42.1em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
-<a id="q2021-13"></a>
+<a id="q08"></a><a id="q2021-13"></a>
 
-### 08 · 2021-13 · 填空题 ·【补练】
+### 08 · 2021年
 
-<img src="../bank/2021/q13.png?v=01b063da47c4" alt="2021-13" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
-
----
-
-## 2019年
-
-<a id="q2019-11"></a>
-
-### 09 · 2019-11 · 填空题 ·【补练】
-
-<img src="../bank/2019/q11.png?v=1517b5298814" alt="2019-11" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
+<img src="../bank/2021/q13.png" alt="08 (2021)" width="767" style="display: block; width: 47.97em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
-<a id="q2019-20"></a>
+<a id="q09"></a><a id="q2019-11"></a>
 
-### 10 · 2019-20 · 解答题 ·【首轮后放】
+### 09 · 2019年
 
-> 偏微分方程坐标代换化简。做变量代换后，把所有偏导数换为关于新变量 <img src="../math/2d1aff819a8ce8f2.svg" alt="公式：u, v" width="28" height="12" align="middle" style="width:1.6985em;height:0.7205em;vertical-align:-0.2195em;"> 的导数，代入原方程整理，通常会化为标准的常微分方程形式。
-
-<img src="../bank/2019/q20.png?v=d88de677e3a5" alt="2019-20" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
-
-*关联章节：[多元函数极限、偏导与全微分](16-multivariable-basics.md)*
+<img src="../bank/2019/q11.png" alt="09 (2019)" width="545" style="display: block; width: 34.03em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
-## 2018年
+<a id="q10"></a><a id="q2019-20"></a>
 
-<a id="q2018-13"></a>
+### 10 · 2019年
 
-### 11 · 2018-13 · 填空题 ·【补练】
+> *偏微分方程坐标代换化简。做变量代换后，把所有偏导数换为关于新变量 $u, v$ 的导数，代入原方程整理，通常会化为标准的常微分方程形式。*
 
-<img src="../bank/2018/q13.png?v=a780fea909de" alt="2018-13" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
-
----
-
-## 2017年
-
-<a id="q2017-16"></a>
-
-### 12 · 2017-16 · 解答题 ·【必会】
-
-<img src="../bank/2017/q16.png?v=844432842832" alt="2017-16" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
+<img src="../bank/2019/q20.png" alt="10 (2019)" width="778" style="display: block; width: 48.62em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
-## 2015年
+<a id="q11"></a><a id="q2018-13"></a>
 
-<a id="q2015-5"></a>
+### 11 · 2018年
 
-### 13 · 2015-05 · 选择题 ·【待核】
-
-<img src="../bank/2015/q05.png?v=72a0c0c5ed8b" alt="2015-05" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
+<img src="../bank/2018/q13.png" alt="11 (2018)" width="634" style="display: block; width: 39.62em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
-<a id="q2015-13"></a>
+<a id="q12"></a><a id="q2017-16"></a>
 
-### 14 · 2015-13 · 填空题 ·【必会】
+### 12 · 2017年
 
-<img src="../bank/2015/q13.png?v=1b13980e7d37" alt="2015-13" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
-
-*关联章节：[多元函数极限、偏导与全微分](16-multivariable-basics.md)*
+<img src="../bank/2017/q16.png" alt="12 (2017)" width="628" style="display: block; width: 39.28em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
-## 2014年
+<a id="q13"></a><a id="q2015-5"></a>
 
-<a id="q2014-11"></a>
+### 13 · 2015年
 
-### 15 · 2014-11 · 填空题 ·【补练】
-
-<img src="../bank/2014/q11.png?v=e9c94f239ce9" alt="2014-11" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
-
-*关联章节：[多元函数极限、偏导与全微分](16-multivariable-basics.md)*
+<img src="../bank/2015/q05.png" alt="13 (2015)" width="673" style="display: block; width: 42.07em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
-<a id="q2014-18"></a>
+<a id="q14"></a><a id="q2015-13"></a>
 
-### 16 · 2014-18 · 解答题 ·【首轮后放】
+### 14 · 2015年
 
-<img src="../bank/2014/q18.png?v=3fd900de43fd" alt="2014-18" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
-
-*关联章节：[高阶微分方程](15-higher-order-ode.md)*
+<img src="../bank/2015/q13.png" alt="14 (2015)" width="644" style="display: block; width: 40.24em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
-## 2013年
+<a id="q15"></a><a id="q2014-11"></a>
 
-<a id="q2013-5"></a>
+### 15 · 2014年
 
-### 17 · 2013-05 · 选择题 ·【补练】
-
-<img src="../bank/2013/q05.png?v=5b28d8371524" alt="2013-05" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
+<img src="../bank/2014/q11.png" alt="15 (2014)" width="699" style="display: block; width: 43.69em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
-## 2012年
+<a id="q16"></a><a id="q2014-18"></a>
 
-<a id="q2012-11"></a>
+### 16 · 2014年
 
-### 18 · 2012-11 · 填空题 ·【必会】
-
-<img src="../bank/2012/q11.png?v=c4a1353573c3" alt="2012-11" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
+<img src="../bank/2014/q18.png" alt="16 (2014)" width="777" style="display: block; width: 48.59em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
-## 2011年
+<a id="q17"></a><a id="q2013-5"></a>
 
-<a id="q2011-17"></a>
+### 17 · 2013年
 
-### 19 · 2011-17 · 解答题 ·【必会】
-
-<img src="../bank/2011/q17.png?v=c5ceca230931" alt="2011-17" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
+<img src="../bank/2013/q05.png" alt="17 (2013)" width="530" style="display: block; width: 33.1em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
-## 2010年
+<a id="q18"></a><a id="q2012-11"></a>
 
-<a id="q2010-5"></a>
+### 18 · 2012年
 
-### 20 · 2010-05 · 选择题 ·【见识】
-
-<img src="../bank/2010/q05.png?v=4e84273fac12" alt="2010-05" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
+<img src="../bank/2012/q11.png" alt="18 (2012)" width="609" style="display: block; width: 38.03em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
-<a id="q2010-19"></a>
+<a id="q19"></a><a id="q2011-17"></a>
 
-### 21 · 2010-19 · 解答题 ·【首轮后放】
+### 19 · 2011年
 
-> 二阶偏导方程化简大题。链式法则展开时切记对每个中间变量逐层求导，利用二阶混合偏导连续性合并同类项，耐心整理系数。
-
-<img src="../bank/2010/q19.png?v=c9ce0c06bcc1" alt="2010-19" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 12px 0;">
-
-*关联章节：[多元函数极限、偏导与全微分](16-multivariable-basics.md)*
+<img src="../bank/2011/q17.png" alt="19 (2011)" width="782" style="display: block; width: 48.9em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
-## 交叉考点索引
+<a id="q20"></a><a id="q2010-5"></a>
 
-以下题目主归其他章节，点击跳转到对应章节题目；不计入本章主收录题数：
+### 20 · 2010年
 
-- [2024年 · 第13题](14-first-order-ode.md)（主章节：一阶微分方程）
-- [2022年 · 第20题](18-multivariable-extrema.md)（主章节：多元函数极值与最值）
-- [2017年 · 第12题](16-multivariable-basics.md)（主章节：多元函数极限、偏导与全微分）
-- [2016年 · 第17题](18-multivariable-extrema.md)（主章节：多元函数极值与最值）
-- [2013年 · 第19题](18-multivariable-extrema.md)（主章节：多元函数极值与最值）
-- [2012年 · 第9题](04-derivatives.md)（主章节：导数、微分与求导法则）
-- [2011年 · 第21题](19-double-integrals.md)（主章节：二重积分）
+<img src="../bank/2010/q05.png" alt="20 (2010)" width="774" style="display: block; width: 48.34em; max-width: 100%; height: auto; margin: 14px 0;">
+
+---
+
+<a id="q21"></a><a id="q2010-19"></a>
+
+### 21 · 2010年
+
+> *二阶偏导方程化简大题。链式法则展开时切记对每个中间变量逐层求导，利用二阶混合偏导连续性合并同类项，耐心整理系数。*
+
+<img src="../bank/2010/q19.png" alt="21 (2010)" width="782" style="display: block; width: 48.86em; max-width: 100%; height: auto; margin: 14px 0;">
+
+---
 
 [« 多元函数极限、偏导与全微分](16-multivariable-basics.md)　　[多元函数极值与最值 »](18-multivariable-extrema.md)
