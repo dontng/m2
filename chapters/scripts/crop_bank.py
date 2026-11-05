@@ -16,7 +16,7 @@ ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..'))
 BANK_DIR = os.path.join(ROOT, 'chapters', 'bank')
 os.makedirs(BANK_DIR, exist_ok=True)
 
-def digest(path):
+def file_digest(path):
     with open(path, 'rb') as f:
         return hashlib.sha256(f.read()).hexdigest()
 
@@ -199,7 +199,7 @@ async def main():
                         manifest[f"{year}-{q['num']:02d}"] = dict(path=f"bank/{year}/q{q['num']:02d}.png", original_size=original_size, original_sha256=hashlib.sha256(original.getvalue()).hexdigest(), sha256=digest, canvas_width=1440, display_width=720)
                         total_saved += 1
 
-                    sources[str(year)] = dict(html=digest(os.path.join(ROOT, f'exams/years/{year}.html')), css=digest(os.path.join(ROOT, 'exams/assets/exam.css')), js=digest(os.path.join(ROOT, 'exams/assets/exam.js')), serif=digest(os.path.join(ROOT, 'exams/assets/exam-song.otf')), sans=digest(os.path.join(ROOT, 'exams/assets/exam-hei.otf')))
+                    sources[str(year)] = dict(html=file_digest(os.path.join(ROOT, f'exams/years/{year}.html')), css=file_digest(os.path.join(ROOT, 'exams/assets/exam.css')), js=file_digest(os.path.join(ROOT, 'exams/assets/exam.js')), serif=file_digest(os.path.join(ROOT, 'exams/assets/exam-song.otf')), sans=file_digest(os.path.join(ROOT, 'exams/assets/exam-hei.otf')))
                     checkpoint()
                     print(f'{year}: 成功截取 {len(q_list)} 道HTML题目，清单已保存。', flush=True)
 
