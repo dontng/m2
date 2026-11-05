@@ -3,6 +3,7 @@
 import hashlib
 import json
 import re
+from urllib.parse import urlsplit, parse_qs
 from pathlib import Path
 from PIL import Image, ImageChops
 
@@ -21,7 +22,9 @@ def main():
                 continue
             key = re.search(r'alt="(\d{4}-\d{2})"', tag)[1]
             src = re.search(r'src="([^"]+)"', tag)[1]
-            assert (md.parent / src).resolve() == (ROOT / images[key]['path']).resolve()
+            parts = urlsplit(src)
+            assert parse_qs(parts.query).get('v') == [images[key]['sha256'][:12]], (md, key, 'stale image version')
+            assert (md.parent / parts.path).resolve() == (ROOT / images[key]['path']).resolve()
             assert 'width="720"' in tag and 'width: 45.0em;' in tag, (md, key)
             refs[key] = refs.get(key, 0) + 1
     assert len(files) == 25 and set(refs) == set(images)
@@ -39,6 +42,11 @@ def main():
         gray = im.convert('L')
         box = gray.point(lambda v: 255 if v < 236 else 0).getbbox()
         assert box and min(box[0], box[1], im.width-box[2], im.height-box[3]) >= 10, key
+    for year in range(2010, 2027):
+        source = manifest['sources'][str(year)]
+        files = dict(html=f'exams/years/{year}.html', css='exams/assets/exam.css', js='exams/assets/exam.js', serif='exams/assets/exam-song.otf', sans='exams/assets/exam-hei.otf')
+        for kind, rel in files.items():
+            assert hashlib.sha256((ROOT.parent / rel).read_bytes()).hexdigest() == source[kind], (year, kind, 'stale source')
     print('PASS: 25章、385个唯一引用；尺寸、哈希、纯白补边一致。')
 
 

@@ -14,7 +14,10 @@ const root = path.resolve(__dirname, '..');
       for (const tag of md.match(/<img\b[^>]*>/g) || []) {
         const src = tag.match(/src="([^"]+)"/)[1];
         if (!src.includes('/bank/')) continue;
-        tags.push(tag.replace(src, pathToFileURL(path.resolve(root, group, src)).href));
+        const [plain, query] = src.split('?');
+        const url = pathToFileURL(path.resolve(root, group, plain));
+        if (query) url.search = query;
+        tags.push(tag.replace(src, url.href));
       }
     }
   }

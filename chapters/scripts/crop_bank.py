@@ -4,6 +4,7 @@
 依赖：python3 -m pip install websockets pillow
 执行：python3 chapters/scripts/crop_bank.py；可用 CHROME 指定浏览器路径。
 """
+import argparse
 import os, sys, asyncio, json, subprocess, time, base64, urllib.request, io, shutil, hashlib, tempfile
 for k in ['http_proxy', 'https_proxy', 'HTTP_PROXY', 'HTTPS_PROXY', 'all_proxy', 'ALL_PROXY']:
     os.environ.pop(k, None)
@@ -15,13 +16,34 @@ ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..'))
 BANK_DIR = os.path.join(ROOT, 'chapters', 'bank')
 os.makedirs(BANK_DIR, exist_ok=True)
 
+def digest(path):
+    with open(path, 'rb') as f:
+        return hashlib.sha256(f.read()).hexdigest()
+
+parser = argparse.ArgumentParser(description=__doc__)
+parser.add_argument('--start', type=int, default=2010)
+parser.add_argument('--end', type=int, default=2026)
+args = parser.parse_args()
+if not 2010 <= args.start <= args.end <= 2026:
+    parser.error('年份应为2010—2026的递增区间')
+
 async def main():
+    # 字体覆盖先检查；截图不能依赖系统中文字体补字。
+    subprocess.check_call([sys.executable, os.path.join(ROOT, 'exams/scripts/font_assets.py')])
     # 启动 Chromium Headless
     chrome = os.environ.get('CHROME') or shutil.which('google-chrome') or shutil.which('chromium')
     if not chrome:
         raise RuntimeError('需要 Chromium；请安装或设置 CHROME')
     profile = tempfile.TemporaryDirectory(prefix='m2-capture-')
-    manifest = {}
+    manifest_path = os.path.join(ROOT, 'chapters/data/image-display.json')
+    previous = json.load(open(manifest_path)) if os.path.exists(manifest_path) else {}
+    manifest = previous.get('images', {})
+    sources = previous.get('sources', {})
+    def checkpoint():
+        data = dict(canvas_width=1440, display_width=720, source_scale=2, viewport=[900,1200], sources=sources, images=manifest)
+        with open(manifest_path + '.tmp', 'w') as f:
+            json.dump(data, f, ensure_ascii=False, indent=2); f.write('\n')
+        os.replace(manifest_path + '.tmp', manifest_path)
     proc = subprocess.Popen([
         chrome,
         '--user-data-dir=' + profile.name,
@@ -50,7 +72,7 @@ async def main():
                         return resp
 
             total_saved = 0
-            for year in range(2010, 2027):
+            for year in range(args.start, args.end + 1):
                 year_bank = os.path.join(BANK_DIR, str(year))
                 os.makedirs(year_bank, exist_ok=True)
                 html_url = f'file://{ROOT}/exams/years/{year}.html'
@@ -85,7 +107,7 @@ async def main():
                             break
                     else:
                         raise RuntimeError(f'{year}: 字体或公式未就绪，停止截图')
-                    ready = await send_page('Runtime.evaluate', {'expression': "(async () => { await document.fonts.ready; await Promise.all([...document.images].map(i => i.decode())); return !document.querySelector('.katex-error') })()", 'awaitPromise': True, 'returnByValue': True})
+                    ready = await send_page('Runtime.evaluate', {'expression': "(async () => { await document.fonts.ready; const a=await document.fonts.load('16px ExamSong','答案字母括号'); const b=await document.fonts.load('bold 16px ExamHei','答案字母括号'); if(!a.length || !b.length || [...document.fonts].some(f=>f.status==='error')) return false; await Promise.all([...document.images].map(i => i.decode())); return !document.querySelector('.katex-error') })()", 'awaitPromise': True, 'returnByValue': True})
                     if ready.get('result', {}).get('result', {}).get('value') is not True:
                         raise RuntimeError(f'{year}: 附图或公式加载失败')
 
@@ -177,16 +199,17 @@ async def main():
                         manifest[f"{year}-{q['num']:02d}"] = dict(path=f"bank/{year}/q{q['num']:02d}.png", original_size=original_size, original_sha256=hashlib.sha256(original.getvalue()).hexdigest(), sha256=digest, canvas_width=1440, display_width=720)
                         total_saved += 1
 
-                    print(f'{year}: 成功截取 {len(q_list)} 道HTML题目。')
+                    sources[str(year)] = dict(html=digest(os.path.join(ROOT, f'exams/years/{year}.html')), css=digest(os.path.join(ROOT, 'exams/assets/exam.css')), js=digest(os.path.join(ROOT, 'exams/assets/exam.js')), serif=digest(os.path.join(ROOT, 'exams/assets/exam-song.otf')), sans=digest(os.path.join(ROOT, 'exams/assets/exam-hei.otf')))
+                    checkpoint()
+                    print(f'{year}: 成功截取 {len(q_list)} 道HTML题目，清单已保存。', flush=True)
 
                 await send_cmd(b_ws, 'Target.closeTarget', {'targetId': target_id})
 
-            if total_saved != 385:
-                raise RuntimeError(f'题量错误: {total_saved}')
-            with open(os.path.join(ROOT, 'chapters', 'data', 'image-display.json'), 'w') as f:
-                json.dump(dict(canvas_width=1440, display_width=720, source_scale=2, images=manifest), f, ensure_ascii=False, indent=2)
-                f.write('\n')
-            print(f'全部完成！总共截取保存 {total_saved} 张HTML高清题面。')
+            expected = sum(23 if year <= 2020 else 22 for year in range(args.start, args.end + 1))
+            if total_saved != expected:
+                raise RuntimeError(f'题量错误: {total_saved}，应为{expected}')
+            checkpoint()
+            print(f'本批完成：{args.start}—{args.end}，共{total_saved}张题图。', flush=True)
     finally:
         proc.terminate()
         proc.wait(timeout=10)

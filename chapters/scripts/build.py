@@ -283,7 +283,8 @@ for c in TAXONOMY:
         if w != 1440:
             raise ValueError(f"题图未统一画布，请先运行 normalize_bank.py: {im_file}")
         w_em = w / 2 / 16
-        img_rel = f"../bank/{r['year']}/q{r['number']:02d}.png"
+        version = hashlib.sha256(im_file.read_bytes()).hexdigest()[:12]
+        img_rel = f"../bank/{r['year']}/q{r['number']:02d}.png?v={version}"
 
         md_content.append(f'<a id="q{r["id"]}"></a>\n')
         decision_key = decisions[r['id']][0]

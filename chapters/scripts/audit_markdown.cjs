@@ -31,7 +31,7 @@ function audit(file) {
   for (const [, anchor] of html.matchAll(/href="#(q[^"]+)"/g)) check(anchors.has(anchor), `${file}: 缺失题目锚点 ${anchor}`);
   for (const [, target] of html.matchAll(/(?:href|src)="([^"]+)"/g)) {
     if (/^(?:[a-z]+:|#|\/)/i.test(target)) continue;
-    const plain = target.split('#')[0];
+    const plain = target.split(/[?#]/)[0];
     check(fs.existsSync(path.resolve(path.dirname(file), plain)), `${file}: 失效链接 ${target}`);
     links++;
   }
