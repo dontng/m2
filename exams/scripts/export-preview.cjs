@@ -7,12 +7,14 @@ const path = require('node:path');
 const { pathToFileURL } = require('node:url');
 const { createHash } = require('node:crypto');
 const { chromium } = require('playwright');
+const { fontPreflight, browserFonts, pdfPostflight } = require('./pdf-guards.cjs');
 const root = path.resolve(__dirname, '..');
 const years = process.argv.slice(2).map(Number);
 if (!years.length || years.length > 2 || new Set(years).size !== years.length || years.some(y => !Number.isInteger(y) || y < 2010 || y > 2026)) throw Error('请指定 1—2 个不同年份（2010—2026），例如 2016 2025');
 const digest = file => createHash('sha256').update(fs.readFileSync(path.join(root, file))).digest('hex');
 (async () => {
-  const out = path.join(root, 'pdf/preview');
+  const fontCoverage = fontPreflight();
+  const out = process.env.PDF_PREVIEW_OUTPUT || path.join(root, 'pdf/preview');
   fs.mkdirSync(out, { recursive: true });
   const browser = await chromium.launch({ ...(process.env.CHROMIUM_PATH ? { executablePath: process.env.CHROMIUM_PATH } : {}), args: ['--no-sandbox'] });
   try {
@@ -25,6 +27,7 @@ const digest = file => createHash('sha256').update(fs.readFileSync(path.join(roo
       await page.goto(pathToFileURL(path.join(root, `years/${year}.html`)).href);
       await page.waitForFunction(() => document.body.dataset.ready === 'true');
       await page.evaluate(async () => { await document.fonts.ready; await Promise.all([...document.images].map(i => i.decode())); });
+      const fontLoading = await browserFonts(page);
       const checks = await page.evaluate(() => {
         const qs = [...document.querySelectorAll('.question')];
         const host = document.querySelector('main').getBoundingClientRect();
@@ -36,8 +39,13 @@ const digest = file => createHash('sha256').update(fs.readFileSync(path.join(roo
       });
       if (failed.length || checks.formulaErrors || checks.unrendered || checks.overflow.length || !checks.imagesLoaded || checks.questions !== (year <= 2020 ? 23 : 22) || checks.numbers.some((n, i) => n !== i + 1)) throw Error(JSON.stringify({year, failed, checks}));
       const file = `math2_${year}_preview.pdf`;
-      await page.pdf({ path: path.join(out, file), preferCSSPageSize: true, printBackground: true, displayHeaderFooter: false, scale: 1 });
-      fs.writeFileSync(path.join(out, file.replace('.pdf', '.json')), JSON.stringify({ year, status: 'preview-awaiting-user-review', sourceCommit: process.env.SOURCE_COMMIT || null, sourceHtmlSha256: digest(`years/${year}.html`), sourceCssSha256: digest('assets/exam.css'), sourceJsSha256: digest('assets/exam.js'), browser: browser.version(), ...checks }, null, 2) + '\n');
+      const temporary = path.join(out, file + '.tmp.pdf');
+      await page.pdf({ path: temporary, preferCSSPageSize: true, printBackground: true, displayHeaderFooter: false, scale: 1 });
+      let pdfGlyphs;
+      try { pdfGlyphs = pdfPostflight(temporary); } catch (e) { fs.unlinkSync(temporary); throw e; }
+      fs.renameSync(temporary, path.join(out, file));
+      pdfGlyphs.file = file;
+      fs.writeFileSync(path.join(out, file.replace('.pdf', '.json')), JSON.stringify({ year, status: 'preview-awaiting-user-review', sourceCommit: process.env.SOURCE_COMMIT || null, sourceHtmlSha256: digest(`years/${year}.html`), sourceCssSha256: digest('assets/exam.css'), sourceJsSha256: digest('assets/exam.js'), browser: browser.version(), fontCoverage, fontLoading, pdfGlyphs, ...checks }, null, 2) + '\n');
       console.log(`${year}: ${checks.questions}题，${checks.formulas}段公式；PDF样稿已生成。`);
       page.off('requestfailed', onFailed);
     }

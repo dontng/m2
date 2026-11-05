@@ -4,12 +4,19 @@
   font-display: swap;
 }
 
+/* Local heading font: same complete page corpus as the body font. */
+@font-face {
+  font-family: ExamHei;
+  src: url("exam-hei.otf") format("opentype");
+  font-display: swap;
+}
+
 :root {
   --bg-desk: #f0f2f5;
   --paper: #ffffff;
   --ink: #000000;
-  --font-serif: "SimSun", "Songti SC", "STSong", "NSimSun", "Source Han Serif CN", "ExamSong", serif;
-  --font-hei: "SimHei", "Heiti SC", "STHeiti", "Source Han Sans CN", sans-serif;
+  --font-serif: "ExamSong", "SimSun", "Songti SC", "STSong", "NSimSun", "Source Han Serif CN", serif;
+  --font-hei: "ExamHei", "SimHei", "Heiti SC", "STHeiti", "Source Han Sans CN", sans-serif;
   --footer-text: "数学(二)试题";
   --answer-space: 40mm;
 }
@@ -279,6 +286,8 @@ body {
   font-size: 1.05em;
 }
 
+.katex .cjk_fallback { font-family: "ExamSong", serif; }
+
 /* 积分上下限使用 KaTeX 原生排版：保留斜体修正，紧凑且避让符号。
    不覆盖 op-symbol / msupsub / vlist 的间距，也不强制上下限竖直对齐。 */
 
@@ -301,7 +310,7 @@ body {
   margin: 12mm 16mm 12mm 16mm;
   @bottom-center {
     content: var(--footer-text) "  第 " counter(page) " 页 (共 " counter(pages) " 页)";
-    font-family: "SimSun", "Songti SC", "STSong", "NSimSun", serif;
+    font-family: var(--font-serif);
     font-size: 9.5pt;
     color: #111;
   }

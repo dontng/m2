@@ -5,17 +5,19 @@ const { createHash } = require('node:crypto');
 const { execFileSync } = require('node:child_process');
 const { pathToFileURL } = require('node:url');
 const { chromium } = require('playwright');
+const { fontPreflight, browserFonts, pdfPostflight } = require('./pdf-guards.cjs');
 const root = path.resolve(__dirname, '..');
 const start = Number(process.argv[2] || 2010);
 const end = Number(process.argv[3] || 2026);
 if (start < 2010 || end > 2026 || start > end) throw new Error('年份范围应在 2010—2026 年之间');
 (async () => {
-  const sourceCommit = execFileSync('git', ['rev-parse', 'HEAD'], { cwd: root, encoding: 'utf8' }).trim();
+  const fontCoverage = fontPreflight();
+  const sourceCommit = process.env.SOURCE_COMMIT || execFileSync('git', ['rev-parse', 'HEAD'], { cwd: root, encoding: 'utf8' }).trim();
   const browser = await chromium.launch({
     ...(process.env.CHROMIUM_PATH ? { executablePath: process.env.CHROMIUM_PATH } : {}),
     args: ['--no-sandbox']
   });
-  const output = path.join(root, 'pdf');
+  const output = process.env.PDF_OUTPUT || path.join(root, 'pdf');
   fs.mkdirSync(output, { recursive: true });
   for (let year = start; year <= end; year++) {
     const page = await browser.newPage({ viewport: { width: 665, height: 1040 } });
@@ -25,15 +27,16 @@ if (start < 2010 || end > 2026 || start > end) throw new Error('年份范围应�
     await page.goto(pathToFileURL(path.join(root, `years/${year}.html`)).href);
     await page.waitForFunction(() => document.body.dataset.ready === 'true');
     await page.evaluate(async () => { await document.fonts.ready; await Promise.all([...document.images].map(i => i.decode())); });
+    const fontLoading = await browserFonts(page);
     const checks = await page.evaluate(() => {
       const walker = document.createTreeWalker(document.querySelector('main'), NodeFilter.SHOW_TEXT);
       const residualMath = [];
       while (walker.nextNode()) { const n = walker.currentNode; if (!n.parentElement.closest('.katex') && /\$|\\(?:begin|frac|displaystyle|int|boldsymbol|lim)\b/.test(n.textContent)) residualMath.push(n.textContent.slice(0,100)); }
       const pages = [...document.querySelectorAll('.exam-page')];
       const overflows = [];
-      for (const element of document.querySelectorAll('.question .katex-html, .option')) {
+      for (const element of document.querySelectorAll('.question .katex-html > .base, .option')) {
         const r = element.getBoundingClientRect();
-        const host = element.closest('.exam-page-content').getBoundingClientRect();
+        const host = (element.closest('.exam-page-content') || document.querySelector('main')).getBoundingClientRect();
         if (r.right > host.right + 2 || r.left < host.left - 2) overflows.push(element.closest('.question').id);
       }
       const pageOverflow = pages.flatMap((p, index) => {
@@ -56,9 +59,14 @@ if (start < 2010 || end > 2026 || start > end) throw new Error('年份范围应�
     if (checks.horizontalOverflow.length || checks.pageOverflow.length) throw Error(`${year}: 版面溢出 ${JSON.stringify(checks)}`);
     if (checks.questions !== (year <= 2020 ? 23 : 22) || checks.questionNumbers.some((n, i) => n !== i + 1)) throw Error(`${year}: 题目不完整`);
     const file = path.join(output, `math2_${year}.pdf`);
-    await page.pdf({ path: file, preferCSSPageSize: true, printBackground: true, displayHeaderFooter: false, scale: 1 });
-    fs.writeFileSync(path.join(output, `math2_${year}.json`), JSON.stringify({ year, sourceCommit, sourceHtmlSha256: createHash('sha256').update(fs.readFileSync(path.join(root, `years/${year}.html`))).digest('hex'), ...checks, failedRequests }, null, 2) + '\n');
-    console.log(`${year}: PDF 已生成；${checks.questions}题，${checks.formulas}段公式，${checks.htmlPages}个HTML分页`);
+    const temporary = file + '.tmp.pdf';
+    await page.pdf({ path: temporary, preferCSSPageSize: true, printBackground: true, displayHeaderFooter: false, scale: 1 });
+    let pdfGlyphs;
+    try { pdfGlyphs = pdfPostflight(temporary); } catch (e) { fs.unlinkSync(temporary); throw e; }
+    fs.renameSync(temporary, file);
+    pdfGlyphs.file = path.basename(file);
+    fs.writeFileSync(path.join(output, `math2_${year}.json`), JSON.stringify({ year, sourceCommit, sourceHtmlSha256: createHash('sha256').update(fs.readFileSync(path.join(root, `years/${year}.html`))).digest('hex'), sourceCssSha256: createHash('sha256').update(fs.readFileSync(path.join(root, 'assets/exam.css'))).digest('hex'), sourceJsSha256: createHash('sha256').update(fs.readFileSync(path.join(root, 'assets/exam.js'))).digest('hex'), fontCoverage, fontLoading, pdfGlyphs, ...checks, failedRequests }, null, 2) + '\n');
+    console.log(`${year}: PDF 已生成；${checks.questions}题，${checks.formulas}段公式，${pdfGlyphs.pages}页PDF，缺字检查通过`);
     await page.close();
   }
   await browser.close();
