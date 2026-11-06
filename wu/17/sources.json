@@ -88,9 +88,16 @@
       "pages": 61,
       "extracted_text_chars": 17654,
       "cover_text": "专题2  求极限常用的方法\n27高等数学17堂课\n主讲   武忠祥 \n（P8-26）",
-      "status": "indexed_only",
-      "visually_reviewed_pages": [],
-      "notes": []
+      "status": "partially_reviewed",
+      "visually_reviewed_pages": [
+        17,
+        18,
+        19,
+        20
+      ],
+      "notes": [
+        "methods.md"
+      ]
     },
     {
       "id": "17-09",
@@ -111,8 +118,12 @@
       "extracted_text_chars": 9469,
       "cover_text": "",
       "status": "indexed_only",
-      "visually_reviewed_pages": [],
-      "notes": []
+      "visually_reviewed_pages": [
+        1
+      ],
+      "notes": [
+        "仅核对封面，正文仍待研读"
+      ]
     },
     {
       "id": "17-11",
@@ -144,8 +155,12 @@
       "extracted_text_chars": 6174,
       "cover_text": "",
       "status": "indexed_only",
-      "visually_reviewed_pages": [],
-      "notes": []
+      "visually_reviewed_pages": [
+        1
+      ],
+      "notes": [
+        "仅核对封面，正文仍待研读"
+      ]
     },
     {
       "id": "17-14",

@@ -11,9 +11,18 @@
       "pages": 47,
       "extracted_text_chars": 13297,
       "cover_text": "26考研选填题速成\n主讲  武忠祥\n(高等数学)",
-      "status": "indexed_only",
-      "visually_reviewed_pages": [],
-      "notes": []
+      "status": "partially_reviewed",
+      "visually_reviewed_pages": [
+        3,
+        9,
+        16,
+        17,
+        23,
+        25
+      ],
+      "notes": [
+        "methods.md"
+      ]
     },
     {
       "id": "xt-02",
