@@ -1,0 +1,95 @@
+{
+  "schema_version": 2,
+  "updated_at": "2026-11-07",
+  "page_numbering": "PDF physical pages, 1-based; not lecture handout page labels",
+  "scope": "Inventory is complete for PDFs currently present; indexed_only does not mean read or mastered.",
+  "files": [
+    {
+      "id": "xt-01",
+      "file": "26选填题（1）板书.pdf",
+      "sha256": "0753f6d71c11d3750b4c701d861d59de1f6e3b27ad2233c55b5652845d7a8e67",
+      "pages": 47,
+      "extracted_text_chars": 13297,
+      "cover_text": "26考研选填题速成\n主讲  武忠祥\n(高等数学)",
+      "status": "pending_lesson_note",
+      "visually_reviewed_pages": [
+        3,
+        9,
+        16,
+        17,
+        23,
+        25
+      ],
+      "pdf": "../pdf/26选填题（1）板书.pdf",
+      "previous_review_notes": [
+        "methods.md"
+      ],
+      "notes": ""
+    },
+    {
+      "id": "xt-02",
+      "file": "26选填题（2）板书.pdf",
+      "sha256": "3c0d4d353d598a294322321e1d29802edafa8e7d3c705e1f17d5e0707f08f28a",
+      "pages": 36,
+      "extracted_text_chars": 13182,
+      "cover_text": "26选填题速成(2)\n主讲  武忠祥\n(高等数学)",
+      "status": "pending_lesson_note",
+      "visually_reviewed_pages": [],
+      "pdf": "../pdf/26选填题（2）板书.pdf",
+      "previous_review_notes": [],
+      "notes": ""
+    },
+    {
+      "id": "xt-03",
+      "file": "26选填题（3）板书.pdf",
+      "sha256": "c8bf6508b6d9a216d03ad9f21ef97f6bd360d89ea53a281acf73ee1d1d5ace63",
+      "pages": 67,
+      "extracted_text_chars": 22573,
+      "cover_text": "26选填题速成(3)\n主讲  武忠祥\n(高等数学)",
+      "status": "pending_lesson_note",
+      "visually_reviewed_pages": [],
+      "pdf": "../pdf/26选填题（3）板书.pdf",
+      "previous_review_notes": [],
+      "notes": ""
+    },
+    {
+      "id": "xt-04",
+      "file": "26选填题（4）板书.pdf",
+      "sha256": "9564c57917539fc98d813e05427efd0f0882564ba016a5d0f084bdb52ce45af1",
+      "pages": 60,
+      "extracted_text_chars": 12829,
+      "cover_text": "26选填题速成(4)\n主讲  武忠祥\n(高等数学)",
+      "status": "pending_lesson_note",
+      "visually_reviewed_pages": [],
+      "pdf": "../pdf/26选填题（4）板书.pdf",
+      "previous_review_notes": [],
+      "notes": ""
+    },
+    {
+      "id": "xt-05",
+      "file": "26选填题（5）板书.pdf",
+      "sha256": "023a9512d038f9758f76a1a68b285a497aa29f6ed7f326c500983ce6ce6523b4",
+      "pages": 79,
+      "extracted_text_chars": 23544,
+      "cover_text": "26选填题速成(5)\n主讲  武忠祥\n(高等数学)",
+      "status": "pending_lesson_note",
+      "visually_reviewed_pages": [],
+      "pdf": "../pdf/26选填题（5）板书.pdf",
+      "previous_review_notes": [],
+      "notes": ""
+    },
+    {
+      "id": "xt-06",
+      "file": "26选填题（6）板书.pdf",
+      "sha256": "96515d64bd63e217501e57b92bed1f07938b934f99fa98cdb4b4dce4ea6a91bc",
+      "pages": 58,
+      "extracted_text_chars": 15404,
+      "cover_text": "26选填题速成(6)\n主讲  武忠祥\n(高等数学)",
+      "status": "pending_lesson_note",
+      "visually_reviewed_pages": [],
+      "pdf": "../pdf/26选填题（6）板书.pdf",
+      "previous_review_notes": [],
+      "notes": ""
+    }
+  ]
+}
