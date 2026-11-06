@@ -1,0 +1,43 @@
+{
+  "phase": "课程理解MD阶段，尚未接入或改写真题解析",
+  "question_statuses": [
+    {
+      "id": "2011-1",
+      "status": "题干文本相符，待后续逐题接入",
+      "sources": [
+        {
+          "course": "17",
+          "file": "17堂课专题4（板书）.pdf",
+          "pages": [
+            17,
+            18
+          ]
+        },
+        {
+          "course": "xt",
+          "file": "26选填题（2）板书.pdf",
+          "pages": [
+            5
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2015-15",
+      "status": "题面差异待独立原卷核对，不移植答案",
+      "project": "ln(1+x)+a*x+b*x*sin(x)",
+      "board": "x+a*ln(1+x)+b*x*sin(x)",
+      "sources": [
+        {
+          "course": "17",
+          "file": "17堂课专题4（板书）.pdf",
+          "pages": [
+            25,
+            26
+          ]
+        }
+      ]
+    }
+  ],
+  "unlisted_questions": "尚未逐题匹配，不视为覆盖或遗漏结论"
+}
