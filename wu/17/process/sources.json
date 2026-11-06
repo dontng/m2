@@ -754,12 +754,28 @@
       "pages": 20,
       "extracted_text_chars": 6174,
       "cover_text": "",
-      "status": "draft_key_pages_only",
+      "status": "full_visual_read_lesson_note",
       "visually_reviewed_pages": [
         1,
         2,
         3,
-        16
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
       ],
       "pdf": "../pdf/17堂课专题9（板书）.pdf",
       "previous_review_notes": [
@@ -794,7 +810,7 @@
         "06-monotonicity-extrema",
         "02-sequences"
       ],
-      "verification": "此前生成的局部理解草稿，仅所列关键页视觉核对；不得按全课已读或正式方法库调用"
+      "verification": "全20页视觉阅读，11例全部覆盖；说明辅助函数的反向寻找和题间衔接，根列统一界为理解补足"
     },
     {
       "id": "26-01-1-limits",

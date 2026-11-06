@@ -927,9 +927,6 @@
         1,
         2,
         3,
-        16
-      ],
-      "pending_visual_pages": [
         4,
         5,
         6,
@@ -942,13 +939,15 @@
         13,
         14,
         15,
+        16,
         17,
         18,
         19,
         20
       ],
-      "note": "../notes/27-09-roots.md",
-      "status": "draft_key_pages_only"
+      "pending_visual_pages": [],
+      "note": "20页全读；11例及多法按原页说明入口和衔接，含根列比较与统一几何界的补足",
+      "status": "full_visual_read_lesson_note"
     },
     {
       "file": "26高数17堂课专题1-1.pdf",

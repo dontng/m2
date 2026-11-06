@@ -10,4 +10,4 @@
 
 逐课理解入口：[notes/README.md](notes/README.md)。处理清单：[process/sources.json](process/sources.json)；逐页状态：[process/page-index.json](process/page-index.json)。
 
-已为每份PDF保留独立MD。当前两份为逐页阅读后的深入理解稿，其余为局部草稿，不能当作全课已理解。当前只完成MD，不制作或安装Skill。此前两个方法样本及自编题保留在 `process/archive/`，仅供追溯，不再作为当前教学输出。现有章节题单与真题图片保留。
+已为每份PDF保留独立MD。当前三份为逐页阅读后的深入理解稿，其余为局部草稿，不能当作全课已理解。当前只完成MD，不制作或安装Skill。此前两个方法样本及自编题保留在 `process/archive/`，仅供追溯，不再作为当前教学输出。现有章节题单与真题图片保留。
