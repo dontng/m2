@@ -802,11 +802,6 @@
         29
       ],
       "visually_read_pages": [
-        10,
-        18,
-        26
-      ],
-      "pending_visual_pages": [
         1,
         2,
         3,
@@ -816,6 +811,7 @@
         7,
         8,
         9,
+        10,
         11,
         12,
         13,
@@ -823,6 +819,7 @@
         15,
         16,
         17,
+        18,
         19,
         20,
         21,
@@ -830,12 +827,14 @@
         23,
         24,
         25,
+        26,
         27,
         28,
         29
       ],
-      "note": "../notes/27-05-derivative-definition.md",
-      "status": "draft_key_pages_only"
+      "pending_visual_pages": [],
+      "note": "全页视觉阅读完成；MD按原页覆盖原例、思路入口和衔接；手写尾页保留识读边界",
+      "status": "full_visual_read_lesson_note"
     },
     {
       "file": "17堂课专题8（板书）.pdf",

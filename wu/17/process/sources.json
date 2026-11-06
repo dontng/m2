@@ -622,11 +622,37 @@
       "pages": 29,
       "extracted_text_chars": 10250,
       "cover_text": "专题5  导数的概念及其应用\n27高等数学17堂课\n主讲   武忠祥 \n（P55-65）",
-      "status": "draft_key_pages_only",
+      "status": "full_visual_read_lesson_note",
       "visually_reviewed_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
         10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
         18,
-        26
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29
       ],
       "pdf": "../pdf/17堂课专题5（板书）.pdf",
       "previous_review_notes": [],
@@ -668,7 +694,7 @@
         "01-limits",
         "08-taylor"
       ],
-      "verification": "此前生成的局部理解草稿，仅所列关键页视觉核对；不得按全课已读或正式方法库调用"
+      "verification": "逐页视觉阅读；按原例说明题设到第一笔、题间联系、换路与停止条件；代表计算独立核验，补足不冒充课堂口述"
     },
     {
       "id": "27-08-inequalities",
