@@ -35,7 +35,7 @@
 
 **原题**（[在章节题单中查看](../../chapters/calculus/14-first-order-ode.md#q2011-10)）：
 
-<img src="../../chapters/bank/2011/q10.png" alt="14 (2011)" width="551" style="display: block; width: 34.45em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../../chapters/bank/2011/q10.png" alt="14 (2011)" width="542" style="display: block; width: 33.9em; max-width: 100%; height: auto; margin: 14px 0;">
 
 #### 触发条件与第一步落笔
 
@@ -79,7 +79,7 @@
 
 **原题**（[在章节题单中查看](../../chapters/calculus/14-first-order-ode.md#q2014-16)）：
 
-<img src="../../chapters/bank/2014/q16.png" alt="12 (2014)" width="735" style="display: block; width: 45.93em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../../chapters/bank/2014/q16.png" alt="12 (2014)" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 14px 0;">
 
 #### 触发条件与第一步落笔
 
@@ -142,7 +142,7 @@
 
 **原题**（[在章节题单中查看](../../chapters/calculus/14-first-order-ode.md#q2015-20)）：
 
-<img src="../../chapters/bank/2015/q20.png" alt="11 (2015)" width="782" style="display: block; width: 48.86em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../../chapters/bank/2015/q20.png" alt="11 (2015)" width="773" style="display: block; width: 48.31em; max-width: 100%; height: auto; margin: 14px 0;">
 
 #### 触发条件与第一步落笔
 
@@ -195,7 +195,7 @@
 
 **原题**（[在章节题单中查看](../../chapters/calculus/15-higher-order-ode.md#q2017-4)）：
 
-<img src="../../chapters/bank/2017/q04.png" alt="10 (2017)" width="701" style="display: block; width: 43.79em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../../chapters/bank/2017/q04.png" alt="10 (2017)" width="698" style="display: block; width: 43.62em; max-width: 100%; height: auto; margin: 14px 0;">
 
 #### 触发条件与第一步落笔
 
@@ -249,7 +249,7 @@
 
 **原题**（[在章节题单中查看](../../chapters/calculus/15-higher-order-ode.md#q2024-18)）：
 
-<img src="../../chapters/bank/2024/q18.png" alt="04 (2024)" width="782" style="display: block; width: 48.86em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../../chapters/bank/2024/q18.png" alt="04 (2024)" width="764" style="display: block; width: 47.72em; max-width: 100%; height: auto; margin: 14px 0;">
 
 #### 触发条件与第一步落笔
 
@@ -293,7 +293,7 @@ $$= 2\left[\frac{4}{3}u^3 - \frac{1}{5}u^5\right]_0^{\sqrt{3}} = 2\left(\frac{4}
 
 ### 1. 真题回练一（整体换元 $u = x+y$）：[2024 年第 13 题](../../chapters/calculus/14-first-order-ode.md#q2024-13)（填空题）
 
-<img src="../../chapters/bank/2024/q13.png" alt="02 (2024)" width="554" style="display: block; width: 34.62em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../../chapters/bank/2024/q13.png" alt="02 (2024)" width="543" style="display: block; width: 33.97em; max-width: 100%; height: auto; margin: 14px 0;">
 
 <details>
 <summary>点击核对思路与答案</summary>
@@ -309,7 +309,7 @@ $$= 2\left[\frac{4}{3}u^3 - \frac{1}{5}u^5\right]_0^{\sqrt{3}} = 2\left(\frac{4}
 
 ### 2. 真题回练二（线性微分方程解的结构）：[2026 年第 2 题](../../chapters/calculus/15-higher-order-ode.md#q2026-2)（选择题）
 
-<img src="../../chapters/bank/2026/q02.png" alt="01 (2026)" width="781" style="display: block; width: 48.83em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../../chapters/bank/2026/q02.png" alt="01 (2026)" width="767" style="display: block; width: 47.93em; max-width: 100%; height: auto; margin: 14px 0;">
 
 <details>
 <summary>点击核对思路与答案</summary>

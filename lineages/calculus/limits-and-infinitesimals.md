@@ -35,7 +35,7 @@
 
 **原题**（[在章节题单中查看](../../chapters/calculus/01-limits.md#q2016-1)）：
 
-<img src="../../chapters/bank/2016/q01.png" alt="15 (2016)" width="782" style="display: block; width: 48.86em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../../chapters/bank/2016/q01.png" alt="15 (2016)" width="769" style="display: block; width: 48.03em; max-width: 100%; height: auto; margin: 14px 0;">
 
 #### 第一步与触发条件
 
@@ -86,7 +86,7 @@
 
 **原题**（[在章节题单中查看](../../chapters/calculus/01-limits.md#q2026-1)）：
 
-<img src="../../chapters/bank/2026/q01.png" alt="01 (2026)" width="566" style="display: block; width: 35.38em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../../chapters/bank/2026/q01.png" alt="01 (2026)" width="553" style="display: block; width: 34.59em; max-width: 100%; height: auto; margin: 14px 0;">
 
 #### 第一步与完整推演
 
@@ -133,7 +133,7 @@
 
 **原题**（[在章节题单中查看](../../chapters/calculus/01-limits.md#q2022-11)）：
 
-<img src="../../chapters/bank/2022/q11.png" alt="06 (2022)" width="289" style="display: block; width: 18.03em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../../chapters/bank/2022/q11.png" alt="06 (2022)" width="284" style="display: block; width: 17.72em; max-width: 100%; height: auto; margin: 14px 0;">
 
 #### 第一步与完整推演
 
@@ -170,7 +170,7 @@
 
 **原题**（[在章节题单中查看](../../chapters/calculus/03-continuity.md#q2017-1)）：
 
-<img src="../../chapters/bank/2017/q01.png" alt="04 (2017)" width="681" style="display: block; width: 42.55em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../../chapters/bank/2017/q01.png" alt="04 (2017)" width="681" style="display: block; width: 42.59em; max-width: 100%; height: auto; margin: 14px 0;">
 
 #### 第一步与完整推演
 
@@ -203,7 +203,7 @@
 
 ### 1. 真题回练一：[2026 年第 12 题](../../chapters/calculus/01-limits.md#q2026-12)（填空题）
 
-<img src="../../chapters/bank/2026/q12.png" alt="02 (2026)" width="344" style="display: block; width: 21.52em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../../chapters/bank/2026/q12.png" alt="02 (2026)" width="342" style="display: block; width: 21.34em; max-width: 100%; height: auto; margin: 14px 0;">
 
 <details>
 <summary>点击核对要点与答案</summary>
@@ -219,7 +219,7 @@
 
 ### 2. 真题回练二：[2018 年第 3 题](../../chapters/calculus/03-continuity.md#q2018-3)（选择题）
 
-<img src="../../chapters/bank/2018/q03.png" alt="03 (2018)" width="743" style="display: block; width: 46.45em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../../chapters/bank/2018/q03.png" alt="03 (2018)" width="737" style="display: block; width: 46.03em; max-width: 100%; height: auto; margin: 14px 0;">
 
 <details>
 <summary>点击核对要点与答案</summary>

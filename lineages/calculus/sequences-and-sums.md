@@ -36,7 +36,7 @@
 
 **原题**（[在章节题单中查看](../../chapters/calculus/02-sequences.md#q2012-3)）：
 
-<img src="../../chapters/bank/2012/q03.png" alt="11 (2012)" width="717" style="display: block; width: 44.83em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../../chapters/bank/2012/q03.png" alt="11 (2012)" width="698" style="display: block; width: 43.66em; max-width: 100%; height: auto; margin: 14px 0;">
 
 #### 第一步与完整推演
 
@@ -84,7 +84,7 @@
 
 **原题**（[在章节题单中查看](../../chapters/calculus/02-sequences.md#q2016-10)）：
 
-<img src="../../chapters/bank/2016/q10.png" alt="08 (2016)" width="526" style="display: block; width: 32.86em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../../chapters/bank/2016/q10.png" alt="08 (2016)" width="523" style="display: block; width: 32.69em; max-width: 100%; height: auto; margin: 14px 0;">
 
 #### 第一步与完整推演
 
@@ -111,7 +111,7 @@
 
 **原题**（[在章节题单中查看](../../chapters/calculus/02-sequences.md#q2017-17)）：
 
-<img src="../../chapters/bank/2017/q17.png" alt="07 (2017)" width="241" style="display: block; width: 15.07em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../../chapters/bank/2017/q17.png" alt="07 (2017)" width="239" style="display: block; width: 14.97em; max-width: 100%; height: auto; margin: 14px 0;">
 
 #### 第一步与完整推演
 
@@ -156,7 +156,7 @@
 
 **原题**（[在章节题单中查看](../../chapters/calculus/02-sequences.md#q2011-19)）：
 
-<img src="../../chapters/bank/2011/q19.png" alt="14 (2011)" width="611" style="display: block; width: 38.17em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../../chapters/bank/2011/q19.png" alt="14 (2011)" width="599" style="display: block; width: 37.45em; max-width: 100%; height: auto; margin: 14px 0;">
 
 #### 第（I）问：用拉格朗日中值定理一步到位
 
@@ -197,7 +197,7 @@
 
 > 与[武忠祥选填第 1 课第 25 页例 6](../../wu/xt/notes/01-functions-limits.md#第25页例6发散也可能振荡反函数还要在有限极限处可用)为**同题复现**。
 
-<img src="../../chapters/bank/2024/q04.png" alt="02 (2024)" width="574" style="display: block; width: 35.86em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../../chapters/bank/2024/q04.png" alt="02 (2024)" width="571" style="display: block; width: 35.69em; max-width: 100%; height: auto; margin: 14px 0;">
 
 <details>
 <summary>点击核对要点与答案</summary>
@@ -215,7 +215,7 @@
 
 > 与[武忠祥选填第 2 课第 19 页例 16](../../wu/xt/notes/02-orders-continuity.md#例16第19页递推无穷小比较应构造商数列)为**同题复现**。
 
-<img src="../../chapters/bank/2023/q03.png" alt="03 (2023)" width="778" style="display: block; width: 48.62em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../../chapters/bank/2023/q03.png" alt="03 (2023)" width="781" style="display: block; width: 48.79em; max-width: 100%; height: auto; margin: 14px 0;">
 
 <details>
 <summary>点击核对要点与答案</summary>

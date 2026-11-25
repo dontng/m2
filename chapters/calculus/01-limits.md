@@ -22,7 +22,7 @@
 
 > *等价无穷小含参定系数。把 $\arcsin x$ 和三次根式分别用泰勒展开到 $x^2$，对照同阶系数，不用多次洛必达。*
 
-<img src="../bank/2026/q01.png" alt="01 (2026)" width="566" style="display: block; width: 35.38em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2026/q01.png" alt="01 (2026)" width="553" style="display: block; width: 34.59em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -30,7 +30,7 @@
 
 ### 02 · 2026年
 
-<img src="../bank/2026/q12.png" alt="02 (2026)" width="344" style="display: block; width: 21.52em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2026/q12.png" alt="02 (2026)" width="342" style="display: block; width: 21.34em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -38,7 +38,7 @@
 
 ### 03 · 2025年
 
-<img src="../bank/2025/q04.png" alt="03 (2025)" width="782" style="display: block; width: 48.86em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2025/q04.png" alt="03 (2025)" width="769" style="display: block; width: 48.07em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -46,7 +46,7 @@
 
 ### 04 · 2023年
 
-<img src="../bank/2023/q11.png" alt="04 (2023)" width="781" style="display: block; width: 48.83em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2023/q11.png" alt="04 (2023)" width="710" style="display: block; width: 44.38em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -54,7 +54,7 @@
 
 ### 05 · 2022年
 
-<img src="../bank/2022/q01.png" alt="05 (2022)" width="678" style="display: block; width: 42.38em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2022/q01.png" alt="05 (2022)" width="685" style="display: block; width: 42.79em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -62,7 +62,7 @@
 
 ### 06 · 2022年
 
-<img src="../bank/2022/q11.png" alt="06 (2022)" width="289" style="display: block; width: 18.03em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2022/q11.png" alt="06 (2022)" width="284" style="display: block; width: 17.72em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -70,7 +70,7 @@
 
 ### 07 · 2021年
 
-<img src="../bank/2021/q01.png" alt="07 (2021)" width="783" style="display: block; width: 48.97em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2021/q01.png" alt="07 (2021)" width="778" style="display: block; width: 48.62em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -80,7 +80,7 @@
 
 > *含变上限积分的 0/0 极限。分子分母同时展开，把变上限积分 $\int_0^x e^{t^2}dt$ 泰勒展开成 $x + x^3/3 + o(x^3)$，比硬用洛必达快三倍。*
 
-<img src="../bank/2021/q17.png" alt="08 (2021)" width="306" style="display: block; width: 19.14em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2021/q17.png" alt="08 (2021)" width="305" style="display: block; width: 19.07em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -88,7 +88,7 @@
 
 ### 09 · 2020年
 
-<img src="../bank/2020/q01.png" alt="09 (2020)" width="588" style="display: block; width: 36.76em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2020/q01.png" alt="09 (2020)" width="589" style="display: block; width: 36.79em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -96,7 +96,7 @@
 
 ### 10 · 2019年
 
-<img src="../bank/2019/q01.png" alt="10 (2019)" width="644" style="display: block; width: 40.24em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2019/q01.png" alt="10 (2019)" width="643" style="display: block; width: 40.21em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -104,7 +104,7 @@
 
 ### 11 · 2019年
 
-<img src="../bank/2019/q09.png" alt="11 (2019)" width="278" style="display: block; width: 17.38em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2019/q09.png" alt="11 (2019)" width="274" style="display: block; width: 17.1em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -112,7 +112,7 @@
 
 ### 12 · 2018年
 
-<img src="../bank/2018/q01.png" alt="12 (2018)" width="572" style="display: block; width: 35.72em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2018/q01.png" alt="12 (2018)" width="571" style="display: block; width: 35.69em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -120,7 +120,7 @@
 
 ### 13 · 2018年
 
-<img src="../bank/2018/q09.png" alt="13 (2018)" width="433" style="display: block; width: 27.07em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2018/q09.png" alt="13 (2018)" width="426" style="display: block; width: 26.66em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -128,7 +128,7 @@
 
 ### 14 · 2017年
 
-<img src="../bank/2017/q15.png" alt="14 (2017)" width="245" style="display: block; width: 15.31em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2017/q15.png" alt="14 (2017)" width="244" style="display: block; width: 15.28em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -136,7 +136,7 @@
 
 ### 15 · 2016年
 
-<img src="../bank/2016/q01.png" alt="15 (2016)" width="782" style="display: block; width: 48.86em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2016/q01.png" alt="15 (2016)" width="769" style="display: block; width: 48.03em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -144,7 +144,7 @@
 
 ### 16 · 2016年
 
-<img src="../bank/2016/q15.png" alt="16 (2016)" width="291" style="display: block; width: 18.21em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2016/q15.png" alt="16 (2016)" width="285" style="display: block; width: 17.83em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -154,7 +154,7 @@
 
 > *极限反求参数。看到 $x\to 0$ 且有三角函数和对数，全员展开到 $x^3$ 项，对比对应项系数直接列出方程组。*
 
-<img src="../bank/2015/q15.png" alt="17 (2015)" width="770" style="display: block; width: 48.14em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2015/q15.png" alt="17 (2015)" width="779" style="display: block; width: 48.69em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -162,7 +162,7 @@
 
 ### 18 · 2014年
 
-<img src="../bank/2014/q01.png" alt="18 (2014)" width="750" style="display: block; width: 46.9em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2014/q01.png" alt="18 (2014)" width="729" style="display: block; width: 45.55em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -170,7 +170,7 @@
 
 ### 19 · 2014年
 
-<img src="../bank/2014/q05.png" alt="19 (2014)" width="644" style="display: block; width: 40.28em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2014/q05.png" alt="19 (2014)" width="643" style="display: block; width: 40.17em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -178,7 +178,7 @@
 
 ### 20 · 2014年
 
-<img src="../bank/2014/q15.png" alt="20 (2014)" width="275" style="display: block; width: 17.17em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2014/q15.png" alt="20 (2014)" width="268" style="display: block; width: 16.72em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -186,7 +186,7 @@
 
 ### 21 · 2013年
 
-<img src="../bank/2013/q01.png" alt="21 (2013)" width="588" style="display: block; width: 36.72em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2013/q01.png" alt="21 (2013)" width="583" style="display: block; width: 36.41em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -194,7 +194,7 @@
 
 ### 22 · 2013年
 
-<img src="../bank/2013/q09.png" alt="22 (2013)" width="319" style="display: block; width: 19.93em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2013/q09.png" alt="22 (2013)" width="314" style="display: block; width: 19.66em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -202,7 +202,7 @@
 
 ### 23 · 2013年
 
-<img src="../bank/2013/q15.png" alt="23 (2013)" width="589" style="display: block; width: 36.79em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2013/q15.png" alt="23 (2013)" width="572" style="display: block; width: 35.76em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -210,7 +210,7 @@
 
 ### 24 · 2012年
 
-<img src="../bank/2012/q15.png" alt="24 (2012)" width="470" style="display: block; width: 29.38em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2012/q15.png" alt="24 (2012)" width="459" style="display: block; width: 28.69em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -218,7 +218,7 @@
 
 ### 25 · 2011年
 
-<img src="../bank/2011/q01.png" alt="25 (2011)" width="735" style="display: block; width: 45.93em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2011/q01.png" alt="25 (2011)" width="733" style="display: block; width: 45.83em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -226,7 +226,7 @@
 
 ### 26 · 2011年
 
-<img src="../bank/2011/q09.png" alt="26 (2011)" width="280" style="display: block; width: 17.48em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2011/q09.png" alt="26 (2011)" width="275" style="display: block; width: 17.17em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -234,7 +234,7 @@
 
 ### 27 · 2011年
 
-<img src="../bank/2011/q15.png" alt="27 (2011)" width="670" style="display: block; width: 41.9em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2011/q15.png" alt="27 (2011)" width="652" style="display: block; width: 40.76em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 

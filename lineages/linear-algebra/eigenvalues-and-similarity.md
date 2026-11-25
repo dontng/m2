@@ -36,7 +36,7 @@
 
 **原题**（[在章节题单中查看](../../chapters/linear-algebra/05-eigenvalues-similarity.md#q2017-14)）：
 
-<img src="../../chapters/bank/2017/q14.png" alt="13 (2017)" width="594" style="display: block; width: 37.1em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../../chapters/bank/2017/q14.png" alt="13 (2017)" width="582" style="display: block; width: 36.38em; max-width: 100%; height: auto; margin: 14px 0;">
 
 #### 第一步怎么落笔
 
@@ -63,7 +63,7 @@
 
 **原题**（[在章节题单中查看](../../chapters/linear-algebra/05-eigenvalues-similarity.md#q2020-8)）：
 
-<img src="../../chapters/bank/2020/q08.png" alt="07 (2020)" width="782" style="display: block; width: 48.86em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../../chapters/bank/2020/q08.png" alt="07 (2020)" width="773" style="display: block; width: 48.31em; max-width: 100%; height: auto; margin: 14px 0;">
 
 #### 第一步怎么落笔
 
@@ -117,7 +117,7 @@
 
 **原题**（[在章节题单中查看](../../chapters/linear-algebra/05-eigenvalues-similarity.md#q2023-22)）：
 
-<img src="../../chapters/bank/2023/q22.png" alt="04 (2023)" width="782" style="display: block; width: 48.9em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../../chapters/bank/2023/q22.png" alt="04 (2023)" width="781" style="display: block; width: 48.79em; max-width: 100%; height: auto; margin: 14px 0;">
 
 #### 第 1 问：由 $A\boldsymbol{x}$ 的表达式直接读出 $A$
 
@@ -164,7 +164,7 @@ $$A = \begin{pmatrix}1&1&1\\2&-1&1\\0&1&-1\end{pmatrix}.$$
 
 **原题**（[在章节题单中查看](../../chapters/linear-algebra/05-eigenvalues-similarity.md#q2021-22)）：
 
-<img src="../../chapters/bank/2021/q22.png" alt="06 (2021)" width="781" style="display: block; width: 48.83em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../../chapters/bank/2021/q22.png" alt="06 (2021)" width="765" style="display: block; width: 47.83em; max-width: 100%; height: auto; margin: 14px 0;">
 
 #### 第一步怎么落笔
 
@@ -209,7 +209,7 @@ $$A = \begin{pmatrix}1&1&1\\2&-1&1\\0&1&-1\end{pmatrix}.$$
 
 ### 1. 真题回练一：[2025 年第 8 题](../../chapters/linear-algebra/05-eigenvalues-similarity.md#q2025-8)（选择题）
 
-<img src="../../chapters/bank/2025/q08.png" alt="02 (2025)" width="729" style="display: block; width: 45.55em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../../chapters/bank/2025/q08.png" alt="02 (2025)" width="728" style="display: block; width: 45.52em; max-width: 100%; height: auto; margin: 14px 0;">
 
 <details>
 <summary>点击核对思路与答案</summary>
@@ -225,7 +225,7 @@ $$A = \begin{pmatrix}1&1&1\\2&-1&1\\0&1&-1\end{pmatrix}.$$
 
 ### 2. 真题回练二：[2018 年第 7 题](../../chapters/linear-algebra/05-eigenvalues-similarity.md#q2018-7)（选择题）
 
-<img src="../../chapters/bank/2018/q07.png" alt="10 (2018)" width="374" style="display: block; width: 23.38em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../../chapters/bank/2018/q07.png" alt="10 (2018)" width="364" style="display: block; width: 22.72em; max-width: 100%; height: auto; margin: 14px 0;">
 
 <details>
 <summary>点击核对思路与答案</summary>

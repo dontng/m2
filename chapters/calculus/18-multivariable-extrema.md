@@ -21,7 +21,7 @@
 
 > *二元极值大题。求一阶偏导令其为 0 解驻点，别漏掉退化点；对每个驻点求二阶偏导算 $AC-B^2$，正负性判断要仔细。*
 
-<img src="../bank/2026/q19.png" alt="01 (2026)" width="318" style="display: block; width: 19.86em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2026/q19.png" alt="01 (2026)" width="313" style="display: block; width: 19.59em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -31,7 +31,7 @@
 
 > *全微分求原函数加极值。全微分条件 $\mathrm{d}f = P\mathrm{d}x + Q\mathrm{d}y$ 积分定出 $f(x,y)$，再按二元极值二阶充分条件检验驻点。*
 
-<img src="../bank/2025/q19.png" alt="02 (2025)" width="782" style="display: block; width: 48.86em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2025/q19.png" alt="02 (2025)" width="769" style="display: block; width: 48.07em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -39,7 +39,7 @@
 
 ### 03 · 2024年
 
-<img src="../bank/2024/q12.png" alt="03 (2024)" width="569" style="display: block; width: 35.59em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2024/q12.png" alt="03 (2024)" width="559" style="display: block; width: 34.93em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -47,7 +47,7 @@
 
 ### 04 · 2023年
 
-<img src="../bank/2023/q18.png" alt="04 (2023)" width="314" style="display: block; width: 19.62em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2023/q18.png" alt="04 (2023)" width="309" style="display: block; width: 19.31em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -57,7 +57,7 @@
 
 > *变量代换与极值综合大题。第一问链式法则求复合偏导；第二问积分恢复出 $f(u,v)$ 的具体表达式，求驻点并算 Hessian 判别式。*
 
-<img src="../bank/2022/q20.png" alt="05 (2022)" width="627" style="display: block; width: 39.17em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2022/q20.png" alt="05 (2022)" width="618" style="display: block; width: 38.66em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -65,7 +65,7 @@
 
 ### 06 · 2020年
 
-<img src="../bank/2020/q17.png" alt="06 (2020)" width="333" style="display: block; width: 20.79em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2020/q17.png" alt="06 (2020)" width="328" style="display: block; width: 20.52em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -75,7 +75,7 @@
 
 > *周长受限的几何面积最值。三个图形边长设为变量，周长和为定值，列出面积目标函数。既可用拉格朗日乘数法，也可用柯西不等式秒杀。*
 
-<img src="../bank/2018/q19.png" alt="07 (2018)" width="782" style="display: block; width: 48.86em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2018/q19.png" alt="07 (2018)" width="771" style="display: block; width: 48.17em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -83,7 +83,7 @@
 
 ### 08 · 2016年
 
-<img src="../bank/2016/q17.png" alt="08 (2016)" width="727" style="display: block; width: 45.45em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2016/q17.png" alt="08 (2016)" width="716" style="display: block; width: 44.76em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -91,7 +91,7 @@
 
 ### 09 · 2015年
 
-<img src="../bank/2015/q17.png" alt="09 (2015)" width="781" style="display: block; width: 48.79em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2015/q17.png" alt="09 (2015)" width="765" style="display: block; width: 47.83em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -99,7 +99,7 @@
 
 ### 10 · 2014年
 
-<img src="../bank/2014/q06.png" alt="10 (2014)" width="777" style="display: block; width: 48.59em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2014/q06.png" alt="10 (2014)" width="753" style="display: block; width: 47.03em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -109,7 +109,7 @@
 
 > *隐式曲线到原点距离极值。目标函数设为距离平方 $x^2+y^2$，约束条件是隐式方程，拉格朗日乘数法对称性极强，注意端点非负限制。*
 
-<img src="../bank/2013/q19.png" alt="11 (2013)" width="634" style="display: block; width: 39.66em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2013/q19.png" alt="11 (2013)" width="620" style="display: block; width: 38.72em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -117,7 +117,7 @@
 
 ### 12 · 2012年
 
-<img src="../bank/2012/q16.png" alt="12 (2012)" width="258" style="display: block; width: 16.14em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2012/q16.png" alt="12 (2012)" width="254" style="display: block; width: 15.86em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -125,7 +125,7 @@
 
 ### 13 · 2011年
 
-<img src="../bank/2011/q05.png" alt="13 (2011)" width="777" style="display: block; width: 48.59em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2011/q05.png" alt="13 (2011)" width="750" style="display: block; width: 46.86em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 

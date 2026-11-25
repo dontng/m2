@@ -20,7 +20,7 @@
 
 > *分段函数原函数选择题。分段求出各段的不定积分，最关键的一步是：原函数在分界点 $x=0$ 处必须连续，据此定出两段积分常数 $C_1, C_2$ 的差值。*
 
-<img src="../bank/2023/q02.png" alt="01 (2023)" width="464" style="display: block; width: 29.0em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2023/q02.png" alt="01 (2023)" width="453" style="display: block; width: 28.31em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -30,7 +30,7 @@
 
 > *复杂有理函数不定积分大题。分母含有 $(x-1)^2(x^2+x+1)$，标准待定系数裂项为 $\frac{A}{x-1}+\frac{B}{(x-1)^2}+\frac{Cx+D}{x^2+x+1}$，通分仔细算分子系数。*
 
-<img src="../bank/2019/q16.png" alt="02 (2019)" width="330" style="display: block; width: 20.62em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2019/q16.png" alt="02 (2019)" width="324" style="display: block; width: 20.28em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -40,7 +40,7 @@
 
 > *根式与反三角不定积分大题。含有 $\sqrt{e^x-1}$，果断做换元 $t = \sqrt{e^x-1}$，转化成有理多项式乘 $\arctan t$，再上分部积分法化简。*
 
-<img src="../bank/2018/q15.png" alt="03 (2018)" width="309" style="display: block; width: 19.31em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2018/q15.png" alt="03 (2018)" width="306" style="display: block; width: 19.1em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -48,7 +48,7 @@
 
 ### 04 · 2016年
 
-<img src="../bank/2016/q02.png" alt="04 (2016)" width="584" style="display: block; width: 36.52em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2016/q02.png" alt="04 (2016)" width="572" style="display: block; width: 35.72em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 

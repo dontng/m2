@@ -33,7 +33,7 @@
 
 **原题**（[在章节题单中查看](../../chapters/calculus/05-mean-value-proofs.md#q2017-19)）：
 
-<img src="../../chapters/bank/2017/q19.png" alt="07 (2017)" width="635" style="display: block; width: 39.69em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../../chapters/bank/2017/q19.png" alt="07 (2017)" width="622" style="display: block; width: 38.9em; max-width: 100%; height: auto; margin: 14px 0;">
 
 #### 第（1）问：为什么不能直接在 $[0,1]$ 上套零点定理？
 
@@ -97,7 +97,7 @@
 
 **原题**（[在章节题单中查看](../../chapters/calculus/06-monotonicity-extrema.md#q2021-4)）：
 
-<img src="../../chapters/bank/2021/q04.png" alt="05 (2021)" width="629" style="display: block; width: 39.31em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../../chapters/bank/2021/q04.png" alt="05 (2021)" width="615" style="display: block; width: 38.45em; max-width: 100%; height: auto; margin: 14px 0;">
 
 #### 解法一：直接求导，用单调区间、最小值与分界点锁定根数
 
@@ -161,7 +161,7 @@ $$0 < \frac{a}{b} < \frac{1}{e} \iff \frac{b}{a} > e,$$
 
 ### 1. 真题回练：[2015 年第 19 题](../../chapters/calculus/06-monotonicity-extrema.md#q2015-19)（解答题，满分 11 分）
 
-<img src="../../chapters/bank/2015/q19.png" alt="10 (2015)" width="550" style="display: block; width: 34.38em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../../chapters/bank/2015/q19.png" alt="10 (2015)" width="543" style="display: block; width: 33.97em; max-width: 100%; height: auto; margin: 14px 0;">
 
 **独立练习提示（先遮住，做完再核对要点）**：
 - **先核定义域**：对一切 $x \in \mathbb{R}$，$x^2 \ge 0 > -1$，所以定义域是**全体实数 $(-\infty, +\infty)$**（不要误写成 $x > 0$）。

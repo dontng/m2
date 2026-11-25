@@ -173,7 +173,7 @@ body {
 .question-objective .question-stem {
   margin: 0 0 5px 0;
   line-height: 1.65;
-  text-align: justify;
+  text-align: left;
 }
 
 .question-objective .question-stem.sub-stem {
@@ -202,7 +202,7 @@ body {
 .question-subjective-content p {
   text-indent: 2em;
   margin: 0 0 6px 0;
-  text-align: justify;
+  text-align: left;
   line-height: 1.65;
 }
 

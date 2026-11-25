@@ -23,7 +23,7 @@
 
 > *一阶隐函数求导。方程两边直接对 $x$ 和 $y$ 分别求偏导，把 $z$ 视为中间变量，直接求出偏导数比值，不要把 $z$ 硬解出来。*
 
-<img src="../bank/2026/q03.png" alt="01 (2026)" width="567" style="display: block; width: 35.45em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2026/q03.png" alt="01 (2026)" width="567" style="display: block; width: 35.41em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -31,7 +31,7 @@
 
 ### 02 · 2026年
 
-<img src="../bank/2026/q14.png" alt="02 (2026)" width="781" style="display: block; width: 48.83em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2026/q14.png" alt="02 (2026)" width="780" style="display: block; width: 48.76em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -39,7 +39,7 @@
 
 ### 03 · 2025年
 
-<img src="../bank/2025/q01.png" alt="03 (2025)" width="595" style="display: block; width: 37.17em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2025/q01.png" alt="03 (2025)" width="591" style="display: block; width: 36.93em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -49,7 +49,7 @@
 
 > *复合函数二阶偏导大题。令 $u=2x+y, v=3x-y$，用链式法则分别算一阶、二阶偏导，代入原偏微分方程，交叉偏导项会相互抵消，化成极简方程。*
 
-<img src="../bank/2024/q20.png" alt="04 (2024)" width="781" style="display: block; width: 48.83em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2024/q20.png" alt="04 (2024)" width="748" style="display: block; width: 46.72em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -57,7 +57,7 @@
 
 ### 05 · 2023年
 
-<img src="../bank/2023/q13.png" alt="05 (2023)" width="609" style="display: block; width: 38.03em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2023/q13.png" alt="05 (2023)" width="599" style="display: block; width: 37.41em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -65,7 +65,7 @@
 
 ### 06 · 2022年
 
-<img src="../bank/2022/q04.png" alt="06 (2022)" width="474" style="display: block; width: 29.62em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2022/q04.png" alt="06 (2022)" width="470" style="display: block; width: 29.38em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -73,7 +73,7 @@
 
 ### 07 · 2021年
 
-<img src="../bank/2021/q06.png" alt="07 (2021)" width="674" style="display: block; width: 42.1em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2021/q06.png" alt="07 (2021)" width="666" style="display: block; width: 41.62em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -81,7 +81,7 @@
 
 ### 08 · 2021年
 
-<img src="../bank/2021/q13.png" alt="08 (2021)" width="767" style="display: block; width: 47.97em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2021/q13.png" alt="08 (2021)" width="756" style="display: block; width: 47.28em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -89,7 +89,7 @@
 
 ### 09 · 2019年
 
-<img src="../bank/2019/q11.png" alt="09 (2019)" width="545" style="display: block; width: 34.03em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2019/q11.png" alt="09 (2019)" width="540" style="display: block; width: 33.72em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -99,7 +99,7 @@
 
 > *偏微分方程坐标代换化简。做变量代换后，把所有偏导数换为关于新变量 $u, v$ 的导数，代入原方程整理，通常会化为标准的常微分方程形式。*
 
-<img src="../bank/2019/q20.png" alt="10 (2019)" width="778" style="display: block; width: 48.62em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2019/q20.png" alt="10 (2019)" width="690" style="display: block; width: 43.1em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -107,7 +107,7 @@
 
 ### 11 · 2018年
 
-<img src="../bank/2018/q13.png" alt="11 (2018)" width="634" style="display: block; width: 39.62em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2018/q13.png" alt="11 (2018)" width="623" style="display: block; width: 38.97em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -115,7 +115,7 @@
 
 ### 12 · 2017年
 
-<img src="../bank/2017/q16.png" alt="12 (2017)" width="628" style="display: block; width: 39.28em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2017/q16.png" alt="12 (2017)" width="618" style="display: block; width: 38.62em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -123,7 +123,7 @@
 
 ### 13 · 2015年
 
-<img src="../bank/2015/q05.png" alt="13 (2015)" width="673" style="display: block; width: 42.07em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2015/q05.png" alt="13 (2015)" width="671" style="display: block; width: 41.97em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -131,7 +131,7 @@
 
 ### 14 · 2015年
 
-<img src="../bank/2015/q13.png" alt="14 (2015)" width="644" style="display: block; width: 40.24em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2015/q13.png" alt="14 (2015)" width="632" style="display: block; width: 39.52em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -139,7 +139,7 @@
 
 ### 15 · 2014年
 
-<img src="../bank/2014/q11.png" alt="15 (2014)" width="699" style="display: block; width: 43.69em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2014/q11.png" alt="15 (2014)" width="689" style="display: block; width: 43.03em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -147,7 +147,7 @@
 
 ### 16 · 2014年
 
-<img src="../bank/2014/q18.png" alt="16 (2014)" width="777" style="display: block; width: 48.59em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2014/q18.png" alt="16 (2014)" width="732" style="display: block; width: 45.72em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -155,7 +155,7 @@
 
 ### 17 · 2013年
 
-<img src="../bank/2013/q05.png" alt="17 (2013)" width="530" style="display: block; width: 33.1em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2013/q05.png" alt="17 (2013)" width="530" style="display: block; width: 33.14em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -163,7 +163,7 @@
 
 ### 18 · 2012年
 
-<img src="../bank/2012/q11.png" alt="18 (2012)" width="609" style="display: block; width: 38.03em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2012/q11.png" alt="18 (2012)" width="600" style="display: block; width: 37.52em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -171,7 +171,7 @@
 
 ### 19 · 2011年
 
-<img src="../bank/2011/q17.png" alt="19 (2011)" width="782" style="display: block; width: 48.9em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2011/q17.png" alt="19 (2011)" width="748" style="display: block; width: 46.72em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -179,7 +179,7 @@
 
 ### 20 · 2010年
 
-<img src="../bank/2010/q05.png" alt="20 (2010)" width="774" style="display: block; width: 48.34em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2010/q05.png" alt="20 (2010)" width="755" style="display: block; width: 47.21em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -189,7 +189,7 @@
 
 > *二阶偏导方程化简大题。链式法则展开时切记对每个中间变量逐层求导，利用二阶混合偏导连续性合并同类项，耐心整理系数。*
 
-<img src="../bank/2010/q19.png" alt="21 (2010)" width="782" style="display: block; width: 48.86em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2010/q19.png" alt="21 (2010)" width="769" style="display: block; width: 48.07em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 

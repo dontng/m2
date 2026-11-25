@@ -34,7 +34,7 @@
 
 **原题**（[在章节题单中查看](../../chapters/calculus/10-antiderivatives.md#q2016-2)）：
 
-<img src="../../chapters/bank/2016/q02.png" alt="04 (2016)" width="584" style="display: block; width: 36.52em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../../chapters/bank/2016/q02.png" alt="04 (2016)" width="572" style="display: block; width: 35.72em; max-width: 100%; height: auto; margin: 14px 0;">
 
 #### 触发条件与第一步落笔
 
@@ -82,7 +82,7 @@ $$F(1) = \lim_{x\to 1^+} F(x) = 1\cdot(\ln 1 - 1) + C_2 = -1 + C_2 = 0 \implies 
 
 **原题**（[在章节题单中查看](../../chapters/calculus/11-definite-integrals.md#q2024-3)）：
 
-<img src="../../chapters/bank/2024/q03.png" alt="04 (2024)" width="675" style="display: block; width: 42.17em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../../chapters/bank/2024/q03.png" alt="04 (2024)" width="670" style="display: block; width: 41.86em; max-width: 100%; height: auto; margin: 14px 0;">
 
 #### 触发条件与第一步落笔
 
@@ -138,7 +138,7 @@ $$F(1) = \lim_{x\to 1^+} F(x) = 1\cdot(\ln 1 - 1) + C_2 = -1 + C_2 = 0 \implies 
 
 **原题**（[在章节题单中查看](../../chapters/calculus/11-definite-integrals.md#q2021-7)）：
 
-<img src="../../chapters/bank/2021/q07.png" alt="08 (2021)" width="617" style="display: block; width: 38.55em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../../chapters/bank/2021/q07.png" alt="08 (2021)" width="613" style="display: block; width: 38.31em; max-width: 100%; height: auto; margin: 14px 0;">
 
 #### 触发条件与第一步落笔
 
@@ -194,7 +194,7 @@ $$\int_0^1 f(x)\,\mathrm{d}x = \lim_{n\to\infty} \sum_{k=1}^{n} f\left(\frac{2k-
 
 **原题**（[在章节题单中查看](../../chapters/calculus/12-improper-integrals.md#q2015-1)）：
 
-<img src="../../chapters/bank/2015/q01.png" alt="11 (2015)" width="535" style="display: block; width: 33.41em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../../chapters/bank/2015/q01.png" alt="11 (2015)" width="534" style="display: block; width: 33.38em; max-width: 100%; height: auto; margin: 14px 0;">
 
 #### 触发条件与第一步落笔
 
@@ -226,7 +226,7 @@ $$\int_0^1 f(x)\,\mathrm{d}x = \lim_{n\to\infty} \sum_{k=1}^{n} f\left(\frac{2k-
 
 **原题**（[在章节题单中查看](../../chapters/calculus/12-improper-integrals.md#q2022-5)）：
 
-<img src="../../chapters/bank/2022/q05.png" alt="05 (2022)" width="693" style="display: block; width: 43.31em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../../chapters/bank/2022/q05.png" alt="05 (2022)" width="692" style="display: block; width: 43.28em; max-width: 100%; height: auto; margin: 14px 0;">
 
 #### 触发条件与第一步落笔
 
@@ -274,7 +274,7 @@ $$\int_0^1 f(x)\,\mathrm{d}x = \lim_{n\to\infty} \sum_{k=1}^{n} f\left(\frac{2k-
 
 ### 1. 真题回练一：[2023 年第 2 题](../../chapters/calculus/10-antiderivatives.md#q2023-2)（选择题）
 
-<img src="../../chapters/bank/2023/q02.png" alt="01 (2023)" width="464" style="display: block; width: 29.0em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../../chapters/bank/2023/q02.png" alt="01 (2023)" width="453" style="display: block; width: 28.31em; max-width: 100%; height: auto; margin: 14px 0;">
 
 <details>
 <summary>点击核对思路与答案</summary>
@@ -289,7 +289,7 @@ $$\int_0^1 f(x)\,\mathrm{d}x = \lim_{n\to\infty} \sum_{k=1}^{n} f\left(\frac{2k-
 
 ### 2. 真题回练二：[2025 年第 17 题](../../chapters/calculus/11-definite-integrals.md#q2025-17)（解答题，满分 10 分）
 
-<img src="../../chapters/bank/2025/q17.png" alt="03 (2025)" width="226" style="display: block; width: 14.14em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../../chapters/bank/2025/q17.png" alt="03 (2025)" width="221" style="display: block; width: 13.83em; max-width: 100%; height: auto; margin: 14px 0;">
 
 <details>
 <summary>点击核对思路与答案</summary>
@@ -307,7 +307,7 @@ $$\int_0^1 f(x)\,\mathrm{d}x = \lim_{n\to\infty} \sum_{k=1}^{n} f\left(\frac{2k-
 
 ### 3. 真题回练三：[2026 年第 11 题](../../chapters/calculus/12-improper-integrals.md#q2026-11)（填空题）
 
-<img src="../../chapters/bank/2026/q11.png" alt="01 (2026)" width="681" style="display: block; width: 42.55em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../../chapters/bank/2026/q11.png" alt="01 (2026)" width="664" style="display: block; width: 41.48em; max-width: 100%; height: auto; margin: 14px 0;">
 
 <details>
 <summary>点击核对思路与答案</summary>

@@ -22,7 +22,7 @@
 
 > *排在前面的物理题。别被物理名词吓退，建立直角坐标系，利用对称性可知水平分力对消为 0，写出微元 $dF_y$ 直接算定积分。*
 
-<img src="../bank/2026/q04.png" alt="01 (2026)" width="782" style="display: block; width: 48.86em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2026/q04.png" alt="01 (2026)" width="781" style="display: block; width: 48.79em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -32,7 +32,7 @@
 
 > *拐点与旋转体体积综合大题。先求二阶导求出拐点坐标，无界区域绕 $x$ 轴旋转体积按广义积分做，切忌把线段 $OM$ 产生的圆锥体积漏掉。*
 
-<img src="../bank/2026/q20.png" alt="02 (2026)" width="777" style="display: block; width: 48.55em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2026/q20.png" alt="02 (2026)" width="726" style="display: block; width: 45.34em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -40,7 +40,7 @@
 
 ### 03 · 2025年
 
-<img src="../bank/2025/q06.png" alt="03 (2025)" width="782" style="display: block; width: 48.86em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2025/q06.png" alt="03 (2025)" width="767" style="display: block; width: 47.93em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -48,7 +48,7 @@
 
 ### 04 · 2024年
 
-<img src="../bank/2024/q15.png" alt="04 (2024)" width="781" style="display: block; width: 48.83em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2024/q15.png" alt="04 (2024)" width="705" style="display: block; width: 44.07em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -58,7 +58,7 @@
 
 > *定积分求体积极值。先用旋转体体积公式写出关于截距 $t$ 的函数 $V(t)$，再对 $t$ 求导找极大值点，几何计算和导数极值两段都很规整。*
 
-<img src="../bank/2024/q19.png" alt="05 (2024)" width="782" style="display: block; width: 48.86em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2024/q19.png" alt="05 (2024)" width="760" style="display: block; width: 47.52em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -66,7 +66,7 @@
 
 ### 06 · 2023年
 
-<img src="../bank/2023/q12.png" alt="06 (2023)" width="424" style="display: block; width: 26.48em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2023/q12.png" alt="06 (2023)" width="418" style="display: block; width: 26.1em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -74,7 +74,7 @@
 
 ### 07 · 2023年
 
-<img src="../bank/2023/q19.png" alt="07 (2023)" width="782" style="display: block; width: 48.86em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2023/q19.png" alt="07 (2023)" width="768" style="display: block; width: 48.0em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -82,7 +82,7 @@
 
 ### 08 · 2022年
 
-<img src="../bank/2022/q15.png" alt="08 (2022)" width="777" style="display: block; width: 48.55em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2022/q15.png" alt="08 (2022)" width="762" style="display: block; width: 47.62em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -92,7 +92,7 @@
 
 > *积分与弧长综合大题。两端同时求导解出 $f(x)$，套用直角坐标弧长积分公式 $\sqrt{1+y'^2}$，根号下正好能配成完全平方直接开方。*
 
-<img src="../bank/2021/q19.png" alt="09 (2021)" width="782" style="display: block; width: 48.86em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2021/q19.png" alt="09 (2021)" width="778" style="display: block; width: 48.66em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -100,7 +100,7 @@
 
 ### 10 · 2020年
 
-<img src="../bank/2020/q12.png" alt="10 (2020)" width="781" style="display: block; width: 48.83em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2020/q12.png" alt="10 (2020)" width="773" style="display: block; width: 48.31em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -110,7 +110,7 @@
 
 > *函数方程与旋转体体积。方程里把 $x$ 换成 $1/x$ 联立解出 $f(x)$，求体积时注意积分变量选择，选好绕 $x$ 轴还是 $y$ 轴算壳层微元。*
 
-<img src="../bank/2020/q18.png" alt="11 (2020)" width="781" style="display: block; width: 48.79em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2020/q18.png" alt="11 (2020)" width="768" style="display: block; width: 48.0em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -118,7 +118,7 @@
 
 ### 12 · 2019年
 
-<img src="../bank/2019/q12.png" alt="12 (2019)" width="454" style="display: block; width: 28.34em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2019/q12.png" alt="12 (2019)" width="447" style="display: block; width: 27.97em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -126,7 +126,7 @@
 
 ### 13 · 2019年
 
-<img src="../bank/2019/q19.png" alt="13 (2019)" width="782" style="display: block; width: 48.9em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2019/q19.png" alt="13 (2019)" width="743" style="display: block; width: 46.41em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -134,7 +134,7 @@
 
 ### 14 · 2018年
 
-<img src="../bank/2018/q20.png" alt="14 (2018)" width="782" style="display: block; width: 48.9em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2018/q20.png" alt="14 (2018)" width="778" style="display: block; width: 48.62em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -142,7 +142,7 @@
 
 ### 15 · 2017年
 
-<img src="../bank/2017/q06.png" alt="15 (2017)" width="782" style="display: block; width: 48.86em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2017/q06.png" alt="15 (2017)" width="771" style="display: block; width: 48.21em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -150,7 +150,7 @@
 
 ### 16 · 2016年
 
-<img src="../bank/2016/q20.png" alt="16 (2016)" width="781" style="display: block; width: 48.83em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2016/q20.png" alt="16 (2016)" width="778" style="display: block; width: 48.66em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -158,7 +158,7 @@
 
 ### 17 · 2015年
 
-<img src="../bank/2015/q16.png" alt="17 (2015)" width="781" style="display: block; width: 48.83em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2015/q16.png" alt="17 (2015)" width="770" style="display: block; width: 48.14em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -166,7 +166,7 @@
 
 ### 18 · 2014年
 
-<img src="../bank/2014/q13.png" alt="18 (2014)" width="782" style="display: block; width: 48.9em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2014/q13.png" alt="18 (2014)" width="761" style="display: block; width: 47.59em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -176,7 +176,7 @@
 
 > *偏导与旋转体积大题。对偏导对 $y$ 积分恢复出含有未知函数 $C(x)$ 的表达式，代入条件定出 $f(x,y)$，再画草图看清旋转中心是 $y=-1$。*
 
-<img src="../bank/2014/q21.png" alt="19 (2014)" width="781" style="display: block; width: 48.83em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2014/q21.png" alt="19 (2014)" width="776" style="display: block; width: 48.52em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -184,7 +184,7 @@
 
 ### 20 · 2013年
 
-<img src="../bank/2013/q11.png" alt="20 (2013)" width="781" style="display: block; width: 48.83em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2013/q11.png" alt="20 (2013)" width="685" style="display: block; width: 42.79em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -192,7 +192,7 @@
 
 ### 21 · 2013年
 
-<img src="../bank/2013/q16.png" alt="21 (2013)" width="782" style="display: block; width: 48.86em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2013/q16.png" alt="21 (2013)" width="774" style="display: block; width: 48.38em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -200,7 +200,7 @@
 
 ### 22 · 2013年
 
-<img src="../bank/2013/q21.png" alt="22 (2013)" width="682" style="display: block; width: 42.66em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2013/q21.png" alt="22 (2013)" width="665" style="display: block; width: 41.59em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -208,7 +208,7 @@
 
 ### 23 · 2012年
 
-<img src="../bank/2012/q17.png" alt="23 (2012)" width="782" style="display: block; width: 48.9em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2012/q17.png" alt="23 (2012)" width="774" style="display: block; width: 48.34em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -216,7 +216,7 @@
 
 ### 24 · 2011年
 
-<img src="../bank/2011/q11.png" alt="24 (2011)" width="486" style="display: block; width: 30.38em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2011/q11.png" alt="24 (2011)" width="483" style="display: block; width: 30.21em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -224,7 +224,7 @@
 
 ### 25 · 2011年
 
-<img src="../bank/2011/q20.png" alt="25 (2011)" width="782" style="display: block; width: 48.9em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2011/q20.png" alt="25 (2011)" width="748" style="display: block; width: 46.72em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -232,7 +232,7 @@
 
 ### 26 · 2010年
 
-<img src="../bank/2010/q12.png" alt="26 (2010)" width="492" style="display: block; width: 30.76em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2010/q12.png" alt="26 (2010)" width="482" style="display: block; width: 30.14em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -242,7 +242,7 @@
 
 > *柱体贮油罐质量物理题。横截面是椭圆，油罐平放时积分变量沿高度积，微元面积是一块椭圆弦长弓形，利用椭圆对称性化简积分。*
 
-<img src="../bank/2010/q18.png" alt="27 (2010)" width="782" style="display: block; width: 48.86em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2010/q18.png" alt="27 (2010)" width="775" style="display: block; width: 48.45em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 

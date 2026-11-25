@@ -32,7 +32,7 @@
 
 **原题**（[在章节题单中查看](../../chapters/calculus/19-double-integrals.md#q2013-17)）：
 
-<img src="../../chapters/bank/2013/q17.png" alt="24 (2013)" width="610" style="display: block; width: 38.14em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../../chapters/bank/2013/q17.png" alt="24 (2013)" width="599" style="display: block; width: 37.45em; max-width: 100%; height: auto; margin: 14px 0;">
 
 #### 触发条件与第一步
 
@@ -82,7 +82,7 @@
 
 **原题**（[在章节题单中查看](../../chapters/calculus/19-double-integrals.md#q2024-6)）：
 
-<img src="../../chapters/bank/2024/q06.png" alt="05 (2024)" width="634" style="display: block; width: 39.62em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../../chapters/bank/2024/q06.png" alt="05 (2024)" width="633" style="display: block; width: 39.59em; max-width: 100%; height: auto; margin: 14px 0;">
 
 #### 触发条件与第一步
 
@@ -121,7 +121,7 @@
 
 **原题**（[在章节题单中查看](../../chapters/calculus/19-double-integrals.md#q2017-13)）：
 
-<img src="../../chapters/bank/2017/q13.png" alt="17 (2017)" width="320" style="display: block; width: 20.0em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../../chapters/bank/2017/q13.png" alt="17 (2017)" width="319" style="display: block; width: 19.93em; max-width: 100%; height: auto; margin: 14px 0;">
 
 #### 触发条件与第一步
 
@@ -166,7 +166,7 @@
 
 **原题**（[在章节题单中查看](../../chapters/calculus/19-double-integrals.md#q2018-6)）：
 
-<img src="../../chapters/bank/2018/q06.png" alt="15 (2018)" width="647" style="display: block; width: 40.41em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../../chapters/bank/2018/q06.png" alt="15 (2018)" width="646" style="display: block; width: 40.34em; max-width: 100%; height: auto; margin: 14px 0;">
 
 #### 触发条件与第一步
 
@@ -206,7 +206,7 @@
 
 **原题**（[在章节题单中查看](../../chapters/calculus/19-double-integrals.md#q2026-17)）：
 
-<img src="../../chapters/bank/2026/q17.png" alt="02 (2026)" width="350" style="display: block; width: 21.86em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../../chapters/bank/2026/q17.png" alt="02 (2026)" width="346" style="display: block; width: 21.62em; max-width: 100%; height: auto; margin: 14px 0;">
 
 #### 触发条件与第一步
 
@@ -248,7 +248,7 @@
 
 ### 1. 真题回练：[2014 年第 17 题](../../chapters/calculus/19-double-integrals.md#q2014-17)（解答题，满分 10 分）
 
-<img src="../../chapters/bank/2014/q17.png" alt="22 (2014)" width="664" style="display: block; width: 41.52em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../../chapters/bank/2014/q17.png" alt="22 (2014)" width="658" style="display: block; width: 41.1em; max-width: 100%; height: auto; margin: 14px 0;">
 
 <details>
 <summary>点击核对要点与答案</summary>
@@ -265,7 +265,7 @@
 
 ### 2. 真题回练：[2022 年第 19 题](../../chapters/calculus/19-double-integrals.md#q2022-19)（解答题，满分 12 分）
 
-<img src="../../chapters/bank/2022/q19.png" alt="09 (2022)" width="674" style="display: block; width: 42.14em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../../chapters/bank/2022/q19.png" alt="09 (2022)" width="669" style="display: block; width: 41.79em; max-width: 100%; height: auto; margin: 14px 0;">
 
 <details>
 <summary>点击核对要点与答案</summary>

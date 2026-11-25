@@ -22,7 +22,7 @@
 
 > *矩阵方程解的存在性。$AB=C$ 相当于 $C$ 的每一列都能由 $A$ 的列向量线性表出，即 $r(A)=r(A, C)$，把增广矩阵做初等行变换定参数。*
 
-<img src="../bank/2026/q09.png" alt="01 (2026)" width="619" style="display: block; width: 38.69em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2026/q09.png" alt="01 (2026)" width="611" style="display: block; width: 38.17em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -30,7 +30,7 @@
 
 ### 02 · 2025年
 
-<img src="../bank/2025/q16.png" alt="02 (2025)" width="777" style="display: block; width: 48.59em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2025/q16.png" alt="02 (2025)" width="738" style="display: block; width: 46.14em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -38,7 +38,7 @@
 
 ### 03 · 2022年
 
-<img src="../bank/2022/q09.png" alt="03 (2022)" width="751" style="display: block; width: 46.93em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2022/q09.png" alt="03 (2022)" width="746" style="display: block; width: 46.66em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -48,7 +48,7 @@
 
 > *伴随矩阵方程基础解系。$A$ 不可逆且有非零代数余子式，故 $r(A)=3, r(A^*)=1$。方程组 $A^* x=0$ 的基础解系有 3 个向量，直接由 $A$ 的列向量构成。*
 
-<img src="../bank/2020/q07.png" alt="04 (2020)" width="781" style="display: block; width: 48.79em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2020/q07.png" alt="04 (2020)" width="776" style="display: block; width: 48.48em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -58,7 +58,7 @@
 
 > *特征值与方程组求解大题。结合矩阵乘以向量的条件求出特征值和特征向量，确定矩阵 $A$；第二问求 $Ax=b$ 的通解按标准初等行变换走。*
 
-<img src="../bank/2017/q22.png" alt="05 (2017)" width="730" style="display: block; width: 45.62em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2017/q22.png" alt="05 (2017)" width="715" style="display: block; width: 44.69em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -66,7 +66,7 @@
 
 ### 06 · 2016年
 
-<img src="../bank/2016/q22.png" alt="06 (2016)" width="623" style="display: block; width: 38.93em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2016/q22.png" alt="06 (2016)" width="615" style="display: block; width: 38.45em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -74,7 +74,7 @@
 
 ### 07 · 2015年
 
-<img src="../bank/2015/q07.png" alt="07 (2015)" width="782" style="display: block; width: 48.86em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2015/q07.png" alt="07 (2015)" width="773" style="display: block; width: 48.31em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -82,7 +82,7 @@
 
 ### 08 · 2014年
 
-<img src="../bank/2014/q22.png" alt="08 (2014)" width="418" style="display: block; width: 26.1em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2014/q22.png" alt="08 (2014)" width="410" style="display: block; width: 25.66em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -90,7 +90,7 @@
 
 ### 09 · 2012年
 
-<img src="../bank/2012/q22.png" alt="09 (2012)" width="690" style="display: block; width: 43.1em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2012/q22.png" alt="09 (2012)" width="673" style="display: block; width: 42.07em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -98,7 +98,7 @@
 
 ### 10 · 2011年
 
-<img src="../bank/2011/q08.png" alt="10 (2011)" width="782" style="display: block; width: 48.86em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2011/q08.png" alt="10 (2011)" width="767" style="display: block; width: 47.93em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -106,7 +106,7 @@
 
 ### 11 · 2010年
 
-<img src="../bank/2010/q22.png" alt="11 (2010)" width="640" style="display: block; width: 40.0em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2010/q22.png" alt="11 (2010)" width="629" style="display: block; width: 39.31em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 

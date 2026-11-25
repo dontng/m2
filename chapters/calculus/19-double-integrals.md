@@ -23,7 +23,7 @@
 
 > *轮换对称性选择题。区域 $D$ 关于 $y=x$ 对称且 $f(x,y)=f(y,x)$，直接用轮换对称性将积分拆半，结合积分定义秒定选项。*
 
-<img src="../bank/2026/q07.png" alt="01 (2026)" width="781" style="display: block; width: 48.83em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2026/q07.png" alt="01 (2026)" width="696" style="display: block; width: 43.52em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -33,7 +33,7 @@
 
 > *二重积分计算大题。区域含 $|x|$ 且被积函数含 $\sqrt{x^2+y^2}$，画出图形明显是环形扇区，果断换极坐标，角度和半径范围切忌写错。*
 
-<img src="../bank/2026/q17.png" alt="02 (2026)" width="350" style="display: block; width: 21.86em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2026/q17.png" alt="02 (2026)" width="346" style="display: block; width: 21.62em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -41,7 +41,7 @@
 
 ### 03 · 2025年
 
-<img src="../bank/2025/q05.png" alt="03 (2025)" width="410" style="display: block; width: 25.62em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2025/q05.png" alt="03 (2025)" width="409" style="display: block; width: 25.55em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -51,7 +51,7 @@
 
 > *双圆相交二重积分。被积函数含 $x,y$，区域关于 $y=x$ 对称，先用轮换对称性将被积函数化简，再换极坐标分段定限。*
 
-<img src="../bank/2025/q20.png" alt="04 (2025)" width="665" style="display: block; width: 41.59em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2025/q20.png" alt="04 (2025)" width="657" style="display: block; width: 41.07em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -59,7 +59,7 @@
 
 ### 05 · 2024年
 
-<img src="../bank/2024/q06.png" alt="05 (2024)" width="634" style="display: block; width: 39.62em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2024/q06.png" alt="05 (2024)" width="633" style="display: block; width: 39.59em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -67,7 +67,7 @@
 
 ### 06 · 2024年
 
-<img src="../bank/2024/q17.png" alt="06 (2024)" width="782" style="display: block; width: 48.86em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2024/q17.png" alt="06 (2024)" width="770" style="display: block; width: 48.14em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -77,7 +77,7 @@
 
 > *斜椭圆环状区域积分。曲线方程含 $x^2+y^2-xy$，换极坐标后把 $1 - \sin\theta\cos\theta$ 提到分母，先积 $r$ 再积 $\theta$ 会非常丝滑。*
 
-<img src="../bank/2023/q20.png" alt="07 (2023)" width="777" style="display: block; width: 48.55em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2023/q20.png" alt="07 (2023)" width="711" style="display: block; width: 44.41em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -85,7 +85,7 @@
 
 ### 08 · 2022年
 
-<img src="../bank/2022/q02.png" alt="08 (2022)" width="644" style="display: block; width: 40.28em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2022/q02.png" alt="08 (2022)" width="643" style="display: block; width: 40.17em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -93,7 +93,7 @@
 
 ### 09 · 2022年
 
-<img src="../bank/2022/q19.png" alt="09 (2022)" width="674" style="display: block; width: 42.14em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2022/q19.png" alt="09 (2022)" width="669" style="display: block; width: 41.79em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -103,7 +103,7 @@
 
 > *双纽线区域二重积分。方程 $\left(x^2+y^2\right)^2 = x^2-y^2$ 是标准双纽线，直接换极坐标 $r^2 = \cos 2\theta$，半径积分一眼出结果。*
 
-<img src="../bank/2021/q21.png" alt="10 (2021)" width="688" style="display: block; width: 43.0em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2021/q21.png" alt="10 (2021)" width="676" style="display: block; width: 42.28em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -111,7 +111,7 @@
 
 ### 11 · 2020年
 
-<img src="../bank/2020/q10.png" alt="11 (2020)" width="339" style="display: block; width: 21.21em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2020/q10.png" alt="11 (2020)" width="338" style="display: block; width: 21.1em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -119,7 +119,7 @@
 
 ### 12 · 2020年
 
-<img src="../bank/2020/q19.png" alt="12 (2020)" width="650" style="display: block; width: 40.66em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2020/q19.png" alt="12 (2020)" width="638" style="display: block; width: 39.86em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -127,7 +127,7 @@
 
 ### 13 · 2019年
 
-<img src="../bank/2019/q05.png" alt="13 (2019)" width="783" style="display: block; width: 48.93em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2019/q05.png" alt="13 (2019)" width="762" style="display: block; width: 47.66em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -135,7 +135,7 @@
 
 ### 14 · 2019年
 
-<img src="../bank/2019/q18.png" alt="14 (2019)" width="581" style="display: block; width: 36.31em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2019/q18.png" alt="14 (2019)" width="575" style="display: block; width: 35.93em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -143,7 +143,7 @@
 
 ### 15 · 2018年
 
-<img src="../bank/2018/q06.png" alt="15 (2018)" width="647" style="display: block; width: 40.41em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2018/q06.png" alt="15 (2018)" width="646" style="display: block; width: 40.34em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -151,7 +151,7 @@
 
 ### 16 · 2018年
 
-<img src="../bank/2018/q17.png" alt="16 (2018)" width="766" style="display: block; width: 47.9em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2018/q17.png" alt="16 (2018)" width="756" style="display: block; width: 47.28em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -159,7 +159,7 @@
 
 ### 17 · 2017年
 
-<img src="../bank/2017/q13.png" alt="17 (2017)" width="320" style="display: block; width: 20.0em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2017/q13.png" alt="17 (2017)" width="319" style="display: block; width: 19.93em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -167,7 +167,7 @@
 
 ### 18 · 2017年
 
-<img src="../bank/2017/q20.png" alt="18 (2017)" width="585" style="display: block; width: 36.55em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2017/q20.png" alt="18 (2017)" width="577" style="display: block; width: 36.03em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -175,7 +175,7 @@
 
 ### 19 · 2016年
 
-<img src="../bank/2016/q18.png" alt="19 (2016)" width="732" style="display: block; width: 45.72em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2016/q18.png" alt="19 (2016)" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -183,7 +183,7 @@
 
 ### 20 · 2015年
 
-<img src="../bank/2015/q06.png" alt="20 (2015)" width="781" style="display: block; width: 48.83em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2015/q06.png" alt="20 (2015)" width="770" style="display: block; width: 48.14em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -191,7 +191,7 @@
 
 ### 21 · 2015年
 
-<img src="../bank/2015/q18.png" alt="21 (2015)" width="580" style="display: block; width: 36.28em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2015/q18.png" alt="21 (2015)" width="574" style="display: block; width: 35.86em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -199,7 +199,7 @@
 
 ### 22 · 2014年
 
-<img src="../bank/2014/q17.png" alt="22 (2014)" width="664" style="display: block; width: 41.52em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2014/q17.png" alt="22 (2014)" width="658" style="display: block; width: 41.1em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -207,7 +207,7 @@
 
 ### 23 · 2013年
 
-<img src="../bank/2013/q06.png" alt="23 (2013)" width="781" style="display: block; width: 48.79em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2013/q06.png" alt="23 (2013)" width="759" style="display: block; width: 47.41em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -215,7 +215,7 @@
 
 ### 24 · 2013年
 
-<img src="../bank/2013/q17.png" alt="24 (2013)" width="610" style="display: block; width: 38.14em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2013/q17.png" alt="24 (2013)" width="599" style="display: block; width: 37.45em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -223,7 +223,7 @@
 
 ### 25 · 2012年
 
-<img src="../bank/2012/q06.png" alt="25 (2012)" width="659" style="display: block; width: 41.17em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2012/q06.png" alt="25 (2012)" width="658" style="display: block; width: 41.1em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -231,7 +231,7 @@
 
 ### 26 · 2012年
 
-<img src="../bank/2012/q18.png" alt="26 (2012)" width="640" style="display: block; width: 40.0em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2012/q18.png" alt="26 (2012)" width="627" style="display: block; width: 39.21em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -239,7 +239,7 @@
 
 ### 27 · 2011年
 
-<img src="../bank/2011/q13.png" alt="27 (2011)" width="767" style="display: block; width: 47.93em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2011/q13.png" alt="27 (2011)" width="753" style="display: block; width: 47.03em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -247,7 +247,7 @@
 
 ### 28 · 2011年
 
-<img src="../bank/2011/q21.png" alt="28 (2011)" width="781" style="display: block; width: 48.83em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2011/q21.png" alt="28 (2011)" width="743" style="display: block; width: 46.41em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -255,7 +255,7 @@
 
 ### 29 · 2010年
 
-<img src="../bank/2010/q20.png" alt="29 (2010)" width="736" style="display: block; width: 46.0em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2010/q20.png" alt="29 (2010)" width="728" style="display: block; width: 45.52em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 

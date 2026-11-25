@@ -20,7 +20,7 @@
 
 ### 01 · 2026年
 
-<img src="../bank/2026/q06.png" alt="01 (2026)" width="604" style="display: block; width: 37.72em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2026/q06.png" alt="01 (2026)" width="601" style="display: block; width: 37.55em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -28,7 +28,7 @@
 
 ### 02 · 2025年
 
-<img src="../bank/2025/q07.png" alt="02 (2025)" width="644" style="display: block; width: 40.24em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2025/q07.png" alt="02 (2025)" width="643" style="display: block; width: 40.21em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -36,7 +36,7 @@
 
 ### 03 · 2025年
 
-<img src="../bank/2025/q14.png" alt="03 (2025)" width="726" style="display: block; width: 45.38em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2025/q14.png" alt="03 (2025)" width="716" style="display: block; width: 44.76em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -46,7 +46,7 @@
 
 > *导数定义综合大题。条件是极限，分母用泰勒展开化简为 $-x^2$。先由极限存在推分子为 0 得 $f(0)$，再凑导数定义极限式求 $f'(0)$。*
 
-<img src="../bank/2025/q18.png" alt="04 (2025)" width="769" style="display: block; width: 48.07em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2025/q18.png" alt="04 (2025)" width="749" style="display: block; width: 46.83em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -54,7 +54,7 @@
 
 ### 05 · 2024年
 
-<img src="../bank/2024/q02.png" alt="05 (2024)" width="644" style="display: block; width: 40.28em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2024/q02.png" alt="05 (2024)" width="643" style="display: block; width: 40.17em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -62,7 +62,7 @@
 
 ### 06 · 2023年
 
-<img src="../bank/2023/q05.png" alt="06 (2023)" width="723" style="display: block; width: 45.21em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2023/q05.png" alt="06 (2023)" width="717" style="display: block; width: 44.79em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -70,7 +70,7 @@
 
 ### 07 · 2022年
 
-<img src="../bank/2022/q12.png" alt="07 (2022)" width="621" style="display: block; width: 38.83em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2022/q12.png" alt="07 (2022)" width="610" style="display: block; width: 38.14em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -80,7 +80,7 @@
 
 > *抽象可导函数极限反推导数。把要求的极限式凑成导数定义形式，配凑出 $\frac{f(1+x)-f(1)}{x}$ 与 $\frac{f(1-x)-f(1)}{-x}$ 的线性组合。*
 
-<img src="../bank/2022/q17.png" alt="08 (2022)" width="561" style="display: block; width: 35.03em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2022/q17.png" alt="08 (2022)" width="547" style="display: block; width: 34.17em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -88,7 +88,7 @@
 
 ### 09 · 2021年
 
-<img src="../bank/2021/q02.png" alt="09 (2021)" width="764" style="display: block; width: 47.72em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2021/q02.png" alt="09 (2021)" width="759" style="display: block; width: 47.45em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -96,7 +96,7 @@
 
 ### 10 · 2021年
 
-<img src="../bank/2021/q03.png" alt="10 (2021)" width="782" style="display: block; width: 48.86em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2021/q03.png" alt="10 (2021)" width="767" style="display: block; width: 47.97em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -104,7 +104,7 @@
 
 ### 11 · 2021年
 
-<img src="../bank/2021/q12.png" alt="11 (2021)" width="680" style="display: block; width: 42.48em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2021/q12.png" alt="11 (2021)" width="668" style="display: block; width: 41.76em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -112,7 +112,7 @@
 
 ### 12 · 2020年
 
-<img src="../bank/2020/q09.png" alt="12 (2020)" width="450" style="display: block; width: 28.14em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2020/q09.png" alt="12 (2020)" width="445" style="display: block; width: 27.83em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -120,7 +120,7 @@
 
 ### 13 · 2018年
 
-<img src="../bank/2018/q02.png" alt="13 (2018)" width="588" style="display: block; width: 36.76em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2018/q02.png" alt="13 (2018)" width="589" style="display: block; width: 36.79em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -128,7 +128,7 @@
 
 ### 14 · 2017年
 
-<img src="../bank/2017/q10.png" alt="14 (2017)" width="621" style="display: block; width: 38.83em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2017/q10.png" alt="14 (2017)" width="610" style="display: block; width: 38.14em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -136,7 +136,7 @@
 
 ### 15 · 2016年
 
-<img src="../bank/2016/q13.png" alt="15 (2016)" width="782" style="display: block; width: 48.86em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2016/q13.png" alt="15 (2016)" width="768" style="display: block; width: 48.0em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -144,7 +144,7 @@
 
 ### 16 · 2015年
 
-<img src="../bank/2015/q03.png" alt="16 (2015)" width="738" style="display: block; width: 46.14em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2015/q03.png" alt="16 (2015)" width="738" style="display: block; width: 46.1em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -152,7 +152,7 @@
 
 ### 17 · 2015年
 
-<img src="../bank/2015/q09.png" alt="17 (2015)" width="371" style="display: block; width: 23.21em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2015/q09.png" alt="17 (2015)" width="366" style="display: block; width: 22.9em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -160,7 +160,7 @@
 
 ### 18 · 2013年
 
-<img src="../bank/2013/q02.png" alt="18 (2013)" width="657" style="display: block; width: 41.03em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2013/q02.png" alt="18 (2013)" width="656" style="display: block; width: 41.0em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -168,7 +168,7 @@
 
 ### 19 · 2013年
 
-<img src="../bank/2013/q10.png" alt="19 (2013)" width="781" style="display: block; width: 48.83em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2013/q10.png" alt="19 (2013)" width="717" style="display: block; width: 44.79em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -176,7 +176,7 @@
 
 ### 20 · 2012年
 
-<img src="../bank/2012/q02.png" alt="20 (2012)" width="628" style="display: block; width: 39.24em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2012/q02.png" alt="20 (2012)" width="615" style="display: block; width: 38.45em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -184,7 +184,7 @@
 
 ### 21 · 2012年
 
-<img src="../bank/2012/q09.png" alt="21 (2012)" width="667" style="display: block; width: 41.69em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2012/q09.png" alt="21 (2012)" width="654" style="display: block; width: 40.86em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -192,7 +192,7 @@
 
 ### 22 · 2011年
 
-<img src="../bank/2011/q02.png" alt="22 (2011)" width="643" style="display: block; width: 40.21em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2011/q02.png" alt="22 (2011)" width="643" style="display: block; width: 40.17em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -200,7 +200,7 @@
 
 ### 23 · 2010年
 
-<img src="../bank/2010/q13.png" alt="23 (2010)" width="782" style="display: block; width: 48.86em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2010/q13.png" alt="23 (2010)" width="770" style="display: block; width: 48.14em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 

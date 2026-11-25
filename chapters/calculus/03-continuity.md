@@ -21,7 +21,7 @@
 
 > *幂指函数间断点。底数有绝对值，先看无定义的点 $x=0, 1, 2$。分别求各点处的左右极限，只有左右极限都存在且不等的才是第一类间断点。*
 
-<img src="../bank/2024/q01.png" alt="01 (2024)" width="643" style="display: block; width: 40.21em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2024/q01.png" alt="01 (2024)" width="643" style="display: block; width: 40.17em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -31,7 +31,7 @@
 
 > *第二类间断点判别。令分母为 0 找出疑点 $x=0, 1, 2$ 以及 $\ln|1+x|$ 的未定义点 $x=-1$。只要单侧极限是无穷大或振荡就归为第二类，逐个排查别漏点。*
 
-<img src="../bank/2020/q02.png" alt="02 (2020)" width="664" style="display: block; width: 41.52em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2020/q02.png" alt="02 (2020)" width="663" style="display: block; width: 41.45em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -39,7 +39,7 @@
 
 ### 03 · 2018年
 
-<img src="../bank/2018/q03.png" alt="03 (2018)" width="743" style="display: block; width: 46.45em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2018/q03.png" alt="03 (2018)" width="737" style="display: block; width: 46.03em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -47,7 +47,7 @@
 
 ### 04 · 2017年
 
-<img src="../bank/2017/q01.png" alt="04 (2017)" width="681" style="display: block; width: 42.55em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2017/q01.png" alt="04 (2017)" width="681" style="display: block; width: 42.59em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -55,7 +55,7 @@
 
 ### 05 · 2015年
 
-<img src="../bank/2015/q02.png" alt="05 (2015)" width="734" style="display: block; width: 45.86em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2015/q02.png" alt="05 (2015)" width="730" style="display: block; width: 45.66em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -63,7 +63,7 @@
 
 ### 06 · 2010年
 
-<img src="../bank/2010/q01.png" alt="06 (2010)" width="643" style="display: block; width: 40.21em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2010/q01.png" alt="06 (2010)" width="643" style="display: block; width: 40.17em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 

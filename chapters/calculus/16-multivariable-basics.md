@@ -21,7 +21,7 @@
 
 > *分段函数可微性判定。在 $(0,0)$ 处求偏导必须用定义算；判定可微性时验证极限 $\lim \frac{\Delta z - f_x \Delta x - f_y \Delta y}{\rho} = 0$，放缩后极坐标逼近。*
 
-<img src="../bank/2024/q05.png" alt="01 (2024)" width="611" style="display: block; width: 38.17em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2024/q05.png" alt="01 (2024)" width="607" style="display: block; width: 37.97em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -31,7 +31,7 @@
 
 > *多命题反例辨析。二阶混合偏导相等要求连续，二元极限存在比累次极限强得多。拿经典马鞍面或分段函数逐条对准性质检验。*
 
-<img src="../bank/2020/q05.png" alt="02 (2020)" width="743" style="display: block; width: 46.41em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2020/q05.png" alt="02 (2020)" width="730" style="display: block; width: 45.62em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -39,7 +39,7 @@
 
 ### 03 · 2020年
 
-<img src="../bank/2020/q11.png" alt="03 (2020)" width="499" style="display: block; width: 31.17em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2020/q11.png" alt="03 (2020)" width="497" style="display: block; width: 31.03em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -47,7 +47,7 @@
 
 ### 04 · 2017年
 
-<img src="../bank/2017/q05.png" alt="04 (2017)" width="613" style="display: block; width: 38.31em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2017/q05.png" alt="04 (2017)" width="601" style="display: block; width: 37.55em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -55,7 +55,7 @@
 
 ### 05 · 2017年
 
-<img src="../bank/2017/q12.png" alt="05 (2017)" width="781" style="display: block; width: 48.83em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2017/q12.png" alt="05 (2017)" width="713" style="display: block; width: 44.59em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -63,7 +63,7 @@
 
 ### 06 · 2016年
 
-<img src="../bank/2016/q06.png" alt="06 (2016)" width="542" style="display: block; width: 33.86em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2016/q06.png" alt="06 (2016)" width="543" style="display: block; width: 33.93em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -71,7 +71,7 @@
 
 ### 07 · 2012年
 
-<img src="../bank/2012/q05.png" alt="07 (2012)" width="782" style="display: block; width: 48.86em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2012/q05.png" alt="07 (2012)" width="777" style="display: block; width: 48.55em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 

@@ -39,7 +39,7 @@
 
 **原题**（[在章节题单中查看](../../chapters/linear-algebra/03-vectors-rank.md#q2010-7)）：
 
-<img src="../../chapters/bank/2010/q07.png" alt="16 (2010)" width="711" style="display: block; width: 44.41em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../../chapters/bank/2010/q07.png" alt="16 (2010)" width="694" style="display: block; width: 43.34em; max-width: 100%; height: auto; margin: 14px 0;">
 
 #### 第一步怎么落笔
 
@@ -72,7 +72,7 @@
 
 **原题**（[在章节题单中查看](../../chapters/linear-algebra/03-vectors-rank.md#q2018-8)）：
 
-<img src="../../chapters/bank/2018/q08.png" alt="10 (2018)" width="610" style="display: block; width: 38.1em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../../chapters/bank/2018/q08.png" alt="10 (2018)" width="610" style="display: block; width: 38.14em; max-width: 100%; height: auto; margin: 14px 0;">
 
 #### 第一步怎么落笔
 
@@ -107,7 +107,7 @@ $$r(A,\ AB) = r(A,\ O) = r(A).$$
 
 **原题**（[在章节题单中查看](../../chapters/linear-algebra/03-vectors-rank.md#q2021-9)）：
 
-<img src="../../chapters/bank/2021/q09.png" alt="07 (2021)" width="782" style="display: block; width: 48.86em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../../chapters/bank/2021/q09.png" alt="07 (2021)" width="769" style="display: block; width: 48.03em; max-width: 100%; height: auto; margin: 14px 0;">
 
 #### 第一步怎么落笔
 
@@ -154,7 +154,7 @@ $$r(A,\ AB) = r(A,\ O) = r(A).$$
 
 **原题**（[在章节题单中查看](../../chapters/linear-algebra/03-vectors-rank.md#q2024-16)）：
 
-<img src="../../chapters/bank/2024/q16.png" alt="04 (2024)" width="782" style="display: block; width: 48.86em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../../chapters/bank/2024/q16.png" alt="04 (2024)" width="768" style="display: block; width: 48.0em; max-width: 100%; height: auto; margin: 14px 0;">
 
 #### 第一步怎么落笔
 
@@ -192,7 +192,7 @@ $$\begin{cases} c_1 a + c_3 = 1 & (1) \\ c_1 + c_3 a = 1 & (2) \\ -c_1 - c_3 = b
 
 ### 1. 真题回练一：[2023 年第 10 题](../../chapters/linear-algebra/03-vectors-rank.md#q2023-10)（选择题）
 
-<img src="../../chapters/bank/2023/q10.png" alt="05 (2023)" width="782" style="display: block; width: 48.86em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../../chapters/bank/2023/q10.png" alt="05 (2023)" width="781" style="display: block; width: 48.83em; max-width: 100%; height: auto; margin: 14px 0;">
 
 <details>
 <summary>点击核对思路与答案</summary>
@@ -208,7 +208,7 @@ $$\begin{cases} c_1 a + c_3 = 1 & (1) \\ c_1 + c_3 a = 1 & (2) \\ -c_1 - c_3 = b
 
 ### 2. 真题回练二：[2019 年第 22 题](../../chapters/linear-algebra/03-vectors-rank.md#q2019-22)（解答题，满分 11 分）
 
-<img src="../../chapters/bank/2019/q22.png" alt="09 (2019)" width="782" style="display: block; width: 48.9em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../../chapters/bank/2019/q22.png" alt="09 (2019)" width="777" style="display: block; width: 48.59em; max-width: 100%; height: auto; margin: 14px 0;">
 
 <details>
 <summary>点击核对思路与答案</summary>

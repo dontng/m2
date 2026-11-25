@@ -20,7 +20,7 @@
 
 ### 01 · 2025年
 
-<img src="../bank/2025/q15.png" alt="01 (2025)" width="666" style="display: block; width: 41.66em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2025/q15.png" alt="01 (2025)" width="656" style="display: block; width: 41.0em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -30,7 +30,7 @@
 
 > *变量代换型微分方程。看到 $x+y$ 捆在一起，果断设新变量 $u = x+y$，方程立刻化成分离变量方程，千万别直接硬解。*
 
-<img src="../bank/2024/q13.png" alt="02 (2024)" width="554" style="display: block; width: 34.62em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2024/q13.png" alt="02 (2024)" width="543" style="display: block; width: 33.97em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -40,7 +40,7 @@
 
 > *切线与微分方程综合大题。根据切线法线斜率列出一阶线性方程求出曲线，第二问求极值严格按导数符号讨论。*
 
-<img src="../bank/2023/q17.png" alt="03 (2023)" width="782" style="display: block; width: 48.9em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2023/q17.png" alt="03 (2023)" width="769" style="display: block; width: 48.03em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -48,7 +48,7 @@
 
 ### 04 · 2022年
 
-<img src="../bank/2022/q18.png" alt="04 (2022)" width="781" style="display: block; width: 48.83em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2022/q18.png" alt="04 (2022)" width="777" style="display: block; width: 48.55em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -58,7 +58,7 @@
 
 > *一阶线性方程与法线截距。第一问套公式求通解；第二问写出法线方程令 $x=0$ 得到截距函数 $I_y(x)$，求导求最小值即可。*
 
-<img src="../bank/2021/q20.png" alt="05 (2021)" width="782" style="display: block; width: 48.86em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2021/q20.png" alt="05 (2021)" width="755" style="display: block; width: 47.17em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -66,7 +66,7 @@
 
 ### 06 · 2020年
 
-<img src="../bank/2020/q21.png" alt="06 (2020)" width="782" style="display: block; width: 48.86em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2020/q21.png" alt="06 (2020)" width="773" style="display: block; width: 48.31em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -74,7 +74,7 @@
 
 ### 07 · 2019年
 
-<img src="../bank/2019/q17.png" alt="07 (2019)" width="698" style="display: block; width: 43.66em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2019/q17.png" alt="07 (2019)" width="686" style="display: block; width: 42.9em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -84,7 +84,7 @@
 
 > *积分方程求导题。第二项积分做变量代换 $u=x-t$ 剥离外层 $x$，两端同时求导脱去变限积分符号，转化成一阶线性微分方程。*
 
-<img src="../bank/2018/q16.png" alt="08 (2018)" width="580" style="display: block; width: 36.28em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2018/q16.png" alt="08 (2018)" width="577" style="display: block; width: 36.07em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -92,7 +92,7 @@
 
 ### 09 · 2017年
 
-<img src="../bank/2017/q21.png" alt="09 (2017)" width="782" style="display: block; width: 48.9em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2017/q21.png" alt="09 (2017)" width="777" style="display: block; width: 48.55em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -100,7 +100,7 @@
 
 ### 10 · 2016年
 
-<img src="../bank/2016/q11.png" alt="10 (2016)" width="618" style="display: block; width: 38.62em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2016/q11.png" alt="10 (2016)" width="605" style="display: block; width: 37.79em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -108,7 +108,7 @@
 
 ### 11 · 2015年
 
-<img src="../bank/2015/q20.png" alt="11 (2015)" width="782" style="display: block; width: 48.86em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2015/q20.png" alt="11 (2015)" width="773" style="display: block; width: 48.31em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -116,7 +116,7 @@
 
 ### 12 · 2014年
 
-<img src="../bank/2014/q16.png" alt="12 (2014)" width="735" style="display: block; width: 45.93em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2014/q16.png" alt="12 (2014)" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -124,7 +124,7 @@
 
 ### 13 · 2012年
 
-<img src="../bank/2012/q12.png" alt="13 (2012)" width="639" style="display: block; width: 39.93em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2012/q12.png" alt="13 (2012)" width="628" style="display: block; width: 39.28em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -132,7 +132,7 @@
 
 ### 14 · 2011年
 
-<img src="../bank/2011/q10.png" alt="14 (2011)" width="551" style="display: block; width: 34.45em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2011/q10.png" alt="14 (2011)" width="542" style="display: block; width: 33.9em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -142,7 +142,7 @@
 
 > *别被倾角唬住，$\tan\alpha = y'$，两边求导就是 $\alpha' = \frac{y''}{1+y'^2}$。令 $p=y'$ 当一阶方程算。*
 
-<img src="../bank/2011/q18.png" alt="15 (2011)" width="781" style="display: block; width: 48.83em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2011/q18.png" alt="15 (2011)" width="772" style="display: block; width: 48.28em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -150,7 +150,7 @@
 
 ### 16 · 2010年
 
-<img src="../bank/2010/q02.png" alt="16 (2010)" width="782" style="display: block; width: 48.86em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2010/q02.png" alt="16 (2010)" width="774" style="display: block; width: 48.38em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 

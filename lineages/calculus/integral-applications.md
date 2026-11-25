@@ -36,7 +36,7 @@
 
 **原题**（[在章节题单中查看](../../chapters/calculus/13-integral-applications.md#q2013-16)）：
 
-<img src="../../chapters/bank/2013/q16.png" alt="21 (2013)" width="782" style="display: block; width: 48.86em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../../chapters/bank/2013/q16.png" alt="21 (2013)" width="774" style="display: block; width: 48.38em; max-width: 100%; height: auto; margin: 14px 0;">
 
 #### 触发条件与第一步落笔
 
@@ -81,7 +81,7 @@
 
 **原题**（[在章节题单中查看](../../chapters/calculus/13-integral-applications.md#q2019-12)）：
 
-<img src="../../chapters/bank/2019/q12.png" alt="12 (2019)" width="454" style="display: block; width: 28.34em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../../chapters/bank/2019/q12.png" alt="12 (2019)" width="447" style="display: block; width: 27.97em; max-width: 100%; height: auto; margin: 14px 0;">
 
 #### 触发条件与第一步落笔
 
@@ -120,7 +120,7 @@
 
 **原题**（[在章节题单中查看](../../chapters/calculus/13-integral-applications.md#q2022-15)）：
 
-<img src="../../chapters/bank/2022/q15.png" alt="08 (2022)" width="777" style="display: block; width: 48.55em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../../chapters/bank/2022/q15.png" alt="08 (2022)" width="762" style="display: block; width: 47.62em; max-width: 100%; height: auto; margin: 14px 0;">
 
 #### 触发条件与第一步落笔
 
@@ -159,7 +159,7 @@ $$S = \frac{1}{4}\int_0^{\frac{\pi}{3}} (1 - \cos 6\theta)\,\mathrm{d}\theta = \
 
 **原题**（[在章节题单中查看](../../chapters/calculus/13-integral-applications.md#q2024-19)）：
 
-<img src="../../chapters/bank/2024/q19.png" alt="05 (2024)" width="782" style="display: block; width: 48.86em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../../chapters/bank/2024/q19.png" alt="05 (2024)" width="760" style="display: block; width: 47.52em; max-width: 100%; height: auto; margin: 14px 0;">
 
 #### 触发条件与第一步落笔
 
@@ -198,7 +198,7 @@ $$S = \frac{1}{4}\int_0^{\frac{\pi}{3}} (1 - \cos 6\theta)\,\mathrm{d}\theta = \
 
 ### 1. 真题回练一（质心坐标）：[2014 年第 13 题](../../chapters/calculus/13-integral-applications.md#q2014-13)（填空题）
 
-<img src="../../chapters/bank/2014/q13.png" alt="18 (2014)" width="782" style="display: block; width: 48.9em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../../chapters/bank/2014/q13.png" alt="18 (2014)" width="761" style="display: block; width: 47.59em; max-width: 100%; height: auto; margin: 14px 0;">
 
 <details>
 <summary>点击核对思路与答案</summary>
@@ -212,7 +212,7 @@ $$S = \frac{1}{4}\int_0^{\frac{\pi}{3}} (1 - \cos 6\theta)\,\mathrm{d}\theta = \
 
 ### 2. 真题回练二（万有引力矢量分解）：[2026 年第 4 题](../../chapters/calculus/13-integral-applications.md#q2026-4)（选择题）
 
-<img src="../../chapters/bank/2026/q04.png" alt="01 (2026)" width="782" style="display: block; width: 48.86em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../../chapters/bank/2026/q04.png" alt="01 (2026)" width="781" style="display: block; width: 48.79em; max-width: 100%; height: auto; margin: 14px 0;">
 
 <details>
 <summary>点击核对思路与答案</summary>

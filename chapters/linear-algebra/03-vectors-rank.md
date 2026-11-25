@@ -22,7 +22,7 @@
 
 > *最新线代解答题。第一问行变换化阶梯形证极大无关组；第二问列出分解 $A=GH$（满秩分解），利用结合律 $A^{10} = G(HG)^9 H$ 降成 2 阶矩阵的幂。*
 
-<img src="../bank/2026/q22.png" alt="01 (2026)" width="782" style="display: block; width: 48.86em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2026/q22.png" alt="01 (2026)" width="769" style="display: block; width: 48.07em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -30,7 +30,7 @@
 
 ### 02 · 2025年
 
-<img src="../bank/2025/q10.png" alt="02 (2025)" width="482" style="display: block; width: 30.1em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2025/q10.png" alt="02 (2025)" width="473" style="display: block; width: 29.59em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -38,7 +38,7 @@
 
 ### 03 · 2024年
 
-<img src="../bank/2024/q09.png" alt="03 (2024)" width="751" style="display: block; width: 46.97em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2024/q09.png" alt="03 (2024)" width="734" style="display: block; width: 45.9em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -46,7 +46,7 @@
 
 ### 04 · 2024年
 
-<img src="../bank/2024/q16.png" alt="04 (2024)" width="782" style="display: block; width: 48.86em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2024/q16.png" alt="04 (2024)" width="768" style="display: block; width: 48.0em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -54,7 +54,7 @@
 
 ### 05 · 2023年
 
-<img src="../bank/2023/q10.png" alt="05 (2023)" width="782" style="display: block; width: 48.86em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2023/q10.png" alt="05 (2023)" width="781" style="display: block; width: 48.83em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -62,7 +62,7 @@
 
 ### 06 · 2022年
 
-<img src="../bank/2022/q10.png" alt="06 (2022)" width="782" style="display: block; width: 48.86em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2022/q10.png" alt="06 (2022)" width="760" style="display: block; width: 47.52em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -72,7 +72,7 @@
 
 > *向量表出与方程解空间选择题。向量组 $A$ 能被 $B$ 线性表出意味着 $A=BC$。转置后 $A^T = C^T B^T$，从而 $B^T x=0$ 的解必定是 $A^T x=0$ 的解。*
 
-<img src="../bank/2021/q09.png" alt="07 (2021)" width="782" style="display: block; width: 48.86em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2021/q09.png" alt="07 (2021)" width="769" style="display: block; width: 48.03em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -80,7 +80,7 @@
 
 ### 08 · 2019年
 
-<img src="../bank/2019/q07.png" alt="08 (2019)" width="780" style="display: block; width: 48.76em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2019/q07.png" alt="08 (2019)" width="782" style="display: block; width: 48.9em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -90,7 +90,7 @@
 
 > *两向量组等价大题。两向量组等价充分必要条件是秩相等且可互相线性表出，联立大矩阵做行初等变换同时解决秩与表出系数。*
 
-<img src="../bank/2019/q22.png" alt="09 (2019)" width="782" style="display: block; width: 48.9em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2019/q22.png" alt="09 (2019)" width="777" style="display: block; width: 48.59em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -98,7 +98,7 @@
 
 ### 10 · 2018年
 
-<img src="../bank/2018/q08.png" alt="10 (2018)" width="610" style="display: block; width: 38.1em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2018/q08.png" alt="10 (2018)" width="610" style="display: block; width: 38.14em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -106,7 +106,7 @@
 
 ### 11 · 2016年
 
-<img src="../bank/2016/q14.png" alt="11 (2016)" width="584" style="display: block; width: 36.48em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2016/q14.png" alt="11 (2016)" width="573" style="display: block; width: 35.83em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -114,7 +114,7 @@
 
 ### 12 · 2014年
 
-<img src="../bank/2014/q08.png" alt="12 (2014)" width="781" style="display: block; width: 48.83em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2014/q08.png" alt="12 (2014)" width="766" style="display: block; width: 47.86em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -122,7 +122,7 @@
 
 ### 13 · 2013年
 
-<img src="../bank/2013/q07.png" alt="13 (2013)" width="513" style="display: block; width: 32.07em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2013/q07.png" alt="13 (2013)" width="503" style="display: block; width: 31.41em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -130,7 +130,7 @@
 
 ### 14 · 2012年
 
-<img src="../bank/2012/q07.png" alt="14 (2012)" width="781" style="display: block; width: 48.83em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2012/q07.png" alt="14 (2012)" width="777" style="display: block; width: 48.59em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -138,7 +138,7 @@
 
 ### 15 · 2011年
 
-<img src="../bank/2011/q22.png" alt="15 (2011)" width="777" style="display: block; width: 48.55em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2011/q22.png" alt="15 (2011)" width="733" style="display: block; width: 45.79em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -146,7 +146,7 @@
 
 ### 16 · 2010年
 
-<img src="../bank/2010/q07.png" alt="16 (2010)" width="711" style="display: block; width: 44.41em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2010/q07.png" alt="16 (2010)" width="694" style="display: block; width: 43.34em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 

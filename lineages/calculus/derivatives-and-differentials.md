@@ -36,7 +36,7 @@
 
 **原题**（[在章节题单中查看](../../chapters/calculus/04-derivatives.md#q2011-2)）：
 
-<img src="../../chapters/bank/2011/q02.png" alt="22 (2011)" width="643" style="display: block; width: 40.21em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../../chapters/bank/2011/q02.png" alt="22 (2011)" width="643" style="display: block; width: 40.17em; max-width: 100%; height: auto; margin: 14px 0;">
 
 #### 第一步与完整推演
 
@@ -82,7 +82,7 @@
 
 **原题**（[在章节题单中查看](../../chapters/calculus/04-derivatives.md#q2021-2)）：
 
-<img src="../../chapters/bank/2021/q02.png" alt="09 (2021)" width="764" style="display: block; width: 47.72em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../../chapters/bank/2021/q02.png" alt="09 (2021)" width="759" style="display: block; width: 47.45em; max-width: 100%; height: auto; margin: 14px 0;">
 
 #### 第一步与完整推演
 
@@ -128,7 +128,7 @@
 
 **原题**（[在章节题单中查看](../../chapters/calculus/04-derivatives.md#q2017-10)）：
 
-<img src="../../chapters/bank/2017/q10.png" alt="14 (2017)" width="621" style="display: block; width: 38.83em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../../chapters/bank/2017/q10.png" alt="14 (2017)" width="610" style="display: block; width: 38.14em; max-width: 100%; height: auto; margin: 14px 0;">
 
 #### 第一步与完整推演
 
@@ -173,7 +173,7 @@
 
 **原题**（[在章节题单中查看](../../chapters/calculus/04-derivatives.md#q2022-12)）：
 
-<img src="../../chapters/bank/2022/q12.png" alt="07 (2022)" width="621" style="display: block; width: 38.83em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../../chapters/bank/2022/q12.png" alt="07 (2022)" width="610" style="display: block; width: 38.14em; max-width: 100%; height: auto; margin: 14px 0;">
 
 #### 第一步与完整推演
 
@@ -207,7 +207,7 @@
 
 ### 1. 真题回练一：[2026 年第 6 题](../../chapters/calculus/04-derivatives.md#q2026-6)（选择题）
 
-<img src="../../chapters/bank/2026/q06.png" alt="01 (2026)" width="604" style="display: block; width: 37.72em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../../chapters/bank/2026/q06.png" alt="01 (2026)" width="601" style="display: block; width: 37.55em; max-width: 100%; height: auto; margin: 14px 0;">
 
 <details>
 <summary>点击核对要点与答案</summary>
@@ -224,7 +224,7 @@
 
 ### 2. 真题回练二：[2024 年第 2 题](../../chapters/calculus/04-derivatives.md#q2024-2)（选择题）
 
-<img src="../../chapters/bank/2024/q02.png" alt="05 (2024)" width="644" style="display: block; width: 40.28em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../../chapters/bank/2024/q02.png" alt="05 (2024)" width="643" style="display: block; width: 40.17em; max-width: 100%; height: auto; margin: 14px 0;">
 
 <details>
 <summary>点击核对要点与答案</summary>

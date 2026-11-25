@@ -22,7 +22,7 @@
 
 > *规范形与惯性指数填空。规范形为 $y_1^2$ 说明正惯性指数为 1，负惯性指数为 0，即矩阵半正定且秩为 1。由所有 2 阶子式为 0 列方程定 $a, b$。*
 
-<img src="../bank/2026/q16.png" alt="01 (2026)" width="759" style="display: block; width: 47.45em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2026/q16.png" alt="01 (2026)" width="749" style="display: block; width: 46.83em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -32,7 +32,7 @@
 
 > *合同与正交相似大题。合同说明正负惯性指数相同，定出参数范围；第二问正交相似说明特征值完全相同，用特征值相等列方程定正交矩阵 $Q$。*
 
-<img src="../bank/2025/q22.png" alt="02 (2025)" width="656" style="display: block; width: 41.0em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2025/q22.png" alt="02 (2025)" width="640" style="display: block; width: 40.0em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -50,7 +50,7 @@
 
 ### 04 · 2023年
 
-<img src="../bank/2023/q09.png" alt="04 (2023)" width="607" style="display: block; width: 37.97em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2023/q09.png" alt="04 (2023)" width="586" style="display: block; width: 36.66em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -60,7 +60,7 @@
 
 > *标准二次型正交变换大题。写出实对称矩阵，求特征值与特征向量；注意如果有重特征值必须用施密特正交化，单位化后拼成正交矩阵 $Q$。*
 
-<img src="../bank/2022/q22.png" alt="05 (2022)" width="611" style="display: block; width: 38.21em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2022/q22.png" alt="05 (2022)" width="596" style="display: block; width: 37.24em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -68,7 +68,7 @@
 
 ### 06 · 2021年
 
-<img src="../bank/2021/q08.png" alt="06 (2021)" width="728" style="display: block; width: 45.48em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2021/q08.png" alt="06 (2021)" width="704" style="display: block; width: 44.0em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -76,7 +76,7 @@
 
 ### 07 · 2020年
 
-<img src="../bank/2020/q22.png" alt="07 (2020)" width="777" style="display: block; width: 48.59em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2020/q22.png" alt="07 (2020)" width="723" style="display: block; width: 45.17em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -84,7 +84,7 @@
 
 ### 08 · 2019年
 
-<img src="../bank/2019/q08.png" alt="08 (2019)" width="782" style="display: block; width: 48.86em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2019/q08.png" alt="08 (2019)" width="775" style="display: block; width: 48.41em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -94,7 +94,7 @@
 
 > *完全平方式求二次型参数。写出二次型矩阵，求秩为 2 或正定条件；配方法直接观察平方项系数，比硬算特征值快得多。*
 
-<img src="../bank/2018/q22.png" alt="09 (2018)" width="675" style="display: block; width: 42.17em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2018/q22.png" alt="09 (2018)" width="655" style="display: block; width: 40.93em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -102,7 +102,7 @@
 
 ### 10 · 2017年
 
-<img src="../bank/2017/q23.png" alt="10 (2017)" width="782" style="display: block; width: 48.86em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2017/q23.png" alt="10 (2017)" width="771" style="display: block; width: 48.21em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -110,7 +110,7 @@
 
 ### 11 · 2016年
 
-<img src="../bank/2016/q08.png" alt="11 (2016)" width="770" style="display: block; width: 48.14em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2016/q08.png" alt="11 (2016)" width="759" style="display: block; width: 47.45em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -118,7 +118,7 @@
 
 ### 12 · 2015年
 
-<img src="../bank/2015/q08.png" alt="12 (2015)" width="782" style="display: block; width: 48.86em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2015/q08.png" alt="12 (2015)" width="742" style="display: block; width: 46.34em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -126,7 +126,7 @@
 
 ### 13 · 2014年
 
-<img src="../bank/2014/q14.png" alt="13 (2014)" width="781" style="display: block; width: 48.83em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2014/q14.png" alt="13 (2014)" width="686" style="display: block; width: 42.86em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -134,7 +134,7 @@
 
 ### 14 · 2013年
 
-<img src="../bank/2013/q23.png" alt="14 (2013)" width="777" style="display: block; width: 48.55em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2013/q23.png" alt="14 (2013)" width="741" style="display: block; width: 46.31em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -142,7 +142,7 @@
 
 ### 15 · 2012年
 
-<img src="../bank/2012/q23.png" alt="15 (2012)" width="769" style="display: block; width: 48.07em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2012/q23.png" alt="15 (2012)" width="759" style="display: block; width: 47.41em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -150,7 +150,7 @@
 
 ### 16 · 2011年
 
-<img src="../bank/2011/q14.png" alt="16 (2011)" width="754" style="display: block; width: 47.1em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2011/q14.png" alt="16 (2011)" width="732" style="display: block; width: 45.72em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 

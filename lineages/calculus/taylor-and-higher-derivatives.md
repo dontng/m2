@@ -32,7 +32,7 @@
 
 **原题**（[在章节题单中查看](../../chapters/calculus/08-taylor.md#q2021-5)）：
 
-<img src="../../chapters/bank/2021/q05.png" alt="02 (2021)" width="551" style="display: block; width: 34.45em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../../chapters/bank/2021/q05.png" alt="02 (2021)" width="549" style="display: block; width: 34.31em; max-width: 100%; height: auto; margin: 14px 0;">
 
 #### 解法一：奇偶性 + 已知展开直接截断（最快入口）
 
@@ -74,7 +74,7 @@ $$f^{(n)}(0) = n!\,a_n.$$
 
 **原题**（[在章节题单中查看](../../chapters/calculus/08-taylor.md#q2010-11)）：
 
-<img src="../../chapters/bank/2010/q11.png" alt="07 (2010)" width="565" style="display: block; width: 35.31em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../../chapters/bank/2010/q11.png" alt="07 (2010)" width="556" style="display: block; width: 34.76em; max-width: 100%; height: auto; margin: 14px 0;">
 
 #### 解法一：麦克劳林展开比系数（推荐）
 
@@ -103,7 +103,7 @@ $$y^{(n)}(0) = -\frac{2^n}{n} \cdot n! = -2^n(n - 1)!.$$
 
 **原题**（[在章节题单中查看](../../chapters/calculus/08-taylor.md#q2020-4)）：
 
-<img src="../../chapters/bank/2020/q04.png" alt="03 (2020)" width="513" style="display: block; width: 32.07em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../../chapters/bank/2020/q04.png" alt="03 (2020)" width="513" style="display: block; width: 32.03em; max-width: 100%; height: auto; margin: 14px 0;">
 
 #### 解法一：幂级数展开 + 指标平移（最快）
 
@@ -144,7 +144,7 @@ $$f^{(n)}(0) = C_n^2 \cdot u''(0) \cdot v^{(n-2)}(0) = \frac{n(n-1)}{2} \cdot 2 
 
 **原题**（[在章节题单中查看](../../chapters/calculus/08-taylor.md#q2024-14)）：
 
-<img src="../../chapters/bank/2024/q14.png" alt="01 (2024)" width="466" style="display: block; width: 29.14em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../../chapters/bank/2024/q14.png" alt="01 (2024)" width="459" style="display: block; width: 28.69em; max-width: 100%; height: auto; margin: 14px 0;">
 
 #### 第一步落笔与完整推导
 
@@ -168,7 +168,7 @@ $$f^{(n)}(0) = C_n^2 \cdot u''(0) \cdot v^{(n-2)}(0) = \frac{n(n-1)}{2} \cdot 2 
 
 ### 1. 真题回练一：[2019 年第 6 题](../../chapters/calculus/08-taylor.md#q2019-6)（选择题——佩亚诺泰勒 + 曲率陷阱）
 
-<img src="../../chapters/bank/2019/q06.png" alt="04 (2019)" width="777" style="display: block; width: 48.59em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../../chapters/bank/2019/q06.png" alt="04 (2019)" width="767" style="display: block; width: 47.97em; max-width: 100%; height: auto; margin: 14px 0;">
 
 <details>
 <summary>点击核对思路与结论</summary>
@@ -189,7 +189,7 @@ $$f^{(n)}(0) = C_n^2 \cdot u''(0) \cdot v^{(n-2)}(0) = \frac{n(n-1)}{2} \cdot 2 
 
 ### 2. 真题回练二：[2016 年第 12 题](../../chapters/calculus/08-taylor.md#q2016-12)（填空题——变上限积分方程递推求高阶导）
 
-<img src="../../chapters/bank/2016/q12.png" alt="05 (2016)" width="781" style="display: block; width: 48.83em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../../chapters/bank/2016/q12.png" alt="05 (2016)" width="748" style="display: block; width: 46.76em; max-width: 100%; height: auto; margin: 14px 0;">
 
 <details>
 <summary>点击核对思路与结论</summary>

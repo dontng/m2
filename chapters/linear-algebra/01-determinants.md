@@ -22,7 +22,7 @@
 
 > *方程组可解与行列式填空。方程组有解且方程数大于未知数数，增广矩阵行列式必为 0。利用按行展开与行列式性质建立两个行列式的倍数联系。*
 
-<img src="../bank/2023/q16.png" alt="01 (2023)" width="781" style="display: block; width: 48.83em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2023/q16.png" alt="01 (2023)" width="743" style="display: block; width: 46.41em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -32,7 +32,7 @@
 
 > *4阶多项式行列式系数。求 $x^3$ 项系数，根据行列式定义，只有主对角线或次对角线包含 $x$ 的乘积项才可能贡献 $x^3$，按项分析最快。*
 
-<img src="../bank/2021/q16.png" alt="02 (2021)" width="551" style="display: block; width: 34.41em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2021/q16.png" alt="02 (2021)" width="541" style="display: block; width: 33.79em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -40,7 +40,7 @@
 
 ### 03 · 2020年
 
-<img src="../bank/2020/q14.png" alt="03 (2020)" width="391" style="display: block; width: 24.45em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2020/q14.png" alt="03 (2020)" width="386" style="display: block; width: 24.1em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -48,7 +48,7 @@
 
 ### 04 · 2019年
 
-<img src="../bank/2019/q14.png" alt="04 (2019)" width="781" style="display: block; width: 48.83em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2019/q14.png" alt="04 (2019)" width="706" style="display: block; width: 44.14em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -56,7 +56,7 @@
 
 ### 05 · 2018年
 
-<img src="../bank/2018/q14.png" alt="05 (2018)" width="778" style="display: block; width: 48.62em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2018/q14.png" alt="05 (2018)" width="706" style="display: block; width: 44.1em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -66,7 +66,7 @@
 
 > *特征值映射性质题。$A$ 的特征值代入多项式直接算得 $B$ 的三个特征值为 3, 7, 1，矩阵行列式等于全部特征值之积，乘起来得 21。*
 
-<img src="../bank/2015/q14.png" alt="06 (2015)" width="781" style="display: block; width: 48.83em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2015/q14.png" alt="06 (2015)" width="727" style="display: block; width: 45.41em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -74,7 +74,7 @@
 
 ### 07 · 2014年
 
-<img src="../bank/2014/q07.png" alt="07 (2014)" width="548" style="display: block; width: 34.24em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2014/q07.png" alt="07 (2014)" width="545" style="display: block; width: 34.07em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -82,7 +82,7 @@
 
 ### 08 · 2013年
 
-<img src="../bank/2013/q14.png" alt="08 (2013)" width="777" style="display: block; width: 48.59em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2013/q14.png" alt="08 (2013)" width="698" style="display: block; width: 43.66em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -90,7 +90,7 @@
 
 ### 09 · 2012年
 
-<img src="../bank/2012/q14.png" alt="09 (2012)" width="781" style="display: block; width: 48.79em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2012/q14.png" alt="09 (2012)" width="727" style="display: block; width: 45.45em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -98,7 +98,7 @@
 
 ### 10 · 2010年
 
-<img src="../bank/2010/q14.png" alt="10 (2010)" width="727" style="display: block; width: 45.41em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2010/q14.png" alt="10 (2010)" width="717" style="display: block; width: 44.83em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 

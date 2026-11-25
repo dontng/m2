@@ -36,7 +36,7 @@
 
 **原题**（[在章节题单中查看](../../chapters/linear-algebra/06-quadratic-forms.md#q2021-8)）：
 
-<img src="../../chapters/bank/2021/q08.png" alt="06 (2021)" width="728" style="display: block; width: 45.48em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../../chapters/bank/2021/q08.png" alt="06 (2021)" width="704" style="display: block; width: 44.0em; max-width: 100%; height: auto; margin: 14px 0;">
 
 #### 第一步怎么落笔
 
@@ -75,7 +75,7 @@
 
 **原题**（[在章节题单中查看](../../chapters/linear-algebra/06-quadratic-forms.md#q2019-8)）：
 
-<img src="../../chapters/bank/2019/q08.png" alt="08 (2019)" width="782" style="display: block; width: 48.86em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../../chapters/bank/2019/q08.png" alt="08 (2019)" width="775" style="display: block; width: 48.41em; max-width: 100%; height: auto; margin: 14px 0;">
 
 #### 第一步怎么落笔
 
@@ -134,7 +134,7 @@
 
 **原题**（[在章节题单中查看](../../chapters/linear-algebra/06-quadratic-forms.md#q2022-22)）：
 
-<img src="../../chapters/bank/2022/q22.png" alt="05 (2022)" width="611" style="display: block; width: 38.21em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../../chapters/bank/2022/q22.png" alt="05 (2022)" width="596" style="display: block; width: 37.24em; max-width: 100%; height: auto; margin: 14px 0;">
 
 #### 第（I）问：求正交矩阵 $Q$ 将 $f$ 化为标准形
 
@@ -179,7 +179,7 @@
 
 **原题**（[在章节题单中查看](../../chapters/linear-algebra/06-quadratic-forms.md#q2026-16)）：
 
-<img src="../../chapters/bank/2026/q16.png" alt="01 (2026)" width="759" style="display: block; width: 47.45em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../../chapters/bank/2026/q16.png" alt="01 (2026)" width="749" style="display: block; width: 46.83em; max-width: 100%; height: auto; margin: 14px 0;">
 
 #### 第一步怎么落笔
 
@@ -230,7 +230,7 @@ $$a + b = 1 + 1 = 2.$$
 
 ### 2. 真题回练二：[2023 年第 9 题](../../chapters/linear-algebra/06-quadratic-forms.md#q2023-9)（选择题）
 
-<img src="../../chapters/bank/2023/q09.png" alt="04 (2023)" width="607" style="display: block; width: 37.97em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../../chapters/bank/2023/q09.png" alt="04 (2023)" width="586" style="display: block; width: 36.66em; max-width: 100%; height: auto; margin: 14px 0;">
 
 <details>
 <summary>点击核对思路与答案</summary>

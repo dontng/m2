@@ -23,7 +23,7 @@
 
 > *隐函数曲率半径填空。在点 $(0,1)$ 处对隐方程求一阶导得 $y'$，再求二阶导得 $y''$，直接代入曲率半径公式 $R = (1+y'^2)^{3/2}/|y''|$，别算错代数式。*
 
-<img src="../bank/2026/q13.png" alt="01 (2026)" width="563" style="display: block; width: 35.17em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2026/q13.png" alt="01 (2026)" width="551" style="display: block; width: 34.41em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -33,7 +33,7 @@
 
 > *三次根式斜渐近线。求斜渐近线别死算两步极限，提公因子 $x$ 出来利用泰勒展开 $(1+u)^{1/3} = 1 + u/3 - u^2/9$，直接展开得到 $y = x - 1$。*
 
-<img src="../bank/2025/q12.png" alt="02 (2025)" width="466" style="display: block; width: 29.1em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2025/q12.png" alt="02 (2025)" width="456" style="display: block; width: 28.48em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -41,7 +41,7 @@
 
 ### 03 · 2024年
 
-<img src="../bank/2024/q11.png" alt="03 (2024)" width="462" style="display: block; width: 28.9em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2024/q11.png" alt="03 (2024)" width="453" style="display: block; width: 28.31em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -49,7 +49,7 @@
 
 ### 04 · 2023年
 
-<img src="../bank/2023/q01.png" alt="04 (2023)" width="707" style="display: block; width: 44.21em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2023/q01.png" alt="04 (2023)" width="707" style="display: block; width: 44.17em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -57,7 +57,7 @@
 
 ### 05 · 2023年
 
-<img src="../bank/2023/q14.png" alt="05 (2023)" width="553" style="display: block; width: 34.59em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2023/q14.png" alt="05 (2023)" width="540" style="display: block; width: 33.76em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -67,7 +67,7 @@
 
 > *幂指函数斜渐近线大题。先算斜率 $a = \lim y/x$；算截距 $b = \lim (y-ax)$ 时化为 $x[(1+1/x)^{-x}-1]$，利用对数展开式或等价无穷小求极限。*
 
-<img src="../bank/2020/q15.png" alt="06 (2020)" width="376" style="display: block; width: 23.52em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2020/q15.png" alt="06 (2020)" width="369" style="display: block; width: 23.03em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -75,7 +75,7 @@
 
 ### 07 · 2019年
 
-<img src="../bank/2019/q10.png" alt="07 (2019)" width="605" style="display: block; width: 37.79em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2019/q10.png" alt="07 (2019)" width="594" style="display: block; width: 37.14em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -83,7 +83,7 @@
 
 ### 08 · 2018年
 
-<img src="../bank/2018/q10.png" alt="08 (2018)" width="500" style="display: block; width: 31.24em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2018/q10.png" alt="08 (2018)" width="490" style="display: block; width: 30.62em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -91,7 +91,7 @@
 
 ### 09 · 2018年
 
-<img src="../bank/2018/q12.png" alt="09 (2018)" width="503" style="display: block; width: 31.41em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2018/q12.png" alt="09 (2018)" width="493" style="display: block; width: 30.83em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -99,7 +99,7 @@
 
 ### 10 · 2017年
 
-<img src="../bank/2017/q09.png" alt="10 (2017)" width="484" style="display: block; width: 30.28em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2017/q09.png" alt="10 (2017)" width="477" style="display: block; width: 29.83em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -109,7 +109,7 @@
 
 > *切线与曲率比较。两曲线相切说明一阶导相等；曲率大说明二阶导绝对值大。结合 $f''_i(x_0)<0$ 判定局部凸性与相对位置，画草图一目了然。*
 
-<img src="../bank/2016/q05.png" alt="11 (2016)" width="782" style="display: block; width: 48.86em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2016/q05.png" alt="11 (2016)" width="781" style="display: block; width: 48.83em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -117,7 +117,7 @@
 
 ### 12 · 2016年
 
-<img src="../bank/2016/q09.png" alt="12 (2016)" width="547" style="display: block; width: 34.21em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2016/q09.png" alt="12 (2016)" width="536" style="display: block; width: 33.48em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -125,7 +125,7 @@
 
 ### 13 · 2014年
 
-<img src="../bank/2014/q02.png" alt="13 (2014)" width="736" style="display: block; width: 46.0em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2014/q02.png" alt="13 (2014)" width="735" style="display: block; width: 45.97em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -133,7 +133,7 @@
 
 ### 14 · 2014年
 
-<img src="../bank/2014/q04.png" alt="14 (2014)" width="675" style="display: block; width: 42.21em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2014/q04.png" alt="14 (2014)" width="674" style="display: block; width: 42.1em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -141,7 +141,7 @@
 
 ### 15 · 2014年
 
-<img src="../bank/2014/q12.png" alt="15 (2014)" width="694" style="display: block; width: 43.34em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2014/q12.png" alt="15 (2014)" width="680" style="display: block; width: 42.52em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -149,7 +149,7 @@
 
 ### 16 · 2013年
 
-<img src="../bank/2013/q12.png" alt="16 (2013)" width="590" style="display: block; width: 36.86em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2013/q12.png" alt="16 (2013)" width="580" style="display: block; width: 36.24em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -157,7 +157,7 @@
 
 ### 17 · 2012年
 
-<img src="../bank/2012/q01.png" alt="17 (2012)" width="643" style="display: block; width: 40.21em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2012/q01.png" alt="17 (2012)" width="643" style="display: block; width: 40.17em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -165,7 +165,7 @@
 
 ### 18 · 2012年
 
-<img src="../bank/2012/q13.png" alt="18 (2012)" width="540" style="display: block; width: 33.72em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2012/q13.png" alt="18 (2012)" width="527" style="display: block; width: 32.97em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -173,7 +173,7 @@
 
 ### 19 · 2010年
 
-<img src="../bank/2010/q03.png" alt="19 (2010)" width="647" style="display: block; width: 40.45em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2010/q03.png" alt="19 (2010)" width="647" style="display: block; width: 40.41em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -181,7 +181,7 @@
 
 ### 20 · 2010年
 
-<img src="../bank/2010/q10.png" alt="20 (2010)" width="396" style="display: block; width: 24.72em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2010/q10.png" alt="20 (2010)" width="388" style="display: block; width: 24.24em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 

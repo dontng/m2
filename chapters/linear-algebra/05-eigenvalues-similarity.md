@@ -23,7 +23,7 @@
 
 > *反交换矩阵特征值性质题。由 $AB+BA=O$ 得 $AB=-BA$。利用特征值迹或行列式反号性质，或乘特征向量分析对称分布，迅速排除错误项。*
 
-<img src="../bank/2026/q10.png" alt="01 (2026)" width="723" style="display: block; width: 45.17em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2026/q10.png" alt="01 (2026)" width="716" style="display: block; width: 44.72em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -33,7 +33,7 @@
 
 > *实对称矩阵相似与行列式。实对称矩阵必可正交对角化。利用特征多项式或迹与行列式性质，建立 $a, b$ 的方程直接定解。*
 
-<img src="../bank/2025/q08.png" alt="02 (2025)" width="729" style="display: block; width: 45.55em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2025/q08.png" alt="02 (2025)" width="728" style="display: block; width: 45.52em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -41,7 +41,7 @@
 
 ### 03 · 2024年
 
-<img src="../bank/2024/q10.png" alt="03 (2024)" width="759" style="display: block; width: 47.45em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2024/q10.png" alt="03 (2024)" width="740" style="display: block; width: 46.28em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -51,7 +51,7 @@
 
 > *向量外积型矩阵幂。条件是 $Ax = (a^T x) b$，说明矩阵 $A = ba^T$（秩 1 矩阵）。计算 $\mathrm{tr}(A)$ 得到非零特征值，矩阵幂直接用数乘规律搞定。*
 
-<img src="../bank/2023/q22.png" alt="04 (2023)" width="782" style="display: block; width: 48.9em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2023/q22.png" alt="04 (2023)" width="781" style="display: block; width: 48.79em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -61,7 +61,7 @@
 
 > ⚠️ **题面待核对**：原年度转写稿存在疑点，本次保留题面，作答前请核对独立原题来源。
 
-<img src="../bank/2022/q08.png" alt="05 (2022)" width="720" style="display: block; width: 45.0em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2022/q08.png" alt="05 (2022)" width="714" style="display: block; width: 44.66em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -71,7 +71,7 @@
 
 > *相似对角化大题。矩阵有重特征值时，可对角化的充要条件是重特征值对应的特征矩阵满足 $n - r(\lambda E - A) = \text{重数}$，列出秩方程定参数。*
 
-<img src="../bank/2021/q22.png" alt="06 (2021)" width="781" style="display: block; width: 48.83em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2021/q22.png" alt="06 (2021)" width="765" style="display: block; width: 47.83em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -79,7 +79,7 @@
 
 ### 07 · 2020年
 
-<img src="../bank/2020/q08.png" alt="07 (2020)" width="782" style="display: block; width: 48.86em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2020/q08.png" alt="07 (2020)" width="773" style="display: block; width: 48.31em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -87,7 +87,7 @@
 
 ### 08 · 2020年
 
-<img src="../bank/2020/q23.png" alt="08 (2020)" width="759" style="display: block; width: 47.41em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2020/q23.png" alt="08 (2020)" width="742" style="display: block; width: 46.38em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -95,7 +95,7 @@
 
 ### 09 · 2019年
 
-<img src="../bank/2019/q23.png" alt="09 (2019)" width="508" style="display: block; width: 31.72em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2019/q23.png" alt="09 (2019)" width="502" style="display: block; width: 31.34em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -103,7 +103,7 @@
 
 ### 10 · 2018年
 
-<img src="../bank/2018/q07.png" alt="10 (2018)" width="374" style="display: block; width: 23.38em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2018/q07.png" alt="10 (2018)" width="364" style="display: block; width: 22.72em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -111,7 +111,7 @@
 
 ### 11 · 2017年
 
-<img src="../bank/2017/q07.png" alt="11 (2017)" width="755" style="display: block; width: 47.21em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2017/q07.png" alt="11 (2017)" width="741" style="display: block; width: 46.31em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -119,7 +119,7 @@
 
 ### 12 · 2017年
 
-<img src="../bank/2017/q08.png" alt="12 (2017)" width="687" style="display: block; width: 42.93em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2017/q08.png" alt="12 (2017)" width="681" style="display: block; width: 42.59em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -127,7 +127,7 @@
 
 ### 13 · 2017年
 
-<img src="../bank/2017/q14.png" alt="13 (2017)" width="594" style="display: block; width: 37.1em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2017/q14.png" alt="13 (2017)" width="582" style="display: block; width: 36.38em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -135,7 +135,7 @@
 
 ### 14 · 2016年
 
-<img src="../bank/2016/q07.png" alt="14 (2016)" width="658" style="display: block; width: 41.1em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2016/q07.png" alt="14 (2016)" width="652" style="display: block; width: 40.76em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -143,7 +143,7 @@
 
 ### 15 · 2016年
 
-<img src="../bank/2016/q23.png" alt="15 (2016)" width="782" style="display: block; width: 48.86em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2016/q23.png" alt="15 (2016)" width="774" style="display: block; width: 48.38em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -151,7 +151,7 @@
 
 ### 16 · 2015年
 
-<img src="../bank/2015/q23.png" alt="16 (2015)" width="462" style="display: block; width: 28.86em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2015/q23.png" alt="16 (2015)" width="455" style="display: block; width: 28.45em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -159,7 +159,7 @@
 
 ### 17 · 2014年
 
-<img src="../bank/2014/q23.png" alt="17 (2014)" width="481" style="display: block; width: 30.03em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2014/q23.png" alt="17 (2014)" width="472" style="display: block; width: 29.52em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -167,7 +167,7 @@
 
 ### 18 · 2013年
 
-<img src="../bank/2013/q08.png" alt="18 (2013)" width="595" style="display: block; width: 37.17em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2013/q08.png" alt="18 (2013)" width="592" style="display: block; width: 37.0em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -175,7 +175,7 @@
 
 ### 19 · 2012年
 
-<img src="../bank/2012/q08.png" alt="19 (2012)" width="777" style="display: block; width: 48.55em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2012/q08.png" alt="19 (2012)" width="701" style="display: block; width: 43.79em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -183,7 +183,7 @@
 
 ### 20 · 2011年
 
-<img src="../bank/2011/q23.png" alt="20 (2011)" width="638" style="display: block; width: 39.86em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2011/q23.png" alt="20 (2011)" width="625" style="display: block; width: 39.07em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -191,7 +191,7 @@
 
 ### 21 · 2010年
 
-<img src="../bank/2010/q08.png" alt="21 (2010)" width="598" style="display: block; width: 37.34em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2010/q08.png" alt="21 (2010)" width="582" style="display: block; width: 36.34em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -199,7 +199,7 @@
 
 ### 22 · 2010年
 
-<img src="../bank/2010/q23.png" alt="22 (2010)" width="782" style="display: block; width: 48.86em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2010/q23.png" alt="22 (2010)" width="748" style="display: block; width: 46.72em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 

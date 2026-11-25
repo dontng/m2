@@ -35,7 +35,7 @@
 
 **原题**（[在章节题单中查看](../../chapters/calculus/16-multivariable-basics.md#q2016-6)）：
 
-<img src="../../chapters/bank/2016/q06.png" alt="06 (2016)" width="542" style="display: block; width: 33.86em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../../chapters/bank/2016/q06.png" alt="06 (2016)" width="543" style="display: block; width: 33.93em; max-width: 100%; height: auto; margin: 14px 0;">
 
 #### 触发条件与第一步
 
@@ -71,7 +71,7 @@
 
 **原题**（[在章节题单中查看](../../chapters/calculus/16-multivariable-basics.md#q2024-5)）：
 
-<img src="../../chapters/bank/2024/q05.png" alt="01 (2024)" width="611" style="display: block; width: 38.17em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../../chapters/bank/2024/q05.png" alt="01 (2024)" width="607" style="display: block; width: 37.97em; max-width: 100%; height: auto; margin: 14px 0;">
 
 #### 触发条件与第一步
 
@@ -134,7 +134,7 @@
 
 **原题**（[在章节题单中查看](../../chapters/calculus/17-chain-implicit.md#q2012-11)）：
 
-<img src="../../chapters/bank/2012/q11.png" alt="18 (2012)" width="609" style="display: block; width: 38.03em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../../chapters/bank/2012/q11.png" alt="18 (2012)" width="600" style="display: block; width: 37.52em; max-width: 100%; height: auto; margin: 14px 0;">
 
 #### 触发条件与第一步
 
@@ -163,7 +163,7 @@
 
 **原题**（[在章节题单中查看](../../chapters/calculus/17-chain-implicit.md#q2017-16)）：
 
-<img src="../../chapters/bank/2017/q16.png" alt="12 (2017)" width="628" style="display: block; width: 39.28em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../../chapters/bank/2017/q16.png" alt="12 (2017)" width="618" style="display: block; width: 38.62em; max-width: 100%; height: auto; margin: 14px 0;">
 
 #### 触发条件与第一步
 
@@ -219,7 +219,7 @@
 
 **原题**（[在章节题单中查看](../../chapters/calculus/18-multivariable-extrema.md#q2020-17)）：
 
-<img src="../../chapters/bank/2020/q17.png" alt="06 (2020)" width="333" style="display: block; width: 20.79em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../../chapters/bank/2020/q17.png" alt="06 (2020)" width="328" style="display: block; width: 20.52em; max-width: 100%; height: auto; margin: 14px 0;">
 
 #### 触发条件与第一步
 
@@ -261,7 +261,7 @@
 
 **原题**（[在章节题单中查看](../../chapters/calculus/18-multivariable-extrema.md#q2026-19)）：
 
-<img src="../../chapters/bank/2026/q19.png" alt="01 (2026)" width="318" style="display: block; width: 19.86em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../../chapters/bank/2026/q19.png" alt="01 (2026)" width="313" style="display: block; width: 19.59em; max-width: 100%; height: auto; margin: 14px 0;">
 
 #### 触发条件与第一步
 
@@ -304,7 +304,7 @@
 
 ### 1. 真题回练：[2020 年第 11 题](../../chapters/calculus/16-multivariable-basics.md#q2020-11)（填空题）
 
-<img src="../../chapters/bank/2020/q11.png" alt="03 (2020)" width="499" style="display: block; width: 31.17em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../../chapters/bank/2020/q11.png" alt="03 (2020)" width="497" style="display: block; width: 31.03em; max-width: 100%; height: auto; margin: 14px 0;">
 
 <details>
 <summary>点击核对要点与答案</summary>
@@ -319,7 +319,7 @@
 
 ### 2. 真题回练：[2023 年第 13 题](../../chapters/calculus/17-chain-implicit.md#q2023-13)（填空题）
 
-<img src="../../chapters/bank/2023/q13.png" alt="05 (2023)" width="609" style="display: block; width: 38.03em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../../chapters/bank/2023/q13.png" alt="05 (2023)" width="599" style="display: block; width: 37.41em; max-width: 100%; height: auto; margin: 14px 0;">
 
 <details>
 <summary>点击核对要点与答案</summary>
@@ -335,7 +335,7 @@
 
 ### 3. 真题回练：[2025 年第 19 题](../../chapters/calculus/18-multivariable-extrema.md#q2025-19)（解答题，满分 12 分）
 
-<img src="../../chapters/bank/2025/q19.png" alt="02 (2025)" width="782" style="display: block; width: 48.86em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../../chapters/bank/2025/q19.png" alt="02 (2025)" width="769" style="display: block; width: 48.07em; max-width: 100%; height: auto; margin: 14px 0;">
 
 <details>
 <summary>点击核对要点与答案</summary>

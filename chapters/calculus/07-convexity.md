@@ -21,7 +21,7 @@
 
 > *当年压轴证明题。充分性直接利用拉格朗日中值定理把割线斜率换成导数，递增性立显；必要性取极限让点逼近，用导数定义把不等式还原回导函数递增。*
 
-<img src="../bank/2025/q21.png" alt="01 (2025)" width="771" style="display: block; width: 48.21em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2025/q21.png" alt="01 (2025)" width="769" style="display: block; width: 48.07em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -31,7 +31,7 @@
 
 > *当年大题难点。必要性直接在中点做一阶泰勒展开后两边积分（切线放缩）；充分性抓住极值点附近的局部凸性，用反证法排除反例。*
 
-<img src="../bank/2022/q21.png" alt="02 (2022)" width="697" style="display: block; width: 43.55em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2022/q21.png" alt="02 (2022)" width="681" style="display: block; width: 42.59em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -41,7 +41,7 @@
 
 > *绝对值分段讨论。去绝对值后分 $x>0$ 和 $x<0$ 分别求一阶、二阶导数定凹凸区间；渐近线别漏掉斜渐近线在正负无穷可能重合。*
 
-<img src="../bank/2021/q18.png" alt="03 (2021)" width="385" style="display: block; width: 24.07em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2021/q18.png" alt="03 (2021)" width="377" style="display: block; width: 23.59em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -49,7 +49,7 @@
 
 ### 04 · 2019年
 
-<img src="../bank/2019/q02.png" alt="04 (2019)" width="523" style="display: block; width: 32.69em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2019/q02.png" alt="04 (2019)" width="521" style="display: block; width: 32.59em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -57,7 +57,7 @@
 
 ### 05 · 2018年
 
-<img src="../bank/2018/q04.png" alt="05 (2018)" width="664" style="display: block; width: 41.48em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2018/q04.png" alt="05 (2018)" width="661" style="display: block; width: 41.31em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -65,7 +65,7 @@
 
 ### 06 · 2017年
 
-<img src="../bank/2017/q02.png" alt="06 (2017)" width="647" style="display: block; width: 40.45em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2017/q02.png" alt="06 (2017)" width="637" style="display: block; width: 39.79em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -73,7 +73,7 @@
 
 ### 07 · 2015年
 
-<img src="../bank/2015/q04.png" alt="07 (2015)" width="782" style="display: block; width: 48.86em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2015/q04.png" alt="07 (2015)" width="777" style="display: block; width: 48.59em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -81,7 +81,7 @@
 
 ### 08 · 2014年
 
-<img src="../bank/2014/q03.png" alt="08 (2014)" width="678" style="display: block; width: 42.34em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2014/q03.png" alt="08 (2014)" width="674" style="display: block; width: 42.14em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 

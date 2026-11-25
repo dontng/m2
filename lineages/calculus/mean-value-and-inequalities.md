@@ -35,7 +35,7 @@ $$\big(e^{-\lambda x}f(x)\big)' = e^{-\lambda x}\big(f'(x) - \lambda f(x)\big) >
 
 **原题**（[在章节题单中查看](../../chapters/calculus/05-mean-value-proofs.md#q2020-6)）：
 
-<img src="../../chapters/bank/2020/q06.png" alt="03 (2020)" width="541" style="display: block; width: 33.83em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../../chapters/bank/2020/q06.png" alt="03 (2020)" width="541" style="display: block; width: 33.79em; max-width: 100%; height: auto; margin: 14px 0;">
 
 #### 第一步落笔与完整推导
 
@@ -81,7 +81,7 @@ $$\big(e^{-\lambda x}f(x)\big)' = e^{-\lambda x}\big(f'(x) - \lambda f(x)\big) >
 
 **原题**（[在章节题单中查看](../../chapters/calculus/05-mean-value-proofs.md#q2020-20)）：
 
-<img src="../../chapters/bank/2020/q20.png" alt="04 (2020)" width="781" style="display: block; width: 48.79em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../../chapters/bank/2020/q20.png" alt="04 (2020)" width="762" style="display: block; width: 47.62em; max-width: 100%; height: auto; margin: 14px 0;">
 
 #### 先做公共预处理
 
@@ -143,7 +143,7 @@ $$f(1) = 0, \qquad f'(x) = e^{x^2}.$$
 
 **原题**（[在章节题单中查看](../../chapters/calculus/05-mean-value-proofs.md#q2015-21)）：
 
-<img src="../../chapters/bank/2015/q21.png" alt="08 (2015)" width="783" style="display: block; width: 48.93em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../../chapters/bank/2015/q21.png" alt="08 (2015)" width="759" style="display: block; width: 47.45em; max-width: 100%; height: auto; margin: 14px 0;">
 
 #### 第一步落笔：显式解出切线横截距 $x_0$
 
@@ -188,7 +188,7 @@ $$x_0 > a \iff \frac{f(b) - f(a)}{b - a} < f'(b).$$
 
 ### 1. 真题回练一：[2019 年第 21 题](../../chapters/calculus/05-mean-value-proofs.md#q2019-21)（解答题，满分 11 分）
 
-<img src="../../chapters/bank/2019/q21.png" alt="05 (2019)" width="731" style="display: block; width: 45.69em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../../chapters/bank/2019/q21.png" alt="05 (2019)" width="719" style="display: block; width: 44.97em; max-width: 100%; height: auto; margin: 14px 0;">
 
 <details>
 <summary>点击核对思路与关键步骤</summary>
@@ -208,7 +208,7 @@ $$x_0 > a \iff \frac{f(b) - f(a)}{b - a} < f'(b).$$
 
 ### 2. 真题回练二：[2013 年第 18 题](../../chapters/calculus/05-mean-value-proofs.md#q2013-18)（解答题，满分 10 分）
 
-<img src="../../chapters/bank/2013/q18.png" alt="09 (2013)" width="501" style="display: block; width: 31.31em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../../chapters/bank/2013/q18.png" alt="09 (2013)" width="489" style="display: block; width: 30.59em; max-width: 100%; height: auto; margin: 14px 0;">
 
 <details>
 <summary>点击核对思路与关键步骤</summary>

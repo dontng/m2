@@ -32,7 +32,7 @@
 
 **原题**（[在章节题单中查看](../../chapters/linear-algebra/01-determinants.md#q2012-14)）：
 
-<img src="../../chapters/bank/2012/q14.png" alt="09 (2012)" width="781" style="display: block; width: 48.79em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../../chapters/bank/2012/q14.png" alt="09 (2012)" width="727" style="display: block; width: 45.45em; max-width: 100%; height: auto; margin: 14px 0;">
 
 #### 第一步怎么落笔
 
@@ -63,7 +63,7 @@
 
 **原题**（[在章节题单中查看](../../chapters/linear-algebra/01-determinants.md#q2014-7)）：
 
-<img src="../../chapters/bank/2014/q07.png" alt="07 (2014)" width="548" style="display: block; width: 34.24em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../../chapters/bank/2014/q07.png" alt="07 (2014)" width="545" style="display: block; width: 34.07em; max-width: 100%; height: auto; margin: 14px 0;">
 
 #### 第一步怎么落笔
 
@@ -115,7 +115,7 @@
 
 **原题**（[在章节题单中查看](../../chapters/linear-algebra/02-matrices.md#q2011-7)）：
 
-<img src="../../chapters/bank/2011/q07.png" alt="10 (2011)" width="782" style="display: block; width: 48.86em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../../chapters/bank/2011/q07.png" alt="10 (2011)" width="755" style="display: block; width: 47.17em; max-width: 100%; height: auto; margin: 14px 0;">
 
 #### 第一步怎么落笔
 
@@ -157,7 +157,7 @@
 
 **原题**（[在章节题单中查看](../../chapters/linear-algebra/02-matrices.md#q2024-8)）：
 
-<img src="../../chapters/bank/2024/q08.png" alt="03 (2024)" width="681" style="display: block; width: 42.55em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../../chapters/bank/2024/q08.png" alt="03 (2024)" width="667" style="display: block; width: 41.69em; max-width: 100%; height: auto; margin: 14px 0;">
 
 #### 第一步怎么落笔
 
@@ -202,7 +202,7 @@
 
 **原题**（[在章节题单中查看](../../chapters/linear-algebra/02-matrices.md#q2018-23)）：
 
-<img src="../../chapters/bank/2018/q23.png" alt="07 (2018)" width="782" style="display: block; width: 48.86em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../../chapters/bank/2018/q23.png" alt="07 (2018)" width="758" style="display: block; width: 47.34em; max-width: 100%; height: auto; margin: 14px 0;">
 
 #### 第（1）问：怎么用“初等列变换”锁定参数 $a$？
 
@@ -246,7 +246,7 @@
 
 ### 1. 真题回练一：[2019 年第 14 题](../../chapters/linear-algebra/01-determinants.md#q2019-14)（填空题）
 
-<img src="../../chapters/bank/2019/q14.png" alt="04 (2019)" width="781" style="display: block; width: 48.83em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../../chapters/bank/2019/q14.png" alt="04 (2019)" width="706" style="display: block; width: 44.14em; max-width: 100%; height: auto; margin: 14px 0;">
 
 <details>
 <summary>点击核对思路与答案</summary>
@@ -263,7 +263,7 @@
 
 ### 2. 真题回练二：[2026 年第 8 题](../../chapters/linear-algebra/02-matrices.md#q2026-8)（选择题）
 
-<img src="../../chapters/bank/2026/q08.png" alt="01 (2026)" width="781" style="display: block; width: 48.83em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../../chapters/bank/2026/q08.png" alt="01 (2026)" width="773" style="display: block; width: 48.31em; max-width: 100%; height: auto; margin: 14px 0;">
 
 <details>
 <summary>点击核对思路与答案</summary>

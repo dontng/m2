@@ -20,7 +20,7 @@
 
 ### 01 · 2026年
 
-<img src="../bank/2026/q15.png" alt="01 (2026)" width="524" style="display: block; width: 32.72em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2026/q15.png" alt="01 (2026)" width="515" style="display: block; width: 32.17em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -30,7 +30,7 @@
 
 > *开篇变限积分大题。被积函数含复合项 $xt$，先换元 $u=xt$ 把变量 $x$ 提出来剥离干净再求导；第二问连续性注意在 $x=0$ 处必须用极限定义验证。*
 
-<img src="../bank/2026/q18.png" alt="02 (2026)" width="754" style="display: block; width: 47.1em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2026/q18.png" alt="02 (2026)" width="739" style="display: block; width: 46.17em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -38,7 +38,7 @@
 
 ### 03 · 2025年
 
-<img src="../bank/2025/q17.png" alt="03 (2025)" width="226" style="display: block; width: 14.14em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2025/q17.png" alt="03 (2025)" width="221" style="display: block; width: 13.83em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -46,7 +46,7 @@
 
 ### 04 · 2024年
 
-<img src="../bank/2024/q03.png" alt="04 (2024)" width="675" style="display: block; width: 42.17em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2024/q03.png" alt="04 (2024)" width="670" style="display: block; width: 41.86em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -54,7 +54,7 @@
 
 ### 05 · 2023年
 
-<img src="../bank/2023/q15.png" alt="05 (2023)" width="760" style="display: block; width: 47.52em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2023/q15.png" alt="05 (2023)" width="751" style="display: block; width: 46.93em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -62,7 +62,7 @@
 
 ### 06 · 2022年
 
-<img src="../bank/2022/q07.png" alt="06 (2022)" width="723" style="display: block; width: 45.21em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2022/q07.png" alt="06 (2022)" width="721" style="display: block; width: 45.03em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -70,7 +70,7 @@
 
 ### 07 · 2022年
 
-<img src="../bank/2022/q13.png" alt="07 (2022)" width="280" style="display: block; width: 17.52em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2022/q13.png" alt="07 (2022)" width="276" style="display: block; width: 17.28em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -78,7 +78,7 @@
 
 ### 08 · 2021年
 
-<img src="../bank/2021/q07.png" alt="08 (2021)" width="617" style="display: block; width: 38.55em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2021/q07.png" alt="08 (2021)" width="613" style="display: block; width: 38.31em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -86,7 +86,7 @@
 
 ### 09 · 2021年
 
-<img src="../bank/2021/q14.png" alt="09 (2021)" width="520" style="display: block; width: 32.52em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2021/q14.png" alt="09 (2021)" width="520" style="display: block; width: 32.48em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -94,7 +94,7 @@
 
 ### 10 · 2020年
 
-<img src="../bank/2020/q03.png" alt="10 (2020)" width="648" style="display: block; width: 40.48em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2020/q03.png" alt="10 (2020)" width="647" style="display: block; width: 40.45em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -104,7 +104,7 @@
 
 > *抽象连续函数极值大题。利用极限条件把 $f(x)$ 在 0 点的局部性质看作 $f(x) \sim x$，变上限积分求导找驻点，利用二阶导正负判断极值。*
 
-<img src="../bank/2020/q16.png" alt="11 (2020)" width="782" style="display: block; width: 48.86em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2020/q16.png" alt="11 (2020)" width="761" style="display: block; width: 47.59em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -112,7 +112,7 @@
 
 ### 12 · 2019年
 
-<img src="../bank/2019/q13.png" alt="12 (2019)" width="520" style="display: block; width: 32.48em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2019/q13.png" alt="12 (2019)" width="517" style="display: block; width: 32.31em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -120,7 +120,7 @@
 
 ### 13 · 2018年
 
-<img src="../bank/2018/q05.png" alt="13 (2018)" width="729" style="display: block; width: 45.55em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2018/q05.png" alt="13 (2018)" width="728" style="display: block; width: 45.52em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -130,7 +130,7 @@
 
 > *定积分不等式与中值大题。利用积分均值定理与导数单调性，构造辅助函数将定积分与端点值联系起来，两小问层层递进。*
 
-<img src="../bank/2016/q21.png" alt="14 (2016)" width="700" style="display: block; width: 43.72em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2016/q21.png" alt="14 (2016)" width="682" style="display: block; width: 42.66em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -138,7 +138,7 @@
 
 ### 15 · 2015年
 
-<img src="../bank/2015/q11.png" alt="15 (2015)" width="703" style="display: block; width: 43.97em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2015/q11.png" alt="15 (2015)" width="695" style="display: block; width: 43.45em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -146,7 +146,7 @@
 
 ### 16 · 2014年
 
-<img src="../bank/2014/q10.png" alt="16 (2014)" width="745" style="display: block; width: 46.55em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2014/q10.png" alt="16 (2014)" width="730" style="display: block; width: 45.66em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -154,7 +154,7 @@
 
 ### 17 · 2014年
 
-<img src="../bank/2014/q19.png" alt="17 (2014)" width="634" style="display: block; width: 39.62em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2014/q19.png" alt="17 (2014)" width="622" style="display: block; width: 38.9em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -162,7 +162,7 @@
 
 ### 18 · 2013年
 
-<img src="../bank/2013/q03.png" alt="18 (2013)" width="696" style="display: block; width: 43.52em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2013/q03.png" alt="18 (2013)" width="689" style="display: block; width: 43.07em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -170,7 +170,7 @@
 
 ### 19 · 2012年
 
-<img src="../bank/2012/q04.png" alt="19 (2012)" width="724" style="display: block; width: 45.24em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2012/q04.png" alt="19 (2012)" width="721" style="display: block; width: 45.07em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -188,7 +188,7 @@
 
 > *对数幂次积分比较与极限。第一问比较大小直接在被积区间 $[0,1]$ 上比被积函数大小；第二问通过分部积分找到递推关系式，用夹逼定理求极限。*
 
-<img src="../bank/2010/q16.png" alt="21 (2010)" width="653" style="display: block; width: 40.83em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2010/q16.png" alt="21 (2010)" width="648" style="display: block; width: 40.52em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 

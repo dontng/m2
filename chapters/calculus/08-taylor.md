@@ -21,7 +21,7 @@
 
 > *高阶导数计算。求 $x^2(e^x-1)$ 的 5 阶导，直接上莱布尼茨公式，因为 $x^2$ 求导三次就变 0，实际只需算前三项，千万别硬求五次。*
 
-<img src="../bank/2024/q14.png" alt="01 (2024)" width="466" style="display: block; width: 29.14em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2024/q14.png" alt="01 (2024)" width="459" style="display: block; width: 28.69em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -29,7 +29,7 @@
 
 ### 02 · 2021年
 
-<img src="../bank/2021/q05.png" alt="02 (2021)" width="551" style="display: block; width: 34.45em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2021/q05.png" alt="02 (2021)" width="549" style="display: block; width: 34.31em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -39,7 +39,7 @@
 
 > *高阶导数系数题。把 $\ln(1-x)$ 展开成麦克劳林级数，再乘前面的 $x^2$，对比 $x^n$ 项系数和高阶导公式 $f^{(n)}(0)/n!$，秒出答案。*
 
-<img src="../bank/2020/q04.png" alt="03 (2020)" width="513" style="display: block; width: 32.07em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2020/q04.png" alt="03 (2020)" width="513" style="display: block; width: 32.03em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -47,7 +47,7 @@
 
 ### 04 · 2019年
 
-<img src="../bank/2019/q06.png" alt="04 (2019)" width="777" style="display: block; width: 48.59em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2019/q06.png" alt="04 (2019)" width="767" style="display: block; width: 47.97em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -57,7 +57,7 @@
 
 > *两边求一次导直接变成一阶微分方程，解出 $f(x)$ 之后看指数通项，别傻傻逐次求导找规律。*
 
-<img src="../bank/2016/q12.png" alt="05 (2016)" width="781" style="display: block; width: 48.83em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2016/q12.png" alt="05 (2016)" width="748" style="display: block; width: 46.76em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -65,7 +65,7 @@
 
 ### 06 · 2015年
 
-<img src="../bank/2015/q10.png" alt="06 (2015)" width="557" style="display: block; width: 34.83em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2015/q10.png" alt="06 (2015)" width="547" style="display: block; width: 34.17em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -73,7 +73,7 @@
 
 ### 07 · 2010年
 
-<img src="../bank/2010/q11.png" alt="07 (2010)" width="565" style="display: block; width: 35.31em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2010/q11.png" alt="07 (2010)" width="556" style="display: block; width: 34.76em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 

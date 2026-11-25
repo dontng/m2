@@ -34,7 +34,7 @@
 
 **原题**（[在章节题单中查看](../../chapters/linear-algebra/04-linear-systems.md#q2022-9)）：
 
-<img src="../../chapters/bank/2022/q09.png" alt="03 (2022)" width="751" style="display: block; width: 46.93em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../../chapters/bank/2022/q09.png" alt="03 (2022)" width="746" style="display: block; width: 46.66em; max-width: 100%; height: auto; margin: 14px 0;">
 
 #### 第一步怎么落笔
 
@@ -72,7 +72,7 @@
 
 **原题**（[在章节题单中查看](../../chapters/linear-algebra/04-linear-systems.md#q2010-22)）：
 
-<img src="../../chapters/bank/2010/q22.png" alt="11 (2010)" width="640" style="display: block; width: 40.0em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../../chapters/bank/2010/q22.png" alt="11 (2010)" width="629" style="display: block; width: 39.31em; max-width: 100%; height: auto; margin: 14px 0;">
 
 #### 第（I）问：由“存在两个不同的解”定出 $\lambda, a$
 
@@ -121,7 +121,7 @@ $$\boldsymbol{x} = \begin{pmatrix}\frac{3}{2} \\ -\frac{1}{2} \\ 0\end{pmatrix} 
 
 **原题**（[在章节题单中查看](../../chapters/linear-algebra/04-linear-systems.md#q2014-22)）：
 
-<img src="../../chapters/bank/2014/q22.png" alt="08 (2014)" width="418" style="display: block; width: 26.1em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../../chapters/bank/2014/q22.png" alt="08 (2014)" width="410" style="display: block; width: 25.66em; max-width: 100%; height: auto; margin: 14px 0;">
 
 #### 第一步怎么落笔
 
@@ -157,7 +157,7 @@ $$\xrightarrow{r_1+2r_2} \left(\begin{array}{cccc|ccc} 1 & 0 & 0 & -5 & 2 & 6 & 
 
 **原题**（[在章节题单中查看](../../chapters/linear-algebra/04-linear-systems.md#q2025-16)）：
 
-<img src="../../chapters/bank/2025/q16.png" alt="02 (2025)" width="777" style="display: block; width: 48.59em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../../chapters/bank/2025/q16.png" alt="02 (2025)" width="738" style="display: block; width: 46.14em; max-width: 100%; height: auto; margin: 14px 0;">
 
 #### 第一步怎么落笔
 
@@ -187,7 +187,7 @@ $$\xrightarrow{r_1+2r_2} \left(\begin{array}{cccc|ccc} 1 & 0 & 0 & -5 & 2 & 6 & 
 
 ### 1. 真题回练一：[2020 年第 7 题](../../chapters/linear-algebra/04-linear-systems.md#q2020-7)（选择题）
 
-<img src="../../chapters/bank/2020/q07.png" alt="04 (2020)" width="781" style="display: block; width: 48.79em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../../chapters/bank/2020/q07.png" alt="04 (2020)" width="776" style="display: block; width: 48.48em; max-width: 100%; height: auto; margin: 14px 0;">
 
 <details>
 <summary>点击核对思路与答案</summary>
@@ -201,7 +201,7 @@ $$\xrightarrow{r_1+2r_2} \left(\begin{array}{cccc|ccc} 1 & 0 & 0 & -5 & 2 & 6 & 
 
 ### 2. 真题回练二：[2016 年第 22 题](../../chapters/linear-algebra/04-linear-systems.md#q2016-22)（解答题，满分 11 分）
 
-<img src="../../chapters/bank/2016/q22.png" alt="06 (2016)" width="623" style="display: block; width: 38.93em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../../chapters/bank/2016/q22.png" alt="06 (2016)" width="615" style="display: block; width: 38.45em; max-width: 100%; height: auto; margin: 14px 0;">
 
 <details>
 <summary>点击核对思路与答案</summary>

@@ -21,7 +21,7 @@
 
 > *导数与极值概念辨析。注意：单调递减加递增确实能推极小值；但反过来极值点两侧导数不一定单调（可能有无穷次振荡）。代入经典振荡函数排除假命题。*
 
-<img src="../bank/2026/q05.png" alt="01 (2026)" width="601" style="display: block; width: 37.55em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2026/q05.png" alt="01 (2026)" width="588" style="display: block; width: 36.76em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -31,7 +31,7 @@
 
 > *变上限积分极值与拐点。对 $f(x)$ 和 $g(x)$ 求导，看到因式里有 $\sin t$ 和 $\sin^2 x$，通过导数变号判断极值点，二阶导变号判断拐点。*
 
-<img src="../bank/2025/q02.png" alt="02 (2025)" width="515" style="display: block; width: 32.21em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2025/q02.png" alt="02 (2025)" width="505" style="display: block; width: 31.55em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -39,7 +39,7 @@
 
 ### 03 · 2023年
 
-<img src="../bank/2023/q07.png" alt="03 (2023)" width="748" style="display: block; width: 46.76em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2023/q07.png" alt="03 (2023)" width="729" style="display: block; width: 45.59em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -47,7 +47,7 @@
 
 ### 04 · 2022年
 
-<img src="../bank/2022/q03.png" alt="04 (2022)" width="442" style="display: block; width: 27.66em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2022/q03.png" alt="04 (2022)" width="431" style="display: block; width: 26.97em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -55,7 +55,7 @@
 
 ### 05 · 2021年
 
-<img src="../bank/2021/q04.png" alt="05 (2021)" width="629" style="display: block; width: 39.31em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2021/q04.png" alt="05 (2021)" width="615" style="display: block; width: 38.45em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -63,7 +63,7 @@
 
 ### 06 · 2019年
 
-<img src="../bank/2019/q15.png" alt="06 (2019)" width="391" style="display: block; width: 24.45em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2019/q15.png" alt="06 (2019)" width="386" style="display: block; width: 24.14em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -71,7 +71,7 @@
 
 ### 07 · 2017年
 
-<img src="../bank/2017/q18.png" alt="07 (2017)" width="563" style="display: block; width: 35.17em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2017/q18.png" alt="07 (2017)" width="550" style="display: block; width: 34.38em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -79,7 +79,7 @@
 
 ### 08 · 2016年
 
-<img src="../bank/2016/q04.png" alt="08 (2016)" width="524" style="display: block; width: 32.72em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2016/q04.png" alt="08 (2016)" width="510" style="display: block; width: 31.86em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -89,7 +89,7 @@
 
 > *含绝对值的变限积分大题。被积函数含 $|t^2-x^2|$，在积分区间 $[0,1]$ 内以 $t=x$ 为分界点拆成两段去掉绝对值，求导解驻点求最小值。*
 
-<img src="../bank/2016/q16.png" alt="09 (2016)" width="563" style="display: block; width: 35.17em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2016/q16.png" alt="09 (2016)" width="554" style="display: block; width: 34.66em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -99,7 +99,7 @@
 
 > *变限积分零点个数大题。两边求导得到 $f'(x)$，解出导数驻点并判断单调区间；结合端点极限 $x\to 0^+$ 和 $x\to +\infty$ 的函数值正负卡出零点个数。*
 
-<img src="../bank/2015/q19.png" alt="10 (2015)" width="550" style="display: block; width: 34.38em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2015/q19.png" alt="10 (2015)" width="543" style="display: block; width: 33.97em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -107,7 +107,7 @@
 
 ### 11 · 2011年
 
-<img src="../bank/2011/q03.png" alt="11 (2011)" width="643" style="display: block; width: 40.21em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2011/q03.png" alt="11 (2011)" width="643" style="display: block; width: 40.17em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -117,7 +117,7 @@
 
 > *参数方程极值与拐点大题。先算一阶导 $\frac{dy}{dx}$ 求驻点定极值；再用参数方程二阶导公式求出 $\frac{d^2y}{dx^2}$，令二阶导为 0 找出拐点坐标。*
 
-<img src="../bank/2011/q16.png" alt="12 (2011)" width="781" style="display: block; width: 48.83em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2011/q16.png" alt="12 (2011)" width="767" style="display: block; width: 47.97em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -125,7 +125,7 @@
 
 ### 13 · 2010年
 
-<img src="../bank/2010/q15.png" alt="13 (2010)" width="432" style="display: block; width: 27.0em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2010/q15.png" alt="13 (2010)" width="425" style="display: block; width: 26.55em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 

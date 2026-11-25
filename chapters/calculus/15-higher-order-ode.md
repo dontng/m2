@@ -22,7 +22,7 @@
 
 > *非齐次线性方程解的性质。非齐次特解做线性组合，组合系数和为 1 依然是非齐次特解，组合系数和为 0 则是齐次方程的特解，秒列方程解 $\lambda, \mu$。*
 
-<img src="../bank/2026/q02.png" alt="01 (2026)" width="781" style="display: block; width: 48.83em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2026/q02.png" alt="01 (2026)" width="767" style="display: block; width: 47.93em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -32,7 +32,7 @@
 
 > *最新真题大题。方程不显含 $y$，令 $p=y'$ 降为关于 $p$ 的一阶方程，先分离变量求出 $y'$ 再积分求 $y$。步步为营，核心在别算错负号。*
 
-<img src="../bank/2026/q21.png" alt="02 (2026)" width="707" style="display: block; width: 44.17em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2026/q21.png" alt="02 (2026)" width="694" style="display: block; width: 43.34em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -40,7 +40,7 @@
 
 ### 03 · 2025年
 
-<img src="../bank/2025/q03.png" alt="03 (2025)" width="782" style="display: block; width: 48.86em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2025/q03.png" alt="03 (2025)" width="772" style="display: block; width: 48.24em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -50,7 +50,7 @@
 
 > *欧拉方程经典大题。作变换 $x=e^t$ 把自变量换为 $t$，降为常系数线性方程，求出齐次通解再求特解；第二问直接代入三角代换做定积分。*
 
-<img src="../bank/2024/q18.png" alt="04 (2024)" width="782" style="display: block; width: 48.86em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2024/q18.png" alt="04 (2024)" width="764" style="display: block; width: 47.72em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -66,7 +66,7 @@
 
 ### 06 · 2022年
 
-<img src="../bank/2022/q14.png" alt="06 (2022)" width="505" style="display: block; width: 31.55em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2022/q14.png" alt="06 (2022)" width="498" style="display: block; width: 31.1em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -74,7 +74,7 @@
 
 ### 07 · 2021年
 
-<img src="../bank/2021/q15.png" alt="07 (2021)" width="404" style="display: block; width: 25.24em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2021/q15.png" alt="07 (2021)" width="398" style="display: block; width: 24.9em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -82,7 +82,7 @@
 
 ### 08 · 2020年
 
-<img src="../bank/2020/q13.png" alt="08 (2020)" width="755" style="display: block; width: 47.17em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2020/q13.png" alt="08 (2020)" width="746" style="display: block; width: 46.62em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -90,7 +90,7 @@
 
 ### 09 · 2019年
 
-<img src="../bank/2019/q04.png" alt="09 (2019)" width="676" style="display: block; width: 42.24em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2019/q04.png" alt="09 (2019)" width="675" style="display: block; width: 42.17em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -98,7 +98,7 @@
 
 ### 10 · 2017年
 
-<img src="../bank/2017/q04.png" alt="10 (2017)" width="701" style="display: block; width: 43.79em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2017/q04.png" alt="10 (2017)" width="698" style="display: block; width: 43.62em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -108,7 +108,7 @@
 
 > *已知特解求高阶方程未知系数。已知 $y_1=e^x$ 是解，代入方程定出系数关系；再用刘维尔公式或设 $y_2=u(x)e^x$ 降阶求出第二个特解。*
 
-<img src="../bank/2016/q19.png" alt="11 (2016)" width="782" style="display: block; width: 48.9em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2016/q19.png" alt="11 (2016)" width="739" style="display: block; width: 46.17em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -116,7 +116,7 @@
 
 ### 12 · 2015年
 
-<img src="../bank/2015/q12.png" alt="12 (2015)" width="781" style="display: block; width: 48.83em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2015/q12.png" alt="12 (2015)" width="727" style="display: block; width: 45.41em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -124,7 +124,7 @@
 
 ### 13 · 2013年
 
-<img src="../bank/2013/q13.png" alt="13 (2013)" width="770" style="display: block; width: 48.14em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2013/q13.png" alt="13 (2013)" width="767" style="display: block; width: 47.97em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -132,7 +132,7 @@
 
 ### 14 · 2012年
 
-<img src="../bank/2012/q19.png" alt="14 (2012)" width="598" style="display: block; width: 37.38em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2012/q19.png" alt="14 (2012)" width="590" style="display: block; width: 36.86em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -140,7 +140,7 @@
 
 ### 15 · 2011年
 
-<img src="../bank/2011/q04.png" alt="15 (2011)" width="577" style="display: block; width: 36.07em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2011/q04.png" alt="15 (2011)" width="576" style="display: block; width: 36.0em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -148,7 +148,7 @@
 
 ### 16 · 2010年
 
-<img src="../bank/2010/q09.png" alt="16 (2010)" width="651" style="display: block; width: 40.69em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2010/q09.png" alt="16 (2010)" width="639" style="display: block; width: 39.97em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 
@@ -158,7 +158,7 @@
 
 > *参数方程二阶导与高阶方程。用参数方程二阶导公式求出 $\frac{d^2y}{dx^2}$，与右端相等化为关于 $\psi'(t)$ 的一阶线性微分方程。*
 
-<img src="../bank/2010/q17.png" alt="17 (2010)" width="777" style="display: block; width: 48.55em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../bank/2010/q17.png" alt="17 (2010)" width="745" style="display: block; width: 46.59em; max-width: 100%; height: auto; margin: 14px 0;">
 
 ---
 

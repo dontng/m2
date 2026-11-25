@@ -34,7 +34,7 @@
 
 **原题**（[在章节题单中查看](../../chapters/calculus/06-monotonicity-extrema.md#q2016-4)）：
 
-<img src="../../chapters/bank/2016/q04.png" alt="08 (2016)" width="524" style="display: block; width: 32.72em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../../chapters/bank/2016/q04.png" alt="08 (2016)" width="510" style="display: block; width: 31.86em; max-width: 100%; height: auto; margin: 14px 0;">
 
 #### 逐点扫描与完整推导
 
@@ -71,7 +71,7 @@
 
 **原题**（[在章节题单中查看](../../chapters/calculus/07-convexity.md#q2015-4)）：
 
-<img src="../../chapters/bank/2015/q04.png" alt="07 (2015)" width="782" style="display: block; width: 48.86em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../../chapters/bank/2015/q04.png" alt="07 (2015)" width="777" style="display: block; width: 48.59em; max-width: 100%; height: auto; margin: 14px 0;">
 
 #### 逐点扫描与完整推导
 
@@ -103,7 +103,7 @@
 
 **原题**（[在章节题单中查看](../../chapters/calculus/06-monotonicity-extrema.md#q2019-15)）：
 
-<img src="../../chapters/bank/2019/q15.png" alt="06 (2019)" width="391" style="display: block; width: 24.45em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../../chapters/bank/2019/q15.png" alt="06 (2019)" width="386" style="display: block; width: 24.14em; max-width: 100%; height: auto; margin: 14px 0;">
 
 #### 第一步落笔与完整推导
 
@@ -141,7 +141,7 @@
 
 **原题**（[在章节题单中查看](../../chapters/calculus/07-convexity.md#q2019-2)）：
 
-<img src="../../chapters/bank/2019/q02.png" alt="04 (2019)" width="523" style="display: block; width: 32.69em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../../chapters/bank/2019/q02.png" alt="04 (2019)" width="521" style="display: block; width: 32.59em; max-width: 100%; height: auto; margin: 14px 0;">
 
 #### 第一步落笔与完整推导
 
@@ -177,7 +177,7 @@
 
 **原题**（[在章节题单中查看](../../chapters/calculus/09-curve-geometry.md#q2012-1)）：
 
-<img src="../../chapters/bank/2012/q01.png" alt="17 (2012)" width="643" style="display: block; width: 40.21em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../../chapters/bank/2012/q01.png" alt="17 (2012)" width="643" style="display: block; width: 40.17em; max-width: 100%; height: auto; margin: 14px 0;">
 
 #### 第一步落笔与完整推导
 
@@ -214,7 +214,7 @@ $$y = \frac{x(x + 1)}{(x - 1)(x + 1)}, \qquad x \neq \pm 1.$$
 
 ### 1. 真题回练一：[2017 年第 18 题](../../chapters/calculus/06-monotonicity-extrema.md#q2017-18)（解答题，满分 10 分——隐函数求极值）
 
-<img src="../../chapters/bank/2017/q18.png" alt="07 (2017)" width="563" style="display: block; width: 35.17em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../../chapters/bank/2017/q18.png" alt="07 (2017)" width="550" style="display: block; width: 34.38em; max-width: 100%; height: auto; margin: 14px 0;">
 
 <details>
 <summary>点击核对思路与关键结果</summary>
@@ -235,7 +235,7 @@ $$y = \frac{x(x + 1)}{(x - 1)(x + 1)}, \qquad x \neq \pm 1.$$
 
 ### 2. 真题回练二：[2025 年第 12 题](../../chapters/calculus/09-curve-geometry.md#q2025-12)（填空题——斜渐近线）
 
-<img src="../../chapters/bank/2025/q12.png" alt="02 (2025)" width="466" style="display: block; width: 29.1em; max-width: 100%; height: auto; margin: 14px 0;">
+<img src="../../chapters/bank/2025/q12.png" alt="02 (2025)" width="456" style="display: block; width: 28.48em; max-width: 100%; height: auto; margin: 14px 0;">
 
 <details>
 <summary>点击核对思路与关键结果</summary>
