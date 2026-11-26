@@ -27,12 +27,15 @@
 <details>
 <summary>答案与解析</summary>
 
-1. 设非齐次方程为 $L[y] = f(x)$（$f(x) \not\equiv 0$），已知 $L[y_1] = f(x),\ L[y_2] = f(x)$。
-2. 由线性算子性质：
-   - $2\lambda y_1 + \mu y_2$ 是原非齐次方程的解 $\implies L[2\lambda y_1 + \mu y_2] = (2\lambda + \mu)f(x) = f(x) \implies 2\lambda + \mu = 1$；
-   - $\lambda y_1 - 2\mu y_2$ 是对应齐次方程的解 $\implies L[\lambda y_1 - 2\mu y_2] = (\lambda - 2\mu)f(x) = 0 \implies \lambda - 2\mu = 0$。
-3. 联立解得 $\lambda = 2\mu \implies 5\mu = 1 \implies \mu = \frac{1}{5},\ \lambda = \frac{2}{5}$。
-4. 答案：**（B）**。
+**答案**：**（B）** $\lambda = \dfrac{2}{5},\ \mu = \dfrac{1}{5}$
+
+- **切入点与推演**：记二阶非齐次线性微分方程为 $L[y] = f(x)$（$f(x) \not\equiv 0$）。已知 $y_1, y_2$ 为该方程的特解，即 $L[y_1] = L[y_2] = f(x)$。利用微分算子 $L$ 的线性性质：
+  1. $2\lambda y_1 + \mu y_2$ 是原非齐次方程的解：
+     $$L[2\lambda y_1 + \mu y_2] = (2\lambda + \mu)f(x) = f(x) \implies 2\lambda + \mu = 1.$$
+  2. $\lambda y_1 - 2\mu y_2$ 是对应齐次方程的解：
+     $$L[\lambda y_1 - 2\mu y_2] = (\lambda - 2\mu)f(x) = 0 \implies \lambda - 2\mu = 0.$$
+  联立解得 $\lambda = 2\mu \implies 5\mu = 1 \implies \mu = \dfrac{1}{5},\ \lambda = \dfrac{2}{5}$，故选择 **（B）**。
+- **干扰项 / 易错提示**：可直接套用“非齐次特解线性组合仍是特解 $\Leftrightarrow$ 系数和为 $1$，是齐次解 $\Leftrightarrow$ 系数和为 $0$”快速列方程；注意别把 $\lambda$ 与 $\mu$ 的数值写反从而误选 **（A）**。
 
 </details>
 
@@ -49,10 +52,25 @@
 <details>
 <summary>答案与解析</summary>
 
-**解。** 令 $v=y'/x^2$，方程化成 $v'=v^2$，且 $v(3)=-1$。分离变量得 $v=-1/(x-2)$。于是 $y'=-x^2/(x-2)=-x-2-4/(x-2)$，由 $y(3)=1/2$ 定出
-$$
-y=11-\frac{x^2}{2}-2x-4\ln(x-2),\qquad x>2.
-$$
+**结论速览**：$y = 11 - \dfrac{x^2}{2} - 2x - 4\ln(x-2)$（$x > 2$）
+
+- **完整解答**：
+  1. **降阶化为一阶方程**：方程不显含未知函数 $y$，令 $p = y'$，则 $y'' = p'$，原方程化为
+     $$x^2 p' - 2xp = p^2 \quad (x > 2).$$
+     两端同除以 $x^4$，左端恰好凑成商的导数 $\left(\dfrac{p}{x^2}\right)'$：
+     $$\frac{x^2 p' - 2xp}{x^4} = \left(\frac{p}{x^2}\right)^2 \implies \left(\frac{p}{x^2}\right)' = \left(\frac{p}{x^2}\right)^2.$$
+     （等价做法：视作伯努利方程 $p' - \dfrac{2}{x}p = \dfrac{p^2}{x^2}$，令 $u = p^{-1}$ 化为一阶线性方程求解。）
+  2. **求 $p = y'$**：令 $v = \dfrac{p}{x^2}$，则 $v' = v^2$，且初值 $v(3) = \dfrac{y'(3)}{3^2} = \dfrac{-9}{9} = -1 \ne 0$。分离变量并积分：
+     $$\frac{\mathrm{d}v}{v^2} = \mathrm{d}x \implies -\frac{1}{v} = x + C_1.$$
+     代入 $v(3) = -1$ 得 $1 = 3 + C_1 \implies C_1 = -2$，因此 $v = -\dfrac{1}{x-2}$，从而
+     $$y' = p = -\frac{x^2}{x-2} = -\frac{(x^2 - 4) + 4}{x-2} = -x - 2 - \frac{4}{x-2} \quad (x > 2).$$
+  3. **积分求 $y(x)$**：两边关于 $x$ 积分（因为 $x > 2$，故 $|x-2| = x-2$）：
+     $$y = -\frac{x^2}{2} - 2x - 4\ln(x-2) + C_2.$$
+     代入初值 $y(3) = \dfrac{1}{2}$：
+     $$-\frac{9}{2} - 6 - 4\ln 1 + C_2 = \frac{1}{2} \implies C_2 = 11.$$
+     故所求特解为
+     $$y = 11 - \frac{x^2}{2} - 2x - 4\ln(x-2) \quad (x > 2).$$
+- **核心思路与避坑**：看到 $x^2 p' - 2xp$ 立即联想到商的求导分子 $\left(\frac{p}{x^2}\right)' = \frac{x^2 p' - 2xp}{x^4}$，比硬套伯努利公式快一倍；最后求 $y$ 时别忘先对假分式 $\dfrac{x^2}{x-2}$ 做多项式除法再积分。
 
 </details>
 
@@ -67,7 +85,19 @@ $$
 <details>
 <summary>答案与解析</summary>
 
-**答案 C，$-2<a<0$。** 任意解都可积，要求两个特征根的实部都严格小于零。零根给常数解，纯虚根给无衰减正弦、余弦，正实部给增长解，这些都不能满足要求。特征多项式 $r^2-2ar+a+2$ 的两根同为负实部，等价于根和 $2a<0$、根积 $a+2>0$。
+**答案**：**（C）** $(-2, 0)$
+
+- **切入点与推演**：常系数齐次线性微分方程 $y'' - 2ay' + (a+2)y = 0$ 的特征方程为
+  $$r^2 - 2ar + (a+2) = 0.$$
+  要求**任一解** $y(x)$ 的反常积分 $\int_0^{+\infty} y(x)\,\mathrm{d}x$ 均收敛，充要条件是特征方程的两个根 $r_1, r_2$ 的实部均严格小于 $0$（即 $\operatorname{Re}(r_1) < 0$ 且 $\operatorname{Re}(r_2) < 0$）：
+  - 若存在实部 $> 0$ 的根，指数增长解导致积分发散；
+  - 若存在 $r = 0$，常数解 $y\equiv 1$ 导致积分发散；
+  - 若存在纯虚根 $r = \pm i\omega$（$\omega > 0$），$\cos\omega x$ 与 $\sin\omega x$ 在 $[0,+\infty)$ 上反常积分发散；
+  - 反之，若 $\operatorname{Re}(r_{1,2}) < 0$，则任意解均以负指数衰减（含 $e^{\alpha x}, xe^{\alpha x}, e^{\alpha x}\cos\beta x, e^{\alpha x}\sin\beta x$，$\alpha < 0$），在 $[0,+\infty)$ 上均绝对可积。
+  对实系数二次方程 $r^2 - 2ar + (a+2) = 0$，两根实部均严格小于 $0$ 的充要条件是系数全为正（韦达定理）：
+  $$\begin{cases} r_1 + r_2 = 2a < 0, \\ r_1 r_2 = a + 2 > 0 \end{cases} \iff -2 < a < 0.$$
+  故选择 **（C）**。
+- **干扰项 / 易错提示**：不要误以为需要判别式 $\Delta \ge 0$（即误加限制 $a \le -1$ 而错选 **（A）**）；当 $-1 < a < 0$ 时特征根为负实部共轭复根 $a \pm i\sqrt{a+2-a^2}$，对应的衰减振荡解 $e^{ax}\cos\beta x$ 积分依然收敛！
 
 </details>
 
@@ -128,7 +158,15 @@ $$= 2\left[\frac{4}{3}u^3 - \frac{1}{5}u^5\right]_0^{\sqrt{3}} = 2\left(\frac{4}
 <details>
 <summary>答案与解析</summary>
 
-**答案 C。** 整条实轴上通解有界，排除实部非零的特征根，也排除产生 $x$ 项的二重零根。实系数二阶方程仅剩一对非零纯虚根，要求 $a=0,b>0$，此时通解为有界的正弦、余弦组合。
+**答案**：**（C）** $a = 0,\ b > 0$
+
+- **切入点与推演**：考查二阶常系数齐次线性微分方程 $y'' + ay' + by = 0$ 的解在整条实轴 $(-\infty, +\infty)$ 上的有界性。记特征方程为 $r^2 + ar + b = 0$：
+  - 若特征根含有非零实部 $\alpha \ne 0$，则 $e^{\alpha x}$ 在 $x\to+\infty$（$\alpha>0$）或 $x\to-\infty$（$\alpha<0$）时无界；
+  - 若特征根为二重零根 $r_1 = r_2 = 0$（即 $a = b = 0$），通解 $y = C_1 + C_2 x$ 在 $(-\infty, +\infty)$ 上无界；
+  - 若特征根为一零根一非零实根，非零实根对应的指数项无界；
+  - 仅当特征根为一对非零纯虚根 $r = \pm i\sqrt{b}$ 时，通解为 $y = C_1\cos\sqrt{b}x + C_2\sin\sqrt{b}x$，在 $(-\infty, +\infty)$ 上恒有界。
+  特征方程有一对非零纯虚根的充要条件为 $a = 0$ 且 $b > 0$，故选择 **（C）**。
+- **干扰项 / 易错提示**：注意区间是**全实轴** $(-\infty, +\infty)$ 而非半轴 $[0, +\infty)$；若在 $[0,+\infty)$ 上有界则选 $a>0, b>0$（干扰项 B），但在 $(-\infty, +\infty)$ 上 $e^{-x}$ 在 $x\to-\infty$ 时趋于 $+\infty$ 同样无界。
 
 </details>
 
@@ -143,7 +181,15 @@ $$= 2\left[\frac{4}{3}u^3 - \frac{1}{5}u^5\right]_0^{\sqrt{3}} = 2\left(\frac{4}
 <details>
 <summary>答案与解析</summary>
 
-**答案 $y=C_1+e^x(C_2\cos2x+C_3\sin2x)$。** 特征方程 $r(r^2-2r+5)=0$ 有根 $0,1\pm2i$，分别贡献常数和一对带 $e^x$ 的三角函数。
+**答案**：$C_1 + e^x(C_2\cos 2x + C_3\sin 2x)$
+
+- **切入点与推演**：写出三阶常系数齐次线性微分方程的特征方程并因式分解：
+  $$r^3 - 2r^2 + 5r = 0 \implies r(r^2 - 2r + 5) = 0.$$
+  解得特征根：
+  $$r_1 = 0, \qquad r_{2,3} = \frac{2 \pm \sqrt{4 - 20}}{2} = 1 \pm 2i.$$
+  由实根 $r_1=0$ 对应常数项 $C_1$，共轭复根 $1 \pm 2i$ 对应 $e^x(C_2\cos 2x + C_3\sin 2x)$，故通解为
+  $$y(x) = C_1 + e^x(C_2\cos 2x + C_3\sin 2x).$$
+- **易错点**：三阶方程通解必须包含 $3$ 个独立任意常数 $C_1, C_2, C_3$，切勿漏掉零根对应的 $C_1$，或把共轭复根的虚部 $2$ 误写成 $4$。
 
 </details>
 
@@ -158,7 +204,15 @@ $$= 2\left[\frac{4}{3}u^3 - \frac{1}{5}u^5\right]_0^{\sqrt{3}} = 2\left(\frac{4}
 <details>
 <summary>答案与解析</summary>
 
-**答案 $y=C_1e^x+e^{-x/2}[C_2\cos(\sqrt3 x/2)+C_3\sin(\sqrt3 x/2)]$。** 特征方程为 $(r-1)(r^2+r+1)=0$，根为 $1,-1/2\pm i\sqrt3/2$。
+**答案**：$C_1 e^x + e^{-\frac{1}{2}x}\!\left(C_2\cos\dfrac{\sqrt{3}}{2}x + C_3\sin\dfrac{\sqrt{3}}{2}x\right)$
+
+- **切入点与推演**：写出特征方程并用立方差公式分解：
+  $$r^3 - 1 = (r - 1)(r^2 + r + 1) = 0.$$
+  解得三个特征根：
+  $$r_1 = 1, \qquad r_{2,3} = \frac{-1 \pm \sqrt{1 - 4}}{2} = -\frac{1}{2} \pm \frac{\sqrt{3}}{2}i.$$
+  分别对应基本解 $e^x$ 与 $e^{-\frac{1}{2}x}\cos\dfrac{\sqrt{3}}{2}x,\ e^{-\frac{1}{2}x}\sin\dfrac{\sqrt{3}}{2}x$，故通解为
+  $$y = C_1 e^x + e^{-\frac{1}{2}x}\left(C_2\cos\frac{\sqrt{3}}{2}x + C_3\sin\frac{\sqrt{3}}{2}x\right).$$
+- **易错点**：共轭复根实部为 $-\dfrac{1}{2}$（带负号），虚部为 $\dfrac{\sqrt{3}}{2}$，写指数项和三角函数宗量时注意符号与因子 $\dfrac{1}{2}$。
 
 </details>
 
@@ -173,7 +227,15 @@ $$= 2\left[\frac{4}{3}u^3 - \frac{1}{5}u^5\right]_0^{\sqrt{3}} = 2\left(\frac{4}
 <details>
 <summary>答案与解析</summary>
 
-**答案 $1$。** 重根 $-1$ 给出 $y=(C_1+C_2x)e^{-x}$，初值给 $C_1=0,C_2=1$。积分为 $[-(x+1)e^{-x}]_0^\infty=1$。
+**答案**：$1$
+
+- **切入点与推演**：先解二阶常系数齐次线性微分方程初值问题，再算反常积分。
+  1. **求特解 $y(x)$**：特征方程 $r^2 + 2r + 1 = (r+1)^2 = 0$ 有二重实根 $r_1 = r_2 = -1$，故通解为
+     $$y(x) = (C_1 + C_2 x)e^{-x}.$$
+     由 $y(0) = 0$ 得 $C_1 = 0$，于是 $y(x) = C_2 x e^{-x}$，$y'(x) = C_2(1-x)e^{-x}$。再由 $y'(0) = 1$ 得 $C_2 = 1$，即 $y(x) = x e^{-x}$。
+  2. **求反常积分**：分部积分（或直接用伽马函数 $\Gamma(2)=1!$）：
+     $$\int_0^{+\infty} x e^{-x}\,\mathrm{d}x = \Big[-(x+1)e^{-x}\Big]_0^{+\infty} = 0 - (-1) = 1.$$
+- **易错点**：二重实根通解形式为 $(C_1 + C_2 x)e^{-x}$，切勿漏乘 $x$；也可用原方程直接积分速解：对 $y'' + 2y' + y = 0$ 在 $[0,+\infty)$ 积分，因 $y(+\infty)=y'(+\infty)=0$，得 $-y'(0) - 2y(0) + \int_0^{+\infty} y(x)\,\mathrm{d}x = 0 \implies \int_0^{+\infty} y(x)\,\mathrm{d}x = 1$！
 
 </details>
 
@@ -188,7 +250,15 @@ $$= 2\left[\frac{4}{3}u^3 - \frac{1}{5}u^5\right]_0^{\sqrt{3}} = 2\left(\frac{4}
 <details>
 <summary>答案与解析</summary>
 
-**答案 D。** 齐次部分出现 $e^{-x},xe^{-x}$，说明特征根 $-1$ 为二重根，故 $a=2,b=1$。把特解 $y=e^x$ 代回，系数 $c=1+2+1=4$。
+**答案**：**（D）** $2, 1, 4$
+
+- **切入点与推演**：由非齐次线性方程的通解结构 $y = y_{\text{齐}} + y^*$，分别从齐次通解和特解反推系数 $a, b, c$。
+  1. **求 $a, b$**：齐次通解为 $(C_1 + C_2 x)e^{-x}$，表明特征方程 $r^2 + ar + b = 0$ 有二重实根 $r_1 = r_2 = -1$，故特征方程必为
+     $$(r + 1)^2 = r^2 + 2r + 1 = 0 \implies a = 2,\quad b = 1.$$
+  2. **求 $c$**：特解 $y^* = e^x$ 满足原方程 $y'' + 2y' + y = ce^x$，直接代入得
+     $$e^x + 2e^x + e^x = c e^x \implies c = 4.$$
+  故 $a, b, c$ 的值依次为 $2, 1, 4$，选择 **（D）**。
+- **干扰项 / 易错提示**：把重根 $r = -1$ 展开成 $(r+1)^2 = r^2 + 2r + 1$，别因符号记反写成 $a = -2$；代入特解 $e^x$ 时三项系数相加为 $1 + 2 + 1 = 4$，勿漏中间项系数 $2$。
 
 </details>
 
@@ -242,7 +312,31 @@ $$= 2\left[\frac{4}{3}u^3 - \frac{1}{5}u^5\right]_0^{\sqrt{3}} = 2\left(\frac{4}
 <details>
 <summary>答案与解析</summary>
 
-**解。** 置 $y=e^x\mu$ 后消去零阶项，得 $(2x-1)\mu''+(2x-3)\mu'=0$。先解一阶方程得 $\mu'=C(2x-1)e^{-x}$，再积分得 $\mu=c_1+c_2(2x+1)e^{-x}$。由两给定值解得 $c_1=0,c_2=-1$，故 $\mu=-(2x+1)e^{-x}$，原方程通解是 $y=C_1e^x+C_2(2x+1)$。若跨过 $x=1/2$，二阶导在该点存在要求左右解的系数一致。
+**结论速览**：$\mu(x) = -(2x+1)e^{-x}$，原微分方程的通解为 $y = C_1 e^x + C_2(2x+1)$
+
+- **完整解答**：
+  1. **代入 $y = \mu(x)e^x$ 降阶求 $\mu(x)$**：
+     计算导数：
+     $$y' = (\mu' + \mu)e^x, \qquad y'' = (\mu'' + 2\mu' + \mu)e^x.$$
+     代入原方程 $(2x-1)y'' - (2x+1)y' + 2y = 0$ 并消去 $e^x > 0$：
+     $$(2x-1)(\mu'' + 2\mu' + \mu) - (2x+1)(\mu' + \mu) + 2\mu = 0.$$
+     合并同类项（$\mu$ 的系数为 $(2x-1)-(2x+1)+2 = 0$，验证了 $e^x$ 是特解）：
+     $$(2x-1)\mu'' + (2x-3)\mu' = 0.$$
+  2. **两次积分求 $\mu(x)$**：
+     令 $p = \mu'$，分离变量（在 $x \ne \frac{1}{2}$ 上）：
+     $$\frac{p'}{p} = -\frac{2x-3}{2x-1} = -1 + \frac{2}{2x-1}.$$
+     两边积分得 $\ln|p| = -x + \ln|2x-1| + C$，故
+     $$\mu'(x) = c_0(2x-1)e^{-x}.$$
+     （因为 $\mu$ 在全体实数上二阶可导，左右两侧常数 $c_0$ 必相同。）再对 $\mu'(x)$ 分部积分：
+     $$\int (2x-1)e^{-x}\,\mathrm{d}x = -(2x-1)e^{-x} + \int 2e^{-x}\,\mathrm{d}x = -(2x+1)e^{-x} + C.$$
+     于是 $\mu(x) = c_1 + c_2(2x+1)e^{-x}$。
+     代入条件 $\mu(0) = -1$ 与 $\mu(-1) = e$：
+     $$\begin{cases} c_1 + c_2 = -1, \\ c_1 - c_2 e = e \end{cases} \implies c_1 = 0,\quad c_2 = -1.$$
+     因此 $\mu(x) = -(2x+1)e^{-x}$。
+  3. **写出原方程通解**：
+     于是第二个特解为 $y_2(x) = \mu(x)e^x = -(2x+1)$。显然 $y_1(x) = e^x$ 与 $y_2(x) = -(2x+1)$ 线性无关（比值非常数），故原二阶齐次线性方程的通解为
+     $$y = C_1 e^x + C_2(2x+1).$$
+- **核心思路与避坑**：已知二阶齐次线性方程的一个非零特解 $y_1$，用刘维尔降阶法设 $y = \mu y_1$ 时，代入后 $\mu$ 项系数**必然抵消为 $0$**（若未消掉说明求导或合并有误，可立即自检）；最后写通解时 $-(2x+1)$ 的负号可吸收进任意常数 $C_2$。
 
 </details>
 
@@ -257,7 +351,15 @@ $$= 2\left[\frac{4}{3}u^3 - \frac{1}{5}u^5\right]_0^{\sqrt{3}} = 2\left(\frac{4}
 <details>
 <summary>答案与解析</summary>
 
-**答案 $y=2e^x+e^{-2x}$。** 特征根是 $1,-2$，通解 $C_1e^x+C_2e^{-2x}$。极值给 $y(0)=3$ 和 $y'(0)=0$，即 $C_1+C_2=3$、$C_1-2C_2=0$，解得两常数。并且 $y''(0)=6>0$。
+**答案**：$2e^x + e^{-2x}$
+
+- **切入点与推演**：微分方程在 $x=0$ 处取得极值 $3$，隐含了两个初始条件：$y(0) = 3$ 且 $y'(0) = 0$。
+  1. **求通解**：特征方程 $r^2 + r - 2 = (r-1)(r+2) = 0$，得特征根 $r_1 = 1,\ r_2 = -2$，故通解为
+     $$y(x) = C_1 e^x + C_2 e^{-2x}.$$
+  2. **定常数并复核极值**：求导得 $y'(x) = C_1 e^x - 2C_2 e^{-2x}$。代入 $y(0)=3,\ y'(0)=0$：
+     $$\begin{cases} C_1 + C_2 = 3, \\ C_1 - 2C_2 = 0 \end{cases} \implies C_1 = 2,\quad C_2 = 1.$$
+     于是 $y(x) = 2e^x + e^{-2x}$。复核二阶导：$y''(0) = 2 + 4 = 6 > 0$，确在 $x=0$ 处取得极小值 $3$。
+- **易错点**：审题时要迅速把“在 $x=0$ 处取得极值 $3$”翻译成双初值 $y(0)=3, y'(0)=0$；解线性方程组时注意 $y'(0)$ 中 $C_2$ 的系数为 $-2$。
 
 </details>
 
@@ -272,7 +374,18 @@ $$= 2\left[\frac{4}{3}u^3 - \frac{1}{5}u^5\right]_0^{\sqrt{3}} = 2\left(\frac{4}
 <details>
 <summary>答案与解析</summary>
 
-**答案 $y=e^{3x}-e^x-xe^{2x}$。** 由 $y_1-y_3$、$y_2-y_3$ 得两个线性无关的齐次解 $e^{3x},e^x$，故通解为 $C_1e^{3x}+C_2e^x-xe^{2x}$。初值给 $C_1+C_2=0$、$3C_1+C_2-1=1$，所以 $C_1=1,C_2=-1$。
+**答案**：$e^{3x} - e^x - xe^{2x}$
+
+- **切入点与推演**：无需反求原微分方程，直接利用二阶非齐次线性微分方程的**解的结构**写出通解！
+  1. **构造齐次基本解组**：两个非齐次解之差为对应齐次方程的解：
+     $$y_1 - y_3 = e^{3x}, \qquad y_2 - y_3 = e^x.$$
+     显然 $e^{3x}$ 与 $e^x$ 线性无关，构成二阶齐次方程的基本解组。
+  2. **写通解并代入初值**：取 $y_3 = -xe^{2x}$ 作为非齐次特解，通解为
+     $$y(x) = C_1 e^{3x} + C_2 e^x - x e^{2x}.$$
+     求导得 $y'(x) = 3C_1 e^{3x} + C_2 e^x - (1 + 2x)e^{2x}$。代入 $y(0) = 0,\ y'(0) = 1$：
+     $$\begin{cases} C_1 + C_2 = 0, \\ 3C_1 + C_2 - 1 = 1 \end{cases} \implies C_1 = 1,\quad C_2 = -1.$$
+     故所求特解为 $y = e^{3x} - e^x - x e^{2x}$。
+- **易错点**：求 $y'(0)$ 时不要漏掉特解 $-xe^{2x}$ 在 $x=0$ 处的导数值 $-1$，否则会误把第二个方程写成 $3C_1 + C_2 = 1$。
 
 </details>
 
@@ -287,9 +400,29 @@ $$= 2\left[\frac{4}{3}u^3 - \frac{1}{5}u^5\right]_0^{\sqrt{3}} = 2\left(\frac{4}
 <details>
 <summary>答案与解析</summary>
 
-**解。** （1）特征根 $1,-2$ 给 $f=C_1e^x+C_2e^{-2x}$；代入 $f'+f=2e^x$ 得 $C_1=1,C_2=0$。
+**结论速览**：（1）$f(x) = e^x$；（2）曲线有唯一拐点 $(0, 0)$
 
-（2）令 $y=e^{x^2}\int_0^x e^{-t^2}dt$，则 $y'=2xy+1$、$y''=(2+4x^2)y+2x$。$y$ 与 $x$ 同号，故 $y''$ 在 0 左负右正，只在 $(0,0)$ 有拐点。
+- **（1）求表达式 $f(x)$**：
+  二阶常系数齐次线性微分方程 $f''(x) + f'(x) - 2f(x) = 0$ 的特征方程为
+  $$r^2 + r - 2 = (r - 1)(r + 2) = 0,$$
+  解得特征根 $r_1 = 1,\ r_2 = -2$，故通解为
+  $$f(x) = C_1 e^x + C_2 e^{-2x}.$$
+  求导得 $f'(x) = C_1 e^x - 2C_2 e^{-2x}$，代入条件 $f'(x) + f(x) = 2e^x$：
+  $$(C_1 e^x - 2C_2 e^{-2x}) + (C_1 e^x + C_2 e^{-2x}) = 2C_1 e^x - C_2 e^{-2x} = 2e^x.$$
+  由 $e^x$ 与 $e^{-2x}$ 线性无关，比较系数得 $2C_1 = 2,\ -C_2 = 0 \implies C_1 = 1,\ C_2 = 0$。
+  故 $f(x) = e^x$。
+- **（2）求曲线 $y = f(x^2)\displaystyle\int_0^x f(-t^2)\,\mathrm{d}t$ 的拐点**：
+  将 $f(x) = e^x$ 代入，得
+  $$y(x) = e^{x^2}\int_0^x e^{-t^2}\,\mathrm{d}t \qquad (x\in(-\infty, +\infty)).$$
+  计算一阶导数与二阶导数（利用 $y(x)$ 自身表达式化简）：
+  $$y'(x) = 2x e^{x^2}\int_0^x e^{-t^2}\,\mathrm{d}t + e^{x^2}\cdot e^{-x^2} = 2x y(x) + 1,$$
+  $$y''(x) = 2y(x) + 2x y'(x) = 2y(x) + 2x\bigl(2x y(x) + 1\bigr) = (4x^2 + 2)y(x) + 2x.$$
+  分析 $y''(x)$ 的符号：因为被积函数 $e^{-t^2} > 0$ 且 $e^{x^2} > 0$，所以 $y(x)$ 与 $x$ 严格同号：
+  - 当 $x > 0$ 时，$y(x) > 0$，从而 $y''(x) = (4x^2 + 2)y(x) + 2x > 0$；
+  - 当 $x < 0$ 时，$y(x) < 0$，从而 $y''(x) = (4x^2 + 2)y(x) + 2x < 0$；
+  - 当 $x = 0$ 时，$y(0) = 0$ 且 $y''(0) = 0$。
+  因此 $y''(x)$ 仅在 $x = 0$ 处等于 $0$ 并在其两侧变号，故曲线有唯一拐点 $(0, 0)$。
+- **核心思路与避坑**：第（2）问求二阶导时切忌保留庞大积分硬算，而是先将 $y'$ 写成 $2xy + 1$，再顺势求导得 $y'' = (4x^2+2)y + 2x$，一步看出 $y''$ 与 $x$ 严格同号，既省时又严密。
 
 </details>
 
@@ -304,7 +437,17 @@ $$= 2\left[\frac{4}{3}u^3 - \frac{1}{5}u^5\right]_0^{\sqrt{3}} = 2\left(\frac{4}
 <details>
 <summary>答案与解析</summary>
 
-**答案 C。** 齐次特征根 $\pm\lambda$ 都是单根，所以右端两个指数项都要乘一次 $x$，并允许不同系数。代入得 $(D^2-\lambda^2)(xe^{\pm\lambda x})=\pm2\lambda e^{\pm\lambda x}$，两系数为 $1/(2\lambda),-1/(2\lambda)$。
+**答案**：**（C）** $x(ae^{\lambda x} + be^{-\lambda x})$
+
+- **切入点与推演**：右端自由项为 $e^{\lambda x} + e^{-\lambda x}$，由叠加原理可分别设对应 $e^{\lambda x}$ 与 $e^{-\lambda x}$ 的特解 $y_1^*, y_2^*$ 再相加。
+  1. **求特征根**：对应齐次方程 $y'' - \lambda^2 y = 0$ 的特征方程为 $r^2 - \lambda^2 = 0$，因为 $\lambda > 0$，得两个互异单根 $r_1 = \lambda,\ r_2 = -\lambda$。
+  2. **分别设特解**：
+     - 对自由项 $e^{\lambda x}$，指数系数 $\lambda$ 是特征方程的单根（$k=1$），故设 $y_1^* = a x e^{\lambda x}$；
+     - 对自由项 $e^{-\lambda x}$，指数系数 $-\lambda$ 也是特征方程的单根（$k=1$），故设 $y_2^* = b x e^{-\lambda x}$。
+  3. **叠加**：原方程特解形式为
+     $$y^* = y_1^* + y_2^* = x\left(ae^{\lambda x} + be^{-\lambda x}\right).$$
+  故选择 **（C）**。
+- **干扰项 / 易错提示**：虽然自由项中 $e^{\lambda x}$ 与 $e^{-\lambda x}$ 的系数均为 $1$，但实际代入后 $(x e^{\pm\lambda x})'' - \lambda^2(x e^{\pm\lambda x}) = \pm 2\lambda e^{\pm\lambda x}$，解得 $a = \dfrac{1}{2\lambda},\ b = -\dfrac{1}{2\lambda}$ 互为相反数，因此两项必须设不同的待定系数 $a, b$，切勿误选 **（B）**！
 
 </details>
 
@@ -319,7 +462,14 @@ $$= 2\left[\frac{4}{3}u^3 - \frac{1}{5}u^5\right]_0^{\sqrt{3}} = 2\left(\frac{4}
 <details>
 <summary>答案与解析</summary>
 
-**答案 $y=C_1e^{2x}+C_2\cos x+C_3\sin x$。** 特征多项式为 $(r-2)(r^2+1)$，根分别为 $2,\pm i$。
+**答案**：$C_1 e^{2x} + C_2\cos x + C_3\sin x$
+
+- **切入点与推演**：写出三阶常系数齐次线性微分方程的特征方程并分组分解：
+  $$r^3 - 2r^2 + r - 2 = r^2(r - 2) + (r - 2) = (r - 2)(r^2 + 1) = 0.$$
+  解得特征根 $r_1 = 2,\ r_{2,3} = \pm i$。
+  单实根 $2$ 对应 $C_1 e^{2x}$，一对纯虚根 $\pm i$ 对应 $C_2\cos x + C_3\sin x$，故通解为
+  $$y = C_1 e^{2x} + C_2\cos x + C_3\sin x.$$
+- **易错点**：四项三次多项式优先采用“两两分组提公因式”分解，不要漏掉任意常数 $C_1, C_2, C_3$。
 
 </details>
 
@@ -336,7 +486,26 @@ $$= 2\left[\frac{4}{3}u^3 - \frac{1}{5}u^5\right]_0^{\sqrt{3}} = 2\left(\frac{4}
 <details>
 <summary>答案与解析</summary>
 
-**答案 $\psi(t)=t^3+\tfrac32t^2$。** $dx/dt=2(1+t)$，链式法则给 $\frac{d}{dt}(dy/dx)=3/2$。在 $t=1$，$dy/dx=\psi'(1)/4=3/2$，故 $dy/dx=3t/2$。再乘 $dx/dt$ 得 $\psi'=3t(1+t)$，积分后以 $\psi(1)=5/2$ 定常数为零。
+**结论速览**：$\psi(t) = t^3 + \dfrac{3}{2}t^2$（$t > -1$）
+
+- **完整解答**：
+  1. **用参数方程二阶导数公式化简**：
+     由 $x = 2t + t^2$（$t > -1$）得 $\dfrac{\mathrm{d}x}{\mathrm{d}t} = 2 + 2t = 2(1+t) > 0$。
+     根据参数方程求导的链式法则：
+     $$\frac{\mathrm{d}^2 y}{\mathrm{d}x^2} = \frac{\mathrm{d}}{\mathrm{d}t}\!\left(\frac{\mathrm{d}y}{\mathrm{d}x}\right)\cdot\frac{1}{\frac{\mathrm{d}x}{\mathrm{d}t}} = \frac{1}{2(1+t)}\cdot\frac{\mathrm{d}}{\mathrm{d}t}\!\left(\frac{\mathrm{d}y}{\mathrm{d}x}\right).$$
+     代入已知条件 $\dfrac{\mathrm{d}^2 y}{\mathrm{d}x^2} = \dfrac{3}{4(1+t)}$，两边消去 $(1+t) > 0$ 得
+     $$\frac{\mathrm{d}}{\mathrm{d}t}\!\left(\frac{\mathrm{d}y}{\mathrm{d}x}\right) = \frac{3}{2}.$$
+  2. **逐次积分并代入初值**：
+     对上式关于 $t$ 积分：
+     $$\frac{\mathrm{d}y}{\mathrm{d}x} = \frac{3}{2}t + C_1.$$
+     因为 $\dfrac{\mathrm{d}y}{\mathrm{d}x} = \dfrac{\psi'(t)}{2(1+t)}$，代入 $t = 1$ 及 $\psi'(1) = 6$：
+     $$\frac{6}{2(1+1)} = \frac{3}{2}\cdot 1 + C_1 \implies C_1 = 0,$$
+     故 $\dfrac{\mathrm{d}y}{\mathrm{d}x} = \dfrac{3}{2}t$，从而
+     $$\psi'(t) = \frac{\mathrm{d}y}{\mathrm{d}x}\cdot\frac{\mathrm{d}x}{\mathrm{d}t} = \frac{3}{2}t\cdot 2(1+t) = 3t^2 + 3t.$$
+     再关于 $t$ 积分得 $\psi(t) = t^3 + \dfrac{3}{2}t^2 + C_2$。代入 $\psi(1) = \dfrac{5}{2}$：
+     $$1 + \frac{3}{2} + C_2 = \frac{5}{2} \implies C_2 = 0.$$
+     故 $\psi(t) = t^3 + \dfrac{3}{2}t^2$（$t > -1$）。
+- **核心思路与避坑**：直接把 $\dfrac{\mathrm{d}^2 y}{\mathrm{d}x^2}$ 写成 $\dfrac{1}{x'(t)}\dfrac{\mathrm{d}}{\mathrm{d}t}\!\left(\dfrac{\mathrm{d}y}{\mathrm{d}x}\right)$ 可直接消去分母 $1+t$，比展开成 $\dfrac{\psi''x' - \psi'x''}{(x')^3}$ 再解二阶方程简洁得多；定第一个常数 $C_1$ 时注意 $\left.\dfrac{\mathrm{d}y}{\mathrm{d}x}\right|_{t=1} = \dfrac{\psi'(1)}{x'(1)} = \dfrac{6}{4} = \dfrac{3}{2}$，切勿直接把 $\psi'(1)=6$ 当成 $\dfrac{\mathrm{d}y}{\mathrm{d}x}$！
 
 </details>
 

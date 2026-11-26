@@ -27,7 +27,18 @@
 <details>
 <summary>答案与解析</summary>
 
-**答案 A。** $A$ 的第 4 行等于第 3 行减两倍第 2 行。右乘 $B$ 保留这个行关系，因此 $(a,b)=(1,1)-2(1,1)=(-1,-1)$。
+**答案**：**（A）** $a=-1,\ b=-1$
+
+- **切入点与推演**：$AB=C$ 有解等价于把 $C$ 按列拆开后每个方程组 $A\boldsymbol{x}=\boldsymbol{c}_j$ 都有解，也就是 $A$ 的行之间的线性关系必须同样被 $C$ 的对应行满足。
+  1. **寻找 $A$ 的行线性关系**：观察
+     $$A = \begin{pmatrix} 1 & 0 & 1 \\ 0 & 0 & 1 \\ 1 & 1 & 3 \\ 1 & 1 & 1 \end{pmatrix},$$
+     第 $3$ 行减去 $2$ 倍第 $2$ 行恰为第 $4$ 行：
+     $$(1, 1, 3) - 2(0, 0, 1) = (1, 1, 1) \implies r_4 = r_3 - 2r_2.$$
+     （且前 $3$ 行构成的行列式 $\begin{vmatrix}1&0&1\\0&0&1\\1&1&3\end{vmatrix}=-1\ne 0$，故 $r(A)=3$，不存在其他独立行关系。）
+  2. **同步套用到 $C$**：由 $AB=C$，右乘 $B$ 保持全部行线性关系，故 $C$ 的第 $4$ 行也必须等于第 $3$ 行减 $2$ 倍第 $2$ 行：
+     $$(a, b) = (1, 1) - 2(1, 1) = (-1, -1).$$
+     此时 $r(A)=r(A\mid C)=3$，矩阵 $B$ 存在且唯一。故 $a=-1,\ b=-1$，选 **（A）**。
+- **干扰项 / 易错提示**：若死算 $(A\mid C)$ 的初等行变换同样可行，但用“行关系同步传递”能在 10 秒内直接读出 $(a,b)$；注意系数是 $r_3 - 2r_2$，别算成 $r_3 + 2r_2$ 或 $2r_2 - r_3$。
 
 </details>
 
@@ -130,9 +141,28 @@
 <details>
 <summary>答案与解析</summary>
 
-**解。** （1）列相关给出 $r(A)\le2$ 且 0 是特征值。三个特征值互异，所以零特征空间一维，故秩为 2。
+**结论速览**：（1）由列相关得 $0$ 是特征值，结合 $3$ 个互异特征值可对角化证得 $r(A)=2$；（2）通解为 $\boldsymbol{x} = (1, 1, 1)^T + k(-1, -2, 1)^T$（$k \in \mathbb{R}$）（等价写法 $(2, 3, 0)^T + k(-1, -2, 1)^T$）。
 
-（2）将 $\alpha_3=\alpha_1+2\alpha_2$ 代入。前两列独立，所以 $x_1+x_3=2,\ x_2+2x_3=3$，得 $x=(2,3,0)^T+t(-1,-2,1)^T$。
+- **（1）证明 $r(A) = 2$**：
+  由 $\boldsymbol\alpha_3 = \boldsymbol\alpha_1 + 2\boldsymbol\alpha_2$，知 $A$ 的列向量组线性相关，故 $|A| = 0$，从而 $\lambda_1 = 0$ 是 $A$ 的一个特征值。
+  又已知 $A$ 有 $3$ 个不同的特征值，设另两个特征值为 $\lambda_2, \lambda_3$，则 $\lambda_2 \ne 0,\ \lambda_3 \ne 0$ 且 $\lambda_1, \lambda_2, \lambda_3$ 互不相同。
+  因此 $A$ 可相似对角化，即存在可逆矩阵 $P$ 使得
+  $$P^{-1}AP = \operatorname{diag}(0, \lambda_2, \lambda_3).$$
+  相似矩阵具有相同的秩，故
+  $$r(A) = r\bigl(\operatorname{diag}(0, \lambda_2, \lambda_3)\bigr) = 2.$$
+- **（2）求 $A\boldsymbol{x} = \boldsymbol\beta$ 的通解**：
+  1. **求齐次方程组 $A\boldsymbol{x} = \boldsymbol{0}$ 的基础解系**：
+     由 $\boldsymbol\alpha_3 = \boldsymbol\alpha_1 + 2\boldsymbol\alpha_2$ 移项得 $-\boldsymbol\alpha_1 - 2\boldsymbol\alpha_2 + \boldsymbol\alpha_3 = \boldsymbol{0}$，即
+     $$A\begin{pmatrix} -1 \\ -2 \\ 1 \end{pmatrix} = \boldsymbol{0}.$$
+     因 $r(A) = 2$，齐次方程组 $A\boldsymbol{x}=\boldsymbol{0}$ 的解空间维数为 $3 - 2 = 1$，故 $\boldsymbol\xi = (-1, -2, 1)^T$ 是其基础解系。
+  2. **求非齐次方程组 $A\boldsymbol{x} = \boldsymbol\beta$ 的特解**：
+     由 $\boldsymbol\beta = \boldsymbol\alpha_1 + \boldsymbol\alpha_2 + \boldsymbol\alpha_3$，直接写出
+     $$A\begin{pmatrix} 1 \\ 1 \\ 1 \end{pmatrix} = \boldsymbol\beta,$$
+     故 $\boldsymbol\eta^* = (1, 1, 1)^T$ 是一个特解。
+  3. **写出通解**：
+     $$\boldsymbol{x} = \begin{pmatrix} 1 \\ 1 \\ 1 \end{pmatrix} + k\begin{pmatrix} -1 \\ -2 \\ 1 \end{pmatrix}, \qquad k \in \mathbb{R}.$$
+     （注：取 $k=-1$ 时的特解为 $(2,3,0)^T$，故 $\boldsymbol{x}=(2,3,0)^T+k(-1,-2,1)^T$ 与上式完全等价。）
+- **核心思路与避坑**：第（1）问最简洁的考场证明是“$3$ 个互异特征值 $\implies$ 必可对角化 $\implies$ 秩等于非零特征值个数”；第（2）问切忌自己虚设矩阵元素，直接把列向量关系翻译成 $A\boldsymbol{x}=\boldsymbol{0}$ 与 $A\boldsymbol{x}=\boldsymbol\beta$ 的解向量即可。
 
 </details>
 
@@ -169,7 +199,15 @@
 <details>
 <summary>答案与解析</summary>
 
-**题面待核。** 第 2、3 个方程分别减第 1 个，再消 $x_2$，末式为 $(a-1)(a-2)x_3=d-4$。因此有无穷多解的充要条件是 $a\in\{1,2\},d=4$。当前 C 只写 $d\notin\{1,2\}$，范围过宽，不能作为充要条件。
+**题面待核**（按当前题面 $\boldsymbol{b}=(1,2,d)^T$ 无匹配选项；若原卷为 $\boldsymbol{b}=(1,d,d^2)^T$，则答案选 **（D）**）
+
+- **按当前转写 $\boldsymbol{b}=(1,2,d)^T$ 的推演**：对增广矩阵 $(A\mid \boldsymbol{b})$ 做初等行变换：
+  $$\begin{pmatrix} 1 & 1 & 1 & \vline & 1 \\ 1 & 2 & a & \vline & 2 \\ 1 & 4 & a^2 & \vline & d \end{pmatrix} \xrightarrow[r_3-r_1]{r_2-r_1} \begin{pmatrix} 1 & 1 & 1 & \vline & 1 \\ 0 & 1 & a-1 & \vline & 1 \\ 0 & 3 & a^2-1 & \vline & d-1 \end{pmatrix} \xrightarrow{r_3-3r_2} \begin{pmatrix} 1 & 1 & 1 & \vline & 1 \\ 0 & 1 & a-1 & \vline & 1 \\ 0 & 0 & (a-1)(a-2) & \vline & d-4 \end{pmatrix}.$$
+  方程组有无穷多解当且仅当 $r(A)=r(A\mid \boldsymbol{b})<3$，即 $(a-1)(a-2)=0$ 且 $d-4=0$，也就是 $a\in\{1,2\}$ 且 $d=4$。四个选项均只给 $d\in\Omega$ 或 $d\notin\Omega$（$\Omega=\{1,2\}$），与 $d=4$ 不匹配（如（C）的 $d\notin\{1,2\}$ 过宽，不能作充要条件）。
+- **按原卷常见题面 $\boldsymbol{b}=(1,d,d^2)^T$ 的推演**：若 $\boldsymbol{b}=(1,d,d^2)^T$（与 $A$ 的列向量结构一致，呈范德蒙列结构），则同样消元后第 $3$ 行变为
+  $$\begin{pmatrix} 0 & 0 & (a-1)(a-2) & \vline & (d-1)(d-2) \end{pmatrix}.$$
+  此时有无穷多解的充要条件恰为 $(a-1)(a-2)=0$ 且 $(d-1)(d-2)=0$，即 $a\in\Omega,\ d\in\Omega$，对应唯一选项 **（D）**。
+- **核对提示**：需核对 2015 年原卷 $\boldsymbol{b}$ 的第 $2,3$ 分量是否为 $d, d^2$。
 
 </details>
 
@@ -218,9 +256,22 @@ $$\xrightarrow{r_1+2r_2} \left(\begin{array}{cccc|ccc} 1 & 0 & 0 & -5 & 2 & 6 & 
 <details>
 <summary>答案与解析</summary>
 
-**解。** （I）行列式展开只有主对角线与四循环两项，得 $1-a^4$。
+**结论速览**：（Ⅰ）$|A| = 1 - a^4$；（Ⅱ）$a = -1$，通解为 $\boldsymbol{x} = (0, -1, 0, 0)^T + k(1, 1, 1, 1)^T$（$k \in \mathbb{R}$）。
 
-（II）无穷多解要求 $a=\pm1$。$a=1$ 时将四行交替加减，左端为零、右端为 2，不相容。$a=-1$ 时，方程给 $x_1=x_3=x_4=t,\ x_2=t-1$。通解为 $(0,-1,0,0)^T+t(1,1,1,1)^T$。
+- **（Ⅰ）求 $|A|$**：
+  按第 $1$ 列展开（仅 $(1,1)$ 与 $(4,1)$ 两个非零元）：
+  $$|A| = 1\cdot\begin{vmatrix} 1 & a & 0 \\ 0 & 1 & a \\ 0 & 0 & 1 \end{vmatrix} + a\cdot (-1)^{4+1}\begin{vmatrix} a & 0 & 0 \\ 1 & a & 0 \\ 0 & 1 & a \end{vmatrix} = 1\cdot 1 - a\cdot a^3 = 1 - a^4.$$
+- **（Ⅱ）求 $a$ 及 $A\boldsymbol{x} = \boldsymbol{b}$ 的通解**：
+  1. **锁定 $a$ 的候选值**：方程组 $A\boldsymbol{x}=\boldsymbol{b}$ 有无穷多解的必要条件是 $|A|=0$，即
+     $$1 - a^4 = 0 \implies a = 1 \text{ 或 } a = -1.$$
+  2. **逐一代回检验相容性**：
+     - 当 $a = 1$ 时，方程组为 $x_1+x_2=1,\ x_2+x_3=-1,\ x_3+x_4=0,\ x_4+x_1=0$。将 $r_1 - r_2 + r_3 - r_4$ 相加，左端为 $0$，右端为 $1 - (-1) + 0 - 0 = 2 \ne 0$，方程组无解，故舍去 $a = 1$。
+     - 当 $a = -1$ 时，对增广矩阵 $(A\mid \boldsymbol{b})$ 做初等行变换：
+       $$\begin{pmatrix} 1 & -1 & 0 & 0 & \vline & 1 \\ 0 & 1 & -1 & 0 & \vline & -1 \\ 0 & 0 & 1 & -1 & \vline & 0 \\ -1 & 0 & 0 & 1 & \vline & 0 \end{pmatrix} \xrightarrow{r_4+r_1+r_2+r_3} \begin{pmatrix} 1 & -1 & 0 & 0 & \vline & 1 \\ 0 & 1 & -1 & 0 & \vline & -1 \\ 0 & 0 & 1 & -1 & \vline & 0 \\ 0 & 0 & 0 & 0 & \vline & 0 \end{pmatrix} \xrightarrow[r_1+r_2]{r_2+r_3} \begin{pmatrix} 1 & 0 & 0 & -1 & \vline & 0 \\ 0 & 1 & 0 & -1 & \vline & -1 \\ 0 & 0 & 1 & -1 & \vline & 0 \\ 0 & 0 & 0 & 0 & \vline & 0 \end{pmatrix}.$$
+       此时 $r(A) = r(A\mid \boldsymbol{b}) = 3 < 4$，有无穷多解，故 $a = -1$。
+  3. **写出通解**：取自由变量 $x_4 = k$（$k\in\mathbb{R}$），得 $x_1=k,\ x_2=k-1,\ x_3=k$，即
+     $$\boldsymbol{x} = \begin{pmatrix} 0 \\ -1 \\ 0 \\ 0 \end{pmatrix} + k\begin{pmatrix} 1 \\ 1 \\ 1 \\ 1 \end{pmatrix}, \qquad k \in \mathbb{R}.$$
+- **核心思路与避坑**：由 $|A|=1-a^4=0$ 得到 $a=\pm 1$ 后必须分别检验增广矩阵是否相容，遗漏排除 $a=1$ 会扣分；最后通解可代回原 $4$ 个方程心算秒验。
 
 </details>
 
@@ -235,7 +286,18 @@ $$\xrightarrow{r_1+2r_2} \left(\begin{array}{cccc|ccc} 1 & 0 & 0 & -5 & 2 & 6 & 
 <details>
 <summary>答案与解析</summary>
 
-**答案 D。** $r(A)=3$，且 $A^*A=0$、$r(A^*)=1$，故 $\ker A^*=\operatorname{im}A$，维数为 3。唯一列关系来自零空间向量 $(1,0,1,0)^T$，即 $\alpha_1+\alpha_3=0$。删去 $\alpha_1$ 后其余三列无关。
+**答案**：**（D）** $\boldsymbol\alpha_2, \boldsymbol\alpha_3, \boldsymbol\alpha_4$
+
+- **切入点与推演**：把 $A\boldsymbol{x}=\boldsymbol{0}$ 的基础解系翻译成两件事：① 确定 $r(A)$ 与 $r(A^*)$（进而定出 $A^*\boldsymbol{x}=\boldsymbol{0}$ 基础解系的向量个数）；② 读出 $A$ 的列向量间的唯一线性关系。
+  1. **定解空间维数**：$A\boldsymbol{x}=\boldsymbol{0}$ 的基础解系含 $1$ 个向量，故 $4 - r(A) = 1 \implies r(A) = 3$。
+     对 $4$ 阶矩阵 $A$，$r(A) = 4 - 1 = 3 \implies r(A^*) = 1$，因此 $A^*\boldsymbol{x}=\boldsymbol{0}$ 的基础解系应包含
+     $$4 - r(A^*) = 4 - 1 = 3$$
+     个线性无关的解向量（立刻排除只有 $2$ 个向量的（A）（B））。
+  2. **找 $3$ 个线性无关的解向量**：因为 $|A|=0$，由 $A^*A = |A|E = O$ 可知 $A^*\boldsymbol\alpha_j = \boldsymbol{0}$（$j=1,2,3,4$），即 $A$ 的每一列都是 $A^*\boldsymbol{x}=\boldsymbol{0}$ 的解。
+     又已知 $(1, 0, 1, 0)^T$ 是 $A\boldsymbol{x}=\boldsymbol{0}$ 的解，即
+     $$\boldsymbol\alpha_1 + \boldsymbol\alpha_3 = \boldsymbol{0} \implies \boldsymbol\alpha_1 = -\boldsymbol\alpha_3.$$
+     因此含 $\boldsymbol\alpha_1, \boldsymbol\alpha_3$ 的（C）组线性相关（排除（C））；而删去 $\boldsymbol\alpha_1$ 后剩余的 $\boldsymbol\alpha_2, \boldsymbol\alpha_3, \boldsymbol\alpha_4$ 与原列向量组等价，秩仍为 $r(A)=3$，故这 $3$ 个向量线性无关，构成 $A^*\boldsymbol{x}=\boldsymbol{0}$ 的基础解系，选 **（D）**。
+- **干扰项 / 易错提示**：（C）是最常见干扰项，误以为只要挑任意 $3$ 列就行，忘了检查所挑 $3$ 列是否被 $\boldsymbol\alpha_1+\boldsymbol\alpha_3=\boldsymbol{0}$ 绑在一起而线性相关。
 
 </details>
 

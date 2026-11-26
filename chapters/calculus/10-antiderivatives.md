@@ -46,12 +46,43 @@
 <details>
 <summary>答案与解析</summary>
 
-**解。** 通分验证
-$$
-\frac{3x+6}{(x-1)^2(x^2+x+1)}
-=\frac{2x+1}{x^2+x+1}-\frac2{x-1}+\frac3{(x-1)^2}.
-$$
-积分得 $\ln(x^2+x+1)-2\ln|x-1|-3/(x-1)+C$。常数分别在不过 $x=1$ 的区间内确定。
+**结论速览**：$\ln(x^2+x+1) - 2\ln|x-1| - \dfrac{3}{x-1} + C$。
+
+- **完整解答**：
+  1. **有理函数部分分式分解**：
+     分母 $(x-1)^2(x^2+x+1)$ 含二重实根 $x=1$ 和不可约二次因子 $x^2+x+1$，设
+     $$
+     \frac{3x+6}{(x-1)^2(x^2+x+1)} = \frac{A}{x-1} + \frac{B}{(x-1)^2} + \frac{Cx+D}{x^2+x+1}.
+     $$
+     两边同乘 $(x-1)^2(x^2+x+1)$：
+     $$
+     3x+6 = A(x-1)(x^2+x+1) + B(x^2+x+1) + (Cx+D)(x-1)^2.
+     $$
+     - 令 $x=1$ 得 $9 = 3B \implies B = 3$；
+     - 移项消去 $B$ 项：
+       $$
+       (3x+6) - 3(x^2+x+1) = -3x^2 + 3 = -3(x-1)(x+1).
+       $$
+       两边约去 $(x-1)$ 得
+       $$
+       -3(x+1) = A(x^2+x+1) + (Cx+D)(x-1).
+       $$
+     - 再令 $x=1$ 得 $-6 = 3A \implies A = -2$；
+     - 代回得 $(Cx+D)(x-1) = -3x-3 + 2(x^2+x+1) = 2x^2 - x - 1 = (2x+1)(x-1)$，故 $C=2, D=1$。
+     由此得到分解式：
+     $$
+     \frac{3x+6}{(x-1)^2(x^2+x+1)} = -\frac{2}{x-1} + \frac{3}{(x-1)^2} + \frac{2x+1}{x^2+x+1}.
+     $$
+  2. **逐项积分**：
+     注意 $(x^2+x+1)' = 2x+1$ 且 $x^2+x+1 > 0$ 恒成立，直接凑微分即可：
+     $$
+     \begin{aligned}
+     \int\frac{3x+6}{(x-1)^2(x^2+x+1)}\,\mathrm{d}x
+     &= -2\int\frac{\mathrm{d}x}{x-1} + 3\int\frac{\mathrm{d}x}{(x-1)^2} + \int\frac{\mathrm{d}(x^2+x+1)}{x^2+x+1} \\
+     &= -2\ln|x-1| - \frac{3}{x-1} + \ln(x^2+x+1) + C.
+     \end{aligned}
+     $$
+- **核心思路与避坑**：先代 $x=1$ 求出 $B$ 后立即移项约去 $(x-1)$，能避免解四元线性方程组，大幅降低算错概率；另外 $\int\frac{\mathrm{d}x}{x-1} = \ln|x-1|$ 的绝对值符号不要漏写。
 
 </details>
 
@@ -68,10 +99,37 @@ $$
 <details>
 <summary>答案与解析</summary>
 
-**解。** 分部积分，取 $u=\arctan\sqrt{e^x-1}$，$dv=e^{2x}dx$。记 $t=\sqrt{e^x-1}$，则 $du=dx/(2t)$，剩余积分为 $\int e^{2x}dx/(4t)=\frac12\int(1+t^2)\,dt$。故原积分为
-$$
-\frac{e^{2x}}2\arctan\sqrt{e^x-1}-\frac{\sqrt{e^x-1}}2-\frac{(e^x-1)^{3/2}}6+C.
-$$
+**结论速览**：$\dfrac{1}{2}e^{2x}\arctan\sqrt{e^x-1} - \dfrac{1}{2}\sqrt{e^x-1} - \dfrac{1}{6}(e^x-1)^{\frac{3}{2}} + C$。
+
+- **完整解答**：
+  1. **分部积分去掉反三角函数**：
+     被积函数是指数函数与反三角函数的乘积，取 $u = \arctan\sqrt{e^x-1}$，$\mathrm{d}v = e^{2x}\,\mathrm{d}x = \mathrm{d}\!\left(\frac{1}{2}e^{2x}\right)$。
+     先算 $\mathrm{d}u$（注意 $1 + (\sqrt{e^x-1})^2 = e^x$ 恰好与分子的 $e^x$ 约掉）：
+     $$
+     \mathrm{d}u = \frac{1}{1+(e^x-1)}\cdot\frac{e^x}{2\sqrt{e^x-1}}\,\mathrm{d}x = \frac{1}{2\sqrt{e^x-1}}\,\mathrm{d}x.
+     $$
+     代入分部积分公式：
+     $$
+     \int e^{2x}\arctan\sqrt{e^x-1}\,\mathrm{d}x
+     = \frac{1}{2}e^{2x}\arctan\sqrt{e^x-1} - \frac{1}{4}\int\frac{e^{2x}}{\sqrt{e^x-1}}\,\mathrm{d}x.
+     $$
+  2. **根式换元计算剩余积分**：
+     令 $t = \sqrt{e^x-1}$（$t>0$），则 $e^x = t^2 + 1$，两边微分得 $e^x\,\mathrm{d}x = 2t\,\mathrm{d}t$，于是
+     $$
+     \begin{aligned}
+     \frac{1}{4}\int\frac{e^{2x}}{\sqrt{e^x-1}}\,\mathrm{d}x
+     &= \frac{1}{4}\int\frac{e^x \cdot e^x\,\mathrm{d}x}{\sqrt{e^x-1}}
+     = \frac{1}{4}\int\frac{(t^2+1)\cdot 2t\,\mathrm{d}t}{t} \\
+     &= \frac{1}{2}\int(t^2+1)\,\mathrm{d}t
+     = \frac{1}{6}t^3 + \frac{1}{2}t + C_1.
+     \end{aligned}
+     $$
+  3. **回代 $t = \sqrt{e^x-1}$**：
+     $$
+     \int e^{2x}\arctan\sqrt{e^x-1}\,\mathrm{d}x
+     = \frac{1}{2}e^{2x}\arctan\sqrt{e^x-1} - \frac{1}{2}\sqrt{e^x-1} - \frac{1}{6}(e^x-1)^{\frac{3}{2}} + C.
+     $$
+- **核心思路与避坑**：本题分部积分后 $\frac{1}{1+(e^x-1)}$ 与链式求导出来的 $e^x$ 精确约消，是命题人设计的“减负开关”；换元时把 $e^{2x}\,\mathrm{d}x$ 拆成 $e^x\cdot(e^x\,\mathrm{d}x) = (t^2+1)\cdot 2t\,\mathrm{d}t$，不要把 $\mathrm{d}x$ 硬写成 $\frac{2t\,\mathrm{d}t}{t^2+1}$ 再绕一圈。
 
 </details>
 

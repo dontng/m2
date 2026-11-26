@@ -28,7 +28,16 @@
 <details>
 <summary>答案与解析</summary>
 
-**答案 A。** 记 $E=e^{y+az}$。对 $x$ 求偏导得 $1=a(1+E)z_x$，对 $y$ 求偏导得 $0=E+a(1+E)z_y$。相减立刻得到 $z_x-z_y=1/a$。把两式保留成相同分母，可以直接看出该加还是该减。
+**答案**：**（A）** $\dfrac{\partial z}{\partial x} - \dfrac{\partial z}{\partial y} = \dfrac{1}{a}$
+
+- **切入点与推演**：方程无法显式解出 $z$，直接对两边分别关于 $x$ 和 $y$ 求偏导，保持两式分母相同即可一眼看出加减消元方向。记 $E = e^{y+az}$：
+  1. 两边对 $x$ 求偏导：
+     $$1 - a\frac{\partial z}{\partial x} = a E\frac{\partial z}{\partial x} \implies \frac{\partial z}{\partial x} = \frac{1}{a(1 + E)}.$$
+  2. 两边对 $y$ 求偏导：
+     $$-a\frac{\partial z}{\partial y} = E\left(1 + a\frac{\partial z}{\partial y}\right) \implies -a(1 + E)\frac{\partial z}{\partial y} = E \implies \frac{\partial z}{\partial y} = -\frac{E}{a(1 + E)}.$$
+  3. 两式相减消去 $E$：
+     $$\frac{\partial z}{\partial x} - \frac{\partial z}{\partial y} = \frac{1 + E}{a(1 + E)} = \frac{1}{a}.$$
+- **干扰项 / 易错提示**：求 $\frac{\partial z}{\partial y}$ 时易漏掉指数项对 $y$ 的显式偏导 $1$ 或搞反移项符号，从而误选（B）或（C）。
 
 </details>
 
@@ -43,7 +52,15 @@
 <details>
 <summary>答案与解析</summary>
 
-**答案 $-2\pi$。** $x=1$ 对应 $(\ln x,\sin\pi x)=(0,0)$。沿该路径的速度为 $(1,-\pi)$，和梯度 $(\pi,3)$ 作内积得 $\pi-3\pi=-2\pi$。
+**答案**：$-2\pi$
+
+- **切入点与推演**：由全微分 $\mathrm{d}f(0,0) = \pi\,\mathrm{d}x + 3\,\mathrm{d}y$ 直接读出 $f_1'(0,0) = \pi$、$f_2'(0,0) = 3$。再对复合函数 $g(x) = f(u(x), v(x))$（其中 $u(x) = \ln x,\; v(x) = \sin\pi x$）应用链式法则：
+  1. 当 $x = 1$ 时，$u(1) = \ln 1 = 0$，$v(1) = \sin\pi = 0$，恰好落在已知点 $(0,0)$；
+  2. 计算内层导数在 $x = 1$ 处的值：
+     $$u'(1) = \left.\frac{1}{x}\right|_{x=1} = 1, \qquad v'(1) = \left.\pi\cos\pi x\right|_{x=1} = \pi\cos\pi = -\pi;$$
+  3. 代入链式法则：
+     $$g'(1) = f_1'(0,0)u'(1) + f_2'(0,0)v'(1) = \pi\cdot 1 + 3\cdot(-\pi) = -2\pi.$$
+- **易错点**：求 $(\sin\pi x)'\big|_{x=1}$ 时容易漏乘内层系数 $\pi$ 或把 $\cos\pi = -1$ 误算成 $+1$。
 
 </details>
 
@@ -58,7 +75,16 @@
 <details>
 <summary>答案与解析</summary>
 
-**答案 A。** 原式等价于 $z+\ln z=\int_y^x e^{-t^2}\,dt$，其中 $z>0$。分别求偏导得 $(1+1/z)z_x=e^{-x^2}$ 和 $(1+1/z)z_y=-e^{-y^2}$，相加即得。下限求导带负号。
+**答案**：**（A）** $\dfrac{z}{z+1}\left(e^{-x^2} - e^{-y^2}\right)$
+
+- **切入点与推演**：隐函数方程含变限积分 $\int_y^x e^{-t^2}\,\mathrm{d}t$，改写为 $z + \ln z = \int_y^x e^{-t^2}\,\mathrm{d}t$（$z > 0$）后两边分别对 $x, y$ 求偏导：
+  1. 对 $x$ 求偏导（上限求导取正号）：
+     $$\left(1 + \frac{1}{z}\right)\frac{\partial z}{\partial x} = e^{-x^2} \implies \frac{\partial z}{\partial x} = \frac{z}{z+1}e^{-x^2}.$$
+  2. 对 $y$ 求偏导（下限求导取负号）：
+     $$\left(1 + \frac{1}{z}\right)\frac{\partial z}{\partial y} = -e^{-y^2} \implies \frac{\partial z}{\partial y} = -\frac{z}{z+1}e^{-y^2}.$$
+  3. 两式相加得
+     $$\frac{\partial z}{\partial x} + \frac{\partial z}{\partial y} = \frac{z}{z+1}\left(e^{-x^2} - e^{-y^2}\right).$$
+- **干扰项 / 易错提示**：最易错选（B），原因是忘记变下限积分求导要添负号（$\frac{\partial}{\partial y}\int_y^x e^{-t^2}\,\mathrm{d}t = -e^{-y^2}$）。
 
 </details>
 
@@ -75,12 +101,28 @@
 <details>
 <summary>答案与解析</summary>
 
-**解。** （1）原算子可分解为 $(\partial_x+3\partial_y)(\partial_x-2\partial_y)$。由 $u=2x+y,v=3x-y$ 代入，两因子分别为 $5\partial_u,5\partial_v$，故 $f_{uv}=1/25$。
+**结论速览**：（1）$\dfrac{\partial^2 f}{\partial u\partial v} = \dfrac{1}{25}$；（2）$f(u,v) = \dfrac{uv}{25} - (u+1)e^{-u} + \dfrac{1}{50}v^2$。
 
-（2）沿 $v$ 积分得 $f_u=v/25+ue^{-u}$，再沿 $u$ 积分得 $f=uv/25-(u+1)e^{-u}+C(v)$。代入 $u=0$ 得 $C(v)=v^2/50$，所以
-$$
-f(u,v)=\frac{uv}{25}-(u+1)e^{-u}+\frac{v^2}{50}.
-$$
+- **（1）利用二阶复合函数链式法则求 $\dfrac{\partial^2 f}{\partial u\partial v}$**：
+  令 $u = 2x + y,\; v = 3x - y$，由链式法则先求一阶偏导：
+  $$\frac{\partial g}{\partial x} = 2f_u + 3f_v, \qquad \frac{\partial g}{\partial y} = f_u - f_v.$$
+  再分别求二阶偏导（因 $f$ 具有二阶连续偏导数，$f_{uv} = f_{vu}$）：
+  $$\begin{aligned}
+  \frac{\partial^2 g}{\partial x^2} &= 2(2f_{uu} + 3f_{uv}) + 3(2f_{vu} + 3f_{vv}) = 4f_{uu} + 12f_{uv} + 9f_{vv}, \\
+  \frac{\partial^2 g}{\partial x\partial y} &= 2(f_{uu} - f_{uv}) + 3(f_{vu} - f_{vv}) = 2f_{uu} + f_{uv} - 3f_{vv}, \\
+  \frac{\partial^2 g}{\partial y^2} &= (f_{uu} - f_{uv}) - (f_{vu} - f_{vv}) = f_{uu} - 2f_{uv} + f_{vv}.
+  \end{aligned}$$
+  代入已知方程 $\frac{\partial^2 g}{\partial x^2} + \frac{\partial^2 g}{\partial x\partial y} - 6\frac{\partial^2 g}{\partial y^2} = 1$：
+  $$(4 + 2 - 6)f_{uu} + (12 + 1 + 12)f_{uv} + (9 - 3 - 6)f_{vv} = 25f_{uv} = 1 \implies \frac{\partial^2 f}{\partial u\partial v} = \frac{1}{25}.$$
+- **（2）两次偏积分还原 $f(u,v)$**：
+  1. 对 $\dfrac{\partial^2 f}{\partial u\partial v} = \dfrac{1}{25}$ 关于 $v$ 偏积分：
+     $$\frac{\partial f(u,v)}{\partial u} = \frac{v}{25} + \varphi(u).$$
+     代入 $\dfrac{\partial f(u,0)}{\partial u} = ue^{-u}$，得 $\varphi(u) = ue^{-u}$，故 $\dfrac{\partial f}{\partial u} = \dfrac{v}{25} + ue^{-u}$。
+  2. 再对 $u$ 偏积分（分部积分 $\int ue^{-u}\,\mathrm{d}u = -(u+1)e^{-u}$）：
+     $$f(u,v) = \frac{uv}{25} - (u+1)e^{-u} + \psi(v).$$
+     代入 $f(0,v) = \dfrac{1}{50}v^2 - 1$，得 $-1 + \psi(v) = \dfrac{1}{50}v^2 - 1 \implies \psi(v) = \dfrac{1}{50}v^2$。因此
+     $$f(u,v) = \frac{uv}{25} - (u+1)e^{-u} + \frac{1}{50}v^2.$$
+- **核心思路与避坑**：代入 $u = 0$ 定 $\psi(v)$ 时注意 $-(0+1)e^0 = -1$ 并非 $0$，切勿漏掉这个常数项而多减一个 $1$。
 
 </details>
 
@@ -115,7 +157,18 @@ $$
 <details>
 <summary>答案与解析</summary>
 
-**答案 C。** 写成 $F(x,y)=G(x-y)$，其中 $G(u)=u\int_0^u f(t)\,dt-\int_0^u t f(t)\,dt$。求导时边界项相消，$G'(u)=\int_0^u f(t)\,dt$、$G''(u)=f(u)$。$y$ 的链式因子 $-1$ 在一阶出现一次，在二阶出现两次。
+**答案**：**（C）** $\dfrac{\partial F}{\partial x} = -\dfrac{\partial F}{\partial y},\; \dfrac{\partial^2 F}{\partial x^2} = \dfrac{\partial^2 F}{\partial y^2}$
+
+- **切入点与推演**：被积函数和积分上限中 $x,y$ 始终以整体 $u = x - y$ 出现，先写成一元复合函数 $F(x,y) = G(x - y)$ 即可极大简化求导。
+  1. 令 $u = x - y$，则
+     $$G(u) = \int_0^u (u - t)f(t)\,\mathrm{d}t = u\int_0^u f(t)\,\mathrm{d}t - \int_0^u t f(t)\,\mathrm{d}t.$$
+     因 $f$ 连续，$G(u)$ 二阶可导：
+     $$G'(u) = \int_0^u f(t)\,\mathrm{d}t + u f(u) - u f(u) = \int_0^u f(t)\,\mathrm{d}t, \qquad G''(u) = f(u).$$
+  2. 由复合函数求导法则（$u_x = 1,\; u_y = -1$）：
+     $$\frac{\partial F}{\partial x} = G'(u), \qquad \frac{\partial F}{\partial y} = -G'(u) \implies \frac{\partial F}{\partial x} = -\frac{\partial F}{\partial y};$$
+     $$\frac{\partial^2 F}{\partial x^2} = G''(u), \qquad \frac{\partial^2 F}{\partial y^2} = (-1)^2 G''(u) = G''(u) \implies \frac{\partial^2 F}{\partial x^2} = \frac{\partial^2 F}{\partial y^2}.$$
+  故正确选项为 **（C）**。
+- **干扰项 / 易错提示**：求 $\frac{\partial^2 F}{\partial y^2}$ 时每对 $y$ 求导一次就多乘一个 $-1$，二阶求导共乘两次 $(-1)^2 = +1$，容易误以为二阶也带负号而错选（D）。
 
 </details>
 
@@ -130,7 +183,18 @@ $$
 <details>
 <summary>答案与解析</summary>
 
-**题面待核。** 按当前转写，第一式在 $x=0$ 求导得到 $f_x+f_y=0$，第二式在 $x=1$ 求导得到 $f_x+2f_y=2$，两个偏导均在 $(1,1)$ 取值。解出 $df=-2\,dx+2\,dy$，四项都未列出，需核对原卷右端或选项。
+**题面待核**：当前转写中第一式 $f(x+1, e^x) = x^2(x+1)$ 与四个选项矛盾，无法匹配任何选项；若按 2021 年原卷第一式 $f(x+1, e^x) = x(x+1)^2$ 还原，则选 **（C）** $\mathrm{d}y$。
+
+- **按当前转写的推演（矛盾所在）**：
+  1. 对第一式 $f(x+1, e^x) = x^2(x+1)$ 两边关于 $x$ 求导并令 $x = 0$（此时 $(x+1, e^x) = (1,1)$）：
+     $$f_x(1,1)\cdot 1 + f_y(1,1)\cdot e^0 = \left.(3x^2 + 2x)\right|_{x=0} = 0 \implies f_x(1,1) + f_y(1,1) = 0.$$
+  2. 对第二式 $f(x, x^2) = 2x^2\ln x$ 两边关于 $x$ 求导并令 $x = 1$（此时 $(x, x^2) = (1,1)$）：
+     $$f_x(1,1)\cdot 1 + f_y(1,1)\cdot 2 = \left.(4x\ln x + 2x)\right|_{x=1} = 2 \implies f_x(1,1) + 2f_y(1,1) = 2.$$
+  3. 联立解得 $f_x(1,1) = -2,\; f_y(1,1) = 2$，即 $\mathrm{d}f(1,1) = -2\,\mathrm{d}x + 2\,\mathrm{d}y$，不在（A）–（D）中。
+- **按原卷意图 $f(x+1, e^x) = x(x+1)^2$ 的推导**：
+  若第一式右端为 $x(x+1)^2$，则在 $x = 0$ 处求导得 $\left.\big((x+1)^2 + 2x(x+1)\big)\right|_{x=0} = 1$，从而
+  $$\begin{cases} f_x(1,1) + f_y(1,1) = 1, \\ f_x(1,1) + 2f_y(1,1) = 2 \end{cases} \implies f_x(1,1) = 0,\quad f_y(1,1) = 1,$$
+  于是 $\mathrm{d}f(1,1) = \mathrm{d}y$，对应 **（C）**。
 
 </details>
 
@@ -145,7 +209,17 @@ $$
 <details>
 <summary>答案与解析</summary>
 
-**答案 $1$。** 当 $x=0,y=2$ 时，$z+2\ln z=1$ 在 $z>0$ 上严格递增，唯一解 $z=1$。设 $F=(x+1)z+y\ln z-\arctan(2xy)-1$，代点有 $F_x=1-4=-3$、$F_z=1+2=3$，故 $z_x=-F_x/F_z=1$。
+**答案**：$1$
+
+- **切入点与推演**：隐函数在具体点处求一阶偏导，先代入坐标定出 $z$ 值，再对原方程两边关于 $x$ 求偏导并代点。
+  1. **定基点 $z(0,2)$**：将 $x = 0,\; y = 2$ 代入原方程，得
+     $$z + 2\ln z = 1 \qquad (z > 0).$$
+     因 $h(z) = z + 2\ln z$ 在 $(0,+\infty)$ 上严格单调递增且 $h(1) = 1$，故唯一解为 $z(0,2) = 1$。
+  2. **隐函数对 $x$ 求偏导**：方程两边对 $x$ 求偏导（将 $y$ 看作常数），得
+     $$z + (x + 1)\frac{\partial z}{\partial x} + \frac{y}{z}\frac{\partial z}{\partial x} - \frac{2y}{1 + 4x^2 y^2} = 0.$$
+  3. **代入 $(x,y,z) = (0,2,1)$**：
+     $$1 + 1\cdot\frac{\partial z}{\partial x} + 2\cdot\frac{\partial z}{\partial x} - 4 = 0 \implies 3\left.\frac{\partial z}{\partial x}\right|_{(0,2)} = 3 \implies \left.\frac{\partial z}{\partial x}\right|_{(0,2)} = 1.$$
+- **易错点**：对 $(x+1)z$ 求偏导时容易忘记用乘积法则（漏掉 $z$ 项），以及对 $\arctan(2xy)$ 求偏导时漏乘内导 $2y$。
 
 </details>
 
@@ -160,7 +234,14 @@ $$
 <details>
 <summary>答案与解析</summary>
 
-**答案 $z=yf(y^2/x)$。** 令 $u=y^2/x$，则 $2xu_x+yu_y=-2u+2u=0$。所以算子 $2x\partial_x+y\partial_y$ 作用到 $yf(u)$ 时，来自 $f'(u)$ 的项全部抵消，只剩 $yf(u)$。
+**答案**：$y f\left(\dfrac{y^2}{x}\right)$（或写为 $z$）
+
+- **切入点与推演**：令中间变量 $u = \dfrac{y^2}{x}$，按乘积法则与链式法则分别写出 $z_x$ 与 $z_y$，代入组合式后 $f'(u)$ 项完全抵消：
+  $$\frac{\partial z}{\partial x} = y f'(u)\cdot\left(-\frac{y^2}{x^2}\right) = -\frac{y^3}{x^2}f'(u),$$
+  $$\frac{\partial z}{\partial y} = f(u) + y f'(u)\cdot\frac{2y}{x} = f(u) + \frac{2y^2}{x}f'(u).$$
+  代入所求组合：
+  $$2x\frac{\partial z}{\partial x} + y\frac{\partial z}{\partial y} = 2x\left(-\frac{y^3}{x^2}f'(u)\right) + y\left(f(u) + \frac{2y^2}{x}f'(u)\right) = y f\left(\frac{y^2}{x}\right) = z.$$
+- **易错点**：求 $z_y$ 时 $y$ 同时出现在外层因子与内层 $u = y^2/x$ 中，切勿漏用乘积法则而丢掉 $f(u)$ 项。
 
 </details>
 
@@ -177,7 +258,21 @@ $$
 <details>
 <summary>答案与解析</summary>
 
-**答案 $a=-3/4,\ b=3/4$，化为 $2v_{xx}-2v_{yy}=0$。** 提掉指数因子后，一阶系数分别为 $4a+3,-4b+3$，令其为零。常数项 $2a^2-2b^2+3a+3b$ 在该组参数下也为零。
+**结论速览**：$a = -\dfrac{3}{4},\; b = \dfrac{3}{4}$（此时原方程化为 $\dfrac{\partial^2 v}{\partial x^2} - \dfrac{\partial^2 v}{\partial y^2} = 0$）。
+
+- **完整解答**：
+  1. **计算 $u$ 的各阶偏导数**：由 $u(x,y) = v(x,y)e^{ax+by}$，分别对 $x, y$ 求一阶与二阶偏导：
+     $$\begin{aligned}
+     u_x &= (v_x + av)e^{ax+by}, & u_{xx} &= (v_{xx} + 2av_x + a^2 v)e^{ax+by}, \\
+     u_y &= (v_y + bv)e^{ax+by}, & u_{yy} &= (v_{yy} + 2bv_y + b^2 v)e^{ax+by}.
+     \end{aligned}$$
+  2. **代入原偏微分方程并约去 $e^{ax+by}$**：
+     因 $e^{ax+by} > 0$ 恒成立，代入 $2u_{xx} - 2u_{yy} + 3u_x + 3u_y = 0$ 并约去 $e^{ax+by}$，按 $v$ 的各阶偏导整理得
+     $$2v_{xx} - 2v_{yy} + (4a + 3)v_x + (-4b + 3)v_y + (2a^2 - 2b^2 + 3a + 3b)v = 0.$$
+  3. **令一阶偏导系数为零定 $a, b$**：
+     $$\begin{cases} 4a + 3 = 0, \\ -4b + 3 = 0 \end{cases} \implies a = -\frac{3}{4}, \qquad b = \frac{3}{4}.$$
+     （代入检验常数项系数：$2a^2 - 2b^2 + 3a + 3b = 0$，方程同时消去零阶项，化为 $2v_{xx} - 2v_{yy} = 0$。）
+- **核心思路与避坑**：乘积型变换 $u = ve^{ax+by}$ 求二阶偏导时可套用莱布尼茨公式 $(ve^{ax})'' = (v'' + 2av' + a^2v)e^{ax}$，注意第二项系数是 $2a$ 而非 $a$。
 
 </details>
 
@@ -192,7 +287,15 @@ $$
 <details>
 <summary>答案与解析</summary>
 
-**答案 $1/4$。** 在 $(2,1/2)$，$\ln z+e^{z-1}=1$ 对 $z>0$ 严格递增，故 $z=1$。对 $x$ 求偏导得 $(1/z+e^{z-1})z_x=y$，代入即得。
+**答案**：$\dfrac{1}{4}$
+
+- **切入点与推演**：先代入点 $\left(2,\frac{1}{2}\right)$ 确定 $z$ 值，再对方程两边关于 $x$ 求偏导：
+  1. **定基点**：将 $x = 2,\; y = \frac{1}{2}$ 代入方程，得 $\ln z + e^{z-1} = 1$（$z > 0$）。因左端在 $(0,+\infty)$ 上严格单调递增且在 $z = 1$ 处取值为 $1$，故唯一解为 $z\left(2,\frac{1}{2}\right) = 1$。
+  2. **对 $x$ 求偏导并代点**：两边对 $x$ 求偏导得
+     $$\left(\frac{1}{z} + e^{z-1}\right)\frac{\partial z}{\partial x} = y.$$
+     代入 $x = 2,\; y = \frac{1}{2},\; z = 1$：
+     $$(1 + 1)\left.\frac{\partial z}{\partial x}\right|_{\left(2,\frac{1}{2}\right)} = \frac{1}{2} \implies \left.\frac{\partial z}{\partial x}\right|_{\left(2,\frac{1}{2}\right)} = \frac{1}{4}.$$
+- **易错点**：定基点后别忘了把 $y = \frac{1}{2}$ 正确代入右端，同时注意 $e^{1-1} = 1$ 而非 $0$。
 
 </details>
 
@@ -244,7 +347,18 @@ $$
 <details>
 <summary>答案与解析</summary>
 
-**题面待核。** 代 $v=y=1$ 后，$u=1$ 要求 $x+1/x=1$，即 $x^2-x+1=0$，没有实解。实际上在 $(1,1)$ 附近也没有这种实数原像，所以当前等式无法决定这里的偏导。不能代入不满足题设的 $(x,y)$ 硬选选项。
+**题面待核**：按当前转写 $f\left(x+\frac{y}{x}, y\right) = x^2 - y^2$，目标点 $(u,v)=(1,1)$ 没有实数原像，无法求偏导；若按 2015 年原卷题干 $f\left(x+y, \frac{y}{x}\right) = x^2 - y^2$ 还原，则选 **（D）** $0,\; -\dfrac{1}{2}$。
+
+- **按当前转写的推演（矛盾所在）**：
+  令 $u = x + \frac{y}{x},\; v = y$。要求 $(u,v) = (1,1)$ 时，由 $y = v = 1$ 得
+  $$x + \frac{1}{x} = 1 \iff x^2 - x + 1 = 0,$$
+  判别式 $\Delta = -3 < 0$，无实数解（事实上当 $y = 1$ 时 $x + \frac{1}{x} \in (-\infty,-2]\cup[2,+\infty)$，在 $(1,1)$ 的任何实邻域内均无定义），故当前转写无法确定该点偏导数。
+- **按原卷意图 $f\left(x+y, \frac{y}{x}\right) = x^2 - y^2$ 的推导**：
+  令 $u = x + y,\; v = \dfrac{y}{x}$，则 $y = vx$，故 $u = x(1+v)$，解得 $x = \dfrac{u}{1+v},\; y = \dfrac{uv}{1+v}$。代入右端得
+  $$f(u,v) = x^2 - y^2 = (x+y)(x-y) = u\cdot\frac{u(1-v)}{1+v} = u^2\frac{1-v}{1+v}.$$
+  求偏导并代入 $(u,v) = (1,1)$：
+  $$\left.\frac{\partial f}{\partial u}\right|_{(1,1)} = \left.2u\frac{1-v}{1+v}\right|_{(1,1)} = 0, \qquad \left.\frac{\partial f}{\partial v}\right|_{(1,1)} = \left.-\frac{2u^2}{(1+v)^2}\right|_{(1,1)} = -\frac{1}{2},$$
+  对应 **（D）**。
 
 </details>
 
@@ -259,7 +373,15 @@ $$
 <details>
 <summary>答案与解析</summary>
 
-**答案 $dz=-(dx+2dy)/3$。** 在 $(x,y)=(0,0)$，有 $z=0$。全微分时 $xyz$ 的一阶贡献为 0，指数因子为 1，所以 $dx+2dy+3dz=0$。
+**答案**：$-\dfrac{1}{3}\mathrm{d}x - \dfrac{2}{3}\mathrm{d}y$
+
+- **切入点与推演**：求隐函数在某点的全微分，利用“一阶微分形式不变性”直接对方程两边取全微分最快。
+  1. **定基点**：代入 $x = 0,\; y = 0$ 得 $e^{3z} = 1 \implies z(0,0) = 0$。
+  2. **两边取全微分**：
+     $$e^{x+2y+3z}(\mathrm{d}x + 2\,\mathrm{d}y + 3\,\mathrm{d}z) + yz\,\mathrm{d}x + xz\,\mathrm{d}y + xy\,\mathrm{d}z = 0.$$
+  3. **代入 $(x,y,z) = (0,0,0)$**：
+     $$1\cdot(\mathrm{d}x + 2\,\mathrm{d}y + 3\,\mathrm{d}z) + 0 = 0 \implies \left.\mathrm{d}z\right|_{(0,0)} = -\frac{1}{3}\mathrm{d}x - \frac{2}{3}\mathrm{d}y.$$
+- **易错点**：填空题写全微分结果时切勿漏写 $\mathrm{d}x, \mathrm{d}y$，也不要写成等式 $\mathrm{d}z = \cdots$ 以外的纯偏导数值。
 
 </details>
 
@@ -274,7 +396,17 @@ $$
 <details>
 <summary>答案与解析</summary>
 
-**答案 $dz=-(dx+dy)/2$。** 在 $x=y=1/2$，有 $e^z+z=1$，左侧严格递增，故 $z=0$。全微分在该点给 $dz+dx+dy+dz=0$。
+**答案**：$-\dfrac{1}{2}\mathrm{d}x - \dfrac{1}{2}\mathrm{d}y$
+
+- **切入点与推演**：先定基点 $z\left(\frac{1}{2},\frac{1}{2}\right)$，再对方程两边取全微分并代点：
+  1. **定基点**：代入 $x = \frac{1}{2},\; y = \frac{1}{2}$ 得
+     $$e^z + \frac{1}{2} + \frac{1}{4} + z = \frac{7}{4} \implies e^z + z = 1.$$
+     因 $e^z + z$ 在 $\mathbb{R}$ 上严格单调递增且 $e^0 + 0 = 1$，唯一解为 $z = 0$。
+  2. **两边取全微分**：
+     $$e^{2yz}(2z\,\mathrm{d}y + 2y\,\mathrm{d}z) + \mathrm{d}x + 2y\,\mathrm{d}y + \mathrm{d}z = 0.$$
+  3. **代入 $\left(\frac{1}{2},\frac{1}{2},0\right)$**：
+     $$1\cdot(0 + \mathrm{d}z) + \mathrm{d}x + \mathrm{d}y + \mathrm{d}z = 0 \implies 2\,\mathrm{d}z = -\mathrm{d}x - \mathrm{d}y \implies \left.\mathrm{d}z\right|_{\left(\frac{1}{2},\frac{1}{2}\right)} = -\frac{1}{2}\mathrm{d}x - \frac{1}{2}\mathrm{d}y.$$
+- **易错点**：对 $e^{2yz}$ 取微分时易漏掉 $2y\,\mathrm{d}z$ 或漏合并最后一项 $+ \mathrm{d}z$，导致 $\mathrm{d}z$ 的系数算错为 $1$ 而非 $2$。
 
 </details>
 
@@ -289,7 +421,31 @@ $$
 <details>
 <summary>答案与解析</summary>
 
-**解。** 令 $u=e^x\cos y$，则 $u_{xx}+u_{yy}=0$ 且 $u_x^2+u_y^2=e^{2x}$。链式法则给 $z_{xx}+z_{yy}=e^{2x}f''(u)$，故 $f''-4f=u$。通解 $C_1e^{2u}+C_2e^{-2u}-u/4$，初值给 $C_1=1/16,C_2=-1/16$，所以 $f=(e^{2u}-e^{-2u})/16-u/4$。
+**结论速览**：$f(u) = \dfrac{1}{16}\left(e^{2u} - e^{-2u}\right) - \dfrac{1}{4}u$。
+
+- **完整解答**：
+  1. **用链式法则将偏微分方程化为常微分方程**：令 $u = e^x\cos y$，先算 $u$ 的一阶与二阶偏导：
+     $$\begin{aligned}
+     u_x &= e^x\cos y, & u_{xx} &= e^x\cos y, \\
+     u_y &= -e^x\sin y, & u_{yy} &= -e^x\cos y.
+     \end{aligned}$$
+     注意到 $u_{xx} + u_{yy} = 0$ 且 $u_x^2 + u_y^2 = e^{2x}(\cos^2 y + \sin^2 y) = e^{2x}$。由链式法则：
+     $$\begin{aligned}
+     \frac{\partial z}{\partial x} &= f'(u)u_x, & \frac{\partial^2 z}{\partial x^2} &= f''(u)u_x^2 + f'(u)u_{xx}, \\
+     \frac{\partial z}{\partial y} &= f'(u)u_y, & \frac{\partial^2 z}{\partial y^2} &= f''(u)u_y^2 + f'(u)u_{yy}.
+     \end{aligned}$$
+     两式相加得
+     $$\frac{\partial^2 z}{\partial x^2} + \frac{\partial^2 z}{\partial y^2} = f''(u)(u_x^2 + u_y^2) + f'(u)(u_{xx} + u_{yy}) = e^{2x}f''(u).$$
+     代入原方程 $e^{2x}f''(u) = (4f(u) + u)e^{2x}$，约去 $e^{2x} > 0$ 得二阶常系数线性非齐次微分方程：
+     $$f''(u) - 4f(u) = u.$$
+  2. **求通解并代入初值定常数**：
+     - 特征方程 $r^2 - 4 = 0 \implies r = \pm 2$，齐次通解为 $C_1 e^{2u} + C_2 e^{-2u}$；
+     - 设特解 $f^*(u) = Au + B$，代入得 $-4(Au + B) = u \implies A = -\dfrac{1}{4},\; B = 0$；
+     - 故通解为 $f(u) = C_1 e^{2u} + C_2 e^{-2u} - \dfrac{1}{4}u$，导数 $f'(u) = 2C_1 e^{2u} - 2C_2 e^{-2u} - \dfrac{1}{4}$。
+     - 代入 $f(0) = 0,\; f'(0) = 0$：
+       $$\begin{cases} C_1 + C_2 = 0, \\ 2C_1 - 2C_2 - \dfrac{1}{4} = 0 \end{cases} \implies C_1 = \frac{1}{16}, \quad C_2 = -\frac{1}{16}.$$
+     因此 $f(u) = \dfrac{1}{16}\left(e^{2u} - e^{-2u}\right) - \dfrac{1}{4}u$。
+- **核心思路与避坑**：本题本质是“复合二阶偏导 + 二阶常系数 ODE”两步接力，求 $z_{xx} + z_{yy}$ 时切勿漏掉一阶项 $f'(u)(u_{xx}+u_{yy})$（尽管本题恰好为 $0$，但考场必须显式写出并说明其抵消）。
 
 </details>
 
@@ -304,7 +460,14 @@ $$
 <details>
 <summary>答案与解析</summary>
 
-**答案 A。** $z_x=-y f(xy)/x^2+y^2 f'(xy)/x$，$z_y=f(xy)/x+yf'(xy)$。组合中 $f$ 项抵消，两个 $yf'$ 项相加。
+**答案**：**（A）** $2yf'(xy)$
+
+- **切入点与推演**：直接按乘积法则与链式法则分别求出 $\frac{\partial z}{\partial x}$ 和 $\frac{\partial z}{\partial y}$，代入所求线性组合：
+  $$\frac{\partial z}{\partial x} = -\frac{y}{x^2}f(xy) + \frac{y}{x}\cdot y f'(xy) = -\frac{y}{x^2}f(xy) + \frac{y^2}{x}f'(xy),$$
+  $$\frac{\partial z}{\partial y} = \frac{1}{x}f(xy) + \frac{y}{x}\cdot x f'(xy) = \frac{1}{x}f(xy) + y f'(xy).$$
+  代入 $\dfrac{x}{y}\dfrac{\partial z}{\partial x} + \dfrac{\partial z}{\partial y}$：
+  $$\frac{x}{y}\left(-\frac{y}{x^2}f(xy) + \frac{y^2}{x}f'(xy)\right) + \left(\frac{1}{x}f(xy) + y f'(xy)\right) = 2y f'(xy).$$
+- **干扰项 / 易错提示**：求 $\frac{\partial}{\partial x}\left(\frac{y}{x}\right)$ 时易丢负号，从而使 $f(xy)$ 项不抵消而误选（C）。
 
 </details>
 
@@ -346,7 +509,20 @@ $$
 <details>
 <summary>答案与解析</summary>
 
-**答案 $f_u(1,1)+f_{uu}(1,1)+f_{uv}(1,1)$。** 令 $u=xy,v=yg(x)$，有 $z_x=yf_u+yg'f_v$。再对 $y$ 求导，$u_y=x,v_y=g(x)$。极值点给 $g'(1)=0$，故含 $g'$ 的项全部消失，其他系数在 $(x,y)=(1,1)$ 都为 1。
+**结论速览**：$\left.\dfrac{\partial^2 z}{\partial x\partial y}\right|_{\substack{x=1\\y=1}} = f_1'(1,1) + f_{11}''(1,1) + f_{12}''(1,1)$。
+
+- **完整解答**：
+  1. **提取极值条件**：因 $g(x)$ 在 $x = 1$ 处可导且取得极值 $g(1) = 1$，由费马引理知 $g'(1) = 0$。
+  2. **求一阶偏导 $\dfrac{\partial z}{\partial x}$**：记 $u = xy,\; v = y g(x)$（当 $x=1,y=1$ 时，$u=1,v=1$），由链式法则得
+     $$\frac{\partial z}{\partial x} = y f_1'(u,v) + y g'(x) f_2'(u,v).$$
+  3. **再对 $y$ 求偏导并代点**：对上式关于 $y$ 求偏导（注意乘积法则与 $u_y = x,\; v_y = g(x)$）：
+     $$\begin{aligned}
+     \frac{\partial^2 z}{\partial x\partial y} &= f_1'(u,v) + y\Big(x f_{11}''(u,v) + g(x) f_{12}''(u,v)\Big) \\
+     &\quad + g'(x) f_2'(u,v) + y g'(x)\Big(x f_{21}''(u,v) + g(x) f_{22}''(u,v)\Big).
+     \end{aligned}$$
+     代入 $x = 1,\; y = 1,\; g(1) = 1,\; g'(1) = 0$，含 $g'(1)$ 的项全部为零，故
+     $$\left.\frac{\partial^2 z}{\partial x\partial y}\right|_{\substack{x=1\\y=1}} = f_1'(1,1) + f_{11}''(1,1) + f_{12}''(1,1).$$
+- **核心思路与避坑**：本题先对 $x$ 求导再对 $y$ 求导最省事，因为 $g'(x)$ 不含 $y$，求 $\frac{\partial^2 z}{\partial x\partial y}$ 时不会出现 $g''(x)$（题干并未给出 $g$ 二阶可导！）。若反过来先对 $y$ 求导再对 $x$ 求导，在 $y g'(x)$ 处也同样不会产生 $g''(x)$，但切忌在求二阶导前就提前代入 $x=1$。
 
 </details>
 
@@ -361,7 +537,17 @@ $$
 <details>
 <summary>答案与解析</summary>
 
-**答案 B，$z$。** 对隐式等式分别求偏导，再按 $x\partial_x+y\partial_y$ 组合。第一个自变量 $y/x$ 的贡献为零，第二个自变量 $z/x$ 的贡献为 $(xz_x+yz_y-z)/x$。因 $F_2'\ne0$，后者为零。
+**答案**：**（B）** $z$
+
+- **切入点与推演**：方程 $F\left(\frac{y}{x},\frac{z}{x}\right)=0$ 两边分别对 $x$ 和 $y$ 求偏导，再按 $x\partial_x + y\partial_y$ 线性组合即可消去 $F_1'$：
+  1. 两边对 $x$ 求偏导：
+     $$F_1'\cdot\left(-\frac{y}{x^2}\right) + F_2'\cdot\frac{x z_x - z}{x^2} = 0.$$
+  2. 两边对 $y$ 求偏导：
+     $$F_1'\cdot\frac{1}{x} + F_2'\cdot\frac{z_y}{x} = 0.$$
+  3. 第一式乘 $x$、第二式乘 $y$ 后相加：
+     $$F_1'\left(-\frac{y}{x} + \frac{y}{x}\right) + F_2'\cdot\frac{x z_x + y z_y - z}{x} = 0 \implies F_2'\cdot\frac{x z_x + y z_y - z}{x} = 0.$$
+  4. 因题设 $F_2' \neq 0$，必有 $x\dfrac{\partial z}{\partial x} + y\dfrac{\partial z}{\partial y} = z$，选 **（B）**。
+- **干扰项 / 易错提示**：也可用特例法秒杀——取 $F(u,v) = v - u = 0$ 即 $z = y$（满足 $F_2' = 1 \neq 0$），立刻得 $x z_x + y z_y = y = z$，直接锁定（B）。
 
 </details>
 
@@ -378,7 +564,27 @@ $$
 <details>
 <summary>答案与解析</summary>
 
-**答案 $(a,b)=(-2,-2/5)$ 或交换。** 因 $\partial_x=\partial_\xi+\partial_\eta,\ \partial_y=a\partial_\xi+b\partial_\eta$，两纯二阶项的系数分别为 $5a^2+12a+4$、$5b^2+12b+4$。两系数都为零，且坐标变换要求 $a\ne b$，故取上述两互异根。此时混合项系数为 $-64/5\ne0$，可除去。
+**结论速览**：$a = -2,\; b = -\dfrac{2}{5}$ 或 $a = -\dfrac{2}{5},\; b = -2$。
+
+- **完整解答**：
+  1. **用链式法则表示 $u$ 对 $x,y$ 的各阶偏导**：由 $\xi = x + ay,\; \eta = x + by$，先求一阶偏导：
+     $$\frac{\partial u}{\partial x} = u_\xi + u_\eta, \qquad \frac{\partial u}{\partial y} = a u_\xi + b u_\eta.$$
+     因 $u$ 具有二阶连续偏导数（$u_{\xi\eta} = u_{\eta\xi}$），再求二阶偏导：
+     $$\begin{aligned}
+     \frac{\partial^2 u}{\partial x^2} &= u_{\xi\xi} + 2u_{\xi\eta} + u_{\eta\eta}, \\
+     \frac{\partial^2 u}{\partial x\partial y} &= a u_{\xi\xi} + (a + b)u_{\xi\eta} + b u_{\eta\eta}, \\
+     \frac{\partial^2 u}{\partial y^2} &= a^2 u_{\xi\xi} + 2ab\, u_{\xi\eta} + b^2 u_{\eta\eta}.
+     \end{aligned}$$
+  2. **代入原方程并合并同类项**：
+     $$(5a^2 + 12a + 4)u_{\xi\xi} + 2\big(5ab + 6(a+b) + 4\big)u_{\xi\eta} + (5b^2 + 12b + 4)u_{\eta\eta} = 0.$$
+  3. **定出 $a, b$ 并验证变换非退化**：
+     为使方程化为 $u_{\xi\eta} = 0$，须令纯二阶项系数为零，即 $a, b$ 均为二次方程
+     $$5t^2 + 12t + 4 = (5t + 2)(t + 2) = 0$$
+     的根：$t_1 = -2,\; t_2 = -\dfrac{2}{5}$。
+     又因坐标变换 $(\xi,\eta) = (x+ay,\, x+by)$ 可逆要求雅可比行列式 $J = b - a \neq 0$，即 $a \neq b$，故必取两互异根：
+     $$a = -2,\; b = -\frac{2}{5} \qquad \text{或} \qquad a = -\frac{2}{5},\; b = -2.$$
+     此时混合偏导项系数为 $2\left(5\cdot\frac{4}{5} + 6\left(-\frac{12}{5}\right) + 4\right) = -\dfrac{64}{5} \neq 0$，两边同除该系数即得 $\dfrac{\partial^2 u}{\partial\xi\partial\eta} = 0$。
+- **核心思路与避坑**：必须明确写出 $a \neq b$（变换非退化，且保证 $u_{\xi\eta}$ 系数非零），不能遗漏对称解 $(a,b) = \left(-\frac{2}{5}, -2\right)$，也不能把 $a = b = -2$ 错当成解。
 
 </details>
 

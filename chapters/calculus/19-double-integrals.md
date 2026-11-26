@@ -28,7 +28,17 @@
 <details>
 <summary>答案与解析</summary>
 
-**答案 D。** 交换 $x,y$ 把对角线两侧互换，故正方形的积分是三角形 $0\le y\le x\le1$ 上积分的两倍。该三角形用 $2n$ 等分时，面积元为 $1/(4n^2)$，取 $1\le j\le i\le 2n$，乘 2 后就是 D。A 使用另一条对角线，题设并未给相应的对称性。
+**答案**：**（D）** $\dfrac{1}{2}\lim\limits_{n\to\infty}\sum\limits_{i=1}^{2n}\sum\limits_{j=1}^{i} f\!\left(\dfrac{i}{2n},\dfrac{j}{2n}\right)\dfrac{1}{n^2}$
+
+- **切入点与推演**：利用轮换对称性 $f(x,y) = f(y,x)$ 将正方形 $D = [0,1]^2$ 沿主对角线 $y = x$ 对半切分，再用二重积分的黎曼和定义对照各选项的剖分步长与求和区域。
+  1. 记下三角区域 $D_1 = \{(x,y)\mid 0 \le y \le x \le 1\}$，由 $f(x,y) = f(y,x)$ 得
+     $$\iint_D f(x,y)\,\mathrm{d}x\mathrm{d}y = 2\iint_{D_1} f(x,y)\,\mathrm{d}x\mathrm{d}y.$$
+  2. 将 $[0,1]^2$ 按横纵各 $2n$ 等分，每个小正方形的面积为 $\Delta\sigma = \dfrac{1}{2n}\cdot\dfrac{1}{2n} = \dfrac{1}{4n^2}$，取右上角样点 $\left(\dfrac{i}{2n},\dfrac{j}{2n}\right)$。落在 $D_1$（$y \le x$）内的指标满足 $1 \le j \le i \le 2n$，故
+     $$\iint_{D_1} f(x,y)\,\mathrm{d}x\mathrm{d}y = \lim_{n\to\infty}\sum_{i=1}^{2n}\sum_{j=1}^{i} f\!\left(\frac{i}{2n},\frac{j}{2n}\right)\frac{1}{4n^2}.$$
+  3. 两边同乘 $2$，因 $2\cdot\dfrac{1}{4n^2} = \dfrac{1}{2}\cdot\dfrac{1}{n^2}$，即得
+     $$\iint_D f(x,y)\,\mathrm{d}x\mathrm{d}y = \frac{1}{2}\lim_{n\to\infty}\sum_{i=1}^{2n}\sum_{j=1}^{i} f\!\left(\frac{i}{2n},\frac{j}{2n}\right)\frac{1}{n^2},$$
+     选 **（D）**。
+- **干扰项 / 易错提示**：（A）（C）用的是副对角线 $x + y = 1$ 一侧的三角形，但题设只给了关于 $y = x$ 对称而非关于 $x+y=1$ 对称；（B）按 $n$ 等分时系数应为 $2$ 而非 $\frac{1}{2}$。
 
 </details>
 
@@ -85,7 +95,19 @@
 <details>
 <summary>答案与解析</summary>
 
-**题面待核。** 按当前图中上限 $2$，$4-x^2$ 与 $2$ 在 $x=\pm\sqrt2$ 相交，中央部分必须带负号。令 $L(y)=\int_{-2}^{-\sqrt{4-y}}f\,dx+\int_{\sqrt{4-y}}^2 f\,dx$，$M(y)=\int_{-\sqrt{4-y}}^{\sqrt{4-y}}f\,dx$，实际换序得 $\int_0^2L(y)\,dy-\int_2^4M(y)\,dy$。若独立原卷确认上限为 $4$，才得到 $\int_0^4L(y)\,dy$（A）。
+**题面待核**：按当前转写内层上限为 $2$，与四个选项均不一致；若按 2025 年原卷内层上限应为 $4$（即 $\int_{-2}^{2}\mathrm{d}x\int_{4-x^2}^{4} f(x,y)\,\mathrm{d}y$），则选 **（A）**。
+
+- **按当前转写的推演（矛盾所在）**：
+  抛物线 $y = 4 - x^2$ 在 $x\in[-2,2]$ 上的值域为 $[0,4]$，与水平线 $y = 2$ 交于 $x = \pm\sqrt{2}$。
+  - 当 $\sqrt{2}\le |x|\le 2$ 时，$4 - x^2 \le 2$，积分区域在 $0 \le y \le 2$ 处取正号；
+  - 当 $|x| < \sqrt{2}$ 时，$4 - x^2 > 2$，内层积分 $\int_{4-x^2}^{2} f\,\mathrm{d}y = -\int_{2}^{4-x^2} f\,\mathrm{d}y$ 在 $2 \le y \le 4$ 处取负号。
+
+  记 $L(y) = \int_{-2}^{-\sqrt{4-y}} f\,\mathrm{d}x + \int_{\sqrt{4-y}}^{2} f\,\mathrm{d}x$，$M(y) = \int_{-\sqrt{4-y}}^{\sqrt{4-y}} f\,\mathrm{d}x$，则当前题面换序后应为 $\int_0^2 L(y)\,\mathrm{d}y - \int_2^4 M(y)\,\mathrm{d}y$，与（A）–（D）均不符。
+- **按原卷意图（内层上限为 $4$）的推导**：
+  若原积分为 $\int_{-2}^{2}\mathrm{d}x\int_{4-x^2}^{4} f(x,y)\,\mathrm{d}y$，则积分区域为 $D = \{(x,y)\mid -2\le x\le 2,\; 4-x^2\le y\le 4\}$（抛物线 $y=4-x^2$ 上方、直线 $y=4$ 下方、$x=\pm 2$ 之间）。
+  对任意固定 $y\in[0,4]$，水平穿线被抛物线 $x = \pm\sqrt{4-y}$ 分为左右两段：$[-2, -\sqrt{4-y}]$ 与 $[\sqrt{4-y}, 2]$，故换序得
+  $$\int_0^4 \left[\int_{-2}^{-\sqrt{4-y}} f(x,y)\,\mathrm{d}x + \int_{\sqrt{4-y}}^{2} f(x,y)\,\mathrm{d}x\right]\mathrm{d}y,$$
+  对应 **（A）**。
 
 </details>
 
@@ -102,12 +124,25 @@
 <details>
 <summary>答案与解析</summary>
 
-**答案 $12\pi-\tfrac{112}{3}$。** 区域在第一象限且关于 $y=x$ 对称。极坐标在 $0\le\theta\le\pi/4$ 有 $0\le r\le4\sin\theta$，积上另一半的两倍。由于 $(x-y)^2=r^2(1-\sin2\theta)$，积分为
-$$
-128\int_0^{\pi/4}\sin^4\theta(1-\sin2\theta)\,d\theta
-=128\left(\frac{3\pi}{32}-\frac14-\frac1{24}\right).
-$$
-其中 $\sin^4\theta$ 用降幂，$\sin^4\theta\sin2\theta=2\sin^5\theta\cos\theta$ 直接凑微分。
+**结论速览**：$12\pi - \dfrac{112}{3}$。
+
+- **完整解答**：
+  1. **利用对称性折半并转极坐标**：区域 $D = \{(x,y)\mid x^2+y^2\le 4x,\; x^2+y^2\le 4y\}$ 是两个圆盘 $(x-2)^2+y^2\le 4$ 与 $x^2+(y-2)^2\le 4$ 在第一象限的交集，显然关于直线 $y = x$ 对称，且被积函数 $(x-y)^2$ 也在交换 $x,y$ 下不变。
+     故只需在下半部分 $D_1 = \{(r,\theta)\mid 0\le\theta\le\frac{\pi}{4},\; 0\le r\le 4\sin\theta\}$ 上积分再乘以 $2$（当 $0\le\theta\le\frac{\pi}{4}$ 时，$\sin\theta\le\cos\theta$，故 $r\le 4\sin\theta$ 为紧边界）。
+  2. **化为极坐标累次积分**：$(x - y)^2 = r^2(\cos\theta - \sin\theta)^2 = r^2(1 - \sin 2\theta)$，故
+     $$\begin{aligned}
+     I &= 2\int_0^{\frac{\pi}{4}}(1 - \sin 2\theta)\,\mathrm{d}\theta \int_0^{4\sin\theta} r^3\,\mathrm{d}r \\
+     &= 2\int_0^{\frac{\pi}{4}}(1 - \sin 2\theta)\cdot\frac{(4\sin\theta)^4}{4}\,\mathrm{d}\theta \\
+     &= 128\int_0^{\frac{\pi}{4}}\sin^4\theta(1 - \sin 2\theta)\,\mathrm{d}\theta.
+     \end{aligned}$$
+  3. **分两项计算定积分**：
+     - 第一项降幂：$\sin^4\theta = \left(\dfrac{1-\cos 2\theta}{2}\right)^2 = \dfrac{1}{4}\left(1 - 2\cos 2\theta + \dfrac{1+\cos 4\theta}{2}\right) = \dfrac{3}{8} - \dfrac{1}{2}\cos 2\theta + \dfrac{1}{8}\cos 4\theta$，故
+       $$\int_0^{\frac{\pi}{4}}\sin^4\theta\,\mathrm{d}\theta = \left[\frac{3}{8}\theta - \frac{1}{4}\sin 2\theta + \frac{1}{32}\sin 4\theta\right]_0^{\frac{\pi}{4}} = \frac{3\pi}{32} - \frac{1}{4}.$$
+     - 第二项凑微分：$\sin^4\theta\sin 2\theta = 2\sin^5\theta\cos\theta$，故
+       $$\int_0^{\frac{\pi}{4}}2\sin^5\theta\cos\theta\,\mathrm{d}\theta = \left[\frac{1}{3}\sin^6\theta\right]_0^{\frac{\pi}{4}} = \frac{1}{3}\left(\frac{\sqrt{2}}{2}\right)^6 = \frac{1}{24}.$$
+  4. **合并得最终结果**：
+     $$I = 128\left(\frac{3\pi}{32} - \frac{1}{4} - \frac{1}{24}\right) = 128\left(\frac{3\pi}{32} - \frac{7}{24}\right) = 12\pi - \frac{112}{3}.$$
+- **核心思路与避坑**：双圆交集在极坐标下必须按角平分线 $\theta = \frac{\pi}{4}$ 分段，切忌把 $r$ 的上限写成 $4\cos\theta$（在 $[0,\frac{\pi}{4}]$ 上 $4\sin\theta \le 4\cos\theta$，交集应取较小者）。
 
 </details>
 
@@ -159,7 +194,17 @@ $$
 <details>
 <summary>答案与解析</summary>
 
-**答案 $\tfrac83\ln3$。** 区域在交换 $x,y$ 下不变，$x-y$ 部分积分为零。取 $u=xy$、$v=y/x$，第一象限中该映射一一对应，$|\partial(u,v)/\partial(x,y)|=2v$。新区域为 $[1/3,3]^2$，故面积为 $\int_{1/3}^3du\int_{1/3}^3(2v)^{-1}\,dv=\tfrac83\ln3$。
+**结论速览**：$\dfrac{8}{3}\ln 3$。
+
+- **完整解答**：
+  1. **用轮换对称性化简被积函数**：区域 $D$ 位于第一象限，边界 $xy=\frac{1}{3},\; xy=3$ 及 $y=\frac{1}{3}x,\; y=3x$ 在交换 $x,y$ 下保持不变，故 $D$ 关于直线 $y = x$ 对称。因此 $\iint_D (x - y)\,\mathrm{d}x\mathrm{d}y = 0$，原积分化为
+     $$I = \iint_D 1\,\mathrm{d}x\mathrm{d}y.$$
+  2. **做二重积分换元（贴合边界）**：令 $u = xy,\; v = \dfrac{y}{x}$（第一象限内一一对应），则新区域为矩形 $D_{uv} = \left[\dfrac{1}{3}, 3\right]\times\left[\dfrac{1}{3}, 3\right]$。
+     计算雅可比行列式：
+     $$\frac{\partial(u,v)}{\partial(x,y)} = \begin{vmatrix} y & x \\ -\dfrac{y}{x^2} & \dfrac{1}{x} \end{vmatrix} = \frac{2y}{x} = 2v \implies \left|\frac{\partial(x,y)}{\partial(u,v)}\right| = \frac{1}{2v}.$$
+  3. **在 $(u,v)$ 矩形上计算积分**：
+     $$I = \int_{\frac{1}{3}}^{3}\mathrm{d}u \int_{\frac{1}{3}}^{3}\frac{1}{2v}\,\mathrm{d}v = \left(3 - \frac{1}{3}\right)\cdot\frac{1}{2}\Big[\ln v\Big]_{\frac{1}{3}}^{3} = \frac{8}{3}\cdot\frac{1}{2}\cdot 2\ln 3 = \frac{8}{3}\ln 3.$$
+- **核心思路与避坑**：看到四条边界恰好是两族曲线 $xy = c$ 与 $y/x = k$，直接取 $u = xy,\; v = y/x$ 把曲边四边形拉直为矩形；注意 $\left|\frac{\partial(x,y)}{\partial(u,v)}\right|$ 是 $\left|\frac{\partial(u,v)}{\partial(x,y)}\right|$ 的**倒数** $\frac{1}{2v}$，切勿写反。
 
 </details>
 
@@ -176,7 +221,24 @@ $$
 <details>
 <summary>答案与解析</summary>
 
-**答案 $\dfrac{\pi\ln 2}{8\sqrt3}$。** 取极坐标。对固定 $\theta\in[0,\pi/3]$，令 $p=1-\sin\theta\cos\theta$，径向范围是 $1/\sqrt p\le r\le\sqrt{2/p}$，积分 $dr/r$ 恒为 $\ln2/2$。角向积分令 $t=\tan\theta$，得 $\int_0^{\sqrt3}dt/(3+t^2)=\pi/(4\sqrt3)$。
+**结论速览**：$\dfrac{\pi\ln 2}{8\sqrt{3}}$。
+
+- **完整解答**：
+  1. **极坐标表示区域 $D$**：在第一象限中，射线 $y = 0$ 与 $y = \sqrt{3}x$ 对应极角 $0 \le \theta \le \dfrac{\pi}{3}$。
+     将曲线方程 $x^2 + y^2 - xy = c$（$c = 1, 2$）化为极坐标：$r^2(1 - \sin\theta\cos\theta) = c$。记 $p(\theta) = 1 - \sin\theta\cos\theta > 0$，则极径范围为
+     $$\frac{1}{\sqrt{p(\theta)}} \le r \le \frac{\sqrt{2}}{\sqrt{p(\theta)}}.$$
+  2. **先对 $r$ 积分消去 $p(\theta)$**：被积函数 $\dfrac{1}{3x^2+y^2} = \dfrac{1}{r^2(3\cos^2\theta + \sin^2\theta)}$，连同面积元 $r\,\mathrm{d}r\mathrm{d}\theta$ 得
+     $$\begin{aligned}
+     I &= \int_0^{\frac{\pi}{3}} \frac{\mathrm{d}\theta}{3\cos^2\theta + \sin^2\theta} \int_{\frac{1}{\sqrt{p(\theta)}}}^{\frac{\sqrt{2}}{\sqrt{p(\theta)}}} \frac{1}{r}\,\mathrm{d}r \\
+     &= \int_0^{\frac{\pi}{3}} \frac{\mathrm{d}\theta}{3\cos^2\theta + \sin^2\theta} \cdot \left(\ln\frac{\sqrt{2}}{\sqrt{p(\theta)}} - \ln\frac{1}{\sqrt{p(\theta)}}\right) \\
+     &= \frac{\ln 2}{2} \int_0^{\frac{\pi}{3}} \frac{\mathrm{d}\theta}{3\cos^2\theta + \sin^2\theta}.
+     \end{aligned}$$
+  3. **万能代换 $t = \tan\theta$ 算角向积分**：分子分母同除以 $\cos^2\theta$，令 $t = \tan\theta$（$\theta: 0\to\frac{\pi}{3}$ 对应 $t: 0\to\sqrt{3}$）：
+     $$\begin{aligned}
+     I &= \frac{\ln 2}{2}\int_0^{\sqrt{3}} \frac{\mathrm{d}t}{3 + t^2} = \frac{\ln 2}{2}\cdot\frac{1}{\sqrt{3}}\left[\arctan\frac{t}{\sqrt{3}}\right]_0^{\sqrt{3}} \\
+     &= \frac{\ln 2}{2\sqrt{3}}\cdot\frac{\pi}{4} = \frac{\pi\ln 2}{8\sqrt{3}}.
+     \end{aligned}$$
+- **核心思路与避坑**：本题最精妙之处在于径向积分 $\int_{a/\sqrt{p}}^{b/\sqrt{p}}\frac{\mathrm{d}r}{r} = \ln\frac{b}{a}$ 与 $p(\theta)$ 完全无关！遇到齐次 $-2$ 次被积函数与相似二次曲线环带时，极坐标几乎都能一举消去径向的角因子。
 
 </details>
 
@@ -191,7 +253,17 @@ $$
 <details>
 <summary>答案与解析</summary>
 
-**答案 D，$2/3$。** 区域 $0\le y\le x\le2$，先对 $y$ 积分得到 $\frac12\int_0^2 x^2/\sqrt{1+x^3}\,dx$。令 $u=1+x^3$，结果为 $(\sqrt9-\sqrt1)/3=2/3$。
+**答案**：**（D）** $\dfrac{2}{3}$
+
+- **切入点与推演**：内层积分 $\int_y^2 \frac{y}{\sqrt{1+x^3}}\,\mathrm{d}x$ 无法用初等函数直接积出，必须交换积分次序：
+  1. **改写积分区域**：原区域 $0 \le y \le 2,\; y \le x \le 2$，换序为 $0 \le x \le 2,\; 0 \le y \le x$。
+  2. **先对 $y$ 积分再换元**：
+     $$\begin{aligned}
+     \int_0^2 \mathrm{d}y \int_y^2 \frac{y}{\sqrt{1+x^3}}\,\mathrm{d}x &= \int_0^2 \frac{\mathrm{d}x}{\sqrt{1+x^3}} \int_0^x y\,\mathrm{d}y = \frac{1}{2}\int_0^2 \frac{x^2}{\sqrt{1+x^3}}\,\mathrm{d}x \\
+     &\xlongequal{u=1+x^3} \frac{1}{6}\int_1^9 u^{-\frac{1}{2}}\,\mathrm{d}u = \frac{1}{3}\Big[\sqrt{u}\Big]_1^9 = \frac{3 - 1}{3} = \frac{2}{3}.
+     \end{aligned}$$
+  故正确选项为 **（D）**。
+- **干扰项 / 易错提示**：换元 $\mathrm{d}u = 3x^2\,\mathrm{d}x$ 后别忘了 $\int u^{-1/2}\,\mathrm{d}u = 2\sqrt{u}$ 会乘出一个 $2$，漏乘系数 $2$ 会错选（B）$\frac{1}{3}$。
 
 </details>
 
@@ -236,7 +308,20 @@ $$
 <details>
 <summary>答案与解析</summary>
 
-**答案 $\tfrac1{48}$。** 第一象限内 $r^2=\cos2\theta$，故 $0\le\theta\le\pi/4,\ 0\le r\le\sqrt{\cos2\theta}$。被积式连面积元是 $r^3\sin\theta\cos\theta\,dr\,d\theta$。积去 $r$ 后令 $u=\cos2\theta$，即 $\frac1{16}\int_0^1u^2du=1/48$。
+**结论速览**：$\dfrac{1}{48}$。
+
+- **完整解答**：
+  1. **将双纽线化为极坐标定区域**：代入 $x = r\cos\theta,\; y = r\sin\theta$，方程 $(x^2+y^2)^2 = x^2 - y^2$ 化为
+     $$r^4 = r^2\cos 2\theta \implies r^2 = \cos 2\theta.$$
+     因 $x \ge 0,\; y \ge 0$ 且 $\cos 2\theta \ge 0$，极角范围为 $0 \le \theta \le \dfrac{\pi}{4}$，极径范围为 $0 \le r \le \sqrt{\cos 2\theta}$。
+  2. **化为极坐标累次积分并计算**：注意 $xy = r^2\sin\theta\cos\theta$ 及面积元 $r\,\mathrm{d}r\mathrm{d}\theta$，
+     $$\begin{aligned}
+     \iint_D xy\,\mathrm{d}x\mathrm{d}y &= \int_0^{\frac{\pi}{4}} \sin\theta\cos\theta\,\mathrm{d}\theta \int_0^{\sqrt{\cos 2\theta}} r^3\,\mathrm{d}r \\
+     &= \int_0^{\frac{\pi}{4}} \frac{1}{2}\sin 2\theta \cdot \frac{\cos^2 2\theta}{4}\,\mathrm{d}\theta \\
+     &= \frac{1}{8}\int_0^{\frac{\pi}{4}} \cos^2 2\theta\sin 2\theta\,\mathrm{d}\theta \\
+     &\xlongequal{u=\cos 2\theta} \frac{1}{16}\int_0^1 u^2\,\mathrm{d}u = \frac{1}{16}\cdot\frac{1}{3} = \frac{1}{48}.
+     \end{aligned}$$
+- **核心思路与避坑**：第一象限内 $r^2 = \cos 2\theta \ge 0$ 要求 $2\theta \le \frac{\pi}{2}$ 即 $\theta \le \frac{\pi}{4}$，切勿误把极角上限写成 $\frac{\pi}{2}$。
 
 </details>
 
@@ -251,7 +336,16 @@ $$
 <details>
 <summary>答案与解析</summary>
 
-**答案 $\tfrac29(2\sqrt2-1)$。** 区域为 $0\le x\le1,\ 0\le y\le x^2$。换序得 $\int_0^1x^2\sqrt{1+x^3}\,dx$，换元 $u=1+x^3$ 积分。
+**答案**：$\dfrac{2}{9}\left(2\sqrt{2} - 1\right)$
+
+- **切入点与推演**：被积函数 $\sqrt{x^3+1}$ 关于 $x$ 无初等原函数，直接交换积分次序：
+  1. 原区域 $0 \le y \le 1,\; \sqrt{y} \le x \le 1$，改写为先 $y$ 后 $x$：$0 \le x \le 1,\; 0 \le y \le x^2$。
+  2. 换序后换元 $u = x^3 + 1$：
+     $$\begin{aligned}
+     \int_0^1 \mathrm{d}y \int_{\sqrt{y}}^1 \sqrt{x^3 + 1}\,\mathrm{d}x &= \int_0^1 \sqrt{x^3 + 1}\,\mathrm{d}x \int_0^{x^2}\mathrm{d}y = \int_0^1 x^2\sqrt{x^3 + 1}\,\mathrm{d}x \\
+     &\xlongequal{u=x^3+1} \frac{1}{3}\int_1^2 u^{\frac{1}{2}}\,\mathrm{d}u = \frac{1}{3}\cdot\frac{2}{3}\Big[u^{\frac{3}{2}}\Big]_1^2 = \frac{2}{9}\left(2\sqrt{2} - 1\right).
+     \end{aligned}$$
+- **易错点**：换序时 $x = \sqrt{y}$ 反解得 $y = x^2$，注意上限是 $x^2$ 而非 $\sqrt{x}$；代入下限 $u = 1$ 时别漏减 $-1$。
 
 </details>
 
@@ -266,7 +360,20 @@ $$
 <details>
 <summary>答案与解析</summary>
 
-**答案 $\tfrac34[\sqrt2+\ln(1+\sqrt2)]$。** 写成 $\int_1^2dx\int_0^x\sqrt{1+(y/x)^2}\,dy$。内层令 $t=y/x$，得到 $(\int_1^2 x\,dx)(\int_0^1\sqrt{1+t^2}\,dt)$。两个因子分别为 $3/2$ 和 $[\sqrt2+\ln(1+\sqrt2)]/2$。
+**结论速览**：$\dfrac{3}{4}\Big[\sqrt{2} + \ln\left(1 + \sqrt{2}\right)\Big]$。
+
+- **完整解答**：
+  1. **写成 $X$-型累次积分并内层换元**：区域 $D = \{(x,y)\mid 1 \le x \le 2,\; 0 \le y \le x\}$（梯形），因 $x > 0$，将被积函数写为 $\dfrac{\sqrt{x^2+y^2}}{x} = \sqrt{1 + \left(\frac{y}{x}\right)^2}$：
+     $$I = \int_1^2 \mathrm{d}x \int_0^x \sqrt{1 + \left(\frac{y}{x}\right)^2}\,\mathrm{d}y.$$
+     对内层积分令 $t = \dfrac{y}{x}$（$\mathrm{d}y = x\,\mathrm{d}t$，$y: 0\to x$ 对应 $t: 0\to 1$），积分分离为两个定积分之积：
+     $$I = \left(\int_1^2 x\,\mathrm{d}x\right)\left(\int_0^1 \sqrt{1 + t^2}\,\mathrm{d}t\right).$$
+  2. **分别计算两个定积分**：
+     - $\displaystyle\int_1^2 x\,\mathrm{d}x = \left[\frac{x^2}{2}\right]_1^2 = \frac{3}{2}$；
+     - 利用常用积分公式 $\displaystyle\int \sqrt{1+t^2}\,\mathrm{d}t = \frac{1}{2}\Big[t\sqrt{1+t^2} + \ln\left(t + \sqrt{1+t^2}\right)\Big] + C$（或令 $t = \tan u$ 分部积分）：
+       $$\int_0^1 \sqrt{1+t^2}\,\mathrm{d}t = \frac{1}{2}\Big[\sqrt{2} + \ln\left(1 + \sqrt{2}\right)\Big].$$
+  3. **相乘得结果**：
+     $$I = \frac{3}{2}\cdot\frac{1}{2}\Big[\sqrt{2} + \ln\left(1 + \sqrt{2}\right)\Big] = \frac{3}{4}\Big[\sqrt{2} + \ln\left(1 + \sqrt{2}\right)\Big].$$
+- **核心思路与避坑**：本题也可用极坐标（$0\le\theta\le\frac{\pi}{4},\; \sec\theta\le r\le 2\sec\theta$），化为 $\frac{3}{2}\int_0^{\frac{\pi}{4}}\sec^3\theta\,\mathrm{d}\theta$，结果完全一致；无论哪种方法，熟记 $\int\sqrt{1+t^2}\,\mathrm{d}t$ 或 $\int\sec^3\theta\,\mathrm{d}\theta$ 都能大幅省时。
 
 </details>
 
@@ -281,7 +388,16 @@ $$
 <details>
 <summary>答案与解析</summary>
 
-**答案 A。** 记 $r=\sqrt{x^2+y^2}\le|x|+|y|\le\pi/2$。在 $0<r<\pi/2$ 内，$1-\cos r<\sin r<r$，其中左半由 $\sin r+\cos r>1$ 得到。对同一区域积分，严格不等式保留。
+**答案**：**（A）** $I_3 < I_2 < I_1$
+
+- **切入点与推演**：三个积分的区域完全相同，比较大小只需比较被积函数在 $D$ 内部的逐点大小。
+  1. 记 $r = \sqrt{x^2 + y^2}$。在 $D = \left\{(x,y)\mid |x| + |y| \le \frac{\pi}{2}\right\}$ 的内部，恒有
+     $$0 < r = \sqrt{x^2 + y^2} < |x| + |y| \le \frac{\pi}{2}.$$
+  2. 在区间 $\left(0, \dfrac{\pi}{2}\right)$ 上逐点比较 $1 - \cos r,\; \sin r,\; r$：
+     - 由经典不等式知 $\sin r < r$；
+     - 又 $\sin r + \cos r = \sqrt{2}\sin\left(r + \dfrac{\pi}{4}\right) > \sqrt{2}\cdot\dfrac{\sqrt{2}}{2} = 1$（因 $r + \frac{\pi}{4} \in \left(\frac{\pi}{4},\frac{3\pi}{4}\right)$），即 $1 - \cos r < \sin r$。
+  3. 故在 $D$ 内部恒有 $1 - \cos r < \sin r < r$，由二重积分的保号性得 $I_3 < I_2 < I_1$，选 **（A）**。
+- **干扰项 / 易错提示**：关键是确认区域 $D$ 内 $r$ 的上界恰好不超过 $\frac{\pi}{2}$（因 $\sqrt{x^2+y^2} \le |x|+|y| \le \frac{\pi}{2}$），否则超过 $\frac{\pi}{2}$ 后 $1-\cos r$ 与 $\sin r$ 的大小关系会反转。
 
 </details>
 
@@ -296,7 +412,20 @@ $$
 <details>
 <summary>答案与解析</summary>
 
-**答案 $43\sqrt2/120$。** 极坐标下 $\pi/4\le\theta\le3\pi/4$，且 $0\le r\le\sin^2\theta$。被积函数的 $\cos\theta$ 项因关于 $y$ 轴反对称而积分为零。余下为 $\frac12\int_{\pi/4}^{3\pi/4}\sin^5\theta\,d\theta$。令 $u=\cos\theta$，得到 $\int_0^{1/\sqrt2}(1-u^2)^2du$，代入结果。
+**结论速览**：$\dfrac{43\sqrt{2}}{120}$。
+
+- **完整解答**：
+  1. **利用对称性消去奇项并转极坐标**：区域 $D = \{(x,y)\mid |x| \le y,\; (x^2+y^2)^3 \le y^4\}$ 关于 $y$ 轴对称。
+     - $\dfrac{x}{\sqrt{x^2+y^2}}$ 关于 $x$ 为奇函数，故 $\iint_D \dfrac{x}{\sqrt{x^2+y^2}}\,\mathrm{d}x\mathrm{d}y = 0$。
+     - 极坐标下：$|x| \le y \iff \dfrac{\pi}{4} \le \theta \le \dfrac{3\pi}{4}$；$(x^2+y^2)^3 \le y^4 \iff r^6 \le r^4\sin^4\theta \iff 0 \le r \le \sin^2\theta$（因 $\sin\theta > 0$）。
+  2. **化为极坐标累次积分并计算**：剩余被积函数为 $\dfrac{y}{\sqrt{x^2+y^2}} = \sin\theta$，连同面积元 $r\,\mathrm{d}r\mathrm{d}\theta$ 得
+     $$\begin{aligned}
+     I &= \int_{\frac{\pi}{4}}^{\frac{3\pi}{4}} \sin\theta\,\mathrm{d}\theta \int_0^{\sin^2\theta} r\,\mathrm{d}r = \frac{1}{2}\int_{\frac{\pi}{4}}^{\frac{3\pi}{4}} \sin^5\theta\,\mathrm{d}\theta \\
+     &= \int_{\frac{\pi}{4}}^{\frac{\pi}{2}} \sin^5\theta\,\mathrm{d}\theta \xlongequal{u=\cos\theta} \int_0^{\frac{\sqrt{2}}{2}} (1 - u^2)^2\,\mathrm{d}u \\
+     &= \int_0^{\frac{\sqrt{2}}{2}} (1 - 2u^2 + u^4)\,\mathrm{d}u = \left[u - \frac{2}{3}u^3 + \frac{1}{5}u^5\right]_0^{\frac{\sqrt{2}}{2}} \\
+     &= \frac{\sqrt{2}}{2}\left(1 - \frac{2}{3}\cdot\frac{1}{2} + \frac{1}{5}\cdot\frac{1}{4}\right) = \frac{\sqrt{2}}{2}\left(1 - \frac{1}{3} + \frac{1}{20}\right) = \frac{43\sqrt{2}}{120}.
+     \end{aligned}$$
+- **核心思路与避坑**：化简 $(x^2+y^2)^3 \le y^4$ 得 $r^2 \le \sin^4\theta \implies r \le \sin^2\theta$，注意 $\int_0^{\sin^2\theta} r\,\mathrm{d}r = \frac{1}{2}\sin^4\theta$，乘以外层的 $\sin\theta$ 恰好是奇数次幂 $\sin^5\theta$，用 $u = \cos\theta$ 凑微分最不易算错。
 
 </details>
 
@@ -349,7 +478,21 @@ $$
 <details>
 <summary>答案与解析</summary>
 
-**答案 $3\pi^2+5\pi$。** 区域关于 $x=\pi$ 对称，所以 $\iint_D x\,dA=\pi\int_0^{2\pi}y(t)x'(t)dt=3\pi^2$。剩下 $\iint_D2y\,dA=\int_0^{2\pi}y(t)^2x'(t)dt=\int_0^{2\pi}(1-\cos t)^3dt=5\pi$。这里 $x'=y=1-\cos t$。
+**结论速览**：$3\pi^2 + 5\pi$。
+
+- **完整解答**：
+  1. **化为 $X$-型累次积分并利用对称性**：摆线 $x(t) = t - \sin t,\; y(t) = 1 - \cos t$（$t\in[0,2\pi]$）在 $x\in[0,2\pi]$ 上单调递增（$x'(t) = 1 - \cos t \ge 0$），且关于直线 $x = \pi$ 对称（因 $x(2\pi-t) = 2\pi - x(t),\; y(2\pi-t) = y(t)$）。
+     由对称性，对 $x$ 积分满足 $\iint_D (x - \pi)\,\mathrm{d}x\mathrm{d}y = 0$，即 $\iint_D x\,\mathrm{d}x\mathrm{d}y = \pi\iint_D \mathrm{d}x\mathrm{d}y$。
+  2. **先对 $y$ 积分再换参 $t$**：记上边界为 $y = y(x)$，
+     $$\iint_D (x + 2y)\,\mathrm{d}x\mathrm{d}y = \pi\int_0^{2\pi} y(x)\,\mathrm{d}x + \int_0^{2\pi}\mathrm{d}x\int_0^{y(x)} 2y\,\mathrm{d}y = \pi\int_0^{2\pi} y(t)x'(t)\,\mathrm{d}t + \int_0^{2\pi} y(t)^2 x'(t)\,\mathrm{d}t.$$
+     代入 $y(t) = x'(t) = 1 - \cos t$：
+     - 面积项：
+       $$\int_0^{2\pi}(1 - \cos t)^2\,\mathrm{d}t = \int_0^{2\pi}\left(1 - 2\cos t + \frac{1 + \cos 2t}{2}\right)\mathrm{d}t = 3\pi \implies \pi\iint_D\mathrm{d}x\mathrm{d}y = 3\pi^2.$$
+     - 二次项：
+       $$\int_0^{2\pi}(1 - \cos t)^3\,\mathrm{d}t = \int_0^{2\pi}\big(1 - 3\cos t + 3\cos^2 t - \cos^3 t\big)\,\mathrm{d}t = 2\pi + 3\pi = 5\pi.$$
+       （其中 $\int_0^{2\pi}\cos t\,\mathrm{d}t = \int_0^{2\pi}\cos^3 t\,\mathrm{d}t = 0$，$\int_0^{2\pi}\cos^2 t\,\mathrm{d}t = \pi$。）
+  3. **合并得最终结果**：$\iint_D(x + 2y)\,\mathrm{d}x\mathrm{d}y = 3\pi^2 + 5\pi$。
+- **核心思路与避坑**：参数方程围成的区域先对 $y$ 积分转化为关于 $x$ 的定积分，再换元 $\mathrm{d}x = x'(t)\,\mathrm{d}t$；利用关于 $x = \pi$ 的对称性把 $\iint_D x\,\mathrm{d}\sigma$ 替换为 $\pi S_D$，可省去繁琐的 $t\cos^k t$ 分部积分。
 
 </details>
 
@@ -396,7 +539,16 @@ $$
 <details>
 <summary>答案与解析</summary>
 
-**答案 $5\pi/4$。** 区域为以 $(0,1)$ 为圆心、半径 1 的圆盘。$2x$ 因关于 $y$ 轴反对称而消失，常数积分为 $\pi$。圆心平移后 $x=r\cos\theta$，故 $x^2$ 的积分为 $\int_0^1r^3dr\int_0^{2\pi}\cos^2\theta d\theta=\pi/4$。
+**结论速览**：$\dfrac{5\pi}{4}$。
+
+- **完整解答**：
+  1. **展开被积函数并利用对称性**：区域 $D: x^2 + (y - 1)^2 \le 1$ 是以 $(0,1)$ 为圆心、半径为 $1$ 的圆盘，关于 $y$ 轴对称。展开 $(x+1)^2 = x^2 + 2x + 1$：
+     - $2x$ 关于 $x$ 为奇函数 $\implies \iint_D 2x\,\mathrm{d}x\mathrm{d}y = 0$；
+     - 常数项：$\iint_D 1\,\mathrm{d}x\mathrm{d}y = \pi\cdot 1^2 = \pi$。
+  2. **平移圆心算 $\iint_D x^2\,\mathrm{d}x\mathrm{d}y$**：令 $u = x,\; v = y - 1$，则新区域为单位圆盘 $D': u^2 + v^2 \le 1$。由圆盘的轮换对称性（$\iint_{D'} u^2 = \iint_{D'} v^2$）并切极坐标：
+     $$\iint_D x^2\,\mathrm{d}x\mathrm{d}y = \iint_{D'} u^2\,\mathrm{d}u\mathrm{d}v = \frac{1}{2}\iint_{D'} (u^2 + v^2)\,\mathrm{d}u\mathrm{d}v = \frac{1}{2}\int_0^{2\pi}\mathrm{d}\theta\int_0^1 r^3\,\mathrm{d}r = \frac{1}{2}\cdot 2\pi\cdot\frac{1}{4} = \frac{\pi}{4}.$$
+  3. **合并得结果**：$\iint_D(x+1)^2\,\mathrm{d}x\mathrm{d}y = \pi + \dfrac{\pi}{4} = \dfrac{5\pi}{4}$。
+- **核心思路与避坑**：偏心圆 $x^2 + (y-1)^2 \le 1$ 上对只含 $x$ 的多项式积分时，做平移 $v = y - 1$ 回到标准单位圆盘比直接用 $r = 2\sin\theta$ 算 $\sin^4\theta\cos^2\theta$ 简单得多。
 
 </details>
 
@@ -411,7 +563,20 @@ $$
 <details>
 <summary>答案与解析</summary>
 
-**答案 $1-\pi/2$。** 区域关于 $y$ 轴对称，$-xy$ 项积分为零。极坐标下 $\pi/4\le\theta\le3\pi/4$、$0\le r\le1/\sin\theta$，剩余积分为 $\frac12\int_{\pi/4}^{3\pi/4}(\cot^2\theta-1)d\theta$。用 $\cot^2\theta-1=\csc^2\theta-2$ 积分即可。
+**结论速览**：$1 - \dfrac{\pi}{2}$。
+
+- **完整解答**：
+  1. **利用对称性消去奇项并转极坐标**：区域 $D$ 是顶点为 $(0,0),\; (1,1),\; (-1,1)$ 的等腰直角三角形，关于 $y$ 轴对称。
+     - $\dfrac{-xy}{x^2+y^2}$ 关于 $x$ 为奇函数，故 $\iint_D \dfrac{-xy}{x^2+y^2}\,\mathrm{d}x\mathrm{d}y = 0$。
+     - 极坐标下，$D = \left\{(r,\theta)\;\middle|\; \dfrac{\pi}{4}\le\theta\le\dfrac{3\pi}{4},\; 0\le r\le\dfrac{1}{\sin\theta}\right\}$，且 $\dfrac{x^2-y^2}{x^2+y^2} = \cos^2\theta - \sin^2\theta$。
+  2. **化为极坐标累次积分并计算**：
+     $$\begin{aligned}
+     I &= \int_{\frac{\pi}{4}}^{\frac{3\pi}{4}} (\cos^2\theta - \sin^2\theta)\,\mathrm{d}\theta \int_0^{\frac{1}{\sin\theta}} r\,\mathrm{d}r \\
+     &= \frac{1}{2}\int_{\frac{\pi}{4}}^{\frac{3\pi}{4}} \frac{\cos^2\theta - \sin^2\theta}{\sin^2\theta}\,\mathrm{d}\theta = \frac{1}{2}\int_{\frac{\pi}{4}}^{\frac{3\pi}{4}} (\cot^2\theta - 1)\,\mathrm{d}\theta \\
+     &= \frac{1}{2}\int_{\frac{\pi}{4}}^{\frac{3\pi}{4}} (\csc^2\theta - 2)\,\mathrm{d}\theta = \frac{1}{2}\Big[-\cot\theta - 2\theta\Big]_{\frac{\pi}{4}}^{\frac{3\pi}{4}} \\
+     &= \frac{1}{2}\left[\left(1 - \frac{3\pi}{2}\right) - \left(-1 - \frac{\pi}{2}\right)\right] = 1 - \frac{\pi}{2}.
+     \end{aligned}$$
+- **核心思路与避坑**：利用恒等式 $\cot^2\theta = \csc^2\theta - 1$ 且 $(-\cot\theta)' = \csc^2\theta$ 一步积出，注意 $\cot\frac{3\pi}{4} = -1$、$-\cot\frac{3\pi}{4} = +1$ 的符号。
 
 </details>
 
@@ -426,7 +591,17 @@ $$
 <details>
 <summary>答案与解析</summary>
 
-**答案 B。** 极坐标下 $2xy=r^2\sin2\theta$，所以角在 $\pi/4$ 到 $\pi/3$，半径从 $1/\sqrt{2\sin2\theta}$ 到 $1/\sqrt{\sin2\theta}$。面积元还要乘 $r$。
+**答案**：**（B）** $\displaystyle\int_{\pi/4}^{\pi/3}\mathrm{d}\theta\int_{\frac{1}{\sqrt{2\sin 2\theta}}}^{\frac{1}{\sqrt{\sin 2\theta}}} f(r\cos\theta, r\sin\theta)r\,\mathrm{d}r$
+
+- **切入点与推演**：将四条边界方程逐一化为极坐标（$x = r\cos\theta,\; y = r\sin\theta$）：
+  1. **极角范围**：在第一象限中，$y = x \implies \theta = \dfrac{\pi}{4}$，$y = \sqrt{3}x \implies \theta = \dfrac{\pi}{3}$，故 $\dfrac{\pi}{4} \le \theta \le \dfrac{\pi}{3}$。
+  2. **极径范围**：由 $2xy = r^2\sin 2\theta$ 得：
+     - $4xy = 1 \iff 2r^2\sin 2\theta = 1 \iff r = \dfrac{1}{\sqrt{2\sin 2\theta}}$（内边界）；
+     - $2xy = 1 \iff r^2\sin 2\theta = 1 \iff r = \dfrac{1}{\sqrt{\sin 2\theta}}$（外边界）。
+  3. **补上面积元 $r\,\mathrm{d}r\mathrm{d}\theta$**：即得
+     $$\iint_D f(x,y)\,\mathrm{d}x\mathrm{d}y = \int_{\frac{\pi}{4}}^{\frac{\pi}{3}}\mathrm{d}\theta \int_{\frac{1}{\sqrt{2\sin 2\theta}}}^{\frac{1}{\sqrt{\sin 2\theta}}} f(r\cos\theta, r\sin\theta)r\,\mathrm{d}r,$$
+     选 **（B）**。
+- **干扰项 / 易错提示**：（A）（C）忘记对 $r^2$ 开平方；（C）（D）漏乘极坐标面积元因子 $r$。
 
 </details>
 
@@ -441,7 +616,24 @@ $$
 <details>
 <summary>答案与解析</summary>
 
-**答案 $\pi/4-2/5$。** 关于 $y$ 轴对称，积分中的 $xy$ 消掉。交点横坐标是 $\pm1$，故剩余为 $2\int_0^1x^2[\sqrt{2-x^2}-x^2]dx$。第一项用 $x=\sqrt2\sin t$，化为 $2\int_0^{\pi/4}\sin^2(2t)dt=\pi/4$，第二项为 $2/5$。
+**结论速览**：$\dfrac{\pi}{4} - \dfrac{2}{5}$。
+
+- **完整解答**：
+  1. **确定区域交点并利用对称性**：区域 $D = \{(x,y)\mid x^2 + y^2 \le 2,\; y \ge x^2\}$ 关于 $y$ 轴对称。联立 $x^2 + y^2 = 2$ 与 $y = x^2$ 得 $y^2 + y - 2 = 0 \implies y = 1$（$y \ge 0$），故交点为 $(-1,1)$ 与 $(1,1)$。
+     展开 $x(x+y) = x^2 + xy$：
+     - $xy$ 关于 $x$ 为奇函数 $\implies \iint_D xy\,\mathrm{d}x\mathrm{d}y = 0$；
+     - $x^2$ 关于 $x$ 为偶函数 $\implies$ 取右半部分 $0 \le x \le 1,\; x^2 \le y \le \sqrt{2-x^2}$ 积分并乘以 $2$：
+       $$I = 2\int_0^1 x^2\,\mathrm{d}x \int_{x^2}^{\sqrt{2-x^2}}\mathrm{d}y = 2\int_0^1 x^2\sqrt{2 - x^2}\,\mathrm{d}x - 2\int_0^1 x^4\,\mathrm{d}x.$$
+  2. **分两项计算定积分**：
+     - 第一项令 $x = \sqrt{2}\sin t$（$x: 0\to 1$ 对应 $t: 0\to\frac{\pi}{4}$）：
+       $$\begin{aligned}
+       2\int_0^1 x^2\sqrt{2-x^2}\,\mathrm{d}x &= 2\int_0^{\frac{\pi}{4}} (2\sin^2 t)(\sqrt{2}\cos t)(\sqrt{2}\cos t\,\mathrm{d}t) \\
+       &= 8\int_0^{\frac{\pi}{4}} \sin^2 t\cos^2 t\,\mathrm{d}t = 2\int_0^{\frac{\pi}{4}} \sin^2 2t\,\mathrm{d}t \\
+       &= \int_0^{\frac{\pi}{4}} (1 - \cos 4t)\,\mathrm{d}t = \left[t - \frac{\sin 4t}{4}\right]_0^{\frac{\pi}{4}} = \frac{\pi}{4}.
+       \end{aligned}$$
+     - 第二项：$2\int_0^1 x^4\,\mathrm{d}x = \dfrac{2}{5}$。
+  3. **相减得最终结果**：$I = \dfrac{\pi}{4} - \dfrac{2}{5}$。
+- **核心思路与避坑**：本题也可将 $D$ 拆为扇形 $x^2+y^2\le 2,\; y\ge|x|$ 与两个弓形 $x^2\le y\le|x|$，但直接按 $X$-型积分再三角换元只需一次拆分，不易漏算系数 $2$。
 
 </details>
 
@@ -477,7 +669,15 @@ $$
 <details>
 <summary>答案与解析</summary>
 
-**答案 B。** 第二象限 $x<0<y$，所以 $y-x>0$，积分为正。第四象限反号，第一和第三象限关于 $x=y$ 对称，因交换坐标后被积函数变号，积分为 0。
+**答案**：**（B）** $I_2 > 0$
+
+- **切入点与推演**：逐一考察四个象限的扇形 $D_k$ 上被积函数 $y - x$ 的符号与轮换对称性：
+  - **第一、三象限（$D_1, D_3$）**：区域关于直线 $y = x$ 对称，交换 $x,y$ 后 $y - x$ 变为 $-(y - x)$，故由轮换对称性得 $I_1 = 0,\; I_3 = 0$；
+  - **第二象限（$D_2$）**：区域内部满足 $x < 0 < y$，故 $y - x > 0$ 恒成立，由保号性得 $I_2 > 0$；
+  - **第四象限（$D_4$）**：区域内部满足 $y < 0 < x$，故 $y - x < 0$ 恒成立，得 $I_4 < 0$。
+
+  因此只有（B）正确。
+- **干扰项 / 易错提示**：第二象限内 $x$ 为负、$y$ 为正，切勿看反 $y - x$ 的符号而误选（D）。
 
 </details>
 
@@ -527,7 +727,18 @@ $$
 <details>
 <summary>答案与解析</summary>
 
-**答案 D，$-\pi$。** 先对 $y$ 积分，得 $x^5(1-\sin^2x)/2-(1-\sin x)$。在对称的 $x$ 区间上，$x^5\cos^2x$ 与 $\sin x$ 是奇函数，只有常数 $-1$ 的积分留下。
+**答案**：**（D）** $-\pi$
+
+- **切入点与推演**：注意下边界 $y = \sin x$ 不是偶函数，区域 $D$ **并不关于 $y$ 轴对称**，不能直接划掉 $x^5 y$！应先写出“先 $y$ 后 $x$”的累次积分，积完内层后再对对称区间 $\left[-\frac{\pi}{2}, \frac{\pi}{2}\right]$ 用奇偶性：
+  $$\begin{aligned}
+  \iint_D (x^5 y - 1)\,\mathrm{d}x\mathrm{d}y &= \int_{-\frac{\pi}{2}}^{\frac{\pi}{2}}\mathrm{d}x \int_{\sin x}^{1} (x^5 y - 1)\,\mathrm{d}y \\
+  &= \int_{-\frac{\pi}{2}}^{\frac{\pi}{2}} \left[\frac{1}{2}x^5(1 - \sin^2 x) - (1 - \sin x)\right]\mathrm{d}x \\
+  &= \int_{-\frac{\pi}{2}}^{\frac{\pi}{2}} \left(\frac{1}{2}x^5\cos^2 x + \sin x - 1\right)\mathrm{d}x.
+  \end{aligned}$$
+  在对称区间 $\left[-\frac{\pi}{2}, \frac{\pi}{2}\right]$ 上，$\frac{1}{2}x^5\cos^2 x$ 与 $\sin x$ 均为奇函数，积分均为 $0$，故原式等于
+  $$\int_{-\frac{\pi}{2}}^{\frac{\pi}{2}} (-1)\,\mathrm{d}x = -\pi,$$
+  选 **（D）**。
+- **干扰项 / 易错提示**：千万不要未检查区域对称性就凭直觉把 $x^5 y$ 划掉（虽然本题化简后仍为奇函数，但必须先积完内层 $y$ 才能合法使用一元奇偶性）。
 
 </details>
 
@@ -542,7 +753,22 @@ $$
 <details>
 <summary>答案与解析</summary>
 
-**答案 $16/15$。** 极坐标下面积元连 $xy$ 给 $r^3\cos\theta\sin\theta\,dr\,d\theta$。先对 $r$ 从 0 积到 $1+\cos\theta$，再用 $u=\cos\theta$，得 $\frac14\int_{-1}^1u(1+u)^4du=16/15$。积分区域只取极轴上方，且左右两侧的径向上界不同，不能直接消掉 $xy$。
+**结论速览**：$\dfrac{16}{15}$。
+
+- **完整解答**：
+  1. **直接写极坐标累次积分**：区域 $D = \{(r,\theta)\mid 0 \le \theta \le \pi,\; 0 \le r \le 1 + \cos\theta\}$（心形线的上半部分，关于 $y$ 轴不对称，不能消去 $xy$）。被积函数 $xy = r^2\cos\theta\sin\theta$，连同面积元 $r\,\mathrm{d}r\mathrm{d}\theta$ 得
+     $$\begin{aligned}
+     \iint_D xy\,\mathrm{d}\sigma &= \int_0^\pi \cos\theta\sin\theta\,\mathrm{d}\theta \int_0^{1+\cos\theta} r^3\,\mathrm{d}r \\
+     &= \frac{1}{4}\int_0^\pi (1 + \cos\theta)^4\cos\theta\sin\theta\,\mathrm{d}\theta.
+     \end{aligned}$$
+  2. **换元 $u = \cos\theta$ 计算定积分**：令 $u = \cos\theta$（$\mathrm{d}u = -\sin\theta\,\mathrm{d}\theta$，$\theta: 0\to\pi$ 对应 $u: 1\to -1$），
+     $$\begin{aligned}
+     \iint_D xy\,\mathrm{d}\sigma &= \frac{1}{4}\int_{-1}^{1} u(1 + u)^4\,\mathrm{d}u \\
+     &= \frac{1}{4}\int_{-1}^{1} \big(u + 4u^2 + 6u^3 + 4u^4 + u^5\big)\,\mathrm{d}u.
+     \end{aligned}$$
+     由对称区间 $[-1,1]$ 上的奇偶性，奇次幂项积分为 $0$，仅留偶次幂项：
+     $$\frac{1}{4}\cdot 2\int_0^1 (4u^2 + 4u^4)\,\mathrm{d}u = 2\left(\frac{1}{3} + \frac{1}{5}\right) = \frac{16}{15}.$$
+- **核心思路与避坑**：心形线 $r = 1 + \cos\theta$ 左右不对称（右侧最远到 $r=2$，左侧回到原点 $r=0$），切勿误以为 $D$ 关于 $y$ 轴对称而把积分错算成 $0$。
 
 </details>
 
@@ -557,7 +783,16 @@ $$
 <details>
 <summary>答案与解析</summary>
 
-**答案 $7/12$。** 在 $y$ 轴和 $y=x$ 间的右侧扇形，$\pi/4\le\theta\le\pi/2,\ 0\le r\le2\sin\theta$。先积分 $r^3\sin\theta\cos\theta$ 的径向部分，得 $4\int_{\pi/4}^{\pi/2}\sin^5\theta\cos\theta\,d\theta=7/12$。
+**答案**：$\dfrac{7}{12}$
+
+- **切入点与推演**：圆 $x^2 + y^2 = 2y$ 化为极坐标即 $r = 2\sin\theta$，与射线 $y = x$（$\theta = \frac{\pi}{4}$）及 $y$ 轴（$\theta = \frac{\pi}{2}$）在第一象限围成区域 $D = \left\{(r,\theta)\;\middle|\; \frac{\pi}{4}\le\theta\le\frac{\pi}{2},\; 0\le r\le 2\sin\theta\right\}$：
+  $$\begin{aligned}
+  \iint_D xy\,\mathrm{d}\sigma &= \int_{\frac{\pi}{4}}^{\frac{\pi}{2}} \cos\theta\sin\theta\,\mathrm{d}\theta \int_0^{2\sin\theta} r^3\,\mathrm{d}r \\
+  &= \int_{\frac{\pi}{4}}^{\frac{\pi}{2}} \cos\theta\sin\theta\cdot\frac{16\sin^4\theta}{4}\,\mathrm{d}\theta \\
+  &= 4\int_{\frac{\pi}{4}}^{\frac{\pi}{2}} \sin^5\theta\,\mathrm{d}(\sin\theta) = \frac{2}{3}\Big[\sin^6\theta\Big]_{\frac{\pi}{4}}^{\frac{\pi}{2}} \\
+  &= \frac{2}{3}\left(1 - \frac{1}{8}\right) = \frac{7}{12}.
+  \end{aligned}$$
+- **易错点**：$\left(\frac{\sqrt{2}}{2}\right)^6 = \frac{1}{8}$，同时注意极角范围是 $\left[\frac{\pi}{4}, \frac{\pi}{2}\right]$（由 $y = x$ 与 $y$ 轴围成）而非 $\left[0, \frac{\pi}{4}\right]$。
 
 </details>
 
@@ -572,7 +807,26 @@ $$
 <details>
 <summary>答案与解析</summary>
 
-**答案 $a$。** 先对 $x$ 分部积分，边界项因 $x=0$ 或 $f_y(1,y)=0$ 消失，得 $I=-\int_0^1\int_0^1y f_y(x,y)\,dx\,dy$。换序后对 $y$ 分部积分，边界项由 $f(x,1)=0$ 消失，得 $I=\iint_D f=a$。
+**结论速览**：$a$。
+
+- **完整解答**：
+  1. **提取隐藏的边界导数条件**：由 $f(1, y) = 0$ 对一切 $y\in[0,1]$ 恒成立，两边关于 $y$ 求导得
+     $$f_y'(1, y) = 0 \qquad (0 \le y \le 1).$$
+  2. **先对 $x$ 分部积分**：将 $I$ 写成累次积分并对内层 $x$ 用分部积分（$\dfrac{\partial}{\partial x}f_y'(x,y) = f_{xy}''(x,y)$）：
+     $$\begin{aligned}
+     I &= \int_0^1 y\,\mathrm{d}y \int_0^1 x\,f_{xy}''(x,y)\,\mathrm{d}x \\
+     &= \int_0^1 y\left(\Big[x f_y'(x,y)\Big]_{x=0}^{x=1} - \int_0^1 f_y'(x,y)\,\mathrm{d}x\right)\mathrm{d}y \\
+     &= -\int_0^1\mathrm{d}y \int_0^1 y f_y'(x,y)\,\mathrm{d}x,
+     \end{aligned}$$
+     其中边界项 $1\cdot f_y'(1,y) - 0 = 0$。
+  3. **交换积分次序再对 $y$ 分部积分**：
+     $$\begin{aligned}
+     I &= -\int_0^1\mathrm{d}x \int_0^1 y f_y'(x,y)\,\mathrm{d}y \\
+     &= -\int_0^1\left(\Big[y f(x,y)\Big]_{y=0}^{y=1} - \int_0^1 f(x,y)\,\mathrm{d}y\right)\mathrm{d}x \\
+     &= \int_0^1\mathrm{d}x \int_0^1 f(x,y)\,\mathrm{d}y = \iint_D f(x,y)\,\mathrm{d}x\mathrm{d}y = a,
+     \end{aligned}$$
+     其中边界项 $1\cdot f(x,1) - 0 = 0$。
+- **核心思路与避坑**：第一步边界项消零需要显式说明“由 $f(1,y)\equiv 0$ 对 $y$ 求导得 $f_y'(1,y)=0$”，这是考场关键得分点，不能直接跳步。
 
 </details>
 
@@ -587,7 +841,26 @@ $$
 <details>
 <summary>答案与解析</summary>
 
-**答案 $1/3-\pi/16$。** 令 $x=r\cos\theta,y=r\sin\theta$，题给积分转成 $\int_0^1dx\int_0^x y\sqrt{1-x^2+y^2}\,dy$，其中一个 $r$ 已包含在面积元。内层积分得 $\frac13[1-(1-x^2)^{3/2}]$。再用 $x=\sin t$，$\int_0^1(1-x^2)^{3/2}dx=\int_0^{\pi/2}\cos^4t\,dt=3\pi/16$。
+**结论速览**：$\dfrac{1}{3} - \dfrac{\pi}{16}$。
+
+- **完整解答**：
+  1. **逆向化为直角坐标下的二重积分**：注意到被积式可改写为
+     $$r^2\sin\theta\sqrt{1 - r^2\cos 2\theta}\,\mathrm{d}r\mathrm{d}\theta = (r\sin\theta)\sqrt{1 - r^2(\cos^2\theta - \sin^2\theta)}\cdot (r\,\mathrm{d}r\mathrm{d}\theta).$$
+     令 $x = r\cos\theta,\; y = r\sin\theta$，则面积元 $r\,\mathrm{d}r\mathrm{d}\theta = \mathrm{d}x\mathrm{d}y$，且：
+     - $0 \le \theta \le \dfrac{\pi}{4}$ 对应 $0 \le y \le x$；
+     - $0 \le r \le \sec\theta \iff r\cos\theta \le 1 \iff 0 \le x \le 1$。
+
+     因此区域 $D_{xy} = \{(x,y)\mid 0 \le x \le 1,\; 0 \le y \le x\}$，原积分化为
+     $$I = \iint_{D_{xy}} y\sqrt{1 - x^2 + y^2}\,\mathrm{d}x\mathrm{d}y = \int_0^1\mathrm{d}x \int_0^x y\sqrt{1 - x^2 + y^2}\,\mathrm{d}y.$$
+  2. **先对 $y$ 凑微分，再三角换元求外层积分**：
+     - 内层积分：
+       $$\int_0^x y\sqrt{1 - x^2 + y^2}\,\mathrm{d}y = \frac{1}{2}\int_0^x \sqrt{1 - x^2 + y^2}\,\mathrm{d}(1 - x^2 + y^2) = \frac{1}{3}\Big[(1 - x^2 + y^2)^{\frac{3}{2}}\Big]_0^x = \frac{1}{3}\Big[1 - (1 - x^2)^{\frac{3}{2}}\Big].$$
+     - 外层积分（令 $x = \sin t$，$t\in\left[0,\frac{\pi}{2}\right]$，套用华里士公式）：
+       $$\begin{aligned}
+       I &= \frac{1}{3}\int_0^1 \Big[1 - (1 - x^2)^{\frac{3}{2}}\Big]\mathrm{d}x = \frac{1}{3} - \frac{1}{3}\int_0^{\frac{\pi}{2}} \cos^4 t\,\mathrm{d}t \\
+       &= \frac{1}{3} - \frac{1}{3}\cdot\frac{3}{4}\cdot\frac{1}{2}\cdot\frac{\pi}{2} = \frac{1}{3} - \frac{\pi}{16}.
+       \end{aligned}$$
+- **核心思路与避坑**：极坐标反转为直角坐标时，务必从 $r^2\sin\theta$ 中拆出一个 $r$ 凑成面积元 $r\,\mathrm{d}r\mathrm{d}\theta = \mathrm{d}x\mathrm{d}y$，剩下的 $r\sin\theta$ 才是直角坐标下的被积因子 $y$，切忌多留或少留一个 $r$。
 
 </details>
 

@@ -28,7 +28,15 @@
 <details>
 <summary>答案与解析</summary>
 
-**答案 $-\tfrac14$。** 写成 $\frac1n\sum_{k=1}^{n-1}(k/n)\ln(k/n)$。$t\ln t$ 在 $0$ 可连续补为 0，在 $1$ 也等于 0，可直接用黎曼和。分部积分得 $\int_0^1 t\ln t\,dt=-1/4$，下端 $t^2\ln t\to0$。
+**答案**：$-\dfrac{1}{4}$
+
+- **切入点与推演**：将和式提取因子 $\dfrac{1}{n}$ 化为标准黎曼和形式：
+  $$\frac{1}{n^2}\sum_{k=1}^{n-1} k\ln\frac{k}{n} = \frac{1}{n}\sum_{k=1}^{n-1}\frac{k}{n}\ln\frac{k}{n}.$$
+  令 $f(t)=\begin{cases} t\ln t, & t\in(0,1], \\ 0, & t=0. \end{cases}$ 由 $\lim\limits_{t\to 0^+}t\ln t=0$ 知 $f(t)$ 在 $[0,1]$ 上连续，且右端点 $f(1)=0$（故求和上限 $n-1$ 与 $n$ 仅差 $0$）。由定积分定义：
+  $$\text{原式} = \int_0^1 t\ln t\,\mathrm{d}t.$$
+  分部积分（将 $t\,\mathrm{d}t=\mathrm{d}\left(\frac{1}{2}t^2\right)$）：
+  $$\int_0^1 t\ln t\,\mathrm{d}t = \left[\frac{1}{2}t^2\ln t\right]_{0^+}^1 - \frac{1}{2}\int_0^1 t\,\mathrm{d}t = 0 - \frac{1}{2}\cdot\frac{1}{2} = -\frac{1}{4}.$$
+- **易错点**：需确认 $f(t)=t\ln t$ 在 $t=0^+$ 有有限极限 $0$（可连续延拓）才能直接套用黎曼和化定积分，且分部积分后下限 $\lim\limits_{t\to 0^+}t^2\ln t=0$ 不要漏负号。
 
 </details>
 
@@ -45,12 +53,16 @@
 <details>
 <summary>答案与解析</summary>
 
-- **先用反证法检验严格单调满射函数**：对选项（D），令 $f(x) = e^x - e^{-x} = 2\sinh x$，它在 $\mathbb{R}$ 上严格递增、值域为整个 $(-\infty,+\infty)$，反函数 $f^{-1}(y) = \ln\!\left(\frac{y+\sqrt{y^2+4}}{2}\right)$ 在 $\mathbb{R}$ 上连续。若 $\{f(a_n)\}$ 收敛于有限数 $L$，则 $a_n = f^{-1}(f(a_n))\to f^{-1}(L)$ 也收敛，与 $\{a_n\}$ 发散矛盾！故（D）必发散。
-- **三项反例逐一击破**（注意不要把发散只当成趋于 $\infty$）：
-  - （A）取 $a_n = 2^{(-1)^n}$（发散且非零），则 $a_n + \frac{1}{a_n} \equiv \frac{5}{2}$ 收敛；
-  - （B）取 $a_n = (-1)^n$，则 $a_n - \frac{1}{a_n} \equiv 0$ 收敛；
-  - （C）取 $a_n = (-1)^n$，则 $e^{a_n} + e^{-a_n} \equiv e + e^{-1}$ 收敛。
-- **答案**：**（D）**。
+**答案**：**（D）** $\left\{e^{a_n}-\dfrac{1}{e^{a_n}}\right\}$ 发散
+
+- **切入点与推演**：利用逆否命题检验——若某选项对应的函数 $f(x)$ 在定义域上存在连续反函数 $f^{-1}$，则 $\{f(a_n)\}$ 收敛必能反推 $a_n=f^{-1}(f(a_n))$ 收敛，从而由 $\{a_n\}$ 发散必得 $\{f(a_n)\}$ 发散。
+  对 **（D）**，令 $f(x)=e^x - e^{-x}$，由于 $f'(x)=e^x+e^{-x}>0$，且 $\lim\limits_{x\to\pm\infty}f(x)=\pm\infty$，故 $f$ 是 $\mathbb{R}\to\mathbb{R}$ 的严格单调连续双射，反函数
+  $$f^{-1}(y)=\ln\frac{y+\sqrt{y^2+4}}{2}$$
+  在 $\mathbb{R}$ 上连续。若 $\{f(a_n)\}$ 收敛于 $L$，则 $a_n=f^{-1}(f(a_n))\to f^{-1}(L)$ 收敛，与 $\{a_n\}$ 发散矛盾。故 **（D）** 必然发散。
+- **干扰项 / 易错提示**：发散不仅包括趋于 $\infty$，还包括有界震荡！取震荡反例即可排除前三项：
+  - **（A）**：取 $a_n=2^{(-1)^n}$（发散且非零），则 $a_n+\frac{1}{a_n}\equiv \frac{5}{2}$ 收敛；
+  - **（B）**：取 $a_n=(-1)^n$，则 $a_n-\frac{1}{a_n}\equiv 0$ 收敛；
+  - **（C）**：取 $a_n=(-1)^n$，则 $e^{a_n}+e^{-a_n}\equiv e+e^{-1}$ 收敛。
 
 </details>
 
@@ -67,11 +79,16 @@
 <details>
 <summary>答案与解析</summary>
 
-- **第一步（先证两列均正且趋于 $0$）**：由 $0<\sin u < u$（$u>0$）与 $0<y_1=\frac{1}{2}<1$，用单调有界准则易知 $x_n>0, y_n>0$ 均严格递减，且由极限方程 $A=\sin A$ 与 $B=B^2$（$0\le B < \frac{1}{2}$）得 $\lim x_n = 0$、$\lim y_n = 0$。
-- **第二步（构造商数列 $z_n = \frac{y_n}{x_n}$ 算相邻比）**：
-  $$\frac{z_{n+1}}{z_n} = \frac{y_{n+1}/y_n}{x_{n+1}/x_n} = \frac{y_n}{\sin x_n / x_n} \to \frac{0}{1} = 0 < 1.$$
-  故存在 $N$ 使 $n\ge N$ 时 $0 < z_{n+1} \le \frac{1}{2}z_n$，从而 $z_n = \frac{y_n}{x_n} \to 0$，即 $y_n$ 是 $x_n$ 的高阶无穷小。
-- **答案**：**（B）**。
+**答案**：**（B）** $y_n$ 是 $x_n$ 的高阶无穷小
+
+- **切入点与推演**：先确定两数列的极限均为 $0$：
+  - 由 $x_1=\frac{1}{2}\in(0,1)$ 与 $0<\sin u<u$（$u\in(0,1)$），归纳知 $0<x_{n+1}<x_n$，故 $\{x_n\}$ 收敛于 $A\ge 0$；由 $A=\sin A$ 得 $A=0$。
+  - 由 $y_1=\frac{1}{2}$ 与 $y_{n+1}=y_n^2$，得 $y_n=\left(\frac{1}{2}\right)^{2^{n-1}}>0$，显然 $\lim\limits_{n\to\infty}y_n=0$。
+
+  再构造商数列 $z_n=\dfrac{y_n}{x_n}>0$，计算相邻项之比：
+  $$\lim_{n\to\infty}\frac{z_{n+1}}{z_n} = \lim_{n\to\infty}\frac{y_{n+1}/y_n}{x_{n+1}/x_n} = \lim_{n\to\infty}\frac{y_n}{\frac{\sin x_n}{x_n}} = \frac{0}{1} = 0 < 1.$$
+  由比值判别（存在 $N$ 使 $n\ge N$ 时 $0<z_{n+1}\le\frac{1}{2}z_n$），知 $\lim\limits_{n\to\infty}\dfrac{y_n}{x_n}=0$，即 $y_n$ 是 $x_n$ 的高阶无穷小，选 **（B）**。
+- **干扰项 / 易错提示**：$\sin x_n \approx x_n - \frac{1}{6}x_n^3$ 收敛极慢（$x_n\sim\sqrt{\frac{3}{n}}$），而 $y_{n+1}=y_n^2$ 呈双指数级衰减，直接作商求相邻比是最快的判阶手段。
 
 </details>
 
@@ -86,7 +103,12 @@
 <details>
 <summary>答案与解析</summary>
 
-**答案 D。** $\cos x_n$ 落在 $[0,1]$，而 $\sin$ 在该区间有连续反函数，所以 $\sin(\cos x_n)$ 收敛推出 $\cos x_n$ 收敛。取 $x_n=(-1)^n c$、$0<c<\pi/2$，可看出 $x_n$ 可不收敛，也同时排除 A、B、C。
+**答案**：**（D）** 若 $\lim\limits_{n\to\infty}\sin(\cos x_n)$ 存在，则 $\lim\limits_{n\to\infty}\cos x_n$ 存在，但 $\lim\limits_{n\to\infty}x_n$ 不一定存在
+
+- **切入点与推演**：由 $-\dfrac{\pi}{2}\le x_n\le\dfrac{\pi}{2}$ 知 $\cos x_n \in [0,1] \subset \left[-\dfrac{\pi}{2},\dfrac{\pi}{2}\right]$。因为 $u\mapsto \sin u$ 在 $[0,1]$ 上严格单调递增且连续，其反函数 $\arcsin$ 在 $[0,\sin 1]$ 上连续，所以若 $\lim\limits_{n\to\infty}\sin(\cos x_n)=L$ 存在，则
+  $$\lim_{n\to\infty}\cos x_n = \lim_{n\to\infty}\arcsin\bigl(\sin(\cos x_n)\bigr) = \arcsin L$$
+  必存在。但 $\cos x$ 是偶函数，在 $[-\frac{\pi}{2},\frac{\pi}{2}]$ 上不单调，取 $x_n=(-1)^n\dfrac{\pi}{4}$，则 $\cos x_n\equiv\dfrac{\sqrt{2}}{2}$ 收敛，$\sin(\cos x_n)$ 收敛，而 $\{x_n\}$ 发散。故 **（D）** 正确。
+- **干扰项 / 易错提示**：同一个反例 $x_n=(-1)^n\dfrac{\pi}{4}$ 同时推翻（A）（B）（C）：此时 $\sin x_n=(-1)^n\dfrac{\sqrt{2}}{2}$ 发散，但 $\cos(\sin x_n)\equiv\cos\dfrac{\sqrt{2}}{2}$ 收敛（因 $\cos$ 为偶函数），故（C）前半句即错。
 
 </details>
 
@@ -103,7 +125,19 @@
 <details>
 <summary>答案与解析</summary>
 
-**解。** 若 $x_n>0$，则 $(e^{x_n}-1)/x_n$ 是 $e^t$ 在 $[0,x_n]$ 上的平均值，严格介于 $1,e^{x_n}$。取对数得 $0<x_{n+1}<x_n$。故数列收敛至 $L\ge0$。如 $L>0$，递推的极限等式与上述严格上界矛盾，所以 $L=0$。
+**结论速览**：$\{x_n\}$ 单调递减收敛，且 $\lim\limits_{n\to\infty}x_n = 0$
+
+- **完整解答**：
+  1. **证明 $x_n > 0$ 且单调递减**：用数学归纳法与拉格朗日中值定理。已知 $x_1 > 0$；设 $x_n > 0$，对函数 $f(t)=e^t$ 在 $[0, x_n]$ 上应用拉格朗日中值定理，存在 $\xi_n \in (0, x_n)$ 使得
+     $$e^{x_n} - 1 = e^{\xi_n}\cdot x_n.$$
+     代入递推式 $x_n e^{x_{n+1}} = e^{x_n}-1$（$x_n>0$ 两边约去 $x_n$），得
+     $$e^{x_{n+1}} = e^{\xi_n} \implies x_{n+1} = \xi_n.$$
+     由于 $0 < \xi_n < x_n$，立得 $0 < x_{n+1} < x_n$。由归纳法知对一切 $n\ge 1$ 均有 $0 < x_{n+1} < x_n$。
+  2. **证明收敛**：数列 $\{x_n\}$ 单调递减且有下界 $0$，由单调有界准则知 $\lim\limits_{n\to\infty}x_n = A$ 存在，且 $A \ge 0$。
+  3. **求极限 $A$**：对递推式 $x_n e^{x_{n+1}} = e^{x_n}-1$ 两边令 $n\to\infty$，得
+     $$A e^A = e^A - 1 \iff (A-1)e^A + 1 = 0.$$
+     令 $\varphi(x)=(x-1)e^x+1$（$x\ge 0$），则 $\varphi'(x)=x e^x > 0$（$x>0$），故 $\varphi(x)$ 在 $[0,+\infty)$ 上严格递增。又 $\varphi(0)=0$，故 $A=0$ 是 $\varphi(A)=0$ 在 $[0,+\infty)$ 上的唯一根，从而 $\lim\limits_{n\to\infty}x_n = 0$。
+- **核心思路与避坑**：利用中值定理把 $\frac{e^{x_n}-1}{x_n}$ 写成 $e^{\xi_n}$，一步同时完成“正性”与“单调递减”的证明；解极限方程 $(A-1)e^A+1=0$ 时，务必用导数说明 $A=0$ 是唯一非负根，不能只靠目测代入。
 
 </details>
 
@@ -118,7 +152,14 @@
 <details>
 <summary>答案与解析</summary>
 
-**答案 D。** 设 $x_n\to L$，由连续性转成关于 $L$ 的方程。A 可有 $L=\pi$，B、C 可有 $L=-1$。D 的 $h(x)=x+\sin x$ 有 $h(0)=0$ 且导数 $1+\cos x$ 非负、只在离散点为零，故严格递增且只有零根。
+**答案**：**（D）** 当 $\lim\limits_{n\to\infty}(x_n+\sin x_n)=0$ 时，$\lim\limits_{n\to\infty}x_n=0$
+
+- **切入点与推演**：已知数列 $\{x_n\}$ 收敛，设 $\lim\limits_{n\to\infty}x_n = L$。各选项对应的函数均连续，故极限条件直接转化为关于 $L$ 的代数/超越方程：
+  - **（A）**：$\sin L = 0$，可取 $L=\pi$（如 $x_n\equiv \pi$），故不推出 $L=0$；
+  - **（B）**：$L+\sqrt{|L|}=0$，除 $L=0$ 外还有根 $L=-1$（如 $x_n\equiv -1$），错；
+  - **（C）**：$L+L^2=0$，除 $L=0$ 外还有根 $L=-1$（如 $x_n\equiv -1$），错；
+  - **（D）**：$L+\sin L=0$。令 $h(x)=x+\sin x$，则 $h'(x)=1+\cos x \ge 0$，且 $h'(x)=0$ 仅在孤立点 $x=(2k+1)\pi$ 处成立，故 $h(x)$ 在 $\mathbb{R}$ 上严格单调递增。又 $h(0)=0$，所以 $h(L)=0$ 必有唯一解 $L=0$。故选 **（D）**。
+- **干扰项 / 易错提示**：因为题设已给 $\{x_n\}$ 收敛，本题本质是判断哪一个连续函数 $h(x)$ 在 $\mathbb{R}$ 上以 $x=0$ 为唯一零点，检验负数零点 $L=-1$ 是迅速排除（B）（C）的关键。
 
 </details>
 
@@ -190,11 +231,19 @@
 <details>
 <summary>答案与解析</summary>
 
-**答案 $1$。** 归纳得 $f_n(x)=x/(1+nx)$（也可对 $x>0$ 用倒数，每复合一次倒数加 1）。因此
-$$
-nS_n=\int_0^1\left(1-\frac1{1+nx}\right)dx
-=1-\frac{\ln(1+n)}n\longrightarrow1.
-$$
+**结论速览**：$\lim\limits_{n\to\infty}nS_n = 1$
+
+- **完整解答**：
+  1. **归纳求 $f_n(x)$ 的通项**：已知 $f_1(x)=\dfrac{x}{1+x}$。假设 $f_k(x)=\dfrac{x}{1+kx}$，则
+     $$f_{k+1}(x) = f\bigl(f_k(x)\bigr) = \frac{\frac{x}{1+kx}}{1+\frac{x}{1+kx}} = \frac{x}{1+(k+1)x}.$$
+     由数学归纳法，对一切 $n\ge 1$ 有 $f_n(x)=\dfrac{x}{1+nx}$（$x\in[0,1]$）。
+  2. **计算面积 $S_n$ 与 $nS_n$**：因 $x\in[0,1]$ 时 $f_n(x)\ge 0$，所围图形面积为
+     $$S_n = \int_0^1 \frac{x}{1+nx}\,\mathrm{d}x.$$
+     两边同乘 $n$ 并拆项积分：
+     $$nS_n = \int_0^1 \frac{nx}{1+nx}\,\mathrm{d}x = \int_0^1 \left(1 - \frac{1}{1+nx}\right)\mathrm{d}x = \left[x - \frac{1}{n}\ln(1+nx)\right]_0^1 = 1 - \frac{\ln(1+n)}{n}.$$
+  3. **求极限**：因为 $\lim\limits_{n\to\infty}\dfrac{\ln(1+n)}{n}=0$，所以
+     $$\lim_{n\to\infty}nS_n = 1 - 0 = 1.$$
+- **核心思路与避坑**：也可以通过取倒数 $\frac{1}{f(x)}=\frac{1}{x}+1$（$x>0$）快速看出每复合一次倒数加 $1$，再用归纳法严谨写出通项（补齐 $x=0$ 处 $f_n(0)=0$）。
 
 </details>
 
@@ -213,9 +262,17 @@ $$
 <details>
 <summary>答案与解析</summary>
 
-**（I）最小值为 1，在 $x=1$ 取到。** $f'(x)=(x-1)/x^2$ 在 1 左负右正，故对所有 $x>0$ 都有 $f(x)\ge1$。
+**结论速览**：（I）最小值为 $1$（在 $x=1$ 处取到）；（II）**题面待核**（当前转录条件与第（I）问矛盾，按原卷常见条件 $\ln x_n+\frac{1}{x_n}<1+\frac{1}{n}$ 极限为 $1$）
 
-**（II）题面待核。** 当前条件 $f(x_n)<1$ 与（I）矛盾，不存在满足条件的实数列。若原卷另有 $f(x_n)\to1$ 的前提，才可由 $f$ 在 1 两侧严格单调、并且在 $0^+$ 和 $+\infty$ 都趋于无穷，推出 $x_n\to1$。须以独立原卷为准。
+- **（I）求 $f(x)$ 的最小值**：函数 $f(x)=\ln x+\dfrac{1}{x}$ 的定义域为 $(0,+\infty)$，求导得
+  $$f'(x) = \frac{1}{x} - \frac{1}{x^2} = \frac{x-1}{x^2}.$$
+  令 $f'(x)=0$ 得唯一驻点 $x=1$。当 $x\in(0,1)$ 时 $f'(x)<0$，$f(x)$ 严格递减；当 $x\in(1,+\infty)$ 时 $f'(x)>0$，$f(x)$ 严格递增。因此 $f(x)$ 在 $x=1$ 处取得全局最小值
+  $$f_{\min} = f(1) = \ln 1 + 1 = 1.$$
+- **（II）题面待核**：当前转录条件写作 $\ln x_n+\dfrac{1}{x_n} < 1$，但由第（I）问知对一切 $x>0$ 恒有 $\ln x+\dfrac{1}{x}\ge 1$，二者直接矛盾，不存在满足该条件的实数列 $\{x_n\}$。
+  - **按独立原卷常见题面补证**（若原卷条件为 $\ln x_n+\dfrac{1}{x_n} < 1+\dfrac{1}{n}$ 或其他趋于 $1^+$ 的上界）：由第（I）问与该条件得
+    $$1 \le f(x_n) < 1 + \frac{1}{n} \implies \lim_{n\to\infty} f(x_n) = 1.$$
+    又 $\lim\limits_{x\to 0^+}f(x)=\lim\limits_{x\to+\infty}f(x)=+\infty$，结合 $f(x)$ 在 $(0,1]$ 严格递减、在 $[1,+\infty)$ 严格递增，对任意 $\varepsilon\in(0,1)$，记 $\delta=\min\{f(1-\varepsilon),f(1+\varepsilon)\}-1>0$，当 $n$ 充分大时 $f(x_n)<1+\delta$，必有 $|x_n-1|<\varepsilon$，故 $\lim\limits_{n\to\infty}x_n=1$。（具体条件须以独立原卷核对为准。）
+- **核心思路与避坑**：第（II）问的实质是利用 $f(x)$ 的单谷性与边界趋于 $+\infty$ 的性质，由函数值收敛到唯一最小值反推自变量收敛到最小值点。
 
 </details>
 
@@ -262,7 +319,13 @@ $$
 <details>
 <summary>答案与解析</summary>
 
-**答案 $\pi/4$。** 原式写为 $\frac1n\sum_{k=1}^n \frac1{1+(k/n)^2}$，是 $[0,1]$ 上的右端点黎曼和，极限为 $\int_0^1dt/(1+t^2)$。
+**答案**：$\dfrac{\pi}{4}$
+
+- **切入点与推演**：将外部因子 $n$ 与分母中的 $n^2$ 约分，化为 $[0,1]$ 上的标准黎曼和：
+  $$n\sum_{k=1}^{n}\frac{1}{k^2+n^2} = \frac{1}{n}\sum_{k=1}^{n}\frac{1}{1+\left(\frac{k}{n}\right)^2}.$$
+  由于 $f(x)=\dfrac{1}{1+x^2}$ 在 $[0,1]$ 上连续，由定积分定义得
+  $$\lim_{n\to\infty}\frac{1}{n}\sum_{k=1}^{n}\frac{1}{1+\left(\frac{k}{n}\right)^2} = \int_0^1 \frac{1}{1+x^2}\,\mathrm{d}x = \bigl[\arctan x\bigr]_0^1 = \frac{\pi}{4}.$$
+- **易错点**：分子分母同除 $n^2$ 时别把最前面的 $n$ 漏除掉，最终步长因子应为 $\frac{1}{n}$。
 
 </details>
 
@@ -279,9 +342,24 @@ $$
 <details>
 <summary>答案与解析</summary>
 
-**证明。** （1）$S_n(x)=x+\cdots+x^n$ 在正半轴严格递增，$S_n(1/2)=1-2^{-n}<1$、$S_n(1)=n>1$，故唯一根在 $(1/2,1)$。
+**结论速览**：（1）由零点定理与严格单调性证唯一根；（2）$\{x_n\}$ 单调递减且有下界 $\dfrac{1}{2}$，$\lim\limits_{n\to\infty}x_n = \dfrac{1}{2}$
 
-（2）$S_{n+1}(x_n)>S_n(x_n)=1$，故 $x_{n+1}<x_n$，且有下界 $1/2$。几何和给 $2x_n-1=x_n^{n+1}$，右边被 $x_2^{n+1}$ 控制并趋 0，故极限为 $1/2$。
+- **（1）证明唯一实根**：对整数 $n>1$，构造辅助函数
+  $$f_n(x) = x^n + x^{n-1} + \cdots + x - 1.$$
+  $f_n(x)$ 在 $\left[\dfrac{1}{2},1\right]$ 上连续，且当 $x>0$ 时
+  $$f_n'(x) = nx^{n-1} + (n-1)x^{n-2} + \cdots + 1 > 0,$$
+  故 $f_n(x)$ 在 $(0,+\infty)$ 上严格单调递增。计算两端点函数值：
+  $$f_n\left(\frac{1}{2}\right) = \frac{\frac{1}{2}\left(1-\frac{1}{2^n}\right)}{1-\frac{1}{2}} - 1 = -\frac{1}{2^n} < 0, \qquad f_n(1) = n - 1 > 0.$$
+  由零点定理与严格单调性，方程 $f_n(x)=0$ 在 $\left(\dfrac{1}{2},1\right)$ 内有且仅有一个实根 $x_n$。
+- **（2）证明极限存在并求极限**：
+  1. **单调有界**：由 $f_n(x_n)=0$ 与 $x_n\in\left(\frac{1}{2},1\right)$，得
+     $$f_{n+1}(x_n) = x_n^{n+1} + f_n(x_n) = x_n^{n+1} > 0 = f_{n+1}(x_{n+1}).$$
+     因 $f_{n+1}(x)$ 在 $(0,+\infty)$ 上严格递增，故 $x_{n+1} < x_n$。又 $x_n > \dfrac{1}{2}$，由单调有界准则知 $\lim\limits_{n\to\infty}x_n = A$ 存在，且 $\dfrac{1}{2}\le A < x_2 < 1$。
+  2. **求极限**：因为 $x_n\ne 1$，对等比求和 $x_n+x_n^2+\cdots+x_n^n=1$ 化简得
+     $$\frac{x_n(1-x_n^n)}{1-x_n} = 1 \implies 2x_n - 1 = x_n^{n+1}.$$
+     由单调递减性，对 $n\ge 2$ 有 $0 < x_n \le x_2 < 1$，故 $0 < x_n^{n+1} \le x_2^{n+1} \to 0$（$n\to\infty$）。对 $2x_n-1=x_n^{n+1}$ 两边取极限，得
+     $$2A - 1 = 0 \implies A = \frac{1}{2}.$$
+- **核心思路与避坑**：切忌在未证明 $A<1$（或 $x_n\le x_2<1$）之前就直接断言 $x_n^{n+1}\to 0$——若 $A=1$，则 $x_n^{n+1}$ 是 $1^\infty$ 型未定式！利用 $x_n\le x_2<1$ 放缩夹逼是标准满分写法。
 
 </details>
 
@@ -335,7 +413,14 @@ $$
 <details>
 <summary>答案与解析</summary>
 
-**答案 D。** 单项化为 $n^{-2}[(1+i/n)(1+(j/n)^2)]^{-1}$。两个指标都独立遍历 $1,\ldots,n$，所以是整个单位正方形上的二重黎曼和。若只有 $j\le i$，才会出现三角形区域。
+**答案**：**（D）** $\displaystyle\int_{0}^{1}\mathrm{d}x\int_{0}^{1}\frac{1}{(1+x)(1+y^2)}\,\mathrm{d}y$
+
+- **切入点与推演**：将二重和式的通项分子分母同除 $n^3$，拆出面积微元 $\dfrac{1}{n^2}$ 与归一化变量 $\dfrac{i}{n},\ \dfrac{j}{n}$：
+  $$\sum_{i=1}^{n}\sum_{j=1}^{n}\frac{n}{(n+i)(n^2+j^2)} = \frac{1}{n^2}\sum_{i=1}^{n}\sum_{j=1}^{n}\frac{1}{\left(1+\frac{i}{n}\right)\left(1+\left(\frac{j}{n}\right)^2\right)}.$$
+  两个求和指标 $i,j$ 均独立地从 $1$ 遍历到 $n$，对应平面区域 $D=[0,1]\times[0,1]$ 的均匀网格分割。由于被积函数 $\dfrac{1}{(1+x)(1+y^2)}$ 在 $D$ 上连续，由二重积分定义得
+  $$\text{原式} = \iint_D \frac{1}{(1+x)(1+y^2)}\,\mathrm{d}x\,\mathrm{d}y = \int_0^1\mathrm{d}x\int_0^1\frac{1}{(1+x)(1+y^2)}\,\mathrm{d}y.$$
+  故选 **（D）**。
+- **干扰项 / 易错提示**：选项（A）（B）的积分区域是三角形 $0\le y\le x\le 1$，只有内层求和上限为 $j\le i$ 时才会出现；选项（C）则漏掉了分母中 $y^2$ 的平方。
 
 </details>
 

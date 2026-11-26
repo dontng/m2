@@ -48,7 +48,13 @@
 <details>
 <summary>答案与解析</summary>
 
-**题面待核。若限定初等行变换，答案 B。** B 的第二、三行各减第一行，变成 $(0,0,2,4)$、$(0,0,1,2)$，继续消元即可。若把当前转写“初等变换”理解成允许行、列两类变换，则 A、B、D 都是秩 2 并与目标矩阵等价。仓库题图未限定行变换，需要核对独立原卷。
+**题面待核**（按当前题面“初等变换”无唯一解；若原卷限定为“初等行变换”，则答案选 **（B）**）
+
+- **题面核查说明**：当前转写仅写“经过若干初等变换”，未限定为“初等行变换”。若同时允许初等行变换与初等列变换，则矩阵等价仅取决于秩：目标矩阵 $M=\begin{pmatrix} 1 & 1 & 0 & 1 \\ 0 & 0 & 1 & 2 \\ 0 & 0 & 0 & 0 \end{pmatrix}$ 的秩为 $2$，经计算选项（A）（B）（D）的秩均为 $2$（仅（C）的秩为 $3$），因此（A）（B）（D）均与 $M$ 等价，无唯一选项。
+- **按“初等行变换”意图的推演**：目标矩阵 $M$ 本身已是行最简形，两矩阵行等价当且仅当它们有相同的行最简形。对（B）做初等行变换：
+  $$\begin{pmatrix} 1 & 1 & 0 & 1 \\ 1 & 1 & 2 & 5 \\ 1 & 1 & 1 & 3 \end{pmatrix} \xrightarrow[r_3-r_1]{r_2-r_1} \begin{pmatrix} 1 & 1 & 0 & 1 \\ 0 & 0 & 2 & 4 \\ 0 & 0 & 1 & 2 \end{pmatrix} \xrightarrow[r_2\leftrightarrow r_3]{r_2-2r_3} \begin{pmatrix} 1 & 1 & 0 & 1 \\ 0 & 0 & 1 & 2 \\ 0 & 0 & 0 & 0 \end{pmatrix} = M.$$
+  而（A）的行最简形为 $\begin{pmatrix} 1 & 0 & -1 & -1 \\ 0 & 1 & 1 & 2 \\ 0 & 0 & 0 & 0 \end{pmatrix}$，（D）的行最简形为 $\begin{pmatrix} 1 & 0 & 2 & 3 \\ 0 & 1 & 0 & 0 \\ 0 & 0 & 0 & 0 \end{pmatrix}$，（C）满秩为 $3$，均与 $M$ 不行等价。故在“初等行变换”前提下唯一选 **（B）**。
+- **易错提示**：看到目标矩阵是标准的行最简形时，考场意图通常是检验行等价（即同解方程组/相同行空间）；核对原卷时需确认题干是否漏印“行”字。
 
 </details>
 
@@ -106,7 +112,19 @@
 <details>
 <summary>答案与解析</summary>
 
-**答案 D。** 设所给块矩阵为 $M$，直接乘回可验证 $M^{-1}=\begin{pmatrix}A^{-1}&-A^{-1}B^{-1}\\0&B^{-1}\end{pmatrix}$，而 $|M|=|A||B|$。乘上行列式并用 $A^*=|A|A^{-1}$ 即得 D。右上角的顺序由块乘法决定。
+**答案**：**（D）** $\begin{pmatrix} |B|A^* & -A^*B^* \\ O & |A|B^* \end{pmatrix}$
+
+- **切入点与推演**：已知 $A,B$ 可逆，分块上三角矩阵 $M = \begin{pmatrix} A & E \\ O & B \end{pmatrix}$ 可逆，直接用核心公式 $M^* = |M|M^{-1}$ 求解，避免逐块算代数余子式。
+  1. **求行列式**：由分块上三角矩阵的行列式公式，
+     $$|M| = |A|\cdot |B|.$$
+  2. **求分块逆矩阵**：设 $M^{-1} = \begin{pmatrix} X & Y \\ O & Z \end{pmatrix}$，由 $\begin{pmatrix} A & E \\ O & B \end{pmatrix}\begin{pmatrix} X & Y \\ O & Z \end{pmatrix} = \begin{pmatrix} E & O \\ O & E \end{pmatrix}$，得
+     $$AX = E \implies X = A^{-1}, \qquad BZ = E \implies Z = B^{-1},$$
+     $$AY + Z = O \implies Y = -A^{-1}Z = -A^{-1}B^{-1}.$$
+     故 $M^{-1} = \begin{pmatrix} A^{-1} & -A^{-1}B^{-1} \\ O & B^{-1} \end{pmatrix}$。
+  3. **乘上 $|M|=|A||B|$ 并换回伴随矩阵**（利用 $|A|A^{-1}=A^*,\ |B|B^{-1}=B^*$）：
+     $$M^* = |A||B|\begin{pmatrix} A^{-1} & -A^{-1}B^{-1} \\ O & B^{-1} \end{pmatrix} = \begin{pmatrix} |B|(|A|A^{-1}) & -(|A|A^{-1})(|B|B^{-1}) \\ O & |A|(|B|B^{-1}) \end{pmatrix} = \begin{pmatrix} |B|A^* & -A^*B^* \\ O & |A|B^* \end{pmatrix}.$$
+  对照选项得 **（D）**。
+- **干扰项 / 易错提示**：（A）（B）把主对角块误写成 $|A|B^*, |B|A^*$（混淆了 $2$ 阶普通矩阵伴随“主对角互换”的规律）；（C）把右上角顺序写反成 $-B^*A^*$，注意 $Y = -A^{-1}B^{-1}$ 中 $A^{-1}$ 在左、$B^{-1}$ 在右。
 
 </details>
 
@@ -121,7 +139,19 @@
 <details>
 <summary>答案与解析</summary>
 
-**答案 $-1$。** 倒序撤销列变换与行交换，得 $A=\begin{pmatrix}-1&1&-1\\-1&0&0\\0&-1&0\end{pmatrix}$。解 $Ax=b$ 得 $x=(-b_2,-b_3,-b_1+b_2-b_3)^T$，故逆矩阵的对角元为 $0,0,-1$。
+**答案**：$-1$
+
+- **切入点与推演**：把题述初等变换写成矩阵乘法，倒序逆变换还原 $A$，再求 $A^{-1}$ 的主对角元之和。
+  1. **还原矩阵 $A$**：记结果矩阵为 $B = \begin{pmatrix} -2 & 1 & -1 \\ 1 & -1 & 0 \\ -1 & 0 & 0 \end{pmatrix}$。题述操作为“交换第 $2,3$ 行（左乘 $P_{23}$），再将第 $2$ 列的 $-1$ 倍加到第 $1$ 列（右乘 $E_{21}(-1)$）”，故倒序撤销：
+     - 先撤销列变换（将第 $2$ 列的 $+1$ 倍加到第 $1$ 列，$c_1+c_2$）：
+       $$B = \begin{pmatrix} -2 & 1 & -1 \\ 1 & -1 & 0 \\ -1 & 0 & 0 \end{pmatrix} \xrightarrow{c_1+c_2} \begin{pmatrix} -1 & 1 & -1 \\ 0 & -1 & 0 \\ -1 & 0 & 0 \end{pmatrix};$$
+     - 再撤销行交换（交换第 $2,3$ 行，$r_2\leftrightarrow r_3$）：
+       $$A = \begin{pmatrix} -1 & 1 & -1 \\ -1 & 0 & 0 \\ 0 & -1 & 0 \end{pmatrix}.$$
+  2. **求 $A^{-1}$ 与 $\operatorname{tr}(A^{-1})$**：用初等行变换对 $(A\mid E)$ 求逆（或直接解 $A\boldsymbol{x}=\boldsymbol{b}$）：
+     由 $-x_1=b_2 \implies x_1=-b_2$，$-x_2=b_3 \implies x_2=-b_3$，$-x_1+x_2-x_3=b_1 \implies x_3=-b_1+b_2-b_3$，得
+     $$A^{-1} = \begin{pmatrix} 0 & -1 & 0 \\ 0 & 0 & -1 \\ -1 & 1 & -1 \end{pmatrix}.$$
+     因此 $\operatorname{tr}(A^{-1}) = 0 + 0 + (-1) = -1$。
+- **易错点**：还原 $A$ 时列变换的逆操作是 $c_1+c_2$（不是 $c_1-c_2$）；也可以直接利用 $P_{23}AE_{21}(-1)=B \implies A^{-1} = E_{21}(-1)B^{-1}P_{23}$，但先还原 $A$ 再求逆不易搞反顺序。
 
 </details>
 
@@ -136,7 +166,16 @@
 <details>
 <summary>答案与解析</summary>
 
-**答案 C。** 用所列非单位下三角矩阵 $P$ 左乘，恰得 $\begin{pmatrix}1&0&-1\\0&1&-3\\0&0&0\end{pmatrix}$。随后右乘 C 的 $Q$ 相当于把第 1 列与三倍第 2 列加到第 3 列，得到 $\operatorname{diag}(1,1,0)$。
+**答案**：**（C）** $P=\begin{pmatrix}1 & 0 & 0 \\ 2 & -1 & 0 \\ -3 & 2 & 1\end{pmatrix}$，$Q=\begin{pmatrix}1 & 0 & 1 \\ 0 & 1 & 3 \\ 0 & 0 & 1\end{pmatrix}$
+
+- **切入点与推演**：下三角可逆矩阵 $P$ 左乘 $A$ 对应“只用上方行向下消元（或倍乘）”，上三角可逆矩阵 $Q$ 右乘 $A$ 对应“只用左侧列向右消元（或倍乘）”。因此只需对 $A$ 先做向下行消元化为上三角，再做向右列消元化为对角阵，并同步记录 $P$ 与 $Q$。
+  1. **向下行消元求 $P$**（在 $(A\mid E)$ 上操作）：
+     $$\begin{pmatrix} 1 & 0 & -1 & \vline & 1 & 0 & 0 \\ 2 & -1 & 1 & \vline & 0 & 1 & 0 \\ -1 & 2 & -5 & \vline & 0 & 0 & 1 \end{pmatrix} \xrightarrow[r_3+r_1]{r_2-2r_1} \begin{pmatrix} 1 & 0 & -1 & \vline & 1 & 0 & 0 \\ 0 & -1 & 3 & \vline & -2 & 1 & 0 \\ 0 & 2 & -6 & \vline & 1 & 0 & 1 \end{pmatrix} \xrightarrow[r_2\times(-1)]{r_3+2r_2} \begin{pmatrix} 1 & 0 & -1 & \vline & 1 & 0 & 0 \\ 0 & 1 & -3 & \vline & 2 & -1 & 0 \\ 0 & 0 & 0 & \vline & -3 & 2 & 1 \end{pmatrix}.$$
+     即取 $P = \begin{pmatrix} 1 & 0 & 0 \\ 2 & -1 & 0 \\ -3 & 2 & 1 \end{pmatrix}$ 时，$PA = \begin{pmatrix} 1 & 0 & -1 \\ 0 & 1 & -3 \\ 0 & 0 & 0 \end{pmatrix}$。
+  2. **向右列消元求 $Q$**：要消去 $PA$ 第 $3$ 列的 $-1$ 和 $-3$，需对 $PA$ 做 $c_3 + c_1$ 与 $c_3 + 3c_2$，同步对单位阵 $E$ 做相同列变换即得
+     $$Q = \begin{pmatrix} 1 & 0 & 1 \\ 0 & 1 & 3 \\ 0 & 0 & 1 \end{pmatrix}, \qquad PAQ = \begin{pmatrix} 1 & 0 & 0 \\ 0 & 1 & 0 \\ 0 & 0 & 0 \end{pmatrix}.$$
+  对照选项得 **（C）**。
+- **干扰项 / 易错提示**：（A）中 $P=E$ 未消去 $A$ 下三角的非零元；（B）中 $Q=E$ 未消去 $PA$ 上三角的 $-1,-3$；（D）将 $P,Q$ 的角色与转置结构混淆。考场上也可直接用选项中的 $P$ 左乘 $A$ 快速验证。
 
 </details>
 
@@ -199,12 +238,23 @@
 <details>
 <summary>答案与解析</summary>
 
-**解。** （1）$A^3=0$ 迫使全部特征值为零，所以迹 $3a=0$。
+**结论速览**：（1）$a = 0$；（2）$X = \begin{pmatrix} 4 & 2 & -3 \\ 2 & 1 & -2 \\ 3 & 2 & -2 \end{pmatrix}$。
 
-（2）原式因式分解为 $(I-A)X(I-A)=I$。由 $A^3=0$，$(I-A)^{-1}=I+A+A^2$，故 $X=I+2A+3A^2$。代 $a=0$ 即得
-$$
-X=\begin{pmatrix}4&2&-3\\2&1&-2\\3&2&-2\end{pmatrix}.
-$$
+- **（1）求 $a$ 的值**：
+  由 $A^3 = O$ 可知，若 $\lambda$ 是 $A$ 的任一特征值，则 $\lambda^3 = 0 \implies \lambda = 0$，即 $A$ 的全部特征值均为 $0$。
+  由矩阵的迹等于特征值之和，得
+  $$\operatorname{tr}(A) = 3a = 0 \implies a = 0.$$
+  （验证：当 $a=0$ 时，$A = \begin{pmatrix} 0 & 1 & 0 \\ 1 & 0 & -1 \\ 0 & 1 & 0 \end{pmatrix}$，算得 $A^2 = \begin{pmatrix} 1 & 0 & -1 \\ 0 & 0 & 0 \\ 1 & 0 & -1 \end{pmatrix}$，$A^3 = A^2A = O$，满足题设。）
+- **（2）求矩阵 $X$**：
+  将矩阵方程因式分解：
+  $$X - XA - AX + AXA = (E - A)X(E - A) = E.$$
+  由 $A^3 = O$，利用立方差公式 $E - A^3 = (E - A)(E + A + A^2) = E$，可知 $E - A$ 可逆，且
+  $$(E - A)^{-1} = E + A + A^2.$$
+  方程两边分别左乘、右乘 $(E - A)^{-1}$，再利用 $A^3 = A^4 = O$ 展开化简：
+  $$X = (E - A)^{-1} E (E - A)^{-1} = (E + A + A^2)^2 = E + 2A + 3A^2 + 2A^3 + A^4 = E + 2A + 3A^2.$$
+  代入 $a=0$ 时的 $A$ 与 $A^2$：
+  $$X = \begin{pmatrix} 1 & 0 & 0 \\ 0 & 1 & 0 \\ 0 & 0 & 1 \end{pmatrix} + 2\begin{pmatrix} 0 & 1 & 0 \\ 1 & 0 & -1 \\ 0 & 1 & 0 \end{pmatrix} + 3\begin{pmatrix} 1 & 0 & -1 \\ 0 & 0 & 0 \\ 1 & 0 & -1 \end{pmatrix} = \begin{pmatrix} 4 & 2 & -3 \\ 2 & 1 & -2 \\ 3 & 2 & -2 \end{pmatrix}.$$
+- **核心思路与避坑**：看到幂零条件 $A^k=O$，立刻联想两件事：① 特征值全为 $0$（迹与行列式均为 $0$）；② $(E-A)^{-1} = E + A + \cdots + A^{k-1}$。第（2）问展开 $(E+A+A^2)^2$ 时，系数为 $1, 2, 3$（因为 $A^2$ 来自 $E\cdot A^2 + A\cdot A + A^2\cdot E$），别误写成 $1, 2, 2$。
 
 </details>
 
@@ -219,11 +269,26 @@ $$
 <details>
 <summary>答案与解析</summary>
 
-**解。** 取迹得 $\operatorname{tr}B=b=0$。两边左乘 $A$ 后再取迹，左边仍为零（矩阵乘积的迹可循环），所以 $\operatorname{tr}(AB)=a+1=0$，即 $a=-1$。代回逐元素比较，得到所有解
-$$
-C=\begin{pmatrix}1+s+t&-s\\s&t\end{pmatrix},\qquad s,t\in\mathbb R.
-$$
-直接相乘可验这些矩阵均满足原式。
+**结论速览**：当且仅当 $a = -1,\ b = 0$ 时存在矩阵 $C$，所有解为 $C = \begin{pmatrix} 1 + k_1 + k_2 & -k_1 \\ k_1 & k_2 \end{pmatrix}$（$k_1, k_2 \in \mathbb{R}$）。
+
+- **完整解答**：
+  设 $C = \begin{pmatrix} x_1 & x_2 \\ x_3 & x_4 \end{pmatrix}$，代入矩阵方程 $AC - CA = B$：
+  $$AC = \begin{pmatrix} 1 & a \\ 1 & 0 \end{pmatrix}\begin{pmatrix} x_1 & x_2 \\ x_3 & x_4 \end{pmatrix} = \begin{pmatrix} x_1+ax_3 & x_2+ax_4 \\ x_1 & x_2 \end{pmatrix},$$
+  $$CA = \begin{pmatrix} x_1 & x_2 \\ x_3 & x_4 \end{pmatrix}\begin{pmatrix} 1 & a \\ 1 & 0 \end{pmatrix} = \begin{pmatrix} x_1+x_2 & ax_1 \\ x_3+x_4 & ax_3 \end{pmatrix}.$$
+  逐元素比较 $AC - CA = \begin{pmatrix} 0 & 1 \\ 1 & b \end{pmatrix}$，得到关于 $(x_1, x_2, x_3, x_4)^T$ 的线性方程组：
+  $$\begin{cases} -x_2 + ax_3 = 0, \\ -ax_1 + x_2 + ax_4 = 1, \\ x_1 - x_3 - x_4 = 1, \\ x_2 - ax_3 = b. \end{cases}$$
+  1. **确定参数 $a, b$**：
+     对增广矩阵做初等行变换（或先用迹技巧快速锁定：由 $\operatorname{tr}(AC-CA)=0$ 得 $\operatorname{tr}(B)=b=0$；再左乘 $A$ 取迹，由 $\operatorname{tr}(A^2C-ACA)=0$ 得 $\operatorname{tr}(AB)=a+1=0 \implies a=-1$）：
+     - 将第 $1$ 个方程与第 $4$ 个方程相加，立得 $0 = b \implies b = 0$；
+     - 将第 $3$ 个方程乘以 $a$ 加到第 $2$ 个方程，得 $x_2 - ax_3 = a + 1$，与第 $1$ 个方程 $-x_2 + ax_3 = 0$ 相加，得 $0 = a + 1 \implies a = -1$。
+     故方程组有解的充要条件为 $a = -1,\ b = 0$。
+  2. **求所有矩阵 $C$**：
+     将 $a = -1,\ b = 0$ 代回方程组，独立方程仅剩两个：
+     $$\begin{cases} x_2 + x_3 = 0, \\ x_1 - x_3 - x_4 = 1. \end{cases}$$
+     令自由变量 $x_3 = k_1,\ x_4 = k_2$（$k_1, k_2 \in \mathbb{R}$），则 $x_2 = -k_1,\ x_1 = 1 + k_1 + k_2$。
+     因此所有满足条件的矩阵为
+     $$C = \begin{pmatrix} 1 + k_1 + k_2 & -k_1 \\ k_1 & k_2 \end{pmatrix}, \qquad k_1, k_2 \in \mathbb{R}.$$
+- **核心思路与避坑**：遇到 $AC - CA = B$ 形式的换位子方程，用 $\operatorname{tr}(XY)=\operatorname{tr}(YX)$ 可秒出必要条件 $\operatorname{tr}(B)=0$ 与 $\operatorname{tr}(AB)=0$，但考场解答题必须把 $a,b$ 代回原线性方程组求出通解（同时自然验证了充分性），不可只写必要条件。
 
 </details>
 
