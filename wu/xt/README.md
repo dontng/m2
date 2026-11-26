@@ -1,13 +1,13 @@
-# 武忠祥：选填题
+# 武忠祥：26 考研选填题速成（Gemini 实战版）
 
-用途：为项目已有真题 Markdown 提供可回溯的武忠祥方法依据。原课中出现相同真题时优先还原该题板书路径；没有同题时只迁移已核对的同类方法，不声称老师亲自讲过这道题。
+> **核心定位**：专攻考研数学二选填题（80 分主战场）的“**直接法（推演/几何/验证）× 排除法（特例/赋值/反例）**”双轨战法。第 1–5 册（289 页，177 处真题标注）已完成全页 `fitz` 实证提炼；第 6 册（58 页）已做数一/三考纲隔离。
 
-- `pdf/`：用户上传的原始PDF，保留文件名与内容。
-- `notes/`：每份课程文件对应一篇理解Markdown，保留每节内部的方法分段、例题路径、适用条件、页码和疑点。
-- `process/`：来源清单、逐页处理状态、处理规范与校验记录。
-
-每份PDF作为当前可识别的一次课/一个分册，不根据“十七堂课”名称强行拼成17节。文件内若含多个专题，在对应MD内分节记录；后续有明确视频课次再细分，不凭空编课次。
-
-逐课理解入口：[notes/README.md](notes/README.md)。处理清单：[process/sources.json](process/sources.json)；逐页状态：[process/page-index.json](process/page-index.json)。
-
-已为每份PDF保留独立MD。当前两份为逐页阅读后的深入理解稿，其余为局部草稿，不能当作全课已理解。当前只完成MD，不制作或安装Skill。此前两个方法样本及自编题保留在 `process/archive/`，仅供追溯，不再作为当前教学输出。现有章节题单与真题图片保留。
+- **实战总纲**：[武忠祥高数考研实战风格与解题军规手册](../WU_STYLE_PLAYBOOK.md)
+- **分册讲义入口**：[notes/README.md](notes/README.md)
+  - [01 · 函数性质与极限](notes/01-functions-limits.md)（47 页）
+  - [02 · 无穷小阶、间断点与可导性起步](notes/02-orders-continuity.md)（36 页）
+  - [03 · 可导性、求导与函数性态](notes/03-derivatives-shape.md)（67 页）
+  - [04 · 积分性质、反常积分与几何物理应用](notes/04-integrals.md)（60 页）
+  - [05 · 微分方程、多元微分与二重积分](notes/05-ode-multivariable-double.md)（79 页）
+  - [06 · 数一/三内容隔离说明](notes/06-series-higher-integrals.md)（58 页 · 数二跳过）
+- **原始语料与过程索引**：`pdf/`（6 份原板书 PDF）、[process/sources.json](process/sources.json)、[process/page-index.json](process/page-index.json)
