@@ -24,6 +24,31 @@ assert set(PRIORITIES) == set(CHAPTERS), '25章选题指引必须齐全'
 def chapter_path(c, ext="html"):
     return f"{c['group']}/{c['slug']}.{ext}"
 
+def read_folded_solutions():
+    """重建题单时，按题图中的原卷题号携带现有题下解析。"""
+    pattern = re.compile(
+        r'^<img src="\.\./bank/(\d{4})/q(\d+)\.png[^"\n]*"[^\n]*>\n\n'
+        r'(<details>\n<summary>答案与解析</summary>\n\n.+?\n\n</details>)$',
+        re.M | re.S,
+    )
+    solutions = {}
+    for chapter in TAXONOMY:
+        path = ROOT / chapter_path(chapter, 'md')
+        if not path.exists():
+            continue
+        source = path.read_text()
+        matches = list(pattern.finditer(source))
+        if len(matches) != source.count('<summary>答案与解析</summary>'):
+            raise ValueError(f'解析应紧跟对应题图，且折叠标签须完整：{path}')
+        for year, number, block in (match.groups() for match in matches):
+            question_id = f'{year}-{int(number)}'
+            if question_id in solutions:
+                raise ValueError(f'题目解析重复：{question_id}')
+            solutions[question_id] = block
+    if solutions and solutions.keys() != {row['id'] for row in ROWS}:
+        raise ValueError('题号与题下解析不一一对应，请核对后再重建')
+    return solutions
+
 def md_chapter_rel(from_c, to_c):
     if from_c['group'] == to_c['group']:
         return f"{to_c['slug']}.md"
@@ -212,6 +237,7 @@ for r in ROWS:
     assert len(set(r['related']))==len(r['related'])
     assert all(c in CHAPTERS and c!=r['primary'] for c in r['related'])
 
+solutions = read_folded_solutions()
 stats = []
 for c in TAXONOMY:
     rows = ordered([r for r in ROWS if r['primary']==c['id']])
@@ -296,6 +322,8 @@ for c in TAXONOMY:
             md_content.append(f"> ⚠️ **题面待核对**：原年度转写稿存在疑点，本次保留题面，作答前请核对独立原题来源。\n")
         
         md_content.append(f'<img src="{img_rel}" alt="{r["year"]}-{r["number"]:02d}" width="720" style="display: block; width: {w_em}em; max-width: 100%; height: auto; margin: 12px 0;">\n')
+        if r['id'] in solutions:
+            md_content.append(solutions[r['id']] + '\n')
         
         if r['related']:
             links_md = ' · '.join(f'[{CHAPTERS[k]["title"]}]({md_chapter_rel(c, CHAPTERS[k])})' for k in r['related'])
