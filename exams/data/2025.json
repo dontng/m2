@@ -286,7 +286,7 @@
           "number": 14,
           "type": "填空题",
           "points": 5,
-          "stem": "已知函数 $y = y\\left( x \\right)$ 由 $\\left\\{ \\begin{aligned} x &= \\ln \\left( 1 + 2t \\right), \\\\ 2t - \\int_{1}^{y + t^{2}} e^{-u^{2}} \\mathrm{~d} u &= 0 \\end{aligned} \\right.$\n确定，则 $\\left. \\frac{\\mathrm{d} y}{\\mathrm{d} x} \\right|_{x = 0} =$ ________."
+          "stem": "已知函数 $y = y\\left( x \\right)$ 由 $\\begin{cases} x = \\ln \\left( 1 + 2t \\right), \\\\ \\displaystyle 2t - \\int_{1}^{y + t^{2}} e^{-u^{2}} \\mathrm{~d} u = 0 \\end{cases}$\n确定，则 $\\left. \\frac{\\mathrm{d} y}{\\mathrm{d} x} \\right|_{x = 0} =$ ________."
         },
         {
           "number": 15,

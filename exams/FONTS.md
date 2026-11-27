@@ -1,6 +1,8 @@
 # 字体与 PDF 缺字检查
 
-本地字体必须覆盖完整页面，不能只从题目正文提取字符。正文和页脚使用 Noto Serif CJK SC SemiBold（半粗宋体），题头使用 Noto Sans CJK SC。字体按年度 HTML、卷头、题型说明、导航及 CSS 页脚的文字生成子集，优先于系统字体。积分等数学符号使用独立的 KaTeX 字体。Noto CJK 许可见 `assets/LICENSE-Noto.txt`。
+本地字体必须覆盖完整页面，不能只从题目正文提取字符。正文和页脚使用 Noto Serif CJK SC SemiBold（半粗宋体），题头使用 Noto Sans CJK SC。字体按年度 HTML、卷头、题型说明、导航及 CSS 页脚的文字生成子集，优先于系统字体。Noto CJK 许可见 `assets/LICENSE-Noto.txt`。
+
+屏幕公式使用原版 KaTeX 字体。打印使用由同一套字体生成的 M2Print 字形，统一加厚字形轮廓，保留字符宽度和常规、粗体、斜体的区分。分式横线和 SVG 数学符号在打印样式中加深。衍生字体许可见 `assets/print-math/OFL.txt`。
 
 来源地址、原始文件哈希和版本见 `assets/font-sources.json`；输出字体哈希与覆盖检查见 `assets/font-coverage.json`。这两个文件是可追溯信息，不替代每次动态检查。
 
@@ -23,6 +25,8 @@ python exams/scripts/font_assets.py
 python exams/scripts/test_font_chain.py
 python exams/scripts/pdf_glyphs.py path/to/paper.pdf
 ```
+
+重建打印公式字体另需 `freetype-py`、`brotli` 和系统 FreeType 库，运行 `python exams/scripts/build-print-math-fonts.py`。
 
 新增文字导致覆盖检查失败后，从 `font-sources.json` 的上游地址取得完整字体，核对来源与哈希，重新生成；不要手改 cmap 或只在导出电脑安装一个临时字体：
 

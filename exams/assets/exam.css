@@ -1,3 +1,5 @@
+@import url("print-math/fonts.css") print;
+
 /* A real semibold face for regular body text, also used in print. */
 @font-face {
   font-family: ExamSong;
@@ -422,15 +424,15 @@ body {
     overflow: visible;
   }
 
-  /* Use bold glyphs for operators and short vertical delimiters. */
-  .katex-html :is(.mbin, .mrel, .op-symbol, .math-vertical-bar) {
-    font-weight: 700;
+  /* Make rules more visible without changing their layout dimensions. */
+  .katex-html :is(.frac-line, .overline-line, .underline-line, .hline) {
+    transform: scaleY(1.2);
   }
 
-  /* KaTeX draws tall single vertical delimiters as SVG paths. */
-  .katex-html .delimsizing path[d^="M145 15 v585"] {
+  /* Radicals, tall delimiters and other assembled signs use SVG outlines. */
+  .katex-html svg path {
     stroke: currentColor;
-    stroke-width: 0.24pt;
+    stroke-width: 0.18pt;
     vector-effect: non-scaling-stroke;
   }
 }
