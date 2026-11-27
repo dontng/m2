@@ -18,7 +18,7 @@ ROOT = Path(__file__).resolve().parents[1]
 ASSETS = ROOT / 'assets'
 FONTS = {'serif': 'exam-song.otf', 'sans': 'exam-hei.otf'}
 URLS = {
-    'serif': 'https://raw.githubusercontent.com/notofonts/noto-cjk/main/Serif/OTF/SimplifiedChinese/NotoSerifCJKsc-Regular.otf',
+    'serif': 'https://raw.githubusercontent.com/notofonts/noto-cjk/main/Serif/OTF/SimplifiedChinese/NotoSerifCJKsc-SemiBold.otf',
     'sans': 'https://raw.githubusercontent.com/notofonts/noto-cjk/main/Sans/OTF/SimplifiedChinese/NotoSansCJKsc-Regular.otf',
 }
 
@@ -76,7 +76,10 @@ def main():
         provenance = {}
         # Validate all sources before writing any output.
         for kind, path in sources.items():
-            missing = codes - set(TTFont(path).getBestCmap())
+            font = TTFont(path)
+            if kind == 'serif' and font['OS/2'].usWeightClass != 600:
+                raise ValueError('Serif source must be the semibold face (weight 600)')
+            missing = codes - set(font.getBestCmap())
             if missing: raise ValueError(f'{kind} source missing {sorted(missing)}')
         for kind, path in sources.items():
             font = TTFont(path, recalcTimestamp=False)

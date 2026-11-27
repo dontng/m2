@@ -1,3 +1,4 @@
+/* A real semibold face for regular body text, also used in print. */
 @font-face {
   font-family: ExamSong;
   src: url("exam-song.otf") format("opentype");
@@ -35,7 +36,6 @@ body {
   color: var(--ink);
   background: var(--bg-desk);
   font: 14.5px/1.65 var(--font-serif);
-  -webkit-font-smoothing: antialiased;
 }
 
 /* 顶部轻量工具栏（仅屏幕可见） */

@@ -1,6 +1,6 @@
 # 字体与 PDF 缺字检查
 
-本地字体必须覆盖完整页面，不能只从题目正文提取字符。当前宋体和黑体来自 Noto CJK（SIL OFL，许可见 `assets/LICENSE-Noto.txt`）；均按年度 HTML、卷头、题型说明、导航及 CSS 页脚的实际文字生成精简文件。两个字体分别用于正文/页脚和题头，优先于系统字体，避免导出机器决定能否显示某个字。未改变积分及其他数学符号的 KaTeX 字体。
+本地字体必须覆盖完整页面，不能只从题目正文提取字符。正文和页脚使用 Noto Serif CJK SC SemiBold（半粗宋体），题头使用 Noto Sans CJK SC。字体按年度 HTML、卷头、题型说明、导航及 CSS 页脚的文字生成子集，优先于系统字体。积分等数学符号使用独立的 KaTeX 字体。Noto CJK 许可见 `assets/LICENSE-Noto.txt`。
 
 来源地址、原始文件哈希和版本见 `assets/font-sources.json`；输出字体哈希与覆盖检查见 `assets/font-coverage.json`。这两个文件是可追溯信息，不替代每次动态检查。
 
@@ -27,7 +27,7 @@ python exams/scripts/pdf_glyphs.py path/to/paper.pdf
 新增文字导致覆盖检查失败后，从 `font-sources.json` 的上游地址取得完整字体，核对来源与哈希，重新生成；不要手改 cmap 或只在导出电脑安装一个临时字体：
 
 ```sh
-python exams/scripts/font_assets.py --build --serif-source NotoSerifCJKsc-Regular.otf --sans-source NotoSansCJKsc-Regular.otf
+python exams/scripts/font_assets.py --build --serif-source NotoSerifCJKsc-SemiBold.otf --sans-source NotoSansCJKsc-Regular.otf
 ```
 
 正式导出的 `PDF_OUTPUT` 可指定临时验证目录，样稿用 `PDF_PREVIEW_OUTPUT`；这些目录仅是输出位置，不会绕过检查。`SOURCE_COMMIT` 可显式记录已核对的源码提交。

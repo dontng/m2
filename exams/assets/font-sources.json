@@ -1,7 +1,7 @@
 {
   "serif": {
-    "sourceUrl": "https://raw.githubusercontent.com/notofonts/noto-cjk/main/Serif/OTF/SimplifiedChinese/NotoSerifCJKsc-Regular.otf",
-    "sourceSha256": "2a2eae2628df83556c54018c41e20fa532c1b862c5256ae8b3f23feb918d12ca",
+    "sourceUrl": "https://raw.githubusercontent.com/notofonts/noto-cjk/main/Serif/OTF/SimplifiedChinese/NotoSerifCJKsc-SemiBold.otf",
+    "sourceSha256": "d627b53dbcde61e07de1498d2623a8b287f78585ffbc90cc0618d0caaa2ed6b0",
     "version": "Version 2.003;hotconv 1.1.1;makeotfexe 2.6.0"
   },
   "sans": {

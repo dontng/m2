@@ -21,10 +21,10 @@
 ## 排版资源
 
 公式排版：KaTeX 0.16.22（MIT），许可见 LICENSE_KaTeX.txt。
-中文正文：优先使用系统宋体/宋体 SC；附带 Noto Serif CJK SC 子集作为缺字回退（SIL OFL 1.1，许可见 assets/LICENSE-Noto.txt）。
+中文正文：优先使用随卷附带的 Noto Serif CJK SC SemiBold 子集（SIL OFL 1.1，许可见 assets/LICENSE-Noto.txt）。
 
 ## 本轮规范化
 
 2010—2025 年解答题分值已与 lx-ruc/kaoyanshuxue 题目图片的题首分值逐题核对。修正了部分 Markdown 底稿中 2012、2013 年的分值误记。2026 年第 19 题原底稿误记为 10 分，交叉核对为 12 分（https://calc.xycost.com/lession/html/Math/math_practice_11.html），全卷各题合计 150 分。此次校对针对分值，未声称重新逐字核对全部题干。
 
-字体优先使用设备上的宋体/宋体 SC，数学字体使用本地 KaTeX 字体。不同设备未安装相同中文字体时，具体字形和换行可能有差异。
+年度 HTML 与合订本共用本地中文字体及 KaTeX 字体。完整下载 `exams/` 即可离线加载。
