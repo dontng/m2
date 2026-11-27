@@ -421,4 +421,16 @@ body {
   .katex-display {
     overflow: visible;
   }
+
+  /* Use bold glyphs for operators and short vertical delimiters. */
+  .katex-html :is(.mbin, .mrel, .op-symbol, .math-vertical-bar) {
+    font-weight: 700;
+  }
+
+  /* KaTeX draws tall single vertical delimiters as SVG paths. */
+  .katex-html .delimsizing path[d^="M145 15 v585"] {
+    stroke: currentColor;
+    stroke-width: 0.24pt;
+    vector-effect: non-scaling-stroke;
+  }
 }

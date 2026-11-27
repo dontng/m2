@@ -1,9 +1,9 @@
 {
   "year": 2014,
-  "sourceCommit": "0932c4dd635678aededbf44077a84c6935fd3e70",
+  "sourceCommit": "2b4f2ff0d4e9d32c0f915a378f6879d212f0a148",
   "sourceHtmlSha256": "26ca31fcab402ded10026af18b6c02861a84afc081c029cc62a3d8ee1499736d",
-  "sourceCssSha256": "25b9977f71c71ff17635fcf0fb565778d933c8408919363d8630ca1ae7dbc06f",
-  "sourceJsSha256": "45bc12485aca1a2f71b9da678df9d1099aac2b119546869dfbbda2db6aaa0b2b",
+  "sourceCssSha256": "6a2fdcd56e43f9c97c62247839c3116a20c4c872e9108fcf3b52208f274f9a8b",
+  "sourceJsSha256": "08fa4ad53396868962866edaed9533bc3510338530dd9dd87c598c89d974eecb",
   "fontCoverage": {
     "requiredCharacters": 536,
     "fonts": {
@@ -29,7 +29,7 @@
   "pdfGlyphs": {
     "file": "math2_2014.pdf",
     "pages": 4,
-    "tracedCharacters": 2463,
+    "tracedCharacters": 2462,
     "missingGlyphs": []
   },
   "residualMath": [],
