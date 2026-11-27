@@ -1,15 +1,15 @@
 {
   "year": 2010,
-  "sourceCommit": "b22ef0d634a09da1e72adb1b4d1106150e7d24b6",
-  "sourceHtmlSha256": "a2acd7b973f97621804fa52e7ff0b41a50cd15ed06dfb191bd7bfb4986b77db7",
-  "sourceCssSha256": "97284696db9056aa5961af25c64dd14e7d882d12a91d94eda340f210c0f496f8",
+  "sourceCommit": "0932c4dd635678aededbf44077a84c6935fd3e70",
+  "sourceHtmlSha256": "3880389008383f0f80359fad3f4815d0e9b464db575e0aadcce5c59234806be7",
+  "sourceCssSha256": "25b9977f71c71ff17635fcf0fb565778d933c8408919363d8630ca1ae7dbc06f",
   "sourceJsSha256": "45bc12485aca1a2f71b9da678df9d1099aac2b119546869dfbbda2db6aaa0b2b",
   "fontCoverage": {
     "requiredCharacters": 536,
     "fonts": {
       "serif": {
         "file": "exam-song.otf",
-        "sha256": "b5b389162f931162d572ea8188a09e305df06eb639c723a416bd108733c41902",
+        "sha256": "72958c2e7e83da456065eafa49d7c6b60e3ead9c533ac7d17fa506de305b391c",
         "mappedCharacters": 592,
         "missing": []
       },
@@ -29,7 +29,7 @@
   "pdfGlyphs": {
     "file": "math2_2010.pdf",
     "pages": 4,
-    "tracedCharacters": 2503,
+    "tracedCharacters": 2502,
     "missingGlyphs": []
   },
   "residualMath": [],
@@ -66,7 +66,5 @@
   "htmlPages": 0,
   "horizontalOverflow": [],
   "pageOverflow": [],
-  "failedRequests": [],
-  "pdfPages": 4,
-  "pdfSha256": "53a888088aa0188c78a74ac014993573ed957a5b99ac6b47f5921928477c793f"
+  "failedRequests": []
 }

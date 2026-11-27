@@ -11,6 +11,9 @@
       --footer-text: '2010 年数学(二)试题';
       --answer-space: 38mm;
     }
+    @media print {
+      :root { --answer-space: 34mm; }
+    }
   </style>
   <script defer src="../assets/vendor/katex/katex.min.js"></script>
   <script defer src="../assets/vendor/katex/auto-render.min.js"></script>

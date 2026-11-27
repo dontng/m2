@@ -16,19 +16,19 @@
           "options": [
             {
               "label": "A",
-              "text": "$①③$"
+              "text": "①③"
             },
             {
               "label": "B",
-              "text": "$①④$"
+              "text": "①④"
             },
             {
               "label": "C",
-              "text": "$①③④$"
+              "text": "①③④"
             },
             {
               "label": "D",
-              "text": "$②③④$"
+              "text": "②③④"
             }
           ],
           "layout": "4col"

@@ -319,7 +319,7 @@ body {
 @media print {
   html, body {
     background: transparent;
-    font-size: 9.75pt;
+    font-size: 10.75pt;
     line-height: 1.5;
   }
 
@@ -361,7 +361,7 @@ body {
   }
 
   .section-title {
-    font-size: 10.2pt;
+    font-size: 11pt;
     margin: 3mm 0 1.8mm 0;
     break-after: avoid;
     page-break-after: avoid;
@@ -397,7 +397,7 @@ body {
   }
 
   .question-score-title {
-    font-size: 10.2pt;
+    font-size: 11pt;
     font-weight: bold;
     margin-bottom: 1.2mm;
     break-after: avoid;

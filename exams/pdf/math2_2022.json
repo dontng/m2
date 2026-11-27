@@ -1,15 +1,15 @@
 {
   "year": 2022,
-  "sourceCommit": "b22ef0d634a09da1e72adb1b4d1106150e7d24b6",
-  "sourceHtmlSha256": "56239febb92ac8bceedbd6d6e5a94312292054fa65ef23cf4ff8f02c0664c0f1",
-  "sourceCssSha256": "97284696db9056aa5961af25c64dd14e7d882d12a91d94eda340f210c0f496f8",
+  "sourceCommit": "0932c4dd635678aededbf44077a84c6935fd3e70",
+  "sourceHtmlSha256": "30e88bc98245500c40c16aeab7e98d164f40f4e9b61ead5f46df8d3576b89aad",
+  "sourceCssSha256": "25b9977f71c71ff17635fcf0fb565778d933c8408919363d8630ca1ae7dbc06f",
   "sourceJsSha256": "45bc12485aca1a2f71b9da678df9d1099aac2b119546869dfbbda2db6aaa0b2b",
   "fontCoverage": {
     "requiredCharacters": 536,
     "fonts": {
       "serif": {
         "file": "exam-song.otf",
-        "sha256": "b5b389162f931162d572ea8188a09e305df06eb639c723a416bd108733c41902",
+        "sha256": "72958c2e7e83da456065eafa49d7c6b60e3ead9c533ac7d17fa506de305b391c",
         "mappedCharacters": 592,
         "missing": []
       },
@@ -29,7 +29,7 @@
   "pdfGlyphs": {
     "file": "math2_2022.pdf",
     "pages": 4,
-    "tracedCharacters": 2704,
+    "tracedCharacters": 2708,
     "missingGlyphs": []
   },
   "residualMath": [],
@@ -58,14 +58,12 @@
     21,
     22
   ],
-  "formulas": 140,
+  "formulas": 136,
   "formulaErrors": 0,
   "unrenderedMath": 0,
   "imagesLoaded": true,
   "htmlPages": 0,
   "horizontalOverflow": [],
   "pageOverflow": [],
-  "failedRequests": [],
-  "pdfPages": 4,
-  "pdfSha256": "048079c3f773e9a37848f7c50c7decf12586c488bf17f41c77e95991037f6675"
+  "failedRequests": []
 }
